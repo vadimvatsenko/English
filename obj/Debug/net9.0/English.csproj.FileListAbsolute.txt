@@ -27,3 +27,4 @@ P:\Projects\Rider\_English\English\obj\Debug\net9.0\refint\English.dll
 P:\Projects\Rider\_English\English\obj\Debug\net9.0\English.pdb
 P:\Projects\Rider\_English\English\obj\Debug\net9.0\English.genruntimeconfig.cache
 P:\Projects\Rider\_English\English\obj\Debug\net9.0\ref\English.dll
+P:\Projects\Rider\_English\English\obj\Debug\net9.0\English.sourcelink.json

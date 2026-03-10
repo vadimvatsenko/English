@@ -116,6 +116,14 @@ namespace English
                     int count = 1;
                     int correctAnswer = 0;
                     int misstakeAnswer = 0;
+                    int allQaCount = 0;
+                    
+                    var allQaList = dataList.Sections;
+                    
+                    foreach (var d in allQaList)
+                    {
+                        allQaCount += d.Examples.Length;
+                    }
                     
                     foreach (var d in dataList.Sections)
                     {
@@ -124,7 +132,7 @@ namespace English
                             Console.Clear();
                             
                             Console.ForegroundColor = ConsoleColor.Blue;
-                            Console.WriteLine($" === current QA {count} / {d.Examples.Length} ===");
+                            Console.WriteLine($" === current QA {count} / {allQaCount} ===");
                             
                             Console.WriteLine();
                             Console.ForegroundColor = ConsoleColor.Green;
@@ -147,6 +155,8 @@ namespace English
                                 Console.WriteLine(e.Ru);
 
                                 Console.WriteLine("Enter Word: ");
+                                
+                                Console.WriteLine();
                                 string words = Console.ReadLine();
 
                                 for (int i = 0; i < words.Length; i++)
