@@ -231,7 +231,7 @@ namespace English
                     Console.WriteLine(d.Ipa);
 
                     Console.ForegroundColor = ConsoleColor.Green;
-                    Console.WriteLine(showEnglishWord ?  d.En : d.Ru );
+                    Console.WriteLine(showEnglishWord ?  d.Ru : d.En);
 
                     Console.WriteLine();
                     Console.ResetColor();
