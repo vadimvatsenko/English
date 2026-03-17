@@ -8,10 +8,12 @@ namespace English
     {
         
         // все папки в корневом каталоге
-        private static readonly string PathAllFiles = Path.GetFullPath(
+        /*private static readonly string PathAllFiles = Path.GetFullPath(
             Path.Combine(AppContext.BaseDirectory, $"..\\..\\..\\")
-        );
-        
+        );*/
+
+        private static readonly string PathAllFiles = Path.GetFullPath(AppContext.BaseDirectory);
+            
         // менб выбора, что делать
         private static Dictionary<int, string> englishMenu = new Dictionary<int, string>()
         {
@@ -38,6 +40,7 @@ namespace English
                     // получим последнюю папку
                     string floderName = Path.GetFileName(folder);
                     levelsDict.Add(folderCount, floderName);
+                    
                     folderCount++;
                 }
             }
@@ -71,7 +74,7 @@ namespace English
             Console.WriteLine(fileName);
             
             // полный путь к теме
-            string FilePath = Path.GetFullPath(Path.Combine(AppContext.BaseDirectory, $"..\\..\\..\\{dirPath}\\{fileName}.json"));
+            string FilePath = Path.GetFullPath(Path.Combine(AppContext.BaseDirectory, $"{dirPath}\\{fileName}.json"));
             
             bool isFileExist = File.Exists(FilePath);
             Data dataList = await GetAsync(FilePath);
@@ -95,109 +98,108 @@ namespace English
                     Vocabulary(dataList, true);
                     break;
                 case "2":
-                    Extensions(dataList);
+                    Extensions(dataList, false);
                     break;
                 case "3":
-                    Extensions(dataList);
+                    Extensions(dataList, true);
                     break;
             }
 
             Console.ReadKey();
         }
 
-        
-        
-        private static void Extensions(Data? dataList)
+
+
+        private static void Extensions(Data? dataList, bool isEnToRu)
         {
+            if (dataList == null || dataList.Sections == null)
+                return;
+
             int count = 1;
             int correctAnswer = 0;
             int misstakeAnswer = 0;
             int allQaCount = 0;
-                    
+
             var allQaList = dataList.Sections;
-                    
+
             foreach (var d in allQaList)
             {
                 allQaCount += d.Examples.Length;
             }
-                    
+
             foreach (var d in dataList.Sections)
             {
                 foreach (var e in d.Examples)
                 {
-                    Console.Clear();
-                            
-                    Console.ForegroundColor = ConsoleColor.Blue;
-                    Console.WriteLine($" === current QA {count} / {allQaCount} ===");
-                            
-                    Console.WriteLine();
-                    Console.ForegroundColor = ConsoleColor.Green;
-                    Console.WriteLine($"CORRECT {correctAnswer}");
-                            
-                    Console.ForegroundColor = ConsoleColor.DarkRed;
-                    Console.WriteLine($"MISSTAKE {misstakeAnswer}");
-
-                    Console.WriteLine();
-                    Console.ForegroundColor = ConsoleColor.DarkMagenta;
-                    Console.WriteLine(d.Title);
-                    Console.WriteLine(d.Rule);
-                            
                     bool isEqual = false;
 
                     while (!isEqual)
                     {
-                        Console.WriteLine();
+                        Console.Clear();
+
                         Console.ForegroundColor = ConsoleColor.Blue;
-                        Console.WriteLine(e.Ru);
+                        Console.WriteLine($" === current QA {count} / {allQaCount} ===");
 
-                        Console.WriteLine("Enter Word: ");
-                                
                         Console.WriteLine();
-                        string words = Console.ReadLine();
+                        Console.ForegroundColor = ConsoleColor.Green;
+                        Console.WriteLine($"CORRECT {correctAnswer}");
 
-                        for (int i = 0; i < words.Length; i++)
-                        {
-                            if (e.En.Length != words.Length)
-                            {
-                                isEqual = false;
-                                break;
-                            }
+                        Console.ForegroundColor = ConsoleColor.DarkRed;
+                        Console.WriteLine($"MISSTAKE {misstakeAnswer}");
 
-                            if (char.ToLower(words[i]) != char.ToLower(e.En[i]))
-                            {
-                                isEqual = false;
-                                break;
-                            }
+                        Console.WriteLine();
+                        Console.ForegroundColor = ConsoleColor.DarkMagenta;
+                        Console.WriteLine(d.Title);
+                        Console.WriteLine(d.Rule);
 
-                            isEqual = true;
-                        }
+                        Console.WriteLine();
+
+                        string correctText = isEnToRu ? e.Ru : e.En;
+                        string questionText = isEnToRu ? e.En : e.Ru;
+
+                        Console.ForegroundColor = ConsoleColor.Blue;
+                        Console.WriteLine(questionText);
+
+                        Console.WriteLine("Enter Word:");
+                        Console.WriteLine();
+
+                        EncodingSetup();
+                        
+                        string words = Console.ReadLine()?.Trim() ?? string.Empty;
+                        
+                        Console.WriteLine($"[{words}]");
+
+                        isEqual = string.Equals(
+                            words,
+                            correctText,
+                            StringComparison.OrdinalIgnoreCase);
+
+                        if (isEqual)
+                            correctAnswer++;
+                        else
+                            misstakeAnswer++;
 
                         Console.ForegroundColor = isEqual ? ConsoleColor.Green : ConsoleColor.Red;
                         Console.WriteLine(isEqual ? "CORRECT" : "MISSTAKE");
-
-                        Console.ReadKey();
 
                         Console.ForegroundColor = ConsoleColor.DarkRed;
                         Console.WriteLine(e.Ipa + " ");
 
                         Console.ForegroundColor = ConsoleColor.Green;
-                        Console.WriteLine(e.En);
+                        Console.WriteLine(correctText);
 
                         Console.WriteLine();
 
                         Console.ResetColor();
-
                         Console.WriteLine("press any key to continue...");
                         Console.WriteLine();
 
                         Console.ReadKey();
                     }
-                            
+
                     count++;
                 }
             }
-
-            return;
         }
 
         private static void Vocabulary(Data? dataList, bool showEnglishWord)
@@ -226,7 +228,7 @@ namespace English
 
                     Console.ForegroundColor = isEqual ? ConsoleColor.Green : ConsoleColor.Red;
                     Console.WriteLine(isEqual ? "CORRECT" : "MISTAKE");
-
+                    
                     Console.ForegroundColor = ConsoleColor.DarkRed;
                     Console.WriteLine(d.Ipa);
 
@@ -274,7 +276,7 @@ namespace English
         private static void EncodingSetup()
         {
             Console.OutputEncoding = Encoding.UTF8;   // для виводу
-            Console.InputEncoding  = Encoding.UTF8;
+            Console.InputEncoding  = Encoding.Unicode;
         }
 
         public static async Task<Data?> GetAsync(string filePath )
