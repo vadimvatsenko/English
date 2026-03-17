@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System.Runtime.InteropServices;
+using System.Text;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
@@ -13,7 +14,7 @@ namespace English
         );*/
 
         private static readonly string PathAllFiles = Path.GetFullPath(AppContext.BaseDirectory);
-            
+        
         // менб выбора, что делать
         private static Dictionary<int, string> englishMenu = new Dictionary<int, string>()
         {
@@ -74,7 +75,13 @@ namespace English
             Console.WriteLine(fileName);
             
             // полный путь к теме
-            string FilePath = Path.GetFullPath(Path.Combine(AppContext.BaseDirectory, $"{dirPath}\\{fileName}.json"));
+            
+            string FilePath = String.Empty;
+            
+            if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
+                FilePath = Path.GetFullPath(Path.Combine(AppContext.BaseDirectory, $"{dirPath}\\{fileName}.json"));
+            else if (RuntimeInformation.IsOSPlatform(OSPlatform.OSX))
+                FilePath = Path.GetFullPath(Path.Combine(AppContext.BaseDirectory, $"{dirPath}/{fileName}.json"));
             
             bool isFileExist = File.Exists(FilePath);
             Data dataList = await GetAsync(FilePath);
@@ -276,7 +283,11 @@ namespace English
         private static void EncodingSetup()
         {
             Console.OutputEncoding = Encoding.UTF8;   // для виводу
-            Console.InputEncoding  = Encoding.Unicode;
+            
+            if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
+                Console.InputEncoding  = Encoding.Unicode;
+            else if (RuntimeInformation.IsOSPlatform(OSPlatform.OSX))
+                Console.InputEncoding  = Encoding.UTF8;
         }
 
         public static async Task<Data?> GetAsync(string filePath )
