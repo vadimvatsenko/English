@@ -7,7 +7,6 @@ namespace English
 {
     public class Program
     {
-        
         // все папки в корневом каталоге
         /*private static readonly string PathAllFiles = Path.GetFullPath(
             Path.Combine(AppContext.BaseDirectory, $"..\\..\\..\\")
@@ -18,10 +17,10 @@ namespace English
         // менб выбора, что делать
         private static Dictionary<int, string> englishMenu = new Dictionary<int, string>()
         {
-            [0] = "Vocabulary Russian to English",
-            [1] = "Vocabulary English to Russian",
-            [2] = "From Russian to English",
-            [3] = "From English to Russian",
+            [1] = "Vocabulary Russian to English",
+            [2] = "Vocabulary English to Russian",
+            [3] = "From Russian to English",
+            [4] = "From English to Russian",
         };
         
         public static async Task Main(string[] args)
@@ -61,7 +60,8 @@ namespace English
             string[] filesOnTheme = Directory.GetFiles(PathAllFiles + dirPath);
             Dictionary<int, string> filesOnThemeDict = new Dictionary<int, string>();
             
-            int coutFiles = 0;
+            int coutFiles = 1;
+            
             foreach (string file in filesOnTheme)
             {
                 string name = Path.GetFileNameWithoutExtension(file);
@@ -97,18 +97,17 @@ namespace English
 
             switch (option)
             {
-                case "0":
-                    Vocabulary(dataList, false);
-                    break;
-
                 case "1":
-                    Vocabulary(dataList, true);
+                    Vocabulary(dataList, false, fileName);
                     break;
                 case "2":
-                    Extensions(dataList, false);
+                    Vocabulary(dataList, true, fileName);
                     break;
                 case "3":
-                    Extensions(dataList, true);
+                    Extensions(dataList, false, fileName);
+                    break;
+                case "4":
+                    Extensions(dataList, true, fileName);
                     break;
             }
 
@@ -117,7 +116,7 @@ namespace English
 
 
 
-        private static void Extensions(Data? dataList, bool isEnToRu)
+        private static void Extensions(Data? dataList, bool isEnToRu, string fileName)
         {
             if (dataList == null || dataList.Sections == null)
                 return;
@@ -144,6 +143,7 @@ namespace English
                     {
                         Console.Clear();
 
+                        Console.WriteLine($"Theme {fileName}");
                         Console.ForegroundColor = ConsoleColor.Blue;
                         Console.WriteLine($" === current QA {count} / {allQaCount} ===");
 
@@ -209,7 +209,7 @@ namespace English
             }
         }
 
-        private static void Vocabulary(Data? dataList, bool showEnglishWord)
+        private static void Vocabulary(Data? dataList, bool showEnglishWord, string fileName)
         {
             if (dataList?.Vocabulary == null || dataList.Vocabulary.Count == 0)
                 return;
@@ -222,6 +222,7 @@ namespace English
                 {
                     Console.Clear();
 
+                    
                     string question = showEnglishWord ? d.En : d.Ru;
                     string correctAnswer = showEnglishWord ? d.Ru : d.En;
 

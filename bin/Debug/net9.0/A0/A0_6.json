@@ -1,129 +1,185 @@
 {
   "vocabulary": [
-    { "en": "don't", "ipa": "/dəʊnt/", "ru": "не (для I/We/You/They)" },
-    { "en": "doesn't", "ipa": "/ˈdʌzənt/", "ru": "не (для He/She/It)" },
+    { "en": "travel", "ipa": "/ˈtrævəl/", "ru": "путешествовать" },
+    { "en": "every", "ipa": "/ˈevri/", "ru": "каждый(ая); каждое" },
+    { "en": "summer", "ipa": "/ˈsʌmə/", "ru": "лето" },
 
     { "en": "like", "ipa": "/laɪk/", "ru": "нравиться" },
-    { "en": "want", "ipa": "/wɒnt/", "ru": "хотеть" },
-    { "en": "go", "ipa": "/ɡəʊ/", "ru": "идти; ехать" },
-    { "en": "go there", "ipa": "/ɡəʊ ðeə/", "ru": "идти/ехать туда" },
+    { "en": "food", "ipa": "/fuːd/", "ru": "еда" },
 
-    { "en": "see", "ipa": "/siː/", "ru": "видеть" },
-    { "en": "change", "ipa": "/tʃeɪndʒ/", "ru": "изменение; менять" },
-    { "en": "changes", "ipa": "/ˈtʃeɪndʒɪz/", "ru": "изменения" },
-
-    { "en": "say", "ipa": "/seɪ/", "ru": "сказать (фразу/слово)" },
-    { "en": "tell", "ipa": "/tel/", "ru": "сказать; сообщить (кому-то)" },
-    { "en": "talk about", "ipa": "/tɔːk əˈbaʊt/", "ru": "говорить об" },
-
-    { "en": "speak", "ipa": "/spiːk/", "ru": "говорить (на языке)" },
-    { "en": "English", "ipa": "/ˈɪŋɡlɪʃ/", "ru": "английский (язык)" },
-
-    { "en": "understand", "ipa": "/ˌʌndəˈstænd/", "ru": "понимать" },
-
-    { "en": "time", "ipa": "/taɪm/", "ru": "время" },
-    { "en": "money", "ipa": "/ˈmʌni/", "ru": "деньги" },
-    { "en": "this money", "ipa": "/ðɪs ˈmʌni/", "ru": "эти деньги" },
+    { "en": "live", "ipa": "/lɪv/", "ru": "жить" },
+    { "en": "in", "ipa": "/ɪn/", "ru": "в" },
+    { "en": "this", "ipa": "/ðɪs/", "ru": "этот/эта/это" },
+    { "en": "area", "ipa": "/ˈeəriə/", "ru": "район; местность" },
+    { "en": "London", "ipa": "/ˈlʌndən/", "ru": "Лондон" },
+    { "en": "the United States", "ipa": "/ðə juːˈnaɪtɪd steɪts/", "ru": "Соединённые Штаты" },
 
     { "en": "have", "ipa": "/hæv/", "ru": "иметь" },
-
-    { "en": "cost", "ipa": "/kɒst/", "ru": "стоить" },
-    { "en": "work", "ipa": "/wɜːk/", "ru": "работать; работать (функционировать)" },
-    { "en": "help", "ipa": "/help/", "ru": "помогать" },
-
-    { "en": "think", "ipa": "/θɪŋk/", "ru": "думать" },
-    { "en": "think about", "ipa": "/θɪŋk əˈbaʊt/", "ru": "думать об" },
-    { "en": "think so", "ipa": "/θɪŋk səʊ/", "ru": "думать так" },
-
-    { "en": "agree", "ipa": "/əˈɡriː/", "ru": "соглашаться" },
-
-    { "en": "know", "ipa": "/nəʊ/", "ru": "знать" },
-    { "en": "answer", "ipa": "/ˈɑːnsə/", "ru": "ответ" },
-
-    { "en": "ask", "ipa": "/ɑːsk/", "ru": "спрашивать" },
-
-    { "en": "feel", "ipa": "/fiːl/", "ru": "чувствовать себя" },
-    { "en": "happy", "ipa": "/ˈhæpi/", "ru": "счастливый" },
-
-    { "en": "stop", "ipa": "/stɒp/", "ru": "останавливаться; остановиться" },
-    { "en": "continue", "ipa": "/kənˈtɪnjuː/", "ru": "продолжать" },
-
-    { "en": "any", "ipa": "/ˈeni/", "ru": "какие-либо; хоть какие-то" },
+    { "en": "has", "ipa": "/hæz/", "ru": "имеет (he/she/it)" },
+    { "en": "brother", "ipa": "/ˈbrʌðə/", "ru": "брат" },
+    { "en": "sister", "ipa": "/ˈsɪstə/", "ru": "сестра" },
+    { "en": "dog", "ipa": "/dɒɡ/", "ru": "собака" },
+    { "en": "cat", "ipa": "/kæt/", "ru": "кошка" },
     { "en": "question", "ipa": "/ˈkwestʃən/", "ru": "вопрос" },
     { "en": "questions", "ipa": "/ˈkwestʃənz/", "ru": "вопросы" },
 
-    { "en": "brother", "ipa": "/ˈbrʌðə/", "ru": "брат" },
-    { "en": "brothers", "ipa": "/ˈbrʌðəz/", "ru": "братья" },
-    { "en": "sister", "ipa": "/ˈsɪstə/", "ru": "сестра" },
-    { "en": "sisters", "ipa": "/ˈsɪstəz/", "ru": "сёстры" },
+    { "en": "need", "ipa": "/niːd/", "ru": "нуждаться; нужно" },
+    { "en": "help", "ipa": "/help/", "ru": "помощь" },
+    { "en": "advice", "ipa": "/ədˈvaɪs/", "ru": "совет" },
+    { "en": "more", "ipa": "/mɔː/", "ru": "больше" },
+    { "en": "time", "ipa": "/taɪm/", "ru": "время" },
+    { "en": "free time", "ipa": "/friː taɪm/", "ru": "свободное время" },
+    { "en": "too little", "ipa": "/tuː ˈlɪtəl/", "ru": "слишком мало" },
 
+    { "en": "tell", "ipa": "/tel/", "ru": "сказать; сообщить (кому-то)" },
+    { "en": "say", "ipa": "/seɪ/", "ru": "сказать" },
+    { "en": "about", "ipa": "/əˈbaʊt/", "ru": "о; про" },
+    { "en": "sometimes", "ipa": "/ˈsʌmtaɪmz/", "ru": "иногда" },
+    { "en": "often", "ipa": "/ˈɒfən/", "ru": "часто" },
+
+    { "en": "work", "ipa": "/wɜːk/", "ru": "работать; работа" },
+    { "en": "company", "ipa": "/ˈkʌmpəni/", "ru": "компания" },
+    { "en": "bank", "ipa": "/bæŋk/", "ru": "банк" },
+
+    { "en": "cost", "ipa": "/kɒst/", "ru": "стоить" },
+    { "en": "money", "ipa": "/ˈmʌni/", "ru": "деньги" },
+    { "en": "dollar", "ipa": "/ˈdɒlə/", "ru": "доллар" },
+    { "en": "dollars", "ipa": "/ˈdɒləz/", "ru": "доллары" },
+    { "en": "euro", "ipa": "/ˈjʊərəʊ/", "ru": "евро" },
+    { "en": "euros", "ipa": "/ˈjʊərəʊz/", "ru": "евро" },
+    { "en": "pound", "ipa": "/paʊnd/", "ru": "фунт" },
+    { "en": "pounds", "ipa": "/paʊndz/", "ru": "фунты" },
+    { "en": "bag", "ipa": "/bæɡ/", "ru": "сумка" },
+    { "en": "ticket", "ipa": "/ˈtɪkɪt/", "ru": "билет" },
+
+    { "en": "drive", "ipa": "/draɪv/", "ru": "водить (машину)" },
     { "en": "car", "ipa": "/kɑː/", "ru": "машина" },
 
-    { "en": "so", "ipa": "/səʊ/", "ru": "так" },
-    { "en": "often", "ipa": "/ˈɒfən/", "ru": "часто" },
-    { "en": "now", "ipa": "/naʊ/", "ru": "сейчас" },
+    { "en": "seem", "ipa": "/siːm/", "ru": "казаться" },
+    { "en": "strange", "ipa": "/streɪndʒ/", "ru": "странный" },
+    { "en": "really", "ipa": "/ˈrɪəli/", "ru": "действительно" },
 
-    { "en": "this", "ipa": "/ðɪs/", "ru": "этот/эта/это" },
-    { "en": "it", "ipa": "/ɪt/", "ru": "это; он/она/оно (для предмета/идеи)" },
-    { "en": "that", "ipa": "/ðæt/", "ru": "то; что (that-clause)" },
-    { "en": "about", "ipa": "/əˈbaʊt/", "ru": "о; про" },
-    { "en": "with", "ipa": "/wɪð/", "ru": "с" },
+    { "en": "do", "ipa": "/duː/", "ru": "делать" },
+    { "en": "does", "ipa": "/dʌz/", "ru": "делает (he/she/it)" },
+    { "en": "much better", "ipa": "/mʌtʃ ˈbetə/", "ru": "намного лучше" },
+    { "en": "very well", "ipa": "/ˈveri wel/", "ru": "очень хорошо" },
 
-    { "en": "food", "ipa": "/fuːd/", "ru": "еда" }
+    { "en": "look", "ipa": "/lʊk/", "ru": "выглядеть" },
+    { "en": "young", "ipa": "/jʌŋ/", "ru": "молодой" },
+    { "en": "beautiful", "ipa": "/ˈbjuːtəfəl/", "ru": "красивый" },
+
+    { "en": "song", "ipa": "/sɒŋ/", "ru": "песня" },
+    { "en": "music", "ipa": "/ˈmjuːzɪk/", "ru": "музыка" },
+    { "en": "design", "ipa": "/dɪˈzaɪn/", "ru": "дизайн" },
+    { "en": "program", "ipa": "/ˈprəʊɡræm/", "ru": "программа" },
+
+    { "en": "love", "ipa": "/lʌv/", "ru": "любить" },
+    { "en": "laugh", "ipa": "/lɑːf/", "ru": "смеяться" },
+
+    { "en": "study", "ipa": "/ˈstʌdi/", "ru": "учиться" },
+    { "en": "play", "ipa": "/pleɪ/", "ru": "играть" },
+    { "en": "there", "ipa": "/ðeə/", "ru": "там" },
+
+    { "en": "teach", "ipa": "/tiːtʃ/", "ru": "преподавать; учить" },
+    { "en": "English", "ipa": "/ˈɪŋɡlɪʃ/", "ru": "английский (язык)" },
+
+    { "en": "watch", "ipa": "/wɒtʃ/", "ru": "смотреть" },
+    { "en": "video lessons", "ipa": "/ˈvɪdiəʊ ˈlesənz/", "ru": "видео-уроки" }
   ],
   "sections": [
     {
-      "title": "I / We / You / They + don't + verb",
-      "rule": "Present Simple (отрицание): don't + глагол (I/We/You/They).",
+      "title": "Present Simple: he / she / it + verb + s",
+      "rule": "В Present Simple для he/she/it обычно добавляем -s/-es к глаголу (travel → travels, like → likes, live → lives).",
       "examples": [
-        { "en": "I don't like this food", "ipa": "/aɪ dəʊnt laɪk ðɪs fuːd/", "ru": "Мне не нравится эта еда" },
-        { "en": "I don't want to go there now", "ipa": "/aɪ dəʊnt wɒnt tə ɡəʊ ðeə naʊ/", "ru": "Я не хочу идти туда сейчас" },
-        { "en": "We don't see any changes", "ipa": "/wiː dəʊnt siː ˈeni ˈtʃeɪndʒɪz/", "ru": "Мы не видим каких-либо изменений" },
-        { "en": "They don't want to say it", "ipa": "/ðeɪ dəʊnt wɒnt tə seɪ ɪt/", "ru": "Они не хотят говорить это" },
-        { "en": "I don't know the answer", "ipa": "/aɪ dəʊnt nəʊ ði ˈɑːnsə/", "ru": "Я не знаю ответа" },
-        { "en": "I don't have any questions", "ipa": "/aɪ dəʊnt hæv ˈeni ˈkwestʃənz/", "ru": "У меня нет каких-либо вопросов" },
-        { "en": "I don't agree with it", "ipa": "/aɪ dəʊnt əˈɡriː wɪð ɪt/", "ru": "Я не согласен с этим" },
-        { "en": "I don't think about it", "ipa": "/aɪ dəʊnt θɪŋk əˈbaʊt ɪt/", "ru": "Я не думаю об этом" },
-        { "en": "I don't think so", "ipa": "/aɪ dəʊnt θɪŋk səʊ/", "ru": "Я так не думаю" },
-        { "en": "I don't ask him about it", "ipa": "/aɪ dəʊnt ɑːsk hɪm əˈbaʊt ɪt/", "ru": "Я не спрашиваю его об этом" },
-        { "en": "I don't have any brothers or sisters", "ipa": "/aɪ dəʊnt hæv ˈeni ˈbrʌðəz ɔː ˈsɪstəz/", "ru": "У меня нет каких-либо братьев или сестёр" },
-        { "en": "I don't want to stop. I want to continue", "ipa": "/aɪ dəʊnt wɒnt tə stɒp | aɪ wɒnt tə kənˈtɪnjuː/", "ru": "Я не хочу останавливаться. Я хочу продолжать" }
+        { "en": "She travels every summer", "ipa": "/ʃiː ˈtrævəlz ˈevri ˈsʌmə/", "ru": "Она путешествует каждое лето" },
+        { "en": "She likes this food", "ipa": "/ʃiː laɪks ðɪs fuːd/", "ru": "Ей нравится эта еда" },
+        { "en": "She lives in the United States", "ipa": "/ʃiː lɪvz ɪn ðə juːˈnaɪtɪd steɪts/", "ru": "Она живёт в Соединённых Штатах" },
+        { "en": "She works in a company", "ipa": "/ʃiː wɜːks ɪn ə ˈkʌmpəni/", "ru": "Она работает в компании" },
+        { "en": "He drives a car", "ipa": "/hiː draɪvz ə kɑː/", "ru": "Он водит машину" },
+        { "en": "He often travels", "ipa": "/hiː ˈɒfən ˈtrævəlz/", "ru": "Он часто путешествует" },
+        { "en": "He often says it", "ipa": "/hiː ˈɒfən sez ɪt/", "ru": "Он часто говорит это" },
+        { "en": "She sometimes says it", "ipa": "/ʃiː ˈsʌmtaɪmz sez ɪt/", "ru": "Она иногда говорит это" },
+        { "en": "She studies there", "ipa": "/ʃiː ˈstʌdiz ðeə/", "ru": "Она учится там" },
+        { "en": "She plays there very often", "ipa": "/ʃiː pleɪz ðeə ˈveri ˈɒfən/", "ru": "Она играет там очень часто" },
+        { "en": "He teaches English", "ipa": "/hiː ˈtiːtʃɪz ˈɪŋɡlɪʃ/", "ru": "Он преподаёт английский" },
+        { "en": "She watches these video lessons", "ipa": "/ʃiː ˈwɒtʃɪz ðiːz ˈvɪdiəʊ ˈlesənz/", "ru": "Она смотрит эти видео-уроки" },
+        { "en": "He often laughs", "ipa": "/hiː ˈɒfən lɑːfs/", "ru": "Он часто смеётся" },
+        { "en": "She often laughs", "ipa": "/ʃiː ˈɒfən lɑːfs/", "ru": "Она часто смеётся" }
       ]
     },
     {
-      "title": "He / She / It + doesn't + verb",
-      "rule": "Present Simple (отрицание): doesn't + глагол (He/She/It).",
+      "title": "Special forms: have → has, do → does",
+      "rule": "В Present Simple: he/she/it has (не have), и he/she/it does (не do).",
       "examples": [
-        { "en": "He doesn't want to talk about it", "ipa": "/hiː ˈdʌzənt wɒnt tə tɔːk əˈbaʊt ɪt/", "ru": "Он не хочет говорить об этом" },
-        { "en": "She doesn't work so much", "ipa": "/ʃiː ˈdʌzənt wɜːk səʊ mʌtʃ/", "ru": "Она не работает так много" },
-        { "en": "It doesn't help me", "ipa": "/ɪt ˈdʌzənt help miː/", "ru": "Это не помогает мне" },
-        { "en": "It doesn't work", "ipa": "/ɪt ˈdʌzənt wɜːk/", "ru": "Это не работает" },
-        { "en": "He doesn't speak English", "ipa": "/hiː ˈdʌzənt spiːk ˈɪŋɡlɪʃ/", "ru": "Он не говорит по-английски" },
-        { "en": "She doesn't understand it", "ipa": "/ʃiː ˈdʌzənt ˌʌndəˈstænd ɪt/", "ru": "Она не понимает это" },
-        { "en": "He doesn't know the answer", "ipa": "/hiː ˈdʌzənt nəʊ ði ˈɑːnsə/", "ru": "Он не знает ответа" },
-        { "en": "She doesn't know the answer", "ipa": "/ʃiː ˈdʌzənt nəʊ ði ˈɑːnsə/", "ru": "Она не знает ответа" },
-        { "en": "It doesn't cost this money", "ipa": "/ɪt ˈdʌzənt kɒst ðɪs ˈmʌni/", "ru": "Это не стоит этих денег" },
-        { "en": "He doesn't have a car", "ipa": "/hiː ˈdʌzənt hæv ə kɑː/", "ru": "У него нет машины" },
-        { "en": "He doesn't think that it really works", "ipa": "/hiː ˈdʌzənt θɪŋk ðæt ɪt ˈrɪəli wɜːks/", "ru": "Он не думает, что это действительно работает" },
-        { "en": "She doesn't want to go there now", "ipa": "/ʃiː ˈdʌzənt wɒnt tə ɡəʊ ðeə naʊ/", "ru": "Она не хочет идти туда сейчас" }
+        { "en": "She has a brother", "ipa": "/ʃiː hæz ə ˈbrʌðə/", "ru": "У неё есть брат" },
+        { "en": "He has a car", "ipa": "/hiː hæz ə kɑː/", "ru": "У него есть машина" },
+        { "en": "She has so many questions", "ipa": "/ʃiː hæz səʊ ˈmeni ˈkwestʃənz/", "ru": "У неё так много вопросов" },
+        { "en": "She has a problem", "ipa": "/ʃiː hæz ə ˈprɒbləm/", "ru": "У неё проблема" },
+        { "en": "He has a question", "ipa": "/hiː hæz ə ˈkwestʃən/", "ru": "У него есть вопрос" },
+        { "en": "He has a dog", "ipa": "/hiː hæz ə dɒɡ/", "ru": "У него есть собака" },
+        { "en": "She has a cat", "ipa": "/ʃiː hæz ə kæt/", "ru": "У неё есть кошка" },
+        { "en": "He has a sister", "ipa": "/hiː hæz ə ˈsɪstə/", "ru": "У него есть сестра" },
+        { "en": "He does it much better", "ipa": "/hiː dʌz ɪt mʌtʃ ˈbetə/", "ru": "Он делает это намного лучше" },
+        { "en": "She does it very well", "ipa": "/ʃiː dʌz ɪt ˈveri wel/", "ru": "Она делает это очень хорошо" }
       ]
     },
     {
-      "title": "I see that…",
-      "rule": "I see that + предложение = «я вижу, что…».",
+      "title": "Needs + noun",
+      "rule": "He/She needs + существительное = «ему/ей нужно …».",
       "examples": [
-        { "en": "I see that it doesn't work", "ipa": "/aɪ siː ðæt ɪt ˈdʌzənt wɜːk/", "ru": "Я вижу, что это не работает" },
-        { "en": "I see that it doesn't help me", "ipa": "/aɪ siː ðæt ɪt ˈdʌzənt help miː/", "ru": "Я вижу, что это не помогает мне" },
-        { "en": "I see you don't want it", "ipa": "/aɪ siː juː dəʊnt wɒnt ɪt/", "ru": "Я вижу, ты не хочешь это" }
+        { "en": "He needs your help", "ipa": "/hiː niːdz jɔː help/", "ru": "Ему нужна твоя помощь" },
+        { "en": "She needs your advice", "ipa": "/ʃiː niːdz jɔː ədˈvaɪs/", "ru": "Ей нужен твой совет" },
+        { "en": "She needs more time", "ipa": "/ʃiː niːdz mɔː taɪm/", "ru": "Ей нужно больше времени" },
+        { "en": "He has too little free time", "ipa": "/hiː hæz tuː ˈlɪtəl friː taɪm/", "ru": "У него слишком мало свободного времени" }
       ]
     },
     {
-      "title": "I know / I think that…",
-      "rule": "I know / I think that + предложение = «я знаю / думаю, что…».",
+      "title": "Tell / say + it; tell me about it",
+      "rule": "say it = сказать это; tell me about it = рассказать мне об этом.",
       "examples": [
-        { "en": "I know that it doesn't cost this money", "ipa": "/aɪ nəʊ ðæt ɪt ˈdʌzənt kɒst ðɪs ˈmʌni/", "ru": "Я знаю, что это не стоит этих денег" },
-        { "en": "I don't think that it really works", "ipa": "/aɪ dəʊnt θɪŋk ðæt ɪt ˈrɪəli wɜːks/", "ru": "Я не думаю, что это действительно работает" },
-        { "en": "He doesn't think that it really works", "ipa": "/hiː ˈdʌzənt θɪŋk ðæt ɪt ˈrɪəli wɜːks/", "ru": "Он не думает, что это действительно работает" }
+        { "en": "He sometimes tells me about it", "ipa": "/hiː ˈsʌmtaɪmz telz miː əˈbaʊt ɪt/", "ru": "Он иногда говорит мне об этом" },
+        { "en": "She often tells me about it", "ipa": "/ʃiː ˈɒfən telz miː əˈbaʊt ɪt/", "ru": "Она часто говорит мне об этом" }
+      ]
+    },
+    {
+      "title": "Costs (money)",
+      "rule": "It costs + сумма/валюта = «Это стоит …».",
+      "examples": [
+        { "en": "It costs so much money", "ipa": "/ɪt kɒsts səʊ mʌtʃ ˈmʌni/", "ru": "Это стоит так много денег" },
+        { "en": "It costs twenty dollars", "ipa": "/ɪt kɒsts ˈtwenti ˈdɒləz/", "ru": "Это стоит двадцать долларов" },
+        { "en": "This bag costs thirty dollars", "ipa": "/ðɪs bæɡ kɒsts ˈθɜːti ˈdɒləz/", "ru": "Эта сумка стоит тридцать долларов" },
+        { "en": "This ticket costs forty dollars", "ipa": "/ðɪs ˈtɪkɪt kɒsts ˈfɔːti ˈdɒləz/", "ru": "Этот билет стоит сорок долларов" },
+        { "en": "It costs ten euros", "ipa": "/ɪt kɒsts ten ˈjʊərəʊz/", "ru": "Это стоит десять евро" },
+        { "en": "It costs fifty pounds", "ipa": "/ɪt kɒsts ˈfɪfti paʊndz/", "ru": "Это стоит пятьдесят фунтов" },
+        { "en": "This ticket costs three hundred dollars", "ipa": "/ðɪs ˈtɪkɪt kɒsts θriː ˈhʌndrəd ˈdɒləz/", "ru": "Этот билет стоит триста долларов" },
+        { "en": "This computer costs two thousand dollars", "ipa": "/ðɪs kəmˈpjuːtə kɒsts tuː ˈθaʊzənd ˈdɒləz/", "ru": "Этот компьютер стоит две тысячи долларов" },
+        { "en": "This model costs three thousand dollars", "ipa": "/ðɪs ˈmɒdl kɒsts θriː ˈθaʊzənd ˈdɒləz/", "ru": "Эта модель стоит три тысячи долларов" }
+      ]
+    },
+    {
+      "title": "Looks / seems / helps",
+      "rule": "It looks… = выглядит…; It seems… = кажется…; It really helps me = действительно помогает мне.",
+      "examples": [
+        { "en": "He looks very young", "ipa": "/hiː lʊks ˈveri jʌŋ/", "ru": "Он выглядит очень молодым" },
+        { "en": "It looks very beautiful", "ipa": "/ɪt lʊks ˈveri ˈbjuːtəfəl/", "ru": "Это выглядит очень красиво" },
+        { "en": "It seems strange", "ipa": "/ɪt siːmz streɪndʒ/", "ru": "Это кажется странным" },
+        { "en": "It seems really strange", "ipa": "/ɪt siːmz ˈrɪəli streɪndʒ/", "ru": "Это кажется действительно странным" },
+        { "en": "It really helps me", "ipa": "/ɪt ˈrɪəli helps miː/", "ru": "Это действительно помогает мне" }
+      ]
+    },
+    {
+      "title": "More fixed examples (from slides)",
+      "rule": "Фразы как в примерах со слайдов.",
+      "examples": [
+        { "en": "He lives in this area", "ipa": "/hiː lɪvz ɪn ðɪs ˈeəriə/", "ru": "Он живёт в этом районе" },
+        { "en": "She lives in this area", "ipa": "/ʃiː lɪvz ɪn ðɪs ˈeəriə/", "ru": "Она живёт в этом районе" },
+        { "en": "He lives in London", "ipa": "/hiː lɪvz ɪn ˈlʌndən/", "ru": "Он живёт в Лондоне" },
+        { "en": "She likes this song", "ipa": "/ʃiː laɪks ðɪs sɒŋ/", "ru": "Ей нравится эта песня" },
+        { "en": "He likes this design", "ipa": "/hiː laɪks ðɪs dɪˈzaɪn/", "ru": "Ему нравится этот дизайн" },
+        { "en": "He likes this music", "ipa": "/hiː laɪks ðɪs ˈmjuːzɪk/", "ru": "Ему нравится эта музыка" },
+        { "en": "He likes this program", "ipa": "/hiː laɪks ðɪs ˈprəʊɡræm/", "ru": "Ему нравится эта программа" },
+        { "en": "He loves her", "ipa": "/hiː lʌvz hɜː/", "ru": "Он любит её" },
+        { "en": "He works in a bank", "ipa": "/hiː wɜːks ɪn ə bæŋk/", "ru": "Он работает в банке" }
       ]
     }
   ]
