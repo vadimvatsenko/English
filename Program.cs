@@ -133,7 +133,22 @@ namespace English
                 allQaCount += d.Examples.Length;
             }
 
-            foreach (var d in dataList.Sections)
+            HashSet<Sections> misstakeAnswersList = new HashSet<Sections>();
+            
+            QuestionsLogic(isEnToRu, fileName, allQaList, count, allQaCount, correctAnswer, misstakeAnswer, ref misstakeAnswersList);
+            
+            count = 1;
+            correctAnswer = 0;
+            misstakeAnswer = 0;
+            
+            QuestionsLogic(isEnToRu,"MissQA", misstakeAnswersList.ToList(), count, misstakeAnswersList.Count, correctAnswer, misstakeAnswer, ref misstakeAnswersList);
+            
+        }
+
+        private static void QuestionsLogic(bool isEnToRu, string fileName, List<Sections> allQaList, int count, int allQaCount,
+            int correctAnswer, int misstakeAnswer, ref HashSet<Sections> misstakeAnswersList)
+        {
+            foreach (var d in allQaList)
             {
                 foreach (var e in d.Examples)
                 {
@@ -174,8 +189,6 @@ namespace English
                         
                         string words = Console.ReadLine()?.Trim() ?? string.Empty;
                         
-                        Console.WriteLine($"[{words}]");
-
                         isEqual = string.Equals(
                             words,
                             correctText,
@@ -184,7 +197,12 @@ namespace English
                         if (isEqual)
                             correctAnswer++;
                         else
+                        {
+                            misstakeAnswersList.Add(d);
+                            
+                            Console.WriteLine(d.Examples);
                             misstakeAnswer++;
+                        }
 
                         Console.ForegroundColor = isEqual ? ConsoleColor.Green : ConsoleColor.Red;
                         Console.WriteLine(isEqual ? "CORRECT" : "MISSTAKE");
@@ -192,6 +210,8 @@ namespace English
                         Console.ForegroundColor = ConsoleColor.DarkRed;
                         Console.WriteLine(e.Ipa + " ");
 
+                        Console.ForegroundColor = ConsoleColor.Yellow;
+                        Console.WriteLine($"{words}");
                         Console.ForegroundColor = ConsoleColor.Green;
                         Console.WriteLine(correctText);
 
