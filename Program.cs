@@ -141,7 +141,7 @@ namespace English
             correctAnswer = 0;
             misstakeAnswer = 0;
             
-            QuestionsLogic(isEnToRu,"MissQA", misstakeAnswersList.ToList(), count, misstakeAnswersList.Count, correctAnswer, misstakeAnswer, ref misstakeAnswersList);
+            //QuestionsLogic(isEnToRu,"MissQA", misstakeAnswersList.ToList(), count, misstakeAnswersList.Count, correctAnswer, misstakeAnswer, ref misstakeAnswersList);
             
         }
 
