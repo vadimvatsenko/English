@@ -1,0 +1,440 @@
+{
+  "level": "A0",
+  "lesson": "Present Simple: to be (am/is/are)",
+  "vocabulary": [
+    {
+      "en": "busy",
+      "ipa": "/ˈbɪzi/",
+      "ru": "занят"
+    },
+    {
+      "en": "happy",
+      "ipa": "/ˈhæpi/",
+      "ru": "счастлив"
+    },
+    {
+      "en": "home",
+      "ipa": "/həʊm/",
+      "ru": "дом"
+    },
+    {
+      "en": "work",
+      "ipa": "/wɜːk/",
+      "ru": "работа"
+    },
+    {
+      "en": "park",
+      "ipa": "/pɑːk/",
+      "ru": "парк"
+    },
+    {
+      "en": "right",
+      "ipa": "/raɪt/",
+      "ru": "прав"
+    },
+    {
+      "en": "here",
+      "ipa": "/hɪə/",
+      "ru": "здесь"
+    },
+    {
+      "en": "there",
+      "ipa": "/ðeə/",
+      "ru": "там"
+    },
+    {
+      "en": "interesting",
+      "ipa": "/ˈɪntrɪstɪŋ/",
+      "ru": "интересно"
+    },
+    {
+      "en": "important",
+      "ipa": "/ɪmˈpɔːtənt/",
+      "ru": "важно"
+    },
+    {
+      "en": "good",
+      "ipa": "/gʊd/",
+      "ru": "хорошо"
+    },
+    {
+      "en": "bad",
+      "ipa": "/bæd/",
+      "ru": "плохо"
+    },
+    {
+      "en": "expensive",
+      "ipa": "/ɪkˈspensɪv/",
+      "ru": "дорого"
+    },
+    {
+      "en": "cheap",
+      "ipa": "/tʃiːp/",
+      "ru": "дешево"
+    },
+    {
+      "en": "too",
+      "ipa": "/tuː/",
+      "ru": "слишком"
+    },
+    {
+      "en": "so",
+      "ipa": "/səʊ/",
+      "ru": "так"
+    },
+    {
+      "en": "really",
+      "ipa": "/ˈrɪəli/",
+      "ru": "действительно"
+    },
+    {
+      "en": "very",
+      "ipa": "/ˈveri/",
+      "ru": "очень"
+    },
+    {
+      "en": "city",
+      "ipa": "/ˈsɪti/",
+      "ru": "город"
+    },
+    {
+      "en": "fifty",
+      "ipa": "/ˈfɪfti/",
+      "ru": "пятьдесят"
+    },
+    {
+      "en": "years old",
+      "ipa": "/jɪəz əʊld/",
+      "ru": "лет (возраст)"
+    },
+    {
+      "en": "friend",
+      "ipa": "/frend/",
+      "ru": "друг"
+    },
+    {
+      "en": "brother",
+      "ipa": "/ˈbrʌðə/",
+      "ru": "брат"
+    },
+    {
+      "en": "sister",
+      "ipa": "/ˈsɪstə/",
+      "ru": "сестра"
+    },
+    {
+      "en": "mother",
+      "ipa": "/ˈmʌðə/",
+      "ru": "мама"
+    },
+    {
+      "en": "father",
+      "ipa": "/ˈfɑːðə/",
+      "ru": "папа"
+    },
+    {
+      "en": "student",
+      "ipa": "/ˈstjuːdənt/",
+      "ru": "студент"
+    },
+    {
+      "en": "doctor",
+      "ipa": "/ˈdɒktə/",
+      "ru": "врач"
+    },
+    {
+      "en": "teacher",
+      "ipa": "/ˈtiːtʃə/",
+      "ru": "учитель"
+    },
+    {
+      "en": "designer",
+      "ipa": "/dɪˈzaɪnə/",
+      "ru": "дизайнер"
+    },
+    {
+      "en": "England",
+      "ipa": "/ˈɪŋɡlənd/",
+      "ru": "Англия"
+    },
+    {
+      "en": "name",
+      "ipa": "/neɪm/",
+      "ru": "имя"
+    }
+  ],
+  "sections": [
+    {
+      "title": "to be: I am / I'm; you are / you're; we are / we're; they are / they're",
+      "rule": "Используем to be (am/is/are) чтобы сказать «кто/что я/ты/он/она/мы/они» или «где мы/они сейчас». В разговоре часто используем сокращения: I'm, you're, we're, they're.",
+      "examples": [
+        {
+          "ru": "Я сейчас очень занят",
+          "en": "I'm very busy now",
+          "ipa": "/aim 'veri 'bizi naʊ/"
+        },
+        {
+          "ru": "Я так счастлив",
+          "en": "I'm so happy",
+          "ipa": "/aim səʊ 'hæpi/"
+        },
+        {
+          "ru": "Я дома",
+          "en": "I'm at home",
+          "ipa": "/aim æt haʊm/"
+        },
+        {
+          "ru": "Я на работе",
+          "en": "I'm at work",
+          "ipa": "/aim æt wɜːk/"
+        },
+        {
+          "ru": "Мы в парке",
+          "en": "We're in the park",
+          "ipa": "/wɪə(r) ɪn ðə pɑːk/"
+        },
+        {
+          "ru": "Ты прав",
+          "en": "You're right",
+          "ipa": "/jʊə raɪt/"
+        },
+        {
+          "ru": "Они здесь",
+          "en": "They're here",
+          "ipa": "/ðeə hɪə/"
+        },
+        {
+          "ru": "Я сейчас в этом городе",
+          "en": "I'm in this city now",
+          "ipa": "/aim ɪn ðɪs 'sɪti naʊ/"
+        },
+        {
+          "ru": "Мне пятьдесят",
+          "en": "I'm fifty",
+          "ipa": "/aim 'fɪfti/"
+        },
+        {
+          "ru": "Мне пятьдесят лет",
+          "en": "I'm fifty years old",
+          "ipa": "/aim 'fɪfti jɪəz əʊld/"
+        },
+        {
+          "ru": "Мы в Англии",
+          "en": "We're in England",
+          "ipa": "/wɪə(r) ɪn 'ɪŋɡlənd/"
+        },
+        {
+          "ru": "Они очень богатые",
+          "en": "They're very rich",
+          "ipa": "/ðeə 'veri rɪtʃ/"
+        },
+        {
+          "ru": "Я студент",
+          "en": "I'm a student",
+          "ipa": "/aim ə 'stjuːdənt/"
+        },
+        {
+          "ru": "Они друзья",
+          "en": "They're friends",
+          "ipa": "/ðeə frendz/"
+        },
+        {
+          "ru": "Они студенты",
+          "en": "They're students",
+          "ipa": "/ðeə 'stjuːdənts/"
+        },
+        {
+          "ru": "Мы друзья",
+          "en": "We're friends",
+          "ipa": "/wɪə frendz/"
+        }
+      ]
+    },
+    {
+      "title": "to be: he is / he's; she is / she's; it is / it's",
+      "rule": "He/She/It + is. Сокращения: he's, she's, it's.",
+      "examples": [
+        {
+          "ru": "Он здесь",
+          "en": "He's here",
+          "ipa": "/hiːz hɪə/"
+        },
+        {
+          "ru": "Она там",
+          "en": "She's there",
+          "ipa": "/ʃiːz ðeə/"
+        },
+        {
+          "ru": "Это интересно",
+          "en": "It's interesting",
+          "ipa": "/ɪts 'ɪntrɪstɪŋ/"
+        },
+        {
+          "ru": "Это очень интересно",
+          "en": "It's very interesting",
+          "ipa": "/ɪts 'veri 'ɪntrɪstɪŋ/"
+        },
+        {
+          "ru": "Это так интересно",
+          "en": "It's so interesting",
+          "ipa": "/ɪts səʊ 'ɪntrɪstɪŋ/"
+        },
+        {
+          "ru": "Это действительно интересно",
+          "en": "It's really interesting",
+          "ipa": "/ɪts 'rɪəli 'ɪntrɪstɪŋ/"
+        },
+        {
+          "ru": "Это важно",
+          "en": "It's important",
+          "ipa": "/ɪts ɪm'pɔːtənt/"
+        },
+        {
+          "ru": "Это очень важно",
+          "en": "It's very important",
+          "ipa": "/ɪts 'veri ɪm'pɔːtənt/"
+        },
+        {
+          "ru": "Это так важно",
+          "en": "It's so important",
+          "ipa": "/ɪts səʊ ɪm'pɔːtənt/"
+        },
+        {
+          "ru": "Это действительно важно",
+          "en": "It's really important",
+          "ipa": "/ɪts 'rɪəli ɪm'pɔːtənt/"
+        },
+        {
+          "ru": "Это хорошо",
+          "en": "It's good",
+          "ipa": "/ɪts gʊd/"
+        },
+        {
+          "ru": "Это плохо",
+          "en": "It's bad",
+          "ipa": "/ɪts bæd/"
+        },
+        {
+          "ru": "Это очень хорошо",
+          "en": "It's very good",
+          "ipa": "/ɪts 'veri gʊd/"
+        },
+        {
+          "ru": "Это очень плохо",
+          "en": "It's very bad",
+          "ipa": "/ɪts 'veri bæd/"
+        },
+        {
+          "ru": "Это так хорошо",
+          "en": "It's so good",
+          "ipa": "/ɪts səʊ gʊd/"
+        },
+        {
+          "ru": "Это действительно хорошо",
+          "en": "It's really good",
+          "ipa": "/ɪts 'rɪəli gʊd/"
+        },
+        {
+          "ru": "Это действительно плохо",
+          "en": "It's really bad",
+          "ipa": "/ɪts 'rɪəli bæd/"
+        },
+        {
+          "ru": "Он мой друг",
+          "en": "He's my friend",
+          "ipa": "/hiːz maɪ frend/"
+        },
+        {
+          "ru": "Ему пятнадцать",
+          "en": "He's fifteen",
+          "ipa": "/hiːz ˌfɪf'tiːn/"
+        },
+        {
+          "ru": "Меня зовут Алекс",
+          "en": "My name's Alex",
+          "ipa": "/maɪ neɪmz æleks/"
+        },
+        {
+          "ru": "Меня зовут Кейт",
+          "en": "My name's Kate",
+          "ipa": "/maɪ neɪmz keɪt/"
+        },
+        {
+          "ru": "Это очень дорого",
+          "en": "It's very expensive",
+          "ipa": "/ɪts 'veri ɪks'pensɪv/"
+        },
+        {
+          "ru": "Это очень дешево",
+          "en": "It's very cheap",
+          "ipa": "/ɪts 'veri tʃiːp/"
+        },
+        {
+          "ru": "Это слишком дорого",
+          "en": "It's too expensive",
+          "ipa": "/ɪts tuː ɪks'pensɪv/"
+        },
+        {
+          "ru": "Это так дешево",
+          "en": "It's so cheap",
+          "ipa": "/ɪts səʊ tʃiːp/"
+        },
+        {
+          "ru": "Он очень бедный",
+          "en": "He's very poor",
+          "ipa": "/hiːz 'veri pʊə/"
+        },
+        {
+          "ru": "Он врач",
+          "en": "He's a doctor",
+          "ipa": "/hiːz ə 'dɒktə/"
+        },
+        {
+          "ru": "Она учитель",
+          "en": "She's a teacher",
+          "ipa": "/ʃiːz ə 'tiːtʃə/"
+        },
+        {
+          "ru": "Он дизайнер",
+          "en": "He's a designer",
+          "ipa": "/hiːz ə dɪ'zaɪnə/"
+        },
+        {
+          "ru": "Он учитель",
+          "en": "He's a teacher",
+          "ipa": "/hiːz ə 'tiːtʃə/"
+        },
+        {
+          "ru": "Она мой учитель",
+          "en": "She's my teacher",
+          "ipa": "/ʃiːz maɪ 'tiːtʃə/"
+        },
+        {
+          "ru": "Он наш учитель",
+          "en": "He's our teacher",
+          "ipa": "/hiːz 'aʊə 'tiːtʃə/"
+        },
+        {
+          "ru": "Он мой брат",
+          "en": "He's my brother",
+          "ipa": "/hiːz maɪ 'brʌðə/"
+        },
+        {
+          "ru": "Она моя сестра",
+          "en": "She's my sister",
+          "ipa": "/ʃiːz maɪ 'sɪstə/"
+        },
+        {
+          "ru": "Она моя мама",
+          "en": "She's my mother",
+          "ipa": "/ʃiːz maɪ 'mʌðə/"
+        },
+        {
+          "ru": "Он мой папа",
+          "en": "He's my father",
+          "ipa": "/hiːz maɪ 'fɑːðə/"
+        }
+      ]
+    }
+  ]
+}

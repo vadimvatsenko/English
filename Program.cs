@@ -200,7 +200,8 @@ namespace English
                         {
                             misstakeAnswersList.Add(d);
                             
-                            Console.WriteLine(d.Examples);
+                            Console.WriteLine($"add miss answer {d}");
+                            
                             misstakeAnswer++;
                         }
 
@@ -241,7 +242,6 @@ namespace English
                 while (!isEqual)
                 {
                     Console.Clear();
-
                     
                     string question = showEnglishWord ? d.En : d.Ru;
                     string correctAnswer = showEnglishWord ? d.Ru : d.En;
