@@ -28,3 +28,18 @@ P:\Projects\Rider\_English\English\obj\Debug\net9.0\English.pdb
 P:\Projects\Rider\_English\English\obj\Debug\net9.0\English.genruntimeconfig.cache
 P:\Projects\Rider\_English\English\obj\Debug\net9.0\ref\English.dll
 P:\Projects\Rider\_English\English\obj\Debug\net9.0\English.sourcelink.json
+P:\Projects and Documents\Visual Studio Apps\English\bin\Debug\net9.0\English.exe
+P:\Projects and Documents\Visual Studio Apps\English\bin\Debug\net9.0\English.deps.json
+P:\Projects and Documents\Visual Studio Apps\English\bin\Debug\net9.0\English.runtimeconfig.json
+P:\Projects and Documents\Visual Studio Apps\English\bin\Debug\net9.0\English.dll
+P:\Projects and Documents\Visual Studio Apps\English\bin\Debug\net9.0\English.pdb
+P:\Projects and Documents\Visual Studio Apps\English\obj\Debug\net9.0\English.GeneratedMSBuildEditorConfig.editorconfig
+P:\Projects and Documents\Visual Studio Apps\English\obj\Debug\net9.0\English.AssemblyInfoInputs.cache
+P:\Projects and Documents\Visual Studio Apps\English\obj\Debug\net9.0\English.AssemblyInfo.cs
+P:\Projects and Documents\Visual Studio Apps\English\obj\Debug\net9.0\English.csproj.CoreCompileInputs.cache
+P:\Projects and Documents\Visual Studio Apps\English\obj\Debug\net9.0\English.sourcelink.json
+P:\Projects and Documents\Visual Studio Apps\English\obj\Debug\net9.0\English.dll
+P:\Projects and Documents\Visual Studio Apps\English\obj\Debug\net9.0\refint\English.dll
+P:\Projects and Documents\Visual Studio Apps\English\obj\Debug\net9.0\English.pdb
+P:\Projects and Documents\Visual Studio Apps\English\obj\Debug\net9.0\English.genruntimeconfig.cache
+P:\Projects and Documents\Visual Studio Apps\English\obj\Debug\net9.0\ref\English.dll
