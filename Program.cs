@@ -62,16 +62,18 @@ namespace English
             
             int coutFiles = 1;
             
+            
+            Console.WriteLine();
             foreach (string file in filesOnTheme)
             {
                 string name = Path.GetFileNameWithoutExtension(file);
-                Console.WriteLine($"[{coutFiles}] : [{name}]");
+                
+                Console.WriteLine($"[{coutFiles:00}] : [{name}]");
                 filesOnThemeDict.Add(coutFiles, name);
                 coutFiles++;
             }
             
             string fileName = ChooseDir(filesOnThemeDict, "Enter Lesson: ");
-
             Console.WriteLine(fileName);
             
             // полный путь к теме
@@ -114,8 +116,7 @@ namespace English
             Console.ReadKey();
         }
 
-
-
+        
         private static void Extensions(Data? dataList, bool isEnToRu, string fileName)
         {
             if (dataList == null || dataList.Sections == null)
