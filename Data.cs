@@ -9,5 +9,5 @@ public class Data
     public List<Vocabulary> Vocabulary { get; set; }
         
     [JsonPropertyName("sections")]
-    public List<Sections> Sections { get; set; }
+    public List<Sections> Sections { get; set; }//
 }

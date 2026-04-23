@@ -6,13 +6,15 @@ namespace English;
 public class User
 {
     [JsonPropertyName("name")]
-    public string Name {get; private set;}
-    [JsonPropertyName("name")]
-    public string Password {get; private set;}
+    public string Name {get; set;}
+    [JsonPropertyName("password")]
+    public string Password {get; set;}
 
-    public User(string name, string password)
+    //public List<Examples> Vocabulary { get; private set; } = new List<Examples>();
+    public List<Examples> MissQuestion { get; private set; } = new List<Examples>();
+    
+    public void AddMissQustions(Examples v)
     {
-        Name = name;
-        Password = password;
+        MissQuestion.Add(v);
     }
 }

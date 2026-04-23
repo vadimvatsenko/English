@@ -7,14 +7,23 @@ namespace English
 {
     public class Program
     {
-        // все папки в корневом каталоге
-        /*private static readonly string PathAllFiles = Path.GetFullPath(
-            Path.Combine(AppContext.BaseDirectory, $"..\\..\\..\\")
-        );*/
-
         private static readonly string PathAllFiles = Path.GetFullPath(AppContext.BaseDirectory);
         
-        // менб выбора, что делать
+        private static readonly Dictionary<int, string> MainMenu = new Dictionary<int, string>()
+        {
+            [0] = "Exit",      // 0 — вихід
+            [1] = "Register",  // 1 — реєстрація
+            [2] = "Login"      // 2 — логін
+        };
+        
+        private static Dictionary<int, string> userMenu = new Dictionary<int, string>()
+        {
+            [0] = "Exit",
+            [1] = "Start Practice",
+            [2] = "Repeat Hard Questions",
+        };
+        
+        // меню выбора, что делать
         private static Dictionary<int, string> englishMenu = new Dictionary<int, string>()
         {
             [1] = "Vocabulary Russian to English",
@@ -25,76 +34,109 @@ namespace English
         
         public static async Task Main(string[] args)
         {
-            EncodingSetup();
-            
-            string[] folders = Directory.GetDirectories(PathAllFiles);
-            
-            int folderCount = 0;
+            // вернёт назад authService и user
+            var (authService, user) = await StartMenu();
 
-            Dictionary<int, string> levelsDict = new Dictionary<int, string>();
-            
-            foreach (string folder in folders)
+            if (user != null)
             {
-                if (folder.Contains("A") || folder.Contains("B") || folder.Contains("C") ||  folder.Contains("Numbers"))
+                string[] folders = Directory.GetDirectories(PathAllFiles);
+
+                int folderCount = 0;
+
+                Dictionary<int, string> levelsDict = new Dictionary<int, string>();
+
+                foreach (string folder in folders)
                 {
-                    // получим последнюю папку
-                    string floderName = Path.GetFileName(folder);
-                    levelsDict.Add(folderCount, floderName);
-                    
-                    folderCount++;
+                    if ((folder.Contains("A") || folder.Contains("B") || folder.Contains("C") ||
+                        folder.Contains("Numbers") )&& !folder.Contains("save data"))
+                    {
+                        // получим последнюю папку
+                        string floderName = Path.GetFileName(folder);
+                        levelsDict.Add(folderCount, floderName);
+                        folderCount++;
+                    }
+                }
+                
+                Console.Clear();
+                Console.WriteLine($"{user.Name} please enter option");
+                
+                // меню игрока
+                foreach (var um in userMenu)
+                {
+                    Console.WriteLine($"[{um.Key}]: [{um.Value}]");
+                }
+                
+                int userMenuInt = int.TryParse(Console.ReadLine(), out userMenuInt) ? userMenuInt : 0;
+
+                switch (userMenuInt)
+                {
+                    case 0 :
+                        return;
+                    case 1:
+                        await StartPractice(levelsDict, user, authService);
+                        break;
                 }
             }
-            
+            else
+            {
+                Console.Clear();
+                Console.WriteLine("Exiting...");
+                await Task.Delay(2000);
+            }
+        }
+
+        private static async Task StartPractice(Dictionary<int, string> levelsDict, User user, AuthService authService)
+        {
             foreach (KeyValuePair<int, string> level in levelsDict)
             {
                 Console.WriteLine($"[{level.Key}]: [{level.Value}]");
             }
 
             bool isValidLevel = false;
-            
+
             string dirPath = ChooseDir(levelsDict, "Enter Level");
             Console.WriteLine($"Current Level: {dirPath}");
-            
+
             // логика выбора урока в теме
             // 1. получаем все уроки в папке
             string[] filesOnTheme = Directory.GetFiles(PathAllFiles + dirPath);
             Dictionary<int, string> filesOnThemeDict = new Dictionary<int, string>();
-            
+
             int coutFiles = 1;
-            
-            
+
+
             Console.WriteLine();
             foreach (string file in filesOnTheme)
             {
                 string name = Path.GetFileNameWithoutExtension(file);
-                
+
                 Console.WriteLine($"[{coutFiles:00}] : [{name}]");
                 filesOnThemeDict.Add(coutFiles, name);
                 coutFiles++;
             }
-            
+
             string fileName = ChooseDir(filesOnThemeDict, "Enter Lesson: ");
             Console.WriteLine(fileName);
-            
+
             // полный путь к теме
-            
+
             string FilePath = String.Empty;
-            
+
             if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
                 FilePath = Path.GetFullPath(Path.Combine(AppContext.BaseDirectory, $"{dirPath}\\{fileName}.json"));
             else if (RuntimeInformation.IsOSPlatform(OSPlatform.OSX))
                 FilePath = Path.GetFullPath(Path.Combine(AppContext.BaseDirectory, $"{dirPath}/{fileName}.json"));
-            
+
             bool isFileExist = File.Exists(FilePath);
             Data dataList = await GetAsync(FilePath);
 
             Console.WriteLine("Enter your option: ");
-            
+
             foreach (var m in englishMenu)
             {
                 Console.WriteLine($"[{m.Key}]: [{m.Value}]");
             }
-            
+
             string option = Console.ReadLine();
 
             switch (option)
@@ -106,22 +148,60 @@ namespace English
                     Vocabulary(dataList, true, fileName);
                     break;
                 case "3":
-                    Extensions(dataList, false, fileName);
+                    Extensions(dataList, false, fileName, user, authService);
                     break;
                 case "4":
-                    Extensions(dataList, true, fileName);
+                    Extensions(dataList, true, fileName, user, authService);
                     break;
             }
 
             Console.ReadKey();
         }
 
-        
-        private static void Extensions(Data? dataList, bool isEnToRu, string fileName)
+        private static async Task<(AuthService authService, User? user)> StartMenu()
+        {
+            AuthService authService = new AuthService();
+            await authService.InitializeAsync();
+            EncodingSetup();
+
+            foreach (var m in MainMenu)
+            {
+                Console.WriteLine($"[{m.Key}]: [{m.Value}]");
+            }
+
+            Console.WriteLine("Enter your option: ");
+            string input = Console.ReadLine();
+            int inputInt = Convert.ToInt32(input);
+
+            User? user = null;
+
+            switch (inputInt)
+            {
+                case 0:
+                    return (authService, user);
+                case 1:
+                    user = await authService.RegisterUserAsync();
+                    break;
+                case 2:
+                    user = await authService.LoginUserAsync();
+                    break;
+                default:
+                    Console.WriteLine($"[{inputInt}]: Invalid option.");
+                    break;
+            }
+
+            return (authService, user);
+        }
+
+
+        private static void Extensions(Data? dataList, bool isEnToRu, string fileName, User user, AuthService authService)
         {
             if (dataList == null || dataList.Sections == null)
+            {
+                Console.WriteLine($"The Questions Is Over");
                 return;
-
+            }
+            
             int count = 1;
             int correctAnswer = 0;
             int misstakeAnswer = 0;
@@ -136,7 +216,7 @@ namespace English
 
             HashSet<Sections> misstakeAnswersList = new HashSet<Sections>();
             
-            QuestionsLogic(isEnToRu, fileName, allQaList, count, allQaCount, correctAnswer, misstakeAnswer, ref misstakeAnswersList);
+            QuestionsLogic(isEnToRu, fileName, allQaList, count, allQaCount, correctAnswer, misstakeAnswer, ref misstakeAnswersList, user, authService);
             
             count = 1;
             correctAnswer = 0;
@@ -147,7 +227,7 @@ namespace English
         }
 
         private static void QuestionsLogic(bool isEnToRu, string fileName, List<Sections> allQaList, int count, int allQaCount,
-            int correctAnswer, int misstakeAnswer, ref HashSet<Sections> misstakeAnswersList)
+            int correctAnswer, int misstakeAnswer, ref HashSet<Sections> misstakeAnswersList, User user, AuthService authService)
         {
             foreach (var d in allQaList)
             {
@@ -199,6 +279,9 @@ namespace English
                             correctAnswer++;
                         else
                         {
+                            Console.WriteLine($"Enter "+" Add Question in User Vocabluary");
+                            user.AddMissQustions(e);
+                            authService.SaveUsersAsync(new List<User> { user });
                             misstakeAnswersList.Add(d);
                             
                             Console.WriteLine($"add miss answer {d}");
@@ -314,7 +397,6 @@ namespace English
 
         public static async Task<Data?> GetAsync(string filePath )
         {
-
             string json = await File.ReadAllTextAsync(filePath);
             
             try
