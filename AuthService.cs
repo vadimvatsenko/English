@@ -91,7 +91,7 @@ public class AuthService
         Console.Clear();
 
         // Заголовок
-        Console.WriteLine($"====Register User====");
+        Console.WriteLine($"-- Register User --");
 
         // Запитуємо ім'я
 
@@ -153,7 +153,7 @@ public class AuthService
         Console.Clear();
 
         // Заголовок
-        Console.WriteLine("====Login====");
+        Console.WriteLine(" --- Login ---");
 
         // Вводимо ім'я
         Console.Write("Enter your Name: ");

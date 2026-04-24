@@ -11,10 +11,13 @@ public class User
     public string Password {get; set;}
 
     //public List<Examples> Vocabulary { get; private set; } = new List<Examples>();
-    public List<Examples> MissQuestion { get; private set; } = new List<Examples>();
+    [JsonPropertyName("HardQuestion")]
+    public List<Examples> HardQuestion { get; set; }
     
     public void AddMissQustions(Examples v)
     {
-        MissQuestion.Add(v);
+        if (!HardQuestion.Contains(v))
+            if (HardQuestion != null)
+                HardQuestion.Add(v);
     }
 }
