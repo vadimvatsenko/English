@@ -43,3 +43,18 @@ P:\Projects and Documents\Visual Studio Apps\English\obj\Debug\net9.0\refint\Eng
 P:\Projects and Documents\Visual Studio Apps\English\obj\Debug\net9.0\English.pdb
 P:\Projects and Documents\Visual Studio Apps\English\obj\Debug\net9.0\English.genruntimeconfig.cache
 P:\Projects and Documents\Visual Studio Apps\English\obj\Debug\net9.0\ref\English.dll
+C:\Users\user\Documents\GitHub\English\bin\Debug\net9.0\English.exe
+C:\Users\user\Documents\GitHub\English\bin\Debug\net9.0\English.deps.json
+C:\Users\user\Documents\GitHub\English\bin\Debug\net9.0\English.runtimeconfig.json
+C:\Users\user\Documents\GitHub\English\bin\Debug\net9.0\English.dll
+C:\Users\user\Documents\GitHub\English\bin\Debug\net9.0\English.pdb
+C:\Users\user\Documents\GitHub\English\obj\Debug\net9.0\English.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Documents\GitHub\English\obj\Debug\net9.0\English.AssemblyInfoInputs.cache
+C:\Users\user\Documents\GitHub\English\obj\Debug\net9.0\English.AssemblyInfo.cs
+C:\Users\user\Documents\GitHub\English\obj\Debug\net9.0\English.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\GitHub\English\obj\Debug\net9.0\English.sourcelink.json
+C:\Users\user\Documents\GitHub\English\obj\Debug\net9.0\English.dll
+C:\Users\user\Documents\GitHub\English\obj\Debug\net9.0\refint\English.dll
+C:\Users\user\Documents\GitHub\English\obj\Debug\net9.0\English.pdb
+C:\Users\user\Documents\GitHub\English\obj\Debug\net9.0\English.genruntimeconfig.cache
+C:\Users\user\Documents\GitHub\English\obj\Debug\net9.0\ref\English.dll
