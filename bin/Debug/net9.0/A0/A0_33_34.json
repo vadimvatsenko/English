@@ -1,0 +1,77 @@
+{
+  "sections": [
+    {
+      "title": "Past Simple (from slides)",
+      "rule": "Фразы из скринов по Past Simple.",
+      "examples": [
+        { "en": "I worked so much", "ipa": "[aɪ wɜːkt səʊ mʌtʃ]", "ru": "Я работал так много" },
+        { "en": "I watched this movie", "ipa": "[aɪ wɒtʃt ðɪs ˈmuːvi]", "ru": "Я посмотрел этот фильм" },
+        { "en": "I watched this video", "ipa": "[aɪ wɒtʃt ðɪs ˈvɪdiəʊ]", "ru": "Я посмотрел это видео" },
+
+        { "en": "You did it very well", "ipa": "[juː dɪd ɪt ˈveri wel]", "ru": "Ты сделал это очень хорошо" },
+        { "en": "I did it for you", "ipa": "[aɪ dɪd ɪt fɔː juː]", "ru": "Я сделал это для тебя" },
+        { "en": "I did this work", "ipa": "[aɪ dɪd ðɪs wɜːk]", "ru": "Я сделал эту работу" },
+
+        { "en": "He said it again", "ipa": "[hiː sed ɪt əˈgen]", "ru": "Он сказал это снова" },
+        { "en": "She said it very loudly", "ipa": "[ʃiː sed ɪt ˈveri ˈlaʊdli]", "ru": "Она сказала это очень громко" },
+        { "en": "He said it very quietly", "ipa": "[hiː sed ɪt ˈveri ˈkwaɪətli]", "ru": "Он сказал это очень тихо" },
+        { "en": "He said it too quietly", "ipa": "[hiː sed ɪt tuː ˈkwaɪətli]", "ru": "Он сказал это слишком тихо" },
+        { "en": "She said it so loudly", "ipa": "[ʃiː sed ɪt səʊ ˈlaʊdli]", "ru": "Она сказала это так громко" },
+
+        { "en": "He told me this story", "ipa": "[hiː təʊld miː ðɪs ˈstɔːri]", "ru": "Он рассказал мне эту историю" },
+
+        { "en": "He made a mistake", "ipa": "[hiː meɪd ə mɪˈsteɪk]", "ru": "Он сделал ошибку" },
+        { "en": "I think I made a mistake", "ipa": "[aɪ θɪŋk aɪ meɪd ə mɪˈsteɪk]", "ru": "Я думаю, я сделал ошибку" },
+
+        { "en": "I got your letter", "ipa": "[aɪ gɒt jɔː ˈletə]", "ru": "Я получил твоё письмо" },
+        { "en": "I got your message", "ipa": "[aɪ gɒt jɔː ˈmesɪdʒ]", "ru": "Я получил твоё сообщение" },
+        { "en": "I got a letter from him", "ipa": "[aɪ gɒt ə ˈletə frɒm hɪm]", "ru": "Я получил письмо от него" },
+        { "en": "I got a message from her", "ipa": "[aɪ gɒt ə ˈmesɪdʒ frɒm hɜː]", "ru": "Я получил сообщение от неё" },
+
+        { "en": "I read this book", "ipa": "[aɪ red ðɪs bʊk]", "ru": "Я прочитал эту книгу" },
+        { "en": "I read this article", "ipa": "[aɪ red ðɪs ˈɑːtɪkl]", "ru": "Я прочитал эту статью" },
+        { "en": "I read it online", "ipa": "[aɪ red ɪt ˈɒnlaɪn]", "ru": "Я прочитал это онлайн" },
+        { "en": "I read this story", "ipa": "[aɪ red ðɪs ˈstɔːri]", "ru": "Я прочитал эту историю" },
+
+        { "en": "I saw her yesterday", "ipa": "[aɪ sɔː hɜː ˈjestədeɪ]", "ru": "Я видел её вчера" },
+        { "en": "I saw him the day before yesterday", "ipa": "[aɪ sɔː hɪm ðə deɪ bɪˈfɔː ˈjestədeɪ]", "ru": "Я видел его позавчера" },
+
+        { "en": "He took this money", "ipa": "[hiː tʊk ðɪs ˈmʌni]", "ru": "Он взял эти деньги" },
+        { "en": "I took this offer", "ipa": "[aɪ tʊk ðɪs ˈɒfə]", "ru": "Я принял это предложение" },
+        { "en": "I took it with me", "ipa": "[aɪ tʊk ɪt wɪð miː]", "ru": "Я взял это с собой" },
+
+        { "en": "I knew it", "ipa": "[aɪ njuː ɪt]", "ru": "Я знал это" },
+        { "en": "I knew the answer", "ipa": "[aɪ njuː ði ˈɑːnsə]", "ru": "Я знал ответ" },
+        { "en": "I knew it very well", "ipa": "[aɪ njuː ɪt ˈveri wel]", "ru": "Я знал это очень хорошо" },
+
+        { "en": "I understood it at last", "ipa": "[aɪ ˌʌndəˈstʊd ɪt ət lɑːst]", "ru": "Я понял это наконец" },
+        { "en": "I understood you", "ipa": "[aɪ ˌʌndəˈstʊd juː]", "ru": "Я понял тебя" },
+        { "en": "I understood it immediately", "ipa": "[aɪ ˌʌndəˈstʊd ɪt ɪˈmiːdiətli]", "ru": "Я понял это сразу" },
+        { "en": "I did it immediately", "ipa": "[aɪ dɪd ɪt ɪˈmiːdiətli]", "ru": "Я сделал это немедленно" },
+        { "en": "I understood this speech", "ipa": "[aɪ ˌʌndəˈstʊd ðɪs spiːtʃ]", "ru": "Я понял эту речь" },
+        { "en": "I understood it only later", "ipa": "[aɪ ˌʌndəˈstʊd ɪt ˈəʊnli ˈleɪtə]", "ru": "Я понял это только позже" },
+
+        { "en": "I went to work yesterday", "ipa": "[aɪ went tuː wɜːk ˈjestədeɪ]", "ru": "Я ходил на работу вчера" },
+        { "en": "I went home", "ipa": "[aɪ went həʊm]", "ru": "Я пошёл домой" },
+        { "en": "I went home after work", "ipa": "[aɪ went həʊm ˈɑːftə wɜːk]", "ru": "Я пошёл домой после работы" },
+
+        { "en": "I came back", "ipa": "[aɪ keɪm bæk]", "ru": "Я вернулся" },
+        { "en": "I came back two hours ago", "ipa": "[aɪ keɪm bæk tuː ˈaʊəz əˈɡəʊ]", "ru": "Я вернулся два часа назад" },
+        { "en": "I came back an hour ago", "ipa": "[aɪ keɪm bæk ən ˈaʊə əˈɡəʊ]", "ru": "Я вернулся час назад" },
+
+        { "en": "I bought two tickets", "ipa": "[aɪ bɔːt tuː ˈtɪkɪts]", "ru": "Я купил два билета" },
+        { "en": "He bought a car", "ipa": "[hiː bɔːt ə kɑː]", "ru": "Он купил машину" },
+        { "en": "She bought a house", "ipa": "[ʃiː bɔːt ə haʊs]", "ru": "Она купила дом" },
+        { "en": "She bought an apartment", "ipa": "[ʃiː bɔːt ən əˈpɑːtmənt]", "ru": "Она купила квартиру" },
+        { "en": "I bought a present", "ipa": "[aɪ bɔːt ə ˈpreznt]", "ru": "Я купил подарок" },
+        { "en": "I bought a present for you", "ipa": "[aɪ bɔːt ə ˈpreznt fɔː juː]", "ru": "Я купил подарок для тебя" },
+        { "en": "I bought you a present", "ipa": "[aɪ bɔːt juː ə ˈpreznt]", "ru": "Я купил тебе подарок" },
+
+        { "en": "I wrote a message", "ipa": "[aɪ rəʊt ə ˈmesɪdʒ]", "ru": "Я написал сообщение" },
+        { "en": "I wrote a letter", "ipa": "[aɪ rəʊt ə ˈletə]", "ru": "Я написал письмо" },
+        { "en": "I wrote her a message", "ipa": "[aɪ rəʊt hɜː ə ˈmesɪdʒ]", "ru": "Я написал ей сообщение" },
+        { "en": "I wrote them a letter", "ipa": "[aɪ rəʊt ðem ə ˈletə]", "ru": "Я написал им письмо" }
+      ]
+    }
+  ]
+}
