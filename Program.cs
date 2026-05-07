@@ -21,8 +21,14 @@ namespace English
             else
             {
                 Console.Clear();
-                Console.WriteLine("Exiting...");
-                await Task.Delay(2000);
+                Console.ForegroundColor = ConsoleColor.Red;
+                string points = "..........";
+                Console.Write($"Exit");
+                foreach (var p in points)
+                {
+                    Console.Write(p);
+                    await Task.Delay(100);
+                }
             }
         }
         
@@ -31,16 +37,10 @@ namespace English
         {
             AuthService authService = new AuthService();
             await authService.InitializeAsync();
+
+            string messageHeader = "Enter you option";
+            int inputInt = ColorizeMenuInput(StaticFields.MainMenu, messageHeader);
             
-            foreach (var m in StaticFields.MainMenu)
-            {
-                Console.WriteLine($"[{m.Key}]: [{m.Value}]");
-            }
-
-            Console.WriteLine("Enter your option: ");
-            string input = Console.ReadLine();
-            int inputInt = Convert.ToInt32(input);
-
             User? user = null;
 
             switch (inputInt)
@@ -61,6 +61,65 @@ namespace English
             return (authService, user);
         }
         
+        // покраска и управление меню
+        private static int ColorizeMenuInput(Dictionary<int, string> menu, string header)
+        {
+            int counter = 0;
+
+            while (true)
+            {
+                Console.WriteLine(header);
+                Console.WriteLine();
+                
+                foreach (var m in menu)
+                {
+                    string arrow = m.Key == counter ? "=>" : "  "; 
+                    Console.BackgroundColor = m.Key == counter ? ConsoleColor.Green :  ConsoleColor.Blue;
+                    
+                    // центрирование текста
+                    var centeredText = CenteredText(m.Value, 22);
+
+                    Console.WriteLine($"{arrow} [{m.Key:00}]: [{centeredText}]");
+                    
+                    Console.ResetColor();
+                }
+                
+                ConsoleKeyInfo keyInfo = Console.ReadKey(true);
+
+                if (keyInfo.Key == ConsoleKey.DownArrow)
+                {
+                    counter++;
+                    counter %= menu.Count;
+                }
+                
+                else if (keyInfo.Key == ConsoleKey.UpArrow)
+                {
+                    counter--;
+                    counter %= menu.Count;
+                    
+                    if (counter < 0)
+                    {
+                        counter = menu.Count - 1;
+                    }
+                }
+                else if (keyInfo.Key == ConsoleKey.Enter)
+                {
+                    return counter;
+                }
+                
+                Console.Clear();
+            }
+        }
+
+        // центрирование текста в меню
+        private static string CenteredText(string text, int width)
+        {
+            int spaces = width - text.Length;
+            int padLeft = spaces / 2 + text.Length;
+            string centeredText = text.PadLeft(padLeft).PadRight(width);
+            return centeredText;
+        }
+
         // заполняем словарь с уровнями, просто название и номер
         private static Dictionary<int, string> FillLevelDictionaryNames()
         {
@@ -87,17 +146,10 @@ namespace English
         private static async Task UserChoiceMenu(User user, Dictionary<int, string> levelsDict, AuthService authService)
         {
             Console.Clear();
-            Console.WriteLine($"{user.Name} please enter option");
-                
-            // меню игрока
-            foreach (var um in StaticFields.UserMenu)
-            {
-                Console.WriteLine($"[{um.Key}]: [{um.Value}]");
-            }
-
-            int.TryParse(Console.ReadLine(), out int userMenuInt);
             
-            Console.WriteLine($"DEBUG userMenuInt = {userMenuInt}");
+            string messageHeader = $"{user.Name} please enter option";
+            int userMenuInt = ColorizeMenuInput(StaticFields.UserMenu, messageHeader);
+            
             Console.ReadKey();
 
             switch (userMenuInt)
@@ -116,34 +168,35 @@ namespace English
             }
         }
 
+        // практика, тут нужно выбрать уровень
         private static async Task StartPractice(Dictionary<int, string> levelsDict, User user, AuthService authService)
         {
-            foreach (KeyValuePair<int, string> level in levelsDict)
-            {
-                Console.WriteLine($"[{level.Key}]: [{level.Value}]");
-            }
-
+            Console.Clear();
+            int numberLevel = ColorizeMenuInput(levelsDict, "Enter Level: ");
+            string levelName = levelsDict[numberLevel];
+            
             bool isValidLevel = false;
-
-            string dirPath = ChooseDir(levelsDict, "Enter Level");
-            Console.WriteLine($"Current Level: {dirPath}");
+            
+            Console.WriteLine($"Current Level: {levelsDict[numberLevel]}");
 
             // логика выбора урока в теме
             // 1. получаем все уроки в папке
-            string[] filesOnTheme = Directory.GetFiles( StaticFields.PathAllFiles + dirPath);
+            string[] filesOnTheme = Directory.GetFiles( StaticFields.PathAllFiles + levelName);
             Dictionary<int, string> filesOnThemeDict = new Dictionary<int, string>();
 
-            int coutFiles = 1;
+            int coutFiles = 0;
             
             Console.WriteLine();
+            
             foreach (string file in filesOnTheme)
             {
                 string name = Path.GetFileNameWithoutExtension(file);
-
-                Console.WriteLine($"[{coutFiles:00}] : [{name}]");
+                
                 filesOnThemeDict.Add(coutFiles, name);
                 coutFiles++;
             }
+            
+            int themeNumber = ColorizeMenuInput(filesOnThemeDict, "Enter Theme: ");
 
             string fileName = ChooseDir(filesOnThemeDict, "Enter Lesson: ");
             Console.WriteLine(fileName);
@@ -153,34 +206,30 @@ namespace English
             string FilePath = String.Empty;
 
             if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
-                FilePath = Path.GetFullPath(Path.Combine(AppContext.BaseDirectory, $"{dirPath}\\{fileName}.json"));
+                FilePath = Path.GetFullPath(Path.Combine(AppContext.BaseDirectory, $"{levelName}\\{fileName}.json"));
             else if (RuntimeInformation.IsOSPlatform(OSPlatform.OSX))
-                FilePath = Path.GetFullPath(Path.Combine(AppContext.BaseDirectory, $"{dirPath}/{fileName}.json"));
+                FilePath = Path.GetFullPath(Path.Combine(AppContext.BaseDirectory, $"{levelName}/{fileName}.json"));
 
             bool isFileExist = File.Exists(FilePath);
             Data dataList = await GetAsync(FilePath);
 
             Console.WriteLine("Enter your option: ");
 
-            foreach (var m in StaticFields.EnglishMenu)
-            {
-                Console.WriteLine($"[{m.Key}]: [{m.Value}]");
-            }
-
-            string option = Console.ReadLine();
-
+            string message = "Enter your option:";
+            int option = ColorizeMenuInput(StaticFields.EnglishMenu, message);
+            
             switch (option)
             {
-                case "1":
+                case 1:
                     Vocabulary(dataList, false, fileName);
                     break;
-                case "2":
+                case 2:
                     Vocabulary(dataList, true, fileName);
                     break;
-                case "3":
+                case 3:
                     Extensions(dataList, false, fileName, user, authService);
                     break;
-                case "4":
+                case 4:
                     Extensions(dataList, true, fileName, user, authService);
                     break;
             }
