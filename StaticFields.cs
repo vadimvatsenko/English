@@ -6,9 +6,11 @@ public class StaticFields
         
     public static readonly Dictionary<int, string> MainMenu = new Dictionary<int, string>()
     {
-        [0] = "Exit",      // 0 — вихід
+        
+        
+        [0] = "Login",     // 0 — логін
         [1] = "Register",  // 1 — реєстрація
-        [2] = "Login"      // 2 — логін
+        [2] = "Exit",      // 2 — вихід
     };
         
     public static readonly Dictionary<int, string> UserMenu = new Dictionary<int, string>()

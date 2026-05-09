@@ -46,13 +46,13 @@ namespace English
             switch (inputInt)
             {
                 case 0:
-                    return (authService, user);
+                    user = await authService.LoginUserAsync();
+                    break;
                 case 1:
                     user = await authService.RegisterUserAsync();
                     break;
                 case 2:
-                    user = await authService.LoginUserAsync();
-                    break;
+                    return (authService, user);
                 default:
                     Console.WriteLine($"[{inputInt}]: Invalid option.");
                     break;
@@ -199,7 +199,7 @@ namespace English
             int themeNumber = ColorizeMenuInput(filesOnThemeDict, "Enter Theme: ");
 
             string fileName = ChooseDir(filesOnThemeDict, "Enter Lesson: ");
-            Console.WriteLine(fileName);
+            //Console.WriteLine(fileName);
 
             // полный путь к теме
 
