@@ -812,6 +812,256 @@
         "en": "It seemed impossible in the beginning",
         "ipa": "/\u026At si\u02D0md \u026Am\u02C8p\u0252s\u0259bl \u026An \u00F0\u0259 b\u026A\u02C8\u0261\u026An\u026A\u014B/",
         "ru": "\u042D\u0442\u043E \u043A\u0430\u0437\u0430\u043B\u043E\u0441\u044C \u043D\u0435\u0432\u043E\u0437\u043C\u043E\u0436\u043D\u044B\u043C \u0432 \u043D\u0430\u0447\u0430\u043B\u0435"
+      },
+      {
+        "en": "You did it very well",
+        "ipa": "[ju\u02D0 d\u026Ad \u026At \u02C8veri wel]",
+        "ru": "\u0422\u044B \u0441\u0434\u0435\u043B\u0430\u043B \u044D\u0442\u043E \u043E\u0447\u0435\u043D\u044C \u0445\u043E\u0440\u043E\u0448\u043E"
+      },
+      {
+        "en": "When will you go there?",
+        "ipa": "/wen w\u026Al ju\u02D0 \u0261\u0259\u028A \u00F0e\u0259?/",
+        "ru": "\u041A\u043E\u0433\u0434\u0430 \u0442\u044B \u043F\u043E\u0439\u0434\u0451\u0448\u044C \u0442\u0443\u0434\u0430?"
+      },
+      {
+        "en": "When will you be there next time?",
+        "ipa": "/wen w\u026Al ju\u02D0 bi\u02D0 \u00F0e\u0259 nekst ta\u026Am?/",
+        "ru": "\u041A\u043E\u0433\u0434\u0430 \u0442\u044B \u0431\u0443\u0434\u0435\u0448\u044C \u0442\u0430\u043C \u0432 \u0441\u043B\u0435\u0434\u0443\u044E\u0449\u0438\u0439 \u0440\u0430\u0437?"
+      },
+      {
+        "en": "When do you find time for all this?",
+        "ipa": "[wen du\u02D0 ju\u02D0 fa\u026And ta\u026Am f\u0254\u02D0 \u0254\u02D0l \u00F0\u026As?]",
+        "ru": "\u041A\u043E\u0433\u0434\u0430 \u0442\u044B \u043D\u0430\u0445\u043E\u0434\u0438\u0448\u044C \u0432\u0440\u0435\u043C\u044F \u043D\u0430 \u0432\u0441\u0451 \u044D\u0442\u043E?"
+      },
+      {
+        "en": "How much does this service cost?",
+        "ipa": "[ha\u028A m\u028Ct\u0283 d\u028Cz \u00F0\u026As \u02C8s\u025C\u02D0v\u026As k\u0252st?]",
+        "ru": "\u0421\u043A\u043E\u043B\u044C\u043A\u043E \u0441\u0442\u043E\u0438\u0442 \u044D\u0442\u0430 \u0443\u0441\u043B\u0443\u0433\u0430?"
+      },
+      {
+        "en": "How much does this bracelet cost?",
+        "ipa": "[ha\u028A m\u028Ct\u0283 d\u028Cz \u00F0\u026As \u02C8bre\u026Asl\u026At k\u0252st?]",
+        "ru": "\u0421\u043A\u043E\u043B\u044C\u043A\u043E \u0441\u0442\u043E\u0438\u0442 \u044D\u0442\u043E\u0442 \u0431\u0440\u0430\u0441\u043B\u0435\u0442?"
+      },
+      {
+        "en": "What do you know about all this?",
+        "ipa": "[w\u0252t du\u02D0 ju\u02D0 n\u0259\u028A \u0259\u02C8ba\u028At \u0254\u02D0l \u00F0\u026As?]",
+        "ru": "\u0427\u0442\u043E \u0442\u044B \u0437\u043D\u0430\u0435\u0448\u044C \u043E\u0431\u043E \u0432\u0441\u0451\u043C \u044D\u0442\u043E\u043C?"
+      },
+      {
+        "en": "I\u0027ll think about it",
+        "ipa": "/a\u026Al \u03B8\u026A\u014Bk \u0259\u02C8ba\u028At \u026At/",
+        "ru": "\u042F \u043F\u043E\u0434\u0443\u043C\u0430\u044E \u043E\u0431 \u044D\u0442\u043E\u043C"
+      },
+      {
+        "en": "I\u0027ll go there tomorrow",
+        "ipa": "/a\u026Al \u0261\u0259\u028A \u00F0e\u0259 t\u0259\u02C8m\u0252r\u0259\u028A/",
+        "ru": "\u042F \u043F\u043E\u0439\u0434\u0443 \u0442\u0443\u0434\u0430 \u0437\u0430\u0432\u0442\u0440\u0430"
+      },
+      {
+        "en": "I\u0027ll call him soon",
+        "ipa": "/a\u026Al k\u0254\u02D0l h\u026Am su\u02D0n/",
+        "ru": "\u042F \u0441\u043A\u043E\u0440\u043E \u043F\u043E\u0437\u0432\u043E\u043D\u044E \u0435\u043C\u0443"
+      },
+      {
+        "en": "You\u0027ll know it soon",
+        "ipa": "/ju\u02D0l n\u0259\u028A \u026At su\u02D0n/",
+        "ru": "\u0422\u044B \u0441\u043A\u043E\u0440\u043E \u0443\u0437\u043D\u0430\u0435\u0448\u044C \u044D\u0442\u043E"
+      },
+      {
+        "en": "I\u0027ll wait for you",
+        "ipa": "/a\u026Al we\u026At f\u0254\u02D0 ju\u02D0/",
+        "ru": "\u042F \u043F\u043E\u0434\u043E\u0436\u0434\u0443 \u0442\u0435\u0431\u044F"
+      },
+      {
+        "en": "I\u0027ll wait for their answer",
+        "ipa": "/a\u026Al we\u026At f\u0254\u02D0 \u00F0e\u0259 \u02C8\u0251\u02D0ns\u0259/",
+        "ru": "\u042F \u043F\u043E\u0434\u043E\u0436\u0434\u0443 \u0438\u0445 \u043E\u0442\u0432\u0435\u0442\u0430"
+      },
+      {
+        "en": "I think it\u0027ll cost more soon",
+        "ipa": "/a\u026A \u03B8\u026A\u014Bk \u026Atl k\u0252st m\u0254\u02D0 su\u02D0n/",
+        "ru": "\u042F \u0434\u0443\u043C\u0430\u044E, \u044D\u0442\u043E \u0441\u043A\u043E\u0440\u043E \u0431\u0443\u0434\u0435\u0442 \u0441\u0442\u043E\u0438\u0442\u044C \u0434\u043E\u0440\u043E\u0436\u0435"
+      },
+      {
+        "en": "I think it\u0027ll be more expensive soon",
+        "ipa": "/a\u026A \u03B8\u026A\u014Bk \u026Atl bi\u02D0 m\u0254\u02D0 \u026Ak\u02C8spens\u026Av su\u02D0n/",
+        "ru": "\u042F \u0434\u0443\u043C\u0430\u044E, \u044D\u0442\u043E \u0441\u043A\u043E\u0440\u043E \u0431\u0443\u0434\u0435\u0442 \u0434\u043E\u0440\u043E\u0436\u0435"
+      },
+      {
+        "en": "I don\u0027t think that it\u0027ll cost less",
+        "ipa": "/a\u026A d\u0259\u028Ant \u03B8\u026A\u014Bk \u00F0\u00E6t \u026Atl k\u0252st les/",
+        "ru": "\u042F \u043D\u0435 \u0434\u0443\u043C\u0430\u044E, \u0447\u0442\u043E \u044D\u0442\u043E \u0431\u0443\u0434\u0435\u0442 \u0441\u0442\u043E\u0438\u0442\u044C \u0434\u0435\u0448\u0435\u0432\u043B\u0435"
+      },
+      {
+        "en": "I\u0027ll go to England this year",
+        "ipa": "/a\u026Al \u0261\u0259\u028A t\u0259 \u02C8\u026A\u014B\u0261l\u0259nd \u00F0\u026As j\u026A\u0259/",
+        "ru": "\u042F \u043F\u043E\u0435\u0434\u0443 \u0432 \u0410\u043D\u0433\u043B\u0438\u044E \u0432 \u044D\u0442\u043E\u043C \u0433\u043E\u0434\u0443"
+      },
+      {
+        "en": "I\u0027ll go to this city soon",
+        "ipa": "/a\u026Al \u0261\u0259\u028A t\u0259 \u00F0\u026As \u02C8s\u026Ati su\u02D0n/",
+        "ru": "\u042F \u0441\u043A\u043E\u0440\u043E \u043F\u043E\u0435\u0434\u0443 \u0432 \u044D\u0442\u043E\u0442 \u0433\u043E\u0440\u043E\u0434"
+      },
+      {
+        "en": "They\u0027ll talk about different things",
+        "ipa": "/\u00F0e\u026Al t\u0254\u02D0k \u0259\u02C8ba\u028At \u02C8d\u026Afr\u0259nt \u03B8\u026A\u014Bz/",
+        "ru": "\u041E\u043D\u0438 \u0431\u0443\u0434\u0443\u0442 \u0433\u043E\u0432\u043E\u0440\u0438\u0442\u044C \u043E \u0440\u0430\u0437\u043D\u044B\u0445 \u0432\u0435\u0449\u0430\u0445"
+      },
+      {
+        "en": "person",
+        "ipa": "[\u02C8p\u025C\u02D0s\u0259n]",
+        "ru": "\u0447\u0435\u043B\u043E\u0432\u0435\u043A"
+      },
+      {
+        "en": "be",
+        "ipa": "[bi\u02D0]",
+        "ru": "\u0431\u044B\u0442\u044C"
+      },
+      {
+        "en": "society",
+        "ipa": "[s\u0259\u02C8sa\u026A\u0259ti]",
+        "ru": "\u043E\u0431\u0449\u0435\u0441\u0442\u0432\u043E"
+      },
+      {
+        "en": "law",
+        "ipa": "[l\u0254\u02D0]",
+        "ru": "\u0437\u0430\u043A\u043E\u043D"
+      },
+      {
+        "en": "government",
+        "ipa": "[\u02C8\u0261\u028Cv\u0259nm\u0259nt]",
+        "ru": "\u043F\u0440\u0430\u0432\u0438\u0442\u0435\u043B\u044C\u0441\u0442\u0432\u043E"
+      },
+      {
+        "en": "issue",
+        "ipa": "[\u02C8\u026A\u0283u\u02D0]",
+        "ru": "\u043F\u0440\u043E\u0431\u043B\u0435\u043C\u0430"
+      },
+      {
+        "en": "solution",
+        "ipa": "[s\u0259\u02C8lu\u02D0\u0283\u0259n]",
+        "ru": "\u0440\u0435\u0448\u0435\u043D\u0438\u0435"
+      },
+      {
+        "en": "choice",
+        "ipa": "[t\u0283\u0254\u026As]",
+        "ru": "\u0432\u044B\u0431\u043E\u0440"
+      },
+      {
+        "en": "change",
+        "ipa": "[t\u0283e\u026And\u0292]",
+        "ru": "\u0438\u0437\u043C\u0435\u043D\u0435\u043D\u0438\u0435"
+      },
+      {
+        "en": "reason",
+        "ipa": "[\u02C8ri\u02D0z\u0259n]",
+        "ru": "\u043F\u0440\u0438\u0447\u0438\u043D\u0430"
+      },
+      {
+        "en": "opportunity",
+        "ipa": "[\u02CC\u0252p\u0259\u02C8tju\u02D0n\u0259ti]",
+        "ru": "\u0432\u043E\u0437\u043C\u043E\u0436\u043D\u043E\u0441\u0442\u044C"
+      },
+      {
+        "en": "customer",
+        "ipa": "[\u02C8k\u028Cst\u0259m\u0259]",
+        "ru": "\u043A\u043B\u0438\u0435\u043D\u0442"
+      },
+      {
+        "en": "colleague",
+        "ipa": "[\u02C8k\u0252li\u02D0\u0261]",
+        "ru": "\u043A\u043E\u043B\u043B\u0435\u0433\u0430"
+      },
+      {
+        "en": "contract",
+        "ipa": "[\u02C8k\u0252ntr\u00E6kt]",
+        "ru": "\u0434\u043E\u0433\u043E\u0432\u043E\u0440"
+      },
+      {
+        "en": "task",
+        "ipa": "[t\u0251\u02D0sk]",
+        "ru": "\u0437\u0430\u0434\u0430\u0447\u0430"
+      },
+      {
+        "en": "goal",
+        "ipa": "[\u0261\u0259\u028Al]",
+        "ru": "\u0446\u0435\u043B\u044C"
+      },
+      {
+        "en": "experience",
+        "ipa": "[\u026Ak\u02C8sp\u026A\u0259ri\u0259ns]",
+        "ru": "\u043E\u043F\u044B\u0442"
+      },
+      {
+        "en": "knowledge",
+        "ipa": "[\u02C8n\u0252l\u026Ad\u0292]",
+        "ru": "\u0437\u043D\u0430\u043D\u0438\u0435"
+      },
+      {
+        "en": "training",
+        "ipa": "[\u02C8tre\u026An\u026A\u014B]",
+        "ru": "\u043E\u0431\u0443\u0447\u0435\u043D\u0438\u0435"
+      },
+      {
+        "en": "subject",
+        "ipa": "[\u02C8s\u028Cbd\u0292ekt]",
+        "ru": "\u043F\u0440\u0435\u0434\u043C\u0435\u0442"
+      },
+      {
+        "en": "research",
+        "ipa": "[r\u026A\u02C8s\u025C\u02D0t\u0283]",
+        "ru": "\u0438\u0441\u0441\u043B\u0435\u0434\u043E\u0432\u0430\u043D\u0438\u0435"
+      },
+      {
+        "en": "example",
+        "ipa": "[\u026A\u0261\u02C8z\u0251\u02D0mp\u0259l]",
+        "ru": "\u043F\u0440\u0438\u043C\u0435\u0440"
+      },
+      {
+        "en": "compare",
+        "ipa": "[k\u0259m\u02C8pe\u0259]",
+        "ru": "\u0441\u0440\u0430\u0432\u043D\u0438\u0432\u0430\u0442\u044C"
+      },
+      {
+        "en": "solve",
+        "ipa": "[s\u0252lv]",
+        "ru": "\u0440\u0435\u0448\u0430\u0442\u044C"
+      },
+      {
+        "en": "improve",
+        "ipa": "[\u026Am\u02C8pru\u02D0v]",
+        "ru": "\u0443\u043B\u0443\u0447\u0448\u0430\u0442\u044C"
+      },
+      {
+        "en": "develop",
+        "ipa": "[d\u026A\u02C8vel\u0259p]",
+        "ru": "\u0440\u0430\u0437\u0432\u0438\u0432\u0430\u0442\u044C"
+      },
+      {
+        "en": "choose",
+        "ipa": "[t\u0283u\u02D0z]",
+        "ru": "\u0432\u044B\u0431\u0438\u0440\u0430\u0442\u044C"
+      },
+      {
+        "en": "conversation",
+        "ipa": "[conversation]",
+        "ru": "\u0440\u0430\u0437\u0433\u043E\u0432\u043E\u0440"
+      },
+      {
+        "en": "discussion",
+        "ipa": "[discussion]",
+        "ru": "\u043E\u0431\u0441\u0443\u0436\u0434\u0435\u043D\u0438\u0435"
+      },
+      {
+        "en": "explain",
+        "ipa": "[explain]",
+        "ru": "\u043E\u0431\u044A\u044F\u0441\u043D\u044F\u0442\u044C"
+      },
+      {
+        "en": "describe",
+        "ipa": "[describe]",
+        "ru": "\u043E\u043F\u0438\u0441\u044B\u0432\u0430\u0442\u044C"
       }
     ]
   }

@@ -1,194 +1,295 @@
 {
-  "vocabulary": [
-    { "en": "work", "ipa": "/wɜːk/", "ru": "работать; работа" },
-    { "en": "watch", "ipa": "/wɒtʃ/", "ru": "смотреть" },
-    { "en": "movie", "ipa": "/ˈmuːvi/", "ru": "фильм" },
-    { "en": "video", "ipa": "/ˈvɪdiəʊ/", "ru": "видео" },
-    { "en": "program", "ipa": "/ˈprəʊɡræm/", "ru": "программа" },
-    { "en": "yesterday", "ipa": "/ˈjestədeɪ/", "ru": "вчера" },
-
-    { "en": "talk", "ipa": "/tɔːk/", "ru": "говорить" },
-    { "en": "about", "ipa": "/əˈbaʊt/", "ru": "о; об" },
-    { "en": "often", "ipa": "/ˈɒfən/", "ru": "часто" },
-    { "en": "different", "ipa": "/ˈdɪfrənt/", "ru": "разный" },
-    { "en": "things", "ipa": "/θɪŋz/", "ru": "вещи" },
-
-    { "en": "want", "ipa": "/wɒnt/", "ru": "хотеть" },
-    { "en": "visit", "ipa": "/ˈvɪzɪt/", "ru": "посетить" },
-    { "en": "place", "ipa": "/pleɪs/", "ru": "место" },
-    { "en": "improve", "ipa": "/ɪmˈpruːv/", "ru": "улучшить" },
-    { "en": "English", "ipa": "/ˈɪŋɡlɪʃ/", "ru": "английский" },
-    { "en": "grammar", "ipa": "/ˈɡræmə/", "ru": "грамматика" },
-    { "en": "other", "ipa": "/ˈʌðə/", "ru": "другой; другие" },
-    { "en": "countries", "ipa": "/ˈkʌntriz/", "ru": "страны" },
-    { "en": "cities", "ipa": "/ˈsɪtiz/", "ru": "города" },
-    { "en": "communicate", "ipa": "/kəˈmjuːnɪkeɪt/", "ru": "общаться" },
-    { "en": "people", "ipa": "/ˈpiːpl/", "ru": "люди" },
-    { "en": "from", "ipa": "/frɒm/", "ru": "из; от" },
-    { "en": "choose", "ipa": "/tʃuːz/", "ru": "выбрать" },
-    { "en": "best", "ipa": "/best/", "ru": "лучший" },
-    { "en": "hotel", "ipa": "/həʊˈtel/", "ru": "отель" },
-    { "en": "find", "ipa": "/faɪnd/", "ru": "найти" },
-    { "en": "good", "ipa": "/ɡʊd/", "ru": "хороший" },
-    { "en": "job", "ipa": "/dʒɒb/", "ru": "работа" },
-
-    { "en": "look at", "ipa": "/lʊk æt/", "ru": "посмотреть на" },
-    { "en": "him", "ipa": "/hɪm/", "ru": "его; ему" },
-    { "en": "her", "ipa": "/hɜː/", "ru": "её; ей" },
-    { "en": "me", "ipa": "/miː/", "ru": "меня; мне" },
-    { "en": "and", "ipa": "/ænd/", "ru": "и" },
-
-    { "en": "use", "ipa": "/juːz/", "ru": "использовать; пользоваться" },
-    { "en": "the Internet", "ipa": "/ði ˈɪntənet/", "ru": "интернет" },
-    { "en": "service", "ipa": "/ˈsɜːvɪs/", "ru": "услуга" },
-
-    { "en": "play", "ipa": "/pleɪ/", "ru": "играть" },
-    { "en": "games", "ipa": "/ɡeɪmz/", "ru": "игры" },
-    { "en": "football", "ipa": "/ˈfʊtbɔːl/", "ru": "футбол" },
-    { "en": "together", "ipa": "/təˈɡeðə/", "ru": "вместе" },
-
-    { "en": "study", "ipa": "/ˈstʌdi/", "ru": "учиться" },
-    { "en": "here", "ipa": "/hɪə/", "ru": "здесь" },
-    { "en": "there", "ipa": "/ðeə/", "ru": "там" },
-    { "en": "in another country", "ipa": "/ɪn əˈnʌðə ˈkʌntri/", "ru": "в другой стране" },
-    { "en": "abroad", "ipa": "/əˈbrɔːd/", "ru": "за границей" },
-
-    { "en": "need", "ipa": "/niːd/", "ru": "нуждаться; нужно" },
-    { "en": "your help", "ipa": "/jɔː help/", "ru": "твоя помощь" },
-    { "en": "this money", "ipa": "/ðɪs ˈmʌni/", "ru": "эти деньги" },
-
-    { "en": "ask", "ipa": "/ɑːsk/", "ru": "спрашивать; задавать" },
-    { "en": "question", "ipa": "/ˈkwestʃən/", "ru": "вопрос" },
-    { "en": "some questions", "ipa": "/sʌm ˈkwestʃənz/", "ru": "некоторые вопросы" },
-    { "en": "answer", "ipa": "/ˈɑːnsə/", "ru": "отвечать" },
-    { "en": "letter", "ipa": "/ˈletə/", "ru": "письмо" },
-
-    { "en": "like", "ipa": "/laɪk/", "ru": "нравиться" },
-    { "en": "really", "ipa": "/ˈrɪəli/", "ru": "действительно; очень" },
-    { "en": "course", "ipa": "/kɔːs/", "ru": "курс" },
-
-    { "en": "accident", "ipa": "/ˈæksɪdənt/", "ru": "происшествие" },
-    { "en": "happen", "ipa": "/ˈhæpən/", "ru": "случаться" },
-    { "en": "last night", "ipa": "/lɑːst naɪt/", "ru": "прошлой ночью" },
-
-    { "en": "order", "ipa": "/ˈɔːdə/", "ru": "заказывать" },
-    { "en": "my new computer", "ipa": "/maɪ njuː kəmˈpjuːtə/", "ru": "мой новый компьютер" },
-    { "en": "online", "ipa": "/ˌɒnˈlaɪn/", "ru": "онлайн" },
-
-    { "en": "live", "ipa": "/lɪv/", "ru": "жить" },
-    { "en": "in this place", "ipa": "/ɪn ðɪs pleɪs/", "ru": "в этом месте" },
-    { "en": "area", "ipa": "/ˈeəriə/", "ru": "район" },
-
-    { "en": "last week", "ipa": "/lɑːst wiːk/", "ru": "на прошлой неделе" },
-    { "en": "last month", "ipa": "/lɑːst mʌnθ/", "ru": "в прошлом месяце" },
-    { "en": "last year", "ipa": "/lɑːst jɪə/", "ru": "в прошлом году" },
-    { "en": "three days ago", "ipa": "/θriː deɪz əˈɡəʊ/", "ru": "три дня назад" },
-    { "en": "two months ago", "ipa": "/tuː mʌnθs əˈɡəʊ/", "ru": "два месяца назад" },
-    { "en": "call", "ipa": "/kɔːl/", "ru": "звонить" },
-    { "en": "arrive", "ipa": "/əˈraɪv/", "ru": "прибывать" },
-    { "en": "two hours ago", "ipa": "/tuː ˈaʊəz əˈɡəʊ/", "ru": "два часа назад" },
-    { "en": "an hour ago", "ipa": "/ən ˈaʊə əˈɡəʊ/", "ru": "час назад" },
-    { "en": "three hours ago", "ipa": "/θriː ˈaʊəz əˈɡəʊ/", "ru": "три часа назад" },
-    { "en": "the day before yesterday", "ipa": "/ðə deɪ bɪˈfɔː ˈjestədeɪ/", "ru": "позавчера" },
-    { "en": "start", "ipa": "/stɑːt/", "ru": "начинать" },
-    { "en": "finish", "ipa": "/ˈfɪnɪʃ/", "ru": "заканчивать" },
-    { "en": "my work", "ipa": "/maɪ wɜːk/", "ru": "моя работа" },
-    { "en": "thirty minutes ago", "ipa": "/ˈθɜːti ˈmɪnɪts əˈɡəʊ/", "ru": "тридцать минут назад" },
-
-    { "en": "help", "ipa": "/help/", "ru": "помогать" },
-    { "en": "so much", "ipa": "/səʊ mʌtʃ/", "ru": "так сильно; так много" }
-  ],
   "sections": [
     {
       "title": "Past Simple: regular verbs with -ed",
       "rule": "В Past Simple правильные глаголы обычно получают окончание -ed: worked, watched, talked, wanted, played, studied.",
       "examples": [
-        { "en": "I worked so much", "ipa": "/aɪ wɜːkt səʊ mʌtʃ/", "ru": "Я работал так много" },
-        { "en": "I watched this movie", "ipa": "/aɪ wɒtʃt ðɪs ˈmuːvi/", "ru": "Я посмотрел этот фильм" },
-        { "en": "I watched this video", "ipa": "/aɪ wɒtʃt ðɪs ˈvɪdiəʊ/", "ru": "Я посмотрел это видео" },
-        { "en": "I watched this program yesterday", "ipa": "/aɪ wɒtʃt ðɪs ˈprəʊɡræm ˈjestədeɪ/", "ru": "Я смотрел эту программу вчера" },
-        { "en": "We often talked about it", "ipa": "/wiː ˈɒfən tɔːkt əˈbaʊt ɪt/", "ru": "Мы часто говорили об этом" },
-        { "en": "We talked about different things", "ipa": "/wiː tɔːkt əˈbaʊt ˈdɪfrənt θɪŋz/", "ru": "Мы говорили о разных вещах" },
-        { "en": "I played different games", "ipa": "/aɪ pleɪd ˈdɪfrənt ɡeɪmz/", "ru": "Я играл в разные игры" },
-        { "en": "We played football together", "ipa": "/wiː pleɪd ˈfʊtbɔːl təˈɡeðə/", "ru": "Мы играли в футбол вместе" },
-        { "en": "I studied here", "ipa": "/aɪ ˈstʌdid hɪə/", "ru": "Я учился здесь" },
-        { "en": "He studied there", "ipa": "/hiː ˈstʌdid ðeə/", "ru": "Он учился там" },
-        { "en": "She studied in another country", "ipa": "/ʃiː ˈstʌdid ɪn əˈnʌðə ˈkʌntri/", "ru": "Она училась в другой стране" },
-        { "en": "He studied abroad", "ipa": "/hiː ˈstʌdid əˈbrɔːd/", "ru": "Он учился за границей" }
+        {
+          "en": "I worked so much",
+          "ipa": "/aɪ wɜːkt səʊ mʌtʃ/",
+          "ru": "Я работал так много"
+        },
+        {
+          "en": "I watched this movie",
+          "ipa": "/aɪ wɒtʃt ðɪs ˈmuːvi/",
+          "ru": "Я посмотрел этот фильм"
+        },
+        {
+          "en": "I watched this video",
+          "ipa": "/aɪ wɒtʃt ðɪs ˈvɪdiəʊ/",
+          "ru": "Я посмотрел это видео"
+        },
+        {
+          "en": "I watched this program yesterday",
+          "ipa": "/aɪ wɒtʃt ðɪs ˈprəʊɡræm ˈjestədeɪ/",
+          "ru": "Я смотрел эту программу вчера"
+        },
+        {
+          "en": "We often talked about it",
+          "ipa": "/wiː ˈɒfən tɔːkt əˈbaʊt ɪt/",
+          "ru": "Мы часто говорили об этом"
+        },
+        {
+          "en": "We talked about different things",
+          "ipa": "/wiː tɔːkt əˈbaʊt ˈdɪfrənt θɪŋz/",
+          "ru": "Мы говорили о разных вещах"
+        },
+        {
+          "en": "I played different games",
+          "ipa": "/aɪ pleɪd ˈdɪfrənt ɡeɪmz/",
+          "ru": "Я играл в разные игры"
+        },
+        {
+          "en": "We played football together",
+          "ipa": "/wiː pleɪd ˈfʊtbɔːl təˈɡeðə/",
+          "ru": "Мы играли в футбол вместе"
+        },
+        {
+          "en": "I studied here",
+          "ipa": "/aɪ ˈstʌdid hɪə/",
+          "ru": "Я учился здесь"
+        },
+        {
+          "en": "He studied there",
+          "ipa": "/hiː ˈstʌdid ðeə/",
+          "ru": "Он учился там"
+        },
+        {
+          "en": "She studied in another country",
+          "ipa": "/ʃiː ˈstʌdid ɪn əˈnʌðə ˈkʌntri/",
+          "ru": "Она училась в другой стране"
+        },
+        {
+          "en": "He studied abroad",
+          "ipa": "/hiː ˈstʌdid əˈbrɔːd/",
+          "ru": "Он учился за границей"
+        }
       ]
     },
     {
       "title": "Wanted to + verb",
       "rule": "wanted to + глагол = хотел что-то сделать.",
       "examples": [
-        { "en": "I wanted to visit this place", "ipa": "/aɪ ˈwɒntɪd tə ˈvɪzɪt ðɪs pleɪs/", "ru": "Я хотел посетить это место" },
-        { "en": "I wanted to improve my English", "ipa": "/aɪ ˈwɒntɪd tə ɪmˈpruːv maɪ ˈɪŋɡlɪʃ/", "ru": "Я хотел улучшить свой английский" },
-        { "en": "I wanted to improve my grammar", "ipa": "/aɪ ˈwɒntɪd tə ɪmˈpruːv maɪ ˈɡræmə/", "ru": "Я хотел улучшить свою грамматику" },
-        { "en": "I wanted to visit other countries and cities", "ipa": "/aɪ ˈwɒntɪd tə ˈvɪzɪt ˈʌðə ˈkʌntriz ænd ˈsɪtiz/", "ru": "Я хотел посетить другие страны и города" },
-        { "en": "I wanted to communicate with people from other countries", "ipa": "/aɪ ˈwɒntɪd tə kəˈmjuːnɪkeɪt wɪð ˈpiːpl frɒm ˈʌðə ˈkʌntriz/", "ru": "Я хотел общаться с людьми из других стран" },
-        { "en": "I wanted to choose the best hotel", "ipa": "/aɪ ˈwɒntɪd tə tʃuːz ðə best həʊˈtel/", "ru": "Я хотел выбрать лучший отель" },
-        { "en": "I wanted to find a good job", "ipa": "/aɪ ˈwɒntɪd tə faɪnd ə ɡʊd dʒɒb/", "ru": "Я хотел найти хорошую работу" },
-        { "en": "He wanted to find a good job", "ipa": "/hiː ˈwɒntɪd tə faɪnd ə ɡʊd dʒɒb/", "ru": "Он хотел найти хорошую работу" }
+        {
+          "en": "I wanted to visit this place",
+          "ipa": "/aɪ ˈwɒntɪd tə ˈvɪzɪt ðɪs pleɪs/",
+          "ru": "Я хотел посетить это место"
+        },
+        {
+          "en": "I wanted to improve my English",
+          "ipa": "/aɪ ˈwɒntɪd tə ɪmˈpruːv maɪ ˈɪŋɡlɪʃ/",
+          "ru": "Я хотел улучшить свой английский"
+        },
+        {
+          "en": "I wanted to improve my grammar",
+          "ipa": "/aɪ ˈwɒntɪd tə ɪmˈpruːv maɪ ˈɡræmə/",
+          "ru": "Я хотел улучшить свою грамматику"
+        },
+        {
+          "en": "I wanted to visit other countries and cities",
+          "ipa": "/aɪ ˈwɒntɪd tə ˈvɪzɪt ˈʌðə ˈkʌntriz ænd ˈsɪtiz/",
+          "ru": "Я хотел посетить другие страны и города"
+        },
+        {
+          "en": "I wanted to communicate with people from other countries",
+          "ipa": "/aɪ ˈwɒntɪd tə kəˈmjuːnɪkeɪt wɪð ˈpiːpl frɒm ˈʌðə ˈkʌntriz/",
+          "ru": "Я хотел общаться с людьми из других стран"
+        },
+        {
+          "en": "I wanted to choose the best hotel",
+          "ipa": "/aɪ ˈwɒntɪd tə tʃuːz ðə best həʊˈtel/",
+          "ru": "Я хотел выбрать лучший отель"
+        },
+        {
+          "en": "I wanted to find a good job",
+          "ipa": "/aɪ ˈwɒntɪd tə faɪnd ə ɡʊd dʒɒb/",
+          "ru": "Я хотел найти хорошую работу"
+        },
+        {
+          "en": "He wanted to find a good job",
+          "ipa": "/hiː ˈwɒntɪd tə faɪnd ə ɡʊd dʒɒb/",
+          "ru": "Он хотел найти хорошую работу"
+        }
       ]
     },
     {
       "title": "Looked at / used / needed",
       "rule": "Частые правильные глаголы в Past Simple: looked, used, needed.",
       "examples": [
-        { "en": "She looked at him", "ipa": "/ʃiː lʊkt æt hɪm/", "ru": "Она посмотрела на него" },
-        { "en": "He looked at her", "ipa": "/hiː lʊkt æt hɜː/", "ru": "Он посмотрел на неё" },
-        { "en": "I looked at her and she looked at me", "ipa": "/aɪ lʊkt æt hɜː ænd ʃiː lʊkt æt miː/", "ru": "Я посмотрел на неё, и она посмотрела на меня" },
-        { "en": "I often used the Internet", "ipa": "/aɪ ˈɒfən juːzd ði ˈɪntənet/", "ru": "Я часто пользовался интернетом" },
-        { "en": "I often used this service", "ipa": "/aɪ ˈɒfən juːzd ðɪs ˈsɜːvɪs/", "ru": "Я часто пользовался этой услугой" },
-        { "en": "I needed your help", "ipa": "/aɪ ˈniːdɪd jɔː help/", "ru": "Мне нужна была твоя помощь" },
-        { "en": "I needed this money", "ipa": "/aɪ ˈniːdɪd ðɪs ˈmʌni/", "ru": "Мне нужны были эти деньги" }
+        {
+          "en": "She looked at him",
+          "ipa": "/ʃiː lʊkt æt hɪm/",
+          "ru": "Она посмотрела на него"
+        },
+        {
+          "en": "He looked at her",
+          "ipa": "/hiː lʊkt æt hɜː/",
+          "ru": "Он посмотрел на неё"
+        },
+        {
+          "en": "I looked at her and she looked at me",
+          "ipa": "/aɪ lʊkt æt hɜː ænd ʃiː lʊkt æt miː/",
+          "ru": "Я посмотрел на неё, и она посмотрела на меня"
+        },
+        {
+          "en": "I often used the Internet",
+          "ipa": "/aɪ ˈɒfən juːzd ði ˈɪntənet/",
+          "ru": "Я часто пользовался интернетом"
+        },
+        {
+          "en": "I often used this service",
+          "ipa": "/aɪ ˈɒfən juːzd ðɪs ˈsɜːvɪs/",
+          "ru": "Я часто пользовался этой услугой"
+        },
+        {
+          "en": "I needed your help",
+          "ipa": "/aɪ ˈniːdɪd jɔː help/",
+          "ru": "Мне нужна была твоя помощь"
+        },
+        {
+          "en": "I needed this money",
+          "ipa": "/aɪ ˈniːdɪd ðɪs ˈmʌni/",
+          "ru": "Мне нужны были эти деньги"
+        }
       ]
     },
     {
       "title": "Asked / answered / liked",
       "rule": "Ещё частые формы Past Simple: asked, answered, liked.",
       "examples": [
-        { "en": "I asked him a question", "ipa": "/aɪ ɑːskt hɪm ə ˈkwestʃən/", "ru": "Я задал ему вопрос" },
-        { "en": "I asked her some questions", "ipa": "/aɪ ɑːskt hɜː sʌm ˈkwestʃənz/", "ru": "Я задал ей некоторые вопросы" },
-        { "en": "He answered this question", "ipa": "/hiː ˈɑːnsəd ðɪs ˈkwestʃən/", "ru": "Он ответил на этот вопрос" },
-        { "en": "I answered this letter", "ipa": "/aɪ ˈɑːnsəd ðɪs ˈletə/", "ru": "Я ответил на это письмо" },
-        { "en": "I liked this place", "ipa": "/aɪ laɪkt ðɪs pleɪs/", "ru": "Мне понравилось это место" },
-        { "en": "I really liked this video", "ipa": "/aɪ ˈrɪəli laɪkt ðɪs ˈvɪdiəʊ/", "ru": "Мне очень понравилось это видео" },
-        { "en": "I really liked this course", "ipa": "/aɪ ˈrɪəli laɪkt ðɪs kɔːs/", "ru": "Мне очень понравился этот курс" }
+        {
+          "en": "I asked him a question",
+          "ipa": "/aɪ ɑːskt hɪm ə ˈkwestʃən/",
+          "ru": "Я задал ему вопрос"
+        },
+        {
+          "en": "I asked her some questions",
+          "ipa": "/aɪ ɑːskt hɜː sʌm ˈkwestʃənz/",
+          "ru": "Я задал ей некоторые вопросы"
+        },
+        {
+          "en": "He answered this question",
+          "ipa": "/hiː ˈɑːnsəd ðɪs ˈkwestʃən/",
+          "ru": "Он ответил на этот вопрос"
+        },
+        {
+          "en": "I answered this letter",
+          "ipa": "/aɪ ˈɑːnsəd ðɪs ˈletə/",
+          "ru": "Я ответил на это письмо"
+        },
+        {
+          "en": "I liked this place",
+          "ipa": "/aɪ laɪkt ðɪs pleɪs/",
+          "ru": "Мне понравилось это место"
+        },
+        {
+          "en": "I really liked this video",
+          "ipa": "/aɪ ˈrɪəli laɪkt ðɪs ˈvɪdiəʊ/",
+          "ru": "Мне очень понравилось это видео"
+        },
+        {
+          "en": "I really liked this course",
+          "ipa": "/aɪ ˈrɪəli laɪkt ðɪs kɔːs/",
+          "ru": "Мне очень понравился этот курс"
+        }
       ]
     },
     {
       "title": "Happened / ordered / lived",
       "rule": "Фразы из слайдов с happened, ordered, lived.",
       "examples": [
-        { "en": "This accident happened yesterday", "ipa": "/ðɪs ˈæksɪdənt ˈhæpənd ˈjestədeɪ/", "ru": "Это происшествие случилось вчера" },
-        { "en": "This accident happened last night", "ipa": "/ðɪs ˈæksɪdənt ˈhæpənd lɑːst naɪt/", "ru": "Это происшествие случилось прошлой ночью" },
-        { "en": "I ordered my new computer online", "ipa": "/aɪ ˈɔːdəd maɪ njuː kəmˈpjuːtə ˌɒnˈlaɪn/", "ru": "Я заказал свой новый компьютер онлайн" },
-        { "en": "I lived in this place", "ipa": "/aɪ lɪvd ɪn ðɪs pleɪs/", "ru": "Я жил в этом месте" },
-        { "en": "I lived in this area", "ipa": "/aɪ lɪvd ɪn ðɪs ˈeəriə/", "ru": "Я жил в этом районе" }
+        {
+          "en": "This accident happened yesterday",
+          "ipa": "/ðɪs ˈæksɪdənt ˈhæpənd ˈjestədeɪ/",
+          "ru": "Это происшествие случилось вчера"
+        },
+        {
+          "en": "This accident happened last night",
+          "ipa": "/ðɪs ˈæksɪdənt ˈhæpənd lɑːst naɪt/",
+          "ru": "Это происшествие случилось прошлой ночью"
+        },
+        {
+          "en": "I ordered my new computer online",
+          "ipa": "/aɪ ˈɔːdəd maɪ njuː kəmˈpjuːtə ˌɒnˈlaɪn/",
+          "ru": "Я заказал свой новый компьютер онлайн"
+        },
+        {
+          "en": "I lived in this place",
+          "ipa": "/aɪ lɪvd ɪn ðɪs pleɪs/",
+          "ru": "Я жил в этом месте"
+        },
+        {
+          "en": "I lived in this area",
+          "ipa": "/aɪ lɪvd ɪn ðɪs ˈeəriə/",
+          "ru": "Я жил в этом районе"
+        }
       ]
     },
     {
       "title": "Past time markers",
       "rule": "В Past Simple часто используем указатели времени: yesterday, last week, ago, the day before yesterday.",
       "examples": [
-        { "en": "I called her yesterday", "ipa": "/aɪ kɔːld hɜː ˈjestədeɪ/", "ru": "Я звонил ей вчера" },
-        { "en": "She called me two hours ago", "ipa": "/ʃiː kɔːld miː tuː ˈaʊəz əˈɡəʊ/", "ru": "Она звонила мне два часа назад" },
-        { "en": "They arrived an hour ago", "ipa": "/ðeɪ əˈraɪvd ən ˈaʊə əˈɡəʊ/", "ru": "Они прибыли час назад" },
-        { "en": "It happened three hours ago", "ipa": "/ɪt ˈhæpənd θriː ˈaʊəz əˈɡəʊ/", "ru": "Это случилось три часа назад" },
-        { "en": "He visited us the day before yesterday", "ipa": "/hiː ˈvɪzɪtɪd ʌs ðə deɪ bɪˈfɔː ˈjestədeɪ/", "ru": "Он навестил нас позавчера" },
-        { "en": "I started this course", "ipa": "/aɪ ˈstɑːtɪd ðɪs kɔːs/", "ru": "Я начал этот курс" },
-        { "en": "I started this course last week", "ipa": "/aɪ ˈstɑːtɪd ðɪs kɔːs lɑːst wiːk/", "ru": "Я начал этот курс на прошлой неделе" },
-        { "en": "I finished my work", "ipa": "/aɪ ˈfɪnɪʃt maɪ wɜːk/", "ru": "Я закончил свою работу" },
-        { "en": "I finished my work thirty minutes ago", "ipa": "/aɪ ˈfɪnɪʃt maɪ wɜːk ˈθɜːti ˈmɪnɪts əˈɡəʊ/", "ru": "Я закончил свою работу тридцать минут назад" }
+        {
+          "en": "I called her yesterday",
+          "ipa": "/aɪ kɔːld hɜː ˈjestədeɪ/",
+          "ru": "Я звонил ей вчера"
+        },
+        {
+          "en": "She called me two hours ago",
+          "ipa": "/ʃiː kɔːld miː tuː ˈaʊəz əˈɡəʊ/",
+          "ru": "Она звонила мне два часа назад"
+        },
+        {
+          "en": "They arrived an hour ago",
+          "ipa": "/ðeɪ əˈraɪvd ən ˈaʊə əˈɡəʊ/",
+          "ru": "Они прибыли час назад"
+        },
+        {
+          "en": "It happened three hours ago",
+          "ipa": "/ɪt ˈhæpənd θriː ˈaʊəz əˈɡəʊ/",
+          "ru": "Это случилось три часа назад"
+        },
+        {
+          "en": "He visited us the day before yesterday",
+          "ipa": "/hiː ˈvɪzɪtɪd ʌs ðə deɪ bɪˈfɔː ˈjestədeɪ/",
+          "ru": "Он навестил нас позавчера"
+        },
+        {
+          "en": "I started this course",
+          "ipa": "/aɪ ˈstɑːtɪd ðɪs kɔːs/",
+          "ru": "Я начал этот курс"
+        },
+        {
+          "en": "I started this course last week",
+          "ipa": "/aɪ ˈstɑːtɪd ðɪs kɔːs lɑːst wiːk/",
+          "ru": "Я начал этот курс на прошлой неделе"
+        },
+        {
+          "en": "I finished my work",
+          "ipa": "/aɪ ˈfɪnɪʃt maɪ wɜːk/",
+          "ru": "Я закончил свою работу"
+        },
+        {
+          "en": "I finished my work thirty minutes ago",
+          "ipa": "/aɪ ˈfɪnɪʃt maɪ wɜːk ˈθɜːti ˈmɪnɪts əˈɡəʊ/",
+          "ru": "Я закончил свою работу тридцать минут назад"
+        }
       ]
     },
     {
       "title": "Helped me",
       "rule": "helped = помог. Можно усилить really / so much.",
       "examples": [
-        { "en": "You really helped me", "ipa": "/juː ˈrɪəli helpt miː/", "ru": "Ты действительно помог мне" },
-        { "en": "You helped me so much", "ipa": "/juː helpt miː səʊ mʌtʃ/", "ru": "Ты помог мне так сильно" }
+        {
+          "en": "You really helped me",
+          "ipa": "/juː ˈrɪəli helpt miː/",
+          "ru": "Ты действительно помог мне"
+        },
+        {
+          "en": "You helped me so much",
+          "ipa": "/juː helpt miː səʊ mʌtʃ/",
+          "ru": "Ты помог мне так сильно"
+        }
       ]
     }
   ]

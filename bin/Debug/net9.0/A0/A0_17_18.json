@@ -1,123 +1,295 @@
 {
-  "vocabulary": [
-    { "en": "busy", "ipa": "/ˈbɪzi/", "ru": "занятый" },
-    { "en": "at home", "ipa": "/æt həʊm/", "ru": "дома" },
-    { "en": "free", "ipa": "/friː/", "ru": "свободный" },
-    { "en": "at work", "ipa": "/æt wɜːk/", "ru": "на работе" },
-    { "en": "at school", "ipa": "/æt skuːl/", "ru": "в школе" },
-    { "en": "right", "ipa": "/raɪt/", "ru": "правый; правильный" },
-    { "en": "place", "ipa": "/pleɪs/", "ru": "место" },
-    { "en": "happy", "ipa": "/ˈhæpi/", "ru": "счастливый" },
-    { "en": "away", "ipa": "/əˈweɪ/", "ru": "в отъезде; далеко" },
-    { "en": "with", "ipa": "/wɪð/", "ru": "с (кем-то)" },
-    { "en": "interesting", "ipa": "/ˈɪntrəstɪŋ/", "ru": "интересный" },
-    { "en": "expensive", "ipa": "/ɪkˈspensɪv/", "ru": "дорогой" },
-    { "en": "businessman", "ipa": "/ˈbɪznəsmən/", "ru": "бизнесмен" },
-    { "en": "doctor", "ipa": "/ˈdɒktə/", "ru": "врач" },
-    { "en": "nurse", "ipa": "/nɜːs/", "ru": "медсестра" },
-    { "en": "manager", "ipa": "/ˈmænɪdʒə/", "ru": "менеджер" },
-    { "en": "England", "ipa": "/ˈɪŋɡlənd/", "ru": "Англия" },
-    { "en": "Russia", "ipa": "/ˈrʌʃə/", "ru": "Россия" },
-    { "en": "the United States", "ipa": "/ðə juːˈnaɪtɪd steɪts/", "ru": "Соединенные Штаты" },
-    { "en": "Italy", "ipa": "/ˈɪtəli/", "ru": "Италия" },
-    { "en": "mistake", "ipa": "/mɪsˈteɪk/", "ru": "ошибка" },
-    { "en": "important", "ipa": "/ɪmˈpɔːtənt/", "ru": "важный" },
-    { "en": "near", "ipa": "/nɪə/", "ru": "рядом" },
-    { "en": "far", "ipa": "/fɑː/", "ru": "далеко" },
-    { "en": "good", "ipa": "/ɡʊd/", "ru": "хороший" },
-    { "en": "bad", "ipa": "/bæd/", "ru": "плохой" }
-  ],
   "sections": [
     {
       "title": "To Be Questions: Basic Adjectives (Slide 1)",
       "rule": "Are you + adjective?",
       "examples": [
-        { "en": "Are you busy?", "ipa": "/ɑː juː ˈbɪzi/", "ru": "Ты занят?" },
-        { "en": "Are you at home?", "ipa": "/ɑː juː æt həʊm/", "ru": "Ты дома?" },
-        { "en": "Are you free?", "ipa": "/ɑː juː friː/", "ru": "Ты свободен?" },
-        { "en": "Are we busy?", "ipa": "/ɑː wiː ˈbɪzi/", "ru": "Мы заняты?" },
-        { "en": "Are they busy?", "ipa": "/ɑː ðeɪ ˈbɪzi/", "ru": "Они заняты?" },
-        { "en": "Is he busy?", "ipa": "/ɪz hiː ˈbɪzi/", "ru": "Он занят?" },
-        { "en": "Is she busy?", "ipa": "/ɪz ʃiː ˈbɪzi/", "ru": "Она занята?" },
-        { "en": "Is it busy?", "ipa": "/ɪz ɪt ˈbɪzi/", "ru": "Это занято?" }
+        {
+          "en": "Are you busy?",
+          "ipa": "/ɑː juː ˈbɪzi/",
+          "ru": "Ты занят?"
+        },
+        {
+          "en": "Are you at home?",
+          "ipa": "/ɑː juː æt həʊm/",
+          "ru": "Ты дома?"
+        },
+        {
+          "en": "Are you free?",
+          "ipa": "/ɑː juː friː/",
+          "ru": "Ты свободен?"
+        },
+        {
+          "en": "Are we busy?",
+          "ipa": "/ɑː wiː ˈbɪzi/",
+          "ru": "Мы заняты?"
+        },
+        {
+          "en": "Are they busy?",
+          "ipa": "/ɑː ðeɪ ˈbɪzi/",
+          "ru": "Они заняты?"
+        },
+        {
+          "en": "Is he busy?",
+          "ipa": "/ɪz hiː ˈbɪzi/",
+          "ru": "Он занят?"
+        },
+        {
+          "en": "Is she busy?",
+          "ipa": "/ɪz ʃiː ˈbɪzi/",
+          "ru": "Она занята?"
+        },
+        {
+          "en": "Is it busy?",
+          "ipa": "/ɪz ɪt ˈbɪzi/",
+          "ru": "Это занято?"
+        }
       ]
     },
     {
       "title": "Work & Location (Slide 2)",
       "rule": "Are you at + place?",
       "examples": [
-        { "en": "Are you at work now?", "ipa": "/ɑː juː æt wɜːk naʊ/", "ru": "Ты сейчас на работе?" },
-        { "en": "Are you at school?", "ipa": "/ɑː juː æt skuːl/", "ru": "Ты в школе?" },
-        { "en": "Are we right?", "ipa": "/ɑː wiː raɪt/", "ru": "Мы правы?" },
-        { "en": "Are we in the right place?", "ipa": "/ɑː wiː ɪn ðə raɪt pleɪs/", "ru": "Мы в правильном месте?" },
-        { "en": "Are they at work?", "ipa": "/ɑː ðeɪ æt wɜːk/", "ru": "Они на работе?" },
-        { "en": "Is he at work?", "ipa": "/ɪz hiː æt wɜːk/", "ru": "Он на работе?" },
-        { "en": "Is she at work?", "ipa": "/ɪz ʃiː æt wɜːk/", "ru": "Она на работе?" }
+        {
+          "en": "Are you at work now?",
+          "ipa": "/ɑː juː æt wɜːk naʊ/",
+          "ru": "Ты сейчас на работе?"
+        },
+        {
+          "en": "Are you at school?",
+          "ipa": "/ɑː juː æt skuːl/",
+          "ru": "Ты в школе?"
+        },
+        {
+          "en": "Are we right?",
+          "ipa": "/ɑː wiː raɪt/",
+          "ru": "Мы правы?"
+        },
+        {
+          "en": "Are we in the right place?",
+          "ipa": "/ɑː wiː ɪn ðə raɪt pleɪs/",
+          "ru": "Мы в правильном месте?"
+        },
+        {
+          "en": "Are they at work?",
+          "ipa": "/ɑː ðeɪ æt wɜːk/",
+          "ru": "Они на работе?"
+        },
+        {
+          "en": "Is he at work?",
+          "ipa": "/ɪz hiː æt wɜːk/",
+          "ru": "Он на работе?"
+        },
+        {
+          "en": "Is she at work?",
+          "ipa": "/ɪz ʃiː æt wɜːk/",
+          "ru": "Она на работе?"
+        }
       ]
     },
     {
       "title": "State & Away (Slide 3-4)",
       "rule": "Questions with happy / away / with you.",
       "examples": [
-        { "en": "Are they happy?", "ipa": "/ɑː ðeɪ ˈhæpi/", "ru": "Они счастливы?" },
-        { "en": "Are they away?", "ipa": "/ɑː ðeɪ əˈweɪ/", "ru": "Они в отъезде?" },
-        { "en": "Is he away?", "ipa": "/ɪz hiː əˈweɪ/", "ru": "Он в отъезде?" },
-        { "en": "Is she away?", "ipa": "/ɪz ʃiː əˈweɪ/", "ru": "Она в отъезде?" },
-        { "en": "Is she with you?", "ipa": "/ɪz ʃiː wɪð juː/", "ru": "Она с тобой?" },
-        { "en": "Are you happy?", "ipa": "/ɑː juː ˈhæpi/", "ru": "Ты счастлив?" },
-        { "en": "Are we happy?", "ipa": "/ɑː wiː ˈhæpi/", "ru": "Мы счастливы?" },
-        { "en": "Is it happy?", "ipa": "/ɪz ɪt ˈhæpi/", "ru": "Это счастливо? (например, животное)" }
+        {
+          "en": "Are they happy?",
+          "ipa": "/ɑː ðeɪ ˈhæpi/",
+          "ru": "Они счастливы?"
+        },
+        {
+          "en": "Are they away?",
+          "ipa": "/ɑː ðeɪ əˈweɪ/",
+          "ru": "Они в отъезде?"
+        },
+        {
+          "en": "Is he away?",
+          "ipa": "/ɪz hiː əˈweɪ/",
+          "ru": "Он в отъезде?"
+        },
+        {
+          "en": "Is she away?",
+          "ipa": "/ɪz ʃiː əˈweɪ/",
+          "ru": "Она в отъезде?"
+        },
+        {
+          "en": "Is she with you?",
+          "ipa": "/ɪz ʃiː wɪð juː/",
+          "ru": "Она с тобой?"
+        },
+        {
+          "en": "Are you happy?",
+          "ipa": "/ɑː juː ˈhæpi/",
+          "ru": "Ты счастлив?"
+        },
+        {
+          "en": "Are we happy?",
+          "ipa": "/ɑː wiː ˈhæpi/",
+          "ru": "Мы счастливы?"
+        },
+        {
+          "en": "Is it happy?",
+          "ipa": "/ɪz ɪt ˈhæpi/",
+          "ru": "Это счастливо? (например, животное)"
+        }
       ]
     },
     {
       "title": "Interest & Cost (Slide 4)",
       "rule": "Is it + adjective?",
       "examples": [
-        { "en": "Is it interesting for you?", "ipa": "/ɪz ɪt ˈɪntrəstɪŋ fɔː juː/", "ru": "Это интересно тебе?" },
-        { "en": "Is it expensive?", "ipa": "/ɪz ɪt ɪkˈspensɪv/", "ru": "Это дорого?" },
-        { "en": "Is it cheap?", "ipa": "/ɪz ɪt tʃiːp/", "ru": "Это дешево? (антоним из контекста)" }
+        {
+          "en": "Is it interesting for you?",
+          "ipa": "/ɪz ɪt ˈɪntrəstɪŋ fɔː juː/",
+          "ru": "Это интересно тебе?"
+        },
+        {
+          "en": "Is it expensive?",
+          "ipa": "/ɪz ɪt ɪkˈspensɪv/",
+          "ru": "Это дорого?"
+        },
+        {
+          "en": "Is it cheap?",
+          "ipa": "/ɪz ɪt tʃiːp/",
+          "ru": "Это дешево? (антоним из контекста)"
+        }
       ]
     },
     {
       "title": "Jobs & Careers (Slide 5-6)",
       "rule": "Is he/she a + job? vs Are they + jobs (plural).",
       "examples": [
-        { "en": "Is he a businessman?", "ipa": "/ɪz hiː ə ˈbɪznəsmən/", "ru": "Он бизнесмен?" },
-        { "en": "Is she a doctor?", "ipa": "/ɪz ʃiː ə ˈdɒktə/", "ru": "Она врач?" },
-        { "en": "Is she a nurse?", "ipa": "/ɪz ʃiː ə nɜːs/", "ru": "Она медсестра?" },
-        { "en": "Is he a manager?", "ipa": "/ɪz hiː ə ˈmænɪdʒə/", "ru": "Он менеджер?" },
-        { "en": "Are they managers?", "ipa": "/ɑː ðeɪ ˈmænɪdʒəz/", "ru": "Они менеджеры?" },
-        { "en": "Are they doctors?", "ipa": "/ɑː ðeɪ ˈdɒktəz/", "ru": "Они врачи?" },
-        { "en": "Are they nurses?", "ipa": "/ɑː ðeɪ nɜːsɪz/", "ru": "Они медсестры?" },
-        { "en": "Are they businessmen?", "ipa": "/ɑː ðeɪ ˈbɪznəsmən/", "ru": "Они бизнесмены?" }
+        {
+          "en": "Is he a businessman?",
+          "ipa": "/ɪz hiː ə ˈbɪznəsmən/",
+          "ru": "Он бизнесмен?"
+        },
+        {
+          "en": "Is she a doctor?",
+          "ipa": "/ɪz ʃiː ə ˈdɒktə/",
+          "ru": "Она врач?"
+        },
+        {
+          "en": "Is she a nurse?",
+          "ipa": "/ɪz ʃiː ə nɜːs/",
+          "ru": "Она медсестра?"
+        },
+        {
+          "en": "Is he a manager?",
+          "ipa": "/ɪz hiː ə ˈmænɪdʒə/",
+          "ru": "Он менеджер?"
+        },
+        {
+          "en": "Are they managers?",
+          "ipa": "/ɑː ðeɪ ˈmænɪdʒəz/",
+          "ru": "Они менеджеры?"
+        },
+        {
+          "en": "Are they doctors?",
+          "ipa": "/ɑː ðeɪ ˈdɒktəz/",
+          "ru": "Они врачи?"
+        },
+        {
+          "en": "Are they nurses?",
+          "ipa": "/ɑː ðeɪ nɜːsɪz/",
+          "ru": "Они медсестры?"
+        },
+        {
+          "en": "Are they businessmen?",
+          "ipa": "/ɑː ðeɪ ˈbɪznəsmən/",
+          "ru": "Они бизнесмены?"
+        }
       ]
     },
     {
       "title": "Countries & Origin (Slide 7-8)",
       "rule": "Are you from + Country?",
       "examples": [
-        { "en": "Are you from England?", "ipa": "/ɑː juː frəm ˈɪŋɡlənd/", "ru": "Ты из Англии?" },
-        { "en": "Are you from Russia?", "ipa": "/ɑː juː frəm ˈrʌʃə/", "ru": "Вы из России?" },
-        { "en": "Is he from the United States?", "ipa": "/ɪz hiː frəm ðə juːˈnaɪtɪd steɪts/", "ru": "Он из Соединенных Штатов?" },
-        { "en": "Is she from Italy?", "ipa": "/ɪz ʃiː frəm ˈɪtəli/", "ru": "Она из Италии?" },
-        { "en": "Are they from Italy?", "ipa": "/ɑː ðeɪ frəm ˈɪtəli/", "ru": "Они из Италии?" }
+        {
+          "en": "Are you from England?",
+          "ipa": "/ɑː juː frəm ˈɪŋɡlənd/",
+          "ru": "Ты из Англии?"
+        },
+        {
+          "en": "Are you from Russia?",
+          "ipa": "/ɑː juː frəm ˈrʌʃə/",
+          "ru": "Вы из России?"
+        },
+        {
+          "en": "Is he from the United States?",
+          "ipa": "/ɪz hiː frəm ðə juːˈnaɪtɪd steɪts/",
+          "ru": "Он из Соединенных Штатов?"
+        },
+        {
+          "en": "Is she from Italy?",
+          "ipa": "/ɪz ʃiː frəm ˈɪtəli/",
+          "ru": "Она из Италии?"
+        },
+        {
+          "en": "Are they from Italy?",
+          "ipa": "/ɑː ðeɪ frəm ˈɪtəli/",
+          "ru": "Они из Италии?"
+        }
       ]
     },
     {
       "title": "Evaluation & Distance (Slide 8-10)",
       "rule": "Is it + evaluation / Are you + distance.",
       "examples": [
-        { "en": "Is it a mistake?", "ipa": "/ɪz ɪt ə mɪsˈteɪk/", "ru": "Это ошибка?" },
-        { "en": "Is it important?", "ipa": "/ɪz ɪt ɪmˈpɔːtənt/", "ru": "Это важно?" },
-        { "en": "Is it really important?", "ipa": "/ɪz ɪt ˈrɪəli ɪmˈpɔːtənt/", "ru": "Это действительно важно?" },
-        { "en": "Are you near?", "ipa": "/ɑː juː nɪə/", "ru": "Ты рядом?" },
-        { "en": "Are they near?", "ipa": "/ɑː ðeɪ nɪə/", "ru": "Они рядом?" },
-        { "en": "Is it far?", "ipa": "/ɪz ɪt fɑː/", "ru": "Это далеко?" },
-        { "en": "Is it good?", "ipa": "/ɪz ɪt ɡʊd/", "ru": "Это хорошо?" },
-        { "en": "Is it bad?", "ipa": "/ɪz ɪt bæd/", "ru": "Это плохо?" },
-        { "en": "Is it a car?", "ipa": "/ɪz ɪt ə kɑː/", "ru": "Это машина?" },
-        { "en": "Are they far?", "ipa": "/ɑː ðeɪ fɑː/", "ru": "Они далеко?" },
-        { "en": "Is he near?", "ipa": "/ɪz hiː nɪə/", "ru": "Он рядом?" }
+        {
+          "en": "Is it a mistake?",
+          "ipa": "/ɪz ɪt ə mɪsˈteɪk/",
+          "ru": "Это ошибка?"
+        },
+        {
+          "en": "Is it important?",
+          "ipa": "/ɪz ɪt ɪmˈpɔːtənt/",
+          "ru": "Это важно?"
+        },
+        {
+          "en": "Is it really important?",
+          "ipa": "/ɪz ɪt ˈrɪəli ɪmˈpɔːtənt/",
+          "ru": "Это действительно важно?"
+        },
+        {
+          "en": "Are you near?",
+          "ipa": "/ɑː juː nɪə/",
+          "ru": "Ты рядом?"
+        },
+        {
+          "en": "Are they near?",
+          "ipa": "/ɑː ðeɪ nɪə/",
+          "ru": "Они рядом?"
+        },
+        {
+          "en": "Is it far?",
+          "ipa": "/ɪz ɪt fɑː/",
+          "ru": "Это далеко?"
+        },
+        {
+          "en": "Is it good?",
+          "ipa": "/ɪz ɪt ɡʊd/",
+          "ru": "Это хорошо?"
+        },
+        {
+          "en": "Is it bad?",
+          "ipa": "/ɪz ɪt bæd/",
+          "ru": "Это плохо?"
+        },
+        {
+          "en": "Is it a car?",
+          "ipa": "/ɪz ɪt ə kɑː/",
+          "ru": "Это машина?"
+        },
+        {
+          "en": "Are they far?",
+          "ipa": "/ɑː ðeɪ fɑː/",
+          "ru": "Они далеко?"
+        },
+        {
+          "en": "Is he near?",
+          "ipa": "/ɪz hiː nɪə/",
+          "ru": "Он рядом?"
+        }
       ]
     }
   ]

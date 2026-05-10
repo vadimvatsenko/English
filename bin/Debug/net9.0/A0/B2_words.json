@@ -1,0 +1,1073 @@
+{
+  "sections": [
+    {
+      "title": "B2 Words: Abstract Ideas",
+      "rule": "Абстрактные понятия уровня B2.",
+      "examples": [
+        {
+          "ru": "концепция",
+          "en": "concept",
+          "ipa": "[concept]"
+        },
+        {
+          "ru": "принцип",
+          "en": "principle",
+          "ipa": "[principle]"
+        },
+        {
+          "ru": "теория",
+          "en": "theory",
+          "ipa": "[theory]"
+        },
+        {
+          "ru": "вопрос / проблема",
+          "en": "issue",
+          "ipa": "[issue]"
+        },
+        {
+          "ru": "аспект",
+          "en": "aspect",
+          "ipa": "[aspect]"
+        },
+        {
+          "ru": "фактор",
+          "en": "factor",
+          "ipa": "[factor]"
+        },
+        {
+          "ru": "особенность",
+          "en": "feature",
+          "ipa": "[feature]"
+        },
+        {
+          "ru": "структура",
+          "en": "structure",
+          "ipa": "[structure]"
+        },
+        {
+          "ru": "процесс",
+          "en": "process",
+          "ipa": "[process]"
+        },
+        {
+          "ru": "подход",
+          "en": "approach",
+          "ipa": "[approach]"
+        },
+        {
+          "ru": "стратегия",
+          "en": "strategy",
+          "ipa": "[strategy]"
+        },
+        {
+          "ru": "техника / метод",
+          "en": "technique",
+          "ipa": "[technique]"
+        },
+        {
+          "ru": "польза",
+          "en": "benefit",
+          "ipa": "[benefit]"
+        },
+        {
+          "ru": "преимущество",
+          "en": "advantage",
+          "ipa": "[advantage]"
+        },
+        {
+          "ru": "недостаток",
+          "en": "disadvantage",
+          "ipa": "[disadvantage]"
+        },
+        {
+          "ru": "последствие",
+          "en": "consequence",
+          "ipa": "[consequence]"
+        },
+        {
+          "ru": "влияние",
+          "en": "impact",
+          "ipa": "[impact]"
+        },
+        {
+          "ru": "влияние",
+          "en": "influence",
+          "ipa": "[influence]"
+        },
+        {
+          "ru": "доказательства",
+          "en": "evidence",
+          "ipa": "[evidence]"
+        },
+        {
+          "ru": "доказательство",
+          "en": "proof",
+          "ipa": "[proof]"
+        },
+        {
+          "ru": "источник",
+          "en": "source",
+          "ipa": "[source]"
+        },
+        {
+          "ru": "контекст",
+          "en": "context",
+          "ipa": "[context]"
+        },
+        {
+          "ru": "предыстория / фон",
+          "en": "background",
+          "ipa": "[background]"
+        },
+        {
+          "ru": "тенденция",
+          "en": "trend",
+          "ipa": "[trend]"
+        },
+        {
+          "ru": "закономерность",
+          "en": "pattern",
+          "ipa": "[pattern]"
+        },
+        {
+          "ru": "приоритет",
+          "en": "priority",
+          "ipa": "[priority]"
+        },
+        {
+          "ru": "потенциал",
+          "en": "potential",
+          "ipa": "[potential]"
+        }
+      ]
+    },
+    {
+      "title": "B2 Words: Business & Professional",
+      "rule": "Бизнес и профессиональное общение.",
+      "examples": [
+        {
+          "ru": "отрасль",
+          "en": "industry",
+          "ipa": "[industry]"
+        },
+        {
+          "ru": "потребитель",
+          "en": "consumer",
+          "ipa": "[consumer]"
+        },
+        {
+          "ru": "поставщик",
+          "en": "supplier",
+          "ipa": "[supplier]"
+        },
+        {
+          "ru": "спрос",
+          "en": "demand",
+          "ipa": "[demand]"
+        },
+        {
+          "ru": "предложение / снабжение",
+          "en": "supply",
+          "ipa": "[supply]"
+        },
+        {
+          "ru": "прибыль",
+          "en": "profit",
+          "ipa": "[profit]"
+        },
+        {
+          "ru": "убыток",
+          "en": "loss",
+          "ipa": "[loss]"
+        },
+        {
+          "ru": "доход",
+          "en": "income",
+          "ipa": "[income]"
+        },
+        {
+          "ru": "расход",
+          "en": "expense",
+          "ipa": "[expense]"
+        },
+        {
+          "ru": "бюджет",
+          "en": "budget",
+          "ipa": "[budget]"
+        },
+        {
+          "ru": "инвестиция",
+          "en": "investment",
+          "ipa": "[investment]"
+        },
+        {
+          "ru": "рост",
+          "en": "growth",
+          "ipa": "[growth]"
+        },
+        {
+          "ru": "снижение",
+          "en": "decline",
+          "ipa": "[decline]"
+        },
+        {
+          "ru": "бренд",
+          "en": "brand",
+          "ipa": "[brand]"
+        },
+        {
+          "ru": "продукт",
+          "en": "product",
+          "ipa": "[product]"
+        },
+        {
+          "ru": "качество",
+          "en": "quality",
+          "ipa": "[quality]"
+        },
+        {
+          "ru": "доставка",
+          "en": "delivery",
+          "ipa": "[delivery]"
+        },
+        {
+          "ru": "соглашение",
+          "en": "agreement",
+          "ipa": "[agreement]"
+        },
+        {
+          "ru": "переговоры",
+          "en": "negotiation",
+          "ipa": "[negotiation]"
+        },
+        {
+          "ru": "предложение",
+          "en": "proposal",
+          "ipa": "[proposal]"
+        },
+        {
+          "ru": "решение",
+          "en": "decision",
+          "ipa": "[decision]"
+        },
+        {
+          "ru": "управление",
+          "en": "management",
+          "ipa": "[management]"
+        },
+        {
+          "ru": "лидерство",
+          "en": "leadership",
+          "ipa": "[leadership]"
+        },
+        {
+          "ru": "результативность",
+          "en": "performance",
+          "ipa": "[performance]"
+        },
+        {
+          "ru": "эффективность",
+          "en": "efficiency",
+          "ipa": "[efficiency]"
+        }
+      ]
+    },
+    {
+      "title": "B2 Words: Politics, Law & Society",
+      "rule": "Политика, закон и общество.",
+      "examples": [
+        {
+          "ru": "политика / курс",
+          "en": "policy",
+          "ipa": "[policy]"
+        },
+        {
+          "ru": "выборы",
+          "en": "election",
+          "ipa": "[election]"
+        },
+        {
+          "ru": "голос / голосовать",
+          "en": "vote",
+          "ipa": "[vote]"
+        },
+        {
+          "ru": "кампания",
+          "en": "campaign",
+          "ipa": "[campaign]"
+        },
+        {
+          "ru": "кандидат",
+          "en": "candidate",
+          "ipa": "[candidate]"
+        },
+        {
+          "ru": "парламент",
+          "en": "parliament",
+          "ipa": "[parliament]"
+        },
+        {
+          "ru": "президент",
+          "en": "president",
+          "ipa": "[president]"
+        },
+        {
+          "ru": "министр",
+          "en": "minister",
+          "ipa": "[minister]"
+        },
+        {
+          "ru": "власть / орган",
+          "en": "authority",
+          "ipa": "[authority]"
+        },
+        {
+          "ru": "учреждение",
+          "en": "institution",
+          "ipa": "[institution]"
+        },
+        {
+          "ru": "демократия",
+          "en": "democracy",
+          "ipa": "[democracy]"
+        },
+        {
+          "ru": "свобода",
+          "en": "freedom",
+          "ipa": "[freedom]"
+        },
+        {
+          "ru": "справедливость",
+          "en": "justice",
+          "ipa": "[justice]"
+        },
+        {
+          "ru": "суд",
+          "en": "court",
+          "ipa": "[court]"
+        },
+        {
+          "ru": "судья",
+          "en": "judge",
+          "ipa": "[judge]"
+        },
+        {
+          "ru": "юрист",
+          "en": "lawyer",
+          "ipa": "[lawyer]"
+        },
+        {
+          "ru": "юридический",
+          "en": "legal",
+          "ipa": "[legal]"
+        },
+        {
+          "ru": "незаконный",
+          "en": "illegal",
+          "ipa": "[illegal]"
+        },
+        {
+          "ru": "наказание",
+          "en": "punishment",
+          "ipa": "[punishment]"
+        },
+        {
+          "ru": "безопасность",
+          "en": "security",
+          "ipa": "[security]"
+        },
+        {
+          "ru": "конфликт",
+          "en": "conflict",
+          "ipa": "[conflict]"
+        },
+        {
+          "ru": "права",
+          "en": "rights",
+          "ipa": "[rights]"
+        },
+        {
+          "ru": "ответственный",
+          "en": "responsible",
+          "ipa": "[responsible]"
+        }
+      ]
+    },
+    {
+      "title": "B2 Words: Science & Technology",
+      "rule": "Наука и технологии.",
+      "examples": [
+        {
+          "ru": "исследование",
+          "en": "research",
+          "ipa": "[research]"
+        },
+        {
+          "ru": "анализ",
+          "en": "analysis",
+          "ipa": "[analysis]"
+        },
+        {
+          "ru": "эксперимент",
+          "en": "experiment",
+          "ipa": "[experiment]"
+        },
+        {
+          "ru": "лаборатория",
+          "en": "laboratory",
+          "ipa": "[laboratory]"
+        },
+        {
+          "ru": "учёный",
+          "en": "scientist",
+          "ipa": "[scientist]"
+        },
+        {
+          "ru": "открытие",
+          "en": "discovery",
+          "ipa": "[discovery]"
+        },
+        {
+          "ru": "изобретение",
+          "en": "invention",
+          "ipa": "[invention]"
+        },
+        {
+          "ru": "машина / механизм",
+          "en": "machine",
+          "ipa": "[machine]"
+        },
+        {
+          "ru": "двигатель",
+          "en": "engine",
+          "ipa": "[engine]"
+        },
+        {
+          "ru": "сеть",
+          "en": "network",
+          "ipa": "[network]"
+        },
+        {
+          "ru": "система",
+          "en": "system",
+          "ipa": "[system]"
+        },
+        {
+          "ru": "база данных",
+          "en": "database",
+          "ipa": "[database]"
+        },
+        {
+          "ru": "интерфейс",
+          "en": "interface",
+          "ipa": "[interface]"
+        },
+        {
+          "ru": "алгоритм",
+          "en": "algorithm",
+          "ipa": "[algorithm]"
+        },
+        {
+          "ru": "функция",
+          "en": "function",
+          "ipa": "[function]"
+        },
+        {
+          "ru": "переменная",
+          "en": "variable",
+          "ipa": "[variable]"
+        },
+        {
+          "ru": "сигнал",
+          "en": "signal",
+          "ipa": "[signal]"
+        },
+        {
+          "ru": "датчик",
+          "en": "sensor",
+          "ipa": "[sensor]"
+        },
+        {
+          "ru": "электрический",
+          "en": "electric",
+          "ipa": "[electric]"
+        },
+        {
+          "ru": "цифровой",
+          "en": "digital",
+          "ipa": "[digital]"
+        },
+        {
+          "ru": "автоматический",
+          "en": "automatic",
+          "ipa": "[automatic]"
+        },
+        {
+          "ru": "технический",
+          "en": "technical",
+          "ipa": "[technical]"
+        }
+      ]
+    },
+    {
+      "title": "B2 Words: Emotions & Psychology",
+      "rule": "Психология и точное описание состояний.",
+      "examples": [
+        {
+          "ru": "тревога",
+          "en": "anxiety",
+          "ipa": "[anxiety]"
+        },
+        {
+          "ru": "уверенность",
+          "en": "confidence",
+          "ipa": "[confidence]"
+        },
+        {
+          "ru": "мотивация",
+          "en": "motivation",
+          "ipa": "[motivation]"
+        },
+        {
+          "ru": "внимание",
+          "en": "attention",
+          "ipa": "[attention]"
+        },
+        {
+          "ru": "фокус / сосредоточенность",
+          "en": "focus",
+          "ipa": "[focus]"
+        },
+        {
+          "ru": "давление",
+          "en": "pressure",
+          "ipa": "[pressure]"
+        },
+        {
+          "ru": "стресс",
+          "en": "stress",
+          "ipa": "[stress]"
+        },
+        {
+          "ru": "страх",
+          "en": "fear",
+          "ipa": "[fear]"
+        },
+        {
+          "ru": "злость",
+          "en": "anger",
+          "ipa": "[anger]"
+        },
+        {
+          "ru": "радость",
+          "en": "joy",
+          "ipa": "[joy]"
+        },
+        {
+          "ru": "облегчение",
+          "en": "relief",
+          "ipa": "[relief]"
+        },
+        {
+          "ru": "разочарование",
+          "en": "disappointment",
+          "ipa": "[disappointment]"
+        },
+        {
+          "ru": "удовлетворение",
+          "en": "satisfaction",
+          "ipa": "[satisfaction]"
+        },
+        {
+          "ru": "любопытство",
+          "en": "curiosity",
+          "ipa": "[curiosity]"
+        },
+        {
+          "ru": "терпение",
+          "en": "patience",
+          "ipa": "[patience]"
+        },
+        {
+          "ru": "личность",
+          "en": "personality",
+          "ipa": "[personality]"
+        },
+        {
+          "ru": "идентичность",
+          "en": "identity",
+          "ipa": "[identity]"
+        },
+        {
+          "ru": "настроение",
+          "en": "mood",
+          "ipa": "[mood]"
+        },
+        {
+          "ru": "реакция",
+          "en": "reaction",
+          "ipa": "[reaction]"
+        },
+        {
+          "ru": "эмоция",
+          "en": "emotion",
+          "ipa": "[emotion]"
+        },
+        {
+          "ru": "осознающий",
+          "en": "aware",
+          "ipa": "[aware]"
+        },
+        {
+          "ru": "чувствительный",
+          "en": "sensitive",
+          "ipa": "[sensitive]"
+        },
+        {
+          "ru": "смущённый / запутанный",
+          "en": "confused",
+          "ipa": "[confused]"
+        },
+        {
+          "ru": "впечатлённый",
+          "en": "impressed",
+          "ipa": "[impressed]"
+        }
+      ]
+    },
+    {
+      "title": "B2 Words: Formal Verbs",
+      "rule": "Более формальные глаголы B2.",
+      "examples": [
+        {
+          "ru": "адаптироваться",
+          "en": "adapt",
+          "ipa": "[adapt]"
+        },
+        {
+          "ru": "настраивать / приспосабливать",
+          "en": "adjust",
+          "ipa": "[adjust]"
+        },
+        {
+          "ru": "анализировать",
+          "en": "analyze",
+          "ipa": "[analyze]"
+        },
+        {
+          "ru": "применять / подавать заявку",
+          "en": "apply",
+          "ipa": "[apply]"
+        },
+        {
+          "ru": "оценивать",
+          "en": "assess",
+          "ipa": "[assess]"
+        },
+        {
+          "ru": "предполагать",
+          "en": "assume",
+          "ipa": "[assume]"
+        },
+        {
+          "ru": "бросать вызов",
+          "en": "challenge",
+          "ipa": "[challenge]"
+        },
+        {
+          "ru": "подтверждать",
+          "en": "confirm",
+          "ipa": "[confirm]"
+        },
+        {
+          "ru": "определять",
+          "en": "define",
+          "ipa": "[define]"
+        },
+        {
+          "ru": "демонстрировать",
+          "en": "demonstrate",
+          "ipa": "[demonstrate]"
+        },
+        {
+          "ru": "определять",
+          "en": "determine",
+          "ipa": "[determine]"
+        },
+        {
+          "ru": "подчёркивать",
+          "en": "emphasize",
+          "ipa": "[emphasize]"
+        },
+        {
+          "ru": "позволять / давать возможность",
+          "en": "enable",
+          "ipa": "[enable]"
+        },
+        {
+          "ru": "поощрять",
+          "en": "encourage",
+          "ipa": "[encourage]"
+        },
+        {
+          "ru": "устанавливать",
+          "en": "establish",
+          "ipa": "[establish]"
+        },
+        {
+          "ru": "оценивать",
+          "en": "estimate",
+          "ipa": "[estimate]"
+        },
+        {
+          "ru": "исследовать",
+          "en": "examine",
+          "ipa": "[examine]"
+        },
+        {
+          "ru": "расширять",
+          "en": "expand",
+          "ipa": "[expand]"
+        },
+        {
+          "ru": "поддерживать",
+          "en": "maintain",
+          "ipa": "[maintain]"
+        },
+        {
+          "ru": "получать",
+          "en": "obtain",
+          "ipa": "[obtain]"
+        },
+        {
+          "ru": "участвовать",
+          "en": "participate",
+          "ipa": "[participate]"
+        },
+        {
+          "ru": "требовать",
+          "en": "require",
+          "ipa": "[require]"
+        },
+        {
+          "ru": "отвечать",
+          "en": "respond",
+          "ipa": "[respond]"
+        }
+      ]
+    },
+    {
+      "title": "B2 Words: Writing & Arguments",
+      "rule": "Письмо и аргументация.",
+      "examples": [
+        {
+          "ru": "введение",
+          "en": "introduction",
+          "ipa": "[introduction]"
+        },
+        {
+          "ru": "заключение",
+          "en": "conclusion",
+          "ipa": "[conclusion]"
+        },
+        {
+          "ru": "аргумент",
+          "en": "argument",
+          "ipa": "[argument]"
+        },
+        {
+          "ru": "контраргумент",
+          "en": "counterargument",
+          "ipa": "[counterargument]"
+        },
+        {
+          "ru": "утверждение",
+          "en": "claim",
+          "ipa": "[claim]"
+        },
+        {
+          "ru": "заявление",
+          "en": "statement",
+          "ipa": "[statement]"
+        },
+        {
+          "ru": "ссылка",
+          "en": "reference",
+          "ipa": "[reference]"
+        },
+        {
+          "ru": "цитата",
+          "en": "quotation",
+          "ipa": "[quotation]"
+        },
+        {
+          "ru": "краткое изложение",
+          "en": "summary",
+          "ipa": "[summary]"
+        },
+        {
+          "ru": "план / набросок",
+          "en": "outline",
+          "ipa": "[outline]"
+        },
+        {
+          "ru": "черновик",
+          "en": "draft",
+          "ipa": "[draft]"
+        },
+        {
+          "ru": "тон",
+          "en": "tone",
+          "ipa": "[tone]"
+        },
+        {
+          "ru": "стиль",
+          "en": "style",
+          "ipa": "[style]"
+        },
+        {
+          "ru": "формальный",
+          "en": "formal",
+          "ipa": "[formal]"
+        },
+        {
+          "ru": "неформальный",
+          "en": "informal",
+          "ipa": "[informal]"
+        },
+        {
+          "ru": "точный",
+          "en": "accurate",
+          "ipa": "[accurate]"
+        },
+        {
+          "ru": "релевантный",
+          "en": "relevant",
+          "ipa": "[relevant]"
+        },
+        {
+          "ru": "логичный",
+          "en": "logical",
+          "ipa": "[logical]"
+        },
+        {
+          "ru": "убедительный",
+          "en": "convincing",
+          "ipa": "[convincing]"
+        },
+        {
+          "ru": "краткий",
+          "en": "brief",
+          "ipa": "[brief]"
+        },
+        {
+          "ru": "подробный",
+          "en": "detailed",
+          "ipa": "[detailed]"
+        }
+      ]
+    },
+    {
+      "title": "B2 Words: Environment & Global Issues",
+      "rule": "Окружающая среда и глобальные вопросы.",
+      "examples": [
+        {
+          "ru": "выброс",
+          "en": "emission",
+          "ipa": "[emission]"
+        },
+        {
+          "ru": "парниковый газ",
+          "en": "greenhouse gas",
+          "ipa": "[greenhouse gas]"
+        },
+        {
+          "ru": "возобновляемый",
+          "en": "renewable",
+          "ipa": "[renewable]"
+        },
+        {
+          "ru": "устойчивый",
+          "en": "sustainable",
+          "ipa": "[sustainable]"
+        },
+        {
+          "ru": "биоразнообразие",
+          "en": "biodiversity",
+          "ipa": "[biodiversity]"
+        },
+        {
+          "ru": "экосистема",
+          "en": "ecosystem",
+          "ipa": "[ecosystem]"
+        },
+        {
+          "ru": "вид",
+          "en": "species",
+          "ipa": "[species]"
+        },
+        {
+          "ru": "среда обитания",
+          "en": "habitat",
+          "ipa": "[habitat]"
+        },
+        {
+          "ru": "вырубка лесов",
+          "en": "deforestation",
+          "ipa": "[deforestation]"
+        },
+        {
+          "ru": "нехватка",
+          "en": "shortage",
+          "ipa": "[shortage]"
+        },
+        {
+          "ru": "наводнение",
+          "en": "flood",
+          "ipa": "[flood]"
+        },
+        {
+          "ru": "засуха",
+          "en": "drought",
+          "ipa": "[drought]"
+        },
+        {
+          "ru": "землетрясение",
+          "en": "earthquake",
+          "ipa": "[earthquake]"
+        },
+        {
+          "ru": "катастрофа",
+          "en": "disaster",
+          "ipa": "[disaster]"
+        },
+        {
+          "ru": "сельское хозяйство",
+          "en": "agriculture",
+          "ipa": "[agriculture]"
+        },
+        {
+          "ru": "городской",
+          "en": "urban",
+          "ipa": "[urban]"
+        },
+        {
+          "ru": "сельский",
+          "en": "rural",
+          "ipa": "[rural]"
+        },
+        {
+          "ru": "население",
+          "en": "population",
+          "ipa": "[population]"
+        },
+        {
+          "ru": "миграция",
+          "en": "migration",
+          "ipa": "[migration]"
+        },
+        {
+          "ru": "бедность",
+          "en": "poverty",
+          "ipa": "[poverty]"
+        }
+      ]
+    },
+    {
+      "title": "B2 Words: More Nouns",
+      "rule": "Дополнительные существительные B2.",
+      "examples": [
+        {
+          "ru": "осведомлённость",
+          "en": "awareness",
+          "ipa": "[awareness]"
+        },
+        {
+          "ru": "ёмкость / способность",
+          "en": "capacity",
+          "ipa": "[capacity]"
+        },
+        {
+          "ru": "обстоятельство",
+          "en": "circumstance",
+          "ipa": "[circumstance]"
+        },
+        {
+          "ru": "обязательство",
+          "en": "commitment",
+          "ipa": "[commitment]"
+        },
+        {
+          "ru": "связь",
+          "en": "connection",
+          "ipa": "[connection]"
+        },
+        {
+          "ru": "вклад",
+          "en": "contribution",
+          "ipa": "[contribution]"
+        },
+        {
+          "ru": "определение",
+          "en": "definition",
+          "ipa": "[definition]"
+        },
+        {
+          "ru": "распределение",
+          "en": "distribution",
+          "ipa": "[distribution]"
+        },
+        {
+          "ru": "основа",
+          "en": "foundation",
+          "ipa": "[foundation]"
+        },
+        {
+          "ru": "внедрение",
+          "en": "implementation",
+          "ipa": "[implementation]"
+        },
+        {
+          "ru": "взаимодействие",
+          "en": "interaction",
+          "ipa": "[interaction]"
+        },
+        {
+          "ru": "обслуживание",
+          "en": "maintenance",
+          "ipa": "[maintenance]"
+        },
+        {
+          "ru": "цель",
+          "en": "objective",
+          "ipa": "[objective]"
+        },
+        {
+          "ru": "исход",
+          "en": "outcome",
+          "ipa": "[outcome]"
+        },
+        {
+          "ru": "участие",
+          "en": "participation",
+          "ipa": "[participation]"
+        },
+        {
+          "ru": "перспектива",
+          "en": "perspective",
+          "ipa": "[perspective]"
+        },
+        {
+          "ru": "процедура",
+          "en": "procedure",
+          "ipa": "[procedure]"
+        },
+        {
+          "ru": "значимость",
+          "en": "significance",
+          "ipa": "[significance]"
+        }
+      ]
+    }
+  ]
+}

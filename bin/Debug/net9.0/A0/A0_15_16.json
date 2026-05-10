@@ -1,121 +1,236 @@
 {
   "level": "A0",
   "topic": "Present Simple: to be (negative) + basic contrast sentences",
-  "vocabulary": [
-    { "en": "not", "ipa": "/nɒt/", "ru": "не" },
-    { "en": "home", "ipa": "/həʊm/", "ru": "дом(а)" },
-    { "en": "busy", "ipa": "/ˈbɪzi/", "ru": "занят(ой)" },
-    { "en": "think", "ipa": "/θɪŋk/", "ru": "думать" },
-    { "en": "right", "ipa": "/raɪt/", "ru": "прав(ый)" },
-    { "en": "see", "ipa": "/siː/", "ru": "видеть" },
-    { "en": "sure", "ipa": "/ʃɔː/", "ru": "уверен(ный)" },
-    { "en": "about", "ipa": "/əˈbaʊt/", "ru": "о, насчёт" },
-    { "en": "city", "ipa": "/ˈsɪti/", "ru": "город" },
-    { "en": "park", "ipa": "/pɑːk/", "ru": "парк" },
-    { "en": "now", "ipa": "/naʊ/", "ru": "сейчас" },
-    { "en": "doctor", "ipa": "/ˈdɒktə/", "ru": "врач" },
-    { "en": "teacher", "ipa": "/ˈtiːtʃə/", "ru": "учитель" },
-    { "en": "designer", "ipa": "/dɪˈzaɪnə/", "ru": "дизайнер" },
-    { "en": "nurse", "ipa": "/nɜːs/", "ru": "медсестра" },
-    { "en": "interesting", "ipa": "/ˈɪntrəstɪŋ/", "ru": "интересный" },
-    { "en": "important", "ipa": "/ɪmˈpɔːtnt/", "ru": "важный" },
-    { "en": "bad", "ipa": "/bæd/", "ru": "плохой" },
-    { "en": "married", "ipa": "/ˈmærɪd/", "ru": "женат / замужем" },
-    { "en": "single", "ipa": "/ˈsɪŋɡl/", "ru": "холост / не замужем" },
-    { "en": "boring", "ipa": "/ˈbɔːrɪŋ/", "ru": "скучный" },
-    { "en": "old", "ipa": "/əʊld/", "ru": "старый" },
-    { "en": "young", "ipa": "/jʌŋ/", "ru": "молодой" },
-    { "en": "poor", "ipa": "/pɔː/", "ru": "бедный" },
-    { "en": "rich", "ipa": "/rɪtʃ/", "ru": "богатый" },
-    { "en": "mistake", "ipa": "/mɪˈsteɪk/", "ru": "ошибка" },
-    { "en": "problem", "ipa": "/ˈprɒbləm/", "ru": "проблема" },
-    { "en": "together", "ipa": "/təˈɡeðə/", "ru": "вместе" },
-    { "en": "easy", "ipa": "/ˈiːzi/", "ru": "лёгкий / легко" },
-    { "en": "difficult", "ipa": "/ˈdɪfɪkəlt/", "ru": "сложный / трудно" },
-    { "en": "too", "ipa": "/tuː/", "ru": "слишком" },
-    { "en": "really", "ipa": "/ˈrɪəli/", "ru": "действительно" },
-    { "en": "free", "ipa": "/friː/", "ru": "свободен" },
-    { "en": "expensive", "ipa": "/ɪkˈspensɪv/", "ru": "дорогой" },
-    { "en": "cheap", "ipa": "/tʃiːp/", "ru": "дешёвый" },
-    { "en": "video", "ipa": "/ˈvɪdiəʊ/", "ru": "видео" },
-    { "en": "funny", "ipa": "/ˈfʌni/", "ru": "смешной" },
-    { "en": "lesson", "ipa": "/ˈlesn/", "ru": "урок" },
-    { "en": "useful", "ipa": "/ˈjuːsfl/", "ru": "полезный" },
-    { "en": "place", "ipa": "/pleɪs/", "ru": "место" },
-    { "en": "beautiful", "ipa": "/ˈbjuːtɪfl/", "ru": "красивый" },
-    { "en": "hotel", "ipa": "/həʊˈtel/", "ru": "отель" },
-    { "en": "good", "ipa": "/ɡʊd/", "ru": "хороший" },
-    { "en": "mother", "ipa": "/ˈmʌðə/", "ru": "мама" },
-    { "en": "father", "ipa": "/ˈfɑːðə/", "ru": "папа / отец" },
-    { "en": "manager", "ipa": "/ˈmænɪdʒə/", "ru": "менеджер" },
-    { "en": "brother", "ipa": "/ˈbrʌðə/", "ru": "брат" },
-    { "en": "student", "ipa": "/ˈstjuːdnt/", "ru": "студент" },
-    { "en": "ticket", "ipa": "/ˈtɪkɪt/", "ru": "билет" }
-  ],
   "sections": [
     {
       "title": "to be — negative (am not / isn’t / aren’t)",
       "rule": "Negative: I’m not / You aren’t / He isn’t / She isn’t / It isn’t / We aren’t / They aren’t. Long form: am not / are not / is not.",
       "examples": [
-        { "ru": "Я не дома", "en": "I'm not at home", "ipa": "/aɪm nɒt ət həʊm/" },
-        { "ru": "Мы не заняты", "en": "We aren't busy", "ipa": "/wi ˈɑːnt ˈbɪzi/" },
-        { "ru": "Я думаю, что ты не прав", "en": "I think that you aren't right", "ipa": "/aɪ θɪŋk ðæt ju ˈɑːnt raɪt/" },
-
-        { "ru": "Я вижу, что ты не уверен", "en": "I see that you aren't sure", "ipa": "/aɪ siː ðæt ju ˈɑːnt ʃɔː/" },
-        { "ru": "Я вижу, что ты не уверен по поводу этого", "en": "I see that you aren't sure about it", "ipa": "/aɪ siː ðæt ju ˈɑːnt ʃɔːr əˈbaʊt ɪt/" },
-        { "ru": "Я не уверен по поводу этого", "en": "I'm not sure about it", "ipa": "/aɪm nɒt ʃɔːr əˈbaʊt ɪt/" },
-
-        { "ru": "Они не в городе", "en": "They aren't in the city", "ipa": "/ðeɪ ˈɑːnt ɪn ðə ˈsɪti/" },
-        { "ru": "Мы не в парке сейчас", "en": "We aren't in the park now", "ipa": "/wi ˈɑːnt ɪn ðə pɑːk naʊ/" },
-        { "ru": "Он не врач. Он учитель", "en": "He isn't a doctor. He's a teacher", "ipa": "/hi ˈɪznt ə ˈdɒktə. hiːz ə ˈtiːtʃə/" },
-
-        { "ru": "Она не дизайнер. Она медсестра", "en": "She isn't a designer. She's a nurse", "ipa": "/ʃi ˈɪznt ə dɪˈzaɪnə. ʃiːz ə nɜːs/" },
-        { "ru": "Это не интересно", "en": "It isn't interesting", "ipa": "/ɪt ˈɪznt ˈɪntrəstɪŋ/" },
-        { "ru": "Это не интересно мне", "en": "It isn't interesting for me", "ipa": "/ɪt ˈɪznt ˈɪntrəstɪŋ fə miː/" },
-
-        { "ru": "Это не важно", "en": "It isn't important", "ipa": "/ɪt ˈɪznt ɪmˈpɔːtnt/" },
-        { "ru": "Это не плохо", "en": "It isn't bad", "ipa": "/ɪt ˈɪznt bæd/" },
-        { "ru": "Он не прав", "en": "He isn't right", "ipa": "/hi ˈɪznt raɪt/" },
-
-        { "ru": "Она не уверена по поводу этого", "en": "She isn't sure about it", "ipa": "/ʃi ˈɪznt ʃɔːr əˈbaʊt ɪt/" },
-        { "ru": "Я женат / Я замужем", "en": "I'm married", "ipa": "/aɪm ˈmærɪd/" },
-        { "ru": "Я не женат / Я не замужем", "en": "I'm not married", "ipa": "/aɪm nɒt ˈmærɪd/" },
-
-        { "ru": "Я холост", "en": "I'm single", "ipa": "/aɪm ˈsɪŋɡl/" },
-        { "ru": "Он не женат. Он холост", "en": "He isn't married. He's single", "ipa": "/hi ˈɪznt ˈmærɪd. hiːz ˈsɪŋɡl/" },
-        { "ru": "Это не интересно. Это очень скучно", "en": "It isn't interesting. It's very boring", "ipa": "/ɪt ˈɪznt ˈɪntrəstɪŋ. ɪts ˈveri ˈbɔːrɪŋ/" },
-
-        { "ru": "Это не интересно. Это так скучно", "en": "It isn't interesting. It's so boring", "ipa": "/ɪt ˈɪznt ˈɪntrəstɪŋ. ɪts səʊ ˈbɔːrɪŋ/" },
-        { "ru": "Он не старый. Он очень молод", "en": "He isn't old. He's very young", "ipa": "/hi ˈɪznt əʊld. hiːz ˈveri jʌŋ/" },
-        { "ru": "Он не бедный. Он очень богатый", "en": "He isn't poor. He's very rich", "ipa": "/hi ˈɪznt pɔː. hiːz ˈveri rɪtʃ/" },
-
-        { "ru": "Они не бедные. Они очень богатые", "en": "They aren't poor. They're very rich", "ipa": "/ðeɪ ˈɑːnt pɔː. ðeɪə ˈveri rɪtʃ/" },
-        { "ru": "Это не ошибка", "en": "It isn't a mistake", "ipa": "/ɪt ˈɪznt ə mɪˈsteɪk/" },
-        { "ru": "Это не проблема для меня", "en": "It isn't a problem for me", "ipa": "/ɪt ˈɪznt ə ˈprɒbləm fə miː/" },
-
-        { "ru": "Я сейчас не на работе. Я дома", "en": "I'm not at work now. I'm at home", "ipa": "/aɪm nɒt ət wɜːk naʊ. aɪm ət həʊm/" },
-        { "ru": "Я сейчас не занят. Я свободен", "en": "I'm not busy now. I'm free", "ipa": "/aɪm nɒt ˈbɪzi naʊ. aɪm friː/" },
-        { "ru": "Это не дорого. Это очень дешево", "en": "It isn't expensive. It's very cheap", "ipa": "/ɪt ˈɪznt ɪkˈspensɪv. ɪts ˈveri tʃiːp/" },
-
-        { "ru": "Они сейчас не вместе", "en": "They aren't together now", "ipa": "/ðeɪ ˈɑːnt təˈɡeðə naʊ/" },
-        { "ru": "Это не легко. Это очень трудно", "en": "It isn't easy. It's very difficult", "ipa": "/ɪt ˈɪznt ˈiːzi. ɪts ˈveri ˈdɪfɪkəlt/" },
-        { "ru": "Это не сложно. Это так легко", "en": "It isn't difficult. It's so easy", "ipa": "/ɪt ˈɪznt ˈdɪfɪkəlt. ɪts səʊ ˈiːzi/" },
-
-        { "ru": "Это действительно сложно", "en": "It's really difficult", "ipa": "/ɪts ˈrɪəli ˈdɪfɪkəlt/" },
-        { "ru": "Это слишком сложно для меня", "en": "It's too difficult for me", "ipa": "/ɪts tuː ˈdɪfɪkəlt fə miː/" },
-        { "ru": "Это так легко для меня", "en": "It's so easy for me", "ipa": "/ɪts səʊ ˈiːzi fə miː/" },
-
-        { "ru": "Это видео очень смешное", "en": "This video is very funny", "ipa": "/ðɪs ˈvɪdiəʊ ɪz ˈveri ˈfʌni/" },
-        { "ru": "Этот урок очень полезный", "en": "This lesson is very useful", "ipa": "/ðɪs ˈlesn ɪz ˈveri ˈjuːsfl/" },
-        { "ru": "Это место такое красивое", "en": "This place is so beautiful", "ipa": "/ðɪs pleɪs ɪz səʊ ˈbjuːtɪfl/" },
-
-        { "ru": "Этот отель очень хороший", "en": "This hotel is very good", "ipa": "/ðɪs həʊˈtel ɪz ˈveri ɡʊd/" },
-        { "ru": "Моя мама - врач", "en": "My mother is a doctor", "ipa": "/maɪ ˈmʌðər ɪz ə ˈdɒktə/" },
-        { "ru": "Мой отец - менеджер", "en": "My father is a manager", "ipa": "/maɪ ˈfɑːðər ɪz ə ˈmænɪdʒə/" },
-
-        { "ru": "Мой брат - студент", "en": "My brother is a student", "ipa": "/maɪ ˈʌðər ɪz ə ˈstjuːdnt/" },
-        { "ru": "Этот билет не дорогой. Он очень дешевый", "en": "This ticket isn't expensive. It's very cheap", "ipa": "/ðɪs ˈtɪkɪt ˈɪznt ɪkˈspensɪv. ɪts ˈveri tʃiːp/" },
-        { "ru": "Это видео не скучное. Оно такое смешное", "en": "This video isn't boring. It's so funny", "ipa": "/ðɪs ˈvɪdiəʊ ˈɪznt ˈbɔːrɪŋ. ɪts səʊ ˈfʌni/" }
+        {
+          "ru": "Я не дома",
+          "en": "I'm not at home",
+          "ipa": "/aɪm nɒt ət həʊm/"
+        },
+        {
+          "ru": "Мы не заняты",
+          "en": "We aren't busy",
+          "ipa": "/wi ˈɑːnt ˈbɪzi/"
+        },
+        {
+          "ru": "Я думаю, что ты не прав",
+          "en": "I think that you aren't right",
+          "ipa": "/aɪ θɪŋk ðæt ju ˈɑːnt raɪt/"
+        },
+        {
+          "ru": "Я вижу, что ты не уверен",
+          "en": "I see that you aren't sure",
+          "ipa": "/aɪ siː ðæt ju ˈɑːnt ʃɔː/"
+        },
+        {
+          "ru": "Я вижу, что ты не уверен по поводу этого",
+          "en": "I see that you aren't sure about it",
+          "ipa": "/aɪ siː ðæt ju ˈɑːnt ʃɔːr əˈbaʊt ɪt/"
+        },
+        {
+          "ru": "Я не уверен по поводу этого",
+          "en": "I'm not sure about it",
+          "ipa": "/aɪm nɒt ʃɔːr əˈbaʊt ɪt/"
+        },
+        {
+          "ru": "Они не в городе",
+          "en": "They aren't in the city",
+          "ipa": "/ðeɪ ˈɑːnt ɪn ðə ˈsɪti/"
+        },
+        {
+          "ru": "Мы не в парке сейчас",
+          "en": "We aren't in the park now",
+          "ipa": "/wi ˈɑːnt ɪn ðə pɑːk naʊ/"
+        },
+        {
+          "ru": "Он не врач. Он учитель",
+          "en": "He isn't a doctor. He's a teacher",
+          "ipa": "/hi ˈɪznt ə ˈdɒktə. hiːz ə ˈtiːtʃə/"
+        },
+        {
+          "ru": "Она не дизайнер. Она медсестра",
+          "en": "She isn't a designer. She's a nurse",
+          "ipa": "/ʃi ˈɪznt ə dɪˈzaɪnə. ʃiːz ə nɜːs/"
+        },
+        {
+          "ru": "Это не интересно",
+          "en": "It isn't interesting",
+          "ipa": "/ɪt ˈɪznt ˈɪntrəstɪŋ/"
+        },
+        {
+          "ru": "Это не интересно мне",
+          "en": "It isn't interesting for me",
+          "ipa": "/ɪt ˈɪznt ˈɪntrəstɪŋ fə miː/"
+        },
+        {
+          "ru": "Это не важно",
+          "en": "It isn't important",
+          "ipa": "/ɪt ˈɪznt ɪmˈpɔːtnt/"
+        },
+        {
+          "ru": "Это не плохо",
+          "en": "It isn't bad",
+          "ipa": "/ɪt ˈɪznt bæd/"
+        },
+        {
+          "ru": "Он не прав",
+          "en": "He isn't right",
+          "ipa": "/hi ˈɪznt raɪt/"
+        },
+        {
+          "ru": "Она не уверена по поводу этого",
+          "en": "She isn't sure about it",
+          "ipa": "/ʃi ˈɪznt ʃɔːr əˈbaʊt ɪt/"
+        },
+        {
+          "ru": "Я женат / Я замужем",
+          "en": "I'm married",
+          "ipa": "/aɪm ˈmærɪd/"
+        },
+        {
+          "ru": "Я не женат / Я не замужем",
+          "en": "I'm not married",
+          "ipa": "/aɪm nɒt ˈmærɪd/"
+        },
+        {
+          "ru": "Я холост",
+          "en": "I'm single",
+          "ipa": "/aɪm ˈsɪŋɡl/"
+        },
+        {
+          "ru": "Он не женат. Он холост",
+          "en": "He isn't married. He's single",
+          "ipa": "/hi ˈɪznt ˈmærɪd. hiːz ˈsɪŋɡl/"
+        },
+        {
+          "ru": "Это не интересно. Это очень скучно",
+          "en": "It isn't interesting. It's very boring",
+          "ipa": "/ɪt ˈɪznt ˈɪntrəstɪŋ. ɪts ˈveri ˈbɔːrɪŋ/"
+        },
+        {
+          "ru": "Это не интересно. Это так скучно",
+          "en": "It isn't interesting. It's so boring",
+          "ipa": "/ɪt ˈɪznt ˈɪntrəstɪŋ. ɪts səʊ ˈbɔːrɪŋ/"
+        },
+        {
+          "ru": "Он не старый. Он очень молод",
+          "en": "He isn't old. He's very young",
+          "ipa": "/hi ˈɪznt əʊld. hiːz ˈveri jʌŋ/"
+        },
+        {
+          "ru": "Он не бедный. Он очень богатый",
+          "en": "He isn't poor. He's very rich",
+          "ipa": "/hi ˈɪznt pɔː. hiːz ˈveri rɪtʃ/"
+        },
+        {
+          "ru": "Они не бедные. Они очень богатые",
+          "en": "They aren't poor. They're very rich",
+          "ipa": "/ðeɪ ˈɑːnt pɔː. ðeɪə ˈveri rɪtʃ/"
+        },
+        {
+          "ru": "Это не ошибка",
+          "en": "It isn't a mistake",
+          "ipa": "/ɪt ˈɪznt ə mɪˈsteɪk/"
+        },
+        {
+          "ru": "Это не проблема для меня",
+          "en": "It isn't a problem for me",
+          "ipa": "/ɪt ˈɪznt ə ˈprɒbləm fə miː/"
+        },
+        {
+          "ru": "Я сейчас не на работе. Я дома",
+          "en": "I'm not at work now. I'm at home",
+          "ipa": "/aɪm nɒt ət wɜːk naʊ. aɪm ət həʊm/"
+        },
+        {
+          "ru": "Я сейчас не занят. Я свободен",
+          "en": "I'm not busy now. I'm free",
+          "ipa": "/aɪm nɒt ˈbɪzi naʊ. aɪm friː/"
+        },
+        {
+          "ru": "Это не дорого. Это очень дешево",
+          "en": "It isn't expensive. It's very cheap",
+          "ipa": "/ɪt ˈɪznt ɪkˈspensɪv. ɪts ˈveri tʃiːp/"
+        },
+        {
+          "ru": "Они сейчас не вместе",
+          "en": "They aren't together now",
+          "ipa": "/ðeɪ ˈɑːnt təˈɡeðə naʊ/"
+        },
+        {
+          "ru": "Это не легко. Это очень трудно",
+          "en": "It isn't easy. It's very difficult",
+          "ipa": "/ɪt ˈɪznt ˈiːzi. ɪts ˈveri ˈdɪfɪkəlt/"
+        },
+        {
+          "ru": "Это не сложно. Это так легко",
+          "en": "It isn't difficult. It's so easy",
+          "ipa": "/ɪt ˈɪznt ˈdɪfɪkəlt. ɪts səʊ ˈiːzi/"
+        },
+        {
+          "ru": "Это действительно сложно",
+          "en": "It's really difficult",
+          "ipa": "/ɪts ˈrɪəli ˈdɪfɪkəlt/"
+        },
+        {
+          "ru": "Это слишком сложно для меня",
+          "en": "It's too difficult for me",
+          "ipa": "/ɪts tuː ˈdɪfɪkəlt fə miː/"
+        },
+        {
+          "ru": "Это так легко для меня",
+          "en": "It's so easy for me",
+          "ipa": "/ɪts səʊ ˈiːzi fə miː/"
+        },
+        {
+          "ru": "Это видео очень смешное",
+          "en": "This video is very funny",
+          "ipa": "/ðɪs ˈvɪdiəʊ ɪz ˈveri ˈfʌni/"
+        },
+        {
+          "ru": "Этот урок очень полезный",
+          "en": "This lesson is very useful",
+          "ipa": "/ðɪs ˈlesn ɪz ˈveri ˈjuːsfl/"
+        },
+        {
+          "ru": "Это место такое красивое",
+          "en": "This place is so beautiful",
+          "ipa": "/ðɪs pleɪs ɪz səʊ ˈbjuːtɪfl/"
+        },
+        {
+          "ru": "Этот отель очень хороший",
+          "en": "This hotel is very good",
+          "ipa": "/ðɪs həʊˈtel ɪz ˈveri ɡʊd/"
+        },
+        {
+          "ru": "Моя мама - врач",
+          "en": "My mother is a doctor",
+          "ipa": "/maɪ ˈmʌðər ɪz ə ˈdɒktə/"
+        },
+        {
+          "ru": "Мой отец - менеджер",
+          "en": "My father is a manager",
+          "ipa": "/maɪ ˈfɑːðər ɪz ə ˈmænɪdʒə/"
+        },
+        {
+          "ru": "Мой брат - студент",
+          "en": "My brother is a student",
+          "ipa": "/maɪ ˈʌðər ɪz ə ˈstjuːdnt/"
+        },
+        {
+          "ru": "Этот билет не дорогой. Он очень дешевый",
+          "en": "This ticket isn't expensive. It's very cheap",
+          "ipa": "/ðɪs ˈtɪkɪt ˈɪznt ɪkˈspensɪv. ɪts ˈveri tʃiːp/"
+        },
+        {
+          "ru": "Это видео не скучное. Оно такое смешное",
+          "en": "This video isn't boring. It's so funny",
+          "ipa": "/ðɪs ˈvɪdiəʊ ˈɪznt ˈbɔːrɪŋ. ɪts səʊ ˈfʌni/"
+        }
       ]
     }
   ]

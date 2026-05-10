@@ -1,162 +1,305 @@
 {
-  "vocabulary": [
-    { "en": "will", "ipa": "/wɪl/", "ru": "буду / будет / будут" },
-    { "en": "soon", "ipa": "/suːn/", "ru": "скоро" },
-    { "en": "tomorrow", "ipa": "/təˈmɒrəʊ/", "ru": "завтра" },
-    { "en": "next year", "ipa": "/nekst jɪə/", "ru": "в следующем году" },
-    { "en": "this year", "ipa": "/ðɪs jɪə/", "ru": "в этом году" },
-    { "en": "now", "ipa": "/naʊ/", "ru": "сейчас" },
-
-    { "en": "think", "ipa": "/θɪŋk/", "ru": "думать" },
-    { "en": "go", "ipa": "/ɡəʊ/", "ru": "идти; ехать" },
-    { "en": "do", "ipa": "/duː/", "ru": "делать" },
-    { "en": "call", "ipa": "/kɔːl/", "ru": "звонить" },
-    { "en": "see", "ipa": "/siː/", "ru": "видеть" },
-    { "en": "know", "ipa": "/nəʊ/", "ru": "знать" },
-    { "en": "like", "ipa": "/laɪk/", "ru": "нравиться" },
-    { "en": "buy", "ipa": "/baɪ/", "ru": "покупать" },
-    { "en": "order", "ipa": "/ˈɔːdə/", "ru": "заказывать" },
-    { "en": "happen", "ipa": "/ˈhæpən/", "ru": "случаться" },
-    { "en": "wait for", "ipa": "/weɪt fɔː/", "ru": "ждать" },
-    { "en": "send", "ipa": "/send/", "ru": "отправлять" },
-    { "en": "watch", "ipa": "/wɒtʃ/", "ru": "смотреть" },
-    { "en": "read", "ipa": "/riːd/", "ru": "читать" },
-    { "en": "open", "ipa": "/ˈəʊpən/", "ru": "открывать" },
-    { "en": "close", "ipa": "/kləʊz/", "ru": "закрывать" },
-    { "en": "win", "ipa": "/wɪn/", "ru": "побеждать" },
-    { "en": "lose", "ipa": "/luːz/", "ru": "проигрывать" },
-    { "en": "cost", "ipa": "/kɒst/", "ru": "стоить" },
-    { "en": "speak", "ipa": "/spiːk/", "ru": "говорить" },
-    { "en": "talk about", "ipa": "/tɔːk əˈbaʊt/", "ru": "говорить о" },
-    { "en": "say", "ipa": "/seɪ/", "ru": "сказать" },
-    { "en": "tell", "ipa": "/tel/", "ru": "рассказать; сказать кому-то" },
-
-    { "en": "busy", "ipa": "/ˈbɪzi/", "ru": "занятый" },
-    { "en": "interesting", "ipa": "/ˈɪntrɪstɪŋ/", "ru": "интересный" },
-    { "en": "better", "ipa": "/ˈbetə/", "ru": "лучше" },
-    { "en": "away", "ipa": "/əˈweɪ/", "ru": "в отъезде; не здесь" },
-    { "en": "more", "ipa": "/mɔː/", "ru": "больше" },
-    { "en": "less", "ipa": "/les/", "ru": "меньше" },
-    { "en": "more expensive", "ipa": "/mɔː ɪkˈspensɪv/", "ru": "дороже" },
-    { "en": "cheaper", "ipa": "/ˈtʃiːpə/", "ru": "дешевле" },
-
-    { "en": "place", "ipa": "/pleɪs/", "ru": "место" },
-    { "en": "idea", "ipa": "/aɪˈdɪə/", "ru": "идея" },
-    { "en": "home", "ipa": "/həʊm/", "ru": "дом" },
-    { "en": "at work", "ipa": "/æt wɜːk/", "ru": "на работе" },
-    { "en": "online", "ipa": "/ˈɒnlaɪn/", "ru": "онлайн" },
-    { "en": "ticket", "ipa": "/ˈtɪkɪt/", "ru": "билет" },
-    { "en": "tickets", "ipa": "/ˈtɪkɪts/", "ru": "билеты" },
-    { "en": "model", "ipa": "/ˈmɒdl/", "ru": "модель" },
-    { "en": "answer", "ipa": "/ˈɑːnsə/", "ru": "ответ" },
-    { "en": "letter", "ipa": "/ˈletə/", "ru": "письмо" },
-    { "en": "message", "ipa": "/ˈmesɪdʒ/", "ru": "сообщение" },
-    { "en": "city", "ipa": "/ˈsɪti/", "ru": "город" },
-    { "en": "another city", "ipa": "/əˈnʌðə ˈsɪti/", "ru": "другой город" },
-    { "en": "video", "ipa": "/ˈvɪdiəʊ/", "ru": "видео" },
-    { "en": "movie", "ipa": "/ˈmuːvi/", "ru": "фильм" },
-    { "en": "article", "ipa": "/ˈɑːtɪkl/", "ru": "статья" },
-    { "en": "door", "ipa": "/dɔː/", "ru": "дверь" },
-    { "en": "window", "ipa": "/ˈwɪndəʊ/", "ru": "окно" },
-    { "en": "America", "ipa": "/əˈmerɪkə/", "ru": "Америка" },
-    { "en": "England", "ipa": "/ˈɪŋɡlənd/", "ru": "Англия" },
-    { "en": "English", "ipa": "/ˈɪŋɡlɪʃ/", "ru": "английский" },
-    { "en": "different things", "ipa": "/ˈdɪfrənt θɪŋz/", "ru": "разные вещи" },
-    { "en": "story", "ipa": "/ˈstɔːri/", "ru": "история" }
-  ],
   "sections": [
     {
       "title": "Future Simple: will + verb",
       "rule": "Future Simple = will + глагол. I'll / We'll / You'll / They'll / He'll / She'll / It'll + verb.",
       "examples": [
-        { "en": "I'll think about it", "ipa": "/aɪl θɪŋk əˈbaʊt ɪt/", "ru": "Я подумаю об этом" },
-        { "en": "I'll go there tomorrow", "ipa": "/aɪl ɡəʊ ðeə təˈmɒrəʊ/", "ru": "Я пойду туда завтра" },
-        { "en": "I'll do it soon", "ipa": "/aɪl duː ɪt suːn/", "ru": "Я скоро сделаю это" },
-        { "en": "I'll call him soon", "ipa": "/aɪl kɔːl hɪm suːn/", "ru": "Я скоро позвоню ему" },
-        { "en": "We'll see it soon", "ipa": "/wiːl siː ɪt suːn/", "ru": "Мы скоро увидим это" },
-        { "en": "You'll know it soon", "ipa": "/juːl nəʊ ɪt suːn/", "ru": "Ты скоро узнаешь это" },
-        { "en": "They'll do it", "ipa": "/ðeɪl duː ɪt/", "ru": "Они сделают это" }
+        {
+          "en": "I'll think about it",
+          "ipa": "/aɪl θɪŋk əˈbaʊt ɪt/",
+          "ru": "Я подумаю об этом"
+        },
+        {
+          "en": "I'll go there tomorrow",
+          "ipa": "/aɪl ɡəʊ ðeə təˈmɒrəʊ/",
+          "ru": "Я пойду туда завтра"
+        },
+        {
+          "en": "I'll do it soon",
+          "ipa": "/aɪl duː ɪt suːn/",
+          "ru": "Я скоро сделаю это"
+        },
+        {
+          "en": "I'll call him soon",
+          "ipa": "/aɪl kɔːl hɪm suːn/",
+          "ru": "Я скоро позвоню ему"
+        },
+        {
+          "en": "We'll see it soon",
+          "ipa": "/wiːl siː ɪt suːn/",
+          "ru": "Мы скоро увидим это"
+        },
+        {
+          "en": "You'll know it soon",
+          "ipa": "/juːl nəʊ ɪt suːn/",
+          "ru": "Ты скоро узнаешь это"
+        },
+        {
+          "en": "They'll do it",
+          "ipa": "/ðeɪl duː ɪt/",
+          "ru": "Они сделают это"
+        }
       ]
     },
     {
       "title": "Future Simple with like / think",
       "rule": "Часто используется с think: I think ... will ...",
       "examples": [
-        { "en": "You'll like this place", "ipa": "/juːl laɪk ðɪs pleɪs/", "ru": "Тебе понравится это место" },
-        { "en": "He'll like this idea", "ipa": "/hiːl laɪk ðɪs aɪˈdɪə/", "ru": "Ему понравится эта идея" },
-        { "en": "I think he'll win", "ipa": "/aɪ θɪŋk hiːl wɪn/", "ru": "Я думаю, он победит" },
-        { "en": "I think they'll lose", "ipa": "/aɪ θɪŋk ðeɪl luːz/", "ru": "Я думаю, они проиграют" },
-        { "en": "I think it'll happen soon", "ipa": "/aɪ θɪŋk ɪtl ˈhæpən suːn/", "ru": "Я думаю, это скоро случится" },
-        { "en": "I think you'll like it", "ipa": "/aɪ θɪŋk juːl laɪk ɪt/", "ru": "Я думаю, тебе понравится это" }
+        {
+          "en": "You'll like this place",
+          "ipa": "/juːl laɪk ðɪs pleɪs/",
+          "ru": "Тебе понравится это место"
+        },
+        {
+          "en": "He'll like this idea",
+          "ipa": "/hiːl laɪk ðɪs aɪˈdɪə/",
+          "ru": "Ему понравится эта идея"
+        },
+        {
+          "en": "I think he'll win",
+          "ipa": "/aɪ θɪŋk hiːl wɪn/",
+          "ru": "Я думаю, он победит"
+        },
+        {
+          "en": "I think they'll lose",
+          "ipa": "/aɪ θɪŋk ðeɪl luːz/",
+          "ru": "Я думаю, они проиграют"
+        },
+        {
+          "en": "I think it'll happen soon",
+          "ipa": "/aɪ θɪŋk ɪtl ˈhæpən suːn/",
+          "ru": "Я думаю, это скоро случится"
+        },
+        {
+          "en": "I think you'll like it",
+          "ipa": "/aɪ θɪŋk juːl laɪk ɪt/",
+          "ru": "Я думаю, тебе понравится это"
+        }
       ]
     },
     {
       "title": "Future Simple with to be",
       "rule": "to be → will be. I'll be / He'll be / She'll be / It'll be / We'll be / You'll be / They'll be.",
       "examples": [
-        { "en": "She'll be very busy tomorrow", "ipa": "/ʃiːl biː ˈveri ˈbɪzi təˈmɒrəʊ/", "ru": "Она будет очень занята завтра" },
-        { "en": "It'll be very interesting", "ipa": "/ɪtl biː ˈveri ˈɪntrɪstɪŋ/", "ru": "Это будет очень интересно" },
-        { "en": "I'll be busy tomorrow", "ipa": "/aɪl biː ˈbɪzi təˈmɒrəʊ/", "ru": "Я буду занят завтра" },
-        { "en": "It'll be better", "ipa": "/ɪtl biː ˈbetə/", "ru": "Это будет лучше" },
-        { "en": "I'll be at home", "ipa": "/aɪl biː æt həʊm/", "ru": "Я буду дома" },
-        { "en": "He'll be at work", "ipa": "/hiːl biː æt wɜːk/", "ru": "Он будет на работе" },
-        { "en": "She'll be away", "ipa": "/ʃiːl biː əˈweɪ/", "ru": "Она будет в отъезде" },
-        { "en": "I'll be there tomorrow", "ipa": "/aɪl biː ðeə təˈmɒrəʊ/", "ru": "Я буду там завтра" },
-        { "en": "I'll be in another city tomorrow", "ipa": "/aɪl biː ɪn əˈnʌðə ˈsɪti təˈmɒrəʊ/", "ru": "Я буду в другом городе завтра" }
+        {
+          "en": "She'll be very busy tomorrow",
+          "ipa": "/ʃiːl biː ˈveri ˈbɪzi təˈmɒrəʊ/",
+          "ru": "Она будет очень занята завтра"
+        },
+        {
+          "en": "It'll be very interesting",
+          "ipa": "/ɪtl biː ˈveri ˈɪntrɪstɪŋ/",
+          "ru": "Это будет очень интересно"
+        },
+        {
+          "en": "I'll be busy tomorrow",
+          "ipa": "/aɪl biː ˈbɪzi təˈmɒrəʊ/",
+          "ru": "Я буду занят завтра"
+        },
+        {
+          "en": "It'll be better",
+          "ipa": "/ɪtl biː ˈbetə/",
+          "ru": "Это будет лучше"
+        },
+        {
+          "en": "I'll be at home",
+          "ipa": "/aɪl biː æt həʊm/",
+          "ru": "Я буду дома"
+        },
+        {
+          "en": "He'll be at work",
+          "ipa": "/hiːl biː æt wɜːk/",
+          "ru": "Он будет на работе"
+        },
+        {
+          "en": "She'll be away",
+          "ipa": "/ʃiːl biː əˈweɪ/",
+          "ru": "Она будет в отъезде"
+        },
+        {
+          "en": "I'll be there tomorrow",
+          "ipa": "/aɪl biː ðeə təˈmɒrəʊ/",
+          "ru": "Я буду там завтра"
+        },
+        {
+          "en": "I'll be in another city tomorrow",
+          "ipa": "/aɪl biː ɪn əˈnʌðə ˈsɪti təˈmɒrəʊ/",
+          "ru": "Я буду в другом городе завтра"
+        }
       ]
     },
     {
       "title": "Buying / ordering / waiting / sending",
       "rule": "Future Simple часто используется для планов и простых будущих действий.",
       "examples": [
-        { "en": "I'll buy it online", "ipa": "/aɪl baɪ ɪt ˈɒnlaɪn/", "ru": "Я буду покупать это онлайн" },
-        { "en": "I'll buy these tickets online", "ipa": "/aɪl baɪ ðiːz ˈtɪkɪts ˈɒnlaɪn/", "ru": "Я куплю эти билеты онлайн" },
-        { "en": "I'll order this model online", "ipa": "/aɪl ˈɔːdə ðɪs ˈmɒdl ˈɒnlaɪn/", "ru": "Я закажу эту модель онлайн" },
-        { "en": "I'll wait for it", "ipa": "/aɪl weɪt fɔː ɪt/", "ru": "Я подожду это" },
-        { "en": "I'll wait for you", "ipa": "/aɪl weɪt fɔː juː/", "ru": "Я подожду тебя" },
-        { "en": "I'll wait for their answer", "ipa": "/aɪl weɪt fɔː ðeə ˈɑːnsə/", "ru": "Я подожду их ответа" },
-        { "en": "I'll send him a letter", "ipa": "/aɪl send hɪm ə ˈletə/", "ru": "Я отправлю ему письмо" },
-        { "en": "I'll send her a message", "ipa": "/aɪl send hɜː ə ˈmesɪdʒ/", "ru": "Я отправлю ей сообщение" }
+        {
+          "en": "I'll buy it online",
+          "ipa": "/aɪl baɪ ɪt ˈɒnlaɪn/",
+          "ru": "Я буду покупать это онлайн"
+        },
+        {
+          "en": "I'll buy these tickets online",
+          "ipa": "/aɪl baɪ ðiːz ˈtɪkɪts ˈɒnlaɪn/",
+          "ru": "Я куплю эти билеты онлайн"
+        },
+        {
+          "en": "I'll order this model online",
+          "ipa": "/aɪl ˈɔːdə ðɪs ˈmɒdl ˈɒnlaɪn/",
+          "ru": "Я закажу эту модель онлайн"
+        },
+        {
+          "en": "I'll wait for it",
+          "ipa": "/aɪl weɪt fɔː ɪt/",
+          "ru": "Я подожду это"
+        },
+        {
+          "en": "I'll wait for you",
+          "ipa": "/aɪl weɪt fɔː juː/",
+          "ru": "Я подожду тебя"
+        },
+        {
+          "en": "I'll wait for their answer",
+          "ipa": "/aɪl weɪt fɔː ðeə ˈɑːnsə/",
+          "ru": "Я подожду их ответа"
+        },
+        {
+          "en": "I'll send him a letter",
+          "ipa": "/aɪl send hɪm ə ˈletə/",
+          "ru": "Я отправлю ему письмо"
+        },
+        {
+          "en": "I'll send her a message",
+          "ipa": "/aɪl send hɜː ə ˈmesɪdʒ/",
+          "ru": "Я отправлю ей сообщение"
+        }
       ]
     },
     {
       "title": "Movement, media, home actions",
       "rule": "Можно использовать will для поездок, просмотра, чтения и простых действий.",
       "examples": [
-        { "en": "I'll go to work tomorrow", "ipa": "/aɪl ɡəʊ tə wɜːk təˈmɒrəʊ/", "ru": "Я пойду на работу завтра" },
-        { "en": "I'll see him tomorrow", "ipa": "/aɪl siː hɪm təˈmɒrəʊ/", "ru": "Я увижу его завтра" },
-        { "en": "I'll watch this video", "ipa": "/aɪl wɒtʃ ðɪs ˈvɪdiəʊ/", "ru": "Я посмотрю это видео" },
-        { "en": "I'll watch this movie", "ipa": "/aɪl wɒtʃ ðɪs ˈmuːvi/", "ru": "Я посмотрю этот фильм" },
-        { "en": "I'll read this article", "ipa": "/aɪl riːd ðɪs ˈɑːtɪkl/", "ru": "Я прочитаю эту статью" },
-        { "en": "I'll close the door", "ipa": "/aɪl kləʊz ðə dɔː/", "ru": "Я закрою дверь" },
-        { "en": "I'll open the door", "ipa": "/aɪl ˈəʊpən ðə dɔː/", "ru": "Я открою дверь" },
-        { "en": "I'll open the window", "ipa": "/aɪl ˈəʊpən ðə ˈwɪndəʊ/", "ru": "Я открою окно" },
-        { "en": "I'll close the window", "ipa": "/aɪl kləʊz ðə ˈwɪndəʊ/", "ru": "Я закрою окно" }
+        {
+          "en": "I'll go to work tomorrow",
+          "ipa": "/aɪl ɡəʊ tə wɜːk təˈmɒrəʊ/",
+          "ru": "Я пойду на работу завтра"
+        },
+        {
+          "en": "I'll see him tomorrow",
+          "ipa": "/aɪl siː hɪm təˈmɒrəʊ/",
+          "ru": "Я увижу его завтра"
+        },
+        {
+          "en": "I'll watch this video",
+          "ipa": "/aɪl wɒtʃ ðɪs ˈvɪdiəʊ/",
+          "ru": "Я посмотрю это видео"
+        },
+        {
+          "en": "I'll watch this movie",
+          "ipa": "/aɪl wɒtʃ ðɪs ˈmuːvi/",
+          "ru": "Я посмотрю этот фильм"
+        },
+        {
+          "en": "I'll read this article",
+          "ipa": "/aɪl riːd ðɪs ˈɑːtɪkl/",
+          "ru": "Я прочитаю эту статью"
+        },
+        {
+          "en": "I'll close the door",
+          "ipa": "/aɪl kləʊz ðə dɔː/",
+          "ru": "Я закрою дверь"
+        },
+        {
+          "en": "I'll open the door",
+          "ipa": "/aɪl ˈəʊpən ðə dɔː/",
+          "ru": "Я открою дверь"
+        },
+        {
+          "en": "I'll open the window",
+          "ipa": "/aɪl ˈəʊpən ðə ˈwɪndəʊ/",
+          "ru": "Я открою окно"
+        },
+        {
+          "en": "I'll close the window",
+          "ipa": "/aɪl kləʊz ðə ˈwɪndəʊ/",
+          "ru": "Я закрою окно"
+        }
       ]
     },
     {
       "title": "Future predictions: cost and travel",
       "rule": "Для предположений о будущем часто используем I think ... will ...",
       "examples": [
-        { "en": "I think it'll cost more soon", "ipa": "/aɪ θɪŋk ɪtl kɒst mɔː suːn/", "ru": "Я думаю, это скоро будет стоить дороже" },
-        { "en": "I think it'll be more expensive soon", "ipa": "/aɪ θɪŋk ɪtl biː mɔː ɪkˈspensɪv suːn/", "ru": "Я думаю, это скоро будет дороже" },
-        { "en": "I don't think that it'll cost less", "ipa": "/aɪ dəʊnt θɪŋk ðæt ɪtl kɒst les/", "ru": "Я не думаю, что это будет стоить дешевле" },
-        { "en": "I don't think that it'll be cheaper", "ipa": "/aɪ dəʊnt θɪŋk ðæt ɪtl biː ˈtʃiːpə/", "ru": "Я не думаю, что это будет дешевле" },
-        { "en": "I'll go to America next year", "ipa": "/aɪl ɡəʊ tə əˈmerɪkə nekst jɪə/", "ru": "Я поеду в Америку в следующем году" },
-        { "en": "I'll go to England this year", "ipa": "/aɪl ɡəʊ tə ˈɪŋɡlənd ðɪs jɪə/", "ru": "Я поеду в Англию в этом году" },
-        { "en": "I'll go to this city soon", "ipa": "/aɪl ɡəʊ tə ðɪs ˈsɪti suːn/", "ru": "Я скоро поеду в этот город" },
-        { "en": "We'll speak English there", "ipa": "/wiːl spiːk ˈɪŋɡlɪʃ ðeə/", "ru": "Мы будем говорить по-английски там" }
+        {
+          "en": "I think it'll cost more soon",
+          "ipa": "/aɪ θɪŋk ɪtl kɒst mɔː suːn/",
+          "ru": "Я думаю, это скоро будет стоить дороже"
+        },
+        {
+          "en": "I think it'll be more expensive soon",
+          "ipa": "/aɪ θɪŋk ɪtl biː mɔː ɪkˈspensɪv suːn/",
+          "ru": "Я думаю, это скоро будет дороже"
+        },
+        {
+          "en": "I don't think that it'll cost less",
+          "ipa": "/aɪ dəʊnt θɪŋk ðæt ɪtl kɒst les/",
+          "ru": "Я не думаю, что это будет стоить дешевле"
+        },
+        {
+          "en": "I don't think that it'll be cheaper",
+          "ipa": "/aɪ dəʊnt θɪŋk ðæt ɪtl biː ˈtʃiːpə/",
+          "ru": "Я не думаю, что это будет дешевле"
+        },
+        {
+          "en": "I'll go to America next year",
+          "ipa": "/aɪl ɡəʊ tə əˈmerɪkə nekst jɪə/",
+          "ru": "Я поеду в Америку в следующем году"
+        },
+        {
+          "en": "I'll go to England this year",
+          "ipa": "/aɪl ɡəʊ tə ˈɪŋɡlənd ðɪs jɪə/",
+          "ru": "Я поеду в Англию в этом году"
+        },
+        {
+          "en": "I'll go to this city soon",
+          "ipa": "/aɪl ɡəʊ tə ðɪs ˈsɪti suːn/",
+          "ru": "Я скоро поеду в этот город"
+        },
+        {
+          "en": "We'll speak English there",
+          "ipa": "/wiːl spiːk ˈɪŋɡlɪʃ ðeə/",
+          "ru": "Мы будем говорить по-английски там"
+        }
       ]
     },
     {
       "title": "Talking and telling in the future",
       "rule": "talk about = говорить о; tell someone = рассказать кому-то; say = сказать.",
       "examples": [
-        { "en": "They'll talk about different things", "ipa": "/ðeɪl tɔːk əˈbaʊt ˈdɪfrənt θɪŋz/", "ru": "Они будут говорить о разных вещах" },
-        { "en": "He'll say it now", "ipa": "/hiːl seɪ ɪt naʊ/", "ru": "Он скажет это сейчас" },
-        { "en": "She'll tell me about it", "ipa": "/ʃiːl tel miː əˈbaʊt ɪt/", "ru": "Она расскажет мне об этом" },
-        { "en": "I'll tell you this story", "ipa": "/aɪl tel juː ðɪs ˈstɔːri/", "ru": "Я расскажу тебе эту историю" },
-        { "en": "I'll tell you about it now", "ipa": "/aɪl tel juː əˈbaʊt ɪt naʊ/", "ru": "Я расскажу тебе об этом сейчас" }
+        {
+          "en": "They'll talk about different things",
+          "ipa": "/ðeɪl tɔːk əˈbaʊt ˈdɪfrənt θɪŋz/",
+          "ru": "Они будут говорить о разных вещах"
+        },
+        {
+          "en": "He'll say it now",
+          "ipa": "/hiːl seɪ ɪt naʊ/",
+          "ru": "Он скажет это сейчас"
+        },
+        {
+          "en": "She'll tell me about it",
+          "ipa": "/ʃiːl tel miː əˈbaʊt ɪt/",
+          "ru": "Она расскажет мне об этом"
+        },
+        {
+          "en": "I'll tell you this story",
+          "ipa": "/aɪl tel juː ðɪs ˈstɔːri/",
+          "ru": "Я расскажу тебе эту историю"
+        },
+        {
+          "en": "I'll tell you about it now",
+          "ipa": "/aɪl tel juː əˈbaʊt ɪt naʊ/",
+          "ru": "Я расскажу тебе об этом сейчас"
+        }
       ]
     }
   ]

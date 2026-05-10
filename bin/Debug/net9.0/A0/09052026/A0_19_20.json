@@ -1,0 +1,136 @@
+{
+  "vocabulary": [
+    { "en": "when", "ipa": "/wen/", "ru": "когда" },
+    { "en": "why", "ipa": "/waɪ/", "ru": "почему" },
+    { "en": "where", "ipa": "/weə/", "ru": "где; куда" },
+    { "en": "how", "ipa": "/haʊ/", "ru": "как" },
+    { "en": "who", "ipa": "/huː/", "ru": "кто" },
+    { "en": "what", "ipa": "/wɒt/", "ru": "что; какой" },
+    { "en": "how much", "ipa": "/haʊ mʌtʃ/", "ru": "сколько" },
+
+    { "en": "free", "ipa": "/friː/", "ru": "свободный" },
+    { "en": "at work", "ipa": "/æt wɜːk/", "ru": "на работе" },
+    { "en": "important", "ipa": "/ɪmˈpɔːtənt/", "ru": "важный" },
+    { "en": "expensive", "ipa": "/ɪkˈspensɪv/", "ru": "дорогой" },
+
+    { "en": "shop", "ipa": "/ʃɒp/", "ru": "магазин" },
+    { "en": "place", "ipa": "/pleɪs/", "ru": "место" },
+    { "en": "bank", "ipa": "/bæŋk/", "ru": "банк" },
+    { "en": "airport", "ipa": "/ˈeəpɔːt/", "ru": "аэропорт" },
+    { "en": "supermarket", "ipa": "/ˈsuːpəˌmɑːkɪt/", "ru": "супермаркет" },
+    { "en": "hotel", "ipa": "/həʊˈtel/", "ru": "отель" },
+    { "en": "nearest", "ipa": "/ˈnɪərɪst/", "ru": "ближайший" },
+
+    { "en": "name", "ipa": "/neɪm/", "ru": "имя" },
+    { "en": "job", "ipa": "/dʒɒb/", "ru": "работа; профессия" },
+
+    { "en": "from", "ipa": "/frɒm/", "ru": "из; от" },
+    { "en": "England", "ipa": "/ˈɪŋɡlənd/", "ru": "Англия" },
+    { "en": "Russia", "ipa": "/ˈrʌʃə/", "ru": "Россия" },
+    { "en": "Brazil", "ipa": "/brəˈzɪl/", "ru": "Бразилия" },
+    { "en": "Germany", "ipa": "/ˈdʒɜːməni/", "ru": "Германия" },
+    { "en": "the United States", "ipa": "/ðə juːˈnaɪtɪd steɪts/", "ru": "Соединённые Штаты" },
+
+    { "en": "old", "ipa": "/əʊld/", "ru": "старый; в вопросе о возрасте" },
+    { "en": "right", "ipa": "/raɪt/", "ru": "правый; правый/правильный" },
+
+    { "en": "here", "ipa": "/hɪə/", "ru": "здесь" },
+    { "en": "there", "ipa": "/ðeə/", "ru": "там" },
+    { "en": "on", "ipa": "/ɒn/", "ru": "на" },
+    { "en": "in", "ipa": "/ɪn/", "ru": "в" },
+    { "en": "table", "ipa": "/ˈteɪbəl/", "ru": "стол" },
+    { "en": "box", "ipa": "/bɒks/", "ru": "коробка" },
+    { "en": "floor", "ipa": "/flɔː/", "ru": "пол" },
+
+    { "en": "dress", "ipa": "/dres/", "ru": "платье" },
+    { "en": "bag", "ipa": "/bæɡ/", "ru": "сумка" }
+  ],
+  "sections": [
+    {
+      "title": "When / Why / How questions with to be",
+      "rule": "When / Why / How + are / is + subject...?",
+      "examples": [
+        { "en": "When are you free?", "ipa": "/wen ɑː juː friː?/", "ru": "Когда ты свободен?" },
+        { "en": "When are you at work?", "ipa": "/wen ɑː juː æt wɜːk?/", "ru": "Когда ты на работе?" },
+        { "en": "Why is it so important?", "ipa": "/waɪ ɪz ɪt səʊ ɪmˈpɔːtənt?/", "ru": "Почему это так важно?" },
+        { "en": "Why is it so expensive?", "ipa": "/waɪ ɪz ɪt səʊ ɪkˈspensɪv?/", "ru": "Почему это так дорого?" },
+        { "en": "How are you?", "ipa": "/haʊ ɑː juː?/", "ru": "Как дела? (Как ты?)" },
+        { "en": "How is he?", "ipa": "/haʊ ɪz hiː?/", "ru": "Как у него дела? (Как он?)" },
+        { "en": "How is she?", "ipa": "/haʊ ɪz ʃiː?/", "ru": "Как у неё дела? (Как она?)" },
+        { "en": "How are they?", "ipa": "/haʊ ɑː ðeɪ?/", "ru": "Как у них дела? (Как они?)" }
+      ]
+    },
+    {
+      "title": "Where questions",
+      "rule": "Where + are / is + subject...?",
+      "examples": [
+        { "en": "Where are you?", "ipa": "/weə ɑː juː?/", "ru": "Где ты?" },
+        { "en": "Where are you now?", "ipa": "/weə ɑː juː naʊ?/", "ru": "Где ты сейчас?" },
+        { "en": "Where is he?", "ipa": "/weə ɪz hiː?/", "ru": "Где он?" },
+        { "en": "Where is she?", "ipa": "/weə ɪz ʃiː?/", "ru": "Где она?" },
+        { "en": "Where is it?", "ipa": "/weə ɪz ɪt?/", "ru": "Где это?" },
+        { "en": "Where is this shop?", "ipa": "/weə ɪz ðɪs ʃɒp?/", "ru": "Где этот магазин?" },
+        { "en": "Where is this place?", "ipa": "/weə ɪz ðɪs pleɪs?/", "ru": "Где это место?" },
+        { "en": "Where is this bank?", "ipa": "/weə ɪz ðɪs bæŋk?/", "ru": "Где этот банк?" },
+        { "en": "Where is the airport?", "ipa": "/weə ɪz ði ˈeəpɔːt?/", "ru": "Где аэропорт?" },
+        { "en": "Where is the bank?", "ipa": "/weə ɪz ðə bæŋk?/", "ru": "Где банк?" },
+        { "en": "Where is the supermarket?", "ipa": "/weə ɪz ðə ˈsuːpəˌmɑːkɪt?/", "ru": "Где находится супермаркет?" },
+        { "en": "Where is this hotel?", "ipa": "/weə ɪz ðɪs həʊˈtel?/", "ru": "Где находится этот отель?" },
+        { "en": "Where is the nearest supermarket?", "ipa": "/weə ɪz ðə ˈnɪərɪst ˈsuːpəˌmɑːkɪt?/", "ru": "Где находится ближайший супермаркет?" },
+        { "en": "Where is the nearest shop?", "ipa": "/weə ɪz ðə ˈnɪərɪst ʃɒp?/", "ru": "Где находится ближайший магазин?" },
+        { "en": "Where is the nearest bank?", "ipa": "/weə ɪz ðə ˈnɪərɪst bæŋk?/", "ru": "Где находится ближайший банк?" }
+      ]
+    },
+    {
+      "title": "Names, jobs, origin and age",
+      "rule": "What's your name? / What's his job? / Where are you from? / How old are you?",
+      "examples": [
+        { "en": "What's your name?", "ipa": "/wɒts jɔː neɪm?/", "ru": "Как тебя зовут?" },
+        { "en": "What's his name?", "ipa": "/wɒts hɪz neɪm?/", "ru": "Как его зовут?" },
+        { "en": "What's her name?", "ipa": "/wɒts hɜː neɪm?/", "ru": "Как её зовут?" },
+
+        { "en": "What's your job?", "ipa": "/wɒts jɔː dʒɒb?/", "ru": "Кем ты работаешь?" },
+        { "en": "What's his job?", "ipa": "/wɒts hɪz dʒɒb?/", "ru": "Кем он работает?" },
+        { "en": "What's her job?", "ipa": "/wɒts hɜː dʒɒb?/", "ru": "Кем она работает?" },
+
+        { "en": "Where are you from?", "ipa": "/weə ɑː juː frɒm?/", "ru": "Откуда ты?" },
+        { "en": "I'm from England", "ipa": "/aɪm frɒm ˈɪŋɡlənd/", "ru": "Я из Англии" },
+        { "en": "I'm from Russia", "ipa": "/aɪm frɒm ˈrʌʃə/", "ru": "Я из России" },
+        { "en": "I'm from Brazil", "ipa": "/aɪm frɒm brəˈzɪl/", "ru": "Я из Бразилии" },
+        { "en": "Where is he from?", "ipa": "/weə ɪz hiː frɒm?/", "ru": "Откуда он?" },
+        { "en": "He's from the United States", "ipa": "/hiːz frɒm ðə juːˈnaɪtɪd steɪts/", "ru": "Он из Соединённых Штатов" },
+        { "en": "Where is she from?", "ipa": "/weə ɪz ʃiː frɒm?/", "ru": "Откуда она?" },
+        { "en": "She's from Germany", "ipa": "/ʃiːz frɒm ˈdʒɜːməni/", "ru": "Она из Германии" },
+
+        { "en": "How old are you?", "ipa": "/haʊ əʊld ɑː juː?/", "ru": "Сколько тебе лет?" },
+        { "en": "How old is he?", "ipa": "/haʊ əʊld ɪz hiː?/", "ru": "Сколько ему лет?" },
+        { "en": "How old is she?", "ipa": "/haʊ əʊld ɪz ʃiː?/", "ru": "Сколько ей лет?" }
+      ]
+    },
+    {
+      "title": "Who and what questions",
+      "rule": "Who is...? / What's...?",
+      "examples": [
+        { "en": "Who is he?", "ipa": "/huː ɪz hiː?/", "ru": "Кто он?" },
+        { "en": "Who is she?", "ipa": "/huː ɪz ʃiː?/", "ru": "Кто она?" },
+        { "en": "Who is right?", "ipa": "/huː ɪz raɪt?/", "ru": "Кто прав?" },
+        { "en": "What's here?", "ipa": "/wɒts hɪə?/", "ru": "Что здесь?" },
+        { "en": "What's there?", "ipa": "/wɒts ðeə?/", "ru": "Что там?" },
+        { "en": "What's on this table?", "ipa": "/wɒts ɒn ðɪs ˈteɪbəl?/", "ru": "Что находится на этом столе?" },
+        { "en": "What's on the table?", "ipa": "/wɒts ɒn ðə ˈteɪbəl?/", "ru": "Что находится на столе?" },
+        { "en": "What's in this box?", "ipa": "/wɒts ɪn ðɪs bɒks?/", "ru": "Что находится в этой коробке?" },
+        { "en": "What's in the box?", "ipa": "/wɒts ɪn ðə bɒks?/", "ru": "Что находится в коробке?" },
+        { "en": "What's on the floor?", "ipa": "/wɒts ɒn ðə flɔː?/", "ru": "Что находится на полу?" }
+      ]
+    },
+    {
+      "title": "How much questions",
+      "rule": "How much is it? / How much is this + thing?",
+      "examples": [
+        { "en": "How much is it?", "ipa": "/haʊ mʌtʃ ɪz ɪt?/", "ru": "Сколько это стоит?" },
+        { "en": "How much is this dress?", "ipa": "/haʊ mʌtʃ ɪz ðɪs dres?/", "ru": "Сколько стоит это платье?" },
+        { "en": "How much is this bag?", "ipa": "/haʊ mʌtʃ ɪz ðɪs bæɡ?/", "ru": "Сколько стоит эта сумка?" }
+      ]
+    }
+  ]
+}

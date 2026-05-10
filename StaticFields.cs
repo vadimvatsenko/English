@@ -6,8 +6,6 @@ public class StaticFields
         
     public static readonly Dictionary<int, string> MainMenu = new Dictionary<int, string>()
     {
-        
-        
         [0] = "Login",     // 0 — логін
         [1] = "Register",  // 1 — реєстрація
         [2] = "Exit",      // 2 — вихід
@@ -23,9 +21,7 @@ public class StaticFields
     // меню выбора, что делать
     public static readonly Dictionary<int, string> EnglishMenu = new Dictionary<int, string>()
     {
-        [1] = "Vocabulary Russian to English",
-        [2] = "Vocabulary English to Russian",
-        [3] = "From Russian to English",
-        [4] = "From English to Russian",
+        [0] = "From Russian to English",
+        [1] = "From English to Russian",
     };
 }

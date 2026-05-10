@@ -1,166 +1,286 @@
 {
-  "vocabulary": [
-    { "en": "seem", "ipa": "/siːm/", "ru": "казаться" },
-    { "en": "impossible", "ipa": "/ɪmˈpɒsəbl/", "ru": "невозможный" },
-    { "en": "difficult", "ipa": "/ˈdɪfɪkəlt/", "ru": "трудный" },
-    { "en": "especially", "ipa": "/ɪˈspeʃəli/", "ru": "особенно" },
-    { "en": "in the beginning", "ipa": "/ɪn ðə bɪˈɡɪnɪŋ/", "ru": "в начале" },
-    { "en": "in the end", "ipa": "/ɪn ði end/", "ru": "в конце" },
-
-    { "en": "open", "ipa": "/ˈəʊpən/", "ru": "открывать" },
-    { "en": "close", "ipa": "/kləʊz/", "ru": "закрывать" },
-    { "en": "door", "ipa": "/dɔː/", "ru": "дверь" },
-    { "en": "window", "ipa": "/ˈwɪndəʊ/", "ru": "окно" },
-    { "en": "someone", "ipa": "/ˈsʌmwʌn/", "ru": "кто-то" },
-
-    { "en": "turn back", "ipa": "/tɜːn bæk/", "ru": "повернуть назад" },
-    { "en": "love", "ipa": "/lʌv/", "ru": "любить" },
-    { "en": "laugh", "ipa": "/lɑːf/", "ru": "смеяться" },
-    { "en": "suddenly", "ipa": "/ˈsʌdnli/", "ru": "внезапно" },
-    { "en": "stop", "ipa": "/stɒp/", "ru": "останавливаться" },
-
-    { "en": "remember", "ipa": "/rɪˈmembə/", "ru": "вспоминать; помнить" },
-    { "en": "name", "ipa": "/neɪm/", "ru": "имя" },
-    { "en": "talk on the phone", "ipa": "/tɔːk ɒn ðə fəʊn/", "ru": "разговаривать по телефону" },
-
-    { "en": "listen to", "ipa": "/ˈlɪsn tuː/", "ru": "слушать" },
-    { "en": "sometimes", "ipa": "/ˈsʌmtaɪmz/", "ru": "иногда" },
-    { "en": "music", "ipa": "/ˈmjuːzɪk/", "ru": "музыка" },
-    { "en": "song", "ipa": "/sɒŋ/", "ru": "песня" },
-    { "en": "this", "ipa": "/ðɪs/", "ru": "этот; эта; это" },
-    { "en": "that", "ipa": "/ðæt/", "ru": "тот; та; то" },
-
-    { "en": "wait for", "ipa": "/weɪt fɔː/", "ru": "подождать; ждать" },
-    { "en": "them", "ipa": "/ðem/", "ru": "их; им" },
-    { "en": "a little", "ipa": "/ə ˈlɪtl/", "ru": "немного" },
-
-    { "en": "agree", "ipa": "/əˈɡriː/", "ru": "соглашаться" },
-    { "en": "understand", "ipa": "/ˌʌndəˈstænd/", "ru": "понимать" },
-    { "en": "learn English", "ipa": "/lɜːn ˈɪŋɡlɪʃ/", "ru": "учить английский" },
-
-    { "en": "interest", "ipa": "/ˈɪntrəst/", "ru": "интересовать" },
-    { "en": "interesting", "ipa": "/ˈɪntrəstɪŋ/", "ru": "интересный" },
-    { "en": "offer", "ipa": "/ˈɒfə/", "ru": "предложение" },
-
-    { "en": "need", "ipa": "/niːd/", "ru": "нуждаться; нужно" },
-    { "en": "more time", "ipa": "/mɔː taɪm/", "ru": "больше времени" },
-
-    { "en": "move", "ipa": "/muːv/", "ru": "переезжать" },
-    { "en": "America", "ipa": "/əˈmerɪkə/", "ru": "Америка" },
-    { "en": "England", "ipa": "/ˈɪŋɡlənd/", "ru": "Англия" },
-    { "en": "city", "ipa": "/ˈsɪti/", "ru": "город" },
-
-    { "en": "continue", "ipa": "/kənˈtɪnjuː/", "ru": "продолжать" },
-    { "en": "course", "ipa": "/kɔːs/", "ru": "курс" },
-    { "en": "conversation", "ipa": "/ˌkɒnvəˈseɪʃən/", "ru": "разговор" },
-
-    { "en": "friends", "ipa": "/frendz/", "ru": "друзья" },
-    { "en": "always", "ipa": "/ˈɔːlweɪz/", "ru": "всегда" },
-    { "en": "support", "ipa": "/səˈpɔːt/", "ru": "поддерживать" },
-    { "en": "each other", "ipa": "/iːtʃ ˈʌðə/", "ru": "друг друга" },
-
-    { "en": "change", "ipa": "/tʃeɪndʒ/", "ru": "изменять; менять" },
-    { "en": "life", "ipa": "/laɪf/", "ru": "жизнь" },
-    { "en": "everything", "ipa": "/ˈevriθɪŋ/", "ru": "всё" },
-
-    { "en": "help", "ipa": "/help/", "ru": "помогать" },
-    { "en": "really", "ipa": "/ˈrɪəli/", "ru": "действительно; очень" },
-    { "en": "so much", "ipa": "/səʊ mʌtʃ/", "ru": "так сильно; так много" }
-  ],
   "sections": [
     {
       "title": "Seemed + adjective",
       "rule": "seemed + прилагательное = казалось каким-то.",
       "examples": [
-        { "en": "It seemed impossible in the beginning", "ipa": "/ɪt siːmd ɪmˈpɒsəbl ɪn ðə bɪˈɡɪnɪŋ/", "ru": "Это казалось невозможным в начале" },
-        { "en": "It seemed so difficult especially in the beginning", "ipa": "/ɪt siːmd səʊ ˈdɪfɪkəlt ɪˈspeʃəli ɪn ðə bɪˈɡɪnɪŋ/", "ru": "Это казалось таким трудным, особенно в начале" },
-        { "en": "This offer seemed very interesting", "ipa": "/ðɪs ˈɒfə siːmd ˈveri ˈɪntrəstɪŋ/", "ru": "Это предложение казалось очень интересным" }
+        {
+          "en": "It seemed impossible in the beginning",
+          "ipa": "/ɪt siːmd ɪmˈpɒsəbl ɪn ðə bɪˈɡɪnɪŋ/",
+          "ru": "Это казалось невозможным в начале"
+        },
+        {
+          "en": "It seemed so difficult especially in the beginning",
+          "ipa": "/ɪt siːmd səʊ ˈdɪfɪkəlt ɪˈspeʃəli ɪn ðə bɪˈɡɪnɪŋ/",
+          "ru": "Это казалось таким трудным, особенно в начале"
+        },
+        {
+          "en": "This offer seemed very interesting",
+          "ipa": "/ðɪs ˈɒfə siːmd ˈveri ˈɪntrəstɪŋ/",
+          "ru": "Это предложение казалось очень интересным"
+        }
       ]
     },
     {
       "title": "Opened / closed",
       "rule": "open → opened, close → closed.",
       "examples": [
-        { "en": "I closed the door", "ipa": "/aɪ kləʊzd ðə dɔː/", "ru": "Я закрыл дверь" },
-        { "en": "Someone opened the door", "ipa": "/ˈsʌmwʌn ˈəʊpənd ðə dɔː/", "ru": "Кто-то открыл дверь" },
-        { "en": "I closed the window", "ipa": "/aɪ kləʊzd ðə ˈwɪndəʊ/", "ru": "Я закрыл окно" },
-        { "en": "Someone opened the window", "ipa": "/ˈsʌmwʌn ˈəʊpənd ðə ˈwɪndəʊ/", "ru": "Кто-то открыл окно" }
+        {
+          "en": "I closed the door",
+          "ipa": "/aɪ kləʊzd ðə dɔː/",
+          "ru": "Я закрыл дверь"
+        },
+        {
+          "en": "Someone opened the door",
+          "ipa": "/ˈsʌmwʌn ˈəʊpənd ðə dɔː/",
+          "ru": "Кто-то открыл дверь"
+        },
+        {
+          "en": "I closed the window",
+          "ipa": "/aɪ kləʊzd ðə ˈwɪndəʊ/",
+          "ru": "Я закрыл окно"
+        },
+        {
+          "en": "Someone opened the window",
+          "ipa": "/ˈsʌmwʌn ˈəʊpənd ðə ˈwɪndəʊ/",
+          "ru": "Кто-то открыл окно"
+        }
       ]
     },
     {
       "title": "Turned / loved / laughed / stopped",
       "rule": "Ещё частые формы Past Simple: turned, loved, laughed, stopped.",
       "examples": [
-        { "en": "We turned back", "ipa": "/wiː tɜːnd bæk/", "ru": "Мы повернули назад" },
-        { "en": "They turned back", "ipa": "/ðeɪ tɜːnd bæk/", "ru": "Они повернули назад" },
-        { "en": "He loved her so much", "ipa": "/hiː lʌvd hɜː səʊ mʌtʃ/", "ru": "Он любил её так сильно" },
-        { "en": "He loved her and she loved him", "ipa": "/hiː lʌvd hɜː ænd ʃiː lʌvd hɪm/", "ru": "Он любил её, и она любила его" },
-        { "en": "He often laughed", "ipa": "/hiː ˈɒfən lɑːft/", "ru": "Он часто смеялся" },
-        { "en": "They often laughed", "ipa": "/ðeɪ ˈɒfən lɑːft/", "ru": "Они часто смеялись" },
-        { "en": "I stopped suddenly", "ipa": "/aɪ stɒpt ˈsʌdnli/", "ru": "Я остановился внезапно" },
-        { "en": "He stopped suddenly", "ipa": "/hiː stɒpt ˈsʌdnli/", "ru": "Он остановился внезапно" },
-        { "en": "We stopped in this place", "ipa": "/wiː stɒpt ɪn ðɪs pleɪs/", "ru": "Мы остановились в этом месте" }
+        {
+          "en": "We turned back",
+          "ipa": "/wiː tɜːnd bæk/",
+          "ru": "Мы повернули назад"
+        },
+        {
+          "en": "They turned back",
+          "ipa": "/ðeɪ tɜːnd bæk/",
+          "ru": "Они повернули назад"
+        },
+        {
+          "en": "He loved her so much",
+          "ipa": "/hiː lʌvd hɜː səʊ mʌtʃ/",
+          "ru": "Он любил её так сильно"
+        },
+        {
+          "en": "He loved her and she loved him",
+          "ipa": "/hiː lʌvd hɜː ænd ʃiː lʌvd hɪm/",
+          "ru": "Он любил её, и она любила его"
+        },
+        {
+          "en": "He often laughed",
+          "ipa": "/hiː ˈɒfən lɑːft/",
+          "ru": "Он часто смеялся"
+        },
+        {
+          "en": "They often laughed",
+          "ipa": "/ðeɪ ˈɒfən lɑːft/",
+          "ru": "Они часто смеялись"
+        },
+        {
+          "en": "I stopped suddenly",
+          "ipa": "/aɪ stɒpt ˈsʌdnli/",
+          "ru": "Я остановился внезапно"
+        },
+        {
+          "en": "He stopped suddenly",
+          "ipa": "/hiː stɒpt ˈsʌdnli/",
+          "ru": "Он остановился внезапно"
+        },
+        {
+          "en": "We stopped in this place",
+          "ipa": "/wiː stɒpt ɪn ðɪs pleɪs/",
+          "ru": "Мы остановились в этом месте"
+        }
       ]
     },
     {
       "title": "Remembered / talked on the phone / listened",
       "rule": "remembered, talked, listened — правильные глаголы в Past Simple.",
       "examples": [
-        { "en": "I remembered his name", "ipa": "/aɪ rɪˈmembəd hɪz neɪm/", "ru": "Я вспомнил его имя" },
-        { "en": "I remembered her name", "ipa": "/aɪ rɪˈmembəd hɜː neɪm/", "ru": "Я вспомнил её имя" },
-        { "en": "We often talked on the phone", "ipa": "/wiː ˈɒfən tɔːkt ɒn ðə fəʊn/", "ru": "Мы часто разговаривали по телефону" },
-        { "en": "They often talked on the phone", "ipa": "/ðeɪ ˈɒfən tɔːkt ɒn ðə fəʊn/", "ru": "Они часто разговаривали по телефону" },
-        { "en": "I sometimes listened to music", "ipa": "/aɪ ˈsʌmtaɪmz ˈlɪsnd tə ˈmjuːzɪk/", "ru": "Я иногда слушал музыку" },
-        { "en": "I listened to this song", "ipa": "/aɪ ˈlɪsnd tə ðɪs sɒŋ/", "ru": "Я послушал эту песню" },
-        { "en": "I listened to that song", "ipa": "/aɪ ˈlɪsnd tə ðæt sɒŋ/", "ru": "Я послушал ту песню" }
+        {
+          "en": "I remembered his name",
+          "ipa": "/aɪ rɪˈmembəd hɪz neɪm/",
+          "ru": "Я вспомнил его имя"
+        },
+        {
+          "en": "I remembered her name",
+          "ipa": "/aɪ rɪˈmembəd hɜː neɪm/",
+          "ru": "Я вспомнил её имя"
+        },
+        {
+          "en": "We often talked on the phone",
+          "ipa": "/wiː ˈɒfən tɔːkt ɒn ðə fəʊn/",
+          "ru": "Мы часто разговаривали по телефону"
+        },
+        {
+          "en": "They often talked on the phone",
+          "ipa": "/ðeɪ ˈɒfən tɔːkt ɒn ðə fəʊn/",
+          "ru": "Они часто разговаривали по телефону"
+        },
+        {
+          "en": "I sometimes listened to music",
+          "ipa": "/aɪ ˈsʌmtaɪmz ˈlɪsnd tə ˈmjuːzɪk/",
+          "ru": "Я иногда слушал музыку"
+        },
+        {
+          "en": "I listened to this song",
+          "ipa": "/aɪ ˈlɪsnd tə ðɪs sɒŋ/",
+          "ru": "Я послушал эту песню"
+        },
+        {
+          "en": "I listened to that song",
+          "ipa": "/aɪ ˈlɪsnd tə ðæt sɒŋ/",
+          "ru": "Я послушал ту песню"
+        }
       ]
     },
     {
       "title": "Waited for",
       "rule": "wait for = ждать / подождать кого-то.",
       "examples": [
-        { "en": "I waited for her", "ipa": "/aɪ ˈweɪtɪd fɔː hɜː/", "ru": "Я подождал её" },
-        { "en": "I waited for him", "ipa": "/aɪ ˈweɪtɪd fɔː hɪm/", "ru": "Я подождал его" },
-        { "en": "I waited for them", "ipa": "/aɪ ˈweɪtɪd fɔː ðem/", "ru": "Я их подождал" },
-        { "en": "I waited for you a little", "ipa": "/aɪ ˈweɪtɪd fɔː juː ə ˈlɪtl/", "ru": "Я подождал тебя немного" },
-        { "en": "They waited for me a little", "ipa": "/ðeɪ ˈweɪtɪd fɔː miː ə ˈlɪtl/", "ru": "Они подождали меня немного" }
+        {
+          "en": "I waited for her",
+          "ipa": "/aɪ ˈweɪtɪd fɔː hɜː/",
+          "ru": "Я подождал её"
+        },
+        {
+          "en": "I waited for him",
+          "ipa": "/aɪ ˈweɪtɪd fɔː hɪm/",
+          "ru": "Я подождал его"
+        },
+        {
+          "en": "I waited for them",
+          "ipa": "/aɪ ˈweɪtɪd fɔː ðem/",
+          "ru": "Я их подождал"
+        },
+        {
+          "en": "I waited for you a little",
+          "ipa": "/aɪ ˈweɪtɪd fɔː juː ə ˈlɪtl/",
+          "ru": "Я подождал тебя немного"
+        },
+        {
+          "en": "They waited for me a little",
+          "ipa": "/ðeɪ ˈweɪtɪd fɔː miː ə ˈlɪtl/",
+          "ru": "Они подождали меня немного"
+        }
       ]
     },
     {
       "title": "Agreed / wanted / interested",
       "rule": "agree → agreed, want → wanted, interest → interested.",
       "examples": [
-        { "en": "They agreed in the end", "ipa": "/ðeɪ əˈɡriːd ɪn ði end/", "ru": "Они согласились в конце" },
-        { "en": "I agreed in the end", "ipa": "/aɪ əˈɡriːd ɪn ði end/", "ru": "Я согласился в конце" },
-        { "en": "I really wanted to understand it", "ipa": "/aɪ ˈrɪəli ˈwɒntɪd tə ˌʌndəˈstænd ɪt/", "ru": "Я действительно хотел понять это" },
-        { "en": "I wanted to learn English", "ipa": "/aɪ ˈwɒntɪd tə lɜːn ˈɪŋɡlɪʃ/", "ru": "Я хотел выучить английский" },
-        { "en": "It really interested me", "ipa": "/ɪt ˈrɪəli ˈɪntrəstɪd miː/", "ru": "Это действительно интересовало меня" },
-        { "en": "It interested me so much", "ipa": "/ɪt ˈɪntrəstɪd miː səʊ mʌtʃ/", "ru": "Это интересовало меня так сильно" }
+        {
+          "en": "They agreed in the end",
+          "ipa": "/ðeɪ əˈɡriːd ɪn ði end/",
+          "ru": "Они согласились в конце"
+        },
+        {
+          "en": "I agreed in the end",
+          "ipa": "/aɪ əˈɡriːd ɪn ði end/",
+          "ru": "Я согласился в конце"
+        },
+        {
+          "en": "I really wanted to understand it",
+          "ipa": "/aɪ ˈrɪəli ˈwɒntɪd tə ˌʌndəˈstænd ɪt/",
+          "ru": "Я действительно хотел понять это"
+        },
+        {
+          "en": "I wanted to learn English",
+          "ipa": "/aɪ ˈwɒntɪd tə lɜːn ˈɪŋɡlɪʃ/",
+          "ru": "Я хотел выучить английский"
+        },
+        {
+          "en": "It really interested me",
+          "ipa": "/ɪt ˈrɪəli ˈɪntrəstɪd miː/",
+          "ru": "Это действительно интересовало меня"
+        },
+        {
+          "en": "It interested me so much",
+          "ipa": "/ɪt ˈɪntrəstɪd miː səʊ mʌtʃ/",
+          "ru": "Это интересовало меня так сильно"
+        }
       ]
     },
     {
       "title": "Needed / moved / continued",
       "rule": "need → needed, move → moved, continue → continued.",
       "examples": [
-        { "en": "I needed more time", "ipa": "/aɪ ˈniːdɪd mɔː taɪm/", "ru": "Мне нужно было больше времени" },
-        { "en": "They moved to America", "ipa": "/ðeɪ muːvd tə əˈmerɪkə/", "ru": "Они переехали в Америку" },
-        { "en": "He moved to this city", "ipa": "/hiː muːvd tə ðɪs ˈsɪti/", "ru": "Он переехал в этот город" },
-        { "en": "She moved to England", "ipa": "/ʃiː muːvd tə ˈɪŋɡlənd/", "ru": "Она переехала в Англию" },
-        { "en": "We continued this course", "ipa": "/wiː kənˈtɪnjuːd ðɪs kɔːs/", "ru": "Мы продолжили этот курс" },
-        { "en": "We continued our conversation", "ipa": "/wiː kənˈtɪnjuːd ˈaʊə ˌkɒnvəˈseɪʃən/", "ru": "Мы продолжили наш разговор" }
+        {
+          "en": "I needed more time",
+          "ipa": "/aɪ ˈniːdɪd mɔː taɪm/",
+          "ru": "Мне нужно было больше времени"
+        },
+        {
+          "en": "They moved to America",
+          "ipa": "/ðeɪ muːvd tə əˈmerɪkə/",
+          "ru": "Они переехали в Америку"
+        },
+        {
+          "en": "He moved to this city",
+          "ipa": "/hiː muːvd tə ðɪs ˈsɪti/",
+          "ru": "Он переехал в этот город"
+        },
+        {
+          "en": "She moved to England",
+          "ipa": "/ʃiː muːvd tə ˈɪŋɡlənd/",
+          "ru": "Она переехала в Англию"
+        },
+        {
+          "en": "We continued this course",
+          "ipa": "/wiː kənˈtɪnjuːd ðɪs kɔːs/",
+          "ru": "Мы продолжили этот курс"
+        },
+        {
+          "en": "We continued our conversation",
+          "ipa": "/wiː kənˈtɪnjuːd ˈaʊə ˌkɒnvəˈseɪʃən/",
+          "ru": "Мы продолжили наш разговор"
+        }
       ]
     },
     {
       "title": "Supported / loved each other / changed",
       "rule": "support → supported, change → changed.",
       "examples": [
-        { "en": "My friends always supported me", "ipa": "/maɪ frendz ˈɔːlweɪz səˈpɔːtɪd miː/", "ru": "Мои друзья всегда поддерживали меня" },
-        { "en": "They loved each other", "ipa": "/ðeɪ lʌvd iːtʃ ˈʌðə/", "ru": "Они любили друг друга" },
-        { "en": "We supported each other", "ipa": "/wiː səˈpɔːtɪd iːtʃ ˈʌðə/", "ru": "Мы поддерживали друг друга" },
-        { "en": "It changed my life", "ipa": "/ɪt tʃeɪndʒd maɪ laɪf/", "ru": "Это изменило мою жизнь" },
-        { "en": "Everything changed", "ipa": "/ˈevriθɪŋ tʃeɪndʒd/", "ru": "Всё изменилось" },
-        { "en": "Everything changed suddenly", "ipa": "/ˈevriθɪŋ tʃeɪndʒd ˈsʌdnli/", "ru": "Всё изменилось внезапно" },
-        { "en": "It really helped me", "ipa": "/ɪt ˈrɪəli helpt miː/", "ru": "Это реально помогло мне" }
+        {
+          "en": "My friends always supported me",
+          "ipa": "/maɪ frendz ˈɔːlweɪz səˈpɔːtɪd miː/",
+          "ru": "Мои друзья всегда поддерживали меня"
+        },
+        {
+          "en": "They loved each other",
+          "ipa": "/ðeɪ lʌvd iːtʃ ˈʌðə/",
+          "ru": "Они любили друг друга"
+        },
+        {
+          "en": "We supported each other",
+          "ipa": "/wiː səˈpɔːtɪd iːtʃ ˈʌðə/",
+          "ru": "Мы поддерживали друг друга"
+        },
+        {
+          "en": "It changed my life",
+          "ipa": "/ɪt tʃeɪndʒd maɪ laɪf/",
+          "ru": "Это изменило мою жизнь"
+        },
+        {
+          "en": "Everything changed",
+          "ipa": "/ˈevriθɪŋ tʃeɪndʒd/",
+          "ru": "Всё изменилось"
+        },
+        {
+          "en": "Everything changed suddenly",
+          "ipa": "/ˈevriθɪŋ tʃeɪndʒd ˈsʌdnli/",
+          "ru": "Всё изменилось внезапно"
+        },
+        {
+          "en": "It really helped me",
+          "ipa": "/ɪt ˈrɪəli helpt miː/",
+          "ru": "Это реально помогло мне"
+        }
       ]
     }
   ]

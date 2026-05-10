@@ -1,0 +1,1003 @@
+{
+  "sections": [
+    {
+      "title": "C1 Words: Advanced Academic",
+      "rule": "Продвинутые академические слова.",
+      "examples": [
+        {
+          "ru": "предположение",
+          "en": "assumption",
+          "ipa": "[assumption]"
+        },
+        {
+          "ru": "гипотеза",
+          "en": "hypothesis",
+          "ipa": "[hypothesis]"
+        },
+        {
+          "ru": "структура / рамочная модель",
+          "en": "framework",
+          "ipa": "[framework]"
+        },
+        {
+          "ru": "интерпретация",
+          "en": "interpretation",
+          "ipa": "[interpretation]"
+        },
+        {
+          "ru": "последствие / скрытый смысл",
+          "en": "implication",
+          "ipa": "[implication]"
+        },
+        {
+          "ru": "несоответствие",
+          "en": "inconsistency",
+          "ipa": "[inconsistency]"
+        },
+        {
+          "ru": "корреляция",
+          "en": "correlation",
+          "ipa": "[correlation]"
+        },
+        {
+          "ru": "причинность",
+          "en": "causation",
+          "ipa": "[causation]"
+        },
+        {
+          "ru": "явление",
+          "en": "phenomenon",
+          "ipa": "[phenomenon]"
+        },
+        {
+          "ru": "критерий",
+          "en": "criterion",
+          "ipa": "[criterion]"
+        },
+        {
+          "ru": "методология",
+          "en": "methodology",
+          "ipa": "[methodology]"
+        },
+        {
+          "ru": "оценка",
+          "en": "assessment",
+          "ipa": "[assessment]"
+        },
+        {
+          "ru": "оценивание",
+          "en": "evaluation",
+          "ipa": "[evaluation]"
+        },
+        {
+          "ru": "обоснованность",
+          "en": "validity",
+          "ipa": "[validity]"
+        },
+        {
+          "ru": "надёжность",
+          "en": "reliability",
+          "ipa": "[reliability]"
+        },
+        {
+          "ru": "точность",
+          "en": "accuracy",
+          "ipa": "[accuracy]"
+        },
+        {
+          "ru": "точность",
+          "en": "precision",
+          "ipa": "[precision]"
+        },
+        {
+          "ru": "объём / рамки",
+          "en": "scope",
+          "ipa": "[scope]"
+        },
+        {
+          "ru": "ограничение",
+          "en": "limitation",
+          "ipa": "[limitation]"
+        },
+        {
+          "ru": "предвзятость",
+          "en": "bias",
+          "ipa": "[bias]"
+        },
+        {
+          "ru": "выводить / происходить",
+          "en": "derive",
+          "ipa": "[derive]"
+        },
+        {
+          "ru": "делать вывод",
+          "en": "infer",
+          "ipa": "[infer]"
+        },
+        {
+          "ru": "обосновывать",
+          "en": "justify",
+          "ipa": "[justify]"
+        }
+      ]
+    },
+    {
+      "title": "C1 Words: Advanced Communication",
+      "rule": "Продвинутое общение и аргументация.",
+      "examples": [
+        {
+          "ru": "прояснять",
+          "en": "clarify",
+          "ipa": "[clarify]"
+        },
+        {
+          "ru": "выделять",
+          "en": "highlight",
+          "ipa": "[highlight]"
+        },
+        {
+          "ru": "иллюстрировать",
+          "en": "illustrate",
+          "ipa": "[illustrate]"
+        },
+        {
+          "ru": "развивать мысль",
+          "en": "elaborate",
+          "ipa": "[elaborate]"
+        },
+        {
+          "ru": "противоречить",
+          "en": "contradict",
+          "ipa": "[contradict]"
+        },
+        {
+          "ru": "признавать",
+          "en": "acknowledge",
+          "ipa": "[acknowledge]"
+        },
+        {
+          "ru": "подразумевать",
+          "en": "imply",
+          "ipa": "[imply]"
+        },
+        {
+          "ru": "указывать",
+          "en": "indicate",
+          "ipa": "[indicate]"
+        },
+        {
+          "ru": "предлагать / предполагать",
+          "en": "suggest",
+          "ipa": "[suggest]"
+        },
+        {
+          "ru": "заключать",
+          "en": "conclude",
+          "ipa": "[conclude]"
+        },
+        {
+          "ru": "резюмировать",
+          "en": "summarize",
+          "ipa": "[summarize]"
+        },
+        {
+          "ru": "цитировать",
+          "en": "quote",
+          "ipa": "[quote]"
+        },
+        {
+          "ru": "ссылаться",
+          "en": "refer",
+          "ipa": "[refer]"
+        },
+        {
+          "ru": "вести переговоры",
+          "en": "negotiate",
+          "ipa": "[negotiate]"
+        },
+        {
+          "ru": "убеждать",
+          "en": "persuade",
+          "ipa": "[persuade]"
+        },
+        {
+          "ru": "убеждать",
+          "en": "convince",
+          "ipa": "[convince]"
+        },
+        {
+          "ru": "критиковать",
+          "en": "criticize",
+          "ipa": "[criticize]"
+        },
+        {
+          "ru": "оценивать",
+          "en": "evaluate",
+          "ipa": "[evaluate]"
+        },
+        {
+          "ru": "различать",
+          "en": "distinguish",
+          "ipa": "[distinguish]"
+        },
+        {
+          "ru": "расставлять приоритеты",
+          "en": "prioritize",
+          "ipa": "[prioritize]"
+        }
+      ]
+    },
+    {
+      "title": "C1 Words: Advanced Society & Policy",
+      "rule": "Сложные общественные и политические темы.",
+      "examples": [
+        {
+          "ru": "законодательство",
+          "en": "legislation",
+          "ipa": "[legislation]"
+        },
+        {
+          "ru": "регулирование",
+          "en": "regulation",
+          "ipa": "[regulation]"
+        },
+        {
+          "ru": "управление",
+          "en": "governance",
+          "ipa": "[governance]"
+        },
+        {
+          "ru": "бюрократия",
+          "en": "bureaucracy",
+          "ipa": "[bureaucracy]"
+        },
+        {
+          "ru": "подотчётность",
+          "en": "accountability",
+          "ipa": "[accountability]"
+        },
+        {
+          "ru": "прозрачность",
+          "en": "transparency",
+          "ipa": "[transparency]"
+        },
+        {
+          "ru": "неравенство",
+          "en": "inequality",
+          "ipa": "[inequality]"
+        },
+        {
+          "ru": "разнообразие",
+          "en": "diversity",
+          "ipa": "[diversity]"
+        },
+        {
+          "ru": "инклюзия",
+          "en": "inclusion",
+          "ipa": "[inclusion]"
+        },
+        {
+          "ru": "урбанизация",
+          "en": "urbanization",
+          "ipa": "[urbanization]"
+        },
+        {
+          "ru": "устойчивость",
+          "en": "sustainability",
+          "ipa": "[sustainability]"
+        },
+        {
+          "ru": "инфраструктура",
+          "en": "infrastructure",
+          "ipa": "[infrastructure]"
+        },
+        {
+          "ru": "благосостояние",
+          "en": "welfare",
+          "ipa": "[welfare]"
+        },
+        {
+          "ru": "процветание",
+          "en": "prosperity",
+          "ipa": "[prosperity]"
+        },
+        {
+          "ru": "кризис",
+          "en": "crisis",
+          "ipa": "[crisis]"
+        },
+        {
+          "ru": "реформа",
+          "en": "reform",
+          "ipa": "[reform]"
+        },
+        {
+          "ru": "санкция",
+          "en": "sanction",
+          "ipa": "[sanction]"
+        },
+        {
+          "ru": "договор",
+          "en": "treaty",
+          "ipa": "[treaty]"
+        },
+        {
+          "ru": "дипломатия",
+          "en": "diplomacy",
+          "ipa": "[diplomacy]"
+        },
+        {
+          "ru": "суверенитет",
+          "en": "sovereignty",
+          "ipa": "[sovereignty]"
+        },
+        {
+          "ru": "стабильность",
+          "en": "stability",
+          "ipa": "[stability]"
+        },
+        {
+          "ru": "нестабильность",
+          "en": "instability",
+          "ipa": "[instability]"
+        }
+      ]
+    },
+    {
+      "title": "C1 Words: Advanced Business & Analysis",
+      "rule": "Бизнес, аналитика и управление на продвинутом уровне.",
+      "examples": [
+        {
+          "ru": "заинтересованная сторона",
+          "en": "stakeholder",
+          "ipa": "[stakeholder]"
+        },
+        {
+          "ru": "акционер",
+          "en": "shareholder",
+          "ipa": "[shareholder]"
+        },
+        {
+          "ru": "выручка",
+          "en": "revenue",
+          "ipa": "[revenue]"
+        },
+        {
+          "ru": "обязательство",
+          "en": "liability",
+          "ipa": "[liability]"
+        },
+        {
+          "ru": "актив",
+          "en": "asset",
+          "ipa": "[asset]"
+        },
+        {
+          "ru": "капитал",
+          "en": "equity",
+          "ipa": "[equity]"
+        },
+        {
+          "ru": "прогноз",
+          "en": "forecast",
+          "ipa": "[forecast]"
+        },
+        {
+          "ru": "прогноз / проекция",
+          "en": "projection",
+          "ipa": "[projection]"
+        },
+        {
+          "ru": "эталонный показатель",
+          "en": "benchmark",
+          "ipa": "[benchmark]"
+        },
+        {
+          "ru": "метрика",
+          "en": "metric",
+          "ipa": "[metric]"
+        },
+        {
+          "ru": "показатель",
+          "en": "indicator",
+          "ipa": "[indicator]"
+        },
+        {
+          "ru": "маржа",
+          "en": "margin",
+          "ipa": "[margin]"
+        },
+        {
+          "ru": "распределение",
+          "en": "allocation",
+          "ipa": "[allocation]"
+        },
+        {
+          "ru": "оптимизация",
+          "en": "optimization",
+          "ipa": "[optimization]"
+        },
+        {
+          "ru": "интеграция",
+          "en": "integration",
+          "ipa": "[integration]"
+        },
+        {
+          "ru": "масштабируемость",
+          "en": "scalability",
+          "ipa": "[scalability]"
+        },
+        {
+          "ru": "ограничение",
+          "en": "constraint",
+          "ipa": "[constraint]"
+        },
+        {
+          "ru": "узкое место",
+          "en": "bottleneck",
+          "ipa": "[bottleneck]"
+        },
+        {
+          "ru": "рабочий процесс",
+          "en": "workflow",
+          "ipa": "[workflow]"
+        },
+        {
+          "ru": "соответствие требованиям",
+          "en": "compliance",
+          "ipa": "[compliance]"
+        },
+        {
+          "ru": "аудит",
+          "en": "audit",
+          "ipa": "[audit]"
+        },
+        {
+          "ru": "инициатива",
+          "en": "initiative",
+          "ipa": "[initiative]"
+        }
+      ]
+    },
+    {
+      "title": "C1 Words: Nuanced Adjectives",
+      "rule": "Точные прилагательные высокого уровня.",
+      "examples": [
+        {
+          "ru": "неоднозначный",
+          "en": "ambiguous",
+          "ipa": "[ambiguous]"
+        },
+        {
+          "ru": "тонкий / едва заметный",
+          "en": "subtle",
+          "ipa": "[subtle]"
+        },
+        {
+          "ru": "всесторонний",
+          "en": "comprehensive",
+          "ipa": "[comprehensive]"
+        },
+        {
+          "ru": "существенный",
+          "en": "substantial",
+          "ipa": "[substantial]"
+        },
+        {
+          "ru": "значительный",
+          "en": "significant",
+          "ipa": "[significant]"
+        },
+        {
+          "ru": "незначительный",
+          "en": "minor",
+          "ipa": "[minor]"
+        },
+        {
+          "ru": "крупный / основной",
+          "en": "major",
+          "ipa": "[major]"
+        },
+        {
+          "ru": "решающий",
+          "en": "crucial",
+          "ipa": "[crucial]"
+        },
+        {
+          "ru": "жизненно важный",
+          "en": "vital",
+          "ipa": "[vital]"
+        },
+        {
+          "ru": "неизбежный",
+          "en": "inevitable",
+          "ipa": "[inevitable]"
+        },
+        {
+          "ru": "спорный",
+          "en": "controversial",
+          "ipa": "[controversial]"
+        },
+        {
+          "ru": "широко распространённый",
+          "en": "widespread",
+          "ipa": "[widespread]"
+        },
+        {
+          "ru": "последовательный",
+          "en": "consistent",
+          "ipa": "[consistent]"
+        },
+        {
+          "ru": "непоследовательный",
+          "en": "inconsistent",
+          "ipa": "[inconsistent]"
+        },
+        {
+          "ru": "эффективный",
+          "en": "efficient",
+          "ipa": "[efficient]"
+        },
+        {
+          "ru": "неэффективный",
+          "en": "inefficient",
+          "ipa": "[inefficient]"
+        },
+        {
+          "ru": "осуществимый",
+          "en": "feasible",
+          "ipa": "[feasible]"
+        },
+        {
+          "ru": "уязвимый",
+          "en": "vulnerable",
+          "ipa": "[vulnerable]"
+        },
+        {
+          "ru": "устойчивый",
+          "en": "resilient",
+          "ipa": "[resilient]"
+        },
+        {
+          "ru": "сложный / изощрённый",
+          "en": "sophisticated",
+          "ipa": "[sophisticated]"
+        },
+        {
+          "ru": "произвольный",
+          "en": "arbitrary",
+          "ipa": "[arbitrary]"
+        },
+        {
+          "ru": "явный",
+          "en": "explicit",
+          "ipa": "[explicit]"
+        },
+        {
+          "ru": "неявный",
+          "en": "implicit",
+          "ipa": "[implicit]"
+        }
+      ]
+    },
+    {
+      "title": "C1 Words: Formal Verbs",
+      "rule": "Формальные глаголы C1.",
+      "examples": [
+        {
+          "ru": "распределять",
+          "en": "allocate",
+          "ipa": "[allocate]"
+        },
+        {
+          "ru": "предвидеть",
+          "en": "anticipate",
+          "ipa": "[anticipate]"
+        },
+        {
+          "ru": "составлять",
+          "en": "compile",
+          "ipa": "[compile]"
+        },
+        {
+          "ru": "включать / состоять из",
+          "en": "comprise",
+          "ipa": "[comprise]"
+        },
+        {
+          "ru": "задумывать",
+          "en": "conceive",
+          "ipa": "[conceive]"
+        },
+        {
+          "ru": "ограничивать",
+          "en": "constrain",
+          "ipa": "[constrain]"
+        },
+        {
+          "ru": "передавать",
+          "en": "convey",
+          "ipa": "[convey]"
+        },
+        {
+          "ru": "отклоняться",
+          "en": "deviate",
+          "ipa": "[deviate]"
+        },
+        {
+          "ru": "различать",
+          "en": "differentiate",
+          "ipa": "[differentiate]"
+        },
+        {
+          "ru": "устранять",
+          "en": "eliminate",
+          "ipa": "[eliminate]"
+        },
+        {
+          "ru": "усиливать / улучшать",
+          "en": "enhance",
+          "ipa": "[enhance]"
+        },
+        {
+          "ru": "превышать",
+          "en": "exceed",
+          "ipa": "[exceed]"
+        },
+        {
+          "ru": "облегчать / способствовать",
+          "en": "facilitate",
+          "ipa": "[facilitate]"
+        },
+        {
+          "ru": "колебаться",
+          "en": "fluctuate",
+          "ipa": "[fluctuate]"
+        },
+        {
+          "ru": "формулировать",
+          "en": "formulate",
+          "ipa": "[formulate]"
+        },
+        {
+          "ru": "генерировать",
+          "en": "generate",
+          "ipa": "[generate]"
+        },
+        {
+          "ru": "включать",
+          "en": "incorporate",
+          "ipa": "[incorporate]"
+        },
+        {
+          "ru": "манипулировать",
+          "en": "manipulate",
+          "ipa": "[manipulate]"
+        },
+        {
+          "ru": "предшествовать",
+          "en": "precede",
+          "ipa": "[precede]"
+        },
+        {
+          "ru": "усиливать",
+          "en": "reinforce",
+          "ipa": "[reinforce]"
+        },
+        {
+          "ru": "проходить через",
+          "en": "undergo",
+          "ipa": "[undergo]"
+        },
+        {
+          "ru": "подрывать",
+          "en": "undermine",
+          "ipa": "[undermine]"
+        }
+      ]
+    },
+    {
+      "title": "C1 Words: Advanced Nouns",
+      "rule": "Продвинутые существительные C1.",
+      "examples": [
+        {
+          "ru": "неоднозначность",
+          "en": "ambiguity",
+          "ipa": "[ambiguity]"
+        },
+        {
+          "ru": "прорыв",
+          "en": "breakthrough",
+          "ipa": "[breakthrough]"
+        },
+        {
+          "ru": "связность",
+          "en": "coherence",
+          "ipa": "[coherence]"
+        },
+        {
+          "ru": "консенсус",
+          "en": "consensus",
+          "ipa": "[consensus]"
+        },
+        {
+          "ru": "расхождение",
+          "en": "discrepancy",
+          "ipa": "[discrepancy]"
+        },
+        {
+          "ru": "область",
+          "en": "domain",
+          "ipa": "[domain]"
+        },
+        {
+          "ru": "недостаток",
+          "en": "drawback",
+          "ipa": "[drawback]"
+        },
+        {
+          "ru": "осуществимость",
+          "en": "feasibility",
+          "ipa": "[feasibility]"
+        },
+        {
+          "ru": "понимание / инсайт",
+          "en": "insight",
+          "ipa": "[insight]"
+        },
+        {
+          "ru": "целостность",
+          "en": "integrity",
+          "ipa": "[integrity]"
+        },
+        {
+          "ru": "парадокс",
+          "en": "paradox",
+          "ipa": "[paradox]"
+        },
+        {
+          "ru": "парадигма",
+          "en": "paradigm",
+          "ipa": "[paradigm]"
+        },
+        {
+          "ru": "параметр",
+          "en": "parameter",
+          "ipa": "[parameter]"
+        },
+        {
+          "ru": "пропорция",
+          "en": "proportion",
+          "ipa": "[proportion]"
+        },
+        {
+          "ru": "обоснование",
+          "en": "rationale",
+          "ipa": "[rationale]"
+        },
+        {
+          "ru": "недостаток",
+          "en": "shortcoming",
+          "ipa": "[shortcoming]"
+        },
+        {
+          "ru": "порог",
+          "en": "threshold",
+          "ipa": "[threshold]"
+        },
+        {
+          "ru": "компромисс",
+          "en": "trade-off",
+          "ipa": "[trade off]"
+        },
+        {
+          "ru": "переход",
+          "en": "transition",
+          "ipa": "[transition]"
+        },
+        {
+          "ru": "турбулентность",
+          "en": "turbulence",
+          "ipa": "[turbulence]"
+        }
+      ]
+    },
+    {
+      "title": "C1 Words: Advanced Connectors",
+      "rule": "Сложные связки и академические маркеры.",
+      "examples": [
+        {
+          "ru": "тем не менее",
+          "en": "nevertheless",
+          "ipa": "[nevertheless]"
+        },
+        {
+          "ru": "тем не менее",
+          "en": "nonetheless",
+          "ipa": "[nonetheless]"
+        },
+        {
+          "ru": "следовательно",
+          "en": "therefore",
+          "ipa": "[therefore]"
+        },
+        {
+          "ru": "тогда как",
+          "en": "whereas",
+          "ipa": "[whereas]"
+        },
+        {
+          "ru": "при условии что",
+          "en": "provided that",
+          "ipa": "[provided that]"
+        },
+        {
+          "ru": "независимо от",
+          "en": "regardless of",
+          "ipa": "[regardless əv]"
+        },
+        {
+          "ru": "с точки зрения",
+          "en": "in terms of",
+          "ipa": "[in terms əv]"
+        },
+        {
+          "ru": "относительно",
+          "en": "with regard to",
+          "ipa": "[with regard tuː]"
+        },
+        {
+          "ru": "в отличие от",
+          "en": "as opposed to",
+          "ipa": "[as opposed tuː]"
+        },
+        {
+          "ru": "напротив",
+          "en": "in contrast",
+          "ipa": "[in contrast]"
+        },
+        {
+          "ru": "наоборот",
+          "en": "on the contrary",
+          "ipa": "[on ðə contrary]"
+        },
+        {
+          "ru": "в некоторой степени",
+          "en": "to some extent",
+          "ipa": "[tuː some extent]"
+        },
+        {
+          "ru": "в отличие от этого",
+          "en": "by contrast",
+          "ipa": "[by contrast]"
+        },
+        {
+          "ru": "по сути",
+          "en": "in essence",
+          "ipa": "[in essence]"
+        },
+        {
+          "ru": "в результате",
+          "en": "as a result",
+          "ipa": "[as ə result]"
+        },
+        {
+          "ru": "кроме того",
+          "en": "in addition",
+          "ipa": "[in addition]"
+        },
+        {
+          "ru": "более того",
+          "en": "moreover",
+          "ipa": "[moreover]"
+        },
+        {
+          "ru": "следовательно",
+          "en": "hence",
+          "ipa": "[hence]"
+        }
+      ]
+    },
+    {
+      "title": "C1 Words: Advanced Descriptions",
+      "rule": "Точные слова для сложного описания.",
+      "examples": [
+        {
+          "ru": "замысловатый",
+          "en": "intricate",
+          "ipa": "[intricate]"
+        },
+        {
+          "ru": "настойчивый / постоянный",
+          "en": "persistent",
+          "ipa": "[persistent]"
+        },
+        {
+          "ru": "предварительный",
+          "en": "preliminary",
+          "ipa": "[preliminary]"
+        },
+        {
+          "ru": "надёжный",
+          "en": "robust",
+          "ipa": "[robust]"
+        },
+        {
+          "ru": "дефицитный",
+          "en": "scarce",
+          "ipa": "[scarce]"
+        },
+        {
+          "ru": "предварительный / неуверенный",
+          "en": "tentative",
+          "ipa": "[tentative]"
+        },
+        {
+          "ru": "лежащий в основе",
+          "en": "underlying",
+          "ipa": "[underlying]"
+        },
+        {
+          "ru": "беспрецедентный",
+          "en": "unprecedented",
+          "ipa": "[unprecedented]"
+        },
+        {
+          "ru": "жизнеспособный",
+          "en": "viable",
+          "ipa": "[viable]"
+        },
+        {
+          "ru": "заметный",
+          "en": "notable",
+          "ipa": "[notable]"
+        },
+        {
+          "ru": "незначительный / маргинальный",
+          "en": "marginal",
+          "ipa": "[marginal]"
+        },
+        {
+          "ru": "присущий",
+          "en": "inherent",
+          "ipa": "[inherent]"
+        },
+        {
+          "ru": "неуместный",
+          "en": "irrelevant",
+          "ipa": "[irrelevant]"
+        },
+        {
+          "ru": "законный / обоснованный",
+          "en": "legitimate",
+          "ipa": "[legitimate]"
+        },
+        {
+          "ru": "правдоподобный",
+          "en": "plausible",
+          "ipa": "[plausible]"
+        },
+        {
+          "ru": "глубокий",
+          "en": "profound",
+          "ipa": "[profound]"
+        },
+        {
+          "ru": "избыточный",
+          "en": "redundant",
+          "ipa": "[redundant]"
+        },
+        {
+          "ru": "строгий",
+          "en": "rigorous",
+          "ipa": "[rigorous]"
+        },
+        {
+          "ru": "одновременный",
+          "en": "simultaneous",
+          "ipa": "[simultaneous]"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1241 @@
+{
+  "sections": [
+    {
+      "title": "A2 Words: Communication & Internet",
+      "rule": "Общение, интернет и медиа.",
+      "examples": [
+        {
+          "ru": "общаться",
+          "en": "communicate",
+          "ipa": "[communicate]"
+        },
+        {
+          "ru": "разговор",
+          "en": "conversation",
+          "ipa": "[conversation]"
+        },
+        {
+          "ru": "обсуждение",
+          "en": "discussion",
+          "ipa": "[discussion]"
+        },
+        {
+          "ru": "объяснять",
+          "en": "explain",
+          "ipa": "[explain]"
+        },
+        {
+          "ru": "описывать",
+          "en": "describe",
+          "ipa": "[describe]"
+        },
+        {
+          "ru": "повторять",
+          "en": "repeat",
+          "ipa": "[repeat]"
+        },
+        {
+          "ru": "произносить",
+          "en": "pronounce",
+          "ipa": "[pronounce]"
+        },
+        {
+          "ru": "переводить",
+          "en": "translate",
+          "ipa": "[translate]"
+        },
+        {
+          "ru": "понимать",
+          "en": "understand",
+          "ipa": "[understand]"
+        },
+        {
+          "ru": "значение",
+          "en": "meaning",
+          "ipa": "[meaning]"
+        },
+        {
+          "ru": "пример",
+          "en": "example",
+          "ipa": "[example]"
+        },
+        {
+          "ru": "ошибка",
+          "en": "mistake",
+          "ipa": "[mistake]"
+        },
+        {
+          "ru": "исправлять / правильный",
+          "en": "correct",
+          "ipa": "[correct]"
+        },
+        {
+          "ru": "совет",
+          "en": "advice",
+          "ipa": "[advice]"
+        },
+        {
+          "ru": "мнение",
+          "en": "opinion",
+          "ipa": "[opinion]"
+        },
+        {
+          "ru": "причина",
+          "en": "reason",
+          "ipa": "[reason]"
+        },
+        {
+          "ru": "голос",
+          "en": "voice",
+          "ipa": "[voice]"
+        },
+        {
+          "ru": "звук",
+          "en": "sound",
+          "ipa": "[sound]"
+        },
+        {
+          "ru": "новости",
+          "en": "news",
+          "ipa": "[news]"
+        },
+        {
+          "ru": "сайт",
+          "en": "website",
+          "ipa": "[website]"
+        },
+        {
+          "ru": "интернет",
+          "en": "internet",
+          "ipa": "[internet]"
+        },
+        {
+          "ru": "пароль",
+          "en": "password",
+          "ipa": "[password]"
+        },
+        {
+          "ru": "аккаунт",
+          "en": "account",
+          "ipa": "[account]"
+        },
+        {
+          "ru": "экран",
+          "en": "screen",
+          "ipa": "[screen]"
+        },
+        {
+          "ru": "видео",
+          "en": "video",
+          "ipa": "[video]"
+        }
+      ]
+    },
+    {
+      "title": "A2 Words: Travel & Transport",
+      "rule": "Путешествия и транспорт.",
+      "examples": [
+        {
+          "ru": "поездка",
+          "en": "journey",
+          "ipa": "[journey]"
+        },
+        {
+          "ru": "поездка",
+          "en": "trip",
+          "ipa": "[trip]"
+        },
+        {
+          "ru": "отпуск",
+          "en": "vacation",
+          "ipa": "[vacation]"
+        },
+        {
+          "ru": "за границей",
+          "en": "abroad",
+          "ipa": "[abroad]"
+        },
+        {
+          "ru": "паспорт",
+          "en": "passport",
+          "ipa": "[passport]"
+        },
+        {
+          "ru": "багаж",
+          "en": "luggage",
+          "ipa": "[luggage]"
+        },
+        {
+          "ru": "чемодан",
+          "en": "suitcase",
+          "ipa": "[suitcase]"
+        },
+        {
+          "ru": "рейс",
+          "en": "flight",
+          "ipa": "[flight]"
+        },
+        {
+          "ru": "самолёт",
+          "en": "plane",
+          "ipa": "[plane]"
+        },
+        {
+          "ru": "лодка",
+          "en": "boat",
+          "ipa": "[boat]"
+        },
+        {
+          "ru": "корабль",
+          "en": "ship",
+          "ipa": "[ship]"
+        },
+        {
+          "ru": "такси",
+          "en": "taxi",
+          "ipa": "[taxi]"
+        },
+        {
+          "ru": "метро",
+          "en": "subway",
+          "ipa": "[subway]"
+        },
+        {
+          "ru": "метро",
+          "en": "underground",
+          "ipa": "[underground]"
+        },
+        {
+          "ru": "платформа",
+          "en": "platform",
+          "ipa": "[platform]"
+        },
+        {
+          "ru": "маршрут",
+          "en": "route",
+          "ipa": "[route]"
+        },
+        {
+          "ru": "дорога",
+          "en": "road",
+          "ipa": "[road]"
+        },
+        {
+          "ru": "мост",
+          "en": "bridge",
+          "ipa": "[bridge]"
+        },
+        {
+          "ru": "движение / трафик",
+          "en": "traffic",
+          "ipa": "[traffic]"
+        },
+        {
+          "ru": "адрес",
+          "en": "address",
+          "ipa": "[address]"
+        },
+        {
+          "ru": "направление",
+          "en": "direction",
+          "ipa": "[direction]"
+        },
+        {
+          "ru": "лево",
+          "en": "left",
+          "ipa": "[left]"
+        },
+        {
+          "ru": "прямо",
+          "en": "straight",
+          "ipa": "[straight]"
+        },
+        {
+          "ru": "север",
+          "en": "north",
+          "ipa": "[north]"
+        },
+        {
+          "ru": "юг",
+          "en": "south",
+          "ipa": "[south]"
+        },
+        {
+          "ru": "восток",
+          "en": "east",
+          "ipa": "[east]"
+        },
+        {
+          "ru": "запад",
+          "en": "west",
+          "ipa": "[west]"
+        }
+      ]
+    },
+    {
+      "title": "A2 Words: Health & Body",
+      "rule": "Здоровье и тело.",
+      "examples": [
+        {
+          "ru": "тело",
+          "en": "body",
+          "ipa": "[body]"
+        },
+        {
+          "ru": "зубы",
+          "en": "teeth",
+          "ipa": "[teeth]"
+        },
+        {
+          "ru": "медсестра",
+          "en": "nurse",
+          "ipa": "[nurse]"
+        },
+        {
+          "ru": "аптека",
+          "en": "pharmacy",
+          "ipa": "[pharmacy]"
+        },
+        {
+          "ru": "температура",
+          "en": "temperature",
+          "ipa": "[temperature]"
+        },
+        {
+          "ru": "кашель",
+          "en": "cough",
+          "ipa": "[cough]"
+        },
+        {
+          "ru": "отдых",
+          "en": "rest",
+          "ipa": "[rest]"
+        },
+        {
+          "ru": "упражнение",
+          "en": "exercise",
+          "ipa": "[exercise]"
+        }
+      ]
+    },
+    {
+      "title": "A2 Words: Feelings & Character",
+      "rule": "Эмоции и характер.",
+      "examples": [
+        {
+          "ru": "испуганный",
+          "en": "afraid",
+          "ipa": "[afraid]"
+        },
+        {
+          "ru": "обеспокоенный",
+          "en": "worried",
+          "ipa": "[worried]"
+        },
+        {
+          "ru": "взволнованный",
+          "en": "excited",
+          "ipa": "[excited]"
+        },
+        {
+          "ru": "скучающий",
+          "en": "bored",
+          "ipa": "[bored]"
+        },
+        {
+          "ru": "удивлённый",
+          "en": "surprised",
+          "ipa": "[surprised]"
+        },
+        {
+          "ru": "гордый",
+          "en": "proud",
+          "ipa": "[proud]"
+        },
+        {
+          "ru": "застенчивый",
+          "en": "shy",
+          "ipa": "[shy]"
+        },
+        {
+          "ru": "осторожный",
+          "en": "careful",
+          "ipa": "[careful]"
+        },
+        {
+          "ru": "неосторожный",
+          "en": "careless",
+          "ipa": "[careless]"
+        },
+        {
+          "ru": "вежливый",
+          "en": "polite",
+          "ipa": "[polite]"
+        },
+        {
+          "ru": "грубый",
+          "en": "rude",
+          "ipa": "[rude]"
+        },
+        {
+          "ru": "честный",
+          "en": "honest",
+          "ipa": "[honest]"
+        },
+        {
+          "ru": "ленивый",
+          "en": "lazy",
+          "ipa": "[lazy]"
+        },
+        {
+          "ru": "смелый",
+          "en": "brave",
+          "ipa": "[brave]"
+        },
+        {
+          "ru": "умный",
+          "en": "clever",
+          "ipa": "[clever]"
+        },
+        {
+          "ru": "глупый",
+          "en": "stupid",
+          "ipa": "[stupid]"
+        },
+        {
+          "ru": "серьёзный",
+          "en": "serious",
+          "ipa": "[serious]"
+        },
+        {
+          "ru": "спокойный",
+          "en": "calm",
+          "ipa": "[calm]"
+        },
+        {
+          "ru": "нервный",
+          "en": "nervous",
+          "ipa": "[nervous]"
+        },
+        {
+          "ru": "один / одинокий",
+          "en": "alone",
+          "ipa": "[alone]"
+        },
+        {
+          "ru": "вместе",
+          "en": "together",
+          "ipa": "[together]"
+        },
+        {
+          "ru": "надежда / надеяться",
+          "en": "hope",
+          "ipa": "[hope]"
+        },
+        {
+          "ru": "мечта / мечтать",
+          "en": "dream",
+          "ipa": "[dream]"
+        }
+      ]
+    },
+    {
+      "title": "A2 Words: Work, Money & Services",
+      "rule": "Работа, деньги и услуги.",
+      "examples": [
+        {
+          "ru": "зарплата",
+          "en": "salary",
+          "ipa": "[salary]"
+        },
+        {
+          "ru": "бизнес",
+          "en": "business",
+          "ipa": "[business]"
+        },
+        {
+          "ru": "команда",
+          "en": "team",
+          "ipa": "[team]"
+        },
+        {
+          "ru": "начальник",
+          "en": "boss",
+          "ipa": "[boss]"
+        },
+        {
+          "ru": "клиент",
+          "en": "client",
+          "ipa": "[client]"
+        },
+        {
+          "ru": "услуга",
+          "en": "service",
+          "ipa": "[service]"
+        },
+        {
+          "ru": "поддержка",
+          "en": "support",
+          "ipa": "[support]"
+        },
+        {
+          "ru": "оплата",
+          "en": "payment",
+          "ipa": "[payment]"
+        },
+        {
+          "ru": "банковская карта",
+          "en": "bank card",
+          "ipa": "[bank card]"
+        },
+        {
+          "ru": "налог",
+          "en": "tax",
+          "ipa": "[tax]"
+        },
+        {
+          "ru": "аренда / арендовать",
+          "en": "rent",
+          "ipa": "[rent]"
+        },
+        {
+          "ru": "контракт",
+          "en": "contract",
+          "ipa": "[contract]"
+        },
+        {
+          "ru": "документ",
+          "en": "document",
+          "ipa": "[document]"
+        },
+        {
+          "ru": "подпись",
+          "en": "signature",
+          "ipa": "[signature]"
+        },
+        {
+          "ru": "копия",
+          "en": "copy",
+          "ipa": "[copy]"
+        },
+        {
+          "ru": "отчёт",
+          "en": "report",
+          "ipa": "[report]"
+        },
+        {
+          "ru": "задача",
+          "en": "task",
+          "ipa": "[task]"
+        },
+        {
+          "ru": "дедлайн",
+          "en": "deadline",
+          "ipa": "[deadline]"
+        },
+        {
+          "ru": "расписание",
+          "en": "schedule",
+          "ipa": "[schedule]"
+        },
+        {
+          "ru": "назначенная встреча",
+          "en": "appointment",
+          "ipa": "[appointment]"
+        },
+        {
+          "ru": "опыт",
+          "en": "experience",
+          "ipa": "[experience]"
+        },
+        {
+          "ru": "навык",
+          "en": "skill",
+          "ipa": "[skill]"
+        },
+        {
+          "ru": "обучение",
+          "en": "training",
+          "ipa": "[training]"
+        }
+      ]
+    },
+    {
+      "title": "A2 Words: Nature & Weather",
+      "rule": "Природа и погода.",
+      "examples": [
+        {
+          "ru": "погода",
+          "en": "weather",
+          "ipa": "[weather]"
+        },
+        {
+          "ru": "облако",
+          "en": "cloud",
+          "ipa": "[cloud]"
+        },
+        {
+          "ru": "море",
+          "en": "sea",
+          "ipa": "[sea]"
+        },
+        {
+          "ru": "река",
+          "en": "river",
+          "ipa": "[river]"
+        },
+        {
+          "ru": "озеро",
+          "en": "lake",
+          "ipa": "[lake]"
+        },
+        {
+          "ru": "гора",
+          "en": "mountain",
+          "ipa": "[mountain]"
+        },
+        {
+          "ru": "лес",
+          "en": "forest",
+          "ipa": "[forest]"
+        },
+        {
+          "ru": "тёплый",
+          "en": "warm",
+          "ipa": "[warm]"
+        },
+        {
+          "ru": "прохладный",
+          "en": "cool",
+          "ipa": "[cool]"
+        },
+        {
+          "ru": "сухой",
+          "en": "dry",
+          "ipa": "[dry]"
+        },
+        {
+          "ru": "мокрый",
+          "en": "wet",
+          "ipa": "[wet]"
+        }
+      ]
+    },
+    {
+      "title": "A2 Words: Common Linkers & Grammar Words",
+      "rule": "Связки и полезные слова для построения фраз.",
+      "examples": [
+        {
+          "ru": "потому что",
+          "en": "because",
+          "ipa": "[bɪˈkɒz]"
+        },
+        {
+          "ru": "поэтому / так",
+          "en": "so",
+          "ipa": "[so]"
+        },
+        {
+          "ru": "если",
+          "en": "if",
+          "ipa": "[if]"
+        },
+        {
+          "ru": "чем",
+          "en": "than",
+          "ipa": "[than]"
+        },
+        {
+          "ru": "перед / до",
+          "en": "before",
+          "ipa": "[before]"
+        },
+        {
+          "ru": "после",
+          "en": "after",
+          "ipa": "[after]"
+        },
+        {
+          "ru": "во время",
+          "en": "during",
+          "ipa": "[during]"
+        },
+        {
+          "ru": "пока / в то время как",
+          "en": "while",
+          "ipa": "[while]"
+        },
+        {
+          "ru": "до тех пор пока",
+          "en": "until",
+          "ipa": "[until]"
+        },
+        {
+          "ru": "между",
+          "en": "between",
+          "ipa": "[between]"
+        },
+        {
+          "ru": "среди",
+          "en": "among",
+          "ipa": "[among]"
+        },
+        {
+          "ru": "внутри",
+          "en": "inside",
+          "ipa": "[inside]"
+        },
+        {
+          "ru": "снаружи",
+          "en": "outside",
+          "ipa": "[outside]"
+        },
+        {
+          "ru": "вокруг",
+          "en": "around",
+          "ipa": "[around]"
+        },
+        {
+          "ru": "через",
+          "en": "through",
+          "ipa": "[through]"
+        },
+        {
+          "ru": "через / поперёк",
+          "en": "across",
+          "ipa": "[across]"
+        },
+        {
+          "ru": "над",
+          "en": "above",
+          "ipa": "[above]"
+        },
+        {
+          "ru": "под / ниже",
+          "en": "below",
+          "ipa": "[below]"
+        },
+        {
+          "ru": "позади",
+          "en": "behind",
+          "ipa": "[behind]"
+        },
+        {
+          "ru": "рядом с",
+          "en": "next to",
+          "ipa": "[next tuː]"
+        },
+        {
+          "ru": "далеко от",
+          "en": "far from",
+          "ipa": "[far from]"
+        }
+      ]
+    },
+    {
+      "title": "A2 Words: Education & Learning",
+      "rule": "Учёба и процесс обучения.",
+      "examples": [
+        {
+          "ru": "словарь",
+          "en": "dictionary",
+          "ipa": "[dictionary]"
+        },
+        {
+          "ru": "грамматика",
+          "en": "grammar",
+          "ipa": "[grammar]"
+        },
+        {
+          "ru": "словарный запас",
+          "en": "vocabulary",
+          "ipa": "[vocabulary]"
+        },
+        {
+          "ru": "произношение",
+          "en": "pronunciation",
+          "ipa": "[pronunciation]"
+        },
+        {
+          "ru": "практика",
+          "en": "practice",
+          "ipa": "[practice]"
+        },
+        {
+          "ru": "уровень",
+          "en": "level",
+          "ipa": "[level]"
+        },
+        {
+          "ru": "начинающий",
+          "en": "beginner",
+          "ipa": "[beginner]"
+        },
+        {
+          "ru": "продвинутый",
+          "en": "advanced",
+          "ipa": "[advanced]"
+        },
+        {
+          "ru": "тема",
+          "en": "topic",
+          "ipa": "[topic]"
+        },
+        {
+          "ru": "эссе",
+          "en": "essay",
+          "ipa": "[essay]"
+        },
+        {
+          "ru": "абзац",
+          "en": "paragraph",
+          "ipa": "[paragraph]"
+        },
+        {
+          "ru": "заметка",
+          "en": "note",
+          "ipa": "[note]"
+        },
+        {
+          "ru": "оценка",
+          "en": "mark",
+          "ipa": "[mark]"
+        },
+        {
+          "ru": "оценка / класс",
+          "en": "grade",
+          "ipa": "[grade]"
+        },
+        {
+          "ru": "классная комната",
+          "en": "classroom",
+          "ipa": "[classroom]"
+        },
+        {
+          "ru": "библиотека",
+          "en": "library",
+          "ipa": "[library]"
+        },
+        {
+          "ru": "диплом / степень",
+          "en": "degree",
+          "ipa": "[degree]"
+        },
+        {
+          "ru": "образование",
+          "en": "education",
+          "ipa": "[education]"
+        }
+      ]
+    },
+    {
+      "title": "A2 Words: Technology & Devices",
+      "rule": "Техника и устройства.",
+      "examples": [
+        {
+          "ru": "устройство",
+          "en": "device",
+          "ipa": "[device]"
+        },
+        {
+          "ru": "ноутбук",
+          "en": "laptop",
+          "ipa": "[laptop]"
+        },
+        {
+          "ru": "клавиатура",
+          "en": "keyboard",
+          "ipa": "[keyboard]"
+        },
+        {
+          "ru": "принтер",
+          "en": "printer",
+          "ipa": "[printer]"
+        },
+        {
+          "ru": "зарядное устройство",
+          "en": "charger",
+          "ipa": "[charger]"
+        },
+        {
+          "ru": "батарея",
+          "en": "battery",
+          "ipa": "[battery]"
+        },
+        {
+          "ru": "файл",
+          "en": "file",
+          "ipa": "[file]"
+        },
+        {
+          "ru": "папка",
+          "en": "folder",
+          "ipa": "[folder]"
+        },
+        {
+          "ru": "кнопка",
+          "en": "button",
+          "ipa": "[button]"
+        },
+        {
+          "ru": "ссылка",
+          "en": "link",
+          "ipa": "[link]"
+        },
+        {
+          "ru": "онлайн",
+          "en": "online",
+          "ipa": "[online]"
+        },
+        {
+          "ru": "оффлайн",
+          "en": "offline",
+          "ipa": "[offline]"
+        },
+        {
+          "ru": "скачивать",
+          "en": "download",
+          "ipa": "[download]"
+        },
+        {
+          "ru": "загружать",
+          "en": "upload",
+          "ipa": "[upload]"
+        },
+        {
+          "ru": "устанавливать",
+          "en": "install",
+          "ipa": "[install]"
+        },
+        {
+          "ru": "удалять",
+          "en": "delete",
+          "ipa": "[delete]"
+        },
+        {
+          "ru": "сохранять",
+          "en": "save",
+          "ipa": "[save]"
+        },
+        {
+          "ru": "искать",
+          "en": "search",
+          "ipa": "[search]"
+        }
+      ]
+    },
+    {
+      "title": "A2 Words: City & Public Places",
+      "rule": "Город и общественные места.",
+      "examples": [
+        {
+          "ru": "столица",
+          "en": "capital",
+          "ipa": "[capital]"
+        },
+        {
+          "ru": "центр",
+          "en": "centre",
+          "ipa": "[centre]"
+        },
+        {
+          "ru": "здание",
+          "en": "building",
+          "ipa": "[building]"
+        },
+        {
+          "ru": "вход",
+          "en": "entrance",
+          "ipa": "[entrance]"
+        },
+        {
+          "ru": "выход",
+          "en": "exit",
+          "ipa": "[exit]"
+        },
+        {
+          "ru": "лифт",
+          "en": "lift",
+          "ipa": "[lift]"
+        },
+        {
+          "ru": "лестница",
+          "en": "stairs",
+          "ipa": "[stairs]"
+        },
+        {
+          "ru": "угол",
+          "en": "corner",
+          "ipa": "[corner]"
+        },
+        {
+          "ru": "церковь",
+          "en": "church",
+          "ipa": "[church]"
+        },
+        {
+          "ru": "музей",
+          "en": "museum",
+          "ipa": "[museum]"
+        },
+        {
+          "ru": "театр",
+          "en": "theatre",
+          "ipa": "[theatre]"
+        },
+        {
+          "ru": "почта",
+          "en": "post office",
+          "ipa": "[post office]"
+        },
+        {
+          "ru": "полицейский участок",
+          "en": "police station",
+          "ipa": "[police station]"
+        },
+        {
+          "ru": "автобусная остановка",
+          "en": "bus stop",
+          "ipa": "[bus stop]"
+        },
+        {
+          "ru": "парковка",
+          "en": "car park",
+          "ipa": "[car park]"
+        },
+        {
+          "ru": "тропа / путь",
+          "en": "path",
+          "ipa": "[path]"
+        },
+        {
+          "ru": "район",
+          "en": "area",
+          "ipa": "[area]"
+        },
+        {
+          "ru": "район / окрестность",
+          "en": "neighbourhood",
+          "ipa": "[neighbourhood]"
+        }
+      ]
+    },
+    {
+      "title": "A2 Words: Quantities & Measures",
+      "rule": "Количество и измерения.",
+      "examples": [
+        {
+          "ru": "количество",
+          "en": "amount",
+          "ipa": "[amount]"
+        },
+        {
+          "ru": "число / номер",
+          "en": "number",
+          "ipa": "[number]"
+        },
+        {
+          "ru": "пара",
+          "en": "pair",
+          "ipa": "[pair]"
+        },
+        {
+          "ru": "кусок / штука",
+          "en": "piece",
+          "ipa": "[piece]"
+        },
+        {
+          "ru": "половина",
+          "en": "half",
+          "ipa": "[half]"
+        },
+        {
+          "ru": "четверть",
+          "en": "quarter",
+          "ipa": "[quarter]"
+        },
+        {
+          "ru": "килограмм",
+          "en": "kilo",
+          "ipa": "[kilo]"
+        },
+        {
+          "ru": "грамм",
+          "en": "gram",
+          "ipa": "[gram]"
+        },
+        {
+          "ru": "литр",
+          "en": "litre",
+          "ipa": "[litre]"
+        },
+        {
+          "ru": "метр",
+          "en": "meter",
+          "ipa": "[meter]"
+        },
+        {
+          "ru": "километр",
+          "en": "kilometer",
+          "ipa": "[kilometer]"
+        },
+        {
+          "ru": "час",
+          "en": "hour",
+          "ipa": "[hour]"
+        },
+        {
+          "ru": "минута",
+          "en": "minute",
+          "ipa": "[minute]"
+        },
+        {
+          "ru": "секунда",
+          "en": "second",
+          "ipa": "[second]"
+        },
+        {
+          "ru": "век",
+          "en": "century",
+          "ipa": "[century]"
+        },
+        {
+          "ru": "миллион",
+          "en": "million",
+          "ipa": "[million]"
+        },
+        {
+          "ru": "достаточно",
+          "en": "enough",
+          "ipa": "[ɪˈnʌf]"
+        },
+        {
+          "ru": "несколько",
+          "en": "several",
+          "ipa": "[several]"
+        },
+        {
+          "ru": "целый",
+          "en": "whole",
+          "ipa": "[whole]"
+        },
+        {
+          "ru": "другой",
+          "en": "another",
+          "ipa": "[another]"
+        },
+        {
+          "ru": "оба",
+          "en": "both",
+          "ipa": "[both]"
+        }
+      ]
+    },
+    {
+      "title": "A2 Words: More Adjectives",
+      "rule": "Прилагательные для уровня A2.",
+      "examples": [
+        {
+          "ru": "возможный",
+          "en": "possible",
+          "ipa": "[possible]"
+        },
+        {
+          "ru": "невозможный",
+          "en": "impossible",
+          "ipa": "[impossible]"
+        },
+        {
+          "ru": "необходимый",
+          "en": "necessary",
+          "ipa": "[necessary]"
+        },
+        {
+          "ru": "нормальный",
+          "en": "normal",
+          "ipa": "[normal]"
+        },
+        {
+          "ru": "особенный",
+          "en": "special",
+          "ipa": "[special]"
+        },
+        {
+          "ru": "обычный",
+          "en": "usual",
+          "ipa": "[usual]"
+        },
+        {
+          "ru": "необычный",
+          "en": "unusual",
+          "ipa": "[unusual]"
+        },
+        {
+          "ru": "современный",
+          "en": "modern",
+          "ipa": "[modern]"
+        },
+        {
+          "ru": "традиционный",
+          "en": "traditional",
+          "ipa": "[traditional]"
+        },
+        {
+          "ru": "местный",
+          "en": "local",
+          "ipa": "[local]"
+        },
+        {
+          "ru": "иностранный",
+          "en": "foreign",
+          "ipa": "[foreign]"
+        },
+        {
+          "ru": "национальный",
+          "en": "national",
+          "ipa": "[national]"
+        },
+        {
+          "ru": "частный",
+          "en": "private",
+          "ipa": "[private]"
+        },
+        {
+          "ru": "общественный",
+          "en": "public",
+          "ipa": "[public]"
+        },
+        {
+          "ru": "безопасный",
+          "en": "safe",
+          "ipa": "[safe]"
+        },
+        {
+          "ru": "опасный",
+          "en": "dangerous",
+          "ipa": "[dangerous]"
+        },
+        {
+          "ru": "удобный",
+          "en": "comfortable",
+          "ipa": "[comfortable]"
+        },
+        {
+          "ru": "доступный",
+          "en": "available",
+          "ipa": "[available]"
+        },
+        {
+          "ru": "похожий",
+          "en": "similar",
+          "ipa": "[similar]"
+        },
+        {
+          "ru": "разный",
+          "en": "different",
+          "ipa": "[different]"
+        }
+      ]
+    }
+  ]
+}

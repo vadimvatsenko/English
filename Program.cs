@@ -150,8 +150,6 @@ namespace English
             string messageHeader = $"{user.Name} please enter option";
             int userMenuInt = ColorizeMenuInput(StaticFields.UserMenu, messageHeader);
             
-            Console.ReadKey();
-
             switch (userMenuInt)
             {
                 case 0 :
@@ -188,6 +186,7 @@ namespace English
             
             Console.WriteLine();
             
+            // запоняем словарь данными
             foreach (string file in filesOnTheme)
             {
                 string name = Path.GetFileNameWithoutExtension(file);
@@ -196,40 +195,34 @@ namespace English
                 coutFiles++;
             }
             
+            Console.Clear();
             int themeNumber = ColorizeMenuInput(filesOnThemeDict, "Enter Theme: ");
 
-            string fileName = ChooseDir(filesOnThemeDict, "Enter Lesson: ");
-            //Console.WriteLine(fileName);
-
+            string fileName = ChooseDir(filesOnThemeDict, themeNumber);
+            
             // полный путь к теме
 
             string FilePath = String.Empty;
 
+            // путь в зависимости от платформы
             if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
                 FilePath = Path.GetFullPath(Path.Combine(AppContext.BaseDirectory, $"{levelName}\\{fileName}.json"));
             else if (RuntimeInformation.IsOSPlatform(OSPlatform.OSX))
                 FilePath = Path.GetFullPath(Path.Combine(AppContext.BaseDirectory, $"{levelName}/{fileName}.json"));
-
-            bool isFileExist = File.Exists(FilePath);
+            //
+            
             Data dataList = await GetAsync(FilePath);
-
-            Console.WriteLine("Enter your option: ");
-
+            
+            Console.Clear();
             string message = "Enter your option:";
             int option = ColorizeMenuInput(StaticFields.EnglishMenu, message);
             
             switch (option)
             {
-                case 1:
-                    Vocabulary(dataList, false, fileName);
-                    break;
-                case 2:
-                    Vocabulary(dataList, true, fileName);
-                    break;
-                case 3:
+                case 0:
                     Extensions(dataList, false, fileName, user, authService);
                     break;
-                case 4:
+                case 1:
                     Extensions(dataList, true, fileName, user, authService);
                     break;
             }
@@ -426,67 +419,20 @@ namespace English
                 count++;
             }
         }
-
-
-        private static void Vocabulary(Data? dataList, bool showEnglishWord, string fileName)
-        {
-            if (dataList?.Vocabulary == null || dataList.Vocabulary.Count == 0)
-                return;
-
-            foreach (var d in dataList.Vocabulary)
-            {
-                bool isEqual = false;
-
-                while (!isEqual)
-                {
-                    Console.Clear();
-                    
-                    string question = showEnglishWord ? d.En : d.Ru;
-                    string correctAnswer = showEnglishWord ? d.Ru : d.En;
-
-                    Console.ForegroundColor = ConsoleColor.Blue;
-                    Console.WriteLine(question);
-
-                    Console.Write("Enter word: ");
-                    string userAnswer = Console.ReadLine()?.Trim() ?? "";
-
-                    isEqual = string.Equals(userAnswer, correctAnswer, StringComparison.OrdinalIgnoreCase);
-
-                    Console.ForegroundColor = isEqual ? ConsoleColor.Green : ConsoleColor.Red;
-                    Console.WriteLine(isEqual ? "CORRECT" : "MISTAKE");
-                    
-                    Console.ForegroundColor = ConsoleColor.DarkRed;
-                    Console.WriteLine(d.Ipa);
-
-                    Console.ForegroundColor = ConsoleColor.Green;
-                    Console.WriteLine(showEnglishWord ?  d.Ru : d.En);
-
-                    Console.WriteLine();
-                    Console.ResetColor();
-
-                    Console.WriteLine("Press any key to continue...");
-                    Console.WriteLine();
-                    Console.ReadKey();
-                }
-            }
-        }
-
-        private static string ChooseDir(Dictionary<int, string> dict, string message)
+        
+        // находит имя темы
+        private static string ChooseDir(Dictionary<int, string> dict, int numbTheme)
         {
             bool isValidLevel;
             
             do
             {
-                Console.Write($"{message}: ");
-            
-                string inputLevel = Console.ReadLine();
-            
-                isValidLevel = int.TryParse(inputLevel, out int inputLevelInt) && dict.ContainsKey(inputLevelInt);
+                isValidLevel =  dict.ContainsKey(numbTheme);
 
                 if (isValidLevel)
                 {
                     Console.WriteLine("Success");
-                    return dict[inputLevelInt];
+                    return dict[numbTheme];
                 }
                 else
                 {

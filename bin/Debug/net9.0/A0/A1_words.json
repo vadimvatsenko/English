@@ -1,0 +1,1486 @@
+{
+  "sections": [
+    {
+      "title": "A1 Words: Daily Verbs",
+      "rule": "Частые глаголы для повседневного общения.",
+      "examples": [
+        {
+          "ru": "спрашивать",
+          "en": "ask",
+          "ipa": "[ask]"
+        },
+        {
+          "ru": "отвечать",
+          "en": "answer",
+          "ipa": "[answer]"
+        },
+        {
+          "ru": "звонить",
+          "en": "call",
+          "ipa": "[call]"
+        },
+        {
+          "ru": "отправлять",
+          "en": "send",
+          "ipa": "[send]"
+        },
+        {
+          "ru": "давать",
+          "en": "give",
+          "ipa": "[give]"
+        },
+        {
+          "ru": "получать",
+          "en": "get",
+          "ipa": "[get]"
+        },
+        {
+          "ru": "делать / создавать",
+          "en": "make",
+          "ipa": "[make]"
+        },
+        {
+          "ru": "пробовать",
+          "en": "try",
+          "ipa": "[try]"
+        },
+        {
+          "ru": "находить",
+          "en": "find",
+          "ipa": "[find]"
+        },
+        {
+          "ru": "использовать",
+          "en": "use",
+          "ipa": "[use]"
+        },
+        {
+          "ru": "начинать",
+          "en": "start",
+          "ipa": "[start]"
+        },
+        {
+          "ru": "заканчивать",
+          "en": "finish",
+          "ipa": "[finish]"
+        },
+        {
+          "ru": "останавливаться",
+          "en": "stop",
+          "ipa": "[stop]"
+        },
+        {
+          "ru": "ждать",
+          "en": "wait",
+          "ipa": "[wait]"
+        },
+        {
+          "ru": "встречать",
+          "en": "meet",
+          "ipa": "[meet]"
+        },
+        {
+          "ru": "посещать",
+          "en": "visit",
+          "ipa": "[visit]"
+        },
+        {
+          "ru": "путешествовать",
+          "en": "travel",
+          "ipa": "[travel]"
+        },
+        {
+          "ru": "прибывать",
+          "en": "arrive",
+          "ipa": "[arrive]"
+        },
+        {
+          "ru": "уходить / покидать",
+          "en": "leave",
+          "ipa": "[leave]"
+        },
+        {
+          "ru": "оставаться",
+          "en": "stay",
+          "ipa": "[stay]"
+        },
+        {
+          "ru": "приносить",
+          "en": "bring",
+          "ipa": "[bring]"
+        },
+        {
+          "ru": "выбирать",
+          "en": "choose",
+          "ipa": "[choose]"
+        },
+        {
+          "ru": "менять",
+          "en": "change",
+          "ipa": "[change]"
+        },
+        {
+          "ru": "платить",
+          "en": "pay",
+          "ipa": "[pay]"
+        },
+        {
+          "ru": "стоить",
+          "en": "cost",
+          "ipa": "[cost]"
+        },
+        {
+          "ru": "заказывать",
+          "en": "order",
+          "ipa": "[order]"
+        },
+        {
+          "ru": "готовить",
+          "en": "cook",
+          "ipa": "[cook]"
+        },
+        {
+          "ru": "убирать",
+          "en": "clean",
+          "ipa": "[clean]"
+        },
+        {
+          "ru": "мыть",
+          "en": "wash",
+          "ipa": "[wash]"
+        },
+        {
+          "ru": "спать",
+          "en": "sleep",
+          "ipa": "[sleep]"
+        },
+        {
+          "ru": "сидеть",
+          "en": "sit",
+          "ipa": "[sit]"
+        },
+        {
+          "ru": "стоять",
+          "en": "stand",
+          "ipa": "[stand]"
+        },
+        {
+          "ru": "бежать",
+          "en": "run",
+          "ipa": "[run]"
+        },
+        {
+          "ru": "ходить пешком",
+          "en": "walk",
+          "ipa": "[walk]"
+        },
+        {
+          "ru": "водить машину",
+          "en": "drive",
+          "ipa": "[drive]"
+        }
+      ]
+    },
+    {
+      "title": "A1 Words: Home & Daily Life",
+      "rule": "Дом и быт.",
+      "examples": [
+        {
+          "ru": "квартира",
+          "en": "flat",
+          "ipa": "[flat]"
+        },
+        {
+          "ru": "квартира",
+          "en": "apartment",
+          "ipa": "[apartment]"
+        },
+        {
+          "ru": "ванная",
+          "en": "bathroom",
+          "ipa": "[bathroom]"
+        },
+        {
+          "ru": "гостиная",
+          "en": "living room",
+          "ipa": "[living room]"
+        },
+        {
+          "ru": "пол / этаж",
+          "en": "floor",
+          "ipa": "[floor]"
+        },
+        {
+          "ru": "стена",
+          "en": "wall",
+          "ipa": "[wall]"
+        },
+        {
+          "ru": "потолок",
+          "en": "ceiling",
+          "ipa": "[ceiling]"
+        },
+        {
+          "ru": "лампа",
+          "en": "lamp",
+          "ipa": "[lamp]"
+        },
+        {
+          "ru": "диван",
+          "en": "sofa",
+          "ipa": "[sofa]"
+        },
+        {
+          "ru": "письменный стол",
+          "en": "desk",
+          "ipa": "[desk]"
+        },
+        {
+          "ru": "чашка",
+          "en": "cup",
+          "ipa": "[cup]"
+        },
+        {
+          "ru": "стакан",
+          "en": "glass",
+          "ipa": "[glass]"
+        },
+        {
+          "ru": "тарелка",
+          "en": "plate",
+          "ipa": "[plate]"
+        },
+        {
+          "ru": "вилка",
+          "en": "fork",
+          "ipa": "[fork]"
+        },
+        {
+          "ru": "ложка",
+          "en": "spoon",
+          "ipa": "[spoon]"
+        },
+        {
+          "ru": "нож",
+          "en": "knife",
+          "ipa": "[knife]"
+        },
+        {
+          "ru": "бутылка",
+          "en": "bottle",
+          "ipa": "[bottle]"
+        },
+        {
+          "ru": "коробка",
+          "en": "box",
+          "ipa": "[box]"
+        },
+        {
+          "ru": "бумага",
+          "en": "paper",
+          "ipa": "[paper]"
+        },
+        {
+          "ru": "ручка",
+          "en": "pen",
+          "ipa": "[pen]"
+        },
+        {
+          "ru": "карандаш",
+          "en": "pencil",
+          "ipa": "[pencil]"
+        },
+        {
+          "ru": "тетрадь",
+          "en": "notebook",
+          "ipa": "[notebook]"
+        },
+        {
+          "ru": "фото",
+          "en": "photo",
+          "ipa": "[photo]"
+        },
+        {
+          "ru": "картинка",
+          "en": "picture",
+          "ipa": "[picture]"
+        },
+        {
+          "ru": "часы",
+          "en": "clock",
+          "ipa": "[clock]"
+        },
+        {
+          "ru": "карта",
+          "en": "map",
+          "ipa": "[map]"
+        },
+        {
+          "ru": "письмо",
+          "en": "letter",
+          "ipa": "[letter]"
+        },
+        {
+          "ru": "сообщение",
+          "en": "message",
+          "ipa": "[message]"
+        },
+        {
+          "ru": "электронное письмо",
+          "en": "email",
+          "ipa": "[email]"
+        }
+      ]
+    },
+    {
+      "title": "A1 Words: Food & Drink",
+      "rule": "Еда и напитки.",
+      "examples": [
+        {
+          "ru": "завтрак",
+          "en": "breakfast",
+          "ipa": "[breakfast]"
+        },
+        {
+          "ru": "обед",
+          "en": "lunch",
+          "ipa": "[lunch]"
+        },
+        {
+          "ru": "ужин",
+          "en": "dinner",
+          "ipa": "[dinner]"
+        },
+        {
+          "ru": "фрукты",
+          "en": "fruit",
+          "ipa": "[fruit]"
+        },
+        {
+          "ru": "овощ",
+          "en": "vegetable",
+          "ipa": "[vegetable]"
+        },
+        {
+          "ru": "картофель",
+          "en": "potato",
+          "ipa": "[potato]"
+        },
+        {
+          "ru": "помидор",
+          "en": "tomato",
+          "ipa": "[tomato]"
+        },
+        {
+          "ru": "лук",
+          "en": "onion",
+          "ipa": "[onion]"
+        },
+        {
+          "ru": "салат",
+          "en": "salad",
+          "ipa": "[salad]"
+        },
+        {
+          "ru": "сыр",
+          "en": "cheese",
+          "ipa": "[cheese]"
+        },
+        {
+          "ru": "масло",
+          "en": "butter",
+          "ipa": "[butter]"
+        },
+        {
+          "ru": "курица",
+          "en": "chicken",
+          "ipa": "[chicken]"
+        },
+        {
+          "ru": "говядина",
+          "en": "beef",
+          "ipa": "[beef]"
+        },
+        {
+          "ru": "свинина",
+          "en": "pork",
+          "ipa": "[pork]"
+        },
+        {
+          "ru": "торт",
+          "en": "cake",
+          "ipa": "[cake]"
+        },
+        {
+          "ru": "печенье",
+          "en": "cookie",
+          "ipa": "[cookie]"
+        },
+        {
+          "ru": "сахар",
+          "en": "sugar",
+          "ipa": "[sugar]"
+        },
+        {
+          "ru": "соль",
+          "en": "salt",
+          "ipa": "[salt]"
+        },
+        {
+          "ru": "сок",
+          "en": "juice",
+          "ipa": "[juice]"
+        },
+        {
+          "ru": "меню",
+          "en": "menu",
+          "ipa": "[menu]"
+        },
+        {
+          "ru": "счёт",
+          "en": "bill",
+          "ipa": "[bill]"
+        },
+        {
+          "ru": "голодный",
+          "en": "hungry",
+          "ipa": "[hungry]"
+        },
+        {
+          "ru": "испытывающий жажду",
+          "en": "thirsty",
+          "ipa": "[thirsty]"
+        },
+        {
+          "ru": "сладкий",
+          "en": "sweet",
+          "ipa": "[sweet]"
+        },
+        {
+          "ru": "свежий",
+          "en": "fresh",
+          "ipa": "[fresh]"
+        }
+      ]
+    },
+    {
+      "title": "A1 Words: Clothes & Shopping",
+      "rule": "Одежда и покупки.",
+      "examples": [
+        {
+          "ru": "рубашка",
+          "en": "shirt",
+          "ipa": "[shirt]"
+        },
+        {
+          "ru": "футболка",
+          "en": "T-shirt",
+          "ipa": "[T shirt]"
+        },
+        {
+          "ru": "платье",
+          "en": "dress",
+          "ipa": "[dress]"
+        },
+        {
+          "ru": "юбка",
+          "en": "skirt",
+          "ipa": "[skirt]"
+        },
+        {
+          "ru": "брюки",
+          "en": "trousers",
+          "ipa": "[trousers]"
+        },
+        {
+          "ru": "джинсы",
+          "en": "jeans",
+          "ipa": "[jeans]"
+        },
+        {
+          "ru": "обувь",
+          "en": "shoes",
+          "ipa": "[shoes]"
+        },
+        {
+          "ru": "пальто",
+          "en": "coat",
+          "ipa": "[coat]"
+        },
+        {
+          "ru": "куртка",
+          "en": "jacket",
+          "ipa": "[jacket]"
+        },
+        {
+          "ru": "шапка / шляпа",
+          "en": "hat",
+          "ipa": "[hat]"
+        },
+        {
+          "ru": "размер",
+          "en": "size",
+          "ipa": "[size]"
+        },
+        {
+          "ru": "цвет",
+          "en": "color",
+          "ipa": "[color]"
+        },
+        {
+          "ru": "цена",
+          "en": "price",
+          "ipa": "[price]"
+        },
+        {
+          "ru": "дешёвый",
+          "en": "cheap",
+          "ipa": "[cheap]"
+        },
+        {
+          "ru": "дорогой",
+          "en": "expensive",
+          "ipa": "[expensive]"
+        },
+        {
+          "ru": "распродажа",
+          "en": "sale",
+          "ipa": "[sale]"
+        },
+        {
+          "ru": "покупатель",
+          "en": "customer",
+          "ipa": "[customer]"
+        },
+        {
+          "ru": "наличные",
+          "en": "cash",
+          "ipa": "[cash]"
+        },
+        {
+          "ru": "чек",
+          "en": "receipt",
+          "ipa": "[receipt]"
+        },
+        {
+          "ru": "покупки",
+          "en": "shopping",
+          "ipa": "[shopping]"
+        },
+        {
+          "ru": "супермаркет",
+          "en": "supermarket",
+          "ipa": "[supermarket]"
+        },
+        {
+          "ru": "торговый центр",
+          "en": "mall",
+          "ipa": "[mall]"
+        }
+      ]
+    },
+    {
+      "title": "A1 Words: Describing People",
+      "rule": "Описание людей и состояний.",
+      "examples": [
+        {
+          "ru": "высокий",
+          "en": "tall",
+          "ipa": "[tall]"
+        },
+        {
+          "ru": "низкий / короткий",
+          "en": "short",
+          "ipa": "[short]"
+        },
+        {
+          "ru": "сильный",
+          "en": "strong",
+          "ipa": "[strong]"
+        },
+        {
+          "ru": "слабый",
+          "en": "weak",
+          "ipa": "[weak]"
+        },
+        {
+          "ru": "уставший",
+          "en": "tired",
+          "ipa": "[tired]"
+        },
+        {
+          "ru": "готовый",
+          "en": "ready",
+          "ipa": "[ready]"
+        },
+        {
+          "ru": "извиняющийся / жаль",
+          "en": "sorry",
+          "ipa": "[sorry]"
+        },
+        {
+          "ru": "злой",
+          "en": "angry",
+          "ipa": "[angry]"
+        },
+        {
+          "ru": "добрый",
+          "en": "kind",
+          "ipa": "[kind]"
+        },
+        {
+          "ru": "дружелюбный",
+          "en": "friendly",
+          "ipa": "[friendly]"
+        },
+        {
+          "ru": "смешной",
+          "en": "funny",
+          "ipa": "[funny]"
+        },
+        {
+          "ru": "тихий",
+          "en": "quiet",
+          "ipa": "[quiet]"
+        },
+        {
+          "ru": "громкий",
+          "en": "loud",
+          "ipa": "[loud]"
+        },
+        {
+          "ru": "богатый",
+          "en": "rich",
+          "ipa": "[rich]"
+        },
+        {
+          "ru": "бедный",
+          "en": "poor",
+          "ipa": "[poor]"
+        },
+        {
+          "ru": "холостой / не замужем",
+          "en": "single",
+          "ipa": "[single]"
+        },
+        {
+          "ru": "женат / замужем",
+          "en": "married",
+          "ipa": "[married]"
+        },
+        {
+          "ru": "известный",
+          "en": "famous",
+          "ipa": "[famous]"
+        },
+        {
+          "ru": "популярный",
+          "en": "popular",
+          "ipa": "[popular]"
+        },
+        {
+          "ru": "здоровый",
+          "en": "healthy",
+          "ipa": "[healthy]"
+        }
+      ]
+    },
+    {
+      "title": "A1 Words: School & Work",
+      "rule": "Учёба и работа.",
+      "examples": [
+        {
+          "ru": "урок",
+          "en": "lesson",
+          "ipa": "[lesson]"
+        },
+        {
+          "ru": "класс / занятие",
+          "en": "class",
+          "ipa": "[class]"
+        },
+        {
+          "ru": "курс",
+          "en": "course",
+          "ipa": "[course]"
+        },
+        {
+          "ru": "домашнее задание",
+          "en": "homework",
+          "ipa": "[homework]"
+        },
+        {
+          "ru": "тест",
+          "en": "test",
+          "ipa": "[test]"
+        },
+        {
+          "ru": "экзамен",
+          "en": "exam",
+          "ipa": "[exam]"
+        },
+        {
+          "ru": "слово",
+          "en": "word",
+          "ipa": "[word]"
+        },
+        {
+          "ru": "предложение",
+          "en": "sentence",
+          "ipa": "[sentence]"
+        },
+        {
+          "ru": "вопрос",
+          "en": "question",
+          "ipa": "[question]"
+        },
+        {
+          "ru": "текст",
+          "en": "text",
+          "ipa": "[text]"
+        },
+        {
+          "ru": "история",
+          "en": "story",
+          "ipa": "[story]"
+        },
+        {
+          "ru": "язык",
+          "en": "language",
+          "ipa": "[language]"
+        },
+        {
+          "ru": "английский",
+          "en": "English",
+          "ipa": "[English]"
+        },
+        {
+          "ru": "математика",
+          "en": "math",
+          "ipa": "[math]"
+        },
+        {
+          "ru": "история",
+          "en": "history",
+          "ipa": "[history]"
+        },
+        {
+          "ru": "предмет",
+          "en": "subject",
+          "ipa": "[subject]"
+        },
+        {
+          "ru": "работа / профессия",
+          "en": "job",
+          "ipa": "[job]"
+        },
+        {
+          "ru": "компания",
+          "en": "company",
+          "ipa": "[company]"
+        },
+        {
+          "ru": "менеджер",
+          "en": "manager",
+          "ipa": "[manager]"
+        },
+        {
+          "ru": "работник",
+          "en": "worker",
+          "ipa": "[worker]"
+        },
+        {
+          "ru": "встреча",
+          "en": "meeting",
+          "ipa": "[meeting]"
+        },
+        {
+          "ru": "проект",
+          "en": "project",
+          "ipa": "[project]"
+        },
+        {
+          "ru": "проблема",
+          "en": "problem",
+          "ipa": "[problem]"
+        },
+        {
+          "ru": "идея",
+          "en": "idea",
+          "ipa": "[idea]"
+        },
+        {
+          "ru": "план",
+          "en": "plan",
+          "ipa": "[plan]"
+        },
+        {
+          "ru": "результат",
+          "en": "result",
+          "ipa": "[result]"
+        }
+      ]
+    },
+    {
+      "title": "A1 Words: Common Adverbs & Quantities",
+      "rule": "Наречия и количества.",
+      "examples": [
+        {
+          "ru": "очень",
+          "en": "very",
+          "ipa": "[very]"
+        },
+        {
+          "ru": "действительно",
+          "en": "really",
+          "ipa": "[really]"
+        },
+        {
+          "ru": "также",
+          "en": "also",
+          "ipa": "[also]"
+        },
+        {
+          "ru": "тоже / слишком",
+          "en": "too",
+          "ipa": "[too]"
+        },
+        {
+          "ru": "только",
+          "en": "only",
+          "ipa": "[only]"
+        },
+        {
+          "ru": "снова",
+          "en": "again",
+          "ipa": "[again]"
+        },
+        {
+          "ru": "всегда",
+          "en": "always",
+          "ipa": "[always]"
+        },
+        {
+          "ru": "часто",
+          "en": "often",
+          "ipa": "[often]"
+        },
+        {
+          "ru": "иногда",
+          "en": "sometimes",
+          "ipa": "[sometimes]"
+        },
+        {
+          "ru": "никогда",
+          "en": "never",
+          "ipa": "[never]"
+        },
+        {
+          "ru": "обычно",
+          "en": "usually",
+          "ipa": "[usually]"
+        },
+        {
+          "ru": "рано",
+          "en": "early",
+          "ipa": "[early]"
+        },
+        {
+          "ru": "поздно",
+          "en": "late",
+          "ipa": "[late]"
+        },
+        {
+          "ru": "скоро",
+          "en": "soon",
+          "ipa": "[soon]"
+        },
+        {
+          "ru": "каждый",
+          "en": "every",
+          "ipa": "[every]"
+        },
+        {
+          "ru": "некоторые / немного",
+          "en": "some",
+          "ipa": "[some]"
+        },
+        {
+          "ru": "какой-либо",
+          "en": "any",
+          "ipa": "[any]"
+        },
+        {
+          "ru": "много",
+          "en": "many",
+          "ipa": "[many]"
+        },
+        {
+          "ru": "много",
+          "en": "much",
+          "ipa": "[much]"
+        },
+        {
+          "ru": "больше",
+          "en": "more",
+          "ipa": "[more]"
+        },
+        {
+          "ru": "меньше",
+          "en": "less",
+          "ipa": "[less]"
+        },
+        {
+          "ru": "мало",
+          "en": "little",
+          "ipa": "[little]"
+        },
+        {
+          "ru": "мало / несколько",
+          "en": "few",
+          "ipa": "[few]"
+        },
+        {
+          "ru": "все",
+          "en": "all",
+          "ipa": "[all]"
+        },
+        {
+          "ru": "первый",
+          "en": "first",
+          "ipa": "[first]"
+        },
+        {
+          "ru": "последний",
+          "en": "last",
+          "ipa": "[last]"
+        }
+      ]
+    },
+    {
+      "title": "A1 Words: Colors & Appearance",
+      "rule": "Цвета и простое описание внешнего вида.",
+      "examples": [
+        {
+          "ru": "чёрный",
+          "en": "black",
+          "ipa": "[black]"
+        },
+        {
+          "ru": "белый",
+          "en": "white",
+          "ipa": "[white]"
+        },
+        {
+          "ru": "красный",
+          "en": "red",
+          "ipa": "[red]"
+        },
+        {
+          "ru": "синий",
+          "en": "blue",
+          "ipa": "[blue]"
+        },
+        {
+          "ru": "зелёный",
+          "en": "green",
+          "ipa": "[green]"
+        },
+        {
+          "ru": "жёлтый",
+          "en": "yellow",
+          "ipa": "[yellow]"
+        },
+        {
+          "ru": "коричневый",
+          "en": "brown",
+          "ipa": "[brown]"
+        },
+        {
+          "ru": "серый",
+          "en": "grey",
+          "ipa": "[grey]"
+        },
+        {
+          "ru": "розовый",
+          "en": "pink",
+          "ipa": "[pink]"
+        },
+        {
+          "ru": "оранжевый",
+          "en": "orange",
+          "ipa": "[orange]"
+        },
+        {
+          "ru": "фиолетовый",
+          "en": "purple",
+          "ipa": "[purple]"
+        },
+        {
+          "ru": "тёмный",
+          "en": "dark",
+          "ipa": "[dark]"
+        },
+        {
+          "ru": "светлый",
+          "en": "light",
+          "ipa": "[light]"
+        },
+        {
+          "ru": "грязный",
+          "en": "dirty",
+          "ipa": "[dirty]"
+        },
+        {
+          "ru": "длинный",
+          "en": "long",
+          "ipa": "[long]"
+        },
+        {
+          "ru": "круглый",
+          "en": "round",
+          "ipa": "[round]"
+        },
+        {
+          "ru": "квадратный",
+          "en": "square",
+          "ipa": "[square]"
+        },
+        {
+          "ru": "полный",
+          "en": "full",
+          "ipa": "[full]"
+        },
+        {
+          "ru": "пустой",
+          "en": "empty",
+          "ipa": "[empty]"
+        }
+      ]
+    },
+    {
+      "title": "A1 Words: Body & Basic Health",
+      "rule": "Тело и простое здоровье.",
+      "examples": [
+        {
+          "ru": "голова",
+          "en": "head",
+          "ipa": "[head]"
+        },
+        {
+          "ru": "волосы",
+          "en": "hair",
+          "ipa": "[hair]"
+        },
+        {
+          "ru": "лицо",
+          "en": "face",
+          "ipa": "[face]"
+        },
+        {
+          "ru": "глаз",
+          "en": "eye",
+          "ipa": "[eye]"
+        },
+        {
+          "ru": "ухо",
+          "en": "ear",
+          "ipa": "[ear]"
+        },
+        {
+          "ru": "нос",
+          "en": "nose",
+          "ipa": "[nose]"
+        },
+        {
+          "ru": "рот",
+          "en": "mouth",
+          "ipa": "[mouth]"
+        },
+        {
+          "ru": "зуб",
+          "en": "tooth",
+          "ipa": "[tooth]"
+        },
+        {
+          "ru": "шея",
+          "en": "neck",
+          "ipa": "[neck]"
+        },
+        {
+          "ru": "плечо",
+          "en": "shoulder",
+          "ipa": "[shoulder]"
+        },
+        {
+          "ru": "кисть / рука",
+          "en": "hand",
+          "ipa": "[hand]"
+        },
+        {
+          "ru": "рука",
+          "en": "arm",
+          "ipa": "[arm]"
+        },
+        {
+          "ru": "палец руки",
+          "en": "finger",
+          "ipa": "[finger]"
+        },
+        {
+          "ru": "нога",
+          "en": "leg",
+          "ipa": "[leg]"
+        },
+        {
+          "ru": "ступня",
+          "en": "foot",
+          "ipa": "[foot]"
+        },
+        {
+          "ru": "спина",
+          "en": "back",
+          "ipa": "[back]"
+        },
+        {
+          "ru": "живот / желудок",
+          "en": "stomach",
+          "ipa": "[stomach]"
+        },
+        {
+          "ru": "сердце",
+          "en": "heart",
+          "ipa": "[heart]"
+        },
+        {
+          "ru": "боль",
+          "en": "pain",
+          "ipa": "[pain]"
+        },
+        {
+          "ru": "больной",
+          "en": "ill",
+          "ipa": "[ill]"
+        },
+        {
+          "ru": "больной",
+          "en": "sick",
+          "ipa": "[sick]"
+        },
+        {
+          "ru": "лекарство",
+          "en": "medicine",
+          "ipa": "[medicine]"
+        }
+      ]
+    },
+    {
+      "title": "A1 Words: Animals & Nature",
+      "rule": "Животные и простая природа.",
+      "examples": [
+        {
+          "ru": "животное",
+          "en": "animal",
+          "ipa": "[animal]"
+        },
+        {
+          "ru": "кошка",
+          "en": "cat",
+          "ipa": "[cat]"
+        },
+        {
+          "ru": "собака",
+          "en": "dog",
+          "ipa": "[dog]"
+        },
+        {
+          "ru": "птица",
+          "en": "bird",
+          "ipa": "[bird]"
+        },
+        {
+          "ru": "лошадь",
+          "en": "horse",
+          "ipa": "[horse]"
+        },
+        {
+          "ru": "корова",
+          "en": "cow",
+          "ipa": "[cow]"
+        },
+        {
+          "ru": "свинья",
+          "en": "pig",
+          "ipa": "[pig]"
+        },
+        {
+          "ru": "утка",
+          "en": "duck",
+          "ipa": "[duck]"
+        },
+        {
+          "ru": "мышь",
+          "en": "mouse",
+          "ipa": "[mouse]"
+        },
+        {
+          "ru": "кролик",
+          "en": "rabbit",
+          "ipa": "[rabbit]"
+        },
+        {
+          "ru": "дерево",
+          "en": "tree",
+          "ipa": "[tree]"
+        },
+        {
+          "ru": "цветок",
+          "en": "flower",
+          "ipa": "[flower]"
+        },
+        {
+          "ru": "трава",
+          "en": "grass",
+          "ipa": "[grass]"
+        },
+        {
+          "ru": "солнце",
+          "en": "sun",
+          "ipa": "[sun]"
+        },
+        {
+          "ru": "луна",
+          "en": "moon",
+          "ipa": "[moon]"
+        },
+        {
+          "ru": "звезда",
+          "en": "star",
+          "ipa": "[star]"
+        },
+        {
+          "ru": "небо",
+          "en": "sky",
+          "ipa": "[sky]"
+        },
+        {
+          "ru": "дождь",
+          "en": "rain",
+          "ipa": "[rain]"
+        },
+        {
+          "ru": "снег",
+          "en": "snow",
+          "ipa": "[snow]"
+        },
+        {
+          "ru": "ветер",
+          "en": "wind",
+          "ipa": "[wind]"
+        }
+      ]
+    },
+    {
+      "title": "A1 Words: Hobbies & Free Time",
+      "rule": "Хобби и свободное время.",
+      "examples": [
+        {
+          "ru": "игра",
+          "en": "game",
+          "ipa": "[game]"
+        },
+        {
+          "ru": "спорт",
+          "en": "sport",
+          "ipa": "[sport]"
+        },
+        {
+          "ru": "футбол",
+          "en": "football",
+          "ipa": "[football]"
+        },
+        {
+          "ru": "теннис",
+          "en": "tennis",
+          "ipa": "[tennis]"
+        },
+        {
+          "ru": "плавание",
+          "en": "swimming",
+          "ipa": "[swimming]"
+        },
+        {
+          "ru": "танец / танцевать",
+          "en": "dance",
+          "ipa": "[dance]"
+        },
+        {
+          "ru": "вечеринка",
+          "en": "party",
+          "ipa": "[party]"
+        },
+        {
+          "ru": "пляж",
+          "en": "beach",
+          "ipa": "[beach]"
+        },
+        {
+          "ru": "кинотеатр",
+          "en": "cinema",
+          "ipa": "[cinema]"
+        },
+        {
+          "ru": "фильм",
+          "en": "movie",
+          "ipa": "[movie]"
+        },
+        {
+          "ru": "музыка",
+          "en": "music",
+          "ipa": "[music]"
+        },
+        {
+          "ru": "песня",
+          "en": "song",
+          "ipa": "[song]"
+        },
+        {
+          "ru": "гитара",
+          "en": "guitar",
+          "ipa": "[guitar]"
+        },
+        {
+          "ru": "камера",
+          "en": "camera",
+          "ipa": "[camera]"
+        },
+        {
+          "ru": "праздник / отпуск",
+          "en": "holiday",
+          "ipa": "[holiday]"
+        },
+        {
+          "ru": "свободное время",
+          "en": "free time",
+          "ipa": "[free time]"
+        },
+        {
+          "ru": "веселье",
+          "en": "fun",
+          "ipa": "[fun]"
+        },
+        {
+          "ru": "скучный",
+          "en": "boring",
+          "ipa": "[boring]"
+        }
+      ]
+    },
+    {
+      "title": "A1 Words: More Verbs",
+      "rule": "Дополнительные частые глаголы A1.",
+      "examples": [
+        {
+          "ru": "двигаться / переезжать",
+          "en": "move",
+          "ipa": "[move]"
+        },
+        {
+          "ru": "поворачивать",
+          "en": "turn",
+          "ipa": "[turn]"
+        },
+        {
+          "ru": "показывать",
+          "en": "show",
+          "ipa": "[show]"
+        },
+        {
+          "ru": "класть",
+          "en": "put",
+          "ipa": "[put]"
+        },
+        {
+          "ru": "держать / хранить",
+          "en": "keep",
+          "ipa": "[keep]"
+        },
+        {
+          "ru": "ломать",
+          "en": "break",
+          "ipa": "[break]"
+        },
+        {
+          "ru": "строить",
+          "en": "build",
+          "ipa": "[build]"
+        },
+        {
+          "ru": "рисовать",
+          "en": "draw",
+          "ipa": "[draw]"
+        },
+        {
+          "ru": "красить / рисовать красками",
+          "en": "paint",
+          "ipa": "[paint]"
+        },
+        {
+          "ru": "петь",
+          "en": "sing",
+          "ipa": "[sing]"
+        },
+        {
+          "ru": "смеяться",
+          "en": "laugh",
+          "ipa": "[laugh]"
+        },
+        {
+          "ru": "улыбаться",
+          "en": "smile",
+          "ipa": "[smile]"
+        },
+        {
+          "ru": "плакать",
+          "en": "cry",
+          "ipa": "[cry]"
+        },
+        {
+          "ru": "чувствовать",
+          "en": "feel",
+          "ipa": "[feel]"
+        },
+        {
+          "ru": "думать",
+          "en": "think",
+          "ipa": "[think]"
+        },
+        {
+          "ru": "помнить",
+          "en": "remember",
+          "ipa": "[remember]"
+        },
+        {
+          "ru": "забывать",
+          "en": "forget",
+          "ipa": "[forget]"
+        },
+        {
+          "ru": "слышать",
+          "en": "hear",
+          "ipa": "[hear]"
+        },
+        {
+          "ru": "побеждать",
+          "en": "win",
+          "ipa": "[win]"
+        },
+        {
+          "ru": "проигрывать",
+          "en": "lose",
+          "ipa": "[lose]"
+        }
+      ]
+    }
+  ]
+}
