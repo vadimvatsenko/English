@@ -74,7 +74,7 @@ namespace English
                 foreach (var m in menu)
                 {
                     string arrow = m.Key == counter ? "=>" : "  "; 
-                    Console.BackgroundColor = m.Key == counter ? ConsoleColor.Green :  ConsoleColor.Blue;
+                    Console.BackgroundColor = m.Key == counter ? ConsoleColor.DarkGreen :  ConsoleColor.DarkBlue;
                     
                     // центрирование текста
                     var centeredText = CenteredText(m.Value, 22);

@@ -1,4 +1,5 @@
 ﻿using System.Text.Json;
+using English.Utils;
 
 namespace English;
 
@@ -153,15 +154,18 @@ public class AuthService
         Console.Clear();
 
         // Заголовок
+        Console.BackgroundColor = ConsoleColor.DarkMagenta;
         Console.WriteLine(" --- Login ---");
-
+        Console.ResetColor();
+        Console.WriteLine();
+        
         // Вводимо ім'я
         Console.Write("Enter your Name: ");
         string name = Console.ReadLine().Trim();
 
         // Вводимо пароль
         Console.Write("Enter your Password: ");
-        string password = Console.ReadLine().Trim();
+        string password = UserValidation.ReadPassword();
 
         // Шукаємо користувача по імені (перший, який підходить)
         User user = allUser.FirstOrDefault(u => u.Name.Equals(name));
@@ -175,7 +179,9 @@ public class AuthService
         }
 
         // Якщо все добре — повідомляємо про успіх
+        Console.BackgroundColor = ConsoleColor.DarkGreen;
         Console.WriteLine($"User {user.Name} successfully logged in.");
+        Console.ResetColor();
         Console.ReadKey();
 
         // Повертаємо знайденого користувача
