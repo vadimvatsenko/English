@@ -20,21 +20,29 @@ namespace English
             }
             else
             {
-                Console.Clear();
-                Console.ForegroundColor = ConsoleColor.Red;
-                string points = "..........";
-                Console.Write($"Exit");
-                foreach (var p in points)
-                {
-                    Console.Write(p);
-                    await Task.Delay(100);
-                }
+                await Exit();
             }
         }
-        
+
+        private static async Task Exit(float delay = 100)
+        {
+            Console.Clear();
+            Console.ForegroundColor = ConsoleColor.Red;
+            string points = "..........";
+            Console.Write($"Exit");
+            foreach (var p in points)
+            {
+                Console.Write(p);
+                await Task.Delay(100);
+            }
+            Environment.Exit(0);
+        }
+
         // стартовое меню с регистрацией и логинизацией
         private static async Task<(AuthService authService, User? user)> StartMenu()
         {
+            Console.Clear();
+            
             AuthService authService = new AuthService();
             await authService.InitializeAsync();
 
@@ -52,7 +60,8 @@ namespace English
                     user = await authService.RegisterUserAsync();
                     break;
                 case 2:
-                    return (authService, user);
+                    await Exit();
+                    break;
                 default:
                     Console.WriteLine($"[{inputInt}]: Invalid option.");
                     break;
@@ -62,7 +71,7 @@ namespace English
         }
         
         // покраска и управление меню
-        private static int ColorizeMenuInput(Dictionary<int, string> menu, string header)
+        private static int ColorizeMenuInput(Dictionary<int, string> menu, string header, bool clear = true)
         {
             int counter = 0;
 
@@ -107,7 +116,7 @@ namespace English
                     return counter;
                 }
                 
-                Console.Clear();
+                if(clear) Console.Clear();
             }
         }
 
@@ -153,12 +162,14 @@ namespace English
             switch (userMenuInt)
             {
                 case 0 :
-                    return;
-                case 1:
                     await StartPractice(levelsDict, user, authService);
                     break;
-                case 2:
+                case 1:
                     await ShowHardQuestions(user.HardQuestion, false, user, authService);
+                    break;
+                case 2:
+                    // back 
+                    await StartMenu();
                     break;
                 default:
                     Console.WriteLine("Wrong menu option!");
@@ -170,7 +181,8 @@ namespace English
         private static async Task StartPractice(Dictionary<int, string> levelsDict, User user, AuthService authService)
         {
             Console.Clear();
-            int numberLevel = ColorizeMenuInput(levelsDict, "Enter Level: ");
+            int numberLevel = ColorizeMenuInput(levelsDict, $"User \"{user.Name}\" Enter Level:");
+            
             string levelName = levelsDict[numberLevel];
             
             bool isValidLevel = false;
@@ -182,9 +194,11 @@ namespace English
             string[] filesOnTheme = Directory.GetFiles( StaticFields.PathAllFiles + levelName);
             Dictionary<int, string> filesOnThemeDict = new Dictionary<int, string>();
 
-            int coutFiles = 0;
+            int coutFiles = 1;
             
             Console.WriteLine();
+            
+            filesOnThemeDict.Add(0, "< BACK MENU");
             
             // запоняем словарь данными
             foreach (string file in filesOnTheme)
@@ -195,10 +209,14 @@ namespace English
                 coutFiles++;
             }
             
+            //
+            
             Console.Clear();
             int themeNumber = ColorizeMenuInput(filesOnThemeDict, "Enter Theme: ");
 
             string fileName = ChooseDir(filesOnThemeDict, themeNumber);
+            
+            if (themeNumber == 0) await StartPractice(levelsDict, user, authService);
             
             // полный путь к теме
 
@@ -225,6 +243,9 @@ namespace English
                 case 1:
                     Extensions(dataList, true, fileName, user, authService);
                     break;
+                case 2:
+                    break;
+                
             }
 
             Console.ReadKey();
@@ -253,7 +274,7 @@ namespace English
             QuestionsLogic(isEnToRu, fileName, allQaList, count, allQaCount, correctAnswer, misstakeAnswer, user, authService);
         }
 
-        private static void QuestionsLogic(bool isEnToRu, string fileName, List<Sections> allQaList, int count,
+        private static async Task QuestionsLogic(bool isEnToRu, string fileName, List<Sections> allQaList, int count,
             int allQaCount,
             int correctAnswer, int misstakeAnswer, User user, AuthService authService)
         {
@@ -307,10 +328,17 @@ namespace English
                             correctAnswer++;
                         else
                         {
-                            Console.WriteLine($"Enter " + " Add Question in User Vocabluary");
-                            user.AddMissQustions(e);
-                            authService.SaveUsersAsync(new List<User> { user });
-                            Console.WriteLine($"add miss answer {d}");
+                            
+                            string message = $"Do you want to add this question {correctText} to library?";
+                            
+                            int option = ColorizeMenuInput(StaticFields.YesOrNoMenu, message);
+
+                            if (option == 0)
+                            {
+                                user.AddMissQustions(e);
+                                Console.WriteLine($"add miss answer {d}");
+                            }
+                            
                             misstakeAnswer++;
                         }
 
@@ -328,15 +356,29 @@ namespace English
                         Console.WriteLine();
 
                         Console.ResetColor();
-                        Console.WriteLine("press any key to continue...");
+                        Console.Write("press any key to continue... or  ");
+                        Console.BackgroundColor = ConsoleColor.Red;
+                        Console.Write(" Escape");
+                        Console.ResetColor();
+                        Console.Write(" to quit...");
+                        
                         Console.WriteLine();
 
-                        Console.ReadKey();
+                        ConsoleKeyInfo keyInfo = Console.ReadKey(true);
+                        
+                        if (keyInfo.Key == ConsoleKey.Escape)
+                        {
+                            //await user.AddRatingText(fileName, $"{count} / {allQaCount})
+
+                            await authService.UpdateUsersAsync(user);
+                            await Exit(0);
+                        }
                     }
 
                     count++;
                 }
             }
+            await authService.UpdateUsersAsync(user);
         }
 
         private static async Task ShowHardQuestions(List<Examples> examples, bool isEnToRu, User user, AuthService authService)

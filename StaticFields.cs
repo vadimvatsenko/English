@@ -13,9 +13,9 @@ public class StaticFields
         
     public static readonly Dictionary<int, string> UserMenu = new Dictionary<int, string>()
     {
-        [0] = "Exit",
-        [1] = "Start Practice",
-        [2] = "Repeat Hard Questions",
+        [0] = "Start Practice",
+        [1] = "Repeat Hard Questions",
+        [2] = "< BACK TO MAIN MENU",
     };
         
     // меню выбора, что делать
@@ -23,5 +23,12 @@ public class StaticFields
     {
         [0] = "From Russian to English",
         [1] = "From English to Russian",
+        [2] = "< BACK TO LEVEL MENU",
+    };
+    
+    public static readonly Dictionary<int, string> YesOrNoMenu = new Dictionary<int, string>()
+    {
+        [0] = "YES",
+        [1] = "NO",
     };
 }

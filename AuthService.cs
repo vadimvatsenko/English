@@ -69,7 +69,7 @@ public class AuthService
         List<User> allUser = await LoadUsersAsync();
 
         // Шукаємо індекс користувача в списку за ім'ям (без врахування регістру)
-        int index = allUser.FindIndex(u => u.Name.Equals(users.Name, StringComparison.OrdinalIgnoreCase));
+        int index = allUser.FindIndex(u => u.Id.Equals(users.Id, StringComparison.OrdinalIgnoreCase));
 
         // Якщо користувач знайдений
         if (index != -1)
@@ -127,6 +127,7 @@ public class AuthService
         // Створюємо нового користувача
         User user = new User
         {
+            Id = IDGenerator.GenerateStringID(10),
             Name = name,               // записуємо ім'я
             Password = password,       // записуємо пароль
         };
