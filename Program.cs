@@ -238,10 +238,10 @@ namespace English
             switch (option)
             {
                 case 0:
-                    Extensions(dataList, false, fileName, user, authService);
+                    Extensions(dataList, levelsDict, false, fileName, user, authService);
                     break;
                 case 1:
-                    Extensions(dataList, true, fileName, user, authService);
+                    Extensions(dataList, levelsDict, true, fileName, user, authService);
                     break;
                 case 2:
                     break;
@@ -251,11 +251,12 @@ namespace English
             Console.ReadKey();
         }
         
-        private static void Extensions(Data? dataList, bool isEnToRu, string fileName, User user, AuthService authService)
+        private static async void Extensions(Data? dataList, Dictionary<int, string> levelDict, bool isEnToRu, string fileName, User user, AuthService authService)
         {
             if (dataList == null || dataList.Sections == null)
             {
                 Console.WriteLine($"The Questions Is Over");
+                await StartPractice(levelDict, user, authService); 
                 return;
             }
             
@@ -328,7 +329,6 @@ namespace English
                             correctAnswer++;
                         else
                         {
-                            
                             string message = $"Do you want to add this question {correctText} to library?";
                             
                             int option = ColorizeMenuInput(StaticFields.YesOrNoMenu, message);
@@ -352,6 +352,9 @@ namespace English
                         Console.WriteLine($"{words}");
                         Console.ForegroundColor = ConsoleColor.Green;
                         Console.WriteLine(correctText);
+                        
+                        Console.BackgroundColor = isEqual ? ConsoleColor.Green : ConsoleColor.Red;
+                        Console.WriteLine(isEqual ? "CORRECT" : "MISSTAKE");
 
                         Console.WriteLine();
 
