@@ -1,7 +1,7 @@
 {
   "sections": [
     {
-      "title": "Choose / Chose / Chosen",
+      "title": "Choose [tʃuːz] / Chose [tʃəʊz] / Chosen [ˈtʃəʊzən]",
       "rule": "chose - выбрал, выбрали (прошедшее время от choose)",
       "examples": [
         {
@@ -27,7 +27,7 @@
       ]
     },
     {
-      "title": "Eat / Ate / Eaten",
+      "title": "Eat [iːt] / Ate [et] / Eaten [ˈiːtən]",
       "rule": "ate - съел, съели (прошедшее время от eat)",
       "examples": [
         {
@@ -48,7 +48,7 @@
       ]
     },
     {
-      "title": "Drink / Drank / Drunk",
+      "title": "Drink [drɪŋk] / Drank [dræŋk] / Drunk [drʌŋk]",
       "rule": "drank - выпил, выпили (прошедшее время от drink)",
       "examples": [
         {
@@ -89,7 +89,7 @@
       ]
     },
     {
-      "title": "Fly / Flew / Flown",
+      "title": "Fly [flaɪ] / Flew [fluː] / Flown [fləʊn]",
       "rule": "flew - полетел, полетели (прошедшее время от fly)",
       "examples": [
         {
@@ -110,7 +110,7 @@
       ]
     },
     {
-      "title": "Hear / Heard / Heard",
+      "title": "Hear [hɪə] / Heard [hɜːd] / Heard [hɜːd]",
       "rule": "heard - услышал, услышали (прошедшее время от hear)",
       "examples": [
         {
@@ -131,7 +131,7 @@
       ]
     },
     {
-      "title": "Lose / Lost / Lost & Find / Found / Found",
+      "title": "Lose [luːz] / Lost [lɒst] / Lost [lɒst] & Find [faɪnd] / Found [faʊnd] / Found [faʊnd]",
       "rule": "lost - потерял (от lose), found - нашел (от find)",
       "examples": [
         {
@@ -177,7 +177,7 @@
       ]
     },
     {
-      "title": "Sell / Sold / Sold",
+      "title": "Sell [sel] / Sold [səʊld] / Sold [səʊld]",
       "rule": "sold - продал, продали (прошедшее время от sell)",
       "examples": [
         {
@@ -198,7 +198,7 @@
       ]
     },
     {
-      "title": "Win / Won / Won & Lose / Lost / Lost",
+      "title": "Win [wɪn] / Won [wʌn] / Won [wʌn] & Lose [luːz] / Lost [lɒst] / Lost [lɒst]",
       "rule": "won - выиграл, победили (от win), lost - проиграл (от lose)",
       "examples": [
         {
@@ -244,7 +244,7 @@
       ]
     },
     {
-      "title": "Think / Thought / Thought",
+      "title": "Think [θɪŋk] / Thought [θɔːt] / Thought [θɔːt]",
       "rule": "thought - думал, думали (прошедшее время от think)",
       "examples": [
         {
@@ -265,7 +265,7 @@
       ]
     },
     {
-      "title": "Teach / Taught / Taught",
+      "title": "Teach [tiːtʃ] / Taught [tɔːt] / Taught [tɔːt]",
       "rule": "taught - преподавал, обучил (прошедшее время от teach)",
       "examples": [
         {
@@ -281,7 +281,7 @@
       ]
     },
     {
-      "title": "Swim / Swam / Swum",
+      "title": "Swim [swɪm] / Swam [swæm] / Swum [swʌm]",
       "rule": "swam - плавал, купались (прошедшее время от swim)",
       "examples": [
         {
@@ -307,7 +307,7 @@
         {
           "en": "I swam in the swimming pool",
           "ipa": "[aɪ swæm ɪn ðə ˈswɪmɪŋ puːl]",
-          "ru": "Я плавал в бассейн"
+          "ru": "Я плавал в бассейне"
         },
         {
           "en": "We swam in the sea",
