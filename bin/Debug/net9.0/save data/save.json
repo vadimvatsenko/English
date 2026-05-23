@@ -458,6 +458,46 @@
         "en": "I ate a sandwich",
         "ipa": "[a\u026A et \u0259 \u02C8s\u00E6nw\u026Ad\u0292]",
         "ru": "\u042F \u0441\u044A\u0435\u043B \u0431\u0443\u0442\u0435\u0440\u0431\u0440\u043E\u0434"
+      },
+      {
+        "en": "I drank orange juice",
+        "ipa": "[a\u026A dr\u00E6\u014Bk \u02C8\u0252r\u026And\u0292 d\u0292u\u02D0s]",
+        "ru": "\u042F \u0432\u044B\u043F\u0438\u043B \u0430\u043F\u0435\u043B\u044C\u0441\u0438\u043D\u043E\u0432\u044B\u0439 \u0441\u043E\u043A"
+      },
+      {
+        "en": "He lost his wallet",
+        "ipa": "[hi\u02D0 l\u0252st h\u026Az \u02C8w\u0252l\u026At]",
+        "ru": "\u041E\u043D \u043F\u043E\u0442\u0435\u0440\u044F\u043B \u0441\u0432\u043E\u0439 \u0431\u0443\u043C\u0430\u0436\u043D\u0438\u043A"
+      },
+      {
+        "en": "I lost my wallet but then I found it",
+        "ipa": "[a\u026A l\u0252st ma\u026A \u02C8w\u0252l\u026At b\u028Ct \u00F0en a\u026A fa\u028And \u026At]",
+        "ru": "\u042F \u043F\u043E\u0442\u0435\u0440\u044F\u043B \u0441\u0432\u043E\u0439 \u0431\u0443\u043C\u0430\u0436\u043D\u0438\u043A, \u043D\u043E \u0437\u0430\u0442\u0435\u043C \u044F \u043D\u0430\u0448\u0435\u043B \u0435\u0433\u043E"
+      },
+      {
+        "en": "He sold his house",
+        "ipa": "[hi\u02D0 s\u0259\u028Ald h\u026Az ha\u028As]",
+        "ru": "\u041E\u043D \u043F\u0440\u043E\u0434\u0430\u043B \u0441\u0432\u043E\u0439 \u0434\u043E\u043C"
+      },
+      {
+        "en": "They won in the end",
+        "ipa": "[\u00F0e\u026A w\u028Cn \u026An \u00F0i end]",
+        "ru": "\u041E\u043D\u0438 \u043F\u043E\u0431\u0435\u0434\u0438\u043B\u0438 \u0432 \u043A\u043E\u043D\u0446\u0435"
+      },
+      {
+        "en": "I often thought about it",
+        "ipa": "[a\u026A \u02C8\u0252fn \u03B8\u0254\u02D0t \u0259\u02C8ba\u028At \u026At]",
+        "ru": "\u042F \u0447\u0430\u0441\u0442\u043E \u0434\u0443\u043C\u0430\u043B \u043E\u0431 \u044D\u0442\u043E\u043C"
+      },
+      {
+        "en": "He taught us English",
+        "ipa": "[hi\u02D0 t\u0254\u02D0t \u028Cs \u02C8\u026A\u014B\u0261l\u026A\u0283]",
+        "ru": "\u041E\u043D \u043F\u0440\u0435\u043F\u043E\u0434\u0430\u0432\u0430\u043B \u043D\u0430\u043C \u0430\u043D\u0433\u043B\u0438\u0439\u0441\u043A\u0438\u0439"
+      },
+      {
+        "en": "We swam in the lake",
+        "ipa": "[wi\u02D0 sw\u00E6m \u026An \u00F0\u0259 le\u026Ak]",
+        "ru": "\u041C\u044B \u043A\u0443\u043F\u0430\u043B\u0438\u0441\u044C \u0432 \u043E\u0437\u0435\u0440\u0435"
       }
     ],
     "RatingText": []
