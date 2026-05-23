@@ -1,0 +1,60 @@
+{
+  "sections": [
+    {
+      "title": "Irregular Verbs - Part 3",
+      "rule": "Три формы глагола, транскрипция и перевод разделены только пробелами.",
+      "examples": [
+        {
+          "en": "drink drank drunk",
+          "ipa": "[drɪŋk] [dræŋk] [drʌŋk]",
+          "ru": "пить выпил выпитый"
+        },
+        {
+          "en": "drive drove driven",
+          "ipa": "[draɪv] [drəʊv] [ˈdrɪvən]",
+          "ru": "вести машину вел машину ведомый"
+        },
+        {
+          "en": "eat ate eaten",
+          "ipa": "[iːt] [et] [ˈiːtən]",
+          "ru": "есть съел съеденный"
+        },
+        {
+          "en": "fall fell fallen",
+          "ipa": "[fɔːl] [fel] [ˈfɔːlən]",
+          "ru": "падать упал упавший"
+        },
+        {
+          "en": "feed fed fed",
+          "ipa": "[fiːd] [fed] [fed]",
+          "ru": "кормить кормил накормленный"
+        },
+        {
+          "en": "feel felt felt",
+          "ipa": "[fiːl] [felt] [felt]",
+          "ru": "чувствовать чувствовал прочувствованный"
+        },
+        {
+          "en": "fight fought fought",
+          "ipa": "[faɪt] [fɔːt] [fɔːt]",
+          "ru": "драться дрался побежденный в бою"
+        },
+        {
+          "en": "find found found",
+          "ipa": "[faɪnd] [faʊnd] [faʊnd]",
+          "ru": "находить нашел найденный"
+        },
+        {
+          "en": "fly flew flown",
+          "ipa": "[flaɪ] [fluː] [fləʊn]",
+          "ru": "летать полетел улетевший"
+        },
+        {
+          "en": "forget forgot forgotten",
+          "ipa": "[fəˈɡet] [fəˈɡɒt] [fəˈɡɒtn]",
+          "ru": "забывать забыл забытый"
+        }
+      ]
+    }
+  ]
+}

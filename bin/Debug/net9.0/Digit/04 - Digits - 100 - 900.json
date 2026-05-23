@@ -1,0 +1,50 @@
+{
+  "sections": [
+    {
+      "title": "Tens 20 - 90",
+      "rule": "Круглые десятки с суффиксом -ty.",
+      "examples": [
+        {
+          "en": "twenty",
+          "ipa": "[ˈtwenti]",
+          "ru": "двадцать"
+        },
+        {
+          "en": "thirty",
+          "ipa": "[ˈθɜːti]",
+          "ru": "тридцать"
+        },
+        {
+          "en": "forty",
+          "ipa": "[ˈfɔːti]",
+          "ru": "сорок"
+        },
+        {
+          "en": "fifty",
+          "ipa": "[ˈfɪfti]",
+          "ru": "пятьдесят"
+        },
+        {
+          "en": "sixty",
+          "ipa": "[ˈsɪksti]",
+          "ru": "шестьдесят"
+        },
+        {
+          "en": "seventy",
+          "ipa": "[ˈsevnti]",
+          "ru": "семьдесят"
+        },
+        {
+          "en": "eighty",
+          "ipa": "[ˈeɪti]",
+          "ru": "восемьдесят"
+        },
+        {
+          "en": "ninety",
+          "ipa": "[ˈnaɪnti]",
+          "ru": "девяносто"
+        }
+      ]
+    }
+  ]
+}

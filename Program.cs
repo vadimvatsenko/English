@@ -86,7 +86,7 @@ namespace English
                     Console.BackgroundColor = m.Key == counter ? ConsoleColor.DarkGreen :  ConsoleColor.DarkBlue;
                     
                     // центрирование текста
-                    var centeredText = CenteredText(m.Value, 22);
+                    var centeredText = CenteredText(m.Value, 26);
 
                     Console.WriteLine($"{arrow} [{m.Key:00}]: [{centeredText}]");
                     
@@ -216,10 +216,10 @@ namespace English
 
             string fileName = ChooseDir(filesOnThemeDict, themeNumber);
             
+            // чтобы вернутся на один пункт назад
             if (themeNumber == 0) await StartPractice(levelsDict, user, authService);
             
             // полный путь к теме
-
             string FilePath = String.Empty;
 
             // путь в зависимости от платформы

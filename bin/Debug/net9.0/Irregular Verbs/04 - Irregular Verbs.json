@@ -1,0 +1,60 @@
+{
+  "sections": [
+    {
+      "title": "Irregular Verbs - Part 4",
+      "rule": "Три формы глагола, транскрипция и перевод разделены только пробелами.",
+      "examples": [
+        {
+          "en": "forgive forgave forgotten",
+          "ipa": "[fəˈɡɪv] [fəˈɡeɪv] [fəˈɡɪvən]",
+          "ru": "прощать простил прощенный"
+        },
+        {
+          "en": "freeze froze frozen",
+          "ipa": "[friːz] [frəʊz] [ˈfrəʊzən]",
+          "ru": "замерзать замерз замороженный"
+        },
+        {
+          "en": "get got gotten",
+          "ipa": "[ɡet] [ɡɒt] [ˈɡɒtn]",
+          "ru": "получать получил полученный"
+        },
+        {
+          "en": "give gave given",
+          "ipa": "[ɡɪv] [ɡeɪv] [ˈɡɪvən]",
+          "ru": "давать дал данный"
+        },
+        {
+          "en": "go went gone",
+          "ipa": "[ɡəʊ] [went] [ɡɒn]",
+          "ru": "идти ушел ушедший"
+        },
+        {
+          "en": "grow grew grown",
+          "ipa": "[ɡrəʊ] [ɡruː] [ɡrəʊn]",
+          "ru": "расти вырастил выращенный"
+        },
+        {
+          "en": "hang hung hung",
+          "ipa": "[hæŋ] [hʌŋ] [hʌŋ]",
+          "ru": "висеть висел подвешенный"
+        },
+        {
+          "en": "have had had",
+          "ipa": "[hæv] [hæd] [hæd]",
+          "ru": "иметь имел имевшийся"
+        },
+        {
+          "en": "hear heard heard",
+          "ipa": "[hɪə] [hɜːd] [hɜːd]",
+          "ru": "слышать услышал услышанный"
+        },
+        {
+          "en": "hide hid hidden",
+          "ipa": "[haɪd] [hɪd] [ˈhɪdn]",
+          "ru": "прятать спрятал спрятанный"
+        }
+      ]
+    }
+  ]
+}

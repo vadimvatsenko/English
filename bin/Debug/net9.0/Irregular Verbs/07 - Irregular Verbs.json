@@ -1,0 +1,60 @@
+{
+  "sections": [
+    {
+      "title": "Irregular Verbs - Part 7",
+      "rule": "Три формы глагола, транскрипция и перевод разделены только пробелами.",
+      "examples": [
+        {
+          "en": "ring rang rung",
+          "ipa": "[rɪŋ] [ræŋ] [rʌŋ]",
+          "ru": "звонить звонил прозвеневший"
+        },
+        {
+          "en": "rise rose risen",
+          "ipa": "[raɪz] [rəʊz] [ˈrɪzən]",
+          "ru": "подниматься поднялся поднявшийся"
+        },
+        {
+          "en": "run ran run",
+          "ipa": "[rʌn] [ræn] [rʌn]",
+          "ru": "бежать бежал бежавший"
+        },
+        {
+          "en": "say said said",
+          "ipa": "[seɪ] [sed] [sed]",
+          "ru": "сказать сказал сказанный"
+        },
+        {
+          "en": "see saw seen",
+          "ipa": "[siː] [sɔː] [siːn]",
+          "ru": "видеть видел увиденный"
+        },
+        {
+          "en": "seek sought sought",
+          "ipa": "[siːk] [sɔːt] [sɔːt]",
+          "ru": "искать искал разыскиваемый"
+        },
+        {
+          "en": "sell sold sold",
+          "ipa": "[sel] [səʊld] [səʊld]",
+          "ru": "продавать продал проданный"
+        },
+        {
+          "en": "send sent sent",
+          "ipa": "[send] [sent] [sent]",
+          "ru": "посылать послал посланный"
+        },
+        {
+          "en": "set set set",
+          "ipa": "[set] [set] [set]",
+          "ru": "устанавливать установил установленный"
+        },
+        {
+          "en": "sew sewed sewn",
+          "ipa": "[səʊ] [səʊd] [səʊn]",
+          "ru": "шить шил сшитый"
+        }
+      ]
+    }
+  ]
+}

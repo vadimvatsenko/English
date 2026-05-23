@@ -1,0 +1,60 @@
+{
+  "sections": [
+    {
+      "title": "Irregular Verbs - Part 9",
+      "rule": "Три формы глагола, транскрипция и перевод разделены только пробелами.",
+      "examples": [
+        {
+          "en": "spend spent spent",
+          "ipa": "[spend] [spent] [spent]",
+          "ru": "тратить потратил потраченный"
+        },
+        {
+          "en": "spread spread spread",
+          "ipa": "[spred] [spred] [spred]",
+          "ru": "распространять распространил распространенный"
+        },
+        {
+          "en": "stand stood stood",
+          "ipa": "[stænd] [stʊd] [stʊd]",
+          "ru": "стоять стоял стоявший"
+        },
+        {
+          "en": "steal stole stolen",
+          "ipa": "[stıːl] [stəʊl] [ˈstəʊlən]",
+          "ru": "красть украл украденный"
+        },
+        {
+          "en": "stick stuck stuck",
+          "ipa": "[stɪk] [stʌk] [stʌk]",
+          "ru": "приклеивать приклеил приклеенный"
+        },
+        {
+          "en": "strike struck stricken",
+          "ipa": "[straɪk] [strʌk] [ˈstɪkən]",
+          "ru": "ударять ударил пораженный"
+        },
+        {
+          "en": "swear swore sworn",
+          "ipa": "[sweə] [swɔː] [swɔːn]",
+          "ru": "клясться поклялся поклявшийся"
+        },
+        {
+          "en": "sweep swept swept",
+          "ipa": "[swiːp] [swept] [swept]",
+          "ru": "мести подмел подметенный"
+        },
+        {
+          "en": "swell swelled swollen",
+          "ipa": "[swel] [sweld] [ˈswəʊlən]",
+          "ru": "разбухать разбух опухший"
+        },
+        {
+          "en": "swim swam swum",
+          "ipa": "[swɪm] [swæm] [swʌm]",
+          "ru": "плавать плавал выплывший"
+        }
+      ]
+    }
+  ]
+}

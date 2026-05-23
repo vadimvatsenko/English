@@ -1,0 +1,60 @@
+{
+  "sections": [
+    {
+      "title": "Irregular Verbs - Part 6",
+      "rule": "Три формы глагола, транскрипция и перевод разделены только пробелами.",
+      "examples": [
+        {
+          "en": "lie lay lain",
+          "ipa": "[laɪ] [leɪ] [leɪn]",
+          "ru": "лежать лежал лежавший"
+        },
+        {
+          "en": "lose lost lost",
+          "ipa": "[luːz] [lɒst] [lɒst]",
+          "ru": "терять потерял потерянный"
+        },
+        {
+          "en": "make made made",
+          "ipa": "[meɪk] [meɪd] [meɪd]",
+          "ru": "делать сделал сделанный"
+        },
+        {
+          "en": "mean meant meant",
+          "ipa": "[miːn] [ment] [ment]",
+          "ru": "значить значил значащий"
+        },
+        {
+          "en": "meet met met",
+          "ipa": "[miːt] [met] [met]",
+          "ru": "встречать встретил встреченный"
+        },
+        {
+          "en": "pay paid paid",
+          "ipa": "[peɪ] [peɪd] [peɪd]",
+          "ru": "платить оплатил оплаченный"
+        },
+        {
+          "en": "put put put",
+          "ipa": "[pʊt] [pʊt] [pʊt]",
+          "ru": "ставить поставил поставленный"
+        },
+        {
+          "en": "quit quit quit",
+          "ipa": "[kwɪt] [kwɪt] [kwɪt]",
+          "ru": "бросать бросил брошенный"
+        },
+        {
+          "en": "read read read",
+          "ipa": "[riːd] [red] [red]",
+          "ru": "читать прочитал прочитанный"
+        },
+        {
+          "en": "ride rode ridden",
+          "ipa": "[raɪd] [rəʊd] [ˈrɪdn]",
+          "ru": "ехать верхом ехал верхом объезженный"
+        }
+      ]
+    }
+  ]
+}

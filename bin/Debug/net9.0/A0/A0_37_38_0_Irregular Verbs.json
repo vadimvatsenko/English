@@ -1,0 +1,27 @@
+{
+  "sections": [
+    {
+      "title": "Irregular Verbs - State, Finance, Movement & Creation",
+      "rule": "Глаголы темы: три формы на английском, транскрипция и перевод через пробел.",
+      "examples": [
+        { "en": "become became become", "ipa": "[bɪˈkʌm] [bɪˈkeɪm] [bɪˈkʌm]", "ru": "становиться стал ставший" },
+        { "en": "begin began begun", "ipa": "[bɪˈɡɪn] [bɪˈɡæn] [bɪˈɡʌn]", "ru": "начинать начал начатый" },
+        { "en": "break broke broken", "ipa": "[breɪk] [brəʊk] [ˈbrəʊkən]", "ru": "ломать сломал сломанный" },
+        { "en": "build built built", "ipa": "[bɪld] [bɪlt] [bɪlt]", "ru": "строить построил построенный" },
+        { "en": "drive drove driven", "ipa": "[draɪv] [drəʊv] [ˈdrɪvən]", "ru": "водить водил ведомый" },
+        { "en": "feel felt felt", "ipa": "[fiːl] [felt] [felt]", "ru": "чувствовать чувствовал почувствованный" },
+        { "en": "give gave given", "ipa": "[ɡɪv] [ɡeɪv] [ˈɡɪvən]", "ru": "давать дал данный" },
+        { "en": "have had had", "ipa": "[hæv] [hæd] [hæd]", "ru": "иметь имел имевшийся" },
+        { "en": "meet met met", "ipa": "[miːt] [met] [met]", "ru": "встречать встретил встреченный" },
+        { "en": "pay paid paid", "ipa": "[peɪ] [peɪd] [peɪd]", "ru": "платить заплатил оплаченный" },
+        { "en": "put put put", "ipa": "[pʊt] [pʊt] [pʊt]", "ru": "класть положил положенный" },
+        { "en": "run ran run", "ipa": "[rʌn] [ræn] [rʌn]", "ru": "бежать бежал побежавший" },
+        { "en": "send sent sent", "ipa": "[send] [sent] [sent]", "ru": "отправлять отправил отправленный" },
+        { "en": "sit sat sat", "ipa": "[sɪt] [sæt] [sæt]", "ru": "сидеть сел сидевший" },
+        { "en": "speak spoke spoken", "ipa": "[spiːk] [spəʊk] [ˈspəʊkən]", "ru": "говорить говорил сказанный" },
+        { "en": "spend spent spent", "ipa": "[spend] [spent] [spent]", "ru": "тратить потратил потраченный" },
+        { "en": "stand stood stood", "ipa": "[stænd] [stʊd] [stʊd]", "ru": "стоять стоял стоявший" }
+      ]
+    }
+  ]
+}

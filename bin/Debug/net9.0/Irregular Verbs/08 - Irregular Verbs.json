@@ -1,0 +1,60 @@
+{
+  "sections": [
+    {
+      "title": "Irregular Verbs - Part 8",
+      "rule": "Три формы глагола, транскрипция и перевод разделены только пробелами.",
+      "examples": [
+        {
+          "en": "shake shook shaken",
+          "ipa": "[ʃeɪk] [ʃʊk] [ˈʃeɪkən]",
+          "ru": "трясти тряс потрясенный"
+        },
+        {
+          "en": "shine shone shone",
+          "ipa": "[ʃaɪn] [ʃɒn] [ʃɒn]",
+          "ru": "светить светил светивший"
+        },
+        {
+          "en": "shoot shot shot",
+          "ipa": "[ʃuːt] [ʃɒt] [ʃɒt]",
+          "ru": "стрелять выстрелил подстреленный"
+        },
+        {
+          "en": "show showed shown",
+          "ipa": "[ʃəʊ] [ʃəʊd] [ʃəʊn]",
+          "ru": "показывать показал показанный"
+        },
+        {
+          "en": "sing sang sung",
+          "ipa": "[sɪŋ] [sæŋ] [sʌŋ]",
+          "ru": "петь пел спетый"
+        },
+        {
+          "en": "sink sank sunk",
+          "ipa": "[sɪŋk] [sæŋk] [sʌŋk]",
+          "ru": "тонуть утонул утонувший"
+        },
+        {
+          "en": "sit sat sat",
+          "ipa": "[sɪt] [sæt] [sæt]",
+          "ru": "сидеть сидел сидевший"
+        },
+        {
+          "en": "sleep slept slept",
+          "ipa": "[sliːp] [slept] [slept]",
+          "ru": "спать спал спавший"
+        },
+        {
+          "en": "slide slid slid",
+          "ipa": "[slaɪd] [slɪd] [slɪd]",
+          "ru": "скользить скользил скользивший"
+        },
+        {
+          "en": "speak spoke spoken",
+          "ipa": "[spiːk] [spəʊk] [ˈspəʊkən]",
+          "ru": "говорить поговорил сказанный"
+        }
+      ]
+    }
+  ]
+}

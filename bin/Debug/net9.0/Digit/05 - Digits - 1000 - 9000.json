@@ -1,0 +1,55 @@
+{
+  "sections": [
+    {
+      "title": "Thousands 1000 - 9000",
+      "rule": "Тысячи, образующиеся с помощью слова thousand.",
+      "examples": [
+        {
+          "en": "one thousand",
+          "ipa": "[wʌn ˈθaʊznd]",
+          "ru": "тысяча"
+        },
+        {
+          "en": "two thousand",
+          "ipa": "[tuː ˈθaʊznd]",
+          "ru": "две тысячи"
+        },
+        {
+          "en": "three thousand",
+          "ipa": "[θriː ˈθaʊznd]",
+          "ru": "три тысячи"
+        },
+        {
+          "en": "four thousand",
+          "ipa": "[fɔː ˈθaʊznd]",
+          "ru": "четыре тысячи"
+        },
+        {
+          "en": "five thousand",
+          "ipa": "[faɪv ˈθaʊznd]",
+          "ru": "пять тысяч"
+        },
+        {
+          "en": "six thousand",
+          "ipa": "[sɪks ˈθaʊznd]",
+          "ru": "шесть тысяч"
+        },
+        {
+          "en": "seven thousand",
+          "ipa": "[ˈsevn ˈθaʊznd]",
+          "ru": "семь тысяч"
+        },
+        {
+          "en": "eight thousand",
+          "ipa": "[eɪt ˈθaʊznd]",
+          "ru": "восемь тысяч"
+        },
+        {
+          "en": "nine thousand",
+          "ipa": "[naɪn ˈθaʊznd]",
+          "ru": "девять тысяч"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "sections": [
+    {
+      "title": "Numbers 11 - 19",
+      "rule": "Числительные второго десятка с суффиксом -teen.",
+      "examples": [
+        {
+          "en": "eleven",
+          "ipa": "[ɪˈlevn]",
+          "ru": "одиннадцать"
+        },
+        {
+          "en": "twelve",
+          "ipa": "[twelv]",
+          "ru": "двенадцать"
+        },
+        {
+          "en": "thirteen",
+          "ipa": "[θɜːˈtiːn]",
+          "ru": "тринадцать"
+        },
+        {
+          "en": "fourteen",
+          "ipa": "[fɔːˈtiːn]",
+          "ru": "четырнадцать"
+        },
+        {
+          "en": "fifteen",
+          "ipa": "[fɪfˈtiːn]",
+          "ru": "пятнадцать"
+        },
+        {
+          "en": "sixteen",
+          "ipa": "[sɪksˈtiːn]",
+          "ru": "шестнадцать"
+        },
+        {
+          "en": "seventeen",
+          "ipa": "[sevnˈtiːn]",
+          "ru": "семнадцать"
+        },
+        {
+          "en": "eighteen",
+          "ipa": "[eɪˈtiːn]",
+          "ru": "восемнадцать"
+        },
+        {
+          "en": "nineteen",
+          "ipa": "[naɪnˈtiːn]",
+          "ru": "девятнадцать"
+        }
+      ]
+    }
+  ]
+}

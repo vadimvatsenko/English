@@ -1,0 +1,60 @@
+{
+  "sections": [
+    {
+      "title": "Irregular Verbs - Part 10",
+      "rule": "Три формы глагола, транскрипция и перевод разделены только пробелами.",
+      "examples": [
+        {
+          "en": "swing swung swung",
+          "ipa": "[swɪŋ] [swʌŋ] [swʌŋ]",
+          "ru": "качаться качался качавшийся"
+        },
+        {
+          "en": "take took taken",
+          "ipa": "[teɪk] [tʊk] [ˈteɪkən]",
+          "ru": "брать взял взятый"
+        },
+        {
+          "en": "teach taught taught",
+          "ipa": "[tiːtʃ] [tɔːt] [tɔːt]",
+          "ru": "обучать преподавал обученный"
+        },
+        {
+          "en": "tear tore torn",
+          "ipa": "[teə] [tɔː] [tɔːn]",
+          "ru": "рвать порвал порванный"
+        },
+        {
+          "en": "tell told told",
+          "ipa": "[tel] [tʊld] [tʊld]",
+          "ru": "рассказывать рассказал рассказанный"
+        },
+        {
+          "en": "think thought thought",
+          "ipa": "[θɪŋk] [θɔːt] [θɔːt]",
+          "ru": "думать думал продуманный"
+        },
+        {
+          "en": "wear wore worn",
+          "ipa": "[weə] [wɔː] [wɔːn]",
+          "ru": "носить одежду носил изношенный"
+        },
+        {
+          "en": "weep wept wept",
+          "ipa": "[wiːp] [wept] [wept]",
+          "ru": "плакать плакал заплаканный"
+        },
+        {
+          "en": "win won won",
+          "ipa": "[wɪn] [wʌn] [wʌn]",
+          "ru": "побеждать выиграл выигранный"
+        },
+        {
+          "en": "write wrote written",
+          "ipa": "[raɪt] [rəʊt] [ˈrɪtn]",
+          "ru": "писать написал написанный"
+        }
+      ]
+    }
+  ]
+}

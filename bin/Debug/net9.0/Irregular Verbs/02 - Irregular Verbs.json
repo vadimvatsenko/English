@@ -1,0 +1,60 @@
+{
+  "sections": [
+    {
+      "title": "Irregular Verbs - Part 2",
+      "rule": "Три формы глагола, транскрипция и перевод разделены только пробелами.",
+      "examples": [
+        {
+          "en": "catch caught caught",
+          "ipa": "[kætʃ] [kɔːt] [kɔːt]",
+          "ru": "ловить поймал пойманный"
+        },
+        {
+          "en": "choose chose chosen",
+          "ipa": "[tʃuːz] [tʃəʊz] [ˈtʃəʊzən]",
+          "ru": "выбирать выбрал выбранный"
+        },
+        {
+          "en": "come came come",
+          "ipa": "[kʌm] [keɪm] [kʌm]",
+          "ru": "приходить пришел пришедший"
+        },
+        {
+          "en": "cost cost cost",
+          "ipa": "[kɒst] [kɒst] [kɒst]",
+          "ru": "стоить стоил стоивший"
+        },
+        {
+          "en": "cut cut cut",
+          "ipa": "[kʌt] [kʌt] [kʌt]",
+          "ru": "резать резал разрезанный"
+        },
+        {
+          "en": "do did done",
+          "ipa": "[duː] [dɪd] [dʌn]",
+          "ru": "делать сделал сделанный"
+        },
+        {
+          "en": "deal dealt dealt",
+          "ipa": "[diːl] [delt] [delt]",
+          "ru": "иметь дело имел дело связанный"
+        },
+        {
+          "en": "dig dug dug",
+          "ipa": "[dɪɡ] [dʌɡ] [dʌɡ]",
+          "ru": "копать копал выкопанный"
+        },
+        {
+          "en": "dream dreamt dreamt",
+          "ipa": "[driːm] [dremt] [dremt]",
+          "ru": "мечтать мечтал увиденный во сне"
+        },
+        {
+          "en": "draw drew drawn",
+          "ipa": "[drɔː] [druː] [drɔːn]",
+          "ru": "рисовать рисовал нарисованный"
+        }
+      ]
+    }
+  ]
+}
