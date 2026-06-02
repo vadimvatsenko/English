@@ -1,0 +1,129 @@
+﻿{
+  "vocabulary": [
+    { "en": "want", "ipa": "/wɒnt/", "ru": "хотеть" },
+    { "en": "more", "ipa": "/mɔː/", "ru": "больше" },
+
+    { "en": "job", "ipa": "/dʒɒb/", "ru": "работа (место работы)" },
+    { "en": "dream", "ipa": "/driːm/", "ru": "мечта" },
+    { "en": "supermarket", "ipa": "/ˈsuːpəmɑːkɪt/", "ru": "супермаркет" },
+
+    { "en": "really", "ipa": "/ˈrɪəli/", "ru": "очень, рельно" },
+    { "en": "problem", "ipa": "/ˈprɒbləm/", "ru": "проблема" },
+    { "en": "message", "ipa": "/ˈmesɪdʒ/", "ru": "сообщение" },
+
+    { "en": "agree", "ipa": "/əˈɡriː/", "ru": "соглашаться" },
+    { "en": "support", "ipa": "/səˈpɔːt/", "ru": "поддерживать" },
+
+    { "en": "umbrella", "ipa": "/ʌmˈbrelə/", "ru": "зонт" },
+    { "en": "airport", "ipa": "/ˈeəpɔːt/", "ru": "аэропорт" },
+    { "en": "country", "ipa": "/ˈkʌntri/", "ru": "страна" },
+    { "en": "result", "ipa": "/rɪˈzʌlt/", "ru": "результат" },
+
+    { "en": "friend", "ipa": "/frend/", "ru": "друг" },
+    { "en": "family", "ipa": "/ˈfæməli/", "ru": "семья" },
+
+    { "en": "aim", "ipa": "/eɪm/", "ru": "цель" },
+    { "en": "question", "ipa": "/ˈkwesʧən/", "ru": "вопрос" },
+
+    { "en": "city", "ipa": "/ˈsɪti/", "ru": "город" },
+    { "en": "course", "ipa": "/kɔːs/", "ru": "курс" },
+
+    { "en": "bus", "ipa": "/bʌs/", "ru": "автобус" },
+    { "en": "train", "ipa": "/treɪn/", "ru": "поезд" },
+    { "en": "ticket", "ipa": "/ˈtɪkɪt/", "ru": "билет" },
+
+    { "en": "talent", "ipa": "/ˈtælənt/", "ru": "талант" },
+    { "en": "idea", "ipa": "/aɪˈdɪə/", "ru": "идея" },
+
+    { "en": "university", "ipa": "/ˌjuːnɪˈvɜːsɪti/", "ru": "университет" },
+    { "en": "place", "ipa": "/pleɪs/", "ru": "место" }
+  ],
+  "sections": [
+    {
+      "title": "Present Simple",
+      "rule": "Структура: подлежащее + глагол + … (I/you/we/they).",
+      "examples": [
+        { "en": "I work in a company", "ipa": "/aɪ wɜːk ɪn ə ˈkʌmpəni/", "ru": "Я работаю в компании" },
+        { "en": "I work in this company", "ipa": "/aɪ wɜːk ɪn ðɪs ˈkʌmpəni/", "ru": "Я работаю в этой компании" },
+        { "en": "They work in a company", "ipa": "/ðeɪ wɜːk ɪn ə ˈkʌmpəni/", "ru": "Они работают в компании" },
+        { "en": "They work in this place", "ipa": "/ðeɪ wɜːk ɪn ðɪs pleɪs/", "ru": "Они работают в этом месте" },
+
+        { "en": "I like English", "ipa": "/aɪ laɪk ˈɪŋɡlɪʃ/", "ru": "Мне нравится английский" },
+        { "en": "I like this food", "ipa": "/aɪ laɪk ðɪs fuːd/", "ru": "Мне нравится эта еда" },
+        { "en": "I like this place", "ipa": "/aɪ laɪk ðɪs pleɪs/", "ru": "Мне нравится это место" },
+
+        { "en": "I really like it", "ipa": "/aɪ ˈrɪəli laɪk ɪt/", "ru": "Мне очень нравится это" },
+        { "en": "I really like English", "ipa": "/aɪ ˈrɪəli laɪk ˈɪŋɡlɪʃ/", "ru": "Мне очень нравится английский" },
+        { "en": "I really like this country", "ipa": "/aɪ ˈrɪəli laɪk ðɪs ˈkʌntri/", "ru": "Мне очень нравится эта страна" },
+        { "en": "I really like this city", "ipa": "/aɪ ˈrɪəli laɪk ðɪs ˈsɪti/", "ru": "Мне очень нравится этот город" },
+        { "en": "I really like this course", "ipa": "/aɪ ˈrɪəli laɪk ðɪs kɔːs/", "ru": "Мне очень нравится этот курс" },
+
+        { "en": "You do it very well", "ipa": "/juː duː ɪt ˈveri wel/", "ru": "Ты делаешь это очень хорошо" },
+
+        { "en": "They want more", "ipa": "/ðeɪ wɒnt mɔː/", "ru": "Они хотят большего" },
+        { "en": "I really want it", "ipa": "/aɪ ˈrɪəli wɒnt ɪt/", "ru": "Я очень хочу это" },
+
+        { "en": "I agree", "ipa": "/aɪ əˈɡriː/", "ru": "Я согласен" },
+        { "en": "I agree with you", "ipa": "/aɪ əˈɡriː wɪð juː/", "ru": "Я согласен с тобой" },
+
+        { "en": "I support you", "ipa": "/aɪ səˈpɔːt juː/", "ru": "Я поддерживаю тебя" },
+        { "en": "We support you", "ipa": "/wiː səˈpɔːt juː/", "ru": "Мы поддерживаем тебя" },
+
+        { "en": "I know", "ipa": "/aɪ nəʊ/", "ru": "Я знаю" },
+        { "en": "I understand", "ipa": "/aɪ ˌʌndəˈstænd/", "ru": "Я понимаю" }
+      ]
+    },
+    {
+      "title": "Have / Has",
+      "rule": "Наличие: I/you/we/they have…, he/she/it has…",
+      "examples": [
+        { "en": "We have a job", "ipa": "/wiː hæv ə dʒɒb/", "ru": "У нас есть работа" },
+        { "en": "I have a job", "ipa": "/aɪ hæv ə dʒɒb/", "ru": "У меня есть работа" },
+        { "en": "They have a job", "ipa": "/ðeɪ hæv ə dʒɒb/", "ru": "У них есть работа" },
+
+        { "en": "I have a dream", "ipa": "/aɪ hæv ə driːm/", "ru": "У меня есть мечта" },
+        { "en": "We have a dream", "ipa": "/wiː hæv ə driːm/", "ru": "У нас есть мечта" },
+        { "en": "They have a dream", "ipa": "/ðeɪ hæv ə driːm/", "ru": "У них есть мечта" },
+
+        { "en": "I have a friend", "ipa": "/aɪ hæv ə frend/", "ru": "У меня есть друг" },
+        { "en": "I have a family", "ipa": "/aɪ hæv ə ˈfæməli/", "ru": "У меня есть семья" },
+
+        { "en": "I have an umbrella", "ipa": "/aɪ hæv ən ʌmˈbrelə/", "ru": "У меня есть зонт" },
+        { "en": "I have a ticket", "ipa": "/aɪ hæv ə ˈtɪkɪt/", "ru": "У меня есть билет" },
+
+        { "en": "I have an idea", "ipa": "/aɪ hæv ən aɪˈdɪə/", "ru": "У меня есть идея" },
+        { "en": "They have an idea", "ipa": "/ðeɪ hæv ən aɪˈdɪə/", "ru": "У них есть идея" },
+
+        { "en": "I have an aim", "ipa": "/aɪ hæv ən eɪm/", "ru": "У меня есть цель" },
+        { "en": "We have an aim", "ipa": "/wiː hæv ən eɪm/", "ru": "У нас есть цель" },
+
+        { "en": "I have a question", "ipa": "/aɪ hæv ə ˈkwesʧən/", "ru": "У меня вопрос" },
+        { "en": "I have a problem", "ipa": "/aɪ hæv ə ˈprɒbləm/", "ru": "У меня проблема" },
+
+        { "en": "I have a result", "ipa": "/aɪ hæv ə rɪˈzʌlt/", "ru": "У меня есть результат" },
+        { "en": "You have a talent", "ipa": "/juː hæv ə ˈtælənt/", "ru": "У вас есть талант" }
+      ]
+    },
+    {
+      "title": "I see… / We see…",
+      "rule": "I see / We see + a/an + предмет.",
+      "examples": [
+        { "en": "I see a supermarket", "ipa": "/aɪ siː ə ˈsuːpəmɑːkɪt/", "ru": "Я вижу супермаркет" },
+        { "en": "I see a hotel", "ipa": "/aɪ siː ə həʊˈtel/", "ru": "Я вижу отель" },
+        { "en": "I see a bus", "ipa": "/aɪ siː ə bʌs/", "ru": "Я вижу автобус" },
+        { "en": "I see a train", "ipa": "/aɪ siː ə treɪn/", "ru": "Я вижу поезд" },
+
+        { "en": "I see a university", "ipa": "/aɪ siː ə ˌjuːnɪˈvɜːsɪti/", "ru": "Я вижу университет" },
+        { "en": "We see a university", "ipa": "/wiː siː ə ˌjuːnɪˈvɜːsɪti/", "ru": "Мы видим университет" },
+
+        { "en": "I see a message", "ipa": "/aɪ siː ə ˈmesɪdʒ/", "ru": "Я вижу сообщение" },
+        { "en": "We see a message", "ipa": "/wiː siː ə ˈmesɪdʒ/", "ru": "Мы видим сообщение" },
+
+        { "en": "I see an airport", "ipa": "/aɪ siː ən ˈeəpɔːt/", "ru": "Я вижу аэропорт" },
+        { "en": "We see an airport", "ipa": "/wiː siː ən ˈeəpɔːt/", "ru": "Мы видим аэропорт" },
+
+        { "en": "We see this problem", "ipa": "/wiː siː ðɪs ˈprɒbləm/", "ru": "Мы видим эту проблему" }
+      ]
+    }
+  ]
+}

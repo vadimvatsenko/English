@@ -1,0 +1,1219 @@
+{
+  "sections": [
+    {
+      "title": "B1 Words: Opinions & Thinking",
+      "rule": "Мнения, мышление и объяснение.",
+      "examples": [
+        {
+          "ru": "верить",
+          "en": "believe",
+          "ipa": "[believe]"
+        },
+        {
+          "ru": "полагать",
+          "en": "suppose",
+          "ipa": "[suppose]"
+        },
+        {
+          "ru": "ожидать",
+          "en": "expect",
+          "ipa": "[expect]"
+        },
+        {
+          "ru": "решать",
+          "en": "decide",
+          "ipa": "[decide]"
+        },
+        {
+          "ru": "рассматривать",
+          "en": "consider",
+          "ipa": "[consider]"
+        },
+        {
+          "ru": "предпочитать",
+          "en": "prefer",
+          "ipa": "[prefer]"
+        },
+        {
+          "ru": "соглашаться",
+          "en": "agree",
+          "ipa": "[agree]"
+        },
+        {
+          "ru": "не соглашаться",
+          "en": "disagree",
+          "ipa": "[disagree]"
+        },
+        {
+          "ru": "спорить",
+          "en": "argue",
+          "ipa": "[argue]"
+        },
+        {
+          "ru": "обсуждать",
+          "en": "discuss",
+          "ipa": "[discuss]"
+        },
+        {
+          "ru": "сравнивать",
+          "en": "compare",
+          "ipa": "[compare]"
+        },
+        {
+          "ru": "замечать",
+          "en": "notice",
+          "ipa": "[notice]"
+        },
+        {
+          "ru": "осознавать",
+          "en": "realize",
+          "ipa": "[realize]"
+        },
+        {
+          "ru": "представлять",
+          "en": "imagine",
+          "ipa": "[imagine]"
+        },
+        {
+          "ru": "угадывать",
+          "en": "guess",
+          "ipa": "[guess]"
+        },
+        {
+          "ru": "сомневаться",
+          "en": "doubt",
+          "ipa": "[doubt]"
+        },
+        {
+          "ru": "казаться",
+          "en": "seem",
+          "ipa": "[seem]"
+        },
+        {
+          "ru": "значить",
+          "en": "mean",
+          "ipa": "[mean]"
+        },
+        {
+          "ru": "иметь значение",
+          "en": "matter",
+          "ipa": "[matter]"
+        },
+        {
+          "ru": "зависеть",
+          "en": "depend",
+          "ipa": "[depend]"
+        },
+        {
+          "ru": "включать",
+          "en": "include",
+          "ipa": "[include]"
+        },
+        {
+          "ru": "избегать",
+          "en": "avoid",
+          "ipa": "[avoid]"
+        },
+        {
+          "ru": "продолжать",
+          "en": "continue",
+          "ipa": "[continue]"
+        },
+        {
+          "ru": "улучшать",
+          "en": "improve",
+          "ipa": "[improve]"
+        },
+        {
+          "ru": "уменьшать",
+          "en": "reduce",
+          "ipa": "[reduce]"
+        },
+        {
+          "ru": "увеличивать",
+          "en": "increase",
+          "ipa": "[increase]"
+        }
+      ]
+    },
+    {
+      "title": "B1 Words: Society & Daily Problems",
+      "rule": "Общество и бытовые проблемы.",
+      "examples": [
+        {
+          "ru": "общество",
+          "en": "society",
+          "ipa": "[society]"
+        },
+        {
+          "ru": "сообщество",
+          "en": "community",
+          "ipa": "[community]"
+        },
+        {
+          "ru": "сосед",
+          "en": "neighbour",
+          "ipa": "[neighbour]"
+        },
+        {
+          "ru": "гражданин",
+          "en": "citizen",
+          "ipa": "[citizen]"
+        },
+        {
+          "ru": "правительство",
+          "en": "government",
+          "ipa": "[government]"
+        },
+        {
+          "ru": "закон",
+          "en": "law",
+          "ipa": "[law]"
+        },
+        {
+          "ru": "правило",
+          "en": "rule",
+          "ipa": "[rule]"
+        },
+        {
+          "ru": "выбор",
+          "en": "choice",
+          "ipa": "[choice]"
+        },
+        {
+          "ru": "шанс",
+          "en": "chance",
+          "ipa": "[chance]"
+        },
+        {
+          "ru": "риск",
+          "en": "risk",
+          "ipa": "[risk]"
+        },
+        {
+          "ru": "опасность",
+          "en": "danger",
+          "ipa": "[danger]"
+        },
+        {
+          "ru": "безопасность",
+          "en": "safety",
+          "ipa": "[safety]"
+        },
+        {
+          "ru": "преступление",
+          "en": "crime",
+          "ipa": "[crime]"
+        },
+        {
+          "ru": "происшествие",
+          "en": "accident",
+          "ipa": "[accident]"
+        },
+        {
+          "ru": "чрезвычайная ситуация",
+          "en": "emergency",
+          "ipa": "[emergency]"
+        },
+        {
+          "ru": "пожар / огонь",
+          "en": "fire",
+          "ipa": "[fire]"
+        },
+        {
+          "ru": "полиция",
+          "en": "police",
+          "ipa": "[police]"
+        },
+        {
+          "ru": "решение",
+          "en": "solution",
+          "ipa": "[solution]"
+        },
+        {
+          "ru": "эффект",
+          "en": "effect",
+          "ipa": "[effect]"
+        },
+        {
+          "ru": "разница",
+          "en": "difference",
+          "ipa": "[difference]"
+        },
+        {
+          "ru": "развитие",
+          "en": "development",
+          "ipa": "[development]"
+        },
+        {
+          "ru": "возможность",
+          "en": "opportunity",
+          "ipa": "[opportunity]"
+        },
+        {
+          "ru": "ответственность",
+          "en": "responsibility",
+          "ipa": "[responsibility]"
+        }
+      ]
+    },
+    {
+      "title": "B1 Words: Work & Education",
+      "rule": "Работа, обучение и развитие.",
+      "examples": [
+        {
+          "ru": "карьера",
+          "en": "career",
+          "ipa": "[career]"
+        },
+        {
+          "ru": "профессия",
+          "en": "profession",
+          "ipa": "[profession]"
+        },
+        {
+          "ru": "сотрудник",
+          "en": "employee",
+          "ipa": "[employee]"
+        },
+        {
+          "ru": "работодатель",
+          "en": "employer",
+          "ipa": "[employer]"
+        },
+        {
+          "ru": "коллега",
+          "en": "colleague",
+          "ipa": "[colleague]"
+        },
+        {
+          "ru": "отдел",
+          "en": "department",
+          "ipa": "[department]"
+        },
+        {
+          "ru": "должность",
+          "en": "position",
+          "ipa": "[position]"
+        },
+        {
+          "ru": "собеседование",
+          "en": "interview",
+          "ipa": "[interview]"
+        },
+        {
+          "ru": "заявка / заявление",
+          "en": "application",
+          "ipa": "[application]"
+        },
+        {
+          "ru": "резюме",
+          "en": "resume",
+          "ipa": "[resume]"
+        },
+        {
+          "ru": "квалификация",
+          "en": "qualification",
+          "ipa": "[qualification]"
+        },
+        {
+          "ru": "сертификат",
+          "en": "certificate",
+          "ipa": "[certificate]"
+        },
+        {
+          "ru": "знание",
+          "en": "knowledge",
+          "ipa": "[knowledge]"
+        },
+        {
+          "ru": "способность",
+          "en": "ability",
+          "ipa": "[ability]"
+        },
+        {
+          "ru": "метод",
+          "en": "method",
+          "ipa": "[method]"
+        },
+        {
+          "ru": "прогресс",
+          "en": "progress",
+          "ipa": "[progress]"
+        },
+        {
+          "ru": "цель",
+          "en": "goal",
+          "ipa": "[goal]"
+        },
+        {
+          "ru": "цель / назначение",
+          "en": "purpose",
+          "ipa": "[purpose]"
+        },
+        {
+          "ru": "требование",
+          "en": "requirement",
+          "ipa": "[requirement]"
+        },
+        {
+          "ru": "инструкция",
+          "en": "instruction",
+          "ipa": "[instruction]"
+        },
+        {
+          "ru": "оборудование",
+          "en": "equipment",
+          "ipa": "[equipment]"
+        },
+        {
+          "ru": "материал",
+          "en": "material",
+          "ipa": "[material]"
+        },
+        {
+          "ru": "инструмент",
+          "en": "tool",
+          "ipa": "[tool]"
+        },
+        {
+          "ru": "технология",
+          "en": "technology",
+          "ipa": "[technology]"
+        },
+        {
+          "ru": "программное обеспечение",
+          "en": "software",
+          "ipa": "[software]"
+        },
+        {
+          "ru": "данные",
+          "en": "data",
+          "ipa": "[data]"
+        }
+      ]
+    },
+    {
+      "title": "B1 Words: Relationships & Life",
+      "rule": "Отношения и жизненные ситуации.",
+      "examples": [
+        {
+          "ru": "отношения",
+          "en": "relationship",
+          "ipa": "[relationship]"
+        },
+        {
+          "ru": "партнёр",
+          "en": "partner",
+          "ipa": "[partner]"
+        },
+        {
+          "ru": "родственник",
+          "en": "relative",
+          "ipa": "[relative]"
+        },
+        {
+          "ru": "гость",
+          "en": "guest",
+          "ipa": "[guest]"
+        },
+        {
+          "ru": "хозяин",
+          "en": "host",
+          "ipa": "[host]"
+        },
+        {
+          "ru": "незнакомец",
+          "en": "stranger",
+          "ipa": "[stranger]"
+        },
+        {
+          "ru": "взрослый",
+          "en": "adult",
+          "ipa": "[adult]"
+        },
+        {
+          "ru": "подросток",
+          "en": "teenager",
+          "ipa": "[teenager]"
+        },
+        {
+          "ru": "поколение",
+          "en": "generation",
+          "ipa": "[generation]"
+        },
+        {
+          "ru": "память",
+          "en": "memory",
+          "ipa": "[memory]"
+        },
+        {
+          "ru": "детство",
+          "en": "childhood",
+          "ipa": "[childhood]"
+        },
+        {
+          "ru": "будущее",
+          "en": "future",
+          "ipa": "[future]"
+        },
+        {
+          "ru": "прошлое",
+          "en": "past",
+          "ipa": "[past]"
+        },
+        {
+          "ru": "настоящее",
+          "en": "present",
+          "ipa": "[present]"
+        },
+        {
+          "ru": "событие",
+          "en": "event",
+          "ipa": "[event]"
+        },
+        {
+          "ru": "празднование",
+          "en": "celebration",
+          "ipa": "[celebration]"
+        },
+        {
+          "ru": "свадьба",
+          "en": "wedding",
+          "ipa": "[wedding]"
+        },
+        {
+          "ru": "день рождения",
+          "en": "birthday",
+          "ipa": "[birthday]"
+        },
+        {
+          "ru": "привычка",
+          "en": "habit",
+          "ipa": "[habit]"
+        },
+        {
+          "ru": "образ жизни",
+          "en": "lifestyle",
+          "ipa": "[lifestyle]"
+        },
+        {
+          "ru": "поведение",
+          "en": "behaviour",
+          "ipa": "[behaviour]"
+        },
+        {
+          "ru": "отношение",
+          "en": "attitude",
+          "ipa": "[attitude]"
+        },
+        {
+          "ru": "уважение",
+          "en": "respect",
+          "ipa": "[respect]"
+        },
+        {
+          "ru": "доверие",
+          "en": "trust",
+          "ipa": "[trust]"
+        },
+        {
+          "ru": "забота",
+          "en": "care",
+          "ipa": "[care]"
+        },
+        {
+          "ru": "обещание",
+          "en": "promise",
+          "ipa": "[promise]"
+        },
+        {
+          "ru": "секрет",
+          "en": "secret",
+          "ipa": "[secret]"
+        }
+      ]
+    },
+    {
+      "title": "B1 Words: Environment & World",
+      "rule": "Окружающая среда и мир.",
+      "examples": [
+        {
+          "ru": "окружающая среда",
+          "en": "environment",
+          "ipa": "[environment]"
+        },
+        {
+          "ru": "природа",
+          "en": "nature",
+          "ipa": "[nature]"
+        },
+        {
+          "ru": "климат",
+          "en": "climate",
+          "ipa": "[climate]"
+        },
+        {
+          "ru": "загрязнение",
+          "en": "pollution",
+          "ipa": "[pollution]"
+        },
+        {
+          "ru": "энергия",
+          "en": "energy",
+          "ipa": "[energy]"
+        },
+        {
+          "ru": "электричество",
+          "en": "electricity",
+          "ipa": "[electricity]"
+        },
+        {
+          "ru": "газ",
+          "en": "gas",
+          "ipa": "[gas]"
+        },
+        {
+          "ru": "нефть",
+          "en": "oil",
+          "ipa": "[oil]"
+        },
+        {
+          "ru": "ресурс",
+          "en": "resource",
+          "ipa": "[resource]"
+        },
+        {
+          "ru": "отходы",
+          "en": "waste",
+          "ipa": "[waste]"
+        },
+        {
+          "ru": "пластик",
+          "en": "plastic",
+          "ipa": "[plastic]"
+        },
+        {
+          "ru": "переработка",
+          "en": "recycling",
+          "ipa": "[recycling]"
+        },
+        {
+          "ru": "земля",
+          "en": "earth",
+          "ipa": "[earth]"
+        },
+        {
+          "ru": "планета",
+          "en": "planet",
+          "ipa": "[planet]"
+        },
+        {
+          "ru": "космос",
+          "en": "space",
+          "ipa": "[space]"
+        },
+        {
+          "ru": "остров",
+          "en": "island",
+          "ipa": "[island]"
+        },
+        {
+          "ru": "пустыня",
+          "en": "desert",
+          "ipa": "[desert]"
+        },
+        {
+          "ru": "побережье",
+          "en": "coast",
+          "ipa": "[coast]"
+        },
+        {
+          "ru": "поле",
+          "en": "field",
+          "ipa": "[field]"
+        },
+        {
+          "ru": "ферма",
+          "en": "farm",
+          "ipa": "[farm]"
+        },
+        {
+          "ru": "растение",
+          "en": "plant",
+          "ipa": "[plant]"
+        },
+        {
+          "ru": "урожай / культура",
+          "en": "crop",
+          "ipa": "[crop]"
+        },
+        {
+          "ru": "дикий",
+          "en": "wild",
+          "ipa": "[wild]"
+        },
+        {
+          "ru": "природный",
+          "en": "natural",
+          "ipa": "[natural]"
+        },
+        {
+          "ru": "глобальный",
+          "en": "global",
+          "ipa": "[global]"
+        }
+      ]
+    },
+    {
+      "title": "B1 Words: Media, Culture & Leisure",
+      "rule": "Медиа, культура и досуг.",
+      "examples": [
+        {
+          "ru": "культура",
+          "en": "culture",
+          "ipa": "[culture]"
+        },
+        {
+          "ru": "искусство",
+          "en": "art",
+          "ipa": "[art]"
+        },
+        {
+          "ru": "художник / артист",
+          "en": "artist",
+          "ipa": "[artist]"
+        },
+        {
+          "ru": "картина",
+          "en": "painting",
+          "ipa": "[painting]"
+        },
+        {
+          "ru": "концерт",
+          "en": "concert",
+          "ipa": "[concert]"
+        },
+        {
+          "ru": "фестиваль",
+          "en": "festival",
+          "ipa": "[festival]"
+        },
+        {
+          "ru": "роман",
+          "en": "novel",
+          "ipa": "[novel]"
+        },
+        {
+          "ru": "глава",
+          "en": "chapter",
+          "ipa": "[chapter]"
+        },
+        {
+          "ru": "статья",
+          "en": "article",
+          "ipa": "[article]"
+        },
+        {
+          "ru": "журнал",
+          "en": "magazine",
+          "ipa": "[magazine]"
+        },
+        {
+          "ru": "газета",
+          "en": "newspaper",
+          "ipa": "[newspaper]"
+        },
+        {
+          "ru": "реклама",
+          "en": "advertisement",
+          "ipa": "[advertisement]"
+        },
+        {
+          "ru": "канал",
+          "en": "channel",
+          "ipa": "[channel]"
+        },
+        {
+          "ru": "программа",
+          "en": "program",
+          "ipa": "[program]"
+        },
+        {
+          "ru": "эпизод",
+          "en": "episode",
+          "ipa": "[episode]"
+        },
+        {
+          "ru": "персонаж / характер",
+          "en": "character",
+          "ipa": "[character]"
+        },
+        {
+          "ru": "сцена",
+          "en": "scene",
+          "ipa": "[scene]"
+        },
+        {
+          "ru": "аудитория",
+          "en": "audience",
+          "ipa": "[audience]"
+        },
+        {
+          "ru": "обзор / отзыв",
+          "en": "review",
+          "ipa": "[review]"
+        },
+        {
+          "ru": "рекомендация",
+          "en": "recommendation",
+          "ipa": "[recommendation]"
+        },
+        {
+          "ru": "хобби",
+          "en": "hobby",
+          "ipa": "[hobby]"
+        },
+        {
+          "ru": "соревнование",
+          "en": "competition",
+          "ipa": "[competition]"
+        },
+        {
+          "ru": "матч",
+          "en": "match",
+          "ipa": "[match]"
+        },
+        {
+          "ru": "счёт",
+          "en": "score",
+          "ipa": "[score]"
+        }
+      ]
+    },
+    {
+      "title": "B1 Words: Useful Phrasal Verbs",
+      "rule": "Полезные фразовые глаголы B1.",
+      "examples": [
+        {
+          "ru": "сдаваться / бросать",
+          "en": "give up",
+          "ipa": "[give up]"
+        },
+        {
+          "ru": "искать",
+          "en": "look for",
+          "ipa": "[look for]"
+        },
+        {
+          "ru": "присматривать",
+          "en": "look after",
+          "ipa": "[look after]"
+        },
+        {
+          "ru": "ждать с нетерпением",
+          "en": "look forward to",
+          "ipa": "[look forward tuː]"
+        },
+        {
+          "ru": "выяснять",
+          "en": "find out",
+          "ipa": "[find out]"
+        },
+        {
+          "ru": "включать",
+          "en": "turn on",
+          "ipa": "[turn on]"
+        },
+        {
+          "ru": "выключать",
+          "en": "turn off",
+          "ipa": "[turn off]"
+        },
+        {
+          "ru": "поднимать / забирать",
+          "en": "pick up",
+          "ipa": "[pick up]"
+        },
+        {
+          "ru": "надевать",
+          "en": "put on",
+          "ipa": "[put on]"
+        },
+        {
+          "ru": "снимать / взлетать",
+          "en": "take off",
+          "ipa": "[take off]"
+        },
+        {
+          "ru": "возвращаться",
+          "en": "come back",
+          "ipa": "[come back]"
+        },
+        {
+          "ru": "выходить",
+          "en": "go out",
+          "ipa": "[ɡəʊ out]"
+        },
+        {
+          "ru": "расти / взрослеть",
+          "en": "grow up",
+          "ipa": "[grow up]"
+        },
+        {
+          "ru": "настраивать / основывать",
+          "en": "set up",
+          "ipa": "[set up]"
+        },
+        {
+          "ru": "записывать",
+          "en": "write down",
+          "ipa": "[write down]"
+        },
+        {
+          "ru": "заполнять",
+          "en": "fill in",
+          "ipa": "[fill in]"
+        },
+        {
+          "ru": "продолжать",
+          "en": "carry on",
+          "ipa": "[carry on]"
+        },
+        {
+          "ru": "закончиться",
+          "en": "run out of",
+          "ipa": "[run out əv]"
+        },
+        {
+          "ru": "иметь дело с",
+          "en": "deal with",
+          "ipa": "[deal with]"
+        },
+        {
+          "ru": "зависеть от",
+          "en": "depend on",
+          "ipa": "[depend on]"
+        }
+      ]
+    },
+    {
+      "title": "B1 Words: Describing Change",
+      "rule": "Описание изменений и процессов.",
+      "examples": [
+        {
+          "ru": "подниматься",
+          "en": "rise",
+          "ipa": "[rise]"
+        },
+        {
+          "ru": "падать",
+          "en": "fall",
+          "ipa": "[fall]"
+        },
+        {
+          "ru": "снижаться",
+          "en": "drop",
+          "ipa": "[drop]"
+        },
+        {
+          "ru": "расти",
+          "en": "grow",
+          "ipa": "[grow]"
+        },
+        {
+          "ru": "развиваться",
+          "en": "develop",
+          "ipa": "[develop]"
+        },
+        {
+          "ru": "улучшение",
+          "en": "improvement",
+          "ipa": "[improvement]"
+        },
+        {
+          "ru": "сокращение",
+          "en": "reduction",
+          "ipa": "[reduction]"
+        },
+        {
+          "ru": "уменьшение",
+          "en": "decrease",
+          "ipa": "[decrease]"
+        },
+        {
+          "ru": "достигать",
+          "en": "achieve",
+          "ipa": "[achieve]"
+        },
+        {
+          "ru": "терпеть неудачу",
+          "en": "fail",
+          "ipa": "[fail]"
+        },
+        {
+          "ru": "преуспевать",
+          "en": "succeed",
+          "ipa": "[succeed]"
+        },
+        {
+          "ru": "создавать",
+          "en": "create",
+          "ipa": "[create]"
+        },
+        {
+          "ru": "производить",
+          "en": "produce",
+          "ipa": "[produce]"
+        },
+        {
+          "ru": "предоставлять",
+          "en": "provide",
+          "ipa": "[provide]"
+        },
+        {
+          "ru": "предлагать",
+          "en": "offer",
+          "ipa": "[offer]"
+        },
+        {
+          "ru": "принимать",
+          "en": "accept",
+          "ipa": "[accept]"
+        },
+        {
+          "ru": "отказываться",
+          "en": "refuse",
+          "ipa": "[refuse]"
+        },
+        {
+          "ru": "позволять",
+          "en": "allow",
+          "ipa": "[allow]"
+        },
+        {
+          "ru": "предотвращать",
+          "en": "prevent",
+          "ipa": "[prevent]"
+        },
+        {
+          "ru": "защищать",
+          "en": "protect",
+          "ipa": "[protect]"
+        }
+      ]
+    },
+    {
+      "title": "B1 Words: Travel & Culture",
+      "rule": "Путешествия и культура B1.",
+      "examples": [
+        {
+          "ru": "место назначения",
+          "en": "destination",
+          "ipa": "[destination]"
+        },
+        {
+          "ru": "жильё",
+          "en": "accommodation",
+          "ipa": "[accommodation]"
+        },
+        {
+          "ru": "бронь",
+          "en": "reservation",
+          "ipa": "[reservation]"
+        },
+        {
+          "ru": "турист",
+          "en": "tourist",
+          "ipa": "[tourist]"
+        },
+        {
+          "ru": "гид / руководство",
+          "en": "guide",
+          "ipa": "[guide]"
+        },
+        {
+          "ru": "сувенир",
+          "en": "souvenir",
+          "ipa": "[souvenir]"
+        },
+        {
+          "ru": "обычай",
+          "en": "custom",
+          "ipa": "[custom]"
+        },
+        {
+          "ru": "традиция",
+          "en": "tradition",
+          "ipa": "[tradition]"
+        },
+        {
+          "ru": "языковой барьер",
+          "en": "language barrier",
+          "ipa": "[language barrier]"
+        },
+        {
+          "ru": "местные жители",
+          "en": "local people",
+          "ipa": "[local people]"
+        },
+        {
+          "ru": "валюта",
+          "en": "currency",
+          "ipa": "[currency]"
+        },
+        {
+          "ru": "обмен",
+          "en": "exchange",
+          "ipa": "[exchange]"
+        },
+        {
+          "ru": "граница",
+          "en": "border",
+          "ipa": "[border]"
+        },
+        {
+          "ru": "виза",
+          "en": "visa",
+          "ipa": "[visa]"
+        },
+        {
+          "ru": "посольство",
+          "en": "embassy",
+          "ipa": "[embassy]"
+        },
+        {
+          "ru": "задержка",
+          "en": "delay",
+          "ipa": "[delay]"
+        },
+        {
+          "ru": "отменять",
+          "en": "cancel",
+          "ipa": "[cancel]"
+        },
+        {
+          "ru": "пропускать / скучать",
+          "en": "miss",
+          "ipa": "[miss]"
+        },
+        {
+          "ru": "исследовать",
+          "en": "explore",
+          "ipa": "[explore]"
+        },
+        {
+          "ru": "обнаруживать",
+          "en": "discover",
+          "ipa": "[discover]"
+        }
+      ]
+    },
+    {
+      "title": "B1 Words: More Adjectives",
+      "rule": "Прилагательные для описания B1.",
+      "examples": [
+        {
+          "ru": "базовый",
+          "en": "basic",
+          "ipa": "[basic]"
+        },
+        {
+          "ru": "распространённый",
+          "en": "common",
+          "ipa": "[common]"
+        },
+        {
+          "ru": "редкий",
+          "en": "rare",
+          "ipa": "[rare]"
+        },
+        {
+          "ru": "простой",
+          "en": "simple",
+          "ipa": "[simple]"
+        },
+        {
+          "ru": "сложный",
+          "en": "complex",
+          "ipa": "[complex]"
+        },
+        {
+          "ru": "ясный",
+          "en": "clear",
+          "ipa": "[clear]"
+        },
+        {
+          "ru": "неясный",
+          "en": "unclear",
+          "ipa": "[unclear]"
+        },
+        {
+          "ru": "определённый / уверенный",
+          "en": "certain",
+          "ipa": "[certain]"
+        },
+        {
+          "ru": "неуверенный",
+          "en": "uncertain",
+          "ipa": "[uncertain]"
+        },
+        {
+          "ru": "реальный",
+          "en": "real",
+          "ipa": "[real]"
+        },
+        {
+          "ru": "фальшивый",
+          "en": "fake",
+          "ipa": "[fake]"
+        },
+        {
+          "ru": "правильный / надлежащий",
+          "en": "proper",
+          "ipa": "[proper]"
+        },
+        {
+          "ru": "общий",
+          "en": "general",
+          "ipa": "[general]"
+        },
+        {
+          "ru": "конкретный",
+          "en": "specific",
+          "ipa": "[specific]"
+        },
+        {
+          "ru": "личный",
+          "en": "personal",
+          "ipa": "[personal]"
+        },
+        {
+          "ru": "профессиональный",
+          "en": "professional",
+          "ipa": "[professional]"
+        },
+        {
+          "ru": "физический",
+          "en": "physical",
+          "ipa": "[physical]"
+        },
+        {
+          "ru": "умственный",
+          "en": "mental",
+          "ipa": "[mental]"
+        },
+        {
+          "ru": "социальный",
+          "en": "social",
+          "ipa": "[social]"
+        },
+        {
+          "ru": "экономический",
+          "en": "economic",
+          "ipa": "[economic]"
+        }
+      ]
+    }
+  ]
+}

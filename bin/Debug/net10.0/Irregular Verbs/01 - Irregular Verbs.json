@@ -1,0 +1,61 @@
+{
+  "sections": [
+    {
+      "title": "Irregular Verbs - Part 1 (1-10)",
+      "rule": "Глаголы с 1 по 10: три формы на английском, транскрипция и перевод через пробел.",
+      "examples": [
+        {
+          "en": "awake awoke awaken",
+          "ipa": "[əˈweɪk] [əˈwəʊk] [əˈweɪkən]",
+          "ru": "просыпаться проснулся проснувшийся"
+        },
+        {
+          "en": "be was, were been",
+          "ipa": "[biː] [wɒz], [wɜː] [biːn]",
+          "ru": "быть был были бывший"
+        },
+        {
+          "en": "beat beat beaten",
+          "ipa": "[biːt] [biːt] [ˈbiːtən]",
+          "ru": "бить бил битый"
+        },
+        {
+          "en": "begin began begun",
+          "ipa": "[bɪˈɡɪn] [bɪˈɡæn] [bɪˈɡʌn]",
+          "ru": "начинать начал начатый"
+        },
+        {
+          "en": "bite bit bitten",
+          "ipa": "[baɪt] [bɪt] [ˈbɪtən]",
+          "ru": "кусать укусил укушенный"
+        },
+        {
+          "en": "blow blew blown",
+          "ipa": "[bləʊ] [bluː] [bləʊn]",
+          "ru": "дуть дул подутый"
+        },
+        {
+          "en": "break broke broken",
+          "ipa": "[breɪk] [brəʊk] [ˈbrəʊkən]",
+          "ru": "ломать сломал сломанный"
+        },
+        {
+          "en": "bring brought brought",
+          "ipa": "[brɪŋ] [brɔːt] [brɔːt]",
+          "ru": "приносить принес принесенный"
+        },
+        {
+          "en": "build built built",
+          "ipa": "[bɪld] [bɪlt] [bɪlt]",
+          "ru": "строить построил построенный"
+        },
+        {
+          "en": "buy bought bought",
+          "ipa": "[baɪ] [bɔːt] [bɔːt]",
+          "ru": "покупать купил купленный"
+        }
+      ]
+    }
+  ]
+}
+    

@@ -1,0 +1,311 @@
+{
+  "sections": [
+    {
+      "title": "When + will + subject + verb ...?",
+      "rule": "When + will + subject + verb ...? — вопрос о времени действия или состояния в Future Simple.",
+      "examples": [
+        {
+          "en": "When will you go there?",
+          "ipa": "/wen wɪl juː ɡəʊ ðeə?/",
+          "ru": "Когда ты пойдёшь туда?"
+        },
+        {
+          "en": "When will you be there next time?",
+          "ipa": "/wen wɪl juː biː ðeə nekst taɪm?/",
+          "ru": "Когда ты будешь там в следующий раз?"
+        },
+        {
+          "en": "When will it be possible?",
+          "ipa": "/wen wɪl ɪt biː ˈpɒsəbl?/",
+          "ru": "Когда это будет возможно?"
+        },
+        {
+          "en": "When will you be online?",
+          "ipa": "/wen wɪl juː biː ˌɒnˈlaɪn?/",
+          "ru": "Когда ты будешь онлайн?"
+        },
+        {
+          "en": "When will you go to bed?",
+          "ipa": "/wen wɪl juː ɡəʊ tə bed?/",
+          "ru": "Когда ты пойдёшь спать?"
+        },
+        {
+          "en": "When will you arrive at the airport?",
+          "ipa": "/wen wɪl juː əˈraɪv æt ði ˈeəpɔːt?/",
+          "ru": "Когда вы прибудете в аэропорт?"
+        },
+        {
+          "en": "When will you go to the airport?",
+          "ipa": "/wen wɪl juː ɡəʊ tə ði ˈeəpɔːt?/",
+          "ru": "Когда ты поедешь в аэропорт?"
+        },
+        {
+          "en": "When will you be at the airport?",
+          "ipa": "/wen wɪl juː biː æt ði ˈeəpɔːt?/",
+          "ru": "Когда ты будешь в аэропорту?"
+        },
+        {
+          "en": "When will we eat?",
+          "ipa": "/wen wɪl wiː iːt?/",
+          "ru": "Когда мы будем есть?"
+        },
+        {
+          "en": "When will we have lunch?",
+          "ipa": "/wen wɪl wiː hæv lʌntʃ?/",
+          "ru": "Когда мы будем обедать?"
+        },
+        {
+          "en": "When will we have dinner?",
+          "ipa": "/wen wɪl wiː hæv ˈdɪnə?/",
+          "ru": "Когда мы будем ужинать?"
+        },
+        {
+          "en": "When will we have a rest?",
+          "ipa": "/wen wɪl wiː hæv ə rest?/",
+          "ru": "Когда мы будем отдыхать?"
+        },
+        {
+          "en": "When will you have a rest?",
+          "ipa": "/wen wɪl juː hæv ə rest?/",
+          "ru": "Когда ты будешь отдыхать?"
+        },
+        {
+          "en": "When will you have a break?",
+          "ipa": "/wen wɪl juː hæv ə breɪk?/",
+          "ru": "Когда у тебя будет перерыв?"
+        },
+        {
+          "en": "When will we have a break?",
+          "ipa": "/wen wɪl wiː hæv ə breɪk?/",
+          "ru": "Когда у нас будет перерыв?"
+        },
+        {
+          "en": "When will you finish your work?",
+          "ipa": "/wen wɪl juː ˈfɪnɪʃ jɔː wɜːk?/",
+          "ru": "Когда ты закончишь свою работу?"
+        },
+        {
+          "en": "When will we go swimming?",
+          "ipa": "/wen wɪl wiː ɡəʊ ˈswɪmɪŋ?/",
+          "ru": "Когда мы пойдём плавать?"
+        },
+        {
+          "en": "When will we go to the swimming pool?",
+          "ipa": "/wen wɪl wiː ɡəʊ tə ðə ˈswɪmɪŋ puːl?/",
+          "ru": "Когда мы пойдём в бассейн?"
+        },
+        {
+          "en": "When will you visit us next time?",
+          "ipa": "/wen wɪl juː ˈvɪzɪt ʌs nekst taɪm?/",
+          "ru": "Когда ты посетишь нас в следующий раз?"
+        },
+        {
+          "en": "When will you learn English?",
+          "ipa": "/wen wɪl juː lɜːn ˈɪŋɡlɪʃ?/",
+          "ru": "Когда ты будешь заниматься английским?"
+        },
+        {
+          "en": "When will we go to the sea?",
+          "ipa": "/wen wɪl wiː ɡəʊ tə ðə siː?/",
+          "ru": "Когда мы пойдём на море?"
+        },
+        {
+          "en": "When will you go to the beach?",
+          "ipa": "/wen wɪl juː ɡəʊ tə ðə biːtʃ?/",
+          "ru": "Когда ты пойдёшь на пляж?"
+        },
+        {
+          "en": "When will you be ready?",
+          "ipa": "/wen wɪl juː biː ˈredi?/",
+          "ru": "Когда ты будешь готов?"
+        },
+        {
+          "en": "When will you be free?",
+          "ipa": "/wen wɪl juː biː friː?/",
+          "ru": "Когда ты будешь свободен?"
+        },
+        {
+          "en": "When will you go to the United States?",
+          "ipa": "/wen wɪl juː ɡəʊ tə ðə juˌnaɪtɪd steɪts?/",
+          "ru": "Когда ты поедешь в Соединённые Штаты?"
+        }
+      ]
+    },
+    {
+      "title": "Where + will + subject + verb ...?",
+      "rule": "Where + will + subject + verb ...? — вопрос о месте или направлении.",
+      "examples": [
+        {
+          "en": "Where will you live?",
+          "ipa": "/weə wɪl juː lɪv?/",
+          "ru": "Где ты будешь жить?"
+        },
+        {
+          "en": "Where will you go now?",
+          "ipa": "/weə wɪl juː ɡəʊ naʊ?/",
+          "ru": "Куда ты пойдёшь сейчас?"
+        },
+        {
+          "en": "Where will you be tomorrow?",
+          "ipa": "/weə wɪl juː biː təˈmɒrəʊ?/",
+          "ru": "Где ты будешь завтра?"
+        },
+        {
+          "en": "Where will you buy it?",
+          "ipa": "/weə wɪl juː baɪ ɪt?/",
+          "ru": "Где ты будешь покупать это?"
+        }
+      ]
+    },
+    {
+      "title": "Why + will + subject + verb ...?",
+      "rule": "Why + will + subject + verb ...? — вопрос о причине или цели.",
+      "examples": [
+        {
+          "en": "Why will you go to that city?",
+          "ipa": "/waɪ wɪl juː ɡəʊ tə ðæt ˈsɪti?/",
+          "ru": "Зачем ты поедешь в тот город?"
+        },
+        {
+          "en": "Why will you stay at home?",
+          "ipa": "/waɪ wɪl juː steɪ æt həʊm?/",
+          "ru": "Почему ты останешься дома?"
+        }
+      ]
+    },
+    {
+      "title": "What / Who + will + subject + verb ...?",
+      "rule": "What / Who + will + subject + verb ...? — вопросы о предмете действия или о человеке.",
+      "examples": [
+        {
+          "en": "What will you do there?",
+          "ipa": "/wɒt wɪl juː duː ðeə?/",
+          "ru": "Что ты будешь там делать?"
+        },
+        {
+          "en": "What will you say?",
+          "ipa": "/wɒt wɪl juː seɪ?/",
+          "ru": "Что ты скажешь?"
+        },
+        {
+          "en": "What will he tell her?",
+          "ipa": "/wɒt wɪl hiː tel hɜː?/",
+          "ru": "Что он скажет ей?"
+        },
+        {
+          "en": "What will we do tomorrow?",
+          "ipa": "/wɒt wɪl wiː duː təˈmɒrəʊ?/",
+          "ru": "Что мы будем делать завтра?"
+        },
+        {
+          "en": "What will you do after school?",
+          "ipa": "/wɒt wɪl juː duː ˈɑːftə skuːl?/",
+          "ru": "Что ты будешь делать после школы?"
+        },
+        {
+          "en": "What will you do after work?",
+          "ipa": "/wɒt wɪl juː duː ˈɑːftə wɜːk?/",
+          "ru": "Что ты будешь делать после работы?"
+        },
+        {
+          "en": "Who will be with you?",
+          "ipa": "/huː wɪl biː wɪð juː?/",
+          "ru": "Кто будет с тобой?"
+        }
+      ]
+    },
+    {
+      "title": "How + will + subject + verb ...?",
+      "rule": "How + will + subject + verb ...? — вопрос о способе, результате или состоянии.",
+      "examples": [
+        {
+          "en": "How will it be?",
+          "ipa": "/haʊ wɪl ɪt biː?/",
+          "ru": "Как это будет?"
+        },
+        {
+          "en": "How will it help me?",
+          "ipa": "/haʊ wɪl ɪt help miː?/",
+          "ru": "Как это поможет мне?"
+        },
+        {
+          "en": "How will he live on this money?",
+          "ipa": "/haʊ wɪl hiː lɪv ɒn ðɪs ˈmʌni?/",
+          "ru": "Как он будет жить на эти деньги?"
+        },
+        {
+          "en": "How will it help us?",
+          "ipa": "/haʊ wɪl ɪt help ʌs?/",
+          "ru": "Как это поможет нам?"
+        }
+      ]
+    },
+    {
+      "title": "How much / What time + will + subject + verb ...?",
+      "rule": "How much ...? — вопрос о цене. What time ...? — вопрос о точном времени.",
+      "examples": [
+        {
+          "en": "How much will it cost?",
+          "ipa": "/haʊ mʌtʃ wɪl ɪt kɒst?/",
+          "ru": "Сколько это будет стоить?"
+        },
+        {
+          "en": "What time will you come home tomorrow?",
+          "ipa": "/wɒt taɪm wɪl juː kʌm həʊm təˈmɒrəʊ?/",
+          "ru": "Во сколько ты придёшь домой завтра?"
+        },
+        {
+          "en": "What time will you come to work?",
+          "ipa": "/wɒt taɪm wɪl juː kʌm tə wɜːk?/",
+          "ru": "Во сколько ты придёшь на работу?"
+        },
+        {
+          "en": "What time will you come back?",
+          "ipa": "/wɒt taɪm wɪl juː kʌm bæk?/",
+          "ru": "Во сколько ты вернёшься?"
+        }
+      ]
+    },
+    {
+      "title": "How long + will + subject + verb ...?",
+      "rule": "How long + will + subject + verb ...? — вопрос о длительности.",
+      "examples": [
+        {
+          "en": "How long will you be there?",
+          "ipa": "/haʊ lɒŋ wɪl juː biː ðeə?/",
+          "ru": "Как долго ты там будешь?"
+        },
+        {
+          "en": "How long will it be?",
+          "ipa": "/haʊ lɒŋ wɪl ɪt biː?/",
+          "ru": "Как долго это будет?"
+        },
+        {
+          "en": "How long will it last?",
+          "ipa": "/haʊ lɒŋ wɪl ɪt lɑːst?/",
+          "ru": "Как долго это будет продолжаться?"
+        },
+        {
+          "en": "How long will this meeting last?",
+          "ipa": "/haʊ lɒŋ wɪl ðɪs ˈmiːtɪŋ lɑːst?/",
+          "ru": "Как долго будет длиться эта встреча?"
+        },
+        {
+          "en": "How long will one lesson last?",
+          "ipa": "/haʊ lɒŋ wɪl wʌn ˈlesən lɑːst?/",
+          "ru": "Как долго будет длиться один урок?"
+        },
+        {
+          "en": "How long will the meeting last?",
+          "ipa": "/haʊ lɒŋ wɪl ðə ˈmiːtɪŋ lɑːst?/",
+          "ru": "Как долго будет длиться встреча?"
+        },
+        {
+          "en": "How long will the lesson last?",
+          "ipa": "/haʊ lɒŋ wɪl ðə ˈlesən lɑːst?/",
+          "ru": "Как долго будет длиться урок?"
+        }
+      ]
+    }
+  ]
+}

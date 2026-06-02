@@ -1,0 +1,1284 @@
+{
+  "sections": [
+    {
+      "title": "A0 Basic Words: Pronouns",
+      "rule": "Базовые местоимения уровня A0. Формат: ru / en / ipa.",
+      "examples": [
+        {
+          "ru": "я",
+          "en": "I",
+          "ipa": "[aɪ]"
+        },
+        {
+          "ru": "ты / вы",
+          "en": "you",
+          "ipa": "[juː]"
+        },
+        {
+          "ru": "он",
+          "en": "he",
+          "ipa": "[hiː]"
+        },
+        {
+          "ru": "она",
+          "en": "she",
+          "ipa": "[ʃiː]"
+        },
+        {
+          "ru": "это / он / она / оно",
+          "en": "it",
+          "ipa": "[ɪt]"
+        },
+        {
+          "ru": "мы",
+          "en": "we",
+          "ipa": "[wiː]"
+        },
+        {
+          "ru": "они",
+          "en": "they",
+          "ipa": "[ðeɪ]"
+        },
+        {
+          "ru": "меня / мне",
+          "en": "me",
+          "ipa": "[me]"
+        },
+        {
+          "ru": "его / ему",
+          "en": "him",
+          "ipa": "[him]"
+        },
+        {
+          "ru": "её / ей",
+          "en": "her",
+          "ipa": "[her]"
+        },
+        {
+          "ru": "нас / нам",
+          "en": "us",
+          "ipa": "[us]"
+        },
+        {
+          "ru": "их / им",
+          "en": "them",
+          "ipa": "[them]"
+        },
+        {
+          "ru": "мой",
+          "en": "my",
+          "ipa": "[my]"
+        },
+        {
+          "ru": "твой / ваш",
+          "en": "your",
+          "ipa": "[jɔː]"
+        },
+        {
+          "ru": "его",
+          "en": "his",
+          "ipa": "[his]"
+        },
+        {
+          "ru": "наш",
+          "en": "our",
+          "ipa": "[aʊə]"
+        },
+        {
+          "ru": "их",
+          "en": "their",
+          "ipa": "[ðeə]"
+        }
+      ]
+    },
+    {
+      "title": "A0 Basic Words: To Be & Helpers",
+      "rule": "Самые базовые служебные слова и глагол to be.",
+      "examples": [
+        {
+          "ru": "есть / являюсь",
+          "en": "am",
+          "ipa": "[æm]"
+        },
+        {
+          "ru": "есть / является",
+          "en": "is",
+          "ipa": "[ɪz]"
+        },
+        {
+          "ru": "есть / являетесь",
+          "en": "are",
+          "ipa": "[ɑː]"
+        },
+        {
+          "ru": "быть",
+          "en": "be",
+          "ipa": "[be]"
+        },
+        {
+          "ru": "артикль a",
+          "en": "a",
+          "ipa": "[ə]"
+        },
+        {
+          "ru": "артикль an",
+          "en": "an",
+          "ipa": "[ən]"
+        },
+        {
+          "ru": "определённый артикль",
+          "en": "the",
+          "ipa": "[ðə]"
+        },
+        {
+          "ru": "да",
+          "en": "yes",
+          "ipa": "[jes]"
+        },
+        {
+          "ru": "нет",
+          "en": "no",
+          "ipa": "[nəʊ]"
+        },
+        {
+          "ru": "не",
+          "en": "not",
+          "ipa": "[nɒt]"
+        },
+        {
+          "ru": "и",
+          "en": "and",
+          "ipa": "[ænd]"
+        },
+        {
+          "ru": "или",
+          "en": "or",
+          "ipa": "[ɔː]"
+        },
+        {
+          "ru": "но",
+          "en": "but",
+          "ipa": "[bʌt]"
+        },
+        {
+          "ru": "с",
+          "en": "with",
+          "ipa": "[with]"
+        },
+        {
+          "ru": "без",
+          "en": "without",
+          "ipa": "[without]"
+        },
+        {
+          "ru": "в",
+          "en": "in",
+          "ipa": "[in]"
+        },
+        {
+          "ru": "на",
+          "en": "on",
+          "ipa": "[on]"
+        },
+        {
+          "ru": "в / на / у",
+          "en": "at",
+          "ipa": "[at]"
+        },
+        {
+          "ru": "к / в",
+          "en": "to",
+          "ipa": "[tuː]"
+        },
+        {
+          "ru": "из / от",
+          "en": "from",
+          "ipa": "[from]"
+        },
+        {
+          "ru": "для",
+          "en": "for",
+          "ipa": "[for]"
+        },
+        {
+          "ru": "из / от",
+          "en": "of",
+          "ipa": "[əv]"
+        },
+        {
+          "ru": "о / про",
+          "en": "about",
+          "ipa": "[əˈbaʊt]"
+        },
+        {
+          "ru": "здесь",
+          "en": "here",
+          "ipa": "[here]"
+        },
+        {
+          "ru": "там / туда",
+          "en": "there",
+          "ipa": "[ðeə]"
+        }
+      ]
+    },
+    {
+      "title": "A0 Basic Words: Question Words",
+      "rule": "Вопросительные слова для самого начала.",
+      "examples": [
+        {
+          "ru": "что / какой",
+          "en": "what",
+          "ipa": "[wɒt]"
+        },
+        {
+          "ru": "где / куда",
+          "en": "where",
+          "ipa": "[weə]"
+        },
+        {
+          "ru": "когда",
+          "en": "when",
+          "ipa": "[wen]"
+        },
+        {
+          "ru": "почему",
+          "en": "why",
+          "ipa": "[waɪ]"
+        },
+        {
+          "ru": "как",
+          "en": "how",
+          "ipa": "[haʊ]"
+        },
+        {
+          "ru": "кто",
+          "en": "who",
+          "ipa": "[huː]"
+        },
+        {
+          "ru": "который",
+          "en": "which",
+          "ipa": "[which]"
+        },
+        {
+          "ru": "сколько",
+          "en": "how much",
+          "ipa": "[haʊ much]"
+        },
+        {
+          "ru": "сколько",
+          "en": "how many",
+          "ipa": "[haʊ many]"
+        },
+        {
+          "ru": "во сколько",
+          "en": "what time",
+          "ipa": "[wɒt time]"
+        }
+      ]
+    },
+    {
+      "title": "A0 Basic Words: Common Verbs",
+      "rule": "Самые частые глаголы для первых фраз.",
+      "examples": [
+        {
+          "ru": "иметь",
+          "en": "have",
+          "ipa": "[have]"
+        },
+        {
+          "ru": "делать",
+          "en": "do",
+          "ipa": "[do]"
+        },
+        {
+          "ru": "идти / ехать",
+          "en": "go",
+          "ipa": "[ɡəʊ]"
+        },
+        {
+          "ru": "приходить",
+          "en": "come",
+          "ipa": "[come]"
+        },
+        {
+          "ru": "нравиться",
+          "en": "like",
+          "ipa": "[like]"
+        },
+        {
+          "ru": "хотеть",
+          "en": "want",
+          "ipa": "[want]"
+        },
+        {
+          "ru": "нуждаться / нужно",
+          "en": "need",
+          "ipa": "[need]"
+        },
+        {
+          "ru": "знать",
+          "en": "know",
+          "ipa": "[know]"
+        },
+        {
+          "ru": "видеть",
+          "en": "see",
+          "ipa": "[see]"
+        },
+        {
+          "ru": "смотреть / выглядеть",
+          "en": "look",
+          "ipa": "[look]"
+        },
+        {
+          "ru": "сказать",
+          "en": "say",
+          "ipa": "[say]"
+        },
+        {
+          "ru": "сказать кому-то",
+          "en": "tell",
+          "ipa": "[tell]"
+        },
+        {
+          "ru": "говорить",
+          "en": "speak",
+          "ipa": "[speak]"
+        },
+        {
+          "ru": "слушать",
+          "en": "listen",
+          "ipa": "[listen]"
+        },
+        {
+          "ru": "читать",
+          "en": "read",
+          "ipa": "[read]"
+        },
+        {
+          "ru": "писать",
+          "en": "write",
+          "ipa": "[write]"
+        },
+        {
+          "ru": "смотреть",
+          "en": "watch",
+          "ipa": "[watch]"
+        },
+        {
+          "ru": "играть",
+          "en": "play",
+          "ipa": "[play]"
+        },
+        {
+          "ru": "есть / кушать",
+          "en": "eat",
+          "ipa": "[eat]"
+        },
+        {
+          "ru": "пить",
+          "en": "drink",
+          "ipa": "[drink]"
+        },
+        {
+          "ru": "покупать",
+          "en": "buy",
+          "ipa": "[buy]"
+        },
+        {
+          "ru": "открывать",
+          "en": "open",
+          "ipa": "[open]"
+        },
+        {
+          "ru": "закрывать",
+          "en": "close",
+          "ipa": "[close]"
+        },
+        {
+          "ru": "помогать",
+          "en": "help",
+          "ipa": "[help]"
+        },
+        {
+          "ru": "работать",
+          "en": "work",
+          "ipa": "[wɜːk]"
+        },
+        {
+          "ru": "учиться",
+          "en": "study",
+          "ipa": "[study]"
+        },
+        {
+          "ru": "учить / изучать",
+          "en": "learn",
+          "ipa": "[lɜːn]"
+        },
+        {
+          "ru": "жить",
+          "en": "live",
+          "ipa": "[live]"
+        },
+        {
+          "ru": "любить",
+          "en": "love",
+          "ipa": "[love]"
+        },
+        {
+          "ru": "брать",
+          "en": "take",
+          "ipa": "[take]"
+        }
+      ]
+    },
+    {
+      "title": "A0 Basic Words: Numbers",
+      "rule": "Базовые числа уровня A0.",
+      "examples": [
+        {
+          "ru": "ноль",
+          "en": "zero",
+          "ipa": "[zero]"
+        },
+        {
+          "ru": "один",
+          "en": "one",
+          "ipa": "[one]"
+        },
+        {
+          "ru": "два",
+          "en": "two",
+          "ipa": "[two]"
+        },
+        {
+          "ru": "три",
+          "en": "three",
+          "ipa": "[three]"
+        },
+        {
+          "ru": "четыре",
+          "en": "four",
+          "ipa": "[four]"
+        },
+        {
+          "ru": "пять",
+          "en": "five",
+          "ipa": "[five]"
+        },
+        {
+          "ru": "шесть",
+          "en": "six",
+          "ipa": "[six]"
+        },
+        {
+          "ru": "семь",
+          "en": "seven",
+          "ipa": "[seven]"
+        },
+        {
+          "ru": "восемь",
+          "en": "eight",
+          "ipa": "[eight]"
+        },
+        {
+          "ru": "девять",
+          "en": "nine",
+          "ipa": "[nine]"
+        },
+        {
+          "ru": "десять",
+          "en": "ten",
+          "ipa": "[ten]"
+        },
+        {
+          "ru": "одиннадцать",
+          "en": "eleven",
+          "ipa": "[eleven]"
+        },
+        {
+          "ru": "двенадцать",
+          "en": "twelve",
+          "ipa": "[twelve]"
+        },
+        {
+          "ru": "тринадцать",
+          "en": "thirteen",
+          "ipa": "[thirteen]"
+        },
+        {
+          "ru": "четырнадцать",
+          "en": "fourteen",
+          "ipa": "[fourteen]"
+        },
+        {
+          "ru": "пятнадцать",
+          "en": "fifteen",
+          "ipa": "[fifteen]"
+        },
+        {
+          "ru": "шестнадцать",
+          "en": "sixteen",
+          "ipa": "[sixteen]"
+        },
+        {
+          "ru": "семнадцать",
+          "en": "seventeen",
+          "ipa": "[seventeen]"
+        },
+        {
+          "ru": "восемнадцать",
+          "en": "eighteen",
+          "ipa": "[eighteen]"
+        },
+        {
+          "ru": "девятнадцать",
+          "en": "nineteen",
+          "ipa": "[nineteen]"
+        },
+        {
+          "ru": "двадцать",
+          "en": "twenty",
+          "ipa": "[twenty]"
+        },
+        {
+          "ru": "тридцать",
+          "en": "thirty",
+          "ipa": "[thirty]"
+        },
+        {
+          "ru": "сорок",
+          "en": "forty",
+          "ipa": "[forty]"
+        },
+        {
+          "ru": "пятьдесят",
+          "en": "fifty",
+          "ipa": "[fifty]"
+        },
+        {
+          "ru": "шестьдесят",
+          "en": "sixty",
+          "ipa": "[sixty]"
+        },
+        {
+          "ru": "семьдесят",
+          "en": "seventy",
+          "ipa": "[seventy]"
+        },
+        {
+          "ru": "восемьдесят",
+          "en": "eighty",
+          "ipa": "[eighty]"
+        },
+        {
+          "ru": "девяносто",
+          "en": "ninety",
+          "ipa": "[ninety]"
+        },
+        {
+          "ru": "сто",
+          "en": "hundred",
+          "ipa": "[hundred]"
+        }
+      ]
+    },
+    {
+      "title": "A0 Basic Words: People & Family",
+      "rule": "Люди и семья.",
+      "examples": [
+        {
+          "ru": "мужчина",
+          "en": "man",
+          "ipa": "[man]"
+        },
+        {
+          "ru": "женщина",
+          "en": "woman",
+          "ipa": "[woman]"
+        },
+        {
+          "ru": "мальчик",
+          "en": "boy",
+          "ipa": "[boy]"
+        },
+        {
+          "ru": "девочка",
+          "en": "girl",
+          "ipa": "[girl]"
+        },
+        {
+          "ru": "человек",
+          "en": "person",
+          "ipa": "[person]"
+        },
+        {
+          "ru": "люди",
+          "en": "people",
+          "ipa": "[people]"
+        },
+        {
+          "ru": "друг",
+          "en": "friend",
+          "ipa": "[friend]"
+        },
+        {
+          "ru": "семья",
+          "en": "family",
+          "ipa": "[family]"
+        },
+        {
+          "ru": "мама",
+          "en": "mother",
+          "ipa": "[mother]"
+        },
+        {
+          "ru": "папа",
+          "en": "father",
+          "ipa": "[father]"
+        },
+        {
+          "ru": "родитель",
+          "en": "parent",
+          "ipa": "[parent]"
+        },
+        {
+          "ru": "сын",
+          "en": "son",
+          "ipa": "[son]"
+        },
+        {
+          "ru": "дочь",
+          "en": "daughter",
+          "ipa": "[daughter]"
+        },
+        {
+          "ru": "брат",
+          "en": "brother",
+          "ipa": "[brother]"
+        },
+        {
+          "ru": "сестра",
+          "en": "sister",
+          "ipa": "[sister]"
+        },
+        {
+          "ru": "ребёнок",
+          "en": "child",
+          "ipa": "[child]"
+        },
+        {
+          "ru": "дети",
+          "en": "children",
+          "ipa": "[children]"
+        },
+        {
+          "ru": "малыш",
+          "en": "baby",
+          "ipa": "[baby]"
+        },
+        {
+          "ru": "муж",
+          "en": "husband",
+          "ipa": "[husband]"
+        },
+        {
+          "ru": "жена",
+          "en": "wife",
+          "ipa": "[wife]"
+        },
+        {
+          "ru": "учитель",
+          "en": "teacher",
+          "ipa": "[teacher]"
+        },
+        {
+          "ru": "студент",
+          "en": "student",
+          "ipa": "[student]"
+        },
+        {
+          "ru": "врач",
+          "en": "doctor",
+          "ipa": "[doctor]"
+        }
+      ]
+    },
+    {
+      "title": "A0 Basic Words: Places",
+      "rule": "Самые базовые места.",
+      "examples": [
+        {
+          "ru": "дом / домой",
+          "en": "home",
+          "ipa": "[həʊm]"
+        },
+        {
+          "ru": "дом",
+          "en": "house",
+          "ipa": "[house]"
+        },
+        {
+          "ru": "комната",
+          "en": "room",
+          "ipa": "[room]"
+        },
+        {
+          "ru": "школа",
+          "en": "school",
+          "ipa": "[school]"
+        },
+        {
+          "ru": "университет",
+          "en": "university",
+          "ipa": "[university]"
+        },
+        {
+          "ru": "офис",
+          "en": "office",
+          "ipa": "[office]"
+        },
+        {
+          "ru": "магазин",
+          "en": "shop",
+          "ipa": "[shop]"
+        },
+        {
+          "ru": "магазин",
+          "en": "store",
+          "ipa": "[store]"
+        },
+        {
+          "ru": "рынок",
+          "en": "market",
+          "ipa": "[market]"
+        },
+        {
+          "ru": "парк",
+          "en": "park",
+          "ipa": "[park]"
+        },
+        {
+          "ru": "улица",
+          "en": "street",
+          "ipa": "[street]"
+        },
+        {
+          "ru": "город",
+          "en": "city",
+          "ipa": "[city]"
+        },
+        {
+          "ru": "страна",
+          "en": "country",
+          "ipa": "[country]"
+        },
+        {
+          "ru": "место",
+          "en": "place",
+          "ipa": "[place]"
+        },
+        {
+          "ru": "банк",
+          "en": "bank",
+          "ipa": "[bank]"
+        },
+        {
+          "ru": "отель",
+          "en": "hotel",
+          "ipa": "[hotel]"
+        },
+        {
+          "ru": "аэропорт",
+          "en": "airport",
+          "ipa": "[airport]"
+        },
+        {
+          "ru": "станция",
+          "en": "station",
+          "ipa": "[station]"
+        },
+        {
+          "ru": "ресторан",
+          "en": "restaurant",
+          "ipa": "[restaurant]"
+        },
+        {
+          "ru": "кафе",
+          "en": "cafe",
+          "ipa": "[cafe]"
+        },
+        {
+          "ru": "больница",
+          "en": "hospital",
+          "ipa": "[hospital]"
+        },
+        {
+          "ru": "туалет",
+          "en": "toilet",
+          "ipa": "[toilet]"
+        },
+        {
+          "ru": "кухня",
+          "en": "kitchen",
+          "ipa": "[kitchen]"
+        },
+        {
+          "ru": "спальня",
+          "en": "bedroom",
+          "ipa": "[bedroom]"
+        }
+      ]
+    },
+    {
+      "title": "A0 Basic Words: Time",
+      "rule": "Время и простые слова о времени.",
+      "examples": [
+        {
+          "ru": "день",
+          "en": "day",
+          "ipa": "[day]"
+        },
+        {
+          "ru": "неделя",
+          "en": "week",
+          "ipa": "[week]"
+        },
+        {
+          "ru": "месяц",
+          "en": "month",
+          "ipa": "[month]"
+        },
+        {
+          "ru": "год",
+          "en": "year",
+          "ipa": "[year]"
+        },
+        {
+          "ru": "сегодня",
+          "en": "today",
+          "ipa": "[today]"
+        },
+        {
+          "ru": "завтра",
+          "en": "tomorrow",
+          "ipa": "[tomorrow]"
+        },
+        {
+          "ru": "вчера",
+          "en": "yesterday",
+          "ipa": "[yesterday]"
+        },
+        {
+          "ru": "сейчас",
+          "en": "now",
+          "ipa": "[now]"
+        },
+        {
+          "ru": "утро",
+          "en": "morning",
+          "ipa": "[morning]"
+        },
+        {
+          "ru": "день после полудня",
+          "en": "afternoon",
+          "ipa": "[afternoon]"
+        },
+        {
+          "ru": "вечер",
+          "en": "evening",
+          "ipa": "[evening]"
+        },
+        {
+          "ru": "ночь",
+          "en": "night",
+          "ipa": "[night]"
+        },
+        {
+          "ru": "понедельник",
+          "en": "Monday",
+          "ipa": "[Monday]"
+        },
+        {
+          "ru": "вторник",
+          "en": "Tuesday",
+          "ipa": "[Tuesday]"
+        },
+        {
+          "ru": "среда",
+          "en": "Wednesday",
+          "ipa": "[Wednesday]"
+        },
+        {
+          "ru": "четверг",
+          "en": "Thursday",
+          "ipa": "[Thursday]"
+        },
+        {
+          "ru": "пятница",
+          "en": "Friday",
+          "ipa": "[Friday]"
+        },
+        {
+          "ru": "суббота",
+          "en": "Saturday",
+          "ipa": "[Saturday]"
+        },
+        {
+          "ru": "воскресенье",
+          "en": "Sunday",
+          "ipa": "[Sunday]"
+        },
+        {
+          "ru": "январь",
+          "en": "January",
+          "ipa": "[January]"
+        },
+        {
+          "ru": "февраль",
+          "en": "February",
+          "ipa": "[February]"
+        },
+        {
+          "ru": "март",
+          "en": "March",
+          "ipa": "[March]"
+        },
+        {
+          "ru": "апрель",
+          "en": "April",
+          "ipa": "[April]"
+        },
+        {
+          "ru": "май",
+          "en": "May",
+          "ipa": "[May]"
+        },
+        {
+          "ru": "июнь",
+          "en": "June",
+          "ipa": "[June]"
+        },
+        {
+          "ru": "июль",
+          "en": "July",
+          "ipa": "[July]"
+        },
+        {
+          "ru": "август",
+          "en": "August",
+          "ipa": "[August]"
+        },
+        {
+          "ru": "сентябрь",
+          "en": "September",
+          "ipa": "[September]"
+        },
+        {
+          "ru": "октябрь",
+          "en": "October",
+          "ipa": "[October]"
+        },
+        {
+          "ru": "ноябрь",
+          "en": "November",
+          "ipa": "[November]"
+        },
+        {
+          "ru": "декабрь",
+          "en": "December",
+          "ipa": "[December]"
+        }
+      ]
+    },
+    {
+      "title": "A0 Basic Words: Objects & Food",
+      "rule": "Предметы, еда и бытовые слова.",
+      "examples": [
+        {
+          "ru": "еда",
+          "en": "food",
+          "ipa": "[food]"
+        },
+        {
+          "ru": "вода",
+          "en": "water",
+          "ipa": "[ˈwɔːtə]"
+        },
+        {
+          "ru": "чай",
+          "en": "tea",
+          "ipa": "[tea]"
+        },
+        {
+          "ru": "кофе",
+          "en": "coffee",
+          "ipa": "[ˈkɒfi]"
+        },
+        {
+          "ru": "молоко",
+          "en": "milk",
+          "ipa": "[milk]"
+        },
+        {
+          "ru": "хлеб",
+          "en": "bread",
+          "ipa": "[bread]"
+        },
+        {
+          "ru": "яблоко",
+          "en": "apple",
+          "ipa": "[apple]"
+        },
+        {
+          "ru": "банан",
+          "en": "banana",
+          "ipa": "[banana]"
+        },
+        {
+          "ru": "яйцо",
+          "en": "egg",
+          "ipa": "[egg]"
+        },
+        {
+          "ru": "рис",
+          "en": "rice",
+          "ipa": "[rice]"
+        },
+        {
+          "ru": "мясо",
+          "en": "meat",
+          "ipa": "[meat]"
+        },
+        {
+          "ru": "рыба",
+          "en": "fish",
+          "ipa": "[fish]"
+        },
+        {
+          "ru": "суп",
+          "en": "soup",
+          "ipa": "[soup]"
+        },
+        {
+          "ru": "книга",
+          "en": "book",
+          "ipa": "[book]"
+        },
+        {
+          "ru": "телефон",
+          "en": "phone",
+          "ipa": "[phone]"
+        },
+        {
+          "ru": "компьютер",
+          "en": "computer",
+          "ipa": "[computer]"
+        },
+        {
+          "ru": "машина",
+          "en": "car",
+          "ipa": "[car]"
+        },
+        {
+          "ru": "автобус",
+          "en": "bus",
+          "ipa": "[bus]"
+        },
+        {
+          "ru": "поезд",
+          "en": "train",
+          "ipa": "[train]"
+        },
+        {
+          "ru": "билет",
+          "en": "ticket",
+          "ipa": "[ticket]"
+        },
+        {
+          "ru": "сумка",
+          "en": "bag",
+          "ipa": "[bag]"
+        },
+        {
+          "ru": "ключ",
+          "en": "key",
+          "ipa": "[key]"
+        },
+        {
+          "ru": "деньги",
+          "en": "money",
+          "ipa": "[money]"
+        },
+        {
+          "ru": "карта",
+          "en": "card",
+          "ipa": "[card]"
+        },
+        {
+          "ru": "стол",
+          "en": "table",
+          "ipa": "[table]"
+        },
+        {
+          "ru": "стул",
+          "en": "chair",
+          "ipa": "[chair]"
+        },
+        {
+          "ru": "дверь",
+          "en": "door",
+          "ipa": "[door]"
+        },
+        {
+          "ru": "окно",
+          "en": "window",
+          "ipa": "[window]"
+        },
+        {
+          "ru": "кровать",
+          "en": "bed",
+          "ipa": "[bed]"
+        },
+        {
+          "ru": "одежда",
+          "en": "clothes",
+          "ipa": "[clothes]"
+        }
+      ]
+    },
+    {
+      "title": "A0 Basic Words: Adjectives",
+      "rule": "Самые простые прилагательные.",
+      "examples": [
+        {
+          "ru": "хороший",
+          "en": "good",
+          "ipa": "[good]"
+        },
+        {
+          "ru": "плохой",
+          "en": "bad",
+          "ipa": "[bad]"
+        },
+        {
+          "ru": "большой",
+          "en": "big",
+          "ipa": "[big]"
+        },
+        {
+          "ru": "маленький",
+          "en": "small",
+          "ipa": "[small]"
+        },
+        {
+          "ru": "новый",
+          "en": "new",
+          "ipa": "[njuː]"
+        },
+        {
+          "ru": "старый",
+          "en": "old",
+          "ipa": "[əʊld]"
+        },
+        {
+          "ru": "молодой",
+          "en": "young",
+          "ipa": "[young]"
+        },
+        {
+          "ru": "счастливый",
+          "en": "happy",
+          "ipa": "[happy]"
+        },
+        {
+          "ru": "грустный",
+          "en": "sad",
+          "ipa": "[sad]"
+        },
+        {
+          "ru": "занятый",
+          "en": "busy",
+          "ipa": "[busy]"
+        },
+        {
+          "ru": "свободный / бесплатный",
+          "en": "free",
+          "ipa": "[free]"
+        },
+        {
+          "ru": "правильный / прав",
+          "en": "right",
+          "ipa": "[right]"
+        },
+        {
+          "ru": "неправильный",
+          "en": "wrong",
+          "ipa": "[wrong]"
+        },
+        {
+          "ru": "лёгкий",
+          "en": "easy",
+          "ipa": "[easy]"
+        },
+        {
+          "ru": "сложный",
+          "en": "difficult",
+          "ipa": "[difficult]"
+        },
+        {
+          "ru": "важный",
+          "en": "important",
+          "ipa": "[important]"
+        },
+        {
+          "ru": "интересный",
+          "en": "interesting",
+          "ipa": "[interesting]"
+        },
+        {
+          "ru": "приятный",
+          "en": "nice",
+          "ipa": "[nice]"
+        },
+        {
+          "ru": "красивый",
+          "en": "beautiful",
+          "ipa": "[beautiful]"
+        },
+        {
+          "ru": "горячий / жаркий",
+          "en": "hot",
+          "ipa": "[hot]"
+        },
+        {
+          "ru": "холодный",
+          "en": "cold",
+          "ipa": "[cold]"
+        },
+        {
+          "ru": "быстрый",
+          "en": "fast",
+          "ipa": "[fast]"
+        },
+        {
+          "ru": "медленный",
+          "en": "slow",
+          "ipa": "[slow]"
+        },
+        {
+          "ru": "близко",
+          "en": "near",
+          "ipa": "[near]"
+        },
+        {
+          "ru": "далеко",
+          "en": "far",
+          "ipa": "[far]"
+        }
+      ]
+    }
+  ]
+}

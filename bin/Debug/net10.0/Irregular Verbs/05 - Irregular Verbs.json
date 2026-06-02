@@ -1,0 +1,60 @@
+{
+  "sections": [
+    {
+      "title": "Irregular Verbs - Part 5",
+      "rule": "Три формы глагола, транскрипция и перевод разделены только пробелами.",
+      "examples": [
+        {
+          "en": "hit hit hit",
+          "ipa": "[hɪt] [hɪt] [hɪt]",
+          "ru": "ударять ударил ударенный"
+        },
+        {
+          "en": "hold held held",
+          "ipa": "[həʊld] [held] [held]",
+          "ru": "держать держал удержанный"
+        },
+        {
+          "en": "hurt hurt hurt",
+          "ipa": "[hɜːt] [hɜːt] [hɜːt]",
+          "ru": "ранить ранил раненый"
+        },
+        {
+          "en": "keep kept kept",
+          "ipa": "[kiːp] [kept] [kept]",
+          "ru": "хранить хранил сохраненный"
+        },
+        {
+          "en": "know knew known",
+          "ipa": "[nəʊ] [njuː] [nəʊn]",
+          "ru": "знать знал известный"
+        },
+        {
+          "en": "lay laid laid",
+          "ipa": "[leɪ] [leɪd] [leɪd]",
+          "ru": "класть положил положенный"
+        },
+        {
+          "en": "lead led led",
+          "ipa": "[liːd] [led] [led]",
+          "ru": "вести вел ведомый"
+        },
+        {
+          "en": "leave left left",
+          "ipa": "[liːv] [left] [left]",
+          "ru": "покидать оставил оставленный"
+        },
+        {
+          "en": "lend lent lent",
+          "ipa": "[lend] [lent] [lent]",
+          "ru": "одалживать одолжил одолженный"
+        },
+        {
+          "en": "let let let",
+          "ipa": "[let] [let] [let]",
+          "ru": "позволять позволил разрешенный"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "vocabulary": [
+    { "en": "don't", "ipa": "/dəʊnt/", "ru": "не (для I/we/you/they)" },
+    { "en": "doesn't", "ipa": "/ˈdʌznt/", "ru": "не (для he/she/it)" },
+
+    { "en": "have", "ipa": "/hæv/", "ru": "иметь" },
+    { "en": "know", "ipa": "/nəʊ/", "ru": "знать" },
+    { "en": "think", "ipa": "/θɪŋk/", "ru": "думать" },
+    { "en": "want", "ipa": "/wɒnt/", "ru": "хотеть" },
+    { "en": "say", "ipa": "/seɪ/", "ru": "сказать" },
+    { "en": "tell", "ipa": "/tel/", "ru": "сказать/сообщить кому-то" },
+    { "en": "speak", "ipa": "/spiːk/", "ru": "говорить (на языке)" },
+    { "en": "ask", "ipa": "/ɑːsk/", "ru": "спрашивать" },
+    { "en": "see", "ipa": "/siː/", "ru": "видеть" },
+    { "en": "understand", "ipa": "/ˌʌndəˈstænd/", "ru": "понимать" },
+    { "en": "work", "ipa": "/wɜːk/", "ru": "работать" },
+    { "en": "help", "ipa": "/help/", "ru": "помогать" },
+    { "en": "travel", "ipa": "/ˈtrævl/", "ru": "путешествовать" },
+    { "en": "agree", "ipa": "/əˈɡriː/", "ru": "соглашаться" },
+    { "en": "feel", "ipa": "/fiːl/", "ru": "чувствовать" },
+    { "en": "stop", "ipa": "/stɒp/", "ru": "останавливаться" },
+    { "en": "continue", "ipa": "/kənˈtɪnjuː/", "ru": "продолжать" },
+    { "en": "cost", "ipa": "/kɒst/", "ru": "стоить" },
+
+    { "en": "time", "ipa": "/taɪm/", "ru": "время" },
+    { "en": "free time", "ipa": "/friː taɪm/", "ru": "свободное время" },
+    { "en": "questions", "ipa": "/ˈkwestʃənz/", "ru": "вопросы" },
+    { "en": "answer", "ipa": "/ˈɑːnsə/", "ru": "ответ" },
+    { "en": "money", "ipa": "/ˈmʌni/", "ru": "деньги" },
+    { "en": "changes", "ipa": "/ˈtʃeɪndʒɪz/", "ru": "изменения" },
+    { "en": "brothers", "ipa": "/ˈbrʌðəz/", "ru": "братья" },
+    { "en": "sisters", "ipa": "/ˈsɪstəz/", "ru": "сёстры" },
+    { "en": "car", "ipa": "/kɑː/", "ru": "машина" },
+
+    { "en": "about", "ipa": "/əˈbaʊt/", "ru": "об/о; про" },
+    { "en": "so", "ipa": "/səʊ/", "ru": "так" },
+    { "en": "so much", "ipa": "/səʊ mʌtʃ/", "ru": "так много" },
+    { "en": "so often", "ipa": "/səʊ ˈɒfən/", "ru": "так часто" },
+    { "en": "now", "ipa": "/naʊ/", "ru": "сейчас" },
+    { "en": "there", "ipa": "/ðeə/", "ru": "там; туда" },
+    { "en": "really", "ipa": "/ˈrɪəli/", "ru": "действительно" },
+    { "en": "happy", "ipa": "/ˈhæpi/", "ru": "счастливый" },
+    { "en": "English", "ipa": "/ˈɪŋɡlɪʃ/", "ru": "английский" },
+
+    { "en": "this", "ipa": "/ðɪs/", "ru": "этот/эта/это" },
+    { "en": "the answer", "ipa": "/ði ˈɑːnsə/", "ru": "ответ" },
+    { "en": "this thing", "ipa": "/ðɪs θɪŋ/", "ru": "эта вещь" },
+    { "en": "this money", "ipa": "/ðɪs ˈmʌni/", "ru": "эти деньги" }
+  ],
+  "sections": [
+    {
+      "title": "I / We / You / They + don't + verb",
+      "rule": "Для I/we/you/they: don't + глагол (в начальной форме).",
+      "examples": [
+        {
+          "en": "I don't have any questions",
+          "ipa": "/aɪ dəʊnt hæv ˈeni ˈkwestʃənz/",
+          "ru": "У меня нет каких-либо вопросов"
+        },
+        { "en": "I don't have time", "ipa": "/aɪ dəʊnt hæv taɪm/", "ru": "У меня нет времени" },
+        {
+          "en": "I don't ask him about it",
+          "ipa": "/aɪ dəʊnt ɑːsk hɪm əˈbaʊt ɪt/",
+          "ru": "Я не спрашиваю его об этом"
+        },
+        {
+          "en": "I don't like this food",
+          "ipa": "/aɪ dəʊnt laɪk ðɪs fuːd/",
+          "ru": "Мне не нравится эта еда"
+        },
+        {
+          "en": "I don't travel so often",
+          "ipa": "/aɪ dəʊnt ˈtrævl səʊ ˈɒfən/",
+          "ru": "Я не путешествую так часто"
+        },
+        {
+          "en": "I see you don't want it",
+          "ipa": "/aɪ siː juː dəʊnt wɒnt ɪt/",
+          "ru": "Я вижу, ты не хочешь это"
+        },
+        {
+          "en": "I don't want to stop. I want to continue",
+          "ipa": "/aɪ dəʊnt wɒnt tə stɒp | aɪ wɒnt tə kənˈtɪnjuː/",
+          "ru": "Я не хочу останавливаться. Я хочу продолжать"
+        },
+        {
+          "en": "I see that it doesn't work",
+          "ipa": "/aɪ siː ðæt ɪt ˈdʌznt wɜːk/",
+          "ru": "Я вижу, что это не работает"
+        },
+        {
+          "en": "I don't have much free time",
+          "ipa": "/aɪ dəʊnt hæv mʌtʃ friː taɪm/",
+          "ru": "У меня нет много свободного времени"
+        },
+        {
+          "en": "I see that it doesn't help me",
+          "ipa": "/aɪ siː ðæt ɪt ˈdʌznt help miː/",
+          "ru": "Я вижу, что это не помогает мне"
+        },
+        {
+          "en": "I don't think about it",
+          "ipa": "/aɪ dəʊnt θɪŋk əˈbaʊt ɪt/",
+          "ru": "Я не думаю об этом"
+        },
+        {
+          "en": "I don't agree with it",
+          "ipa": "/aɪ dəʊnt əˈɡriː wɪð ɪt/",
+          "ru": "Я не согласен с этим"
+        },
+        {
+          "en": "I don't see any changes",
+          "ipa": "/aɪ dəʊnt siː ˈeni ˈtʃeɪndʒɪz/",
+          "ru": "Я не вижу каких-либо изменений"
+        },
+        {
+          "en": "I don't think that it really works",
+          "ipa": "/aɪ dəʊnt θɪŋk ðæt ɪt ˈrɪəli wɜːks/",
+          "ru": "Я не думаю, что это действительно работает"
+        },
+        {
+          "en": "I don't want to go there now",
+          "ipa": "/aɪ dəʊnt wɒnt tə ɡəʊ ðeə naʊ/",
+          "ru": "Я не хочу идти туда сейчас"
+        }
+      ]
+    },
+    {
+      "title": "He / She / It + doesn't + verb",
+      "rule": "Для he/she/it: doesn't + глагол (в начальной форме). (Без -s у глагола!)",
+      "examples": [
+        {
+          "en": "She doesn't know the answer",
+          "ipa": "/ʃiː ˈdʌznt nəʊ ði ˈɑːnsə/",
+          "ru": "Она не знает ответа"
+        },
+        {
+          "en": "He doesn't think about it",
+          "ipa": "/hiː ˈdʌznt θɪŋk əˈbaʊt ɪt/",
+          "ru": "Он не думает об этом"
+        },
+        {
+          "en": "He doesn't know the answer",
+          "ipa": "/hiː ˈdʌznt nəʊ ði ˈɑːnsə/",
+          "ru": "Он не знает ответа"
+        },
+        {
+          "en": "He doesn't want to say it",
+          "ipa": "/hiː ˈdʌznt wɒnt tə seɪ ɪt/",
+          "ru": "Он не хочет говорить это"
+        },
+        {
+          "en": "She doesn't understand it",
+          "ipa": "/ʃiː ˈdʌznt ˌʌndəˈstænd ɪt/",
+          "ru": "Она не понимает это"
+        },
+        {
+          "en": "He doesn't like this idea",
+          "ipa": "/hiː ˈdʌznt laɪk ðɪs aɪˈdɪə/",
+          "ru": "Ему не нравится эта идея"
+        },
+        {
+          "en": "She doesn't work so much",
+          "ipa": "/ʃiː ˈdʌznt wɜːk səʊ mʌtʃ/",
+          "ru": "Она не работает так много"
+        },
+        {
+          "en": "It doesn't help me",
+          "ipa": "/ɪt ˈdʌznt help miː/",
+          "ru": "Это не помогает мне"
+        },
+        { "en": "It doesn't work", "ipa": "/ɪt ˈdʌznt wɜːk/", "ru": "Это не работает" },
+        {
+          "en": "She doesn't want to do it",
+          "ipa": "/ʃiː ˈdʌznt wɒnt tə duː ɪt/",
+          "ru": "Она не хочет делать это"
+        },
+        {
+          "en": "He doesn't have a car",
+          "ipa": "/hiː ˈdʌznt hæv ə kɑː/",
+          "ru": "У него нет машины"
+        },
+        {
+          "en": "She doesn't like this restaurant",
+          "ipa": "/ʃiː ˈdʌznt laɪk ðɪs ˈrestrɒnt/",
+          "ru": "Ей не нравится этот ресторан"
+        },
+        {
+          "en": "She doesn't like this shop",
+          "ipa": "/ʃiː ˈdʌznt laɪk ðɪs ʃɒp/",
+          "ru": "Ей не нравится этот магазин"
+        },
+        {
+          "en": "He doesn't think that it really works",
+          "ipa": "/hiː ˈdʌznt θɪŋk ðæt ɪt ˈrɪəli wɜːks/",
+          "ru": "Он не думает, что это действительно работает"
+        },
+        {
+          "en": "It doesn't cost this money",
+          "ipa": "/ɪt ˈdʌznt kɒst ðɪs ˈmʌni/",
+          "ru": "Это не стоит этих денег"
+        },
+        {
+          "en": "He doesn't have money",
+          "ipa": "/hiː ˈdʌznt hæv ˈmʌni/",
+          "ru": "У него нет денег"
+        },
+        {
+          "en": "He doesn't have this money",
+          "ipa": "/hiː ˈdʌznt hæv ðɪs ˈmʌni/",
+          "ru": "У него нет этих денег"
+        },
+        {
+          "en": "She doesn't speak English",
+          "ipa": "/ʃiː ˈdʌznt spiːk ˈɪŋɡlɪʃ/",
+          "ru": "Она не говорит по-английски"
+        },
+        {
+          "en": "He doesn't speak English",
+          "ipa": "/hiː ˈdʌznt spiːk ˈɪŋɡlɪʃ/",
+          "ru": "Он не говорит по-английски"
+        },
+        {
+          "en": "He doesn't say it",
+          "ipa": "/hiː ˈdʌznt seɪ ɪt/",
+          "ru": "Он не говорит это"
+        },
+        {
+          "en": "She doesn't say this thing",
+          "ipa": "/ʃiː ˈdʌznt seɪ ðɪs θɪŋ/",
+          "ru": "Она не говорит эту вещь"
+        },
+        {
+          "en": "She doesn't tell me about it",
+          "ipa": "/ʃiː ˈdʌznt tel miː əˈbaʊt ɪt/",
+          "ru": "Она не говорит мне об этом"
+        },
+        {
+          "en": "He doesn't tell me this thing",
+          "ipa": "/hiː ˈdʌznt tel miː ðɪs θɪŋ/",
+          "ru": "Он не говорит мне эту вещь"
+        },
+        {
+          "en": "He doesn't feel happy",
+          "ipa": "/hiː ˈdʌznt fiːl ˈhæpi/",
+          "ru": "Он не чувствует себя счастливым"
+        },
+        {
+          "en": "She doesn't want to go there now",
+          "ipa": "/ʃiː ˈdʌznt wɒnt tə ɡəʊ ðeə naʊ/",
+          "ru": "Она не хочет идти туда сейчас"
+        }
+      ]
+    },
+    {
+      "title": "Готовые связки: I know / I see / We don't… / They don't…",
+      "rule": "Можно добавлять целые части: I know that..., I see that..., We/They + don't + verb.",
+      "examples": [
+        {
+          "en": "I know that it doesn't cost this money",
+          "ipa": "/aɪ nəʊ ðæt ɪt ˈdʌznt kɒst ðɪs ˈmʌni/",
+          "ru": "Я знаю, что это не стоит этих денег"
+        },
+        {
+          "en": "We don't see any changes",
+          "ipa": "/wiː dəʊnt siː ˈeni ˈtʃeɪndʒɪz/",
+          "ru": "Мы не видим каких-либо изменений"
+        },
+        {
+          "en": "They don't want to say it",
+          "ipa": "/ðeɪ dəʊnt wɒnt tə seɪ ɪt/",
+          "ru": "Они не хотят говорить это"
+        },
+        {
+          "en": "I don't know the answer",
+          "ipa": "/aɪ dəʊnt nəʊ ði ˈɑːnsə/",
+          "ru": "Я не знаю ответа"
+        },
+        {
+          "en": "I don't think so",
+          "ipa": "/aɪ dəʊnt θɪŋk səʊ/",
+          "ru": "Я так не думаю"
+        }
+      ]
+    }
+  ]
+}

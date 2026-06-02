@@ -1,0 +1,168 @@
+﻿{
+  "vocabulary": [
+    { "en": "walk", "ipa": "/wɔːk/", "ru": "прогулка; гулять" },
+    { "en": "often", "ipa": "/ˈɒfən/", "ru": "часто" },
+
+    { "en": "want", "ipa": "/wɒnt/", "ru": "хотеть" },
+    { "en": "buy", "ipa": "/baɪ/", "ru": "купить; покупать" },
+
+    { "en": "ticket", "ipa": "/ˈtɪkɪt/", "ru": "билет" },
+    { "en": "tickets", "ipa": "/ˈtɪkɪts/", "ru": "билеты" },
+
+    { "en": "order", "ipa": "/ˈɔːdə/", "ru": "заказать" },
+    { "en": "online", "ipa": "/ˈɒnlaɪn/", "ru": "онлайн" },
+
+    { "en": "this", "ipa": "/ðɪs/", "ru": "этот/эта/это" },
+    { "en": "these", "ipa": "/ðiːz/", "ru": "эти" },
+    { "en": "that", "ipa": "/ðæt/", "ru": "тот/та/то" },
+
+    { "en": "visit", "ipa": "/ˈvɪzɪt/", "ru": "посетить; посещать" },
+    { "en": "England", "ipa": "/ˈɪŋɡlənd/", "ru": "Англия" },
+    { "en": "Spain", "ipa": "/speɪn/", "ru": "Испания" },
+    { "en": "America", "ipa": "/əˈmerɪkə/", "ru": "Америка" },
+    { "en": "the United States", "ipa": "/ðə juːˈnaɪtɪd steɪts/", "ru": "Соединённые Штаты" },
+
+    { "en": "new", "ipa": "/njuː/", "ru": "новый" },
+    { "en": "country", "ipa": "/ˈkʌntri/", "ru": "страна" },
+    { "en": "countries", "ipa": "/ˈkʌntriz/", "ru": "страны" },
+    { "en": "city", "ipa": "/ˈsɪti/", "ru": "город" },
+    { "en": "cities", "ipa": "/ˈsɪtiz/", "ru": "города" },
+
+    { "en": "drink", "ipa": "/drɪŋk/", "ru": "пить" },
+    { "en": "tea", "ipa": "/tiː/", "ru": "чай" },
+    { "en": "coffee", "ipa": "/ˈkɒfi/", "ru": "кофе" },
+
+    { "en": "try on", "ipa": "/traɪ ɒn/", "ru": "примерить" },
+    { "en": "dress", "ipa": "/dres/", "ru": "платье" },
+    { "en": "sweater", "ipa": "/ˈswetə/", "ru": "свитер" },
+    { "en": "shoes", "ipa": "/ʃuːz/", "ru": "обувь; туфли" },
+    { "en": "jeans", "ipa": "/dʒiːnz/", "ru": "джинсы" },
+    { "en": "trousers", "ipa": "/ˈtraʊzəz/", "ru": "брюки" },
+
+    { "en": "learn", "ipa": "/lɜːn/", "ru": "учить; выучить" },
+    { "en": "call", "ipa": "/kɔːl/", "ru": "звонить" },
+
+    { "en": "shop", "ipa": "/ʃɒp/", "ru": "магазин" },
+    { "en": "restaurant", "ipa": "/ˈrestrɒnt/", "ru": "ресторан" },
+    { "en": "park", "ipa": "/pɑːk/", "ru": "парк" },
+
+    { "en": "go", "ipa": "/ɡəʊ/", "ru": "идти; ехать" },
+    { "en": "go to", "ipa": "/ɡəʊ tuː/", "ru": "идти/ехать в" },
+    { "en": "home", "ipa": "/həʊm/", "ru": "домой; дом" },
+    { "en": "here", "ipa": "/hɪə/", "ru": "сюда/здесь" },
+    { "en": "there", "ipa": "/ðeə/", "ru": "туда/там" },
+    { "en": "back", "ipa": "/bæk/", "ru": "назад" },
+
+    { "en": "talk", "ipa": "/tɔːk/", "ru": "говорить" },
+    { "en": "about", "ipa": "/əˈbaʊt/", "ru": "о; про" },
+
+    { "en": "say", "ipa": "/seɪ/", "ru": "сказать" },
+    { "en": "tell", "ipa": "/tel/", "ru": "сказать; сообщить (кому-то)" },
+    { "en": "one", "ipa": "/wʌn/", "ru": "один" },
+    { "en": "thing", "ipa": "/θɪŋ/", "ru": "вещь; дело" },
+    { "en": "important", "ipa": "/ɪmˈpɔːtənt/", "ru": "важный" },
+
+    { "en": "need", "ipa": "/niːd/", "ru": "нужно; нуждаться" },
+    { "en": "do", "ipa": "/duː/", "ru": "делать" },
+
+    { "en": "soon", "ipa": "/suːn/", "ru": "скоро" },
+    { "en": "next", "ipa": "/nekst/", "ru": "следующий" },
+    { "en": "year", "ipa": "/jɪə/", "ru": "год" },
+    { "en": "next year", "ipa": "/nekst jɪə/", "ru": "в следующем году" },
+
+    { "en": "school", "ipa": "/skuːl/", "ru": "школа" },
+    { "en": "university", "ipa": "/ˌjuːnɪˈvɜːsɪti/", "ru": "университет" }
+  ],
+  "sections": [
+    {
+      "title": "I want to + verb",
+      "rule": "I want to + глагол (I want to go, I want to buy, I want to learn…).",
+      "examples": [
+        { "en": "I want to go for a walk", "ipa": "/aɪ wɒnt tə ɡəʊ fə(r) ə wɔːk/", "ru": "Я хочу пойти на прогулку" },
+        { "en": "I often go for a walk", "ipa": "/aɪ ˈɒfən ɡəʊ fə(r) ə wɔːk/", "ru": "Я часто хожу гулять" },
+
+        { "en": "I want to buy it", "ipa": "/aɪ wɒnt tə baɪ ɪt/", "ru": "Я хочу купить это" },
+        { "en": "I want to buy this ticket", "ipa": "/aɪ wɒnt tə baɪ ðɪs ˈtɪkɪt/", "ru": "Я хочу купить этот билет" },
+        { "en": "I want to buy these tickets", "ipa": "/aɪ wɒnt tə baɪ ðiːz ˈtɪkɪts/", "ru": "Я хочу купить эти билеты" },
+
+        { "en": "I want to order it online", "ipa": "/aɪ wɒnt tə ˈɔːdə(r) ɪt ˈɒnlaɪn/", "ru": "Я хочу заказать это онлайн" },
+        { "en": "I want to order this food online", "ipa": "/aɪ wɒnt tə ˈɔːdə(r) ðɪs fuːd ˈɒnlaɪn/", "ru": "Я хочу заказать эту еду онлайн" },
+        { "en": "I want to order these tickets online", "ipa": "/aɪ wɒnt tə ˈɔːdə(r) ðiːz ˈtɪkɪts ˈɒnlaɪn/", "ru": "Я хочу заказать эти билеты онлайн" },
+
+        { "en": "I want to visit England", "ipa": "/aɪ wɒnt tə ˈvɪzɪt ˈɪŋɡlənd/", "ru": "Я хочу посетить Англию" },
+        { "en": "I want to visit Spain", "ipa": "/aɪ wɒnt tə ˈvɪzɪt speɪn/", "ru": "Я хочу посетить Испанию" },
+        { "en": "I want to visit new countries and cities", "ipa": "/aɪ wɒnt tə ˈvɪzɪt njuː ˈkʌntriz ənd ˈsɪtiz/", "ru": "Я хочу посетить новые страны и города" },
+
+        { "en": "I want to learn English", "ipa": "/aɪ wɒnt tə lɜːn ˈɪŋɡlɪʃ/", "ru": "Я хочу выучить английский" },
+        { "en": "I want to call you now", "ipa": "/aɪ wɒnt tə kɔːl juː naʊ/", "ru": "Я хочу позвонить тебе сейчас" },
+
+        { "en": "I want to go to this shop", "ipa": "/aɪ wɒnt tə ɡəʊ tə ðɪs ʃɒp/", "ru": "Я хочу пойти в этот магазин" },
+        { "en": "I want to go to this restaurant", "ipa": "/aɪ wɒnt tə ɡəʊ tə ðɪs ˈrestrɒnt/", "ru": "Я хочу пойти в этот ресторан" },
+        { "en": "I want to go there with you", "ipa": "/aɪ wɒnt tə ɡəʊ ðeə wɪð juː/", "ru": "Я хочу пойти туда с тобой" },
+
+        { "en": "I want to talk about it", "ipa": "/aɪ wɒnt tə tɔːk əˈbaʊt ɪt/", "ru": "Я хочу поговорить об этом" },
+
+        { "en": "I want to say one thing", "ipa": "/aɪ wɒnt tə seɪ wʌn θɪŋ/", "ru": "Я хочу сказать одну вещь" },
+        { "en": "I want to tell you one thing", "ipa": "/aɪ wɒnt tə tel juː wʌn θɪŋ/", "ru": "Я хочу сказать тебе одну вещь" },
+        { "en": "I want to say one very important thing", "ipa": "/aɪ wɒnt tə seɪ wʌn ˈveri ɪmˈpɔːtənt θɪŋ/", "ru": "Я хочу сказать одну очень важную вещь" },
+        { "en": "I want to tell you about one problem", "ipa": "/aɪ wɒnt tə tel juː əˈbaʊt wʌn ˈprɒbləm/", "ru": "Я хочу сказать тебе об одной проблеме" },
+
+        { "en": "I want to go to the park", "ipa": "/aɪ wɒnt tə ɡəʊ tə ðə pɑːk/", "ru": "Я хочу пойти в парк" },
+
+        { "en": "I want to go to the United States", "ipa": "/aɪ wɒnt tə ɡəʊ tə ðə juːˈnaɪtɪd steɪts/", "ru": "Я хочу поехать в Соединённые Штаты" },
+        { "en": "I want to go to England", "ipa": "/aɪ wɒnt tə ɡəʊ tə ˈɪŋɡlənd/", "ru": "Я хочу поехать в Англию" }
+      ]
+    },
+    {
+      "title": "I'd like to + verb",
+      "rule": "I'd like to + глагол = вежливо: «я бы хотел(а)…».",
+      "examples": [
+        { "en": "I'd like to visit the United States", "ipa": "/aɪd laɪk tə ˈvɪzɪt ðə juːˈnaɪtɪd steɪts/", "ru": "Я бы хотел посетить Соединённые Штаты" },
+        { "en": "I'd like to visit this country", "ipa": "/aɪd laɪk tə ˈvɪzɪt ðɪs ˈkʌntri/", "ru": "Я бы хотел посетить эту страну" },
+        { "en": "I'd like to visit this city", "ipa": "/aɪd laɪk tə ˈvɪzɪt ðɪs ˈsɪti/", "ru": "Я бы хотел посетить этот город" },
+        { "en": "I'd like to visit new countries and cities", "ipa": "/aɪd laɪk tə ˈvɪzɪt njuː ˈkʌntriz ənd ˈsɪtiz/", "ru": "Я хотел бы посетить новые страны и города" },
+
+        { "en": "I'd like to drink tea", "ipa": "/aɪd laɪk tə drɪŋk tiː/", "ru": "Я бы хотел попить чаю" },
+        { "en": "I'd like to drink coffee", "ipa": "/aɪd laɪk tə drɪŋk ˈkɒfi/", "ru": "Я хотел бы выпить кофе" },
+
+        { "en": "I'd like to try on this dress", "ipa": "/aɪd laɪk tə traɪ ɒn ðɪs dres/", "ru": "Я бы хотела примерить это платье" },
+        { "en": "I'd like to try on this sweater", "ipa": "/aɪd laɪk tə traɪ ɒn ðɪs ˈswetə/", "ru": "Я бы хотел примерить этот свитер" },
+        { "en": "I'd like to try on these shoes", "ipa": "/aɪd laɪk tə traɪ ɒn ðiːz ʃuːz/", "ru": "Я бы хотел примерить эту обувь" },
+        { "en": "I'd like to try on these jeans", "ipa": "/aɪd laɪk tə traɪ ɒn ðiːz dʒiːnz/", "ru": "Я бы хотел примерить эти джинсы" },
+        { "en": "I'd like to try on these trousers", "ipa": "/aɪd laɪk tə traɪ ɒn ðiːz ˈtraʊzəz/", "ru": "Я бы хотел примерить эти брюки" },
+
+        { "en": "I'd like to talk about it now", "ipa": "/aɪd laɪk tə tɔːk əˈbaʊt ɪt naʊ/", "ru": "Я бы хотел поговорить об этом сейчас" },
+
+        { "en": "I'd like to go home", "ipa": "/aɪd laɪk tə ɡəʊ həʊm/", "ru": "Я бы хотел пойти домой" },
+
+        { "en": "I'd like to go to the park with you", "ipa": "/aɪd laɪk tə ɡəʊ tə ðə pɑːk wɪð juː/", "ru": "Я бы хотел пойти в парк с тобой" },
+        { "en": "I'd like to go to America", "ipa": "/aɪd laɪk tə ɡəʊ tə əˈmerɪkə/", "ru": "Я бы хотел поехать в Америку" },
+        { "en": "I'd like to go to the United States next year", "ipa": "/aɪd laɪk tə ɡəʊ tə ðə juːˈnaɪtɪd steɪts nekst jɪə/", "ru": "Я бы хотел поехать в Соединённые Штаты в следующем году" },
+
+        { "en": "I'd like to go to that place", "ipa": "/aɪd laɪk tə ɡəʊ tə ðæt pleɪs/", "ru": "Я бы хотел пойти в то место" },
+        { "en": "I'd like to go for a walk now", "ipa": "/aɪd laɪk tə ɡəʊ fə(r) ə wɔːk naʊ/", "ru": "Я бы хотел пойти на прогулку сейчас" }
+      ]
+    },
+    {
+      "title": "I need to + verb",
+      "rule": "I need to + глагол = «мне нужно…».",
+      "examples": [
+        { "en": "I need to do it", "ipa": "/aɪ niːd tə duː ɪt/", "ru": "Мне нужно сделать это" },
+        { "en": "I need to do it now", "ipa": "/aɪ niːd tə duː ɪt naʊ/", "ru": "Мне нужно сделать это сейчас" },
+        { "en": "I need to go home", "ipa": "/aɪ niːd tə ɡəʊ həʊm/", "ru": "Мне нужно идти домой" },
+        { "en": "I need to go to work", "ipa": "/aɪ niːd tə ɡəʊ tə wɜːk/", "ru": "Мне нужно идти на работу" },
+        { "en": "I need to be there soon", "ipa": "/aɪ niːd tə biː ðeə suːn/", "ru": "Мне нужно быть там скоро" }
+      ]
+    },
+    {
+      "title": "Go + place (Present Simple)",
+      "rule": "I/we/they go to + место (work, school, university). Также: go here/there/back/home.",
+      "examples": [
+        { "en": "I go to work", "ipa": "/aɪ ɡəʊ tə wɜːk/", "ru": "Я хожу на работу" },
+        { "en": "They go to school", "ipa": "/ðeɪ ɡəʊ tə skuːl/", "ru": "Они ходят в школу" },
+        { "en": "We go to university", "ipa": "/wiː ɡəʊ tə ˌjuːnɪˈvɜːsɪti/", "ru": "Мы ходим в университет" },
+        { "en": "I often go there", "ipa": "/aɪ ˈɒfən ɡəʊ ðeə/", "ru": "Я часто хожу туда" }
+      ]
+    }
+  ]
+}

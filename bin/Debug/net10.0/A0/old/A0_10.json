@@ -1,0 +1,137 @@
+{
+  "vocabulary": [
+    { "en": "do", "ipa": "/duː/", "ru": "делать (вопрос. вспом. глагол Do)" },
+    { "en": "does", "ipa": "/dʌz/", "ru": "делает (вопрос. вспом. глагол Does)" },
+    { "en": "want", "ipa": "/wɒnt/", "ru": "хотеть" },
+    { "en": "really", "ipa": "/ˈrɪəli/", "ru": "действительно" },
+    { "en": "think", "ipa": "/θɪŋk/", "ru": "думать" },
+    { "en": "support", "ipa": "/səˈpɔːt/", "ru": "поддерживать" },
+    { "en": "go", "ipa": "/ɡəʊ/", "ru": "идти/ехать" },
+    { "en": "work", "ipa": "/wɜːk/", "ru": "работать" },
+    { "en": "help", "ipa": "/help/", "ru": "помогать" },
+    { "en": "study", "ipa": "/ˈstʌdi/", "ru": "учиться" },
+
+    { "en": "rent", "ipa": "/rent/", "ru": "снять (жильё)" },
+    { "en": "house", "ipa": "/haʊs/", "ru": "дом" },
+    { "en": "apartment", "ipa": "/əˈpɑːtmənt/", "ru": "квартира" },
+
+    { "en": "live", "ipa": "/lɪv/", "ru": "жить" },
+    { "en": "another", "ipa": "/əˈnʌðə/", "ru": "другой(ая)" },
+    { "en": "country", "ipa": "/ˈkʌntri/", "ru": "страна" },
+    { "en": "city", "ipa": "/ˈsɪti/", "ru": "город" },
+
+    { "en": "school", "ipa": "/skuːl/", "ru": "школа" },
+    { "en": "university", "ipa": "/ˌjuːnɪˈvɜːsɪti/", "ru": "университет" },
+
+    { "en": "often", "ipa": "/ˈɒfən/", "ru": "часто" },
+    { "en": "play", "ipa": "/pleɪ/", "ru": "играть" },
+    { "en": "football", "ipa": "/ˈfʊtbɔːl/", "ru": "футбол" },
+    { "en": "tennis", "ipa": "/ˈtenɪs/", "ru": "теннис" },
+    { "en": "there", "ipa": "/ðeə/", "ru": "туда/там" },
+
+    { "en": "have", "ipa": "/hæv/", "ru": "иметь" },
+    { "en": "any", "ipa": "/ˈeni/", "ru": "какие-либо" },
+    { "en": "question", "ipa": "/ˈkwestʃən/", "ru": "вопрос" },
+    { "en": "questions", "ipa": "/ˈkwestʃənz/", "ru": "вопросы" },
+
+    { "en": "buy", "ipa": "/baɪ/", "ru": "купить" },
+    { "en": "thing", "ipa": "/θɪŋ/", "ru": "вещь" },
+
+    { "en": "understand", "ipa": "/ˌʌndəˈstænd/", "ru": "понимать" },
+    { "en": "time", "ipa": "/taɪm/", "ru": "время" },
+
+    { "en": "read", "ipa": "/riːd/", "ru": "читать" },
+    { "en": "book", "ipa": "/bʊk/", "ru": "книга" },
+    { "en": "books", "ipa": "/bʊks/", "ru": "книги" },
+
+    { "en": "speak", "ipa": "/spiːk/", "ru": "говорить (на языке)" },
+    { "en": "English", "ipa": "/ˈɪŋɡlɪʃ/", "ru": "английский (язык)" },
+
+    { "en": "know", "ipa": "/nəʊ/", "ru": "знать" },
+    { "en": "answer", "ipa": "/ˈɑːnsə/", "ru": "ответ" },
+
+    { "en": "idea", "ipa": "/aɪˈdɪə/", "ru": "идея" },
+
+    { "en": "family", "ipa": "/ˈfæməli/", "ru": "семья" },
+    { "en": "business", "ipa": "/ˈbɪznɪs/", "ru": "бизнес" },
+    { "en": "parents", "ipa": "/ˈpeərənts/", "ru": "родители" },
+
+    { "en": "order", "ipa": "/ˈɔːdə/", "ru": "заказать" },
+    { "en": "online", "ipa": "/ˈɒnlaɪn/", "ru": "онлайн" },
+
+    { "en": "visit", "ipa": "/ˈvɪzɪt/", "ru": "посетить" },
+    { "en": "England", "ipa": "/ˈɪŋɡlənd/", "ru": "Англия" },
+    { "en": "the United States", "ipa": "/ðə juːˈnaɪtɪd steɪts/", "ru": "Соединённые Штаты" },
+
+    { "en": "abroad", "ipa": "/əˈbrɔːd/", "ru": "за границей" },
+    { "en": "tomorrow", "ipa": "/təˈmɒrəʊ/", "ru": "завтра" },
+    { "en": "now", "ipa": "/naʊ/", "ru": "сейчас" },
+    { "en": "teach", "ipa": "/tiːtʃ/", "ru": "преподавать" }
+  ],
+  "sections": [
+    {
+      "title": "Do / Does questions (Present Simple) — Set A2 (50)",
+      "rule": "Do + I/you/we/they + verb…?  |  Does + he/she/it + verb…? (после does — глагол без -s).",
+      "examples": [
+        { "en": "Does she support you?", "ipa": "/dʌz ʃiː səˈpɔːt juː?/", "ru": "Она поддерживает тебя?" },
+        { "en": "Do you go to work?", "ipa": "/duː juː ɡəʊ tə wɜːk?/", "ru": "Ты ходишь на работу?" },
+        { "en": "Does it help you?", "ipa": "/dʌz ɪt help juː?/", "ru": "Это помогает тебе?" },
+        { "en": "Do you really think so?", "ipa": "/duː juː ˈrɪəli θɪŋk səʊ?/", "ru": "Ты действительно так думаешь?" },
+        { "en": "Does he support you?", "ipa": "/dʌz hiː səˈpɔːt juː?/", "ru": "Он поддерживает тебя?" },
+        { "en": "Do you study or work?", "ipa": "/duː juː ˈstʌdi ɔː wɜːk?/", "ru": "Ты учишься или работаешь?" },
+        { "en": "Do you want to rent a house?", "ipa": "/duː juː wɒnt tə rent ə haʊs?/", "ru": "Ты хочешь снять дом?" },
+        { "en": "Does it really help you?", "ipa": "/dʌz ɪt ˈrɪəli help juː?/", "ru": "Это действительно помогает тебе?" },
+        { "en": "Do you want to live in another country?", "ipa": "/duː juː wɒnt tə lɪv ɪn əˈnʌðə ˈkʌntri?/", "ru": "Ты хочешь жить в другой стране?" },
+        { "en": "Do you think so?", "ipa": "/duː juː θɪŋk səʊ?/", "ru": "Ты так думаешь?" },
+
+        { "en": "Does he go to school?", "ipa": "/dʌz hiː ɡəʊ tə skuːl?/", "ru": "Он ходит в школу?" },
+        { "en": "Do you want to do it tomorrow?", "ipa": "/duː juː wɒnt tə duː ɪt təˈmɒrəʊ?/", "ru": "Ты хочешь сделать это завтра?" },
+        { "en": "Does he do business?", "ipa": "/dʌz hiː duː ˈbɪznɪs?/", "ru": "Он занимается бизнесом?" },
+        { "en": "Does she live with her parents?", "ipa": "/dʌz ʃiː lɪv wɪð hɜː ˈpeərənts?/", "ru": "Она живёт с родителями?" },
+        { "en": "Do you often go there?", "ipa": "/duː juː ˈɒfən ɡəʊ ðeə?/", "ru": "Вы часто туда ходите?" },
+
+        { "en": "Do you like this idea?", "ipa": "/duː juː laɪk ðɪs aɪˈdɪə?/", "ru": "Тебе нравится эта идея?" },
+        { "en": "Do you want to visit England?", "ipa": "/duː juː wɒnt tə ˈvɪzɪt ˈɪŋɡlənd?/", "ru": "Ты хочешь посетить Англию?" },
+        { "en": "Do you want to go to the United States?", "ipa": "/duː juː wɒnt tə ɡəʊ tə ðə juːˈnaɪtɪd steɪts?/", "ru": "Ты хочешь поехать в Соединённые Штаты?" },
+        { "en": "Do you want to rent an apartment?", "ipa": "/duː juː wɒnt tə rent ən əˈpɑːtmənt?/", "ru": "Ты хочешь снять квартиру?" },
+        { "en": "Does she go to university?", "ipa": "/dʌz ʃiː ɡəʊ tə ˌjuːnɪˈvɜːsɪti?/", "ru": "Она ходит в университет?" },
+
+        { "en": "Do you often play football?", "ipa": "/duː juː ˈɒfən pleɪ ˈfʊtbɔːl?/", "ru": "Ты часто играешь в футбол?" },
+        { "en": "Do you have any questions?", "ipa": "/duː juː hæv ˈeni ˈkwestʃənz?/", "ru": "У вас есть какие-либо вопросы?" },
+        { "en": "Do you want to buy this thing?", "ipa": "/duː juː wɒnt tə baɪ ðɪs θɪŋ?/", "ru": "Ты хочешь купить эту вещь?" },
+        { "en": "Do you understand it?", "ipa": "/duː juː ˌʌndəˈstænd ɪt?/", "ru": "Ты понимаешь это?" },
+        { "en": "Do you work?", "ipa": "/duː juː wɜːk?/", "ru": "Ты работаешь?" },
+
+        { "en": "Do you have time?", "ipa": "/duː juː hæv taɪm?/", "ru": "У тебя есть время?" },
+        { "en": "Do you understand?", "ipa": "/duː juː ˌʌndəˈstænd?/", "ru": "Ты понимаешь?" },
+        { "en": "Does he speak English?", "ipa": "/dʌz hiː spiːk ˈɪŋɡlɪʃ?/", "ru": "Он говорит по-английски?" },
+        { "en": "Do you want to live in another city?", "ipa": "/duː juː wɒnt tə lɪv ɪn əˈnʌðə ˈsɪti?/", "ru": "Ты хочешь жить в другом городе?" },
+        { "en": "Do you want to order it online?", "ipa": "/duː juː wɒnt tə ˈɔːdə ɪt ˈɒnlaɪn?/", "ru": "Ты хочешь заказать это онлайн?" },
+
+        { "en": "Does he work?", "ipa": "/dʌz hiː wɜːk?/", "ru": "Он работает?" },
+        { "en": "Does he teach English?", "ipa": "/dʌz hiː tiːtʃ ˈɪŋɡlɪʃ?/", "ru": "Он преподаёт английский?" },
+        { "en": "Do you speak English?", "ipa": "/duː juː spiːk ˈɪŋɡlɪʃ?/", "ru": "Вы говорите по-английски?" },
+        { "en": "Do you know the answer?", "ipa": "/duː juː nəʊ ði ˈɑːnsə?/", "ru": "Ты знаешь ответ?" },
+        { "en": "Do you have any ideas?", "ipa": "/duː juː hæv ˈeni aɪˈdɪəz?/", "ru": "У тебя есть какие-либо идеи?" },
+
+        { "en": "Do you really want to do it?", "ipa": "/duː juː ˈrɪəli wɒnt tə duː ɪt?/", "ru": "Ты действительно хочешь сделать это?" },
+        { "en": "Do you read books in English?", "ipa": "/duː juː riːd bʊks ɪn ˈɪŋɡlɪʃ?/", "ru": "Ты читаешь книги на английском?" },
+        { "en": "Does it work?", "ipa": "/dʌz ɪt wɜːk?/", "ru": "Это работает?" },
+        { "en": "Do you want to go to this country?", "ipa": "/duː juː wɒnt tə ɡəʊ tə ðɪs ˈkʌntri?/", "ru": "Ты хочешь поехать в эту страну?" },
+        { "en": "Do you often play tennis?", "ipa": "/duː juː ˈɒfən pleɪ ˈtenɪs?/", "ru": "Ты часто играешь в теннис?" },
+
+        { "en": "Does he work or study?", "ipa": "/dʌz hiː wɜːk ɔː ˈstʌdi?/", "ru": "Он работает или учится?" },
+        { "en": "Does he study in another country?", "ipa": "/dʌz hiː ˈstʌdi ɪn əˈnʌðə ˈkʌntri?/", "ru": "Он учится в другой стране?" },
+        { "en": "Do you want to visit the United States?", "ipa": "/duː juː wɒnt tə ˈvɪzɪt ðə juːˈnaɪtɪd steɪts?/", "ru": "Ты хочешь посетить Соединённые Штаты?" },
+        { "en": "Do you have a family?", "ipa": "/duː juː hæv ə ˈfæməli?/", "ru": "У тебя есть семья?" },
+        { "en": "Do you want to do it now?", "ipa": "/duː juː wɒnt tə duː ɪt naʊ?/", "ru": "Ты хочешь сделать это сейчас?" },
+
+        { "en": "Does she know it?", "ipa": "/dʌz ʃiː nəʊ ɪt?/", "ru": "Она знает это?" },
+        { "en": "Does she study abroad?", "ipa": "/dʌz ʃiː ˈstʌdi əˈbrɔːd?/", "ru": "Она учится за границей?" },
+        { "en": "Does it really work?", "ipa": "/dʌz ɪt ˈrɪəli wɜːk?/", "ru": "Это действительно работает?" },
+        { "en": "Do you want to study abroad?", "ipa": "/duː juː wɒnt tə ˈstʌdi əˈbrɔːd?/", "ru": "Ты хочешь учиться за границей?" },
+        { "en": "Do you read English books?", "ipa": "/duː juː riːd ˈɪŋɡlɪʃ bʊks?/", "ru": "Ты читаешь английские книги?" }
+      ]
+    }
+  ]
+}

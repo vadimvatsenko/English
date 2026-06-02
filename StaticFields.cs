@@ -16,6 +16,8 @@ public class StaticFields
         [0] = "Start Practice",
         [1] = "Repeat Hard Questions",
         [2] = "< BACK TO MAIN MENU",
+        [3] = "AutoLogin",
+        [4] = "LogOut"
     };
         
     // меню выбора, что делать

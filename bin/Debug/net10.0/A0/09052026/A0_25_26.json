@@ -1,0 +1,158 @@
+{
+  "vocabulary": [
+    { "en": "will", "ipa": "/wɪl/", "ru": "будет / будешь / буду / будем / будут" },
+
+    { "en": "buy", "ipa": "/baɪ/", "ru": "покупать" },
+    { "en": "do", "ipa": "/duː/", "ru": "делать" },
+    { "en": "call", "ipa": "/kɔːl/", "ru": "звонить" },
+    { "en": "go", "ipa": "/ɡəʊ/", "ru": "идти; ехать" },
+    { "en": "play", "ipa": "/pleɪ/", "ru": "играть" },
+    { "en": "dance", "ipa": "/dɑːns/", "ru": "танцевать" },
+    { "en": "help", "ipa": "/help/", "ru": "помогать" },
+    { "en": "be", "ipa": "/biː/", "ru": "быть" },
+    { "en": "stay", "ipa": "/steɪ/", "ru": "оставаться" },
+    { "en": "know", "ipa": "/nəʊ/", "ru": "знать" },
+    { "en": "check", "ipa": "/tʃek/", "ru": "проверять" },
+    { "en": "join", "ipa": "/dʒɔɪn/", "ru": "присоединяться" },
+    { "en": "understand", "ipa": "/ˌʌndəˈstænd/", "ru": "понимать" },
+    { "en": "come", "ipa": "/kʌm/", "ru": "приходить; приезжать" },
+    { "en": "order", "ipa": "/ˈɔːdə/", "ru": "заказывать" },
+    { "en": "rent", "ipa": "/rent/", "ru": "снимать; арендовать" },
+    { "en": "send", "ipa": "/send/", "ru": "отправлять" },
+    { "en": "tell", "ipa": "/tel/", "ru": "сказать; рассказать" },
+
+    { "en": "there", "ipa": "/ðeə/", "ru": "там; туда" },
+    { "en": "tomorrow", "ipa": "/təˈmɒrəʊ/", "ru": "завтра" },
+    { "en": "soon", "ipa": "/suːn/", "ru": "скоро" },
+    { "en": "this year", "ipa": "/ðɪs jɪə/", "ru": "в этом году" },
+    { "en": "next year", "ipa": "/nekst jɪə/", "ru": "в следующем году" },
+    { "en": "next month", "ipa": "/nekst mʌnθ/", "ru": "в следующем месяце" },
+    { "en": "again", "ipa": "/əˈɡen/", "ru": "снова" },
+    { "en": "with you", "ipa": "/wɪð juː/", "ru": "с тобой" },
+    { "en": "at work", "ipa": "/æt wɜːk/", "ru": "на работе" },
+    { "en": "at home", "ipa": "/æt həʊm/", "ru": "дома" },
+
+    { "en": "park", "ipa": "/pɑːk/", "ru": "парк" },
+    { "en": "beach", "ipa": "/biːtʃ/", "ru": "пляж" },
+    { "en": "place", "ipa": "/pleɪs/", "ru": "место" },
+    { "en": "tickets", "ipa": "/ˈtɪkɪts/", "ru": "билеты" },
+    { "en": "right", "ipa": "/raɪt/", "ru": "правильный" },
+    { "en": "more expensive", "ipa": "/mɔː ɪkˈspensɪv/", "ru": "дороже" },
+    { "en": "cheaper", "ipa": "/ˈtʃiːpə/", "ru": "дешевле" },
+    { "en": "the best choice", "ipa": "/ðə best tʃɔɪs/", "ru": "лучший выбор" },
+    { "en": "the best decision", "ipa": "/ðə best dɪˈsɪʒən/", "ru": "лучшее решение" },
+    { "en": "situation", "ipa": "/ˌsɪtʃuˈeɪʃən/", "ru": "ситуация" },
+    { "en": "better", "ipa": "/ˈbetə/", "ru": "лучше" },
+    { "en": "possible", "ipa": "/ˈpɒsəbl/", "ru": "возможный" },
+    { "en": "free", "ipa": "/friː/", "ru": "бесплатный" },
+
+    { "en": "information", "ipa": "/ˌɪnfəˈmeɪʃən/", "ru": "информация" },
+    { "en": "us", "ipa": "/ʌs/", "ru": "нас; нам" },
+    { "en": "our company", "ipa": "/ˈaʊə ˈkʌmpəni/", "ru": "наша компания" },
+    { "en": "France", "ipa": "/frɑːns/", "ru": "Франция" },
+    { "en": "Germany", "ipa": "/ˈdʒɜːməni/", "ru": "Германия" },
+    { "en": "England", "ipa": "/ˈɪŋɡlənd/", "ru": "Англия" },
+    { "en": "new model", "ipa": "/njuː ˈmɒdl/", "ru": "новая модель" },
+    { "en": "car", "ipa": "/kɑː/", "ru": "машина" },
+    { "en": "another car", "ipa": "/əˈnʌðə kɑː/", "ru": "другая машина" },
+    { "en": "house", "ipa": "/haʊs/", "ru": "дом" },
+    { "en": "apartment", "ipa": "/əˈpɑːtmənt/", "ru": "квартира" },
+    { "en": "message", "ipa": "/ˈmesɪdʒ/", "ru": "сообщение" },
+    { "en": "letter", "ipa": "/ˈletə/", "ru": "письмо" },
+    { "en": "this thing", "ipa": "/ðɪs θɪŋ/", "ru": "эта вещь" }
+  ],
+  "sections": [
+    {
+      "title": "Future Simple questions with will",
+      "rule": "Will + subject + verb ...? Например: Will you buy it? / Will he come soon?",
+      "examples": [
+        { "en": "Will you buy it?", "ipa": "/wɪl juː baɪ ɪt?/", "ru": "Ты будешь покупать это?" },
+        { "en": "Will you buy these tickets?", "ipa": "/wɪl juː baɪ ðiːz ˈtɪkɪts?/", "ru": "Ты купишь эти билеты?" },
+        { "en": "Will you do it?", "ipa": "/wɪl juː duː ɪt?/", "ru": "Ты будешь делать это?" },
+        { "en": "Will you call him?", "ipa": "/wɪl juː kɔːl hɪm?/", "ru": "Ты позвонишь ему?" },
+        { "en": "Will you go there?", "ipa": "/wɪl juː ɡəʊ ðeə?/", "ru": "Ты пойдёшь туда?" },
+        { "en": "Will you go to this place?", "ipa": "/wɪl juː ɡəʊ tuː ðɪs pleɪs?/", "ru": "Ты пойдёшь в это место?" },
+        { "en": "Will you play?", "ipa": "/wɪl juː pleɪ?/", "ru": "Ты будешь играть?" },
+        { "en": "Will you dance?", "ipa": "/wɪl juː dɑːns?/", "ru": "Ты будешь танцевать?" },
+        { "en": "Will you help me?", "ipa": "/wɪl juː help miː?/", "ru": "Ты поможешь мне?" }
+      ]
+    },
+    {
+      "title": "Future Simple questions with places and movement",
+      "rule": "Will + subject + go / come / be + place/time ...?",
+      "examples": [
+        { "en": "Will you go to the park?", "ipa": "/wɪl juː ɡəʊ tuː ðə pɑːk?/", "ru": "Ты пойдёшь в парк?" },
+        { "en": "Will you go to the beach?", "ipa": "/wɪl juː ɡəʊ tuː ðə biːtʃ?/", "ru": "Ты пойдёшь на пляж?" },
+        { "en": "Will you be there?", "ipa": "/wɪl juː biː ðeə?/", "ru": "Ты будешь там?" },
+        { "en": "Will you be there tomorrow?", "ipa": "/wɪl juː biː ðeə təˈmɒrəʊ?/", "ru": "Ты будешь там завтра?" },
+        { "en": "Will he be with you?", "ipa": "/wɪl hiː biː wɪð juː?/", "ru": "Он будет с тобой?" },
+        { "en": "Will you be at work tomorrow?", "ipa": "/wɪl juː biː æt wɜːk təˈmɒrəʊ?/", "ru": "Ты будешь на работе завтра?" },
+        { "en": "Will you be at home?", "ipa": "/wɪl juː biː æt həʊm?/", "ru": "Ты будешь дома?" },
+        { "en": "Will you stay at home?", "ipa": "/wɪl juː steɪ æt həʊm?/", "ru": "Ты останешься дома?" },
+        { "en": "Will they be there?", "ipa": "/wɪl ðeɪ biː ðeə?/", "ru": "Они будут там?" },
+        { "en": "Will she come home soon?", "ipa": "/wɪl ʃiː kʌm həʊm suːn?/", "ru": "Она скоро придёт домой?" },
+        { "en": "Will he come back soon?", "ipa": "/wɪl hiː kʌm bæk suːn?/", "ru": "Он скоро вернётся?" }
+      ]
+    },
+    {
+      "title": "Future Simple questions with decisions and evaluation",
+      "rule": "Will it be ...? — вопросы о результате, качестве, цене или возможности.",
+      "examples": [
+        { "en": "Will it be right?", "ipa": "/wɪl ɪt biː raɪt?/", "ru": "Это будет правильно?" },
+        { "en": "Will it be more expensive?", "ipa": "/wɪl ɪt biː mɔː ɪkˈspensɪv?/", "ru": "Это будет дороже?" },
+        { "en": "Will it be cheaper?", "ipa": "/wɪl ɪt biː ˈtʃiːpə?/", "ru": "Это будет дешевле?" },
+        { "en": "Will it be the best choice?", "ipa": "/wɪl ɪt biː ðə best tʃɔɪs?/", "ru": "Это будет лучший выбор?" },
+        { "en": "Will it be the best decision?", "ipa": "/wɪl ɪt biː ðə best dɪˈsɪʒən?/", "ru": "Это будет лучшее решение?" },
+        { "en": "Will it be the best choice in this situation?", "ipa": "/wɪl ɪt biː ðə best tʃɔɪs ɪn ðɪs ˌsɪtʃuˈeɪʃən?/", "ru": "Это будет лучший выбор в этой ситуации?" },
+        { "en": "Will it be the best decision in this situation?", "ipa": "/wɪl ɪt biː ðə best dɪˈsɪʒən ɪn ðɪs ˌsɪtʃuˈeɪʃən?/", "ru": "Это будет лучшее решение в этой ситуации?" },
+        { "en": "Will it be better?", "ipa": "/wɪl ɪt biː ˈbetə?/", "ru": "Это будет лучше?" },
+        { "en": "Will it be possible?", "ipa": "/wɪl ɪt biː ˈpɒsəbl?/", "ru": "Это будет возможно?" },
+        { "en": "Will it be possible soon?", "ipa": "/wɪl ɪt biː ˈpɒsəbl suːn?/", "ru": "Это будет скоро возможно?" },
+        { "en": "Will it be free?", "ipa": "/wɪl ɪt biː friː?/", "ru": "Это будет бесплатно?" }
+      ]
+    },
+    {
+      "title": "Future Simple questions with travel and plans",
+      "rule": "Will + subject + go + country/time ...?",
+      "examples": [
+        { "en": "Will you go to France this year?", "ipa": "/wɪl juː ɡəʊ tuː frɑːns ðɪs jɪə?/", "ru": "Ты поедешь во Францию в этом году?" },
+        { "en": "Will you go to Germany next year?", "ipa": "/wɪl juː ɡəʊ tuː ˈdʒɜːməni nekst jɪə?/", "ru": "Вы поедете в Германию в следующем году?" },
+        { "en": "Will you go to England next month?", "ipa": "/wɪl juː ɡəʊ tuː ˈɪŋɡlənd nekst mʌnθ?/", "ru": "Ты поедешь в Англию в следующем месяце?" }
+      ]
+    },
+    {
+      "title": "Future Simple questions with actions and checking",
+      "rule": "Will + subject + know / check / understand / join ...?",
+      "examples": [
+        { "en": "Will we know it?", "ipa": "/wɪl wiː nəʊ ɪt?/", "ru": "Мы узнаем это?" },
+        { "en": "Will you check this information?", "ipa": "/wɪl juː tʃek ðɪs ˌɪnfəˈmeɪʃən?/", "ru": "Ты проверишь эту информацию?" },
+        { "en": "Will you check it again?", "ipa": "/wɪl juː tʃek ɪt əˈɡen?/", "ru": "Ты будешь проверять это снова?" },
+        { "en": "Will they join us?", "ipa": "/wɪl ðeɪ dʒɔɪn ʌs?/", "ru": "Они присоединятся к нам?" },
+        { "en": "Will they join our company?", "ipa": "/wɪl ðeɪ dʒɔɪn ˈaʊə ˈkʌmpəni?/", "ru": "Они присоединятся к нашей компании?" },
+        { "en": "Will he understand it?", "ipa": "/wɪl hiː ˌʌndəˈstænd ɪt?/", "ru": "Он поймёт это?" }
+      ]
+    },
+    {
+      "title": "Future Simple questions with buying and renting",
+      "rule": "Will + subject + buy / order / rent ...?",
+      "examples": [
+        { "en": "Will you order this new model online?", "ipa": "/wɪl juː ˈɔːdə ðɪs njuː ˈmɒdl ˈɒnlaɪn?/", "ru": "Ты будешь заказывать эту новую модель онлайн?" },
+        { "en": "Will you buy a car?", "ipa": "/wɪl juː baɪ ə kɑː?/", "ru": "Ты будешь покупать машину?" },
+        { "en": "Will he buy another car?", "ipa": "/wɪl hiː baɪ əˈnʌðə kɑː?/", "ru": "Он купит другую машину?" },
+        { "en": "Will you buy a house?", "ipa": "/wɪl juː baɪ ə haʊs?/", "ru": "Ты будешь покупать дом?" },
+        { "en": "Will she buy an apartment?", "ipa": "/wɪl ʃiː baɪ ən əˈpɑːtmənt?/", "ru": "Она будет покупать квартиру?" },
+        { "en": "Will you rent a house?", "ipa": "/wɪl juː rent ə haʊs?/", "ru": "Вы будете снимать дом?" },
+        { "en": "Will they rent an apartment?", "ipa": "/wɪl ðeɪ rent ən əˈpɑːtmənt?/", "ru": "Они будут снимать квартиру?" }
+      ]
+    },
+    {
+      "title": "Future Simple questions with sending and telling",
+      "rule": "Will + subject + send / tell + object ...?",
+      "examples": [
+        { "en": "Will you send him a message?", "ipa": "/wɪl juː send hɪm ə ˈmesɪdʒ?/", "ru": "Ты отправишь ему сообщение?" },
+        { "en": "Will you send her a letter?", "ipa": "/wɪl juː send hɜː ə ˈletə?/", "ru": "Ты отправишь ей письмо?" },
+        { "en": "Will you tell her this thing?", "ipa": "/wɪl juː tel hɜː ðɪs θɪŋ?/", "ru": "Ты скажешь ей эту вещь?" }
+      ]
+    }
+  ]
+}

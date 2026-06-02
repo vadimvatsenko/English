@@ -1,0 +1,375 @@
+{
+  "sections": [
+    {
+      "title": "Give [gɪv] Gave [geɪv] Given [ˈgɪvən]",
+      "rule": "gave - дал, дали (прошедшее время от give)",
+      "examples": [
+        {
+          "en": "He gave me this advice",
+          "ipa": "[hiː geɪv miː ðɪs ədˈvaɪs]",
+          "ru": "Он дал мне этот совет"
+        },
+        {
+          "en": "He gave her this money",
+          "ipa": "[hiː geɪv hɜː ðɪs ˈmʌni]",
+          "ru": "Он дал ей эти деньги"
+        }
+      ]
+    },
+    {
+      "title": "Become [bɪˈkʌm] Became [bɪˈkeɪm] Become [bɪˈkʌm]",
+      "rule": "became - стал, стали (прошедшее время от become)",
+      "examples": [
+        {
+          "en": "She became famous",
+          "ipa": "[ʃiː bɪˈkeɪm ˈfeɪməs]",
+          "ru": "Она стала известной"
+        },
+        {
+          "en": "He became very famous",
+          "ipa": "[hiː bɪˈkeɪm ˈveri ˈfeɪməs]",
+          "ru": "Он стал очень известным"
+        },
+        {
+          "en": "She became a teacher",
+          "ipa": "[ʃiː bɪˈkeɪm ə ˈtiːtʃə]",
+          "ru": "Она стала учителем"
+        },
+        {
+          "en": "He became a businessman",
+          "ipa": "[hiː bɪˈkeɪm ə ˈbɪznəsmæn]",
+          "ru": "Он стал бизнесменом"
+        },
+        {
+          "en": "He became a doctor",
+          "ipa": "[hiː bɪˈkeɪm ə ˈdɒktə]",
+          "ru": "Он стал врачом"
+        }
+      ]
+    },
+    {
+      "title": "Feel [fiːl] Felt [felt] Felt [felt]",
+      "rule": "felt - чувствовал, чувствовали (прошедшее время от feel)",
+      "examples": [
+        {
+          "en": "I felt very good",
+          "ipa": "[aɪ felt ˈveri gʊd]",
+          "ru": "Я чувствовал себя очень хорошо"
+        },
+        {
+          "en": "He felt better yesterday",
+          "ipa": "[hiː felt ˈbetə ˈjestədeɪ]",
+          "ru": "Он чувствовал себя лучше вчера"
+        },
+        {
+          "en": "I felt much better in the evening",
+          "ipa": "[aɪ felt mʌtʃ ˈbetə ɪn ði ˈiːvnɪŋ]",
+          "ru": "Я чувствовал себя намного лучше вечером"
+        }
+      ]
+    },
+    {
+      "title": "Put [pʊt] Put [pʊt] Put [pʊt]",
+      "rule": "put - положил, положили (прошедшее время от put)",
+      "examples": [
+        {
+          "en": "I put it on the table",
+          "ipa": "[aɪ pʊt ɪt ɒn ðə ˈteɪbl]",
+          "ru": "Я положил это на стол"
+        },
+        {
+          "en": "I put it on the desk",
+          "ipa": "[aɪ pʊt ɪt ɒn ðə desk]",
+          "ru": "Я положил это на письменный стол"
+        },
+        {
+          "en": "I put it on the floor",
+          "ipa": "[aɪ pʊt ɪt ɒn ðə flɔː]",
+          "ru": "Я положил это на пол"
+        },
+        {
+          "en": "I put it near my bed",
+          "ipa": "[aɪ pʊt ɪt nɪə maɪ bed]",
+          "ru": "Я положил это рядом с моей кроватью"
+        },
+        {
+          "en": "I put it near my computer",
+          "ipa": "[aɪ pʊt ɪt nɪə maɪ kəmˈpjuːtə]",
+          "ru": "Я положил это рядом со своим компьютером"
+        }
+      ]
+    },
+    {
+      "title": "Begin [bɪˈgɪn] Began [bɪˈgæn] Begun [bɪˈgʌn]",
+      "rule": "began - начался, начали (прошедшее время от begin)",
+      "examples": [
+        {
+          "en": "This meeting began",
+          "ipa": "[ðɪs ˈmiːtɪŋ bɪˈgæn]",
+          "ru": "Эта встреча началась"
+        },
+        {
+          "en": "This meeting began ten minutes ago",
+          "ipa": "[ðɪs ˈmiːtɪŋ bɪˈgæn ten ˈmɪnɪts əˈgəʊ]",
+          "ru": "Эта встреча началась десять минут назад"
+        },
+        {
+          "en": "This lesson began five minutes ago",
+          "ipa": "[ðɪs ˈlesn bɪˈgæn faɪv ˈmɪnɪts əˈgəʊ]",
+          "ru": "Этот урок начался пять минут назад"
+        }
+      ]
+    },
+    {
+      "title": "Sit [sɪt] Sat [sæt] Sat [sæt] & Stand [stænd] Stood [stʊd] Stood [stʊd]",
+      "rule": "sat - сел (от sit), stood - встал (от stand)",
+      "examples": [
+        {
+          "en": "He sat down",
+          "ipa": "[hiː sæt daʊn]",
+          "ru": "Он присел"
+        },
+        {
+          "en": "She stood up",
+          "ipa": "[ʃiː stʊd ʌp]",
+          "ru": "Она встала"
+        },
+        {
+          "en": "She sat down and then stood up",
+          "ipa": "[ʃiː sæt daʊn ænd ðen stʊd ʌp]",
+          "ru": "Она присела и затем встала"
+        },
+        {
+          "en": "I sat on that chair",
+          "ipa": "[aɪ sæt ɒn ðæt tʃeə]",
+          "ru": "Я сел на тот стул"
+        }
+      ]
+    },
+    {
+      "title": "Drive [draɪv] Drove [drəʊv] Driven [ˈdrɪvən]",
+      "rule": "drove - водил, возили (прошедшее время от drive)",
+      "examples": [
+        {
+          "en": "I drove a car yesterday",
+          "ipa": "[aɪ drəʊv ə kɑː ˈjestədeɪ]",
+          "ru": "Я водил машину вчера"
+        },
+        {
+          "en": "He drove a car",
+          "ipa": "[hiː drəʊv ə kɑː]",
+          "ru": "Он водил машину"
+        }
+      ]
+    },
+    {
+      "title": "Meet [miːt] Met [met] Met [met]",
+      "rule": "met - встретил, встретились (прошедшее время от meet)",
+      "examples": [
+        {
+          "en": "We met at last",
+          "ipa": "[wiː met ət lɑːst]",
+          "ru": "Мы встретились наконец"
+        },
+        {
+          "en": "We met at the airport",
+          "ipa": "[wiː met ət ði ˈeəpɔːt]",
+          "ru": "Мы встретились в аэропорту"
+        },
+        {
+          "en": "We met again",
+          "ipa": "[wiː met əˈgen]",
+          "ru": "Мы встретились снова"
+        }
+      ]
+    },
+    {
+      "title": "Spend [spend] Spent [spent] Spent [spent]",
+      "rule": "spent - провел, потратил (прошедшее время от spend)",
+      "examples": [
+        {
+          "en": "I often spent time with my friends",
+          "ipa": "[aɪ ˈɒfn spent taɪm wɪð maɪ frendz]",
+          "ru": "Я часто проводил время со своими друзьями"
+        },
+        {
+          "en": "I spent so much money last week",
+          "ipa": "[aɪ spent səʊ mʌtʃ ˈmʌni lɑːst wiːk]",
+          "ru": "Я потратил так много денег на прошлой неделе"
+        },
+        {
+          "en": "We often spent time together",
+          "ipa": "[wiː ˈɒfn spent taɪm təˈgeðə]",
+          "ru": "Мы часто проводили время вместе"
+        }
+      ]
+    },
+    {
+      "title": "Speak [spiːk] Spoke [spəʊk] Spoken [ˈspəʊkən]",
+      "rule": "spoke - говорил, говорили (прошедшее время от speak)",
+      "examples": [
+        {
+          "en": "They spoke English",
+          "ipa": "[ðeɪ spəʊk ˈɪŋglɪʃ]",
+          "ru": "Они говорили по-английски"
+        },
+        {
+          "en": "We spoke only English",
+          "ipa": "[wiː spəʊk ˈəʊnli ˈɪŋglɪʃ]",
+          "ru": "Мы говорили только по-английски"
+        },
+        {
+          "en": "They spoke Spanish",
+          "ipa": "[ðeɪ spəʊk ˈspænɪʃ]",
+          "ru": "Они говорили по-испански"
+        }
+      ]
+    },
+    {
+      "title": "Pay [peɪ] Paid [peɪd] Paid [peɪd]",
+      "rule": "paid - заплатил, заплатили (прошедшее время от pay)",
+      "examples": [
+        {
+          "en": "I paid for her",
+          "ipa": "[aɪ peɪd fɔː hɜː]",
+          "ru": "Я заплатил за нее"
+        },
+        {
+          "en": "He paid for her",
+          "ipa": "[hiː peɪd fɔː hɜː]",
+          "ru": "Он заплатил за нее"
+        },
+        {
+          "en": "I paid for this service",
+          "ipa": "[aɪ peɪd fɔː ðɪs ˈs3ːvɪs]",
+          "ru": "Я заплатил за эту услугу"
+        }
+      ]
+    },
+    {
+      "title": "Send [send] Sent [sent] Sent [sent]",
+      "rule": "sent - отправил, отправили (прошедшее время от send)",
+      "examples": [
+        {
+          "en": "I sent her a letter",
+          "ipa": "[aɪ sent hɜː ə ˈletə]",
+          "ru": "Я отправил ей письмо"
+        },
+        {
+          "en": "I sent her a message",
+          "ipa": "[aɪ sent hɜː ə ˈmesɪdʒ]",
+          "ru": "Я отправил ей сообщение"
+        },
+        {
+          "en": "I sent him an email",
+          "ipa": "[aɪ sent hɪm ən ˈiːmeɪl]",
+          "ru": "Я отправил ему имейл"
+        },
+        {
+          "en": "I sent her two messages",
+          "ipa": "[aɪ sent hɜː tuː ˈmesɪdʒɪz]",
+          "ru": "Я отправил ей два сообщения"
+        }
+      ]
+    },
+    {
+      "title": "Run [rʌn] Ran [ræn] Run [rʌn]",
+      "rule": "ran - бежал, бежали (прошедшее время от run)",
+      "examples": [
+        {
+          "en": "He ran very fast",
+          "ipa": "[hiː ræn ˈveri fɑːst]",
+          "ru": "Он бежал очень быстро"
+        },
+        {
+          "en": "They ran away from the police",
+          "ipa": "[ðeɪ ræn əˈweɪ frɒm ðə pəˈliːs]",
+          "ru": "Они сбежали от полиции"
+        },
+        {
+          "en": "He ran away",
+          "ipa": "[hiː ræn əˈweɪ]",
+          "ru": "Он убежал"
+        },
+        {
+          "en": "They ran away",
+          "ipa": "[ðeɪ ræn əˈweɪ]",
+          "ru": "Они убежали"
+        }
+      ]
+    },
+    {
+      "title": "Break [breɪk] Broke [brəʊk] Broken [ˈbrəʊkən]",
+      "rule": "broke - сломался, сломали (прошедшее время от break)",
+      "examples": [
+        {
+          "en": "His car broke down",
+          "ipa": "[hɪz kɑː brəʊk daʊn]",
+          "ru": "Его машина сломалась"
+        },
+        {
+          "en": "Their car broke down suddenly",
+          "ipa": "[ðeə kɑː brəʊk daʊn ˈsʌdnli]",
+          "ru": "Их машина сломалась вдруг"
+        },
+        {
+          "en": "His car broke down yesterday",
+          "ipa": "[hɪz kɑː brəʊk daʊn ˈjestədeɪ]",
+          "ru": "Его машина сломалась вчера"
+        }
+      ]
+    },
+    {
+      "title": "Build [bɪld] Built [bɪlt] Built [bɪlt]",
+      "rule": "built - построил, построили (прошедшее время от build)",
+      "examples": [
+        {
+          "en": "He built a house",
+          "ipa": "[hiː bɪlt ə haʊs]",
+          "ru": "Он построил дом"
+        },
+        {
+          "en": "They built a bridge",
+          "ipa": "[ðeɪ bɪlt ə brɪdʒ]",
+          "ru": "Они построили мост"
+        },
+        {
+          "en": "They built a house",
+          "ipa": "[ðeɪ bɪlt ə haʊs]",
+          "ru": "Они построили дом"
+        }
+      ]
+    },
+    {
+      "title": "Have [hæv] Had [hæd] Had [hæd]",
+      "rule": "had - имел, было (прошедшее время от have)",
+      "examples": [
+        {
+          "en": "I had little free time",
+          "ipa": "[aɪ hæd ˈlɪtl friː taɪm]",
+          "ru": "У меня было мало свободного времени"
+        },
+        {
+          "en": "I had one problem",
+          "ipa": "[aɪ hæd wʌn ˈprɒbləm]",
+          "ru": "У меня была одна проблема"
+        },
+        {
+          "en": "I had a question",
+          "ipa": "[aɪ hæd ə ˈkwestʃən]",
+          "ru": "У меня был вопрос"
+        },
+        {
+          "en": "I had some questions",
+          "ipa": "[aɪ hæd sʌm ˈkwestʃənz]",
+          "ru": "У меня были некоторые вопросы"
+        },
+        {
+          "en": "I had too little time",
+          "ipa": "[aɪ hæd tuː ˈlɪtl taɪm]",
+          "ru": "У меня было слишком мало времени"
+        }
+      ]
+    }
+  ]
+}

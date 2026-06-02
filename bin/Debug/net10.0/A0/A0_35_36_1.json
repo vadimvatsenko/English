@@ -1,0 +1,320 @@
+{
+  "sections": [
+    {
+      "title": "Choose [tʃuːz] / Chose [tʃəʊz] / Chosen [ˈtʃəʊzən]",
+      "rule": "chose - выбрал, выбрали (прошедшее время от choose)",
+      "examples": [
+        {
+          "en": "I chose this hotel",
+          "ipa": "[aɪ tʃəʊz ðɪs həʊˈtel]",
+          "ru": "Я выбрал этот отель"
+        },
+        {
+          "en": "I chose the first answer",
+          "ipa": "[aɪ tʃəʊz ðə fɜːst ˈɑːnsə]",
+          "ru": "Я выбрал первый ответ"
+        },
+        {
+          "en": "I chose the second answer",
+          "ipa": "[aɪ tʃəʊz ðə ˈsekənd ˈɑːnsə]",
+          "ru": "Я выбрал второй ответ"
+        },
+        {
+          "en": "I chose the right answer",
+          "ipa": "[aɪ tʃəʊz ðə raɪt ˈɑːnsə]",
+          "ru": "Я выбрал правильный ответ"
+        }
+      ]
+    },
+    {
+      "title": "Eat [iːt] / Ate [et] / Eaten [ˈiːtən]",
+      "rule": "ate - съел, съели (прошедшее время от eat)",
+      "examples": [
+        {
+          "en": "I ate a sandwich",
+          "ipa": "[aɪ et ə ˈsænwɪdʒ]",
+          "ru": "Я съел бутерброд"
+        },
+        {
+          "en": "I ate two sandwiches",
+          "ipa": "[aɪ et tuː ˈsænwɪdʒɪz]",
+          "ru": "Я съел два бутерброда"
+        },
+        {
+          "en": "I ate an hour ago",
+          "ipa": "[aɪ et ən ˈaʊə əˈɡəʊ]",
+          "ru": "Я ел час назад"
+        }
+      ]
+    },
+    {
+      "title": "Drink [drɪŋk] / Drank [dræŋk] / Drunk [drʌŋk]",
+      "rule": "drank - выпил, выпили (прошедшее время от drink)",
+      "examples": [
+        {
+          "en": "I drank tea",
+          "ipa": "[aɪ dræŋk tiː]",
+          "ru": "Я попил чай"
+        },
+        {
+          "en": "I drank coffee",
+          "ipa": "[aɪ dræŋk ˈkɒfi]",
+          "ru": "Я выпил кофе"
+        },
+        {
+          "en": "I drank a cup of tea",
+          "ipa": "[aɪ dræŋk ə kʌp ɒv tiː]",
+          "ru": "Я выпил чашку чая"
+        },
+        {
+          "en": "I drank a cup of coffee",
+          "ipa": "[aɪ dræŋk ə kʌp ɒv ˈkɒfi]",
+          "ru": "Я выпил чашку кофе"
+        },
+        {
+          "en": "I drank some juice",
+          "ipa": "[aɪ dræŋk sʌm dʒuːs]",
+          "ru": "Я выпил немного сока"
+        },
+        {
+          "en": "I drank orange juice",
+          "ipa": "[aɪ dræŋk ˈɒrɪndʒ dʒuːs]",
+          "ru": "Я выпил апельсиновый сок"
+        },
+        {
+          "en": "I drank a glass of juice",
+          "ipa": "[aɪ dræŋk ə ɡlɑːs ɒv dʒuːs]",
+          "ru": "Я выпил стакан сока"
+        }
+      ]
+    },
+    {
+      "title": "Fly [flaɪ] / Flew [fluː] / Flown [fləʊn]",
+      "rule": "flew - полетел, полетели (прошедшее время от fly)",
+      "examples": [
+        {
+          "en": "I flew to this city",
+          "ipa": "[aɪ fluː tuː ðɪs ˈsɪti]",
+          "ru": "Я полетел в этот город"
+        },
+        {
+          "en": "I flew to the United States",
+          "ipa": "[aɪ fluː tuː ðə juːˈnaɪtɪd steɪts]",
+          "ru": "Я полетел в Соединенные Штаты"
+        },
+        {
+          "en": "I flew to another country",
+          "ipa": "[aɪ fluː tuː əˈnʌðə ˈkʌntri]",
+          "ru": "Я полетел в другую страну"
+        }
+      ]
+    },
+    {
+      "title": "Hear [hɪə] / Heard [hɜːd] / Heard [hɜːd]",
+      "rule": "heard - услышал, услышали (прошедшее время от hear)",
+      "examples": [
+        {
+          "en": "I heard it only yesterday",
+          "ipa": "[aɪ hɜːd ɪt ˈəʊnli ˈjestədeɪ]",
+          "ru": "Я услышал это только вчера"
+        },
+        {
+          "en": "I heard it from him",
+          "ipa": "[aɪ hɜːd ɪt frɒm hɪm]",
+          "ru": "Я услышал это от него"
+        },
+        {
+          "en": "I heard it again and again",
+          "ipa": "[aɪ hɜːd ɪt əˈɡen ænd əˈɡen]",
+          "ru": "Я слышал это снова и снова"
+        }
+      ]
+    },
+    {
+      "title": "Lose [luːz] / Lost [lɒst] / Lost [lɒst] & Find [faɪnd] / Found [faʊnd] / Found [faʊnd]",
+      "rule": "lost - потерял (от lose), found - нашел (от find)",
+      "examples": [
+        {
+          "en": "He lost his wallet",
+          "ipa": "[hiː lɒst hɪz ˈwɒlɪt]",
+          "ru": "Он потерял свой бумажник"
+        },
+        {
+          "en": "I found my keys",
+          "ipa": "[aɪ faʊnd maɪ kiːz]",
+          "ru": "Я нашел свои ключи"
+        },
+        {
+          "en": "I lost my wallet but then I found it",
+          "ipa": "[aɪ lɒst maɪ ˈwɒlɪt bʌt ðen aɪ faʊnd ɪt]",
+          "ru": "Я потерял свой бумажник, но затем я нашел его"
+        },
+        {
+          "en": "I lost my keys but then I found them",
+          "ipa": "[aɪ lɒst maɪ kiːz bʌt ðen aɪ faʊnd ðem]",
+          "ru": "Я потерял свои ключи, но затем я нашел их"
+        },
+        {
+          "en": "I lost my keys",
+          "ipa": "[aɪ lɒst maɪ kiːz]",
+          "ru": "Я потерял свои ключи"
+        },
+        {
+          "en": "I lost the keys",
+          "ipa": "[aɪ lɒst ðə kiːz]",
+          "ru": "Я потерял ключи"
+        },
+        {
+          "en": "I lost my bag",
+          "ipa": "[aɪ lɒst maɪ bæɡ]",
+          "ru": "Я потерял свою сумку"
+        },
+        {
+          "en": "I lost the bag",
+          "ipa": "[aɪ lɒst ðə bæɡ]",
+          "ru": "Я потерял сумку"
+        }
+      ]
+    },
+    {
+      "title": "Sell [sel] / Sold [səʊld] / Sold [səʊld]",
+      "rule": "sold - продал, продали (прошедшее время от sell)",
+      "examples": [
+        {
+          "en": "He sold his house",
+          "ipa": "[hiː səʊld hɪz haʊs]",
+          "ru": "Он продал свой дом"
+        },
+        {
+          "en": "He sold his car",
+          "ipa": "[hiː səʊld hɪz kɑː]",
+          "ru": "Он продал свою машину"
+        },
+        {
+          "en": "They sold it very cheaply",
+          "ipa": "[ðeɪ səʊld ɪt ˈveri ˈtʃiːpli]",
+          "ru": "Они продавали это очень дешево"
+        }
+      ]
+    },
+    {
+      "title": "Win [wɪn] / Won [wʌn] / Won [wʌn] & Lose [luːz] / Lost [lɒst] / Lost [lɒst]",
+      "rule": "won - выиграл, победили (от win), lost - проиграл (от lose)",
+      "examples": [
+        {
+          "en": "They won in the end",
+          "ipa": "[ðeɪ wʌn ɪn ði end]",
+          "ru": "Они победили в конце"
+        },
+        {
+          "en": "They won the game",
+          "ipa": "[ðeɪ wʌn ðə ɡeɪm]",
+          "ru": "Они выиграли игру"
+        },
+        {
+          "en": "They won the match",
+          "ipa": "[ðeɪ wʌn ðə mætʃ]",
+          "ru": "Они выиграли матч"
+        },
+        {
+          "en": "The first team won",
+          "ipa": "[ðə fɜːst tiːm wʌn]",
+          "ru": "Первая команда выиграла"
+        },
+        {
+          "en": "The second team lost",
+          "ipa": "[ðə ˈsekənd tiːm lɒst]",
+          "ru": "Вторая команда проиграла"
+        },
+        {
+          "en": "They lost in the final",
+          "ipa": "[ðeɪ lɒst ɪn ðə ˈfaɪnl]",
+          "ru": "Они проиграли в финале"
+        },
+        {
+          "en": "Their team lost in the final",
+          "ipa": "[ðeə tiːm lɒst ɪn ðə ˈfaɪnl]",
+          "ru": "Их команда проиграла в финале"
+        },
+        {
+          "en": "I won at last",
+          "ipa": "[aɪ wʌn ət lɑːst]",
+          "ru": "Я выиграл наконец"
+        }
+      ]
+    },
+    {
+      "title": "Think [θɪŋk] / Thought [θɔːt] / Thought [θɔːt]",
+      "rule": "thought - думал, думали (прошедшее время от think)",
+      "examples": [
+        {
+          "en": "I often thought about it",
+          "ipa": "[aɪ ˈɒfn θɔːt əˈbaʊt ɪt]",
+          "ru": "Я часто думал об этом"
+        },
+        {
+          "en": "I thought about this offer",
+          "ipa": "[aɪ θɔːt əˈbaʊt ðɪs ˈɒfə]",
+          "ru": "Я думал об этом предложении"
+        },
+        {
+          "en": "I often thought about this thing",
+          "ipa": "[aɪ ˈɒfn θɔːt əˈbaʊt ðɪs θɪŋ]",
+          "ru": "Я часто думал об этой вещи"
+        }
+      ]
+    },
+    {
+      "title": "Teach [tiːtʃ] / Taught [tɔːt] / Taught [tɔːt]",
+      "rule": "taught - преподавал, обучил (прошедшее время от teach)",
+      "examples": [
+        {
+          "en": "She taught English",
+          "ipa": "[ʃiː tɔːt ˈɪŋɡlɪʃ]",
+          "ru": "Она преподавала английский"
+        },
+        {
+          "en": "He taught us English",
+          "ipa": "[hiː tɔːt ʌs ˈɪŋɡlɪʃ]",
+          "ru": "Он преподавал нам английский"
+        }
+      ]
+    },
+    {
+      "title": "Swim [swɪm] / Swam [swæm] / Swum [swʌm]",
+      "rule": "swam - плавал, купались (прошедшее время от swim)",
+      "examples": [
+        {
+          "en": "I swam in the sea",
+          "ipa": "[aɪ swæm ɪn ðə siː]",
+          "ru": "Я плавал в море"
+        },
+        {
+          "en": "We swam in the lake",
+          "ipa": "[wiː swæm ɪn ðə leɪk]",
+          "ru": "Мы купались в озере"
+        },
+        {
+          "en": "He swam in the river",
+          "ipa": "[hiː swæm ɪn ðə ˈrɪvə]",
+          "ru": "Он плавал в реке"
+        },
+        {
+          "en": "She swam in the sea",
+          "ipa": "[ʃiː swæm ɪn ðə siː]",
+          "ru": "Она купалась в море"
+        },
+        {
+          "en": "I swam in the swimming pool",
+          "ipa": "[aɪ swæm ɪn ðə ˈswɪmɪŋ puːl]",
+          "ru": "Я плавал в бассейне"
+        },
+        {
+          "en": "We swam in the sea",
+          "ipa": "[wiː swæm ɪn ðə siː]",
+          "ru": "Мы купались в море"
+        }
+      ]
+    }
+  ]
+}

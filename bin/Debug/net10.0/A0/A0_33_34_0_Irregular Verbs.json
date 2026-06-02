@@ -1,0 +1,24 @@
+{
+  "sections": [
+    {
+      "title": "Irregular Verbs - Base Actions & Communication",
+      "rule": "Глаголы темы: три формы на английском, транскрипция и перевод через пробел.",
+      "examples": [
+        { "en": "buy bought bought", "ipa": "[baɪ] [bɔːt] [bɔːt]", "ru": "покупать купил купленный" },
+        { "en": "come came come", "ipa": "[kʌm] [keɪm] [kʌm]", "ru": "приходить пришел пришедший" },
+        { "en": "do did done", "ipa": "[duː] [dɪd] [dʌn]", "ru": "делать сделал сделанный" },
+        { "en": "get got got", "ipa": "[ɡet] [ɡɒt] [ɡɒt]", "ru": "получать получил полученный" },
+        { "en": "go went gone", "ipa": "[ɡəʊ] [went] [ɡɒn]", "ru": "идти пошел ушедший" },
+        { "en": "know knew known", "ipa": "[nəʊ] [njuː] [nəʊn]", "ru": "знать знал известный" },
+        { "en": "make made made", "ipa": "[meɪk] [meɪd] [meɪd]", "ru": "делать сделал сделанный" },
+        { "en": "read read read", "ipa": "[riːd] [red] [red]", "ru": "читать прочитал прочитанный" },
+        { "en": "say said said", "ipa": "[seɪ] [sed] [sed]", "ru": "сказать сказал сказанный" },
+        { "en": "see saw seen", "ipa": "[siː] [sɔː] [siːn]", "ru": "видеть увидел увиденный" },
+        { "en": "take took taken", "ipa": "[teɪk] [tʊk] [ˈteɪkən]", "ru": "брать взял взятый" },
+        { "en": "tell told told", "ipa": "[tel] [təʊld] [təʊld]", "ru": "рассказывать рассказал рассказанный" },
+        { "en": "understand understood understood", "ipa": "[ˌʌndəˈstænd] [ˌʌndəˈstʊd] [ˌʌndəˈstʊd]", "ru": "понимать понял понятый" },
+        { "en": "write wrote written", "ipa": "[raɪt] [rəʊt] [ˈrɪtn]", "ru": "писать написал написанный" }
+      ]
+    }
+  ]
+}

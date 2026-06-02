@@ -1,0 +1,165 @@
+{
+  "vocabulary": [
+    { "en": "won't", "ipa": "/wəʊnt/", "ru": "не буду / не будет / не будут" },
+    { "en": "will not", "ipa": "/wɪl nɒt/", "ru": "не буду / не будет / не будут" },
+
+    { "en": "do", "ipa": "/duː/", "ru": "делать" },
+    { "en": "spend", "ipa": "/spend/", "ru": "тратить" },
+    { "en": "listen to", "ipa": "/ˈlɪsən tuː/", "ru": "слушать" },
+    { "en": "agree", "ipa": "/əˈɡriː/", "ru": "соглашаться" },
+    { "en": "meet", "ipa": "/miːt/", "ru": "встречаться" },
+    { "en": "help", "ipa": "/help/", "ru": "помогать" },
+    { "en": "understand", "ipa": "/ˌʌndəˈstænd/", "ru": "понимать" },
+    { "en": "go", "ipa": "/ɡəʊ/", "ru": "идти; ехать" },
+    { "en": "answer", "ipa": "/ˈɑːnsə/", "ru": "отвечать" },
+    { "en": "say", "ipa": "/seɪ/", "ru": "сказать" },
+    { "en": "tell", "ipa": "/tel/", "ru": "рассказать; сказать кому-то" },
+    { "en": "talk about", "ipa": "/tɔːk əˈbaʊt/", "ru": "говорить о" },
+    { "en": "know about", "ipa": "/nəʊ əˈbaʊt/", "ru": "знать о" },
+    { "en": "wait for", "ipa": "/weɪt fɔː/", "ru": "ждать" },
+    { "en": "pay for", "ipa": "/peɪ fɔː/", "ru": "платить за" },
+    { "en": "dance", "ipa": "/dɑːns/", "ru": "танцевать" },
+    { "en": "play", "ipa": "/pleɪ/", "ru": "играть" },
+    { "en": "come", "ipa": "/kʌm/", "ru": "приходить; приезжать" },
+    { "en": "believe", "ipa": "/bɪˈliːv/", "ru": "верить" },
+    { "en": "study", "ipa": "/ˈstʌdi/", "ru": "учиться" },
+    { "en": "buy", "ipa": "/baɪ/", "ru": "покупать" },
+
+    { "en": "busy", "ipa": "/ˈbɪzi/", "ru": "занятой" },
+    { "en": "interesting", "ipa": "/ˈɪntrɪstɪŋ/", "ru": "интересный" },
+    { "en": "easy", "ipa": "/ˈiːzi/", "ru": "лёгкий" },
+    { "en": "very difficult", "ipa": "/ˈveri ˈdɪfɪkəlt/", "ru": "очень сложный" },
+    { "en": "free", "ipa": "/friː/", "ru": "бесплатный" },
+    { "en": "away", "ipa": "/əˈweɪ/", "ru": "в отъезде" },
+
+    { "en": "time", "ipa": "/taɪm/", "ru": "время" },
+    { "en": "offer", "ipa": "/ˈɒfə/", "ru": "предложение" },
+    { "en": "idea", "ipa": "/aɪˈdɪə/", "ru": "идея" },
+    { "en": "letter", "ipa": "/ˈletə/", "ru": "письмо" },
+    { "en": "message", "ipa": "/ˈmesɪdʒ/", "ru": "сообщение" },
+    { "en": "friend", "ipa": "/frend/", "ru": "друг" },
+    { "en": "house", "ipa": "/haʊs/", "ru": "дом" },
+    { "en": "apartment", "ipa": "/əˈpɑːtmənt/", "ru": "квартира" },
+    { "en": "car", "ipa": "/kɑː/", "ru": "машина" },
+    { "en": "game", "ipa": "/ɡeɪm/", "ru": "игра" },
+    { "en": "city", "ipa": "/ˈsɪti/", "ru": "город" },
+    { "en": "park", "ipa": "/pɑːk/", "ru": "парк" },
+    { "en": "beach", "ipa": "/biːtʃ/", "ru": "пляж" },
+    { "en": "meeting", "ipa": "/ˈmiːtɪŋ/", "ru": "встреча" },
+    { "en": "party", "ipa": "/ˈpɑːti/", "ru": "вечеринка" },
+    { "en": "place", "ipa": "/pleɪs/", "ru": "место" },
+    { "en": "another place", "ipa": "/əˈnʌðə pleɪs/", "ru": "другое место" },
+    { "en": "another car", "ipa": "/əˈnʌðə kɑː/", "ru": "другая машина" },
+    { "en": "another country", "ipa": "/əˈnʌðə ˈkʌntri/", "ru": "другая страна" },
+    { "en": "England", "ipa": "/ˈɪŋɡlənd/", "ru": "Англия" },
+
+    { "en": "today", "ipa": "/təˈdeɪ/", "ru": "сегодня" },
+    { "en": "tomorrow", "ipa": "/təˈmɒrəʊ/", "ru": "завтра" },
+    { "en": "here", "ipa": "/hɪə/", "ru": "сюда; здесь" },
+    { "en": "there", "ipa": "/ðeə/", "ru": "туда; там" },
+    { "en": "at home", "ipa": "/æt həʊm/", "ru": "дома" },
+    { "en": "to work", "ipa": "/tuː wɜːk/", "ru": "на работу" },
+    { "en": "to school", "ipa": "/tuː skuːl/", "ru": "в школу" },
+    { "en": "to university", "ipa": "/tuː ˌjuːnɪˈvɜːsɪti/", "ru": "в университет" }
+  ],
+  "sections": [
+    {
+      "title": "Future Simple negative: won't + verb",
+      "rule": "Future Simple отрицание: I / We / You / They / He / She / It + won't + глагол. won't = will not.",
+      "examples": [
+        { "en": "I won't do it", "ipa": "/aɪ wəʊnt duː ɪt/", "ru": "Я не буду делать это" },
+        { "en": "I won't spend my time on it", "ipa": "/aɪ wəʊnt spend maɪ taɪm ɒn ɪt/", "ru": "Я не буду тратить своё время на это" },
+        { "en": "We won't go there", "ipa": "/wiː wəʊnt ɡəʊ ðeə/", "ru": "Мы не пойдём туда" },
+        { "en": "I won't go there", "ipa": "/aɪ wəʊnt ɡəʊ ðeə/", "ru": "Я не пойду туда" }
+      ]
+    },
+    {
+      "title": "Negative future with think",
+      "rule": "Часто используется конструкция I think ... won't ...",
+      "examples": [
+        { "en": "I think you won't like this offer", "ipa": "/aɪ θɪŋk juː wəʊnt laɪk ðɪs ˈɒfə/", "ru": "Я думаю, тебе не понравится это предложение" },
+        { "en": "I think he won't agree", "ipa": "/aɪ θɪŋk hiː wəʊnt əˈɡriː/", "ru": "Я думаю, он не согласится" },
+        { "en": "I think it won't be interesting for you", "ipa": "/aɪ θɪŋk ɪt wəʊnt biː ˈɪntrɪstɪŋ fɔː juː/", "ru": "Я думаю, это не будет интересно тебе" },
+        { "en": "I think it won't help you", "ipa": "/aɪ θɪŋk ɪt wəʊnt help juː/", "ru": "Я думаю, это не поможет тебе" },
+        { "en": "I think it won't help him", "ipa": "/aɪ θɪŋk ɪt wəʊnt help hɪm/", "ru": "Я думаю, это не поможет ему" },
+        { "en": "I think he won't like this idea", "ipa": "/aɪ θɪŋk hiː wəʊnt laɪk ðɪs aɪˈdɪə/", "ru": "Я думаю, ему не понравится эта идея" }
+      ]
+    },
+    {
+      "title": "Negative future with listening and agreement",
+      "rule": "won't + verb для отказа, несогласия или отсутствия действия в будущем.",
+      "examples": [
+        { "en": "They won't listen to it", "ipa": "/ðeɪ wəʊnt ˈlɪsən tuː ɪt/", "ru": "Они не будут слушать это" },
+        { "en": "He won't listen to it", "ipa": "/hiː wəʊnt ˈlɪsən tuː ɪt/", "ru": "Он не будет слушать это" },
+        { "en": "She won't agree", "ipa": "/ʃiː wəʊnt əˈɡriː/", "ru": "Она не согласится" },
+        { "en": "We won't meet tomorrow", "ipa": "/wiː wəʊnt miːt təˈmɒrəʊ/", "ru": "Мы не будем встречаться завтра" },
+        { "en": "He won't understand it", "ipa": "/hiː wəʊnt ˌʌndəˈstænd ɪt/", "ru": "Он не поймёт это" }
+      ]
+    },
+    {
+      "title": "Negative future with movement",
+      "rule": "won't go / won't come = не пойду / не приду / не поеду / не придёт.",
+      "examples": [
+        { "en": "I won't go to the city tomorrow", "ipa": "/aɪ wəʊnt ɡəʊ tuː ðə ˈsɪti təˈmɒrəʊ/", "ru": "Я не поеду в город завтра" },
+        { "en": "I won't go to the park today", "ipa": "/aɪ wəʊnt ɡəʊ tuː ðə pɑːk təˈdeɪ/", "ru": "Я не пойду в парк сегодня" },
+        { "en": "She won't go to work", "ipa": "/ʃiː wəʊnt ɡəʊ tuː wɜːk/", "ru": "Она не пойдёт на работу" },
+        { "en": "He won't come here tomorrow", "ipa": "/hiː wəʊnt kʌm hɪə təˈmɒrəʊ/", "ru": "Он не придёт сюда завтра" },
+        { "en": "He won't go to the meeting", "ipa": "/hiː wəʊnt ɡəʊ tuː ðə ˈmiːtɪŋ/", "ru": "Он не пойдёт на встречу" },
+        { "en": "She won't go to the party", "ipa": "/ʃiː wəʊnt ɡəʊ tuː ðə ˈpɑːti/", "ru": "Она не пойдёт на вечеринку" },
+        { "en": "I won't come there tomorrow", "ipa": "/aɪ wəʊnt kʌm ðeə təˈmɒrəʊ/", "ru": "Я не приду туда завтра" },
+        { "en": "I won't go to the beach today", "ipa": "/aɪ wəʊnt ɡəʊ tuː ðə biːtʃ təˈdeɪ/", "ru": "Я не пойду на пляж сегодня" },
+        { "en": "We won't go to the beach tomorrow", "ipa": "/wiː wəʊnt ɡəʊ tuː ðə biːtʃ təˈmɒrəʊ/", "ru": "Мы не пойдём на пляж завтра" }
+      ]
+    },
+    {
+      "title": "Negative future with answers, speaking and waiting",
+      "rule": "won't answer / say / tell / talk / know / wait / pay",
+      "examples": [
+        { "en": "I won't answer", "ipa": "/aɪ wəʊnt ˈɑːnsə/", "ru": "Я не буду отвечать" },
+        { "en": "I won't answer this letter", "ipa": "/aɪ wəʊnt ˈɑːnsə ðɪs ˈletə/", "ru": "Я не буду отвечать на это письмо" },
+        { "en": "I won't answer this message", "ipa": "/aɪ wəʊnt ˈɑːnsə ðɪs ˈmesɪdʒ/", "ru": "Я не буду отвечать на это сообщение" },
+        { "en": "He won't say it", "ipa": "/hiː wəʊnt seɪ ɪt/", "ru": "Он не скажет это" },
+        { "en": "She won't tell him about it", "ipa": "/ʃiː wəʊnt tel hɪm əˈbaʊt ɪt/", "ru": "Она не расскажет ему об этом" },
+        { "en": "He won't tell his friend about it", "ipa": "/hiː wəʊnt tel hɪz frend əˈbaʊt ɪt/", "ru": "Он не будет говорить своему другу об этом" },
+        { "en": "They won't talk about it", "ipa": "/ðeɪ wəʊnt tɔːk əˈbaʊt ɪt/", "ru": "Они не будут говорить об этом" },
+        { "en": "He won't know about it", "ipa": "/hiː wəʊnt nəʊ əˈbaʊt ɪt/", "ru": "Он не узнает об этом" },
+        { "en": "I won't wait for it", "ipa": "/aɪ wəʊnt weɪt fɔː ɪt/", "ru": "Я не буду ждать этого" },
+        { "en": "I won't wait for him", "ipa": "/aɪ wəʊnt weɪt fɔː hɪm/", "ru": "Я не буду ждать его" },
+        { "en": "We won't wait for him", "ipa": "/wiː wəʊnt weɪt fɔː hɪm/", "ru": "Мы не будем его ждать" },
+        { "en": "I won't pay for it", "ipa": "/aɪ wəʊnt peɪ fɔː ɪt/", "ru": "Я не буду платить за это" }
+      ]
+    },
+    {
+      "title": "Negative future with actions and games",
+      "rule": "won't + action verb",
+      "examples": [
+        { "en": "I won't dance", "ipa": "/aɪ wəʊnt dɑːns/", "ru": "Я не буду танцевать" },
+        { "en": "I won't play this game", "ipa": "/aɪ wəʊnt pleɪ ðɪs ɡeɪm/", "ru": "Я не буду играть в эту игру" },
+        { "en": "They won't play", "ipa": "/ðeɪ wəʊnt pleɪ/", "ru": "Они не будут играть" },
+        { "en": "He won't believe it", "ipa": "/hiː wəʊnt bɪˈliːv ɪt/", "ru": "Он не поверит этому" }
+      ]
+    },
+    {
+      "title": "Negative future with to be",
+      "rule": "won't be = не буду / не будет / не будут",
+      "examples": [
+        { "en": "I won't be busy", "ipa": "/aɪ wəʊnt biː ˈbɪzi/", "ru": "Я не буду занят" },
+        { "en": "I won't be busy tomorrow", "ipa": "/aɪ wəʊnt biː ˈbɪzi təˈmɒrəʊ/", "ru": "Я не буду занят завтра" },
+        { "en": "It won't be interesting for you", "ipa": "/ɪt wəʊnt biː ˈɪntrɪstɪŋ fɔː juː/", "ru": "Это не будет интересно тебе" },
+        { "en": "It won't be easy. It'll be very difficult", "ipa": "/ɪt wəʊnt biː ˈiːzi. ɪtl biː ˈveri ˈdɪfɪkəlt/", "ru": "Это не будет легко. Это будет очень сложно" },
+        { "en": "I won't be at home tomorrow. I'll be away", "ipa": "/aɪ wəʊnt biː æt həʊm təˈmɒrəʊ. aɪl biː əˈweɪ/", "ru": "Меня не будет дома завтра. Я буду в отъезде" },
+        { "en": "I won't pay for it. It'll be free", "ipa": "/aɪ wəʊnt peɪ fɔː ɪt. ɪtl biː friː/", "ru": "Я не буду платить за это. Это будет бесплатно" }
+      ]
+    },
+    {
+      "title": "Negative future with alternatives",
+      "rule": "Часто сначала говорим, что не будем делать одно, а потом что сделаем другое.",
+      "examples": [
+        { "en": "I won't buy this car. I'll buy another car", "ipa": "/aɪ wəʊnt baɪ ðɪs kɑː. aɪl baɪ əˈnʌðə kɑː/", "ru": "Я не буду покупать эту машину. Я куплю другую машину" },
+        { "en": "I won't go to this place tomorrow. I'll go to another place", "ipa": "/aɪ wəʊnt ɡəʊ tuː ðɪs pleɪs təˈmɒrəʊ. aɪl ɡəʊ tuː əˈnʌðə pleɪs/", "ru": "Я не пойду в это место завтра. Я пойду в другое место" },
+        { "en": "They won't buy a house. They'll buy an apartment", "ipa": "/ðeɪ wəʊnt baɪ ə haʊs. ðeɪl baɪ ən əˈpɑːtmənt/", "ru": "Они не будут покупать дом. Они купят квартиру" },
+        { "en": "He won't study in England. He'll study in another country", "ipa": "/hiː wəʊnt ˈstʌdi ɪn ˈɪŋɡlənd. hiːl ˈstʌdi ɪn əˈnʌðə ˈkʌntri/", "ru": "Он не будет учиться в Англии. Он будет учиться в другой стране" }
+      ]
+    }
+  ]
+}

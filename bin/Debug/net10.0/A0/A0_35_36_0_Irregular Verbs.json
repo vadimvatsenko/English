@@ -1,0 +1,22 @@
+{
+  "sections": [
+    {
+      "title": "Irregular Verbs - Choice, Daily Life & Hobbies",
+      "rule": "Глаголы темы: три формы на английском, транскрипция и перевод через пробел.",
+      "examples": [
+        { "en": "choose chose chosen", "ipa": "[tʃuːz] [tʃəʊz] [ˈtʃəʊzən]", "ru": "выбирать выбрал выбранный" },
+        { "en": "drink drank drunk", "ipa": "[drɪŋk] [dræŋk] [drʌŋk]", "ru": "пить выпил выпитый" },
+        { "en": "eat ate eaten", "ipa": "[iːt] [et] [ˈiːtən]", "ru": "есть съел съеленный" },
+        { "en": "find found found", "ipa": "[faɪnd] [faʊnd] [faʊnd]", "ru": "находить нашел найденный" },
+        { "en": "fly flew flown", "ipa": "[flaɪ] [fluː] [fləʊn]", "ru": "летать полетел полетевший" },
+        { "en": "hear heard heard", "ipa": "[hɪə] [hɜːd] [hɜːd]", "ru": "слышать услышал услышанный" },
+        { "en": "lose lost lost", "ipa": "[luːz] [lɒst] [lɒst]", "ru": "терять потерял потерянный" },
+        { "en": "sell sold sold", "ipa": "[sel] [səʊld] [səʊld]", "ru": "продавать продал проданный" },
+        { "en": "swim swam swum", "ipa": "[swɪm] [swæm] [swʌm]", "ru": "плавать плавал поплывший" },
+        { "en": "teach taught taught", "ipa": "[tiːtʃ] [tɔːt] [tɔːt]", "ru": "обучать обучил обученный" },
+        { "en": "think thought thought", "ipa": "[θɪŋk] [θɔːt] [θɔːt]", "ru": "думать думал задуманный" },
+        { "en": "win won won", "ipa": "[wɪn] [wʌn] [wʌn]", "ru": "выигрывать выиграл выигранный" }
+      ]
+    }
+  ]
+}

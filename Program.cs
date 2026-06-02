@@ -9,9 +9,16 @@ namespace English
         public static async Task Main(string[] args)
         {
             EncodingSetup();
-            // вернёт назад authService и user
-            var (authService, user) = await StartMenu();
+            AuthService authService = new AuthService();
+            await authService.InitializeAsync();
+            
+            User user = await authService.TryAutoLoginAsync();
 
+            if (user == null)
+            {
+                user = await StartMenu(authService);
+            }
+            
             if (user != null)
             {
                 // Словарь с названиями уровней, цифра номер string название json
@@ -39,13 +46,10 @@ namespace English
         }
 
         // стартовое меню с регистрацией и логинизацией
-        private static async Task<(AuthService authService, User? user)> StartMenu()
+        private static async Task<User?> StartMenu(AuthService authService)
         {
             Console.Clear();
             
-            AuthService authService = new AuthService();
-            await authService.InitializeAsync();
-
             string messageHeader = "Enter you option";
             int inputInt = ColorizeMenuInput(StaticFields.MainMenu, messageHeader);
             
@@ -67,7 +71,7 @@ namespace English
                     break;
             }
 
-            return (authService, user);
+            return user;
         }
         
         // покраска и управление меню
@@ -169,7 +173,15 @@ namespace English
                     break;
                 case 2:
                     // back 
-                    await StartMenu();
+                    await StartMenu(authService);
+                    break;
+                case 3:
+                    await authService.SaveSessionAsync(user.Id);
+                    await UserChoiceMenu(user, levelsDict, authService);
+                    break;
+                case 4:
+                    await authService.LogoutAsync();
+                    await StartMenu(authService);
                     break;
                 default:
                     Console.WriteLine("Wrong menu option!");

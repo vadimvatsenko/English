@@ -7,10 +7,14 @@ public class AuthService
 {
     private const string DirPath = "save data";
     private readonly string FilePath;
+    
+    // Шлях до файлу сесії (для автологіну)
+    private readonly string SessionFilePath;
 
     public AuthService()
     {
         FilePath = Path.Combine(DirPath, "save.json");
+        SessionFilePath = Path.Combine(DirPath, "session.json");
     }
     
     public async Task InitializeAsync()
@@ -24,6 +28,55 @@ public class AuthService
             // Записуємо "[]" — порожній JSON-масив (тобто порожній список користувачів)
             await File.WriteAllTextAsync(FilePath, "[]");
         }
+    }
+    
+    public async Task<User?> TryAutoLoginAsync()
+    {
+        // Якщо файлу сесії немає — автоматичний вхід неможливий
+        if (!File.Exists(SessionFilePath)) return null;
+
+        try
+        {
+            // Читаємо ID користувача, який зберігся з минулого разу
+            string savedId = await File.ReadAllTextAsync(SessionFilePath);
+            if (string.IsNullOrWhiteSpace(savedId)) return null;
+
+            // Завантажуємо всіх користувачів і шукаємо того, чий ID збігається
+            List<User> allUsers = await LoadUsersAsync();
+            User? user = allUsers.FirstOrDefault(u => u.Id == savedId);
+
+            if (user != null)
+            {
+                Console.WriteLine($"[Автологін] З поверненням, {user.Name}!");
+                return user;
+            }
+        }
+        catch
+        {
+            // Якщо файл сесії пошкоджений — ігноруємо його і просимо увійти вручную
+            return null;
+        }
+
+        return null;
+    }
+    
+    // --- ДОПОМІЖНИЙ МЕТОД: Збереження сесії ---
+    public async Task SaveSessionAsync(string userId)
+    {
+        // Записуємо ID користувача у файл сесії
+        // Для навчального проєкту цього достатньо. У реальних додатках тут зазвичай зберігають зашифрований токен.
+        await File.WriteAllTextAsync(SessionFilePath, userId);
+    }
+
+    // --- НОВИЙ МЕТОД: Вихід з акаунту (розлогін) ---
+    public async Task LogoutAsync()
+    {
+        // Якщо файл сесії існує — видаляємо його, щоб скинути автологін
+        if (File.Exists(SessionFilePath))
+        {
+            File.Delete(SessionFilePath);
+        }
+        Console.WriteLine("Ви успішно вийшли з акаунту.");
     }
     
     public async Task<List<User>> LoadUsersAsync()

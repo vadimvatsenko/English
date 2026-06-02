@@ -1,0 +1,472 @@
+{
+  "vocabulary": [
+    {
+      "en": "where",
+      "ipa": "/weə/",
+      "ru": "где / куда"
+    },
+    {
+      "en": "why",
+      "ipa": "/waɪ/",
+      "ru": "почему"
+    },
+    {
+      "en": "how",
+      "ipa": "/haʊ/",
+      "ru": "как"
+    },
+    {
+      "en": "what",
+      "ipa": "/wɒt/",
+      "ru": "что / какой"
+    },
+    {
+      "en": "do",
+      "ipa": "/duː/",
+      "ru": "делать (вопросы/вспомогательный)"
+    },
+    {
+      "en": "does",
+      "ipa": "/dʌz/",
+      "ru": "делает (вопросы/вспомогательный для he/she/it)"
+    },
+    {
+      "en": "want",
+      "ipa": "/wɒnt/",
+      "ru": "хотеть"
+    },
+    {
+      "en": "prefer",
+      "ipa": "/prɪˈfɜː/",
+      "ru": "предпочитать"
+    },
+    {
+      "en": "learn",
+      "ipa": "/lɜːn/",
+      "ru": "учить(ся)"
+    },
+    {
+      "en": "find",
+      "ipa": "/faɪnd/",
+      "ru": "находить"
+    },
+    {
+      "en": "time",
+      "ipa": "/taɪm/",
+      "ru": "время"
+    },
+    {
+      "en": "free time",
+      "ipa": "/friː taɪm/",
+      "ru": "свободное время"
+    },
+    {
+      "en": "all this",
+      "ipa": "/ɔːl ðɪs/",
+      "ru": "всё это"
+    },
+    {
+      "en": "know",
+      "ipa": "/nəʊ/",
+      "ru": "знать"
+    },
+    {
+      "en": "live",
+      "ipa": "/lɪv/",
+      "ru": "жить"
+    },
+    {
+      "en": "study",
+      "ipa": "/ˈstʌdi/",
+      "ru": "учиться"
+    },
+    {
+      "en": "work",
+      "ipa": "/wɜːk/",
+      "ru": "работать"
+    },
+    {
+      "en": "cost",
+      "ipa": "/kɒst/",
+      "ru": "стоить"
+    },
+    {
+      "en": "ticket",
+      "ipa": "/ˈtɪkɪt/",
+      "ru": "билет"
+    },
+    {
+      "en": "dress",
+      "ipa": "/dres/",
+      "ru": "платье"
+    },
+    {
+      "en": "ring",
+      "ipa": "/rɪŋ/",
+      "ru": "кольцо"
+    },
+    {
+      "en": "bracelet",
+      "ipa": "/ˈbreɪslət/",
+      "ru": "браслет"
+    },
+    {
+      "en": "bag",
+      "ipa": "/bæɡ/",
+      "ru": "сумка"
+    },
+    {
+      "en": "service",
+      "ipa": "/ˈsɜːvɪs/",
+      "ru": "услуга"
+    },
+    {
+      "en": "pay",
+      "ipa": "/peɪ/",
+      "ru": "платить"
+    },
+    {
+      "en": "education",
+      "ipa": "/ˌedʒuˈkeɪʃn/",
+      "ru": "образование"
+    },
+    {
+      "en": "usually",
+      "ipa": "/ˈjuːʒuəli/",
+      "ru": "обычно"
+    },
+    {
+      "en": "get up",
+      "ipa": "/ɡet ʌp/",
+      "ru": "вставать"
+    },
+    {
+      "en": "come",
+      "ipa": "/kʌm/",
+      "ru": "приходить"
+    },
+    {
+      "en": "home",
+      "ipa": "/həʊm/",
+      "ru": "домой"
+    },
+    {
+      "en": "go to bed",
+      "ipa": "/ɡəʊ tə bed/",
+      "ru": "ложиться спать"
+    },
+    {
+      "en": "often",
+      "ipa": "/ˈɒfən/",
+      "ru": "часто"
+    },
+    {
+      "en": "drive",
+      "ipa": "/draɪv/",
+      "ru": "водить (машину)"
+    },
+    {
+      "en": "gym",
+      "ipa": "/dʒɪm/",
+      "ru": "спортзал"
+    },
+    {
+      "en": "spend time",
+      "ipa": "/spend taɪm/",
+      "ru": "проводить время"
+    },
+    {
+      "en": "family",
+      "ipa": "/ˈfæməli/",
+      "ru": "семья"
+    },
+    {
+      "en": "park",
+      "ipa": "/pɑːk/",
+      "ru": "парк"
+    },
+    {
+      "en": "book",
+      "ipa": "/bʊk/",
+      "ru": "книга"
+    },
+    {
+      "en": "movies",
+      "ipa": "/ˈmuːviz/",
+      "ru": "фильмы"
+    },
+    {
+      "en": "videos",
+      "ipa": "/ˈvɪdiəʊz/",
+      "ru": "видео"
+    },
+    {
+      "en": "games",
+      "ipa": "/ɡeɪmz/",
+      "ru": "игры"
+    },
+    {
+      "en": "play",
+      "ipa": "/pleɪ/",
+      "ru": "играть"
+    }
+  ],
+  "sections": [
+    {
+      "title": "A2 Questions (Do / Does / What time / Where / How often / How much)",
+      "rule": "Готовые вопросы для практики. Формат: ru / en / ipa.",
+      "examples": [
+        {
+          "ru": "Во сколько ты обычно встаёшь?",
+          "en": "What time do you usually get up?",
+          "ipa": "[wɒt taɪm duː juː ˈjuːʒuəli get ʌp?]"
+        },
+        {
+          "ru": "Почему ты так много работаешь?",
+          "en": "Why do you work so much?",
+          "ipa": "[waɪ duː juː wɜːk səʊ mʌtʃ?]"
+        },
+        {
+          "ru": "Где ты работаешь?",
+          "en": "Where do you work?",
+          "ipa": "[weə duː juː wɜːk?]"
+        },
+        {
+          "ru": "Где он хочет учиться?",
+          "en": "Where does he want to study?",
+          "ipa": "[weə dʌz hiː wɒnt tuː ˈstʌdi?]"
+        },
+        {
+          "ru": "Что ты знаешь об этом?",
+          "en": "What do you know about it?",
+          "ipa": "[wɒt duː juː nəʊ əˈbaʊt ɪt?]"
+        },
+        {
+          "ru": "Когда ты находишь время на всё это?",
+          "en": "When do you find time for all this?",
+          "ipa": "[wen duː juː faɪnd taɪm fɔː ɔːl ðɪs?]"
+        },
+        {
+          "ru": "Как часто ты водишь машину?",
+          "en": "How often do you drive a car?",
+          "ipa": "[haʊ ˈɒfn duː juː draɪv ə kɑː?]"
+        },
+        {
+          "ru": "Где ты учишься?",
+          "en": "Where do you study?",
+          "ipa": "[weə duː juː ˈstʌdi?]"
+        },
+        {
+          "ru": "Сколько это стоит?",
+          "en": "How much does it cost?",
+          "ipa": "[haʊ mʌtʃ dʌz ɪt kɒst?]"
+        },
+        {
+          "ru": "Где ты хочешь работать?",
+          "en": "Where do you want to work?",
+          "ipa": "[weə duː juː wɒnt tuː wɜːk?]"
+        },
+        {
+          "ru": "Сколько стоит этот билет?",
+          "en": "How much does this ticket cost?",
+          "ipa": "[haʊ mʌtʃ dʌz ðɪs ˈtɪkɪt kɒst?]"
+        },
+        {
+          "ru": "Когда ты работаешь?",
+          "en": "When do you work?",
+          "ipa": "[wen duː juː wɜːk?]"
+        },
+        {
+          "ru": "Сколько стоит эта сумка?",
+          "en": "How much does this bag cost?",
+          "ipa": "[haʊ mʌtʃ dʌz ðɪs bæg kɒst?]"
+        },
+        {
+          "ru": "Что ты хочешь сделать?",
+          "en": "What do you want to do?",
+          "ipa": "[wɒt duː juː wɒnt tuː duː?]"
+        },
+        {
+          "ru": "Сколько стоит это кольцо?",
+          "en": "How much does this ring cost?",
+          "ipa": "[haʊ mʌtʃ dʌz ðɪs rɪŋ kɒst?]"
+        },
+        {
+          "ru": "Во сколько ты обычно ложишься спать?",
+          "en": "What time do you usually go to bed?",
+          "ipa": "[wɒt taɪm duː juː ˈjuːʒuəli gəʊ tuː bed?]"
+        },
+        {
+          "ru": "Какие фильмы ты предпочитаешь смотреть?",
+          "en": "What movies do you prefer to watch?",
+          "ipa": "[wɒt ˈmuːviz duː juː prɪˈfɜː tuː wɒtʃ?]"
+        },
+        {
+          "ru": "Как часто ты изучаешь английский?",
+          "en": "How often do you learn English?",
+          "ipa": "[haʊ ˈɒfn duː juː lɜːn ˈɪŋglɪʃ?]"
+        },
+        {
+          "ru": "Сколько стоит эта услуга?",
+          "en": "How much does this service cost?",
+          "ipa": "[haʊ mʌtʃ dʌz ðɪs ˈsɜːvɪs kɒst?]"
+        },
+        {
+          "ru": "Где она учится?",
+          "en": "Where does she study?",
+          "ipa": "[weə dʌz ʃiː ˈstʌdi?]"
+        },
+        {
+          "ru": "Какие фильмы ты смотришь?",
+          "en": "What movies do you watch?",
+          "ipa": "[wɒt ˈmuːviz duː juː wɒtʃ?]"
+        },
+        {
+          "ru": "Сколько ты платишь за это?",
+          "en": "How much do you pay for it?",
+          "ipa": "[haʊ mʌtʃ duː juː peɪ fɔː ɪt?]"
+        },
+        {
+          "ru": "Где она живёт?",
+          "en": "Where does she live?",
+          "ipa": "[weə dʌz ʃiː lɪv?]"
+        },
+        {
+          "ru": "Сколько стоит это платье?",
+          "en": "How much does this dress cost?",
+          "ipa": "[haʊ mʌtʃ dʌz ðɪs dres kɒst?]"
+        },
+        {
+          "ru": "Как часто ты проводишь время с семьёй?",
+          "en": "How often do you spend time with your family?",
+          "ipa": "[haʊ ˈɒfn duː juː spend taɪm wɪð jɔː ˈfæmɪli?]"
+        },
+        {
+          "ru": "Сколько вы платите за эту услугу?",
+          "en": "How much do you pay for this service?",
+          "ipa": "[haʊ mʌtʃ duː juː peɪ fɔː ðɪs ˈsɜːvɪs?]"
+        },
+        {
+          "ru": "Куда ты хочешь пойти сейчас?",
+          "en": "Where do you want to go now?",
+          "ipa": "[weə duː juː wɒnt tuː gəʊ naʊ?]"
+        },
+        {
+          "ru": "Что он хочет?",
+          "en": "What does he want?",
+          "ipa": "[wɒt dʌz hiː wɒnt?]"
+        },
+        {
+          "ru": "Сколько стоит этот браслет?",
+          "en": "How much does this bracelet cost?",
+          "ipa": "[haʊ mʌtʃ dʌz ðɪs ˈbreɪslɪt kɒst?]"
+        },
+        {
+          "ru": "Во сколько ты обычно приходишь домой?",
+          "en": "What time do you usually come home?",
+          "ipa": "[wɒt taɪm duː juː ˈjuːʒuəli kʌm həʊm?]"
+        },
+        {
+          "ru": "В какие игры ты играешь?",
+          "en": "What games do you play?",
+          "ipa": "[wɒt geɪmz duː juː pleɪ?]"
+        },
+        {
+          "ru": "Во сколько ты обычно приходишь на работу?",
+          "en": "What time do you usually come to work?",
+          "ipa": "[wɒt taɪm duː juː ˈjuːʒuəli kʌm tuː wɜːk?]"
+        },
+        {
+          "ru": "Когда у тебя есть свободное время?",
+          "en": "When do you have free time?",
+          "ipa": "[wen duː juː hæv friː taɪm?]"
+        },
+        {
+          "ru": "Как часто он ходит в спортзал?",
+          "en": "How often does he go to the gym?",
+          "ipa": "[haʊ ˈɒfn dʌz hiː gəʊ tuː ðə dʒɪm?]"
+        },
+        {
+          "ru": "Какие книги ты читаешь?",
+          "en": "What books do you read?",
+          "ipa": "[wɒt bʊks duː juː riːd?]"
+        },
+        {
+          "ru": "Что она знает?",
+          "en": "What does she know?",
+          "ipa": "[wɒt dʌz ʃiː nəʊ?]"
+        },
+        {
+          "ru": "В какие игры ты обычно играешь?",
+          "en": "What games do you usually play?",
+          "ipa": "[wɒt geɪmz duː juː ˈjuːʒuəli pleɪ?]"
+        },
+        {
+          "ru": "Сколько ты платишь за своё образование?",
+          "en": "How much do you pay for your education?",
+          "ipa": "[haʊ mʌtʃ duː juː peɪ fɔː jɔː ˌedjuˈkeɪʃən?]"
+        },
+        {
+          "ru": "Как ты предпочитаешь учить английский?",
+          "en": "How do you prefer to learn English?",
+          "ipa": "[haʊ duː juː prɪˈfɜː tuː lɜːn ˈɪŋglɪʃ?]"
+        },
+        {
+          "ru": "Где ты живёшь?",
+          "en": "Where do you live?",
+          "ipa": "[weə duː juː lɪv?]"
+        },
+        {
+          "ru": "Как часто ты ходишь в парк?",
+          "en": "How often do you go to the park?",
+          "ipa": "[haʊ ˈɒfn duː juː gəʊ tuː ðə pɑːk?]"
+        },
+        {
+          "ru": "Где он работает?",
+          "en": "Where does he work?",
+          "ipa": "[weə dʌz hiː wɜːk?]"
+        },
+        {
+          "ru": "Как он предпочитает изучать английский?",
+          "en": "How does he prefer to learn English?",
+          "ipa": "[haʊ dʌz hiː prɪˈfɜː tuː lɜːn ˈɪŋglɪʃ?]"
+        },
+        {
+          "ru": "Что ты знаешь обо всём этом?",
+          "en": "What do you know about all this?",
+          "ipa": "[wɒt duː juː nəʊ əˈbaʊt ɔːl ðɪs?]"
+        },
+        {
+          "ru": "Какие видео ты обычно смотришь?",
+          "en": "What videos do you usually watch?",
+          "ipa": "[wɒt ˈvɪdiəʊz duː juː ˈjuːʒuəli wɒtʃ?]"
+        },
+        {
+          "ru": "Как часто ты это делаешь?",
+          "en": "How often do you do it?",
+          "ipa": "[haʊ ˈɒfn duː juː duː ɪt?]"
+        },
+        {
+          "ru": "Почему ты так думаешь?",
+          "en": "Why do you think so?",
+          "ipa": "[waɪ duː juː θɪŋk səʊ?]"
+        },
+        {
+          "ru": "Как часто ты ходишь в спортзал?",
+          "en": "How often do you go to the gym?",
+          "ipa": "[haʊ ˈɒfn duː juː gəʊ tuː ðə dʒɪm?]"
+        },
+        {
+          "ru": "Когда ты находишь время на это?",
+          "en": "When do you find time for it?",
+          "ipa": "[wen duː juː faɪnd taɪm fɔː ɪt?]"
+        },
+        {
+          "ru": "Что он хочет сделать?",
+          "en": "What does he want to do?",
+          "ipa": "[wɒt dʌz hiː wɒnt tuː duː?]"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+﻿{
+  "vocabulary": [
+    { "en": "company", "ipa": "/ˈkʌmpəni/", "ru": "компания" },
+    { "en": "food", "ipa": "/fuːd/", "ru": "еда" },
+    { "en": "love", "ipa": "/lʌv/", "ru": "любить" },
+    { "en": "laughs", "ipa": "/læfs/", "ru": "смеётся" },
+    { "en": "hotel", "ipa": "/həʊˈtel/", "ru": "отель, гостиница" },
+    { "en": "keys", "ipa": "/kiːz/", "ru": "ключи" },
+    { "en": "kiss", "ipa": "/kɪs/", "ru": "поцелуй; целовать" },
+    { "en": "work", "ipa": "/wɜːk/", "ru": "работать; работа" },
+    { "en": "office", "ipa": "/ˈɒfɪs/", "ru": "офис" },
+    { "en": "payment", "ipa": "/ˈpeɪmənt/", "ru": "оплата, платеж" }
+  ],
+  "sections": [
+    {
+      "title": "Present Simple",
+      "rule": "Структура: подлежащее + глагол + … Для I: I + глагол + …",
+      "examples": [
+        { "en": "I agree", "ipa": "/aɪ əˈɡriː/", "ru": "Я согласен" },
+        { "en": "I understand", "ipa": "/aɪ ˌʌndəˈstænd/", "ru": "Я понимаю" },
+        { "en": "I know", "ipa": "/aɪ nəʊ/", "ru": "Я знаю" }
+      ]
+    },
+    {
+      "title": "Present Simple",
+      "rule": "Структура (1.3): I / We / You / They + глагол + …",
+      "examples": [
+        { "en": "We support you", "ipa": "/wiː səˈpɔːt juː/", "ru": "Мы поддерживаем тебя" },
+        { "en": "You do it very well", "ipa": "/juː duː ɪt ˈveri wel/", "ru": "Ты делаешь это очень хорошо" },
+        { "en": "They want more", "ipa": "/ðeɪ wɒnt mɔː/", "ru": "Они хотят большего" }
+      ]
+    },
+    {
+      "title": "Present Simple",
+      "rule": "Структура: I / We / You / They + глагол + …",
+      "examples": [
+        { "en": "I agree with you", "ipa": "/aɪ əˈɡriː wɪð juː/", "ru": "Я согласен с тобой" },
+        { "en": "I support you", "ipa": "/aɪ səˈpɔːt juː/", "ru": "Я поддерживаю тебя" },
+        { "en": "We see this problem", "ipa": "/wiː siː ðɪs ˈprɒbləm/", "ru": "Мы видим эту проблему" },
+        { "en": "They work in this place", "ipa": "/ðeɪ wɜːk ɪn ðɪs pleɪs/", "ru": "Они работают в этом месте" }
+      ]
+    },
+    {
+      "title": "I have a / an … (1.4)",
+      "rule": "a — перед согласным звуком, an — перед гласным звуком. (1.5) I have a + согласный звук",
+      "examples": [
+        { "en": "I have a friend", "ipa": "/aɪ hæv ə frend/", "ru": "У меня есть друг" },
+        { "en": "I have a question", "ipa": "/aɪ hæv ə ˈkwestʃən/", "ru": "У меня вопрос" },
+        { "en": "I have a ticket", "ipa": "/aɪ hæv ə ˈtɪkɪt/", "ru": "У меня есть билет" }
+      ]
+    },
+    {
+      "title": "I have a / an + гласный звук (1.6)",
+      "rule": "an — перед гласным звуком (a, e, i, o, u). Важно: выбираем по звуку, не по букве.",
+      "examples": [
+        { "en": "I have an idea", "ipa": "/aɪ hæv ən aɪˈdɪə/", "ru": "У меня есть идея" },
+        { "en": "I have an umbrella", "ipa": "/aɪ hæv ən ʌmˈbrelə/", "ru": "У меня есть зонт" },
+        { "en": "I see a university", "ipa": "/aɪ siː ə ˌjuːnɪˈvɜːsɪti/", "ru": "Я вижу университет" }
+      ]
+    },
+    {
+      "title": "a / an (по звуку)",
+      "rule": "an — перед гласным звуком, a — перед согласным.",
+      "examples": [
+        { "en": "We see an airport", "ipa": "/wiː siː ən ˈeəpɔːt/", "ru": "Мы видим аэропорт" },
+        { "en": "I see a supermarket", "ipa": "/aɪ siː ə ˈsuːpəˌmɑːkɪt/", "ru": "Я вижу супермаркет" },
+        { "en": "I see a hotel", "ipa": "/aɪ siː ə həʊˈtel/", "ru": "Я вижу отель" },
+        { "en": "I have a problem", "ipa": "/aɪ hæv ə ˈprɒbləm/", "ru": "У меня проблема" }
+      ]
+    },
+    {
+      "title": "I like … (1.7)",
+      "rule": "Структура: I like + … (Мне нравится …)",
+      "examples": [
+        { "en": "I like English", "ipa": "/aɪ laɪk ˈɪŋɡlɪʃ/", "ru": "Мне нравится английский" },
+        { "en": "I like this place", "ipa": "/aɪ laɪk ðɪs pleɪs/", "ru": "Мне нравится это место" },
+        { "en": "I like this food", "ipa": "/aɪ laɪk ðɪs fuːd/", "ru": "Мне нравится эта еда" }
+      ]
+    },
+    {
+      "title": "I see a / an …",
+      "rule": "Структура: I see + a/an + предмет. a — перед согласным звуком, an — перед гласным.",
+      "examples": [
+        { "en": "I see a train", "ipa": "/aɪ siː ə treɪn/", "ru": "Я вижу поезд" },
+        { "en": "I see a bus", "ipa": "/aɪ siː ə bʌs/", "ru": "Я вижу автобус" },
+        { "en": "I have a result", "ipa": "/aɪ hæv ə rɪˈzʌlt/", "ru": "У меня есть результат" },
+        { "en": "I have a family", "ipa": "/aɪ hæv ə ˈfæməli/", "ru": "У меня есть семья" }
+      ]
+    },
+    {
+      "title": "have / work in …",
+      "rule": "Present Simple: I / You / They + глагол + …",
+      "examples": [
+        { "en": "You have a talent", "ipa": "/juː hæv ə ˈtælənt/", "ru": "У тебя есть талант" },
+        { "en": "I work in a company", "ipa": "/aɪ wɜːk ɪn ə ˈkʌmpəni/", "ru": "Я работаю в компании" },
+        { "en": "They work in a company", "ipa": "/ðeɪ wɜːk ɪn ə ˈkʌmpəni/", "ru": "Они работают в компании" },
+        { "en": "I work in this company", "ipa": "/aɪ wɜːk ɪn ðɪs ˈkʌmpəni/", "ru": "Я работаю в этой компании" }
+      ]
+    },
+    {
+      "title": "I / We see… • I / They have…",
+      "rule": "Present Simple: I / We / They + глагол + …",
+      "examples": [
+        { "en": "I see a message", "ipa": "/aɪ siː ə ˈmesɪdʒ/", "ru": "Я вижу сообщение" },
+        { "en": "We see a message", "ipa": "/wiː siː ə ˈmesɪdʒ/", "ru": "Мы видим сообщение" },
+        { "en": "I have a job", "ipa": "/aɪ hæv ə dʒɒb/", "ru": "У меня есть работа" },
+        { "en": "They have a job", "ipa": "/ðeɪ hæv ə dʒɒb/", "ru": "У них есть работа" }
+      ]
+    },
+    {
+      "title": "I really + глагол … (1.7)",
+      "rule": "Шаблоны: I really want … (1.8) — Я очень хочу …; I really like … (1.9) — Мне очень нравится …",
+      "examples": [
+        { "en": "I really want it", "ipa": "/aɪ ˈrɪəli wɒnt ɪt/", "ru": "Я очень хочу это" },
+        { "en": "I really like it", "ipa": "/aɪ ˈrɪəli laɪk ɪt/", "ru": "Мне очень нравится это" }
+      ]
+    },
+    {
+      "title": "I really like … (усиление: “очень”)",
+      "rule": "Структура: I really like + …",
+      "examples": [
+        { "en": "I really like this country", "ipa": "/aɪ ˈrɪəli laɪk ðɪs ˈkʌntri/", "ru": "Мне очень нравится эта страна" },
+        { "en": "I really like this city", "ipa": "/aɪ ˈrɪəli laɪk ðɪs ˈsɪti/", "ru": "Мне очень нравится этот город" },
+        { "en": "I really like this course", "ipa": "/aɪ ˈrɪəli laɪk ðɪs kɔːs/", "ru": "Мне очень нравится этот курс" },
+        { "en": "I really like English", "ipa": "/aɪ ˈrɪəli laɪk ˈɪŋɡlɪʃ/", "ru": "Мне очень нравится английский" }
+      ]
+    }
+  ]
+}
