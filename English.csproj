@@ -9,7 +9,9 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <PackageReference Include="ANSI.Console" Version="2.5.0" />
       <PackageReference Include="FirebaseAuthentication.net" Version="4.1.0" />
+      <PackageReference Include="Spectre.Console" Version="0.55.3-alpha.0.18" />
     </ItemGroup>
 
 </Project>

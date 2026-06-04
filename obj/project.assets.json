@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     "net10.0": {
+      "ANSI.Console/2.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/ANSIConsole.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/ANSIConsole.dll": {}
+        }
+      },
       "FirebaseAuthentication.net/4.1.0": {
         "type": "package",
         "dependencies": {
@@ -30,10 +39,52 @@
             "related": ".xml"
           }
         }
+      },
+      "Spectre.Console/0.55.3-alpha.0.18": {
+        "type": "package",
+        "dependencies": {
+          "Spectre.Console.Ansi": "0.55.3-alpha.0.18"
+        },
+        "compile": {
+          "lib/net10.0/Spectre.Console.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0/Spectre.Console.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Spectre.Console.Ansi/0.55.3-alpha.0.18": {
+        "type": "package",
+        "compile": {
+          "lib/net10.0/Spectre.Console.Ansi.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0/Spectre.Console.Ansi.dll": {
+            "related": ".xml"
+          }
+        }
       }
     }
   },
   "libraries": {
+    "ANSI.Console/2.5.0": {
+      "sha512": "xVszQd1HA/EusmX/xGeomPBy6YIY5soaCKPuoqbOpZHP5Sfvg2xYdliBIQtcKVDUgNj+5G++LkFPP2Mtm0DITA==",
+      "type": "package",
+      "path": "ansi.console/2.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ansi.console.2.5.0.nupkg.sha512",
+        "ansi.console.nuspec",
+        "lib/net5.0/ANSIConsole.dll",
+        "logo_cropped.png"
+      ]
+    },
     "FirebaseAuthentication.net/4.1.0": {
       "sha512": "pShi5v9cvT5bUWZDm261lO4uxJHvzOvpj46YHrL3uCB1WBeyCIcpoVakAQ2xHTu1dpmV86/BzSNRpqIGNp860g==",
       "type": "package",
@@ -79,11 +130,55 @@
         "newtonsoft.json.nuspec",
         "packageIcon.png"
       ]
+    },
+    "Spectre.Console/0.55.3-alpha.0.18": {
+      "sha512": "vh2ltMTsZkrtpAC9kh/qSg+PSz1kMZ2L+NmDvrFuNQ1vO14V5fx4qskwLyWL9stti44dk29zH5k+4w3grtzAyQ==",
+      "type": "package",
+      "path": "spectre.console/0.55.3-alpha.0.18",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net10.0/Spectre.Console.dll",
+        "lib/net10.0/Spectre.Console.xml",
+        "lib/net8.0/Spectre.Console.dll",
+        "lib/net8.0/Spectre.Console.xml",
+        "lib/net9.0/Spectre.Console.dll",
+        "lib/net9.0/Spectre.Console.xml",
+        "lib/netstandard2.0/Spectre.Console.dll",
+        "lib/netstandard2.0/Spectre.Console.xml",
+        "logo.png",
+        "spectre.console.0.55.3-alpha.0.18.nupkg.sha512",
+        "spectre.console.nuspec"
+      ]
+    },
+    "Spectre.Console.Ansi/0.55.3-alpha.0.18": {
+      "sha512": "f9IU0AmqAsXSW7QbArcXa8pwQWh2psm/hbfUvUwjvoSA8xVoH1Ygc6IpMt9iwyq3tDfil3VWfHSbAnOq/rjKkw==",
+      "type": "package",
+      "path": "spectre.console.ansi/0.55.3-alpha.0.18",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net10.0/Spectre.Console.Ansi.dll",
+        "lib/net10.0/Spectre.Console.Ansi.xml",
+        "lib/net8.0/Spectre.Console.Ansi.dll",
+        "lib/net8.0/Spectre.Console.Ansi.xml",
+        "lib/net9.0/Spectre.Console.Ansi.dll",
+        "lib/net9.0/Spectre.Console.Ansi.xml",
+        "lib/netstandard2.0/Spectre.Console.Ansi.dll",
+        "lib/netstandard2.0/Spectre.Console.Ansi.xml",
+        "logo.png",
+        "spectre.console.ansi.0.55.3-alpha.0.18.nupkg.sha512",
+        "spectre.console.ansi.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
-      "FirebaseAuthentication.net >= 4.1.0"
+      "ANSI.Console >= 2.5.0",
+      "FirebaseAuthentication.net >= 4.1.0",
+      "Spectre.Console >= 0.55.3-alpha.0.18"
     ]
   },
   "packageFolders": {
@@ -131,9 +226,17 @@
       "net10.0": {
         "targetAlias": "net10.0",
         "dependencies": {
+          "ANSI.Console": {
+            "target": "Package",
+            "version": "[2.5.0, )"
+          },
           "FirebaseAuthentication.net": {
             "target": "Package",
             "version": "[4.1.0, )"
+          },
+          "Spectre.Console": {
+            "target": "Package",
+            "version": "[0.55.3-alpha.0.18, )"
           }
         },
         "imports": [

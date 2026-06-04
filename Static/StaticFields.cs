@@ -1,9 +1,11 @@
-﻿namespace English;
+﻿using Spectre.Console;
+
+namespace English;
 
 public class StaticFields
 {
     public static readonly string PathAllFiles = Path.GetFullPath(AppContext.BaseDirectory);
-        
+    
     public static readonly Dictionary<int, string> MainMenu = new Dictionary<int, string>()
     {
         [0] = "Login",     // 0 — логін
@@ -14,10 +16,9 @@ public class StaticFields
     public static readonly Dictionary<int, string> UserMenu = new Dictionary<int, string>()
     {
         [0] = "Start Practice",
-        [1] = "Repeat Hard Questions",
-        [2] = "< BACK TO MAIN MENU",
-        [3] = "AutoLogin",
-        [4] = "LogOut"
+        [1] = "AutoLogin [OFF]",
+        [2] = "< LogOut",
+        [3] = "Exit >"
     };
         
     // меню выбора, что делать
@@ -33,4 +34,10 @@ public class StaticFields
         [0] = "YES",
         [1] = "NO",
     };
+
+    public static void ChangeAutoLoginEnabled(bool enabled)
+    {
+        UserMenu[2] = enabled ? "AutoLogin [ON]" : " AutoLogin [OFF]";
+    }
+    
 }

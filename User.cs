@@ -19,6 +19,8 @@ public class User
     [JsonPropertyName("RatingText")] 
     public List<Rating> RatingText { get; set; }
     
+    
+    
     public void AddMissQustions(Examples v)
     {
         if (HardQuestion == null)
@@ -28,27 +30,5 @@ public class User
         if (!HardQuestion.Contains(v))
             if (HardQuestion != null)
                 HardQuestion.Add(v);
-    }
-
-    public void AddRatingText(string name, string rating)
-    {
-        if (RatingText == null)
-        {
-            RatingText = new List<Rating>();
-        }
-        
-        foreach (var r in RatingText)
-        {
-            if (r.NameTheme == name)
-            {
-                r.SetRatingTheme(rating);
-                r.AddTries();
-            }
-            else
-            {
-                RatingText.Add(new Rating(name, rating));
-                r.AddTries();
-            }
-        }
     }
 }

@@ -17,3 +17,6 @@ P:\Projects and Documents\Visual Studio Apps\English\obj\Debug\net10.0\refint\En
 P:\Projects and Documents\Visual Studio Apps\English\obj\Debug\net10.0\English.pdb
 P:\Projects and Documents\Visual Studio Apps\English\obj\Debug\net10.0\English.genruntimeconfig.cache
 P:\Projects and Documents\Visual Studio Apps\English\obj\Debug\net10.0\ref\English.dll
+P:\Projects and Documents\Visual Studio Apps\English\bin\Debug\net10.0\Spectre.Console.dll
+P:\Projects and Documents\Visual Studio Apps\English\bin\Debug\net10.0\Spectre.Console.Ansi.dll
+P:\Projects and Documents\Visual Studio Apps\English\bin\Debug\net10.0\ANSIConsole.dll

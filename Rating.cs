@@ -1,20 +1,29 @@
-﻿namespace English;
+﻿using System.Text.Json.Serialization;
 
+namespace English;
+
+[Serializable]
 public class Rating
 {
     public string NameTheme { get; private set; }
     public int Tries { get; private set; }
-    public string RatingTheme { get; private set; }
-    
-    public Rating(string name, string theme)
+    public int CorrectUnswers {get; private set; }
+    public int MissingUnswers {get; private set; }
+    public int AllUnswers {get; private set; }
+
+    [JsonConstructor]
+    public Rating(string nameTheme)
     {
-        NameTheme = name;
-        RatingTheme = theme;
+        NameTheme = nameTheme;
         Tries = 0;
+        CorrectUnswers = 0;
+        AllUnswers = 0;
     }
 
     public void SetNameTheme(string name) => NameTheme = name;
-    public void SetRatingTheme(string theme) => RatingTheme = theme;
     public void AddTries() => Tries++;
+    public void AddCorrectUnswers() => CorrectUnswers++;
+    public void SetAllUnswers(int all) => AllUnswers = all;
+    public void AddMissingUnswers() => MissingUnswers++;
     
 }
