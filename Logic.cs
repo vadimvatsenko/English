@@ -139,42 +139,9 @@ public class Logic
     private async Task StartPractice(Dictionary<int, string> levelsDict)
     {
         Console.Clear();
-
-        int numberLevel = _view.ColorizeMenuInput(levelsDict, $"{_user.Name}  Enter Level:");
-
-        string levelName = levelsDict[numberLevel];
-
-        bool isValidLevel = false;
-
-        Console.WriteLine($"Current Level: {levelsDict[numberLevel]}");
-
-        // логика выбора урока в теме
-        // 1. получаем все уроки в папке
-        string[] filesOnTheme = Directory.GetFiles(StaticFields.PathAllFiles + levelName);
-        Dictionary<int, string> filesOnThemeDict = new Dictionary<int, string>();
-
-        int coutFiles = 1;
-
-        Console.WriteLine();
-
-        filesOnThemeDict.Add(0, "< BACK MENU");
-
-        _user.RatingText = new List<Rating>();
-
-        // запоняем словарь данными
-        foreach (string file in filesOnTheme)
-        {
-            string name = Path.GetFileNameWithoutExtension(file);
-
-            filesOnThemeDict.Add(coutFiles, name);
-
-            _user.RatingText.Add(new Rating(name));
-
-            coutFiles++;
-        }
-
-        await _authService.UpdateUsersAsync(_user);
-
+        
+        string levelName = await EnterLevel(levelsDict);
+        Dictionary<int, string> filesOnThemeDict = FillLevelTopics(levelName);
         Console.Clear();
 
         int themeNumber = _view.ColorizeMenuInput(filesOnThemeDict, "Enter Theme: ");
@@ -182,7 +149,11 @@ public class Logic
         string fileName = ChooseDir(filesOnThemeDict, themeNumber);
 
         // чтобы вернутся на один пункт назад
-        if (themeNumber == 0) await StartPractice(levelsDict);
+        if (filesOnThemeDict.Keys.Max()  == themeNumber)
+        {
+            await StartPractice(levelsDict);
+            return;
+        }
 
         // полный путь к теме
         string FilePath = String.Empty;
@@ -213,6 +184,70 @@ public class Logic
         }
 
         Console.ReadKey();
+    }
+
+    
+
+    // выбор уровня
+    private async Task<string> EnterLevel(Dictionary<int, string> levelsDict)
+    {
+        bool isContainceBackMenu = levelsDict.ContainsValue(StaticFields.BACK_TO_USER_OPTION);
+        
+        if (!isContainceBackMenu)
+        {
+            int lastKey = levelsDict.Keys.Max();
+            levelsDict.Add(lastKey + 1, StaticFields.BACK_TO_USER_OPTION);
+        }
+        
+        int numberLevel = _view.ColorizeMenuInput(levelsDict, $"{_user.Name}  ENTER LEVEL:");
+
+        if (levelsDict.Keys.Max()  == numberLevel)
+        {
+            await UserChoiceMenu(levelsDict);
+            return null;
+        }
+        
+        string levelName = levelsDict[numberLevel];
+        bool isValidLevel = false;
+
+        Console.WriteLine($"Current Level: {levelsDict[numberLevel]}");
+        return levelName;
+    }
+    
+    // получаем словарь с темами по уровню
+    private Dictionary<int, string> FillLevelTopics(string levelName)
+    {
+        string[] filesOnTheme = Directory.GetFiles(StaticFields.PathAllFiles + levelName);
+        Dictionary<int, string> filesOnThemeDict = new Dictionary<int, string>();
+
+        int coutFiles = 0;
+
+        Console.WriteLine();
+        
+        //_user.RatingText = new List<Rating>();
+
+        // запоняем словарь данными
+        foreach (string file in filesOnTheme)
+        {
+            string name = Path.GetFileNameWithoutExtension(file);
+
+            filesOnThemeDict.Add(coutFiles, name);
+
+            //_user.RatingText.Add(new Rating(name));
+
+            coutFiles++;
+        }
+        
+        bool isContainceBackToChooseLevel = filesOnThemeDict.ContainsValue(StaticFields.BACK_TO_CHOOSE_LEVEL);
+        
+        if (!isContainceBackToChooseLevel)
+        {
+            int lastKey = filesOnThemeDict.Keys.Max();
+            filesOnThemeDict.Add(lastKey + 1, StaticFields.BACK_TO_CHOOSE_LEVEL);
+        }
+        
+        return filesOnThemeDict;
+        //await _authService.UpdateUsersAsync(_user);
     }
 
     private async void Extensions(Data? dataList, Dictionary<int, string> levelDict, bool isEnToRu,
@@ -292,53 +327,14 @@ public class Logic
                         words,
                         correctText,
                         StringComparison.OrdinalIgnoreCase);
-
-                    if (isEqual)
-                    {
-                        rating.AddCorrectUnswers();
-                        //await authService.UpdateUsersAsync(user);
-                        //correctAnswer++;
-                    }
-
-                    else
-                    {
-                        string message = $"Do you want to add this question"
-                                         + " "
-                                         + $"{correctText}".Color(StaticColors.Blue).Background(StaticColors.White)
-                                         + " "
-                                         + "to library?";
-
-                        int option = _view.ColorizeMenuInput(StaticFields.YesOrNoMenu, message, false);
-
-                        if (option == 0)
-                        {
-                            //user.AddMissQustions(e);
-                            Console.WriteLine($"add miss answer {d}");
-                        }
-
-                        rating.AddMissingUnswers();
-                    }
-
+                    
                     Console.WriteLine(e.Ipa.Color(StaticColors.Magenta) + " ");
-
                     Console.WriteLine(words.Color(StaticColors.Yellow));
                     Console.WriteLine(correctText.Color(StaticColors.Green));
+                    
                     Console.WriteLine(isEqual
                         ? "● CORRECT".Color(StaticColors.White).Background(StaticColors.Green)
                         : "❌ MISSTAKE".Color(StaticColors.White).Background(StaticColors.Red));
-
-                    Console.WriteLine();
-
-                    Console.Write("press any key to continue... or " + "Escape".Color("Red") + " to quit...");
-
-                    Console.WriteLine();
-
-                    ConsoleKeyInfo keyInfo = Console.ReadKey(true);
-                    if (keyInfo.Key == ConsoleKey.Escape)
-                    {
-                        await _authService.UpdateUsersAsync(_user);
-                        await Exit(0);
-                    }
                 }
 
                 count++;
@@ -348,8 +344,7 @@ public class Logic
         await _authService.UpdateUsersAsync(_user);
     }
 
-
-
+    
     // находит имя темы
     private static string ChooseDir(Dictionary<int, string> dict, int numbTheme)
     {

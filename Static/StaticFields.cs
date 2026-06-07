@@ -4,6 +4,9 @@ namespace English;
 
 public class StaticFields
 {
+    public static readonly string BACK_TO_USER_OPTION = "<== BACK TO USER OPTIONS";
+    public static readonly string BACK_TO_CHOOSE_LEVEL = "<== BACK TO CHOOSE LEVEL";
+    
     public static readonly string PathAllFiles = Path.GetFullPath(AppContext.BaseDirectory);
     
     public static readonly Dictionary<int, string> MainMenu = new Dictionary<int, string>()
@@ -18,7 +21,7 @@ public class StaticFields
         [0] = "Start Practice",
         [1] = "AutoLogin [OFF]",
         [2] = "< LogOut",
-        [3] = "Exit >"
+        [3] = "<== Exit"
     };
         
     // меню выбора, что делать
@@ -26,7 +29,7 @@ public class StaticFields
     {
         [0] = "From Russian to English",
         [1] = "From English to Russian",
-        [2] = "< BACK TO LEVEL MENU",
+        [2] = "<== BACK TO LEVEL MENU",
     };
     
     public static readonly Dictionary<int, string> YesOrNoMenu = new Dictionary<int, string>()
@@ -37,7 +40,7 @@ public class StaticFields
 
     public static void ChangeAutoLoginEnabled(bool enabled)
     {
-        UserMenu[2] = enabled ? "AutoLogin [ON]" : " AutoLogin [OFF]";
+        UserMenu[1] = enabled ? "AutoLogin [ON]" : " AutoLogin [OFF]";
     }
     
 }
