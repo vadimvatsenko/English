@@ -1,0 +1,260 @@
+{
+  "sections": [
+    {
+      "title": "Past Simple (from slides)",
+      "rule": "Фразы из скринов по Past Simple.",
+      "examples": [
+        {
+          "en": "I didn't know about it",
+          "ipa": "[aɪ dɪdnt nəʊ əˈbaʊt ɪt]",
+          "ru": "Я не знал об этом"
+        },
+        {
+          "en": "I didn't have time",
+          "ipa": "[aɪ dɪdnt hæv taɪm]",
+          "ru": "У меня не было времени"
+        },
+        {
+          "en": "I didn't like this idea at first",
+          "ipa": "[aɪ dɪdnt laɪk ðɪs aɪˈdɪə æt fɜːst]",
+          "ru": "Мне не понравилась эта идея сначала"
+        },
+        {
+          "en": "I didn't like this idea in the beginning",
+          "ipa": "[aɪ dɪdnt laɪk ðɪs aɪˈdɪə ɪn ðə bɪˈgɪnɪŋ]",
+          "ru": "Мне не понравилась эта идея в начале"
+        },
+        {
+          "en": "I didn't like it at first",
+          "ipa": "[aɪ dɪdnt laɪk ɪt æt fɜːst]",
+          "ru": "Мне не понравилось это сначала"
+        },
+        {
+          "en": "I didn't like it in the beginning",
+          "ipa": "[aɪ dɪdnt laɪk ɪt ɪn ðə bɪˈgɪnɪŋ]",
+          "ru": "Мне не понравилось это в начале"
+        },
+        {
+          "en": "I didn't pay for it",
+          "ipa": "[aɪ dɪdnt peɪ fɔː ɪt]",
+          "ru": "Я не платил за это"
+        },
+        {
+          "en": "I didn't want to do it",
+          "ipa": "[aɪ dɪdnt wɒnt tuː duː ɪt]",
+          "ru": "Я не хотел делать это"
+        },
+        {
+          "en": "I didn't want to go there",
+          "ipa": "[aɪ dɪdnt wɒnt tuː gəʊ ðeə]",
+          "ru": "Я не хотел туда идти"
+        },
+        {
+          "en": "They didn't lose",
+          "ipa": "[ðeɪ dɪdnt luːz]",
+          "ru": "Они не проиграли"
+        },
+        {
+          "en": "We didn't understand it",
+          "ipa": "[wiː dɪdnt ˌʌndəˈstænd ɪt]",
+          "ru": "Мы не поняли это"
+        },
+        {
+          "en": "He didn't want to work there",
+          "ipa": "[hiː dɪdnt wɒnt tuː wɜːk ðeə]",
+          "ru": "Он не хотел там работать"
+        },
+        {
+          "en": "She didn't want to spend time on it",
+          "ipa": "[ʃiː dɪdnt wɒnt tuː spend taɪm ɒn ɪt]",
+          "ru": "Она не хотела тратить время на это"
+        },
+        {
+          "en": "I didn't want to spend my time on it",
+          "ipa": "[aɪ dɪdnt wɒnt tuː spend maɪ taɪm ɒn ɪt]",
+          "ru": "Я не хотел тратить свое время на это"
+        },
+        {
+          "en": "It didn't happen",
+          "ipa": "[ɪt dɪdnt ˈhæpən]",
+          "ru": "Это не произошло"
+        },
+        {
+          "en": "I didn't have any questions [z]",
+          "ipa": "[aɪ dɪdnt hæv ˈeni ˈkwestʃənz]",
+          "ru": "У меня не было каких-либо вопросов"
+        },
+        {
+          "en": "I didn't make any mistakes",
+          "ipa": "[aɪ dɪdnt meɪk ˈeni mɪsˈteɪks]",
+          "ru": "Я не сделал какие-либо ошибки"
+        },
+        {
+          "en": "I didn't have any problems [z]",
+          "ipa": "[aɪ dɪdnt hæv ˈeni ˈprɒbləmz]",
+          "ru": "У меня не было каких-либо проблем"
+        },
+        {
+          "en": "He didn't go to school yesterday",
+          "ipa": "[hiː dɪdnt gəʊ tuː skuːl ˈjestədeɪ]",
+          "ru": "Он не ходил в школу вчера"
+        },
+        {
+          "en": "I didn't go to work two days [z] ago",
+          "ipa": "[aɪ dɪdnt gəʊ tuː wɜːk tuː deɪz əˈgəʊ]",
+          "ru": "Я не ходил на работу два дня назад"
+        },
+        {
+          "en": "I didn't drink tea. I drank coffee",
+          "ipa": "[aɪ dɪdnt drɪŋk tiː. aɪ dræŋk ˈkɒfi]",
+          "ru": "Я не пил чай. Я выпил кофе"
+        },
+        {
+          "en": "I didn't go there. I went to another place",
+          "ipa": "[aɪ dɪdnt gəʊ ðeə. aɪ went tuː əˈnʌðə pleɪs]",
+          "ru": "Я не ходил туда. Я пошел в другое место"
+        },
+        {
+          "en": "I didn't go shopping",
+          "ipa": "[aɪ dɪdnt gəʊ ˈʃɒpɪŋ]",
+          "ru": "Я не ходил по магазинам"
+        },
+        {
+          "en": "She didn't go shopping yesterday",
+          "ipa": "[ʃiː dɪdnt gəʊ ˈʃɒpɪŋ ˈjestədeɪ]",
+          "ru": "Она не ходила по магазинам вчера"
+        },
+        {
+          "en": "She didn't look happy",
+          "ipa": "[ʃiː dɪdnt lʊk ˈhæpi]",
+          "ru": "Она не выглядела счастливой"
+        },
+        {
+          "en": "He didn't understand this lesson",
+          "ipa": "[hiː dɪdnt ˌʌndəˈstænd ðɪs ˈlesn]",
+          "ru": "Он не понял этот урок"
+        },
+        {
+          "en": "It didn't help me",
+          "ipa": "[ɪt dɪdnt help miː]",
+          "ru": "Это не помогло мне"
+        },
+        {
+          "en": "This thing didn't help us",
+          "ipa": "[ðis θɪŋ dɪdnt help ʌs]",
+          "ru": "Эта вещь не помогла нам"
+        },
+        {
+          "en": "I didn't think about it seriously",
+          "ipa": "[aɪ dɪdnt θɪŋk əˈbaʊt ɪt ˈsɪərɪəsli]",
+          "ru": "Я не думал об этом всерьез"
+        },
+        {
+          "en": "It didn't bring him big money",
+          "ipa": "[ɪt dɪdnt brɪŋ hɪm bɪg ˈmʌni]",
+          "ru": "Это не принесло ему больших денег"
+        },
+        {
+          "en": "It didn't bring him success and happiness",
+          "ipa": "[ɪt dɪdnt brɪŋ hɪm səkˈses ænd ˈhæpɪnɪs]",
+          "ru": "Это не принесло ему успех и счастье"
+        },
+        {
+          "en": "It didn't bring her real happiness",
+          "ipa": "[ɪt dɪdnt brɪŋ hɜː rɪəl ˈhæpɪnɪs]",
+          "ru": "Это не принесло ей настоящее счастье"
+        },
+        {
+          "en": "I didn't have enough time",
+          "ipa": "[aɪ dɪdnt hæv ɪˈnʌf taɪm]",
+          "ru": "У меня не было достаточно времени"
+        },
+        {
+          "en": "He didn't have enough money",
+          "ipa": "[hiː dɪdnt hæv ɪˈnʌf ˈmʌni]",
+          "ru": "У него не было достаточно денег"
+        },
+        {
+          "en": "I didn't like that hotel",
+          "ipa": "[aɪ dɪdnt laɪk ðæt həʊˈtel]",
+          "ru": "Мне не понравился тот отель"
+        },
+        {
+          "en": "I didn't watch this movie",
+          "ipa": "[aɪ dɪdnt wɒtʃ ðɪs ˈmuːvi]",
+          "ru": "Я не смотрел этот фильм"
+        },
+        {
+          "en": "I didn't watch this video",
+          "ipa": "[aɪ dɪdnt wɒtʃ ðɪs ˈvɪdiəʊ]",
+          "ru": "Я не смотрел это video"
+        },
+        {
+          "en": "He didn't ask me about it",
+          "ipa": "[hiː dɪdnt ɑːsk miː əˈbaʊt ɪt]",
+          "ru": "Он не спрашивал меня об этом"
+        },
+        {
+          "en": "I didn't want to wait",
+          "ipa": "[aɪ dɪdnt wɒnt tuː weɪt]",
+          "ru": "Я не хотел ждать"
+        },
+        {
+          "en": "I didn't want to wait for it",
+          "ipa": "[aɪ dɪdnt wɒnt tuː weɪt fɔː ɪt]",
+          "ru": "Я не хотел ждать это"
+        },
+        {
+          "en": "I didn't believe him at first",
+          "ipa": "[aɪ dɪdnt bɪˈliːv hɪm æt fɜːst]",
+          "ru": "Я не поверил ему сначала"
+        },
+        {
+          "en": "I didn't believe it in the beginning",
+          "ipa": "[aɪ dɪdnt bɪˈliːv ɪt ɪn ðə bɪˈgɪnɪŋ]",
+          "ru": "Я не поверил этому в начале"
+        },
+        {
+          "en": "I didn't want to be late for the lesson",
+          "ipa": "[aɪ dɪdnt wɒnt tuː biː leɪt fɔː ðə ˈlesn]",
+          "ru": "Я не хотел опаздывать на урок"
+        },
+        {
+          "en": "I didn't want to be late for the concert",
+          "ipa": "[aɪ dɪdnt wɒnt tuː biː leɪt fɔː ðə ˈkɒnsət]",
+          "ru": "Я не хотел опаздывать на концерт"
+        },
+        {
+          "en": "I didn't find it",
+          "ipa": "[aɪ dɪdnt faɪnd ɪt]",
+          "ru": "Я не нашел это"
+        },
+        {
+          "en": "I didn't find this information",
+          "ipa": "[aɪ dɪdnt faɪnd ðɪs ˌɪnfəˈmeɪʃn]",
+          "ru": "Я не нашел эту информацию"
+        },
+        {
+          "en": "I didn't go for a walk yesterday",
+          "ipa": "[aɪ dɪdnt gəʊ fɔː ə wɔːk ˈjestədeɪ]",
+          "ru": "Я не ходил на прогулку вчера"
+        },
+        {
+          "en": "She didn't feel happy",
+          "ipa": "[ʃiː dɪdnt fiːl ˈhæpi]",
+          "ru": "Она не чувствовала себя счастливой"
+        },
+        {
+          "en": "I didn't want to be late",
+          "ipa": "[aɪ dɪdnt wɒnt tuː biː leɪt]",
+          "ru": "Я не хотел опаздывать"
+        },
+        {
+          "en": "I didn't want to be late for the meeting",
+          "ipa": "[aɪ dɪdnt wɒnt tuː biː leɪt fɔː ðə ˈmiːtɪŋ]",
+          "ru": "Я не хотел опаздывать на встречу"
+        }
+      ]
+    }
+  ]
+} 

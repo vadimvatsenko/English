@@ -144,12 +144,12 @@ public class Logic
         Dictionary<int, string> filesOnThemeDict = FillLevelTopics(levelName);
         Console.Clear();
 
-        int themeNumber = _view.ColorizeMenuInput(filesOnThemeDict, "Enter Theme: ");
+        int themeNumber = _view.ColorizeMenuInput(filesOnThemeDict, "ENTER THEME NUMBER: ");
 
         string fileName = ChooseDir(filesOnThemeDict, themeNumber);
 
         // чтобы вернутся на один пункт назад
-        if (filesOnThemeDict.Keys.Max()  == themeNumber)
+        if (filesOnThemeDict.Keys.Max() == themeNumber)
         {
             await StartPractice(levelsDict);
             return;
@@ -224,7 +224,7 @@ public class Logic
 
         Console.WriteLine();
         
-        //_user.RatingText = new List<Rating>();
+        _user.RatingText = new List<Rating>();
 
         // запоняем словарь данными
         foreach (string file in filesOnTheme)
@@ -233,7 +233,7 @@ public class Logic
 
             filesOnThemeDict.Add(coutFiles, name);
 
-            //_user.RatingText.Add(new Rating(name));
+            _user.RatingText.Add(new Rating(name));
 
             coutFiles++;
         }
@@ -281,10 +281,13 @@ public class Logic
         rating.AddTries();
         rating.SetAllUnswers(allQaCount);
 
+        //await _authService.UpdateUsersAsync(_user);
+        
         foreach (var d in allQaList)
         {
             foreach (var e in d.Examples)
             {
+                int wrongAttemptsCount = 0;
                 bool isEqual = false;
 
                 while (!isEqual)
@@ -335,6 +338,20 @@ public class Logic
                     Console.WriteLine(isEqual
                         ? "● CORRECT".Color(StaticColors.White).Background(StaticColors.Green)
                         : "❌ MISSTAKE".Color(StaticColors.White).Background(StaticColors.Red));
+                    
+                    Console.ReadKey();
+
+                    if (isEqual)
+                    {
+                        if(wrongAttemptsCount == 0)
+                            rating.AddCorrectUnswers();
+                    }
+                    else
+                    {
+                        if (wrongAttemptsCount == 0)
+                            rating.AddMissingUnswers();
+                        wrongAttemptsCount++;
+                    }
                 }
 
                 count++;
