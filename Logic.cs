@@ -98,7 +98,6 @@ public class Logic
                 folderCount++;
             }
         }
-
         return levelsDict;
     }
 
@@ -142,12 +141,29 @@ public class Logic
         
         string levelName = await EnterLevel(levelsDict);
         Dictionary<int, string> filesOnThemeDict = FillLevelTopics(levelName);
+        
         Console.Clear();
 
-        int themeNumber = _view.ColorizeMenuInput(filesOnThemeDict, "ENTER THEME NUMBER: ");
-
-        string fileName = ChooseDir(filesOnThemeDict, themeNumber);
-
+        Dictionary<int, string> reduxThemeNames = new Dictionary<int, string>();
+        
+        foreach (var theme in filesOnThemeDict)
+        {
+            var name = _user.RatingText.Find(r => r.NameTheme == theme.Value);
+            
+            if ( name != null)
+            {
+                reduxThemeNames[theme.Key] 
+                    = theme.Value + "---" +  $"Tryes[{name?.Tries}]" + "---" + $"Rating[{name?.CorrectUnswers}/{name?.AllUnswers}]";
+            }
+            else
+            {
+                reduxThemeNames[theme.Key] = theme.Value;
+            }
+        }
+        
+        //reduxThemeNames.Add(reduxThemeNames.Keys.Max() + 1, StaticFields.BACK_TO_USER_OPTION);
+        int themeNumber = _view.ColorizeMenuInput(reduxThemeNames, "ENTER THEME NUMBER: ");
+        
         // чтобы вернутся на один пункт назад
         if (filesOnThemeDict.Keys.Max() == themeNumber)
         {
@@ -155,6 +171,7 @@ public class Logic
             return;
         }
 
+        string fileName = ChooseDir(filesOnThemeDict, themeNumber);
         // полный путь к теме
         string FilePath = String.Empty;
 
@@ -185,9 +202,7 @@ public class Logic
 
         Console.ReadKey();
     }
-
     
-
     // выбор уровня
     private async Task<string> EnterLevel(Dictionary<int, string> levelsDict)
     {
@@ -220,22 +235,18 @@ public class Logic
         string[] filesOnTheme = Directory.GetFiles(StaticFields.PathAllFiles + levelName);
         Dictionary<int, string> filesOnThemeDict = new Dictionary<int, string>();
 
-        int coutFiles = 0;
+        int numberTheme = 0;
 
         Console.WriteLine();
         
-        _user.RatingText = new List<Rating>();
-
         // запоняем словарь данными
         foreach (string file in filesOnTheme)
         {
-            string name = Path.GetFileNameWithoutExtension(file);
+            string nameTheme = Path.GetFileNameWithoutExtension(file);
 
-            filesOnThemeDict.Add(coutFiles, name);
-
-            _user.RatingText.Add(new Rating(name));
-
-            coutFiles++;
+            filesOnThemeDict.Add(numberTheme, nameTheme);
+            
+            numberTheme++;
         }
         
         bool isContainceBackToChooseLevel = filesOnThemeDict.ContainsValue(StaticFields.BACK_TO_CHOOSE_LEVEL);
@@ -247,7 +258,6 @@ public class Logic
         }
         
         return filesOnThemeDict;
-        //await _authService.UpdateUsersAsync(_user);
     }
 
     private async void Extensions(Data? dataList, Dictionary<int, string> levelDict, bool isEnToRu,
@@ -259,29 +269,27 @@ public class Logic
             await StartPractice(levelDict);
             return;
         }
-
-        int count = 1;
-        int allQaCount = 0;
-
+        
         var allQaList = dataList.Sections;
-
-        foreach (var d in allQaList)
-        {
-            allQaCount += d.Examples.Length;
-        }
-
-        await QuestionsLogic(isEnToRu, fileName, allQaList, count, allQaCount);
+        
+        await QuestionsLogic(isEnToRu, fileName, allQaList);
     }
 
-    private async Task QuestionsLogic(bool isEnToRu, string fileName, List<Sections> allQaList, int count,
-        int allQaCount)
+    private async Task QuestionsLogic(bool isEnToRu, string fileName, List<Sections> allQaList)
     {
-        var rating = _user.RatingText.Find(r => r.NameTheme == fileName);
-
-        rating.AddTries();
-        rating.SetAllUnswers(allQaCount);
-
-        //await _authService.UpdateUsersAsync(_user);
+        int count = 1;
+        int allQaCount = allQaList.Where(x => x.Examples.Length > 0).Sum(x => x.Examples.Length);
+        
+        bool IsExistRating = _user.RatingText.Exists(r => r.NameTheme == fileName);
+        Rating? currentRating = _user.RatingText.FirstOrDefault(r => r.NameTheme == fileName);
+        
+        if (!IsExistRating)
+        {
+            currentRating = new Rating(fileName, 0, 0, allQaCount);
+            _user.RatingText.Add(currentRating);
+        }
+        
+        currentRating.RatingClear();
         
         foreach (var d in allQaList)
         {
@@ -295,33 +303,35 @@ public class Logic
                     Console.Clear();
 
                     Console.WriteLine(
-                        $"Theme {fileName} Tryes {rating.Tries} [{rating.CorrectUnswers} / {rating.AllUnswers}]"
+                        $"Theme {fileName} Tryes {currentRating.Tries} [{currentRating.CorrectUnswers} / {currentRating.AllUnswers}]"
                             .GradientBackground(StaticColors.Gradient[0], StaticColors.Gradient[1],
                                 StaticColors.Gradient[2], StaticColors.Gradient[3], StaticColors.Gradient[4]));
 
+                    Console.WriteLine("=========================================================");
+                    
                     Console.WriteLine($" === current QA number {count} / {allQaCount} ==="
                         .Gradient(StaticColors.Gradient[0], StaticColors.Gradient[1],
                             StaticColors.Gradient[2], StaticColors.Gradient[3], StaticColors.Gradient[4]));
 
-                    Console.WriteLine();
+                    Console.WriteLine("=========================================================");
 
-                    Console.WriteLine($"CORRECT [{rating.CorrectUnswers}]".Color(StaticColors.Green) +
+                    Console.WriteLine($"CORRECT [{currentRating.CorrectUnswers}]".Color(StaticColors.Green) +
                                       " " +
-                                      $"MISSTAKE [{rating.MissingUnswers}]".Color(StaticColors.Red));
+                                      $"MISSTAKE [{currentRating.MissingUnswers}]".Color(StaticColors.Red));
 
-                    Console.WriteLine();
+                    Console.WriteLine("=========================================================");
                     Console.WriteLine(d.Title.Color(StaticColors.Magenta));
                     Console.WriteLine(d.Rule.Color(StaticColors.Magenta));
 
-                    Console.WriteLine();
+                    Console.WriteLine("=========================================================");
 
                     string correctText = isEnToRu ? e.Ru : e.En;
                     string questionText = isEnToRu ? e.En : e.Ru;
 
-                    Console.ForegroundColor = ConsoleColor.Blue;
-                    Console.WriteLine(questionText);
+                    
+                    Console.WriteLine(questionText.Color(StaticColors.Blue));
 
-                    Console.WriteLine("Enter Word:");
+                    Console.WriteLine("ENTER WORD:");
                     Console.WriteLine();
 
                     string words = Console.ReadLine()?.Trim() ?? string.Empty;
@@ -331,36 +341,52 @@ public class Logic
                         correctText,
                         StringComparison.OrdinalIgnoreCase);
                     
+                    Console.WriteLine("=========================================================");
+                    
                     Console.WriteLine(e.Ipa.Color(StaticColors.Magenta) + " ");
                     Console.WriteLine(words.Color(StaticColors.Yellow));
                     Console.WriteLine(correctText.Color(StaticColors.Green));
                     
+                    Console.WriteLine("=========================================================");
+                    
                     Console.WriteLine(isEqual
-                        ? "● CORRECT".Color(StaticColors.White).Background(StaticColors.Green)
-                        : "❌ MISSTAKE".Color(StaticColors.White).Background(StaticColors.Red));
+                        ? "======================= ● CORRECT ======================="
+                            .Color(StaticColors.White).Background(StaticColors.Green)
+                        : "======================= ❌ MISSTAKE ======================="
+                            .Color(StaticColors.White).Background(StaticColors.Red));
                     
                     Console.ReadKey();
 
                     if (isEqual)
                     {
-                        if(wrongAttemptsCount == 0)
-                            rating.AddCorrectUnswers();
+                        if (wrongAttemptsCount == 0)
+                            currentRating.AddCorrectUnswers();
                     }
                     else
                     {
                         if (wrongAttemptsCount == 0)
-                            rating.AddMissingUnswers();
+                            currentRating.AddMissingUnswers();
                         wrongAttemptsCount++;
                     }
                 }
-
                 count++;
             }
         }
-
-        await _authService.UpdateUsersAsync(_user);
+        
+        currentRating.AddTries();
+        currentRating.SetAllUnswers(allQaCount);
+        
+        Console.WriteLine("SAVE PROGRESS...");
+        await _authService.UpdateUsersAsync(_user); 
+        
+        Console.Clear();
+        Console.WriteLine("=== ТЕМА ЗАВЕРШЕНА ===".Color(StaticColors.Green));
+        Console.WriteLine($"Всего попыток: {currentRating.Tries}");
+        Console.WriteLine($"Правильных ответов: {currentRating.CorrectUnswers} из {currentRating.AllUnswers}");
+        Console.WriteLine("\nНажмите любую клавишу для возврата в меню...");
+        Console.ReadKey();
+        
     }
-
     
     // находит имя темы
     private static string ChooseDir(Dictionary<int, string> dict, int numbTheme)
@@ -388,7 +414,7 @@ public class Logic
     }
 
 
-
+    //
     public static async Task<Data?> GetAsync(string filePath)
     {
         string json = await File.ReadAllTextAsync(filePath);

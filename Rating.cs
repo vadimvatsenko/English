@@ -12,12 +12,12 @@ public class Rating
     public int AllUnswers {get; private set; }
 
     [JsonConstructor]
-    public Rating(string nameTheme)
+    public Rating(string nameTheme, int tries, int correctUnswers, int allUnswers)
     {
         NameTheme = nameTheme;
-        Tries = 0;
-        CorrectUnswers = 0;
-        AllUnswers = 0;
+        Tries = tries;
+        CorrectUnswers = correctUnswers;
+        AllUnswers = allUnswers;
     }
 
     public void SetNameTheme(string name) => NameTheme = name;
@@ -25,5 +25,11 @@ public class Rating
     public void AddCorrectUnswers() => CorrectUnswers++;
     public void SetAllUnswers(int all) => AllUnswers = all;
     public void AddMissingUnswers() => MissingUnswers++;
+    
+    public void RatingClear()
+    {
+        MissingUnswers = 0;
+        CorrectUnswers = 0;
+    }
     
 }

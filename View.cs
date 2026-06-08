@@ -40,7 +40,7 @@ public class View
                     string foregroundColor = isActive ? StaticColors.White : StaticColors.Blue;
 
                     // Центрирование текста
-                    var centeredText = CenteredText(m.Value, 26);
+                    var centeredText = CenteredText(m.Value, 60);
 
                     // Выводим строку меню
                     Console.WriteLine($"{arrow} [{m.Key:00}]: [{centeredText}]".Background(backgroundColor)

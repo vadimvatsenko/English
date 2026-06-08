@@ -1,0 +1,46 @@
+{
+  "sections": [
+    {
+      "title": "Present Simple",
+      "rule": "Структура: подлежащее + глагол + … Для I: I + глагол + …",
+      "examples": [
+        {
+          "en": "I agree",
+          "ipa": "/aɪ əˈɡriː/",
+          "ru": "Я согласен"
+        },
+        {
+          "en": "I understand",
+          "ipa": "/aɪ ˌʌndəˈstænd/",
+          "ru": "Я понимаю"
+        },
+        {
+          "en": "I know",
+          "ipa": "/aɪ nəʊ/",
+          "ru": "Я знаю"
+        }
+      ]
+    },
+    {
+      "title": "Present Simple",
+      "rule": "Структура (1.3): I / We / You / They + глагол + …",
+      "examples": [
+        {
+          "en": "We support you",
+          "ipa": "/wiː səˈpɔːt juː/",
+          "ru": "Мы поддерживаем тебя"
+        },
+        {
+          "en": "You do it very well",
+          "ipa": "/juː duː ɪt ˈveri wel/",
+          "ru": "Ты делаешь это очень хорошо"
+        },
+        {
+          "en": "They want more",
+          "ipa": "/ðeɪ wɒnt mɔː/",
+          "ru": "Они хотят большего"
+        }
+      ]
+    }
+  ]
+}

@@ -1,170 +1,37 @@
 [
   {
-    "id": "SjeLz3GmDJ",
+    "id": "3Iil2N4N8v",
     "name": "Vadym",
     "password": "qwerty",
-    "HardQuestion": null,
-    "RatingText": [
+    "hardQuestion": [],
+    "ratingText": [
       {
-        "NameTheme": "A0_01_02",
-        "Tries": 0,
-        "CorrectUnswers": 0,
+        "NameTheme": "TEST",
+        "Tries": 3,
+        "CorrectUnswers": 5,
         "MissingUnswers": 0,
-        "AllUnswers": 0
-      },
-      {
-        "NameTheme": "A0_03_04",
-        "Tries": 0,
-        "CorrectUnswers": 0,
-        "MissingUnswers": 0,
-        "AllUnswers": 0
-      },
-      {
-        "NameTheme": "A0_05_06",
-        "Tries": 0,
-        "CorrectUnswers": 0,
-        "MissingUnswers": 0,
-        "AllUnswers": 0
-      },
-      {
-        "NameTheme": "A0_07_08",
-        "Tries": 0,
-        "CorrectUnswers": 0,
-        "MissingUnswers": 0,
-        "AllUnswers": 0
-      },
-      {
-        "NameTheme": "A0_09_10",
-        "Tries": 0,
-        "CorrectUnswers": 0,
-        "MissingUnswers": 0,
-        "AllUnswers": 0
-      },
-      {
-        "NameTheme": "A0_11_12",
-        "Tries": 0,
-        "CorrectUnswers": 0,
-        "MissingUnswers": 0,
-        "AllUnswers": 0
-      },
-      {
-        "NameTheme": "A0_13_14",
-        "Tries": 0,
-        "CorrectUnswers": 0,
-        "MissingUnswers": 0,
-        "AllUnswers": 0
-      },
-      {
-        "NameTheme": "A0_15_16",
-        "Tries": 0,
-        "CorrectUnswers": 0,
-        "MissingUnswers": 0,
-        "AllUnswers": 0
-      },
-      {
-        "NameTheme": "A0_17_18",
-        "Tries": 0,
-        "CorrectUnswers": 0,
-        "MissingUnswers": 0,
-        "AllUnswers": 0
-      },
-      {
-        "NameTheme": "A0_19_20",
-        "Tries": 0,
-        "CorrectUnswers": 0,
-        "MissingUnswers": 0,
-        "AllUnswers": 0
-      },
-      {
-        "NameTheme": "A0_21_22",
-        "Tries": 0,
-        "CorrectUnswers": 0,
-        "MissingUnswers": 0,
-        "AllUnswers": 0
-      },
-      {
-        "NameTheme": "A0_23_24",
-        "Tries": 0,
-        "CorrectUnswers": 0,
-        "MissingUnswers": 0,
-        "AllUnswers": 0
-      },
-      {
-        "NameTheme": "A0_25_26",
-        "Tries": 0,
-        "CorrectUnswers": 0,
-        "MissingUnswers": 0,
-        "AllUnswers": 0
-      },
-      {
-        "NameTheme": "A0_27_28",
-        "Tries": 0,
-        "CorrectUnswers": 0,
-        "MissingUnswers": 0,
-        "AllUnswers": 0
-      },
-      {
-        "NameTheme": "A0_29_30",
-        "Tries": 0,
-        "CorrectUnswers": 0,
-        "MissingUnswers": 0,
-        "AllUnswers": 0
-      },
-      {
-        "NameTheme": "A0_31_32",
-        "Tries": 0,
-        "CorrectUnswers": 0,
-        "MissingUnswers": 0,
-        "AllUnswers": 0
+        "AllUnswers": 6
       },
       {
         "NameTheme": "A0_33_34_0_Irregular Verbs",
-        "Tries": 0,
-        "CorrectUnswers": 0,
-        "MissingUnswers": 0,
-        "AllUnswers": 0
-      },
-      {
-        "NameTheme": "A0_33_34_1",
-        "Tries": 0,
-        "CorrectUnswers": 0,
-        "MissingUnswers": 0,
-        "AllUnswers": 0
-      },
-      {
-        "NameTheme": "A0_35_36_0_Irregular Verbs",
-        "Tries": 0,
-        "CorrectUnswers": 0,
-        "MissingUnswers": 0,
-        "AllUnswers": 0
-      },
-      {
-        "NameTheme": "A0_35_36_1",
-        "Tries": 0,
-        "CorrectUnswers": 0,
-        "MissingUnswers": 0,
-        "AllUnswers": 0
-      },
-      {
-        "NameTheme": "A0_37_38_0_Irregular Verbs",
-        "Tries": 0,
-        "CorrectUnswers": 0,
-        "MissingUnswers": 0,
-        "AllUnswers": 0
-      },
-      {
-        "NameTheme": "A0_37_38_1",
-        "Tries": 0,
-        "CorrectUnswers": 0,
-        "MissingUnswers": 0,
-        "AllUnswers": 0
-      },
-      {
-        "NameTheme": "A0_39_40_[ DIDN\u0027T]",
         "Tries": 1,
-        "CorrectUnswers": 0,
+        "CorrectUnswers": 10,
         "MissingUnswers": 0,
-        "AllUnswers": 50
+        "AllUnswers": 14
+      },
+      {
+        "NameTheme": "A0_15_16",
+        "Tries": 1,
+        "CorrectUnswers": 34,
+        "MissingUnswers": 0,
+        "AllUnswers": 45
+      },
+      {
+        "NameTheme": "01 - Digits - 1 - 10",
+        "Tries": 1,
+        "CorrectUnswers": 10,
+        "MissingUnswers": 0,
+        "AllUnswers": 10
       }
     ]
   }
