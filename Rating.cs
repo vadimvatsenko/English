@@ -1,4 +1,5 @@
-﻿using System.Text.Json.Serialization;
+﻿using System.Runtime.InteropServices.JavaScript;
+using System.Text.Json.Serialization;
 
 namespace English;
 
@@ -10,6 +11,7 @@ public class Rating
     public int CorrectUnswers {get; private set; }
     public int MissingUnswers {get; private set; }
     public int AllUnswers {get; private set; }
+    public DateTime Date { get; private set; }
 
     [JsonConstructor]
     public Rating(string nameTheme, int tries, int correctUnswers, int allUnswers)
@@ -25,11 +27,12 @@ public class Rating
     public void AddCorrectUnswers() => CorrectUnswers++;
     public void SetAllUnswers(int all) => AllUnswers = all;
     public void AddMissingUnswers() => MissingUnswers++;
+
+    public void SetData() => Date = DateTime.Now;
     
     public void RatingClear()
     {
         MissingUnswers = 0;
         CorrectUnswers = 0;
     }
-    
 }

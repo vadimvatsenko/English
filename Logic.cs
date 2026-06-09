@@ -376,10 +376,11 @@ public class Logic
         
         currentRating.AddTries();
         currentRating.SetAllUnswers(allQaCount);
+        currentRating.SetData();
         
         Console.WriteLine("SAVE PROGRESS...");
-        await _authService.UpdateUsersAsync(_user); 
-        
+        await _authService.UpdateUsersAsync(_user);
+
         Console.Clear();
         Console.WriteLine("=== ТЕМА ЗАВЕРШЕНА ===".Color(StaticColors.Green));
         Console.WriteLine($"Всего попыток: {currentRating.Tries}");

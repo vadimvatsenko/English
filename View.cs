@@ -31,7 +31,7 @@ public class View
                 foreach (var m in menu)
                 {
                     bool isActive = m.Key == counter;
-                    string arrow = isActive ? "=>" : "  ";
+                    string arrow = isActive ? ">" : " ";
 
                     string backgroundColor = isActive ? StaticColors.Blue : StaticColors.White;
                     string foregroundColor = isActive ? StaticColors.White : StaticColors.Blue;
@@ -96,26 +96,35 @@ public class View
                 Console.Write($"{menu[counter]}".Background(StaticColors.Blue).Color(StaticColors.White).Bold());
 
                 Console.WriteLine(new string(' ', Console.WindowWidth)); // Очищаем пустую строку
-
+                
+                string horizontalTop = $"  ╔════╦═══════════════════════════════════════════════╦══════════╦═════════════════╦═══════════════════════════╗";
+                Console.WriteLine($"{horizontalTop}".Background(StaticColors.White).Color(StaticColors.Blue).Bold());
+                
                 foreach (var m in menu)
                 {
                     bool isActive = m.Key == counter;
-                    string arrow = isActive ? "=>" : "  ";
+                    string arrow = isActive ? ">" : " ";
 
                     string backgroundColor = isActive ? StaticColors.Blue : StaticColors.White;
                     string foregroundColor = isActive ? StaticColors.White : StaticColors.Blue;
 
                     // Центрирование текста
-                    var centeredText = CenteredText(m.Value, 60);
+                    var centeredText = LeftText(m.Value, 46);
 
                     var rating = user.RatingText.FirstOrDefault(r => r.NameTheme == m.Value);
                     int tryes = rating != null? rating.Tries : 0;
                     int correctUnswers = rating != null ? rating.CorrectUnswers : 0;
                     int allQuestions = rating != null ? rating.AllUnswers : 0;
+                    string data = rating != null ? rating.Date.ToString("dd.MM.yyyy HH:mm:ss") : "░░:░░:░░░░ ░░:░░:░░" ;
                     // Выводим строку меню
-                    Console.WriteLine($"{arrow} [{m.Key:00}]: [{centeredText}] [ TRIES: {tryes}] [RATING: {correctUnswers} / {allQuestions}]".Background(backgroundColor)
+                    
+                    
+                    Console.WriteLine($"{arrow} ║ {m.Key:00} ║ {centeredText}║ TRIES: {tryes} ║ RATING: {correctUnswers:00} / {allQuestions:00} ║ Date: {data} ║".Background(backgroundColor)
                         .Color(foregroundColor).Bold());
                 }
+                
+                string horizontalBottom = $"  ╚════╩═══════════════════════════════════════════════╩══════════╩═════════════════╩═══════════════════════════╝";
+                Console.WriteLine($"{horizontalBottom}".Background(StaticColors.White).Color(StaticColors.Blue).Bold());
 
                 // Очищаем оставшуюся нижнюю часть экрана на случай, если меню уменьшилось
                 // (актуально, если этот метод вызывается для меню с разным количеством элементов)
@@ -156,5 +165,34 @@ public class View
             int padLeft = spaces / 2 + text.Length;
             string centeredText = text.PadLeft(padLeft).PadRight(width);
             return centeredText;
+        }
+        
+        private static string RightText(string text, int width)
+        {
+            // Отнимаем 1 из общей ширины, чтобы оставить пустой символ справа
+            int targetWidth = width - 1;
+
+            // Если текст длиннее, чем доступное место, возвращаем его как есть (или с обрезанным краем)
+            if (text.Length >= targetWidth)
+            {
+                return text.PadRight(width); 
+            }
+
+            // Дополняем текст пробелами СЛЕВА до нужной ширины, 
+            // а затем добавляем 1 пробел СПРАВА
+            return text.PadLeft(targetWidth) + " ";
+        }
+        
+        private static string LeftText(string text, int width)
+        {
+            // Если текст пустой или слишком длинный, просто возвращаем его с отступами,
+            // но проверяем, чтобы не выйти за рамки width
+            if (text.Length + 1 >= width)
+            {
+                return " " + text;
+            }
+
+            // Добавляем 1 пробел слева, а затем дополняем строку пробелами справа до общей ширины
+            return (" " + text).PadRight(width);
         }
 }
