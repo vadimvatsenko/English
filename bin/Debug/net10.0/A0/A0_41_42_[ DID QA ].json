@@ -1,0 +1,260 @@
+{
+  "sections": [
+    {
+      "title": "Past Simple Questions (from slides)",
+      "rule": "Вопросительные фразы из скринов по Past Simple.",
+      "examples": [
+        {
+          "en": "Did you go there?",
+          "ipa": "[dɪd ju gəʊ ðeə?]",
+          "ru": "Ты ходил туда?"
+        },
+        {
+          "en": "Did you like this idea?",
+          "ipa": "[dɪd juː laɪk ðɪs aɪˈdɪə?]",
+          "ru": "Тебе понравилась эта идея?"
+        },
+        {
+          "en": "Did you show the best result?",
+          "ipa": "[dɪd juː ʃəʊ ðə best rɪˈzʌlt?]",
+          "ru": "Ты показал лучший результат?"
+        },
+        {
+          "en": "Did you understand it?",
+          "ipa": "[dɪd juː ˌʌndəˈstænd ɪt?]",
+          "ru": "Ты понял это?"
+        },
+        {
+          "en": "Did we answer it correctly?",
+          "ipa": "[dɪd wiː ˈɑːnsər ɪt kəˈrektli?]",
+          "ru": "Мы ответили на это правильно?"
+        },
+        {
+          "en": "Did we say it correctly?",
+          "ipa": "[dɪd wiː seɪ ɪt kəˈrektli?]",
+          "ru": "Мы правильно сказали это?"
+        },
+        {
+          "en": "Did I write it correctly?",
+          "ipa": "[dɪd aɪ reɪt ɪt kəˈrektli?]",
+          "ru": "Я правильно написал это?"
+        },
+        {
+          "en": "Did I say it correctly?",
+          "ipa": "[dɪd aɪ seɪ ɪt kəˈrektli?]",
+          "ru": "Я правильно сказал это?"
+        },
+        {
+          "en": "Did they come there?",
+          "ipa": "[dɪd ðeɪ kʌm ðeə?]",
+          "ru": "Они приехали туда?"
+        },
+        {
+          "en": "Did he make a mistake?",
+          "ipa": "[dɪd hiː meɪk ə mɪsˈteɪk?]",
+          "ru": "Он сделал ошибку?"
+        },
+        {
+          "en": "Did she know it?",
+          "ipa": "[dɪd ʃiː nəʊ ɪt?]",
+          "ru": "Она знала это?"
+        },
+        {
+          "en": "Did he work with you?",
+          "ipa": "[dɪd hiː wɜːk wɪð juː?]",
+          "ru": "Он работал с тобой?"
+        },
+        {
+          "en": "Did it help you?",
+          "ipa": "[dɪd ɪt help juː?]",
+          "ru": "Это помогло тебе?"
+        },
+        {
+          "en": "Did it really help you?",
+          "ipa": "[dɪd ɪt ˈrɪəli help juː?]",
+          "ru": "Это действительно помогло тебе?"
+        },
+        {
+          "en": "Did it happen yesterday?",
+          "ipa": "[dɪd ɪt ˈhæpən ˈjestədeɪ?]",
+          "ru": "Это случилось вчера?"
+        },
+        {
+          "en": "Did you like this movie?",
+          "ipa": "[dɪd juː laɪk ðɪs ˈmuːvi?]",
+          "ru": "Тебе понравился этот фильм?"
+        },
+        {
+          "en": "Did you really like this movie?",
+          "ipa": "[dɪd juː ˈrɪəli laɪk ðɪs ˈmuːvi?]",
+          "ru": "Тебе действительно понравился этот фильм?"
+        },
+        {
+          "en": "Did you like this video?",
+          "ipa": "[dɪd juː laɪk ðɪs ˈvɪdiəʊ?]",
+          "ru": "Тебе понравилось это видео?"
+        },
+        {
+          "en": "Did you like this program?",
+          "ipa": "[dɪd juː laɪk ðɪs ˈprəʊgræm?]",
+          "ru": "Тебе понравилась эта программа?"
+        },
+        {
+          "en": "Did you really like this program?",
+          "ipa": "[dɪd juː ˈrɪəli laɪk ðɪs ˈprəʊgræm?]",
+          "ru": "Тебе действительно понравилась эта программа?"
+        },
+        {
+          "en": "Did I make any mistakes?",
+          "ipa": "[dɪd aɪ meɪk ˈeni mɪsˈteɪks?]",
+          "ru": "Я сделал какие-либо ошибки?"
+        },
+        {
+          "en": "Did he really help you?",
+          "ipa": "[dɪd hiː ˈrɪəli help juː?]",
+          "ru": "Он действительно помог тебе?"
+        },
+        {
+          "en": "Did he buy a car?",
+          "ipa": "[dɪd hiː baɪ ə kɑː?]",
+          "ru": "Он купил машину?"
+        },
+        {
+          "en": "Did you solve this problem?",
+          "ipa": "[dɪd juː sɒlv ðɪs ˈprɒbləm?]",
+          "ru": "Ты решил эту проблему?"
+        },
+        {
+          "en": "Did he solve that problem?",
+          "ipa": "[dɪd hiː sɒlv ðæt ˈprɒbləm?]",
+          "ru": "Он решил ту проблему?"
+        },
+        {
+          "en": "Did you solve these [z] problems?",
+          "ipa": "[dɪd juː sɒlv ðiːz ˈprɒbləmz?]",
+          "ru": "Ты решил эти проблемы?"
+        },
+        {
+          "en": "Did you solve those problems?",
+          "ipa": "[dɪd juː sɒlv ðəʊz ˈprɒbləmz?]",
+          "ru": "Ты решил те проблемы?"
+        },
+        {
+          "en": "Did he solve those [z] problems? [z]",
+          "ipa": "[dɪd hiː sɒlv ðəʊz ˈprɒbləmz?]",
+          "ru": "Он решил те проблемы?"
+        },
+        {
+          "en": "Did you go to work yesterday?",
+          "ipa": "[dɪd juː gəʊ tuː wɜːk ˈjestədeɪ?]",
+          "ru": "Ты вчера ходил на работу?"
+        },
+        {
+          "en": "Did you order it online?",
+          "ipa": "[dɪd juː ˈɔːdər ɪt ˈɒnˌlaɪn?]",
+          "ru": "Ты заказал это онлайн?"
+        },
+        {
+          "en": "Did you buy it online?",
+          "ipa": "[dɪd juː baɪ ɪt ˈɒnˌlaɪn?]",
+          "ru": "Ты купил это онлайн?"
+        },
+        {
+          "en": "Did you pass this test?",
+          "ipa": "[dɪd juː pɑːs ðɪs test?]",
+          "ru": "Ты сдал этот тест?"
+        },
+        {
+          "en": "Did you pass that exam?",
+          "ipa": "[dɪd juː pɑːs ðæt ɪgˈzæm?]",
+          "ru": "Ты сдал тот экзамен?"
+        },
+        {
+          "en": "Did you pass the test?",
+          "ipa": "[dɪd juː pɑːs ðə test?]",
+          "ru": "Ты прошел тест?"
+        },
+        {
+          "en": "Did you pass the exam?",
+          "ipa": "[dɪd juː pɑːs ði ɪgˈzæm?]",
+          "ru": "Ты сдал экзамен?"
+        },
+        {
+          "en": "Did you like this lesson?",
+          "ipa": "[dɪd juː laɪk ðɪs ˈlesn?]",
+          "ru": "Тебе понравился этот урок?"
+        },
+        {
+          "en": "Did you like this game?",
+          "ipa": "[dɪd juː laɪk ðɪs geɪm?]",
+          "ru": "Тебе понравилась эта игра?"
+        },
+        {
+          "en": "Did you like this match?",
+          "ipa": "[dɪd juː laɪk ðɪs mætʃ?]",
+          "ru": "Тебе понравился этот матч?"
+        },
+        {
+          "en": "Did you like the game?",
+          "ipa": "[dɪd juː laɪk ðə geɪm?]",
+          "ru": "Тебе понравилась игра?"
+        },
+        {
+          "en": "Did you like the lesson?",
+          "ipa": "[dɪd juː laɪk ðə ˈlesn?]",
+          "ru": "Тебе понравился урок?"
+        },
+        {
+          "en": "Did you like this excursion?",
+          "ipa": "[dɪd juː laɪk ðɪs ɪksˈkɜːʃn?]",
+          "ru": "Тебе понравилась эта экскурсия?"
+        },
+        {
+          "en": "Did he like that excursion?",
+          "ipa": "[dɪd hiː laɪk ðæt ɪksˈkɜːʃn?]",
+          "ru": "Ему понравилась та экскурсия?"
+        },
+        {
+          "en": "Did you like the excursion?",
+          "ipa": "[dɪd juː laɪk ði ɪksˈkɜːʃn?]",
+          "ru": "Тебе понравилась экскурсия?"
+        },
+        {
+          "en": "Did you like this trip?",
+          "ipa": "[dɪd juː laɪk ðɪs trɪp?]",
+          "ru": "Тебе понравилась эта поездка?"
+        },
+        {
+          "en": "Did you like the trip?",
+          "ipa": "[dɪd juː laɪk ðə trɪp?]",
+          "ru": "Тебе понравилась поездка?"
+        },
+        {
+          "en": "Did you really like this trip?",
+          "ipa": "[dɪd juː ˈrɪəli laɪk ðɪs trɪp?]",
+          "ru": "Тебе действительно понравилась эта поездка?"
+        },
+        {
+          "en": "Did you like the book?",
+          "ipa": "[dɪd juː laɪk ðə bʊk?]",
+          "ru": "Тебе понравилась книга?"
+        },
+        {
+          "en": "Did you like this book?",
+          "ipa": "[dɪd juː laɪk ðɪs bʊk?]",
+          "ru": "Тебе понравилась эта книга?"
+        },
+        {
+          "en": "Did you do your homework?",
+          "ipa": "[dɪd juː duː jɔː ˈhəʊmˌwɜːk?]",
+          "ru": "Ты сделал свое домашнее задание?"
+        },
+        {
+          "en": "Did you pay for it?",
+          "ipa": "[dɪd juː peɪ fɔː ɪt?]",
+          "ru": "Ты заплатил за это?"
+        }
+      ]
+    }
+  ]
+}

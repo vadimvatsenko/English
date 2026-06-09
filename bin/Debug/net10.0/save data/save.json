@@ -6,46 +6,18 @@
     "hardQuestion": [],
     "ratingText": [
       {
+        "NameTheme": "A0_27_28_[ WHEN WHY HOW WILL ]",
+        "Tries": 1,
+        "CorrectUnswers": 46,
+        "MissingUnswers": 0,
+        "AllUnswers": 53
+      },
+      {
         "NameTheme": "TEST",
-        "Tries": 3,
-        "CorrectUnswers": 5,
+        "Tries": 1,
+        "CorrectUnswers": 6,
         "MissingUnswers": 0,
         "AllUnswers": 6
-      },
-      {
-        "NameTheme": "A0_33_34_0_Irregular Verbs",
-        "Tries": 1,
-        "CorrectUnswers": 10,
-        "MissingUnswers": 0,
-        "AllUnswers": 14
-      },
-      {
-        "NameTheme": "A0_15_16",
-        "Tries": 1,
-        "CorrectUnswers": 34,
-        "MissingUnswers": 0,
-        "AllUnswers": 45
-      },
-      {
-        "NameTheme": "01 - Digits - 1 - 10",
-        "Tries": 1,
-        "CorrectUnswers": 10,
-        "MissingUnswers": 0,
-        "AllUnswers": 10
-      },
-      {
-        "NameTheme": "A0_01_02",
-        "Tries": 1,
-        "CorrectUnswers": 48,
-        "MissingUnswers": 0,
-        "AllUnswers": 50
-      },
-      {
-        "NameTheme": "A0_33_34_[ Irregular Verbs PART_1 ]",
-        "Tries": 1,
-        "CorrectUnswers": 9,
-        "MissingUnswers": 5,
-        "AllUnswers": 14
       }
     ]
   }

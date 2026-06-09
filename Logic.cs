@@ -144,7 +144,7 @@ public class Logic
         
         Console.Clear();
 
-        Dictionary<int, string> reduxThemeNames = new Dictionary<int, string>();
+        /*Dictionary<int, string> reduxThemeNames = new Dictionary<int, string>();
         
         foreach (var theme in filesOnThemeDict)
         {
@@ -159,10 +159,11 @@ public class Logic
             {
                 reduxThemeNames[theme.Key] = theme.Value;
             }
-        }
+        }*/
         
         //reduxThemeNames.Add(reduxThemeNames.Keys.Max() + 1, StaticFields.BACK_TO_USER_OPTION);
-        int themeNumber = _view.ColorizeMenuInput(reduxThemeNames, "ENTER THEME NUMBER: ");
+        //int themeNumber = _view.ColorizeMenuInput(reduxThemeNames, "ENTER THEME NUMBER: ");
+        int themeNumber = _view.ColorizeMenuInput(filesOnThemeDict, _user, "ENTER THEME NUMBER: ");
         
         // чтобы вернутся на один пункт назад
         if (filesOnThemeDict.Keys.Max() == themeNumber)
