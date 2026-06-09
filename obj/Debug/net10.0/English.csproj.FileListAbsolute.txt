@@ -20,3 +20,25 @@ P:\Projects and Documents\Visual Studio Apps\English\obj\Debug\net10.0\ref\Engli
 P:\Projects and Documents\Visual Studio Apps\English\bin\Debug\net10.0\Spectre.Console.dll
 P:\Projects and Documents\Visual Studio Apps\English\bin\Debug\net10.0\Spectre.Console.Ansi.dll
 P:\Projects and Documents\Visual Studio Apps\English\bin\Debug\net10.0\ANSIConsole.dll
+C:\Users\user\Documents\GitHub\English\bin\Debug\net10.0\English.exe
+C:\Users\user\Documents\GitHub\English\bin\Debug\net10.0\English.deps.json
+C:\Users\user\Documents\GitHub\English\bin\Debug\net10.0\English.runtimeconfig.json
+C:\Users\user\Documents\GitHub\English\bin\Debug\net10.0\English.dll
+C:\Users\user\Documents\GitHub\English\bin\Debug\net10.0\English.pdb
+C:\Users\user\Documents\GitHub\English\bin\Debug\net10.0\ANSIConsole.dll
+C:\Users\user\Documents\GitHub\English\bin\Debug\net10.0\Firebase.Auth.dll
+C:\Users\user\Documents\GitHub\English\bin\Debug\net10.0\Newtonsoft.Json.dll
+C:\Users\user\Documents\GitHub\English\bin\Debug\net10.0\Spectre.Console.dll
+C:\Users\user\Documents\GitHub\English\bin\Debug\net10.0\Spectre.Console.Ansi.dll
+C:\Users\user\Documents\GitHub\English\obj\Debug\net10.0\English.csproj.AssemblyReference.cache
+C:\Users\user\Documents\GitHub\English\obj\Debug\net10.0\English.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Documents\GitHub\English\obj\Debug\net10.0\English.AssemblyInfoInputs.cache
+C:\Users\user\Documents\GitHub\English\obj\Debug\net10.0\English.AssemblyInfo.cs
+C:\Users\user\Documents\GitHub\English\obj\Debug\net10.0\English.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\GitHub\English\obj\Debug\net10.0\English.sourcelink.json
+C:\Users\user\Documents\GitHub\English\obj\Debug\net10.0\English.csproj.Up2Date
+C:\Users\user\Documents\GitHub\English\obj\Debug\net10.0\English.dll
+C:\Users\user\Documents\GitHub\English\obj\Debug\net10.0\refint\English.dll
+C:\Users\user\Documents\GitHub\English\obj\Debug\net10.0\English.pdb
+C:\Users\user\Documents\GitHub\English\obj\Debug\net10.0\English.genruntimeconfig.cache
+C:\Users\user\Documents\GitHub\English\obj\Debug\net10.0\ref\English.dll
