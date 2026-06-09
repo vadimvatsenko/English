@@ -5,7 +5,6 @@ namespace English
 {
     public class Program
     {
-        
         public static async Task Main(string[] args)
         {
             EncodingUtil encodingUtil = new EncodingUtil();
