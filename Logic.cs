@@ -141,28 +141,8 @@ public class Logic
         
         string levelName = await EnterLevel(levelsDict);
         Dictionary<int, string> filesOnThemeDict = FillLevelTopics(levelName);
-        
         Console.Clear();
-
-        /*Dictionary<int, string> reduxThemeNames = new Dictionary<int, string>();
         
-        foreach (var theme in filesOnThemeDict)
-        {
-            var name = _user.RatingText.Find(r => r.NameTheme == theme.Value);
-            
-            if ( name != null)
-            {
-                reduxThemeNames[theme.Key] 
-                    = theme.Value + "---" +  $"Tryes[{name?.Tries}]" + "---" + $"Rating[{name?.CorrectUnswers}/{name?.AllUnswers}]";
-            }
-            else
-            {
-                reduxThemeNames[theme.Key] = theme.Value;
-            }
-        }*/
-        
-        //reduxThemeNames.Add(reduxThemeNames.Keys.Max() + 1, StaticFields.BACK_TO_USER_OPTION);
-        //int themeNumber = _view.ColorizeMenuInput(reduxThemeNames, "ENTER THEME NUMBER: ");
         int themeNumber = _view.ColorizeMenuInput(filesOnThemeDict, _user, "ENTER THEME NUMBER: ");
         
         // чтобы вернутся на один пункт назад
@@ -273,10 +253,10 @@ public class Logic
         
         var allQaList = dataList.Sections;
         
-        await QuestionsLogic(isEnToRu, fileName, allQaList);
+        await QuestionsLogic(isEnToRu, fileName, allQaList, levelDict);
     }
 
-    private async Task QuestionsLogic(bool isEnToRu, string fileName, List<Sections> allQaList)
+    private async Task QuestionsLogic(bool isEnToRu, string fileName, List<Sections> allQaList, Dictionary<int, string> levelsDict)
     {
         int count = 1;
         int allQaCount = allQaList.Where(x => x.Examples.Length > 0).Sum(x => x.Examples.Length);
@@ -286,7 +266,7 @@ public class Logic
         
         if (!IsExistRating)
         {
-            currentRating = new Rating(fileName, 0, 0, allQaCount);
+            currentRating = new Rating(fileName, 0, 0, allQaCount, DateTime.Now);
             _user.RatingText.Add(currentRating);
         }
         

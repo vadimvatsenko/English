@@ -27,6 +27,10 @@ public class View
                 Console.Write($"{menu[counter]}".Background(StaticColors.Blue).Color(StaticColors.White).Bold());
 
                 Console.WriteLine(new string(' ', Console.WindowWidth)); // Очищаем пустую строку
+                
+                string horizontalTop = $"  ╔════╦═════════════════════════════════════════════════════════════╗";
+                string horizontalBottom = $"  ╚════╩═════════════════════════════════════════════════════════════╝";
+                Console.WriteLine($"{horizontalTop}".Background(StaticColors.White).Color(StaticColors.Blue).Bold());
 
                 foreach (var m in menu)
                 {
@@ -40,9 +44,11 @@ public class View
                     var centeredText = CenteredText(m.Value, 60);
 
                     // Выводим строку меню
-                    Console.WriteLine($"{arrow} [{m.Key:00}]: [{centeredText}]".Background(backgroundColor)
+                    Console.WriteLine($"{arrow} ║ {m.Key:00} ║ {centeredText}║".Background(backgroundColor)
                         .Color(foregroundColor).Bold());
                 }
+                
+                Console.WriteLine($"{horizontalBottom}".Background(StaticColors.White).Color(StaticColors.Blue).Bold());
 
                 // Очищаем оставшуюся нижнюю часть экрана на случай, если меню уменьшилось
                 // (актуально, если этот метод вызывается для меню с разным количеством элементов)
@@ -98,6 +104,7 @@ public class View
                 Console.WriteLine(new string(' ', Console.WindowWidth)); // Очищаем пустую строку
                 
                 string horizontalTop = $"  ╔════╦═══════════════════════════════════════════════╦══════════╦═════════════════╦═══════════════════════════╗";
+                string horizontalBottom = $"  ╚════╩═══════════════════════════════════════════════╩══════════╩═════════════════╩═══════════════════════════╝";
                 Console.WriteLine($"{horizontalTop}".Background(StaticColors.White).Color(StaticColors.Blue).Bold());
                 
                 foreach (var m in menu)
@@ -115,7 +122,7 @@ public class View
                     int tryes = rating != null? rating.Tries : 0;
                     int correctUnswers = rating != null ? rating.CorrectUnswers : 0;
                     int allQuestions = rating != null ? rating.AllUnswers : 0;
-                    string data = rating != null ? rating.Date.ToString("dd.MM.yyyy HH:mm:ss") : "░░:░░:░░░░ ░░:░░:░░" ;
+                    string data = rating != null ? rating.Date.ToString() : "░░:░░:░░░░ ░░:░░:░░" ;
                     // Выводим строку меню
                     
                     
@@ -123,7 +130,7 @@ public class View
                         .Color(foregroundColor).Bold());
                 }
                 
-                string horizontalBottom = $"  ╚════╩═══════════════════════════════════════════════╩══════════╩═════════════════╩═══════════════════════════╝";
+                
                 Console.WriteLine($"{horizontalBottom}".Background(StaticColors.White).Color(StaticColors.Blue).Bold());
 
                 // Очищаем оставшуюся нижнюю часть экрана на случай, если меню уменьшилось

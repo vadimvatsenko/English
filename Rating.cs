@@ -14,12 +14,13 @@ public class Rating
     public DateTime Date { get; private set; }
 
     [JsonConstructor]
-    public Rating(string nameTheme, int tries, int correctUnswers, int allUnswers)
+    public Rating(string nameTheme, int tries, int correctUnswers, int allUnswers,  DateTime date)
     {
         NameTheme = nameTheme;
         Tries = tries;
         CorrectUnswers = correctUnswers;
         AllUnswers = allUnswers;
+        Date = date;
     }
 
     public void SetNameTheme(string name) => NameTheme = name;
