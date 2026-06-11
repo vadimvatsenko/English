@@ -39,11 +39,11 @@
       },
       {
         "NameTheme": "A0_33_34_[ Irregular Verbs PART_1 WORDS ]",
-        "Tries": 3,
-        "CorrectUnswers": 12,
+        "Tries": 4,
+        "CorrectUnswers": 14,
         "MissingUnswers": 0,
         "AllUnswers": 14,
-        "Date": "2026-06-10T14:09:07.8509959+03:00"
+        "Date": "2026-06-11T10:49:15.5093821+03:00"
       },
       {
         "NameTheme": "A0_35_36_[ Irregular Verbs PART_3 WORDS ]",
@@ -89,7 +89,7 @@
         "NameTheme": "A0_31_32_[ PAST -ED PART_2 ]",
         "Tries": 1,
         "CorrectUnswers": 39,
-        "MissingUnswers": 8,
+        "MissingUnswers": 0,
         "AllUnswers": 47,
         "Date": "2026-06-11T10:46:11.8504847+03:00"
       }
