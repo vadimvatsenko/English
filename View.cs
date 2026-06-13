@@ -122,7 +122,7 @@ public class View
                     int tryes = rating != null? rating.Tries : 0;
                     int correctUnswers = rating != null ? rating.CorrectUnswers : 0;
                     int allQuestions = rating != null ? rating.AllUnswers : 0;
-                    string data = rating != null ? rating.Date.ToString("s") : "░░:░░:░░░░ ░░:░░:░░" ;
+                    string data = rating != null ? rating.Date.ToString("dd.MM.yyyy HH:mm:ss") : "░░:░░:░░░░ ░░:░░:░░" ;
                     // Выводим строку меню
                     
                     
