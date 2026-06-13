@@ -17,7 +17,7 @@
         "NameTheme": "A0_41_42_[ DID QA ]",
         "Tries": 3,
         "CorrectUnswers": 41,
-        "MissingUnswers": 9,
+        "MissingUnswers": 0,
         "AllUnswers": 50,
         "Date": "2026-06-13T09:42:38.3357835+03:00"
       },
@@ -124,6 +124,14 @@
         "MissingUnswers": 0,
         "AllUnswers": 50,
         "Date": "2026-06-13T09:25:19.6640949+03:00"
+      },
+      {
+        "NameTheme": "A0_11_12_[ WHAT ]",
+        "Tries": 1,
+        "CorrectUnswers": 41,
+        "MissingUnswers": 9,
+        "AllUnswers": 50,
+        "Date": "2026-06-13T10:09:40.4973362+03:00"
       }
     ]
   }

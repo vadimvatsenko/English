@@ -230,7 +230,8 @@ public class Logic
             numberTheme++;
         }
         
-        bool isContainceBackToChooseLevel = filesOnThemeDict.ContainsValue(StaticFields.BACK_TO_CHOOSE_LEVEL);
+        bool isContainceBackToChooseLevel 
+            = filesOnThemeDict.ContainsValue(StaticFields.BACK_TO_CHOOSE_LEVEL);
         
         if (!isContainceBackToChooseLevel)
         {
