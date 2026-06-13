@@ -15,11 +15,11 @@
       },
       {
         "NameTheme": "A0_41_42_[ DID QA ]",
-        "Tries": 2,
-        "CorrectUnswers": 46,
-        "MissingUnswers": 0,
+        "Tries": 3,
+        "CorrectUnswers": 41,
+        "MissingUnswers": 9,
         "AllUnswers": 50,
-        "Date": "2026-06-10T13:28:07.1029596+03:00"
+        "Date": "2026-06-13T09:42:38.3357835+03:00"
       },
       {
         "NameTheme": "01 - Digits - 1 - 10",
@@ -121,7 +121,7 @@
         "NameTheme": "A0_39_40_[ DIDN\u0060T ]",
         "Tries": 1,
         "CorrectUnswers": 34,
-        "MissingUnswers": 16,
+        "MissingUnswers": 0,
         "AllUnswers": 50,
         "Date": "2026-06-13T09:25:19.6640949+03:00"
       }
