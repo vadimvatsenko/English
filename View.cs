@@ -103,8 +103,8 @@ public class View
 
                 Console.WriteLine(new string(' ', Console.WindowWidth)); // Очищаем пустую строку
                 
-                string horizontalTop = $"  ╔════╦═══════════════════════════════════════════════╦══════════╦═════════════════╦═══════════════════════════╗";
-                string horizontalBottom = $"  ╚════╩═══════════════════════════════════════════════╩══════════╩═════════════════╩═══════════════════════════╝";
+                string horizontalTop = $"  ╔════╦═══════════════════════════════════════════════╦═══════════╦═════════════════╦═══════════════════════════╗";
+                string horizontalBottom = $"  ╚════╩═══════════════════════════════════════════════╩═══════════╩═════════════════╩═══════════════════════════╝";
                 Console.WriteLine($"{horizontalTop}".Background(StaticColors.White).Color(StaticColors.Blue).Bold());
                 
                 foreach (var m in menu)
@@ -126,8 +126,10 @@ public class View
                     // Выводим строку меню
                     
                     
-                    Console.WriteLine($"{arrow} ║ {m.Key:00} ║ {centeredText}║ TRIES: {tryes.ToString("00")} ║ RATING: {correctUnswers:00} / {allQuestions:00} ║ Date: {data} ║".Background(backgroundColor)
-                        .Color(foregroundColor).Bold());
+                    Console.WriteLine($"{arrow} ║ {m.Key:00} ║ {centeredText}║ TRIES: {tryes.ToString("00")} " +
+                                      $"║ RATING: {correctUnswers:00} / {allQuestions:00} ║ Date: {data} " +
+                                      $"║".Background(backgroundColor)
+                                        .Color(foregroundColor).Bold());
                 }
                 
                 

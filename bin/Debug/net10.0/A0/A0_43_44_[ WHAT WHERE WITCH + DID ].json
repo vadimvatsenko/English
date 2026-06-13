@@ -1,0 +1,260 @@
+{
+  "sections": [
+    {
+      "title": "Past Simple Special Questions (from slides)",
+      "rule": "Специальные вопросы из скринов по Past Simple.",
+      "examples": [
+        {
+          "en": "Where did you buy it?",
+          "ipa": "[weə dɪd juː baɪ ɪt?]",
+          "ru": "Где ты купил это?"
+        },
+        {
+          "en": "How did you do it?",
+          "ipa": "[haʊ dɪd juː duː ɪt?]",
+          "ru": "Как ты сделал это?"
+        },
+        {
+          "en": "What did you see there?",
+          "ipa": "[wɒt dɪd juː siː ðeə?]",
+          "ru": "Что ты увидел там?"
+        },
+        {
+          "en": "When did you understand it?",
+          "ipa": "[wen dɪd juː ˌʌndəˈstænd ɪt?]",
+          "ru": "Когда ты это понял?"
+        },
+        {
+          "en": "How much did it cost?",
+          "ipa": "[haʊ mʌtʃ dɪd ɪt kɒst?]",
+          "ru": "Сколько это стоило?"
+        },
+        {
+          "en": "How often did you go there?",
+          "ipa": "[haʊ ˈɒfn dɪd juː gəʊ ðeə?]",
+          "ru": "Как часто ты ходил туда?"
+        },
+        {
+          "en": "What time did you come home?",
+          "ipa": "[wɒt taɪm dɪd juː kʌm həʊm?]",
+          "ru": "Во сколько ты пришел домой?"
+        },
+        {
+          "en": "When did you come home?",
+          "ipa": "[wen dɪd juː kʌm həʊm?]",
+          "ru": "Когда ты пришел домой?"
+        },
+        {
+          "en": "When did you see him last time?",
+          "ipa": "[wen dɪd juː siː hɪm lɑːst taɪm?]",
+          "ru": "Когда ты видел его в последний раз?"
+        },
+        {
+          "en": "How much did you pay for it?",
+          "ipa": "[haʊ mʌtʃ dɪd juː peɪ fɔː ɪt?]",
+          "ru": "Сколько ты заплатил за это?"
+        },
+        {
+          "en": "What did you do yesterday?",
+          "ipa": "[wɒt dɪd juː duː ˈjestədeɪ?]",
+          "ru": "Что ты делал вчера?"
+        },
+        {
+          "en": "What did you do the day before yesterday?",
+          "ipa": "[wɒt dɪd juː duː ðə deɪ bɪˈfɔː ˈjestədeɪ?]",
+          "ru": "Что ты делал позавчера?"
+        },
+        {
+          "en": "Why did you do it?",
+          "ipa": "[waɪ dɪd juː duː ɪt?]",
+          "ru": "Зачем ты сделал это?"
+        },
+        {
+          "en": "Where did you live?",
+          "ipa": "[weə dɪd juː lɪv?]",
+          "ru": "Где ты жил?"
+        },
+        {
+          "en": "How did it help you?",
+          "ipa": "[haʊ dɪd ɪt help juː?]",
+          "ru": "Как это помогло тебе?"
+        },
+        {
+          "en": "When did they come?",
+          "ipa": "[wen dɪd ðeɪ kʌm?]",
+          "ru": "Когда они пришли?"
+        },
+        {
+          "en": "When did you arrive at the airport?",
+          "ipa": "[wen dɪd juː əˈraɪv æt ði ˈeəpɔːt?]",
+          "ru": "Когда вы прибыли в аэропорт?"
+        },
+        {
+          "en": "When did he come to this meeting?",
+          "ipa": "[wen dɪd hiː kʌm tuː ðɪs ˈmiːtɪŋ?]",
+          "ru": "Когда он пришел на эту встречу?"
+        },
+        {
+          "en": "When did she come to the meeting?",
+          "ipa": "[wen dɪd ʃiː kʌm tuː ðə ˈmiːtɪŋ?]",
+          "ru": "Когда она пришла на встречу?"
+        },
+        {
+          "en": "When did he come to that party?",
+          "ipa": "[wen dɪd hiː kʌm tuː ðæt ˈpɑːti?]",
+          "ru": "Когда он пришел на ту вечеринку?"
+        },
+        {
+          "en": "When did you come to the party?",
+          "ipa": "[wen dɪd juː kʌm tuː ðə ˈpɑːti?]",
+          "ru": "Когда ты пришел на вечеринку?"
+        },
+        {
+          "en": "What did you eat for breakfast?",
+          "ipa": "[wɒt dɪd juː iːt fɔː ˈbrekfəst?]",
+          "ru": "Что ты ел на завтрак?"
+        },
+        {
+          "en": "What did you eat for lunch?",
+          "ipa": "[wɒt dɪd juː iːt fɔː lʌntʃ?]",
+          "ru": "Что ты ел на обед?"
+        },
+        {
+          "en": "What did you eat for dinner?",
+          "ipa": "[wɒt dɪd juː iːt fɔː ˈdɪnə?]",
+          "ru": "Что ты ел на ужин?"
+        },
+        {
+          "en": "Where did you meet last time?",
+          "ipa": "[weə dɪd juː miːt lɑːst taɪm?]",
+          "ru": "Где вы встречались в прошлый раз?"
+        },
+        {
+          "en": "How did you meet?",
+          "ipa": "[haʊ dɪd juː miːt?]",
+          "ru": "Как вы встретились?"
+        },
+        {
+          "en": "How did you celebrate this holiday?",
+          "ipa": "[haʊ dɪd juː ˈselɪbreɪt ðɪs ˈhɒlədeɪ?]",
+          "ru": "Как ты отмечал этот праздник?"
+        },
+        {
+          "en": "How did you celebrate your birthday?",
+          "ipa": "[haʊ dɪd juː ˈselɪbreɪt jɔː ˈbɜːθdeɪ?]",
+          "ru": "Как ты отпраздновал свой день рождения?"
+        },
+        {
+          "en": "How much money did you spend on it?",
+          "ipa": "[haʊ mʌtʃ ˈmʌni dɪd juː spend ɒн ɪt?]",
+          "ru": "Сколько денег ты потратил на это?"
+        },
+        {
+          "en": "How much time did you spend on it?",
+          "ipa": "[haʊ mʌtʃ taɪm dɪd juː spend ɒн ɪt?]",
+          "ru": "Сколько времени ты потратил на это?"
+        },
+        {
+          "en": "How much money did you spend on this trip?",
+          "ipa": "[haʊ mʌtʃ ˈmʌni dɪd juː spend ɒn ðɪs trɪp?]",
+          "ru": "Сколько денег ты потратил на эту поездку?"
+        },
+        {
+          "en": "How much money did you spend on this course?",
+          "ipa": "[haʊ mʌtʃ ˈmʌni dɪd juː spend ɒn ðɪs kɔːs?]",
+          "ru": "Сколько денег ты потратил на этот курс?"
+        },
+        {
+          "en": "Where did you go last summer?",
+          "ipa": "[weə dɪd juː gəʊ lɑːst ˈsʌmə?]",
+          "ru": "Куда ты ездил прошлым летом?"
+        },
+        {
+          "en": "Where did you go last winter?",
+          "ipa": "[weə dɪd juː gəʊ lɑːst ˈwɪntə?]",
+          "ru": "Куда ты ездил прошлой зимой?"
+        },
+        {
+          "en": "What tickets did you buy?",
+          "ipa": "[wɒt ˈtɪkɪts dɪd juː baɪ?]",
+          "ru": "Какие билеты ты купил?"
+        },
+        {
+          "en": "What places did you visit?",
+          "ipa": "[wɒt ˈpleɪsɪz dɪd juː ˈvɪzɪt?]",
+          "ru": "Какие места вы посетили?"
+        },
+        {
+          "en": "What interesting places did you visit?",
+          "ipa": "[wɒt ˈɪntrɪstɪŋ ˈpleɪsɪz dɪd juː ˈvɪzɪt?]",
+          "ru": "Какие интересные места вы посетили?"
+        },
+        {
+          "en": "What mistakes did you make?",
+          "ipa": "[wɒt mɪsˈteɪks dɪd juː meɪk?]",
+          "ru": "Какие ошибки ты сделал?"
+        },
+        {
+          "en": "What mistakes did he make?",
+          "ipa": "[wɒt mɪsˈteɪks dɪd hiː meɪk?]",
+          "ru": "Какие ошибки он сделал?"
+        },
+        {
+          "en": "What food did you buy?",
+          "ipa": "[wɒt fuːd dɪd juː baɪ?]",
+          "ru": "Какую еду ты купил?"
+        },
+        {
+          "en": "Which model did you order?",
+          "ipa": "[wɪtʃ ˈmɒdl dɪd juː ˈɔːdə?]",
+          "ru": "Которую модель ты заказал?"
+        },
+        {
+          "en": "Which dress did you choose?",
+          "ipa": "[wɪtʃ dres dɪd juː tʃuːz?]",
+          "ru": "Которое платье ты выбрал?"
+        },
+        {
+          "en": "How did you know about it?",
+          "ipa": "[haʊ dɪd juː nəʊ əˈbaʊt ɪt?]",
+          "ru": "Как ты узнал об этом?"
+        },
+        {
+          "en": "Where did you find this information?",
+          "ipa": "[weə dɪd juː faɪnd ðɪs ˌɪnfəˈmeɪʃn?]",
+          "ru": "Где ты нашел эту информацию?"
+        },
+        {
+          "en": "How did you solve this problem?",
+          "ipa": "[haʊ dɪd juː sɒlv ðɪs ˈprɒbləm?]",
+          "ru": "Как ты решил эту проблему?"
+        },
+        {
+          "en": "What results did you have?",
+          "ipa": "[wɒt rɪˈzʌlts dɪd juː hæv?]",
+          "ru": "Какие результаты у тебя были?"
+        },
+        {
+          "en": "What results did he have?",
+          "ipa": "[wɒt rɪˈzʌlts dɪd hiː hæv?]",
+          "ru": "Какие результаты у него были?"
+        },
+        {
+          "en": "How did you speak English?",
+          "ipa": "[haʊ dɪd juː spiːk ˈɪŋglɪʃ?]",
+          "ru": "Как ты говорил по-английски?"
+        },
+        {
+          "en": "What did she say?",
+          "ipa": "[wɒt dɪd ʃiː seɪ?]",
+          "ru": "Что она сказала?"
+        },
+        {
+          "en": "What did he tell you?",
+          "ipa": "[wɒt dɪd hiː tel juː?]",
+          "ru": "Что он сказал тебе?"
+        }
+      ]
+    }
+  ]
+}
