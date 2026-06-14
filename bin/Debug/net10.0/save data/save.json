@@ -137,9 +137,33 @@
         "NameTheme": "A0_43_44_[ WHAT WHERE WITCH \u002B DID ]",
         "Tries": 1,
         "CorrectUnswers": 41,
-        "MissingUnswers": 9,
+        "MissingUnswers": 0,
         "AllUnswers": 50,
         "Date": "2026-06-14T09:09:12.1291914+03:00"
+      },
+      {
+        "NameTheme": "A0_05_06_[ HE SHE IT ...s ]",
+        "Tries": 1,
+        "CorrectUnswers": 46,
+        "MissingUnswers": 0,
+        "AllUnswers": 56,
+        "Date": "2026-06-14T09:57:05.3565836+03:00"
+      },
+      {
+        "NameTheme": "A0_17_18_[ AM IS ARE TO BE QA ]",
+        "Tries": 1,
+        "CorrectUnswers": 45,
+        "MissingUnswers": 0,
+        "AllUnswers": 50,
+        "Date": "2026-06-14T12:31:40.5768059+03:00"
+      },
+      {
+        "NameTheme": "A0_07_08_[ DON\u0060T ]",
+        "Tries": 1,
+        "CorrectUnswers": 40,
+        "MissingUnswers": 7,
+        "AllUnswers": 47,
+        "Date": "2026-06-14T14:04:47.6050804+03:00"
       }
     ]
   }

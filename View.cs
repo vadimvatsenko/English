@@ -124,9 +124,18 @@ public class View
                     int allQuestions = rating != null ? rating.AllUnswers : 0;
                     string data = rating != null ? rating.Date.ToString("dd.MM.yyyy HH:mm:ss") : "░░:░░:░░░░ ░░:░░:░░" ;
                     // Выводим строку меню
+
+                    float percentSuccess = 0f;
+                    try
+                    {
+                        percentSuccess = (correctUnswers / allQuestions) * 100;
+                    }
+                    catch (Exception e)
+                    {
+                        percentSuccess = 0;
+                    }
                     
-                    
-                    Console.WriteLine($"{arrow} ║ {m.Key:00} ║ {centeredText}║ TRIES: {tryes.ToString("00")} ║ RATING: {correctUnswers:00} / {allQuestions:00} ║ Date: {data} ║".Background(backgroundColor)
+                    Console.WriteLine($"{arrow} ║ {m.Key:00} ║ {centeredText}║ TRIES: {tryes.ToString("00")} ║ RATING: {correctUnswers:00} / {allQuestions:00} ║ Success {percentSuccess.ToString("000")}% ║ Date: {data} ║".Background(backgroundColor)
                         .Color(foregroundColor).Bold());
                 }
                 
