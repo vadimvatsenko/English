@@ -135,11 +135,11 @@
       },
       {
         "NameTheme": "A0_43_44_[ WHAT WHERE WITCH \u002B DID ]",
-        "Tries": 1,
-        "CorrectUnswers": 41,
+        "Tries": 2,
+        "CorrectUnswers": 42,
         "MissingUnswers": 0,
         "AllUnswers": 50,
-        "Date": "2026-06-14T09:09:12.1291914+03:00"
+        "Date": "2026-06-15T15:51:55.3771617+03:00"
       },
       {
         "NameTheme": "A0_05_06_[ HE SHE IT ...s ]",
@@ -169,9 +169,17 @@
         "NameTheme": "A0_09_10_[ DO DOES ]",
         "Tries": 1,
         "CorrectUnswers": 45,
-        "MissingUnswers": 5,
+        "MissingUnswers": 0,
         "AllUnswers": 50,
         "Date": "2026-06-15T08:10:31.775329+03:00"
+      },
+      {
+        "NameTheme": "A0_13_14_[ AM IS ARE ]",
+        "Tries": 1,
+        "CorrectUnswers": 51,
+        "MissingUnswers": 1,
+        "AllUnswers": 52,
+        "Date": "2026-06-15T16:03:20.3895419+03:00"
       }
     ]
   }
