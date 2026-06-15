@@ -103,8 +103,8 @@ public class View
 
                 Console.WriteLine(new string(' ', Console.WindowWidth)); // Очищаем пустую строку
                 
-                string horizontalTop = $"  ╔════╦═══════════════════════════════════════════════╦═══════════╦═════════════════╦═══════════════════════════╗";
-                string horizontalBottom = $"  ╚════╩═══════════════════════════════════════════════╩═══════════╩═════════════════╩═══════════════════════════╝";
+                string horizontalTop = $"  ╔════╦═══════════════════════════════════════════════╦═══════════╦═════════════════╦════════════╦═══════════════════════════╗";
+                string horizontalBottom = $"  ╚════╩═══════════════════════════════════════════════╩═══════════╩═════════════════╩════════════╩═══════════════════════════╝";
                 Console.WriteLine($"{horizontalTop}".Background(StaticColors.White).Color(StaticColors.Blue).Bold());
                 
                 foreach (var m in menu)
@@ -128,14 +128,15 @@ public class View
                     float percentSuccess = 0f;
                     try
                     {
-                        percentSuccess = (correctUnswers / allQuestions) * 100;
+                        percentSuccess = 100 - ((float)(allQuestions / correctUnswers) * 100);
+                        
                     }
                     catch (Exception e)
                     {
                         percentSuccess = 0;
                     }
                     
-                    Console.WriteLine($"{arrow} ║ {m.Key:00} ║ {centeredText}║ TRIES: {tryes.ToString("00")} ║ RATING: {correctUnswers:00} / {allQuestions:00} ║ Success {percentSuccess.ToString("000")}% ║ Date: {data} ║".Background(backgroundColor)
+                    Console.WriteLine($"{arrow} ║ {m.Key:00} ║ {centeredText}║ TRIES: {tryes.ToString("00")} ║ RATING: {correctUnswers:00} / {allQuestions:00} ║ Success {percentSuccess.ToString():F00}% ║ Date: {data} ║".Background(backgroundColor)
                         .Color(foregroundColor).Bold());
                 }
                 
