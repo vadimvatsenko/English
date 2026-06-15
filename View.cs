@@ -103,8 +103,8 @@ public class View
 
                 Console.WriteLine(new string(' ', Console.WindowWidth)); // Очищаем пустую строку
                 
-                string horizontalTop = $"  ╔════╦═══════════════════════════════════════════════╦═══════════╦═════════════════╦════════════╦═══════════════════════════╗";
-                string horizontalBottom = $"  ╚════╩═══════════════════════════════════════════════╩═══════════╩═════════════════╩════════════╩═══════════════════════════╝";
+                string horizontalTop = $"  ╔════╦═══════════════════════════════════════════════╦═══════════╦═════════════════╦══════════════════╦═══════════════════════════╗";
+                string horizontalBottom = $"  ╚════╩═══════════════════════════════════════════════╩═══════════╩═════════════════╩══════════════════╩═══════════════════════════╝";
                 Console.WriteLine($"{horizontalTop}".Background(StaticColors.White).Color(StaticColors.Blue).Bold());
                 
                 foreach (var m in menu)
@@ -125,18 +125,12 @@ public class View
                     string data = rating != null ? rating.Date.ToString("dd.MM.yyyy HH:mm:ss") : "░░:░░:░░░░ ░░:░░:░░" ;
                     // Выводим строку меню
 
-                    float percentSuccess = 0f;
-                    try
-                    {
-                        percentSuccess = 100 - ((float)(allQuestions / correctUnswers) * 100);
-                        
-                    }
-                    catch (Exception e)
-                    {
-                        percentSuccess = 0;
-                    }
+                    float percentSuccess = ((correctUnswers == 0 ? 1 : correctUnswers) / (allQuestions == 0 ? 1 : allQuestions)) * 100;
+                    Console.WriteLine($"correctUnswers {correctUnswers} allQuestions {allQuestions} percentSuccess {percentSuccess}");
+                    Console.ReadKey();
                     
-                    Console.WriteLine($"{arrow} ║ {m.Key:00} ║ {centeredText}║ TRIES: {tryes.ToString("00")} ║ RATING: {correctUnswers:00} / {allQuestions:00} ║ Success {percentSuccess.ToString():F00}% ║ Date: {data} ║".Background(backgroundColor)
+                    
+                    Console.WriteLine($"{arrow} ║ {m.Key:00} ║ {centeredText}║ TRIES: {tryes.ToString("00")} ║ RATING: {correctUnswers:00} / {allQuestions:00} ║ Success: {percentSuccess.ToString("000.00")}% ║ Date: {data} ║".Background(backgroundColor)
                         .Color(foregroundColor).Bold());
                 }
                 
