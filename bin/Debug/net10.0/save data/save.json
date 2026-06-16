@@ -185,9 +185,17 @@
         "NameTheme": "A0_15_16_[ AM NOT IS\u0060N AREN\u0060T ]",
         "Tries": 1,
         "CorrectUnswers": 37,
-        "MissingUnswers": 8,
+        "MissingUnswers": 0,
         "AllUnswers": 45,
         "Date": "2026-06-15T16:32:58.4035597+03:00"
+      },
+      {
+        "NameTheme": "A0_19_20_[ WHEN WHY HOW ]",
+        "Tries": 1,
+        "CorrectUnswers": 50,
+        "MissingUnswers": 3,
+        "AllUnswers": 53,
+        "Date": "2026-06-16T09:09:24.31581+03:00"
       }
     ]
   }

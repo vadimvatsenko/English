@@ -1,5 +1,6 @@
 ﻿using ANSIConsole;
 using English.Static;
+using English.Utils;
 
 namespace English;
 
@@ -125,13 +126,26 @@ public class View
                     string data = rating != null ? rating.Date.ToString("dd.MM.yyyy HH:mm:ss") : "░░:░░:░░░░ ░░:░░:░░" ;
                     // Выводим строку меню
 
-                    float percentSuccess = ((correctUnswers == 0 ? 1 : correctUnswers) / (allQuestions == 0 ? 1 : allQuestions)) * 100;
-                    Console.WriteLine($"correctUnswers {correctUnswers} allQuestions {allQuestions} percentSuccess {percentSuccess}");
-                    Console.ReadKey();
+                    //float percentSuccess = ((correctUnswers == 0 ? 1 : correctUnswers) / (allQuestions == 0 ? 1 : allQuestions)) * 100;
+
+                    float percentSuccess = 0;
+                    try
+                    {
+                        percentSuccess = ((float)correctUnswers / (float)allQuestions) * 100f;
+                    }
+                    catch (Exception e)
+                    {
+                        percentSuccess = 0;
+                    }
+                    
+                    string percentColorHex =   HexColorsLerp.LerpColorHex(StaticColors.Red, StaticColors.Green, percentSuccess);
+                    
+                    //Console.WriteLine($"correctUnswers {correctUnswers} allQuestions {allQuestions} percentSuccess {percentSuccess}");
+                    //Console.ReadKey();
                     
                     
                     Console.WriteLine($"{arrow} ║ {m.Key:00} ║ {centeredText}║ TRIES: {tryes.ToString("00")} ║ RATING: {correctUnswers:00} / {allQuestions:00} ║ Success: {percentSuccess.ToString("000.00")}% ║ Date: {data} ║".Background(backgroundColor)
-                        .Color(foregroundColor).Bold());
+                        .Color(percentColorHex).Bold());
                 }
                 
                 
