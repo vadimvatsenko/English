@@ -142,10 +142,19 @@ public class View
                     
                     //Console.WriteLine($"correctUnswers {correctUnswers} allQuestions {allQuestions} percentSuccess {percentSuccess}");
                     //Console.ReadKey();
-                    
-                    
-                    Console.WriteLine($"{arrow} ║ {m.Key:00} ║ {centeredText}║ TRIES: {tryes.ToString("00")} ║ RATING: {correctUnswers:00} / {allQuestions:00} ║ Success: {percentSuccess.ToString("000.00")}% ║ Date: {data} ║".Background(backgroundColor)
+
+                    //ShowLine((arrow, string.Empty, StaticColors.Red));
+
+                    Console.Write(
+                        $"{arrow} ║ {m.Key:00} ║ {centeredText}║ TRIES: {tryes.ToString("00")} ║ RATING: {correctUnswers:00} / {allQuestions:00} ║ ".Background(backgroundColor)
+                            .Color(foregroundColor).Bold());
+                    Console.Write($"Success: {percentSuccess.ToString("000.00")}% ║".Background(backgroundColor)
                         .Color(percentColorHex).Bold());
+                    Console.WriteLine($"Date: {data} ║".Background(backgroundColor).Color(foregroundColor).Bold());
+                    
+
+                    //Console.WriteLine($"{arrow} ║ {m.Key:00} ║ {centeredText}║ TRIES: {tryes.ToString("00")} ║ RATING: {correctUnswers:00} / {allQuestions:00} ║ Success: {percentSuccess.ToString("000.00")}% ║ Date: {data} ║".Background(backgroundColor)
+                    //.Color(percentColorHex).Bold());
                 }
                 
                 
@@ -181,8 +190,16 @@ public class View
                 }
             }
         }
-        
-        
+
+        private void ShowLine(params (string title, string value, string color)[] lines )
+        {
+            foreach (var l in lines)
+            {
+                Console.Write($"{l.title} : {l.value} ║");
+            }
+        }
+
+
         // центрирование текста в меню
         private static string CenteredText(string text, int width)
         {

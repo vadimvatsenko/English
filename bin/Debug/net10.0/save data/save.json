@@ -193,9 +193,17 @@
         "NameTheme": "A0_19_20_[ WHEN WHY HOW ]",
         "Tries": 1,
         "CorrectUnswers": 50,
-        "MissingUnswers": 3,
+        "MissingUnswers": 0,
         "AllUnswers": 53,
         "Date": "2026-06-16T09:09:24.31581+03:00"
+      },
+      {
+        "NameTheme": "A0_45_46_[ WHAS WHERE ]",
+        "Tries": 1,
+        "CorrectUnswers": 33,
+        "MissingUnswers": 18,
+        "AllUnswers": 51,
+        "Date": "2026-06-18T12:10:50.9313213+03:00"
       }
     ]
   }

@@ -1,0 +1,265 @@
+{
+  "sections": [
+    {
+      "title": "Past Simple: Was / Were Statements",
+      "rule": "Утвердительные предложения с глаголом to be (was / were) в прошедшем времени.",
+      "examples": [
+        {
+          "en": "I was very busy",
+          "ipa": "[aɪ wɒz 'veri 'bɪzi]",
+          "ru": "Я был очень занят"
+        },
+        {
+          "en": "We were together",
+          "ipa": "[wiː wɜː tə'ɡeðə]",
+          "ru": "Мы были вместе"
+        },
+        {
+          "en": "You were right",
+          "ipa": "[juː wɜː raɪt]",
+          "ru": "Ты был прав"
+        },
+        {
+          "en": "They were in another city",
+          "ipa": "[ðeɪ wɜː ɪn ə'nʌðə 'sɪti]",
+          "ru": "Они были в другом городе"
+        },
+        {
+          "en": "He was at work",
+          "ipa": "[hiː wɒz æt wɜːk]",
+          "ru": "Он был на работе"
+        },
+        {
+          "en": "She was so happy",
+          "ipa": "[ʃiː wɒz səʊ 'hæpi]",
+          "ru": "Она была так счастлива"
+        },
+        {
+          "en": "It was very important",
+          "ipa": "[ɪt wɒz 'veri ɪm'pɔːtənt]",
+          "ru": "Это было очень важно"
+        },
+        {
+          "en": "It was really interesting",
+          "ipa": "[ɪt wɒz 'rɪəli 'ɪntrɪstɪŋ]",
+          "ru": "Это было действительно интересно"
+        },
+        {
+          "en": "I was very happy",
+          "ipa": "[aɪ wɒz 'veri 'hæpi]",
+          "ru": "Я был очень счастлив"
+        },
+        {
+          "en": "You were absolutely right",
+          "ipa": "[juː wɜː 'æbsəluːtli raɪt]",
+          "ru": "Ты был совершенно прав"
+        },
+        {
+          "en": "We were in the city",
+          "ipa": "[wiː wɜː ɪn ðə 'sɪti]",
+          "ru": "Мы были в городе"
+        },
+        {
+          "en": "They were in the city",
+          "ipa": "[ðeɪ wɜː ɪn ðə 'sɪti]",
+          "ru": "Они были в городе"
+        },
+        {
+          "en": "He was very happy",
+          "ipa": "[hiː wɒz 'veri 'hæpi]",
+          "ru": "Он был очень счастлив"
+        },
+        {
+          "en": "She was sad",
+          "ipa": "[ʃiː wɒz sæd]",
+          "ru": "Она была грустная"
+        },
+        {
+          "en": "He was very sad",
+          "ipa": "[hiː wɒz 'veri sæd]",
+          "ru": "Он был очень грустный"
+        },
+        {
+          "en": "It was difficult",
+          "ipa": "[ɪt wɒz 'dɪfɪkəlt]",
+          "ru": "Это было сложно"
+        },
+        {
+          "en": "It was easy",
+          "ipa": "[ɪt wɒz 'iːzi]",
+          "ru": "Это было легко"
+        },
+        {
+          "en": "It was important",
+          "ipa": "[ɪt wɒz ɪm'pɔːtənt]",
+          "ru": "Это было важно"
+        },
+        {
+          "en": "It was very difficult",
+          "ipa": "[ɪt wɒz 'veri 'dɪfɪkəlt]",
+          "ru": "Это было очень сложно"
+        },
+        {
+          "en": "It was very easy",
+          "ipa": "[ɪt wɒz 'veri 'iːzi]",
+          "ru": "Это было очень легко"
+        },
+        {
+          "en": "It was really important",
+          "ipa": "[ɪt wɒz 'rɪəli ɪm'pɔːtənt]",
+          "ru": "Это было действительно важно"
+        },
+        {
+          "en": "It was too difficult",
+          "ipa": "[ɪt wɒz tuː 'dɪfɪkəlt]",
+          "ru": "Это было слишком сложно"
+        },
+        {
+          "en": "It was so easy",
+          "ipa": "[ɪt wɒz səʊ 'iːzi]",
+          "ru": "Это было так легко"
+        },
+        {
+          "en": "It was the best result",
+          "ipa": "[ɪt wɒz ðə best rɪ'zʌlt]",
+          "ru": "Это был лучший результат"
+        },
+        {
+          "en": "It was the best decision",
+          "ipa": "[ɪt wɒz ðə best dɪ'sɪʒən]",
+          "ru": "Это было лучшее решение"
+        },
+        {
+          "en": "It was the best choice",
+          "ipa": "[ɪt wɒz ðə best tʃɔɪs]",
+          "ru": "Это был лучший выбор"
+        },
+        {
+          "en": "It was my best result",
+          "ipa": "[ɪt wɒz maɪ best rɪ'zʌlt]",
+          "ru": "Это был мой лучший результат"
+        },
+        {
+          "en": "I was at work",
+          "ipa": "[aɪ wɒz æt wɜːk]",
+          "ru": "Я был на работе"
+        },
+        {
+          "en": "He was at school",
+          "ipa": "[hiː wɒz æt skuːl]",
+          "ru": "Он был в школе"
+        },
+        {
+          "en": "I was very busy all day",
+          "ipa": "[aɪ wɒz 'veri 'bɪzi ɔːl deɪ]",
+          "ru": "Я был очень занят весь день"
+        },
+        {
+          "en": "I was very tired",
+          "ipa": "[aɪ wɒz 'veri 'taɪəd]",
+          "ru": "Я очень устал"
+        },
+        {
+          "en": "I was very tired after work",
+          "ipa": "[aɪ wɒz 'veri 'taɪəd 'ɑːftə wɜːk]",
+          "ru": "Я очень устал после работы"
+        },
+        {
+          "en": "I was very tired yesterday",
+          "ipa": "[aɪ wɒz 'veri 'taɪəd 'jestədeɪ]",
+          "ru": "Я очень устал вчера"
+        },
+        {
+          "en": "He was ill",
+          "ipa": "[hiː wɒz ɪl]",
+          "ru": "Он был болен"
+        },
+        {
+          "en": "She was ill last week",
+          "ipa": "[ʃiː wɒz ɪl lɑːst wiːk]",
+          "ru": "Она болела на прошлой неделе"
+        },
+        {
+          "en": "He was very angry",
+          "ipa": "[hiː wɒz 'veri 'æŋɡri]",
+          "ru": "Он был очень зол"
+        },
+        {
+          "en": "She was really angry",
+          "ipa": "[ʃiː wɒz 'rɪəli 'æŋɡri]",
+          "ru": "Она была действительно рассержена"
+        },
+        {
+          "en": "This idea was very interesting",
+          "ipa": "[ðɪs aɪ'dɪə wɒz 'veri 'ɪntrɪstɪŋ]",
+          "ru": "Эта идея была очень интересная"
+        },
+        {
+          "en": "This lesson was very useful",
+          "ipa": "[ðɪs 'lesn wɒz 'veri 'juːsfl]",
+          "ru": "Этот урок был очень полезным"
+        },
+        {
+          "en": "These lessons were very useful",
+          "ipa": "[ðiːz 'lesnz wɜː 'veri 'juːsfl]",
+          "ru": "Эти уроки были очень полезные"
+        },
+        {
+          "en": "This dress was very expensive",
+          "ipa": "[ðɪs dres wɒz 'veri ɪk'spensɪv]",
+          "ru": "Это платье было очень дорогое"
+        },
+        {
+          "en": "This ticket was so expensive",
+          "ipa": "[ðɪs 'tɪkɪt wɒz səʊ ɪk'spensɪv]",
+          "ru": "Этот билет был таким дорогим"
+        },
+        {
+          "en": "These tickets were very expensive",
+          "ipa": "[ðiːz 'tɪkɪts wɜː 'veri ɪk'spensɪv]",
+          "ru": "Эти билеты были очень дорогими"
+        },
+        {
+          "en": "This food was very cheap",
+          "ipa": "[ðɪs fuːd wɒz 'veri tʃiːp]",
+          "ru": "Эта еда была очень дешевой"
+        },
+        {
+          "en": "I was in the park",
+          "ipa": "[aɪ wɒz ɪn ðə pɑːk]",
+          "ru": "Я был в парке"
+        },
+        {
+          "en": "We were in the park",
+          "ipa": "[wiː wɜː ɪn ðə pɑːk]",
+          "ru": "Мы были в парке"
+        },
+        {
+          "en": "It was really strange",
+          "ipa": "[ɪt wɒz 'rɪəli streɪndʒ]",
+          "ru": "Это было действительно странно"
+        },
+        {
+          "en": "It was so unusual",
+          "ipa": "[ɪt wɒz səʊ ʌn'juːʒuəl]",
+          "ru": "Это было так необычно"
+        },
+        {
+          "en": "He was very surprised",
+          "ipa": "[hiː wɒz 'veri sə'praɪzd]",
+          "ru": "Он был очень удивлен"
+        },
+        {
+          "en": "I was very surprised",
+          "ipa": "[aɪ wɒz 'veri sə'praɪzd]",
+          "ru": "Я был очень удивлен"
+        },
+        {
+          "en": "I was really surprised",
+          "ipa": "[aɪ wɒz 'rɪəli sə'praɪzd]",
+          "ru": "Я был действительно удивлен"
+        }
+      ]
+    }
+  ]
+}
