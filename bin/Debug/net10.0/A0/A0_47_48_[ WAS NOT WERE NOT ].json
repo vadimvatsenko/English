@@ -1,0 +1,260 @@
+{
+  "sections": [
+    {
+      "title": "Past Simple: Was / Were Negations & Combinations",
+      "rule": "Отрицательные предложения с глаголом to be (wasn't / weren't) в прошедшем времени и комбинированные структуры.",
+      "examples": [
+        {
+          "en": "It wasn't a problem",
+          "ipa": "[ɪt ˈwɒznt ə ˈprɒbləm]",
+          "ru": "Это не было проблемой"
+        },
+        {
+          "en": "I wasn't surprised",
+          "ipa": "[aɪ ˈwɒznt səˈpraɪzd]",
+          "ru": "Я не был удивлен"
+        },
+        {
+          "en": "It wasn't bad. It was very good",
+          "ipa": "[ɪt ˈwɒznt bæd. ɪt wɒz ˈveri ɡʊd]",
+          "ru": "Это не было плохо. Это было очень хорошо"
+        },
+        {
+          "en": "He wasn't surprised",
+          "ipa": "[hiː ˈwɒznt səˈpraɪzd]",
+          "ru": "Он не был удивлен"
+        },
+        {
+          "en": "They weren't rich. They were very poor",
+          "ipa": "[ðeɪ wɜːnt rɪtʃ. ðeɪ wɜː ˈveri pʊə]",
+          "ru": "Они не были богатыми. Они были очень бедными"
+        },
+        {
+          "en": "I wasn't abroad last year",
+          "ipa": "[aɪ ˈwɒznt əˈbrɔːd lɑːst jɪə]",
+          "ru": "Я не был за границей в прошлом году"
+        },
+        {
+          "en": "It wasn't interesting for me",
+          "ipa": "[ɪt ˈwɒznt ˈɪntrɪstɪŋ fɔː miː]",
+          "ru": "Это не было интересно мне"
+        },
+        {
+          "en": "I wasn't busy. I was free",
+          "ipa": "[aɪ ˈwɒznt ˈbɪzi. aɪ wɒz friː]",
+          "ru": "Я не был занят. Я был свободен"
+        },
+        {
+          "en": "It wasn't expensive. It was very cheap",
+          "ipa": "[ɪt ˈwɒznt ɪkˈspensɪv. ɪt wɒz ˈveri tʃiːp]",
+          "ru": "Это не было дорого. Это было очень дешево"
+        },
+        {
+          "en": "I wasn't at home. I was at work",
+          "ipa": "[aɪ ˈwɒznt æt həʊm. aɪ wɒz æt wɜːk]",
+          "ru": "Я не был дома. Я был на работе"
+        },
+        {
+          "en": "I wasn't there in the afternoon. I was there in the evening",
+          "ipa": "[aɪ ˈwɒznt ðeər ɪn ði ˌɑːftəˈnuːn. aɪ wɒz ðeər ɪn ði ˈiːvnɪŋ]",
+          "ru": "Я не был там днем. Я был там вечером"
+        },
+        {
+          "en": "I think it wasn't so easy",
+          "ipa": "[aɪ θɪŋk ɪt ˈwɒznt səʊ ˈiːzi]",
+          "ru": "Я думаю, это было не так легко"
+        },
+        {
+          "en": "It wasn't funny",
+          "ipa": "[ɪt ˈwɒznt ˈfʌni]",
+          "ru": "Это было не смешно"
+        },
+        {
+          "en": "It wasn't so cheap",
+          "ipa": "[ɪt ˈwɒznt səʊ tʃiːp]",
+          "ru": "Это не было так дешево"
+        },
+        {
+          "en": "It wasn't easy. It was very difficult",
+          "ipa": "[ɪt ˈwɒznt ˈiːzi. ɪt wɒz ˈveri ˈdɪfɪkəlt]",
+          "ru": "Это было не легко. Это было очень сложно"
+        },
+        {
+          "en": "It wasn't too difficult",
+          "ipa": "[ɪt ˈwɒznt tuː ˈdɪfɪkəlt]",
+          "ru": "Это не было слишком сложно"
+        },
+        {
+          "en": "We weren't there. We were in another place",
+          "ipa": "[wiː wɜːnt ðeə. wiː wɜː ɪn əˈnʌðə pleɪs]",
+          "ru": "Мы не были там. Мы были в другом месте"
+        },
+        {
+          "en": "It wasn't interesting for him",
+          "ipa": "[ɪt ˈwɒznt ˈɪntrɪstɪŋ fɔː hɪm]",
+          "ru": "Это не было интересно ему"
+        },
+        {
+          "en": "It wasn't important",
+          "ipa": "[ɪt ˈwɒznt ɪmˈpɔːtənt]",
+          "ru": "Это не было важно"
+        },
+        {
+          "en": "It wasn't so funny",
+          "ipa": "[ɪt ˈwɒznt səʊ ˈfʌni]",
+          "ru": "Это было не так смешно"
+        },
+        {
+          "en": "He wasn't sure",
+          "ipa": "[hiː ˈwɒznt ʃʊə]",
+          "ru": "Он не был уверен"
+        },
+        {
+          "en": "I think you weren't right",
+          "ipa": "[aɪ θɪŋk juː wɜːnt raɪt]",
+          "ru": "Я думаю, ты не был прав"
+        },
+        {
+          "en": "I wasn't ready for it",
+          "ipa": "[aɪ ˈwɒznt ˈredi fɔːr ɪt]",
+          "ru": "Я не был готов к этому"
+        },
+        {
+          "en": "It wasn't difficult. It was very easy",
+          "ipa": "[ɪt ˈwɒznt ˈdɪfɪkəlt. ɪt wɒz ˈveri ˈiːzi]",
+          "ru": "Это было не сложно. Это было очень легко"
+        },
+        {
+          "en": "I wasn't sure about it",
+          "ipa": "[aɪ ˈwɒznt ʃʊər əˈbaʊt ɪt]",
+          "ru": "Я не был уверен по поводу этого"
+        },
+        {
+          "en": "It wasn't the best idea in that situation",
+          "ipa": "[ɪt ˈwɒznt ðə best aɪˈdɪər ɪn ðæt ˌsɪtʃuˈeɪʃn]",
+          "ru": "Это была не лучшая идея в той ситуации"
+        },
+        {
+          "en": "It wasn't interesting for them",
+          "ipa": "[ɪt ˈwɒznt ˈɪntrɪstɪŋ fɔː ðem]",
+          "ru": "Это не было интересно им"
+        },
+        {
+          "en": "It wasn't a problem for me",
+          "ipa": "[ɪt ˈwɒznt ə ˈprɒbləm fɔː miː]",
+          "ru": "Это не было проблемой для меня"
+        },
+        {
+          "en": "They weren't at home",
+          "ipa": "[ðeɪ wɜːnt æt həʊm]",
+          "ru": "Они не были дома"
+        },
+        {
+          "en": "It wasn't so easy",
+          "ipa": "[ɪt ˈwɒznt səʊ ˈiːzi]",
+          "ru": "Это было не так легко"
+        },
+        {
+          "en": "I think that this price wasn't so good",
+          "ipa": "[aɪ θɪŋk ðæt ðɪs praɪs ˈwɒznt səʊ ɡʊd]",
+          "ru": "Я думаю, что эта цена была не такая хорошая"
+        },
+        {
+          "en": "It wasn't really important",
+          "ipa": "[ɪt ˈwɒznt ˈrɪəli ɪmˈpɔːtənt]",
+          "ru": "Это не было действительно важно"
+        },
+        {
+          "en": "It wasn't interesting. It was really boring",
+          "ipa": "[ɪt ˈwɒznt ˈɪntrɪstɪŋ. ɪt wɒz ˈrɪəli ˈbɔːrɪŋ]",
+          "ru": "Это не было интересно. Это было действительно скучно"
+        },
+        {
+          "en": "She wasn't surprised",
+          "ipa": "[ʃiː ˈwɒznt səˈpraɪzd]",
+          "ru": "Она не была удивлена"
+        },
+        {
+          "en": "I wasn't ready",
+          "ipa": "[aɪ ˈwɒznt ˈredi]",
+          "ru": "Я не был готов"
+        },
+        {
+          "en": "I wasn't there in the morning. I was there in the afternoon",
+          "ipa": "[aɪ ˈwɒznt ðeər ɪn ðə ˈmɔːnɪŋ. aɪ wɒz ðeər ɪn ði ˌɑːftəˈnuːn]",
+          "ru": "Я не был там утром. Я был там днем"
+        },
+        {
+          "en": "We weren't at home",
+          "ipa": "[wiː wɜːnt æt həʊm]",
+          "ru": "Мы не были дома"
+        },
+        {
+          "en": "It wasn't interesting for her",
+          "ipa": "[ɪt ˈwɒznt ˈɪntrɪstɪŋ fɔː hɜː]",
+          "ru": "Это не было интересно ей"
+        },
+        {
+          "en": "It wasn't difficult in the beginning",
+          "ipa": "[ɪt ˈwɒznt ˈdɪfɪkəlt ɪn ðə bɪˈɡɪnɪŋ]",
+          "ru": "Это не было сложно в начале"
+        },
+        {
+          "en": "This joke wasn't funny",
+          "ipa": "[ðɪs dʒəʊk ˈwɒznt ˈfʌni]",
+          "ru": "Эта шутка не была смешной"
+        },
+        {
+          "en": "It wasn't easy",
+          "ipa": "[ɪt ˈwɒznt ˈiːzi]",
+          "ru": "Это не было легко"
+        },
+        {
+          "en": "It wasn't difficult",
+          "ipa": "[ɪt ˈwɒznt ˈdɪfɪkəlt]",
+          "ru": "Это не было сложно"
+        },
+        {
+          "en": "They weren't near. They were very far",
+          "ipa": "[ðeɪ wɜːnt nɪə. ðeɪ wɜː ˈveri fɑː]",
+          "ru": "Они не были рядом. Они были очень далеко"
+        },
+        {
+          "en": "I wasn't tired yesterday",
+          "ipa": "[aɪ ˈwɒznt ˈtaɪəd ˈjestədeɪ]",
+          "ru": "Я не устал вчера"
+        },
+        {
+          "en": "It wasn't my idea",
+          "ipa": "[ɪt ˈwɒznt maɪ aɪˈdɪə]",
+          "ru": "Это была не моя идея"
+        },
+        {
+          "en": "It wasn't interesting",
+          "ipa": "[ɪt ˈwɒznt ˈɪntrɪstɪŋ]",
+          "ru": "Это было не интересно"
+        },
+        {
+          "en": "I wasn't at work yesterday",
+          "ipa": "[aɪ ˈwɒznt æt wɜːk ˈjestədeɪ]",
+          "ru": "Я не был на работе вчера"
+        },
+        {
+          "en": "He wasn't tired yesterday",
+          "ipa": "[hiː ˈwɒznt ˈtaɪəd ˈjestədeɪ]",
+          "ru": "Он не устал вчера"
+        },
+        {
+          "en": "This video wasn't funny",
+          "ipa": "[ðɪs ˈvɪdiəʊ ˈwɒznt ˈfʌni]",
+          "ru": "Это видео не было смешным"
+        },
+        {
+          "en": "This joke wasn't so funny",
+          "ipa": "[ðɪs dʒəʊk ˈwɒznt səʊ ˈfʌni]",
+          "ru": "Эта шутка не была такой смешной"
+        }
+      ]
+    }
+  ]
+}
