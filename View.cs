@@ -128,15 +128,16 @@ public class View
 
                     //float percentSuccess = ((correctUnswers == 0 ? 1 : correctUnswers) / (allQuestions == 0 ? 1 : allQuestions)) * 100;
 
-                    float percentSuccess = 0;
-                    try
-                    {
-                        percentSuccess = ((float)correctUnswers / (float)allQuestions) * 100f;
-                    }
-                    catch (Exception e)
+                    float percentSuccess = ((float)correctUnswers / (float)allQuestions) * 100f;
+
+// Если все вопросы = 0 и правильные = 0, результатом будет NaN
+// Если все вопросы = 0, а правильные > 0, результатом будет Infinity
+                    if (float.IsNaN(percentSuccess) || float.IsInfinity(percentSuccess))
                     {
                         percentSuccess = 0;
                     }
+
+                    percentSuccess = percentSuccess.ToString() == "не число" ? 0 : percentSuccess;
                     
                     string percentColorHex =   HexColorsLerp.LerpColorHex(StaticColors.Red, StaticColors.Green, percentSuccess);
                     
@@ -148,9 +149,9 @@ public class View
                     Console.Write(
                         $"{arrow} ║ {m.Key:00} ║ {centeredText}║ TRIES: {tryes.ToString("00")} ║ RATING: {correctUnswers:00} / {allQuestions:00} ║ ".Background(backgroundColor)
                             .Color(foregroundColor).Bold());
-                    Console.Write($"Success: {percentSuccess.ToString("000.00")}% ║".Background(backgroundColor)
+                    Console.Write($"Success: {percentSuccess.ToString("000.00")}% ".Background(backgroundColor)
                         .Color(percentColorHex).Bold());
-                    Console.WriteLine($"Date: {data} ║".Background(backgroundColor).Color(foregroundColor).Bold());
+                    Console.WriteLine($"║ Date: {data} ║".Background(backgroundColor).Color(foregroundColor).Bold());
                     
 
                     //Console.WriteLine($"{arrow} ║ {m.Key:00} ║ {centeredText}║ TRIES: {tryes.ToString("00")} ║ RATING: {correctUnswers:00} / {allQuestions:00} ║ Success: {percentSuccess.ToString("000.00")}% ║ Date: {data} ║".Background(backgroundColor)
