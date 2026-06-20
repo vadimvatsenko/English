@@ -119,11 +119,11 @@
       },
       {
         "NameTheme": "A0_39_40_[ DIDN\u0060T ]",
-        "Tries": 1,
-        "CorrectUnswers": 34,
-        "MissingUnswers": 0,
+        "Tries": 2,
+        "CorrectUnswers": 40,
+        "MissingUnswers": 10,
         "AllUnswers": 50,
-        "Date": "2026-06-13T09:25:19.6640949+03:00"
+        "Date": "2026-06-20T10:17:41.5666761+03:00"
       },
       {
         "NameTheme": "A0_11_12_[ WHAT ]",
@@ -199,11 +199,11 @@
       },
       {
         "NameTheme": "A0_45_46_[ WAS WERE ]",
-        "Tries": 1,
-        "CorrectUnswers": 33,
+        "Tries": 2,
+        "CorrectUnswers": 45,
         "MissingUnswers": 0,
         "AllUnswers": 51,
-        "Date": "2026-06-18T12:10:50.9313213+03:00"
+        "Date": "2026-06-20T09:57:52.8969498+03:00"
       },
       {
         "NameTheme": "A0_21_22_[ WILL ]",
@@ -225,9 +225,25 @@
         "NameTheme": "A0_23_24_[ WON\u0060T ]",
         "Tries": 1,
         "CorrectUnswers": 43,
-        "MissingUnswers": 7,
+        "MissingUnswers": 0,
         "AllUnswers": 50,
         "Date": "2026-06-19T09:13:30.1286997+03:00"
+      },
+      {
+        "NameTheme": "A0_49_50_[ WAS  WERE QA ]",
+        "Tries": 1,
+        "CorrectUnswers": 48,
+        "MissingUnswers": 0,
+        "AllUnswers": 55,
+        "Date": "2026-06-20T09:25:15.1415951+03:00"
+      },
+      {
+        "NameTheme": "A0_25_26_[ WILL QA ]",
+        "Tries": 1,
+        "CorrectUnswers": 43,
+        "MissingUnswers": 0,
+        "AllUnswers": 50,
+        "Date": "2026-06-20T09:38:59.6981871+03:00"
       }
     ]
   }

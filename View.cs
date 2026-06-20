@@ -106,7 +106,7 @@ public class View
             // Отрисовка заголовка
             Console.Write($"{name}".Background(StaticColors.Blue).Color(StaticColors.White).Bold());
             // Добавляем PadRight, чтобы затереть старый хвост, если текст изменится
-            Console.Write($" {otherText}: ");
+            Console.Write($" {otherText}");
             Console.Write($"{menu[counter]}".Background(StaticColors.Blue).Color(StaticColors.White).Bold());
 
             Console.WriteLine(new string(' ', Console.WindowWidth)); // Очищаем пустую строку

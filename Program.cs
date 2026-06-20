@@ -8,7 +8,10 @@ namespace English
         public static async Task Main(string[] args)
         {
             Console.Title = "English";
-            Console.SetWindowSize(135,35);
+            Console.SetWindowSize(140,40);
+            Console.BufferHeight = Console.WindowHeight;
+            Console.BufferWidth = Console.WindowWidth;
+            
             
             EncodingUtil encodingUtil = new EncodingUtil();
             
