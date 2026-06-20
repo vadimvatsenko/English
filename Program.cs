@@ -11,7 +11,7 @@ namespace English
             Console.SetWindowSize(135,35);
             
             EncodingUtil encodingUtil = new EncodingUtil();
-            View view = new View();
+            
             encodingUtil.EncodingSetup();
 
             // инициализация колорайзера
@@ -20,6 +20,8 @@ namespace English
             AuthService authService = new AuthService();
             await authService.InitializeAsync();
 
+            View view = new View(authService);
+            
             StaticFields.ChangeAutoLoginEnabled(authService.IsAutologin);
 
             Logic logic = new Logic(authService, view);

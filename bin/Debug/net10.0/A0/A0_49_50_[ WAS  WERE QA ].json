@@ -1,0 +1,285 @@
+{
+  "sections": [
+    {
+      "title": "Past Simple: Was / Were Questions",
+      "rule": "Вопросительные предложения с глаголом to be (was / were) в прошедшем времени.",
+      "examples": [
+        {
+          "en": "Was he at the concert?",
+          "ipa": "[wɒz hi: æt ðə 'kɒnsə:t?]",
+          "ru": "Он был на концерте?"
+        },
+        {
+          "en": "Was it interesting or not?",
+          "ipa": "[wɒz ɪt 'ɪntrɪstɪŋ ɔ: nɒt?]",
+          "ru": "Это было интересно или нет?"
+        },
+        {
+          "en": "Was it a problem for you?",
+          "ipa": "[wɒz ɪt ə 'prɒbləm fɔ: ju:?]",
+          "ru": "Это было проблемой для тебя?"
+        },
+        {
+          "en": "Was it really so difficult?",
+          "ipa": "[wɒz ɪt 'rɪəli səʊ 'dɪfɪkəlt]",
+          "ru": "Это было действительно так сложно?"
+        },
+        {
+          "en": "What was on the floor?",
+          "ipa": "[wɒt wɒz ɒn ðə flɔ:?]",
+          "ru": "Что было на полу?"
+        },
+        {
+          "en": "Was it important or not?",
+          "ipa": "[wɒz ɪt ɪm'pɔ:tənt ɔ: nɒt?]",
+          "ru": "Это было важно или нет?"
+        },
+        {
+          "en": "Was he online?",
+          "ipa": "[wɒz hi: 'ɒnˌlaɪn?]",
+          "ru": "Он был онлайн?"
+        },
+        {
+          "en": "Was it really important?",
+          "ipa": "[wɒz ɪt 'rɪəli ɪm'pɔ:tənt?]",
+          "ru": "Это было действительно важно?"
+        },
+        {
+          "en": "Were you busy?",
+          "ipa": "[wɜ: ju: 'bɪzi?]",
+          "ru": "Ты был занят?"
+        },
+        {
+          "en": "What was in the box?",
+          "ipa": "[wɒt wɒz ɪn ðə bɒks?]",
+          "ru": "Что было в коробке?"
+        },
+        {
+          "en": "Where were you?",
+          "ipa": "[weə wɜ: ju:?]",
+          "ru": "Где ты был?"
+        },
+        {
+          "en": "Were you together?",
+          "ipa": "[wɜ: ju: tə'ɡeðə?]",
+          "ru": "Вы были вместе?"
+        },
+        {
+          "en": "Why was it so effective?",
+          "ipa": "[waɪ wɒz ɪt səʊ ɪ'fektɪv?]",
+          "ru": "Почему это было так эффективно?"
+        },
+        {
+          "en": "Where were you in the morning?",
+          "ipa": "[weə wɜ: ju: ɪn ðə 'mɔ:nɪŋ?]",
+          "ru": "Где ты был утром?"
+        },
+        {
+          "en": "Was it really so boring?",
+          "ipa": "[wɒz ɪt 'rɪəli səʊ 'bɔ:rɪŋ?]",
+          "ru": "Это было действительно так скучно?"
+        },
+        {
+          "en": "Was he really angry?",
+          "ipa": "[wɒz hi: 'rɪəli 'æŋɡri?]",
+          "ru": "Он был действительно зол?"
+        },
+        {
+          "en": "Were you really sure?",
+          "ipa": "[wɜ: ju: 'rɪəli ʃʊə?]",
+          "ru": "Ты был действительно уверен?"
+        },
+        {
+          "en": "Why was it so expensive?",
+          "ipa": "[waɪ wɒz ɪt səʊ ɪks'pensɪv?]",
+          "ru": "Почему это было так дорого?"
+        },
+        {
+          "en": "Where did you buy this thing?",
+          "ipa": "[weə dɪd ju: baɪ ðɪs θɪŋ?]",
+          "ru": "Где ты купил эту вещь?"
+        },
+        {
+          "en": "Was it better?",
+          "ipa": "[wɒz ɪt 'betə?]",
+          "ru": "Это было лучше?"
+        },
+        {
+          "en": "Why was it so slow?",
+          "ipa": "[waɪ wɒz ɪt səʊ sləʊ?]",
+          "ru": "Почему это было так медленно?"
+        },
+        {
+          "en": "Was he at the party?",
+          "ipa": "[wɒz hi: æt ðə 'pɑ:ti?]",
+          "ru": "Он был на вечеринке?"
+        },
+        {
+          "en": "What was in that box?",
+          "ipa": "[wɒt wɒz ɪn ðæt bɒks?]",
+          "ru": "Что было в той коробке?"
+        },
+        {
+          "en": "Was it free?",
+          "ipa": "[wɒz ɪt fri:?]",
+          "ru": "Это было бесплатно?"
+        },
+        {
+          "en": "When were you there last time?",
+          "ipa": "[wen wɜ: ju: ðeə lɑ:st taɪm?]",
+          "ru": "Когда ты был там последний раз?"
+        },
+        {
+          "en": "Were they at the beach?",
+          "ipa": "[wɜ: ðeɪ æt ðə bi:tʃ?]",
+          "ru": "Они были на пляже?"
+        },
+        {
+          "en": "How did you download this program?",
+          "ipa": "[haʊ dɪd ju: ˌdaʊn'ləʊd ðɪs 'prəʊɡræm?]",
+          "ru": "Как ты скачал эту программу?"
+        },
+        {
+          "en": "How did you download it?",
+          "ipa": "[haʊ dɪd ju: ˌdaʊn'ləʊd ɪt?]",
+          "ru": "Как ты скачал это?"
+        },
+        {
+          "en": "Was it really so important?",
+          "ipa": "[wɒz ɪt 'rɪəli səʊ ɪm'pɔ:tənt?]",
+          "ru": "Это было действительно так важно?"
+        },
+        {
+          "en": "What was really important?",
+          "ipa": "[wɒt wɒz 'rɪəli ɪm'pɔ:tənt?]",
+          "ru": "Что было действительно важно?"
+        },
+        {
+          "en": "How much was it?",
+          "ipa": "[haʊ mʌtʃ wɒz ɪt?]",
+          "ru": "Сколько это стоило?"
+        },
+        {
+          "en": "Were you at the beach?",
+          "ipa": "[wɜ: ju: æt ðə bi:tʃ?]",
+          "ru": "Вы были на пляже?"
+        },
+        {
+          "en": "Who was there?",
+          "ipa": "[hu: wɒz ðeə?]",
+          "ru": "Кто там был?"
+        },
+        {
+          "en": "Was it really so effective?",
+          "ipa": "[wɒz ɪt 'rɪəli səʊ ɪ'fektɪv?]",
+          "ru": "Это было действительно так эффективно?"
+        },
+        {
+          "en": "Was he with you?",
+          "ipa": "[wɒz hi: wɪð ju:?]",
+          "ru": "Он был с тобой?"
+        },
+        {
+          "en": "What was on the desk?",
+          "ipa": "[wɒt wɒz ɒn ðə desk?]",
+          "ru": "Что было на письменном столе?"
+        },
+        {
+          "en": "What was so strange?",
+          "ipa": "[wɒt wɒz səʊ streɪndʒ?]",
+          "ru": "Что было такого странного?"
+        },
+        {
+          "en": "Were you at this party?",
+          "ipa": "[wɜ: ju: æt ðɪs 'pɑ:ti?]",
+          "ru": "Ты был на этой вечеринке?"
+        },
+        {
+          "en": "Were you at the concert?",
+          "ipa": "[wɜ: ju: æt ðə 'kɒnsə:t?]",
+          "ru": "Ты был на концерте?"
+        },
+        {
+          "en": "Who was right?",
+          "ipa": "[hu: wɒz raɪt?]",
+          "ru": "Кто был прав?"
+        },
+        {
+          "en": "Was she really angry?",
+          "ipa": "[wɒz ʃi: 'rɪəli 'æŋɡri?]",
+          "ru": "Она была действительно рассержена?"
+        },
+        {
+          "en": "Where were you in the evening?",
+          "ipa": "[weə wɜ: ju: ɪn ðɪ 'i:vnɪŋ?]",
+          "ru": "Где ты был вечером?"
+        },
+        {
+          "en": "Was it a problem?",
+          "ipa": "[wɒz ɪt ə 'prɒbləm?]",
+          "ru": "Это было проблемой?"
+        },
+        {
+          "en": "Where were you in the afternoon?",
+          "ipa": "[weə wɜ: ju: ɪn ðɪ ˌɑ:ftə'nu:n?]",
+          "ru": "Где ты был днем?"
+        },
+        {
+          "en": "Was I right?",
+          "ipa": "[wɒz aɪ raɪt?]",
+          "ru": "Я был прав?"
+        },
+        {
+          "en": "Were you in England last year?",
+          "ipa": "[wɜ: ju: ɪn 'ɪŋɡlənd lɑ:st jɪə?]",
+          "ru": "Ты был в Англии в прошлом году?"
+        },
+        {
+          "en": "What was in this box?",
+          "ipa": "[wɒt wɒz ɪn ðɪs bɒks?]",
+          "ru": "Что было в этой коробке?"
+        },
+        {
+          "en": "When were you abroad last time?",
+          "ipa": "[wen wɜ: ju: ə'brɔ:d lɑ:st taɪm?]",
+          "ru": "Когда ты последний раз был за границей?"
+        },
+        {
+          "en": "What was on the table?",
+          "ipa": "[wɒt wɒz ɒn ðə 'teɪbl?]",
+          "ru": "Что было на столе?"
+        },
+        {
+          "en": "Were you online?",
+          "ipa": "[wɜ: ju: 'ɒnˌlaɪn?]",
+          "ru": "Ты был онлайн?"
+        },
+        {
+          "en": "Where was he?",
+          "ipa": "[weə wɒz hi:?]",
+          "ru": "Где он был?"
+        },
+        {
+          "en": "Were you busy yesterday?",
+          "ipa": "[wɜ: ju: 'bɪzi 'jestədeɪ?]",
+          "ru": "Ты был занят вчера?"
+        },
+        {
+          "en": "Was he really right?",
+          "ipa": "[wɒz hi: 'rɪəli raɪt?]",
+          "ru": "Он был действительно прав?"
+        },
+        {
+          "en": "Why was it so cheap?",
+          "ipa": "[waɪ wɒz ɪt səʊ tʃi:p?]",
+          "ru": "Почему это было так дешево?"
+        },
+        {
+          "en": "Were you in the United States last year?",
+          "ipa": "[wɜ: ju: 1n ðɪ jʊ'naɪtɪd steɪts lɑ:st jɪə?]",
+          "ru": "Ты был в Соединенных Штатах в прошлом году?"
+        }
+      ]
+    }
+  ]
+}
