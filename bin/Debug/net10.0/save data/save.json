@@ -71,11 +71,11 @@
       },
       {
         "NameTheme": "A0_29_30_[ PAST -ED PART_1 ]",
-        "Tries": 1,
-        "CorrectUnswers": 38,
-        "MissingUnswers": 0,
+        "Tries": 2,
+        "CorrectUnswers": 44,
+        "MissingUnswers": 6,
         "AllUnswers": 50,
-        "Date": "2026-06-11T10:21:15.3636056+03:00"
+        "Date": "2026-06-22T10:26:55.2005494+03:00"
       },
       {
         "NameTheme": "A0_01_02_[ A, AN ]",
@@ -121,7 +121,7 @@
         "NameTheme": "A0_39_40_[ DIDN\u0060T ]",
         "Tries": 2,
         "CorrectUnswers": 40,
-        "MissingUnswers": 10,
+        "MissingUnswers": 0,
         "AllUnswers": 50,
         "Date": "2026-06-20T10:17:41.5666761+03:00"
       },
