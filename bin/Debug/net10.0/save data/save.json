@@ -103,11 +103,11 @@
       },
       {
         "NameTheme": "A0_35_36_[ Irregular Verbs PART_4 PRACTICE ]",
-        "Tries": 3,
-        "CorrectUnswers": 50,
-        "MissingUnswers": 0,
+        "Tries": 4,
+        "CorrectUnswers": 39,
+        "MissingUnswers": 11,
         "AllUnswers": 50,
-        "Date": "2026-06-27T09:54:07.3715101+03:00"
+        "Date": "2026-07-07T12:16:25.9183636+03:00"
       },
       {
         "NameTheme": "A0_03_04_[ TO ]",
@@ -137,7 +137,7 @@
         "NameTheme": "A0_43_44_[ WHAT WHERE WITCH \u002B DID ]",
         "Tries": 4,
         "CorrectUnswers": 41,
-        "MissingUnswers": 9,
+        "MissingUnswers": 0,
         "AllUnswers": 50,
         "Date": "2026-06-29T18:47:32.6282448+03:00"
       },
@@ -199,11 +199,11 @@
       },
       {
         "NameTheme": "A0_45_46_[ WAS WERE ]",
-        "Tries": 3,
-        "CorrectUnswers": 46,
+        "Tries": 4,
+        "CorrectUnswers": 42,
         "MissingUnswers": 0,
         "AllUnswers": 51,
-        "Date": "2026-06-24T09:16:39.9128238+03:00"
+        "Date": "2026-07-04T12:31:43.4154213+03:00"
       },
       {
         "NameTheme": "A0_21_22_[ WILL ]",
@@ -244,6 +244,22 @@
         "MissingUnswers": 0,
         "AllUnswers": 50,
         "Date": "2026-06-20T09:38:59.6981871+03:00"
+      },
+      {
+        "NameTheme": "A1_01_02_[ A AN  ]",
+        "Tries": 2,
+        "CorrectUnswers": 48,
+        "MissingUnswers": 0,
+        "AllUnswers": 54,
+        "Date": "2026-07-07T11:42:46.6795194+03:00"
+      },
+      {
+        "NameTheme": "A1_03_04_[ IS ARE  ]",
+        "Tries": 2,
+        "CorrectUnswers": 32,
+        "MissingUnswers": 0,
+        "AllUnswers": 48,
+        "Date": "2026-07-07T12:04:42.4331759+03:00"
       }
     ]
   }

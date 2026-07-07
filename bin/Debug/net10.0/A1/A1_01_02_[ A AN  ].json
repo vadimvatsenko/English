@@ -1,0 +1,280 @@
+{
+  "sections": [
+    {
+      "title": "Present Simple: Basic Structures",
+      "rule": "Утвердительные предложения с конструкциями It's a... / I have a... в настоящем времени.",
+      "examples": [
+        {
+          "en": "I have a clear aim",
+          "ipa": "[aɪ hæv ə klɪər eɪm]",
+          "ru": "У меня чёткая цель"
+        },
+        {
+          "en": "I think it's a very small mistake",
+          "ipa": "[aɪ θɪŋk ɪts ə ˈvəri smɔːl mɪsˈteɪk]",
+          "ru": "Я думаю, это очень маленькая ошибка"
+        },
+        {
+          "en": "It's a small mistake",
+          "ipa": "[ɪts ə smɔːl mɪsˈteɪk]",
+          "ru": "Это маленькая ошибка"
+        },
+        {
+          "en": "It's a useful lesson",
+          "ipa": "[ɪts ə ˈjuːsfl ˈlesn]",
+          "ru": "Это полезный урок"
+        },
+        {
+          "en": "I have an aim",
+          "ipa": "[aɪ hæv ən eɪm]",
+          "ru": "У меня есть цель"
+        },
+        {
+          "en": "It's a very funny video",
+          "ipa": "[ɪts ə ˈveri ˈfʌni ˈvɪdɪəʊ]",
+          "ru": "Это очень смешное видео"
+        },
+        {
+          "en": "I have a plan",
+          "ipa": "[aɪ hæv ə plæn]",
+          "ru": "У меня есть план"
+        },
+        {
+          "en": "We see a university",
+          "ipa": "[wiː siː ə ˌjuːnɪˈvɜːsəti]",
+          "ru": "Мы видим университет"
+        },
+        {
+          "en": "It's a strange answer",
+          "ipa": "[ɪts ə streɪndʒ ˈɑːnsə]",
+          "ru": "Это странный ответ"
+        },
+        {
+          "en": "It's so unusual",
+          "ipa": "[ɪts səʊ ʌnˈjuːʒʊəl]",
+          "ru": "Это так необычно"
+        },
+        {
+          "en": "It's a very interesting plan",
+          "ipa": "[ɪts ə ˈveri ˈɪntrəstɪŋ plæn]",
+          "ru": "Это очень интересный plan"
+        },
+        {
+          "en": "I think that it's an interesting question",
+          "ipa": "[aɪ θɪŋk ðæt ɪts ən ˈɪntrəstɪŋ ˈkwestʃən]",
+          "ru": "Я думаю, что это интересный вопрос"
+        },
+        {
+          "en": "It's a very beautiful place",
+          "ipa": "[ɪts ə ˈveri ˈbjuːtɪfl pleɪs]",
+          "ru": "Это очень красивое место"
+        },
+        {
+          "en": "It's a very good result",
+          "ipa": "[ɪts ə ˈveri ɡʊd rɪˈzʌlt]",
+          "ru": "Это очень хороший результат"
+        },
+        {
+          "en": "It's a very easy test",
+          "ipa": "[ɪts ə ˈveri ˈiːzi test]",
+          "ru": "Это очень лёгкий тест"
+        },
+        {
+          "en": "I have some plans",
+          "ipa": "[aɪ hæv sʌm plænz]",
+          "ru": "У меня есть некоторые планы"
+        },
+        {
+          "en": "It's a good result",
+          "ipa": "[ɪts ə ɡʊd rɪˈzʌlt]",
+          "ru": "Это хороший результат"
+        },
+        {
+          "en": "I think that it's a very good idea",
+          "ipa": "[aɪ θɪŋk ðæt ɪts ə ˈveri ɡʊd aɪˈdɪə]",
+          "ru": "Я думаю, что это очень хорошая идея"
+        },
+        {
+          "en": "It's very unusual",
+          "ipa": "[ɪts ˈveri ʌnˈjuːʒʊəl]",
+          "ru": "Это очень необычно"
+        },
+        {
+          "en": "It seems to me that it's a very good idea",
+          "ipa": "[ɪt siːmz tuː miː ðæt ɪts ə ˈveri ɡʊd aɪˈdɪə]",
+          "ru": "Мне кажется, что это очень хорошая идея"
+        },
+        {
+          "en": "I have a very clear aim",
+          "ipa": "[aɪ hæv ə ˈveri klɪər eɪm]",
+          "ru": "У меня очень чёткая цель"
+        },
+        {
+          "en": "It's a big mistake",
+          "ipa": "[ɪts ə bɪɡ mɪsˈteɪk]",
+          "ru": "Это большая ошибка"
+        },
+        {
+          "en": "I have a result",
+          "ipa": "[aɪ hæv ə rɪˈzʌlt]",
+          "ru": "У меня есть результат"
+        },
+        {
+          "en": "I think it's a good idea",
+          "ipa": "[aɪ θɪŋk ɪts ə ɡʊd aɪˈdɪə]",
+          "ru": "Я думаю, это хорошая идея"
+        },
+        {
+          "en": "It's a very expensive ticket",
+          "ipa": "[ɪts ə ˈveri ɪkˈspensɪv ˈtɪkɪt]",
+          "ru": "Это очень дорогой билет"
+        },
+        {
+          "en": "It's an interesting decision",
+          "ipa": "[ɪts ən ˈɪntrəstɪŋ dɪˈsɪʒn]",
+          "ru": "Это интересное решение"
+        },
+        {
+          "en": "It's a very difficult task",
+          "ipa": "[ɪts ə ˈveri ˈdɪfɪkəlt tɑːsk]",
+          "ru": "Это очень сложная задача"
+        },
+        {
+          "en": "It's a very useful book",
+          "ipa": "[ɪts ə ˈveri ˈjuːsfl bʊk]",
+          "ru": "Это очень полезная книга"
+        },
+        {
+          "en": "I have some results",
+          "ipa": "[aɪ hæv sʌm rɪˈzʌlts]",
+          "ru": "У меня есть некоторые результаты"
+        },
+        {
+          "en": "It's an easy test",
+          "ipa": "[ɪts ən ˈiːzi test]",
+          "ru": "Это лёгкий тест"
+        },
+        {
+          "en": "It's a very useful lesson",
+          "ipa": "[ɪts ə ˈveri ˈjuːsfl ˈlesn]",
+          "ru": "Это очень полезный урок"
+        },
+        {
+          "en": "This hotel is very good",
+          "ipa": "[ðɪs həʊˈtel ɪz ˈveri ɡʊd]",
+          "ru": "Этот отель очень хороший"
+        },
+        {
+          "en": "It's an interesting plan",
+          "ipa": "[ɪts ən ˈɪntrəstɪŋ plæn]",
+          "ru": "Это интересный план"
+        },
+        {
+          "en": "It's an interesting question",
+          "ipa": "[ɪts ən ˈɪntrəstɪŋ ˈkwestʃən]",
+          "ru": "Это интересный вопрос"
+        },
+        {
+          "en": "It's a very interesting question",
+          "ipa": "[ɪts ə ˈveri ˈɪntrəstɪŋ ˈkwestʃən]",
+          "ru": "Это очень интересный вопрос"
+        },
+        {
+          "en": "It's a very funny joke",
+          "ipa": "[ɪts ə ˈveri ˈfʌni dʒəʊk]",
+          "ru": "Это очень смешная шутка"
+        },
+        {
+          "en": "It's a funny joke",
+          "ipa": "[ɪts ə ˈfʌni dʒəʊk]",
+          "ru": "Это смешная шутка"
+        },
+        {
+          "en": "It's a very difficult problem",
+          "ipa": "[ɪts ə ˈveri ˈdɪfɪkəlt ˈprɒbləm]",
+          "ru": "Это очень сложная проблема"
+        },
+        {
+          "en": "It's a difficult problem",
+          "ipa": "[ɪts ə ˈdɪfɪkəlt ˈprɒbləm]",
+          "ru": "Это сложная проблема"
+        },
+        {
+          "en": "It's a very easy task",
+          "ipa": "[ɪts ə ˈveri ˈiːzi tɑːsk]",
+          "ru": "Это очень легкая задача"
+        },
+        {
+          "en": "It's an easy task",
+          "ipa": "[ɪts ən ˈiːzi tɑːsk]",
+          "ru": "Это легкая задача"
+        },
+        {
+          "en": "It's a very dangerous situation",
+          "ipa": "[ɪts ə ˈveri ˈdeɪndʒərəs ˌsɪtʃuˈeɪʃn]",
+          "ru": "Это очень опасная ситуация"
+        },
+        {
+          "en": "It's a dangerous situation",
+          "ipa": "[ɪts ə ˈdeɪndʒərəs ˌsɪtʃuˈeɪʃn]",
+          "ru": "Это опасная ситуация"
+        },
+        {
+          "en": "It's an important detail",
+          "ipa": "[ɪts ən ɪmˈpɔːtnt ˈdiːteɪl]",
+          "ru": "Это важная деталь"
+        },
+        {
+          "en": "They are important details",
+          "ipa": "[ðeɪ ɑːr ɪmˈpɔːtnt ˈdiːteɪlz]",
+          "ru": "Это важные детали"
+        },
+        {
+          "en": "It's a very important detail",
+          "ipa": "[ɪts ə ˈveri ɪmˈpɔːtnt ˈdiːteɪl]",
+          "ru": "Это очень важная деталь"
+        },
+        {
+          "en": "It's an important thing",
+          "ipa": "[ɪts ən ɪmˈpɔːtnt θɪŋ]",
+          "ru": "Это важная вещь"
+        },
+        {
+          "en": "It's a very important thing",
+          "ipa": "[ɪts ə ˈveri ɪmˈpɔːtnt θɪŋ]",
+          "ru": "Это очень важная вещь"
+        },
+        {
+          "en": "They are very important things",
+          "ipa": "[ðeɪ ɑː ˈveri ɪmˈpɔːtnt θɪŋz]",
+          "ru": "Это очень важные вещи"
+        },
+        {
+          "en": "It's a high mountain",
+          "ipa": "[ɪts ə haɪ ˈmaʊntən]",
+          "ru": "Это высокая гора"
+        },
+        {
+          "en": "It's a very high mountain",
+          "ipa": "[ɪts ə ˈveri haɪ ˈmaʊntən]",
+          "ru": "Это очень высокая гора"
+        },
+        {
+          "en": "It's a big city",
+          "ipa": "[ɪts ə bɪɡ ˈsɪti]",
+          "ru": "Это большой город"
+        },
+        {
+          "en": "It's a very big city",
+          "ipa": "[ɪts ə ˈveri bɪɡ ˈsɪti]",
+          "ru": "Это очень большой город"
+        },
+        {
+          "en": "It's a beautiful university",
+          "ipa": "[ɪts ə ˈbjuːtɪfl ˌjuːnɪˈvɜːsəti]",
+          "ru": "Это красивый университет"
+        }
+      ]
+    }
+  ]
+}

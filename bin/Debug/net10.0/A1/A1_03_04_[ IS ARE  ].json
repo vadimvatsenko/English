@@ -1,0 +1,250 @@
+{
+  "sections": [
+    {
+      "title": "Present Simple Sentences",
+      "rule": "Утвердительные предложения с глаголом to be, личными суждениями и описательными прилагательными в настоящем времени.",
+      "examples": [
+        {
+          "en": "I think that",
+          "ipa": "[aɪ θɪŋk ðæt]",
+          "ru": "Я думаю, что"
+        },
+        {
+          "en": "Happiness is more important than money",
+          "ipa": "[ˈhæpinəs ɪz mɔːr ɪmˈpɔːtnt ðæn ˈmʌni]",
+          "ru": "Счастье важнее, чем деньги"
+        },
+        {
+          "en": "Love is a wonderful feeling",
+          "ipa": "[lʌv ɪz ə ˈwʌndəfl ˈfiːlɪŋ]",
+          "ru": "Любовь — чудесное чувство"
+        },
+        {
+          "en": "Time is money",
+          "ipa": "[taɪm ɪz ˈmʌni]",
+          "ru": "Время — деньги"
+        },
+        {
+          "en": "The weather is wonderful now",
+          "ipa": "[ðə ˈweðər ɪz ˈwʌndəfl naʊ]",
+          "ru": "Погода чудесная сейчас"
+        },
+        {
+          "en": "The video is very funny",
+          "ipa": "[ðə ˈvɪdɪəʊ ɪz ˈveri ˈfʌni]",
+          "ru": "Видео очень смешное"
+        },
+        {
+          "en": "A very low level",
+          "ipa": "[ə ˈveri ləʊ ˈlevl]",
+          "ru": "Очень низкий уровень"
+        },
+        {
+          "en": "This is a very low level",
+          "ipa": "[ðɪs ɪz ə ˈveri ləʊ ˈlevl]",
+          "ru": "Это очень низкий уровень"
+        },
+        {
+          "en": "A very high level",
+          "ipa": "[ə ˈveri haɪ ˈlevl]",
+          "ru": "Очень высокий уровень"
+        },
+        {
+          "en": "Money is important",
+          "ipa": "[ˈmʌni ɪz ɪmˈpɔːtnt]",
+          "ru": "Деньги важны"
+        },
+        {
+          "en": "This course is so intense",
+          "ipa": "[ðɪs kɔːs ɪz səʊ ɪnˈtens]",
+          "ru": "Этот курс такой интенсивный"
+        },
+        {
+          "en": "Food is very expensive nowadays",
+          "ipa": "[fuːd ɪz ˈveri ɪkˈspensɪv ˈnaʊədeɪz]",
+          "ru": "Еда очень дорогая в наши дни"
+        },
+        {
+          "en": "The kids are at home",
+          "ipa": "[ðə kɪdz ɑːr æt həʊm]",
+          "ru": "Дети дома"
+        },
+        {
+          "en": "I have an excellent result",
+          "ipa": "[aɪ hæv ən ˈeksələnt rɪˈzʌlt]",
+          "ru": "У меня отличный результат"
+        },
+        {
+          "en": "The bank is closed",
+          "ipa": "[ðə bæŋk ɪz kləʊzd]",
+          "ru": "Банк закрыт"
+        },
+        {
+          "en": "These tickets are very cheap",
+          "ipa": "[ðiːz ˈtɪkɪts ɑːr ˈveri tʃiːp]",
+          "ru": "Эти билеты очень дешёвые"
+        },
+        {
+          "en": "I see that I have excellent results",
+          "ipa": "[aɪ siː ðæt aɪ hæv ˈeksələnt rɪˈzʌlts]",
+          "ru": "Я вижу, что у меня отличные результаты"
+        },
+        {
+          "en": "The food is so tasty",
+          "ipa": "[ðə fuːd ɪz səʊ ˈteɪsti]",
+          "ru": "Еда такая вкусная"
+        },
+        {
+          "en": "This is a low level",
+          "ipa": "[ðɪs ɪz ə ləʊ ˈlevl]",
+          "ru": "Это низкий уровень"
+        },
+        {
+          "en": "This ticket is very expensive",
+          "ipa": "[ðɪs ˈtɪkɪt ɪz ˈveri ɪkˈspensɪv]",
+          "ru": "Этот билет очень дорогой"
+        },
+        {
+          "en": "The book is very boring",
+          "ipa": "[ðə bʊk ɪz ˈveri ˈbɔːrɪŋ]",
+          "ru": "Книга очень скучная"
+        },
+        {
+          "en": "It seems to me that it is a brilliant idea",
+          "ipa": "[ɪt siːmz tuː miː ðæt ɪt ɪz ə ˈbrɪljənt aɪˈdɪə]",
+          "ru": "Мне кажется, что это блестящая идея"
+        },
+        {
+          "en": "This is a very intense course",
+          "ipa": "[ðɪs ɪz ə ˈveri ɪnˈtens kɔːs]",
+          "ru": "Это очень интенсивный курс"
+        },
+        {
+          "en": "The food is very tasty",
+          "ipa": "[ðə fuːd ɪz ˈveri ˈteɪsti]",
+          "ru": "Еда очень вкусная"
+        },
+        {
+          "en": "The result is very good",
+          "ipa": "[ðə rɪˈzʌlt ɪz ˈveri ɡʊd]",
+          "ru": "Результат очень хороший"
+        },
+        {
+          "en": "This bank is open",
+          "ipa": "[ðɪs bæŋk ɪz ˈəʊpən]",
+          "ru": "Этот банк открыт"
+        },
+        {
+          "en": "This is an excellent result",
+          "ipa": "[ðɪs ɪz ən ˈeksələnt rɪˈzʌlt]",
+          "ru": "Это отличный результат"
+        },
+        {
+          "en": "This is an intense course",
+          "ipa": "[ðɪs ɪz ən ɪnˈtens kɔːs]",
+          "ru": "Это интенсивный курс"
+        },
+        {
+          "en": "The tickets are too expensive",
+          "ipa": "[ðə ˈtɪkɪts ɑːr tuː ɪkˈspensɪv]",
+          "ru": "Билеты слишком дорогие"
+        },
+        {
+          "en": "This building is very high",
+          "ipa": "[ðɪs ˈbɪldɪŋ ɪz ˈveri haɪ]",
+          "ru": "Это здание очень высокое"
+        },
+        {
+          "en": "This result is very good",
+          "ipa": "[ðɪs rɪˈzʌlt ɪz ˈveri ɡʊd]",
+          "ru": "Этот результат очень хороший"
+        },
+        {
+          "en": "This shop is closed",
+          "ipa": "[ðɪs ʃɒp ɪz kləʊzd]",
+          "ru": "Этот магазин закрыт"
+        },
+        {
+          "en": "The video is so funny",
+          "ipa": "[ðə ˈvɪdɪəʊ ɪz səʊ ˈfʌni]",
+          "ru": "Видео такое смешное"
+        },
+        {
+          "en": "People often say that time is money",
+          "ipa": "[ˈpiːpl ˈɒfn seɪ ðæt taɪm ɪz ˈmʌni]",
+          "ru": "Люди часто говорят, что время — деньги"
+        },
+        {
+          "en": "This book is really boring",
+          "ipa": "[ðɪs bʊk ɪz ˈrɪəli ˈbɔːrɪŋ]",
+          "ru": "Эта книга действительно скучная"
+        },
+        {
+          "en": "I know that food is very expensive nowadays",
+          "ipa": "[aɪ nəʊ ðæt fuːd ɪz ˈveri ɪkˈspensɪv ˈnaʊədeɪz]",
+          "ru": "Я знаю, что еда очень дорогая в наши дни"
+        },
+        {
+          "en": "The weather is fine",
+          "ipa": "[ðə ˈweðər ɪz faɪn]",
+          "ru": "Погода хорошая"
+        },
+        {
+          "en": "The building is very high",
+          "ipa": "[ðə ˈbɪldɪŋ ɪz ˈveri haɪ]",
+          "ru": "Здание очень высокое"
+        },
+        {
+          "en": "The car is new",
+          "ipa": "[ðə kɑːr ɪz njuː]",
+          "ru": "Машина новая"
+        },
+        {
+          "en": "It is an old house",
+          "ipa": "[ɪt ɪz ən əʊld haʊs]",
+          "ru": "Это старый дом"
+        },
+        {
+          "en": "This is a new car",
+          "ipa": "[ðɪs ɪz ə njuː kɑːr]",
+          "ru": "Это новая машина"
+        },
+        {
+          "en": "I agree that money is important",
+          "ipa": "[aɪ əˈɡriː ðæt ˈmʌni ɪz ɪmˈpɔːtnt]",
+          "ru": "Я согласен, что деньги важны"
+        },
+        {
+          "en": "This is a very high level",
+          "ipa": "[ðɪs ɪz ə ˈveri haɪ ˈlevl]",
+          "ru": "Это очень высокий уровень"
+        },
+        {
+          "en": "The tickets are very cheap",
+          "ipa": "[ðə ˈtɪkɪts ɑːr ˈveri tʃiːp]",
+          "ru": "Билеты очень дешёвые"
+        },
+        {
+          "en": "This is a high level",
+          "ipa": "[ðɪs ɪz ə haɪ ˈlevl]",
+          "ru": "Это высокий уровень"
+        },
+        {
+          "en": "The shop is open",
+          "ipa": "[ðə ʃɒp ɪz ˈəʊpən]",
+          "ru": "Магазин открыт"
+        },
+        {
+          "en": "This car is old",
+          "ipa": "[ðɪs kɑːr ɪz əʊld]",
+          "ru": "Эта машина старая"
+        },
+        {
+          "en": "I think that it is a brilliant idea",
+          "ipa": "[aɪ θɪŋk ðæt ɪt ɪz ə ˈbrɪljənt aɪˈdɪə]",
+          "ru": "Я думаю, что это блестящая идея"
+        }
+      ]
+    }
+  ]
+}
