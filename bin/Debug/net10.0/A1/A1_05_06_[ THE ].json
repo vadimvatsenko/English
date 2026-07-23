@@ -1,0 +1,260 @@
+{
+  "sections": [
+    {
+      "title": "Present Simple & State Sentences",
+      "rule": "Утвердительные предложения с глаголами состояния, описанием погоды, профессий и личных связей в Present Simple.",
+      "examples": [
+        {
+          "en": "My parents often go there",
+          "ipa": "[maɪ ˈpeərənts ˈɒfn ɡəʊ ðeə]",
+          "ru": "Мои родители часто ходят туда"
+        },
+        {
+          "en": "The offer is very attractive",
+          "ipa": "[ði ˈɒfər ɪz ˈveri əˈtræktɪv]",
+          "ru": "Предложение очень заманчивое"
+        },
+        {
+          "en": "It's very sunny now",
+          "ipa": "[ɪts ˈveri ˈsʌni naʊ]",
+          "ru": "Сейчас очень солнечно"
+        },
+        {
+          "en": "My friend lives in another country",
+          "ipa": "[maɪ frend lɪvz ɪn əˈnʌðə ˈkʌntri]",
+          "ru": "Мой друг живёт в другой стране"
+        },
+        {
+          "en": "My best friend lives in this area",
+          "ipa": "[maɪ best frend lɪvz ɪn ðɪs ˈeəriə]",
+          "ru": "Мой лучший друг живёт в этом районе"
+        },
+        {
+          "en": "My cousin works as a designer",
+          "ipa": "[maɪ ˈkʌzn wɜːks æz ə dɪˈzaɪnə]",
+          "ru": "Мой двоюродный брат работает дизайнером"
+        },
+        {
+          "en": "The ticket seems so expensive",
+          "ipa": "[ðə ˈtɪkɪt siːmz səʊ ɪkˈspensɪv]",
+          "ru": "Билет кажется таким дорогим"
+        },
+        {
+          "en": "The tickets are really expensive",
+          "ipa": "[ðə ˈtɪkɪts ɑː ˈrɪəli ɪkˈspensɪv]",
+          "ru": "Билеты действительно дорогие"
+        },
+        {
+          "en": "This offer seems very attractive",
+          "ipa": "[ðɪs ˈɒfə siːmz ˈveri əˈtræktɪv]",
+          "ru": "Это предложение кажется очень заманчивым"
+        },
+        {
+          "en": "My mother works there",
+          "ipa": "[maɪ ˈmʌðə wɜːks ðeə]",
+          "ru": "Моя мама работает там"
+        },
+        {
+          "en": "The girl goes to school",
+          "ipa": "[ðə ɡɜːl ɡəʊz tuː skuːl]",
+          "ru": "Девочка ходит в школу"
+        },
+        {
+          "en": "My best friend always helps me",
+          "ipa": "[maɪ best frend ˈɔːlweɪz helps miː]",
+          "ru": "Мой лучший друг всегда помогает мне"
+        },
+        {
+          "en": "My brother works as a programmer",
+          "ipa": "[maɪ ˈbrʌðə wɜːks æz ə ˈprəʊɡræmə]",
+          "ru": "Мой брат работает программистом"
+        },
+        {
+          "en": "It's warm",
+          "ipa": "[ɪts wɔːm]",
+          "ru": "Тепло"
+        },
+        {
+          "en": "It's windy now",
+          "ipa": "[ɪts ˈwɪndi naʊ]",
+          "ru": "Сейчас ветрено"
+        },
+        {
+          "en": "This joke seems so funny",
+          "ipa": "[ðɪs dʒəʊk siːmz səʊ ˈfʌni]",
+          "ru": "Эта шутка кажется такой смешной"
+        },
+        {
+          "en": "This expression is new for me",
+          "ipa": "[ðɪs ɪkˈspreʃn ɪz njuː fɔː miː]",
+          "ru": "Это выражение ново для меня"
+        },
+        {
+          "en": "This word is new for me",
+          "ipa": "[ðɪs wɜːd ɪz njuː fɔː miː]",
+          "ru": "Это слово ново для меня"
+        },
+        {
+          "en": "My father works as a manager",
+          "ipa": "[maɪ ˈfɑːðə wɜːks æz ə ˈmænɪdʒə]",
+          "ru": "Мой отец работает менеджером"
+        },
+        {
+          "en": "The girl is very talented",
+          "ipa": "[ðə ɡɜːl ɪz ˈveri ˈtæləntɪd]",
+          "ru": "Девочка очень талантливая"
+        },
+        {
+          "en": "This test is very difficult",
+          "ipa": "[ðɪs test ɪz ˈveri ˈdɪfɪkəlt]",
+          "ru": "Этот тест очень сложный"
+        },
+        {
+          "en": "It's hot",
+          "ipa": "[ɪts hɒt]",
+          "ru": "Жарко"
+        },
+        {
+          "en": "The boy studies there",
+          "ipa": "[ðə bɔɪ ˈstʌdiz ðeə]",
+          "ru": "Мальчик учится там"
+        },
+        {
+          "en": "It's a new word for me",
+          "ipa": "[ɪts ə njuː wɜːd fɔː miː]",
+          "ru": "Это новое слово для меня"
+        },
+        {
+          "en": "It's sunny today",
+          "ipa": "[ɪts ˈsʌni təˈdeɪ]",
+          "ru": "Сегодня солнечно"
+        },
+        {
+          "en": "It's very warm now",
+          "ipa": "[ɪts ˈveri wɔːm naʊ]",
+          "ru": "Сейчас очень тепло"
+        },
+        {
+          "en": "The joke is very funny",
+          "ipa": "[ðə dʒəʊk ɪz ˈveri ˈfʌni]",
+          "ru": "Шутка очень смешная"
+        },
+        {
+          "en": "My mother works as a doctor",
+          "ipa": "[maɪ ˈmʌðə wɜːks æz ə ˈdɒktə]",
+          "ru": "Моя мама работает врачом"
+        },
+        {
+          "en": "His father is a businessman",
+          "ipa": "[hɪz ˈfɑːðər ɪz ə ˈbɪznəsmæn]",
+          "ru": "Его отец — бизнесмен"
+        },
+        {
+          "en": "His father does business",
+          "ipa": "[hɪz ˈfɑːðə dʌz ˈbɪznəs]",
+          "ru": "Его отец занимается бизнесом"
+        },
+        {
+          "en": "The students are here",
+          "ipa": "[ðə ˈstjuːdnts ɑː hɪə]",
+          "ru": "Студенты здесь"
+        },
+        {
+          "en": "The man looks very strong",
+          "ipa": "[ðə mæn lʊks ˈveri strɒŋ]",
+          "ru": "Мужчина выглядит очень сильным"
+        },
+        {
+          "en": "His offer looks very attractive",
+          "ipa": "[hɪz ˈɒfə lʊks ˈveri əˈtræktɪv]",
+          "ru": "Его предложение выглядит очень привлекательным"
+        },
+        {
+          "en": "It's cold",
+          "ipa": "[ɪts kəʊld]",
+          "ru": "Холодно"
+        },
+        {
+          "en": "It's very cold now",
+          "ipa": "[ɪts ˈveri kəʊld naʊ]",
+          "ru": "Сейчас очень холодно"
+        },
+        {
+          "en": "This joke is so funny",
+          "ipa": "[ðɪs dʒəʊk ɪz səʊ ˈfʌni]",
+          "ru": "Эта шутка такая смешная"
+        },
+        {
+          "en": "The boy is very smart",
+          "ipa": "[ðə bɔɪ ɪz ˈveri smɑːt]",
+          "ru": "Мальчик очень умный"
+        },
+        {
+          "en": "My father works here",
+          "ipa": "[maɪ ˈfɑːðə wɜːks hɪə]",
+          "ru": "Мой отец работает здесь"
+        },
+        {
+          "en": "It's very windy now",
+          "ipa": "[ɪts ˈveri ˈwɪndi naʊ]",
+          "ru": "Сейчас очень ветрено"
+        },
+        {
+          "en": "I think it's a very effective method",
+          "ipa": "[aɪ θɪŋk ɪts ə ˈveri ɪˈfektɪv ˈmeθəd]",
+          "ru": "Я думаю, это очень эффективный метод"
+        },
+        {
+          "en": "It's a new expression for me",
+          "ipa": "[ɪts ə njuː ɪkˈspreʃn fɔː miː]",
+          "ru": "Это новое выражение для меня"
+        },
+        {
+          "en": "The man is very strong",
+          "ipa": "[ðə mæn ɪz ˈveri strɒŋ]",
+          "ru": "Мужчина очень сильный"
+        },
+        {
+          "en": "My friend and I study in one group",
+          "ipa": "[maɪ frend ænd aɪ ˈstʌdi ɪn wʌn ɡruːp]",
+          "ru": "Мой друг и я учимся в одной группе"
+        },
+        {
+          "en": "It's so hot today",
+          "ipa": "[ɪts səʊ hɒt təˈdeɪ]",
+          "ru": "Сегодня так жарко"
+        },
+        {
+          "en": "The student is here",
+          "ipa": "[ðə ˈstjuːdnt ɪz hɪə]",
+          "ru": "Студент здесь"
+        },
+        {
+          "en": "My sister is a student",
+          "ipa": "[maɪ ˈsɪstər ɪz ə ˈstjuːdnt]",
+          "ru": "Моя сестра — студентка"
+        },
+        {
+          "en": "The test seems very easy",
+          "ipa": "[ðə test siːmz ˈveri ˈiːzi]",
+          "ru": "Тест кажется очень лёгким"
+        },
+        {
+          "en": "My friend studies with me",
+          "ipa": "[maɪ frend ˈstʌdiz wɪð miː]",
+          "ru": "Мой друг учится со мной"
+        },
+        {
+          "en": "The offer seems so attractive",
+          "ipa": "[ði ˈɒfə siːmz səʊ əˈtræktɪv]",
+          "ru": "Предложение кажется таким заманчивым"
+        },
+        {
+          "en": "My friend and I study in the same group",
+          "ipa": "[maɪ frend ænd aɪ ˈstʌdi ɪn ðə seɪm ɡruːp]",
+          "ru": "Мы с другом учимся в одной и той же группе"
+        }
+      ]
+    }
+  ]
+}

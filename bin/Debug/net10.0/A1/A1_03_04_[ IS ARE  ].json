@@ -5,14 +5,9 @@
       "rule": "Утвердительные предложения с глаголом to be, личными суждениями и описательными прилагательными в настоящем времени.",
       "examples": [
         {
-          "en": "I think that",
-          "ipa": "[aɪ θɪŋk ðæt]",
-          "ru": "Я думаю, что"
-        },
-        {
-          "en": "Happiness is more important than money",
-          "ipa": "[ˈhæpinəs ɪz mɔːr ɪmˈpɔːtnt ðæn ˈmʌni]",
-          "ru": "Счастье важнее, чем деньги"
+          "en": "I think that happiness is more important than money",
+          "ipa": "[aɪ θɪŋk ðæt ˈhæpinəs ɪz mɔːr ɪmˈpɔːtnt ðæn ˈmʌni]",
+          "ru": "Я думаю, что счастье важнее, чем деньги"
         },
         {
           "en": "Love is a wonderful feeling",
@@ -20,9 +15,9 @@
           "ru": "Любовь — чудесное чувство"
         },
         {
-          "en": "Time is money",
-          "ipa": "[taɪm ɪz ˈmʌni]",
-          "ru": "Время — деньги"
+          "en": "I often hear that time is money",
+          "ipa": "[aɪ ˈɒfn hɪə ðæt taɪm ɪz ˈmʌni]",
+          "ru": "Я часто слышу, что время — деньги"
         },
         {
           "en": "The weather is wonderful now",
@@ -35,19 +30,19 @@
           "ru": "Видео очень смешное"
         },
         {
-          "en": "A very low level",
-          "ipa": "[ə ˈveri ləʊ ˈlevl]",
-          "ru": "Очень низкий уровень"
+          "en": "The level is very low",
+          "ipa": "[ðə ˈlevl ɪz ˈveri ləʊ]",
+          "ru": "Уровень очень низкий"
         },
         {
-          "en": "This is a very low level",
-          "ipa": "[ðɪs ɪz ə ˈveri ləʊ ˈlevl]",
+          "en": "It's a very low level",
+          "ipa": "[ɪts ə ˈveri ləʊ ˈlevl]",
           "ru": "Это очень низкий уровень"
         },
         {
-          "en": "A very high level",
-          "ipa": "[ə ˈveri haɪ ˈlevl]",
-          "ru": "Очень высокий уровень"
+          "en": "The level is very high",
+          "ipa": "[ðə ˈlevl ɪz ˈveri haɪ]",
+          "ru": "Уровень очень высокий"
         },
         {
           "en": "Money is important",
@@ -55,18 +50,23 @@
           "ru": "Деньги важны"
         },
         {
-          "en": "This course is so intense",
-          "ipa": "[ðɪs kɔːs ɪz səʊ ɪnˈtens]",
+          "en": "This course is so intensive",
+          "ipa": "[ðɪs kɔːs ɪz səʊ ɪnˈtensɪv]",
           "ru": "Этот курс такой интенсивный"
         },
         {
-          "en": "Food is very expensive nowadays",
-          "ipa": "[fuːd ɪz ˈveri ɪkˈspensɪv ˈnaʊədeɪz]",
-          "ru": "Еда очень дорогая в наши дни"
+          "en": "Time is money",
+          "ipa": "[taɪm ɪz ˈmʌni]",
+          "ru": "Время — деньги"
         },
         {
-          "en": "The kids are at home",
-          "ipa": "[ðə kɪdz ɑːr æt həʊm]",
+          "en": "Food is very expensive",
+          "ipa": "[fuːd ɪz ˈveri ɪkˈspensɪv]",
+          "ru": "Еда очень дорогая"
+        },
+        {
+          "en": "The children are at home",
+          "ipa": "[ðə ˈtʃɪldrən ɑːr æt həʊm]",
           "ru": "Дети дома"
         },
         {
@@ -95,8 +95,8 @@
           "ru": "Еда такая вкусная"
         },
         {
-          "en": "This is a low level",
-          "ipa": "[ðɪs ɪz ə ləʊ ˈlevl]",
+          "en": "It's a low level",
+          "ipa": "[ɪts ə ləʊ ˈlevl]",
           "ru": "Это низкий уровень"
         },
         {
@@ -110,19 +110,19 @@
           "ru": "Книга очень скучная"
         },
         {
-          "en": "It seems to me that it is a brilliant idea",
-          "ipa": "[ɪt siːmz tuː miː ðæt ɪt ɪz ə ˈbrɪljənt aɪˈdɪə]",
+          "en": "It seems to me that it's a brilliant idea",
+          "ipa": "[ɪt siːmz tuː miː ðæt ɪts ə ˈbrɪljənt aɪˈdɪə]",
           "ru": "Мне кажется, что это блестящая идея"
         },
         {
-          "en": "This is a very intense course",
-          "ipa": "[ðɪs ɪz ə ˈveri ɪnˈtens kɔːs]",
+          "en": "It's a very intensive course",
+          "ipa": "[ɪts ə ˈveri ɪnˈtensɪv kɔːs]",
           "ru": "Это очень интенсивный курс"
         },
         {
-          "en": "The food is very tasty",
-          "ipa": "[ðə fuːd ɪz ˈveri ˈteɪsti]",
-          "ru": "Еда очень вкусная"
+          "en": "This food is very tasty",
+          "ipa": "[ðɪs fuːd ɪz ˈveri ˈteɪsti]",
+          "ru": "Эта еда очень вкусная"
         },
         {
           "en": "The result is very good",
@@ -135,13 +135,13 @@
           "ru": "Этот банк открыт"
         },
         {
-          "en": "This is an excellent result",
-          "ipa": "[ðɪs ɪz ən ˈeksələnt rɪˈzʌlt]",
+          "en": "It's an excellent result",
+          "ipa": "[ɪts ən ˈeksələnt rɪˈzʌlt]",
           "ru": "Это отличный результат"
         },
         {
-          "en": "This is an intense course",
-          "ipa": "[ðɪs ɪz ən ɪnˈtens kɔːs]",
+          "en": "It's an intensive course",
+          "ipa": "[ɪts ən ɪnˈtensɪv kɔːs]",
           "ru": "Это интенсивный курс"
         },
         {
@@ -200,13 +200,18 @@
           "ru": "Машина новая"
         },
         {
-          "en": "It is an old house",
-          "ipa": "[ɪt ɪz ən əʊld haʊs]",
+          "en": "It's an old house",
+          "ipa": "[ɪts ən əʊld haʊs]",
           "ru": "Это старый дом"
         },
         {
-          "en": "This is a new car",
-          "ipa": "[ðɪs ɪz ə njuː kɑːr]",
+          "en": "The food is very tasty",
+          "ipa": "[ðə fuːd ɪz ˈveri ˈteɪsti]",
+          "ru": "Еда очень вкусная"
+        },
+        {
+          "en": "It's a new car",
+          "ipa": "[ɪts ə njuː kɑːr]",
           "ru": "Это новая машина"
         },
         {
@@ -215,8 +220,8 @@
           "ru": "Я согласен, что деньги важны"
         },
         {
-          "en": "This is a very high level",
-          "ipa": "[ðɪs ɪz ə ˈveri haɪ ˈlevl]",
+          "en": "It's a very high level",
+          "ipa": "[ɪts ə ˈveri haɪ ˈlevl]",
           "ru": "Это очень высокий уровень"
         },
         {
@@ -225,8 +230,8 @@
           "ru": "Билеты очень дешёвые"
         },
         {
-          "en": "This is a high level",
-          "ipa": "[ðɪs ɪz ə haɪ ˈlevl]",
+          "en": "It's a high level",
+          "ipa": "[ɪts ə haɪ ˈlevl]",
           "ru": "Это высокий уровень"
         },
         {
@@ -240,9 +245,14 @@
           "ru": "Эта машина старая"
         },
         {
-          "en": "I think that it is a brilliant idea",
-          "ipa": "[aɪ θɪŋk ðæt ɪt ɪz ə ˈbrɪljənt aɪˈdɪə]",
+          "en": "I think that it's a brilliant idea",
+          "ipa": "[aɪ θɪŋk ðæt ɪts ə ˈbrɪljənt aɪˈdɪə]",
           "ru": "Я думаю, что это блестящая идея"
+        },
+        {
+          "en": "Happiness is more important than money",
+          "ipa": "[ˈhæpinəs ɪz mɔːr ɪmˈpɔːtnt ðæn ˈmʌni]",
+          "ru": "Счастье важнее, чем деньги"
         }
       ]
     }
