@@ -1,0 +1,235 @@
+{
+  "sections": [
+    {
+      "title": "Present Simple Sentences: Negations & State Sentences",
+      "rule": "Отрицательные и утвердительные предложения с глаголами состояния, описанием погоды и личных мнений в Present Simple.",
+      "examples": [
+        {
+          "en": "This information isn't new for me",
+          "ipa": "[ðɪs ˌɪnfəˈmeɪʃn ˈɪznt njuː fɔː miː]",
+          "ru": "Эта информация не нова для меня"
+        },
+        {
+          "en": "The test doesn't look so easy",
+          "ipa": "[ðə test ˈdʌznt lʊk səʊ ˈiːzi]",
+          "ru": "Тест не выглядит таким лёгким"
+        },
+        {
+          "en": "He isn't ready for it",
+          "ipa": "[hiː ˈɪznt ˈredi fɔːr ɪt]",
+          "ru": "Он не готов к этому"
+        },
+        {
+          "en": "This word isn't new for me",
+          "ipa": "[ðɪs wɜːd ˈɪznt njuː fɔː miː]",
+          "ru": "Это слово не ново для меня"
+        },
+        {
+          "en": "My friend likes this idea",
+          "ipa": "[maɪ frend laɪks ðɪs aɪˈdɪə]",
+          "ru": "Моему другу нравится эта идея"
+        },
+        {
+          "en": "It isn't warm now",
+          "ipa": "[ɪt ˈɪznt wɔːm naʊ]",
+          "ru": "Сейчас не тепло"
+        },
+        {
+          "en": "He doesn't look tired",
+          "ipa": "[hiː ˈdʌznt lʊk ˈtaɪəd]",
+          "ru": "Он не выглядит уставшим"
+        },
+        {
+          "en": "It really motivates me",
+          "ipa": "[ɪt ˈrɪəli ˈməʊtɪveɪts miː]",
+          "ru": "Это действительно мотивирует меня"
+        },
+        {
+          "en": "My friend doesn't like this idea",
+          "ipa": "[maɪ frend ˈdʌznt laɪk ðɪs aɪˈdɪə]",
+          "ru": "Моему другу не нравится эта идея"
+        },
+        {
+          "en": "It's a very detailed answer",
+          "ipa": "[ɪts ə ˈveri ˈdiːteɪld ˈɑːnsə]",
+          "ru": "Это очень подробный ответ"
+        },
+        {
+          "en": "This answer isn't so detailed",
+          "ipa": "[ðɪs ˈɑːnsər ˈɪznt səʊ ˈdiːteɪld]",
+          "ru": "Этот ответ не такой подробный"
+        },
+        {
+          "en": "This thing doesn't surprise me",
+          "ipa": "[ðɪs θɪŋ ˈdʌznt səˈpraɪz miː]",
+          "ru": "Эта вещь не удивляет меня"
+        },
+        {
+          "en": "That answer doesn't look really informative",
+          "ipa": "[ðæt ˈɑːnsə ˈdʌznt lʊk ˈrɪəli ɪnˈfɔːmətɪv]",
+          "ru": "Тот ответ не выглядит действительно информативным"
+        },
+        {
+          "en": "This detail isn't important",
+          "ipa": "[ðɪs ˈdiːteɪl ˈɪznt ɪmˈpɔːtnt]",
+          "ru": "Эта деталь не важна"
+        },
+        {
+          "en": "It isn't cold now",
+          "ipa": "[ɪt ˈɪznt kəʊld naʊ]",
+          "ru": "Сейчас не холодно"
+        },
+        {
+          "en": "It isn't so windy today",
+          "ipa": "[ɪt ˈɪznt səʊ ˈwɪndi təˈdeɪ]",
+          "ru": "Сегодня не так ветрено"
+        },
+        {
+          "en": "His parents don't know it",
+          "ipa": "[hɪz ˈpeərənts dəʊnt nəʊ ɪt]",
+          "ru": "Его родители не знают этого"
+        },
+        {
+          "en": "This lesson doesn't seem so easy but it's very useful",
+          "ipa": "[ðɪs ˈlesn ˈdʌznt siːm səʊ ˈiːzi bʌt ɪts ˈveri ˈjuːsfl]",
+          "ru": "Этот урок не кажется таким лёгким, но он очень полезный"
+        },
+        {
+          "en": "My friend doesn't know it",
+          "ipa": "[maɪ frend ˈdʌznt nəʊ ɪt]",
+          "ru": "Мой друг не знает этого"
+        },
+        {
+          "en": "This detail doesn't seem important",
+          "ipa": "[ðɪs ˈdiːteɪl ˈdʌznt siːm ɪmˈpɔːtnt]",
+          "ru": "Эта деталь не кажется важной"
+        },
+        {
+          "en": "This answer is very detailed",
+          "ipa": "[ðɪs ˈɑːnsər ɪz ˈveri ˈdiːteɪld]",
+          "ru": "Этот ответ очень подробный"
+        },
+        {
+          "en": "It isn't sunny today",
+          "ipa": "[ɪt ˈɪznt ˈsʌni təˈdeɪ]",
+          "ru": "Сегодня не солнечно"
+        },
+        {
+          "en": "This description isn't so informative",
+          "ipa": "[ðɪs dɪˈskrɪpʃn ˈɪznt səʊ ɪnˈfɔːmətɪv]",
+          "ru": "Это описание не такое информативное"
+        },
+        {
+          "en": "It doesn't surprise me",
+          "ipa": "[ɪt ˈdʌznt səˈpraɪz miː]",
+          "ru": "Это не удивляет меня"
+        },
+        {
+          "en": "I want to say that I am not surprised",
+          "ipa": "[aɪ wɒnt tuː seɪ ðæt aɪ æm nɒt səˈpraɪzd]",
+          "ru": "Я хочу сказать, что я не удивлён"
+        },
+        {
+          "en": "This thing motivates me so much",
+          "ipa": "[ðɪs θɪŋ ˈməʊtɪveɪts miː səʊ mʌtʃ]",
+          "ru": "Эта вещь так сильно меня мотивирует"
+        },
+        {
+          "en": "It isn't so hot now",
+          "ipa": "[ɪt ˈɪznt səʊ hɒt naʊ]",
+          "ru": "Сейчас не так жарко"
+        },
+        {
+          "en": "The boy doesn't look tired",
+          "ipa": "[ðə bɔɪ ˈdʌznt lʊk ˈtaɪəd]",
+          "ru": "Мальчик не выглядит уставшим"
+        },
+        {
+          "en": "His parents aren't at home",
+          "ipa": "[hɪz ˈpeərənts ɑːnt æt həʊm]",
+          "ru": "Его родителей нет дома"
+        },
+        {
+          "en": "His mother doesn't know it",
+          "ipa": "[hɪz ˈmʌðə ˈdʌznt nəʊ ɪt]",
+          "ru": "Его мама не знает этого"
+        },
+        {
+          "en": "It isn't very cold today",
+          "ipa": "[ɪt ˈɪznt ˈveri kəʊld təˈdeɪ]",
+          "ru": "Сегодня не очень холодно"
+        },
+        {
+          "en": "This method seems very simple but it's very effective",
+          "ipa": "[ðɪs ˈmeθəd siːmz ˈveri ˈsɪmpl bʌt ɪts ˈveri ɪˈfektɪv]",
+          "ru": "Этот метод кажется очень простым, но он очень эффективный"
+        },
+        {
+          "en": "My parents aren't at home",
+          "ipa": "[maɪ ˈpeərənts ɑːnt æt həʊm]",
+          "ru": "Моих родителей нет дома"
+        },
+        {
+          "en": "This information doesn't seem so useful",
+          "ipa": "[ðɪs ˌɪnfəˈmeɪʃn ˈdʌznt siːm səʊ ˈjuːsfl]",
+          "ru": "Эта информация не кажется такой полезной"
+        },
+        {
+          "en": "The test isn't so difficult",
+          "ipa": "[ðə test ˈɪznt səʊ ˈdɪfɪkəlt]",
+          "ru": "Тест не такой сложный"
+        },
+        {
+          "en": "This problem doesn't seem so important but it's really necessary",
+          "ipa": "[ðɪs ˈprɒbləm ˈdʌznt siːm səʊ ɪmˈpɔːtnt bʌt ɪts ˈrɪəli ˈnesəsəri]",
+          "ru": "Эта проблема не кажется такой важной, но она действительно необходима"
+        },
+        {
+          "en": "This problem isn't so big",
+          "ipa": "[ðɪs ˈprɒbləm ˈɪznt səʊ bɪɡ]",
+          "ru": "Эта проблема не такая большая"
+        },
+        {
+          "en": "This thing doesn't seem really important",
+          "ipa": "[ðɪs θɪŋ ˈdʌznt siːm ˈrɪəli ɪmˈpɔːtnt]",
+          "ru": "Эта вещь не кажется действительно важной"
+        },
+        {
+          "en": "I'm not surprised",
+          "ipa": "[aɪm nɒt səˈpraɪzd]",
+          "ru": "Я не удивлён"
+        },
+        {
+          "en": "I want to tell you that I'm not tired",
+          "ipa": "[aɪ wɒnt tuː tel juː ðæt aɪm nɒt ˈtaɪəd]",
+          "ru": "Я хочу сказать тебе, что я не устал"
+        },
+        {
+          "en": "I think it isn't important",
+          "ipa": "[aɪ θɪŋk ɪt ˈɪznt ɪmˈpɔːtnt]",
+          "ru": "Я думаю, это не важно"
+        },
+        {
+          "en": "It isn't very warm today",
+          "ipa": "[ɪt ˈɪznt ˈveri wɔːm təˈdeɪ]",
+          "ru": "Сегодня не очень тепло"
+        },
+        {
+          "en": "The lesson doesn't seem so easy but it's very useful",
+          "ipa": "[ðə ˈlesn ˈdʌznt siːm səʊ ˈiːzi bʌt ɪts ˈveri ˈjuːsfl]",
+          "ru": "Урок не кажется таким лёгким, но он очень полезный"
+        },
+        {
+          "en": "It isn't hot today",
+          "ipa": "[ɪt ˈɪznt hɒt təˈdeɪ]",
+          "ru": "Сегодня не жарко"
+        },
+        {
+          "en": "This description doesn't look so informative",
+          "ipa": "[ðɪs dɪˈskrɪpʃn ˈdʌznt lʊk səʊ ɪnˈfɔːmətɪv]",
+          "ru": "Это описание не выглядит таким информативным"
+        }
+      ]
+    }
+  ]
+}

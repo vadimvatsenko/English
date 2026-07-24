@@ -265,9 +265,17 @@
         "NameTheme": "A1_05_06_[ THE ]",
         "Tries": 1,
         "CorrectUnswers": 40,
-        "MissingUnswers": 10,
+        "MissingUnswers": 0,
         "AllUnswers": 50,
         "Date": "2026-07-23T10:54:17.8401805+03:00"
+      },
+      {
+        "NameTheme": "A1_07_08_[ ISNOT ARENOT  ]",
+        "Tries": 1,
+        "CorrectUnswers": 33,
+        "MissingUnswers": 12,
+        "AllUnswers": 45,
+        "Date": "2026-07-24T08:40:47.9822793+03:00"
       }
     ]
   }
