@@ -1,0 +1,260 @@
+{
+  "sections": [
+    {
+      "title": "Present Simple Questions & Special Questions",
+      "rule": "Специальные и общие вопросы с глаголами do/does, to be и вопросительными словами How much, Where, Why, What.",
+      "examples": [
+        {
+          "en": "How much does the sweater cost?",
+          "ipa": "[haʊ mʌtʃ dʌz ðə ˈswetə kɒst]",
+          "ru": "Сколько стоит свитер?"
+        },
+        {
+          "en": "What's your mother's job?",
+          "ipa": "[wɒts jɔː ˈmʌðəz dʒɒb]",
+          "ru": "Кем работает твоя мама?"
+        },
+        {
+          "en": "What's your job?",
+          "ipa": "[wɒts jɔː dʒɒb]",
+          "ru": "Кем ты работаешь?"
+        },
+        {
+          "en": "What's her job? She's a shop assistant",
+          "ipa": "[wɒts hɜː dʒɒb ʃiːz ə ʃɒp əˈsɪstənt]",
+          "ru": "Кем она работает? Она продавец"
+        },
+        {
+          "en": "How much does this pair of trousers cost?",
+          "ipa": "[haʊ mʌtʃ dʌz ðɪs peər ɒv ˈtraʊzəz kɒst]",
+          "ru": "Сколько стоят эти брюки?"
+        },
+        {
+          "en": "How much do these jeans cost?",
+          "ipa": "[haʊ mʌtʃ duː ðiːz dʒiːnz kɒst]",
+          "ru": "Сколько стоят эти джинсы?"
+        },
+        {
+          "en": "How much do these trousers cost?",
+          "ipa": "[haʊ mʌtʃ duː ðiːz ˈtraʊzəz kɒst]",
+          "ru": "Сколько стоят эти брюки?"
+        },
+        {
+          "en": "Where does your mother work?",
+          "ipa": "[weə dʌz jɔː ˈmʌðə wɜːk]",
+          "ru": "Где работает твоя мама?"
+        },
+        {
+          "en": "Does this video seem so funny?",
+          "ipa": "[dʌz ðɪs ˈvɪdɪəʊ siːm səʊ ˈfʌni]",
+          "ru": "Это видео кажется таким смешным?"
+        },
+        {
+          "en": "How much are these jeans?",
+          "ipa": "[haʊ mʌtʃ ɑː ðiːz dʒiːnz]",
+          "ru": "Сколько стоят эти джинсы?"
+        },
+        {
+          "en": "How much is this model?",
+          "ipa": "[haʊ mʌtʃ ɪz ðɪs ˈmɒdl]",
+          "ru": "Сколько стоит эта модель?"
+        },
+        {
+          "en": "How much does this pair of jeans cost?",
+          "ipa": "[haʊ mʌtʃ dʌz ðɪs peər ɒv dʒiːnz kɒst]",
+          "ru": "Сколько стоит эта пара джинсов?"
+        },
+        {
+          "en": "Why is this hotel so expensive?",
+          "ipa": "[waɪ ɪz ðɪs həʊˈtel səʊ ɪkˈspensɪv]",
+          "ru": "Почему этот отель такой дорогой?"
+        },
+        {
+          "en": "How much does this pair of shoes cost?",
+          "ipa": "[haʊ mʌtʃ dʌz ðɪs peər ɒv ʃuːz kɒst]",
+          "ru": "Сколько стоит эта пара обуви?"
+        },
+        {
+          "en": "Why do these things seem so important?",
+          "ipa": "[waɪ duː ðiːz θɪŋz siːm səʊ ɪmˈpɔːtnt]",
+          "ru": "Почему эти вещи кажутся такими важными?"
+        },
+        {
+          "en": "Is it easy or not?",
+          "ipa": "[ɪz ɪt ˈiːzi ɔː nɒt]",
+          "ru": "Это легко или нет?"
+        },
+        {
+          "en": "Why are these things so important?",
+          "ipa": "[waɪ ɑː ðiːz θɪŋz səʊ ɪmˈpɔːtnt]",
+          "ru": "Почему эти вещи так важны?"
+        },
+        {
+          "en": "Does your friend advise it?",
+          "ipa": "[dʌz jɔː frend ədˈvaɪz ɪt]",
+          "ru": "Твой друг советует это?"
+        },
+        {
+          "en": "What does your teacher recommend?",
+          "ipa": "[wɒt dʌz jɔː ˈtiːtʃə ˌrekəˈmend]",
+          "ru": "Что рекомендует твой учитель?"
+        },
+        {
+          "en": "Why does this ticket cost so much?",
+          "ipa": "[waɪ dʌz ðɪs ˈtɪkɪt kɒst səʊ mʌtʃ]",
+          "ru": "Почему этот билет стоит так дорого?"
+        },
+        {
+          "en": "How much is the dress?",
+          "ipa": "[haʊ mʌtʃ ɪz ðə dres]",
+          "ru": "Сколько стоит платье?"
+        },
+        {
+          "en": "Does this offer interest you?",
+          "ipa": "[dʌz ðɪs ˈɒfər ˈɪntrest juː]",
+          "ru": "Вас интересует это предложение?"
+        },
+        {
+          "en": "What's your father's job?",
+          "ipa": "[wɒts jɔː ˈfɑːðəz dʒɒb]",
+          "ru": "Кем работает твой отец?"
+        },
+        {
+          "en": "Where does your friend live?",
+          "ipa": "[weə dʌz jɔː frend lɪv]",
+          "ru": "Где живёт твой друг?"
+        },
+        {
+          "en": "Is this thing really important?",
+          "ipa": "[ɪz ðɪs θɪŋ ˈrɪəli ɪmˈpɔːtnt]",
+          "ru": "Эта вещь действительно важна?"
+        },
+        {
+          "en": "Where do you work?",
+          "ipa": "[weə duː juː wɜːk]",
+          "ru": "Где ты работаешь?"
+        },
+        {
+          "en": "Does this offer really interest you?",
+          "ipa": "[dʌz ðɪs ˈɒfə ˈrɪəli ˈɪntrest juː]",
+          "ru": "Вас действительно интересует это предложение?"
+        },
+        {
+          "en": "Is this video so funny?",
+          "ipa": "[ɪz ðɪs ˈvɪdɪəʊ səʊ ˈfʌni]",
+          "ru": "Это видео такое смешное?"
+        },
+        {
+          "en": "How much does this souvenir cost?",
+          "ipa": "[haʊ mʌtʃ dʌz ðɪs ˌsuːvəˈnɪə kɒst]",
+          "ru": "Сколько стоит этот сувенир?"
+        },
+        {
+          "en": "What's your father's job? He's a sales manager",
+          "ipa": "[wɒts jɔː ˈfɑːðəz dʒɒb hiːz ə seɪlz ˈmænɪdʒə]",
+          "ru": "Кем работает твой отец? Он менеджер по продажам"
+        },
+        {
+          "en": "Why is this hotel so cheap?",
+          "ipa": "[waɪ ɪz ðɪs həʊˈtel səʊ tʃiːp]",
+          "ru": "Почему этот отель такой дешёвый?"
+        },
+        {
+          "en": "Are the children at home?",
+          "ipa": "[ɑː ðə ˈtʃɪldrən æt həʊm]",
+          "ru": "Дети дома?"
+        },
+        {
+          "en": "Is this offer interesting for you?",
+          "ipa": "[ɪz ðɪs ˈɒfər ˈɪntrəstɪŋ fɔː juː]",
+          "ru": "Вам интересно это предложение?"
+        },
+        {
+          "en": "Why does this ticket cost so little?",
+          "ipa": "[waɪ dʌz ðɪs ˈtɪkɪt kɒst səʊ ˈlɪtl]",
+          "ru": "Почему этот билет стоит так мало?"
+        },
+        {
+          "en": "What does your friend advise?",
+          "ipa": "[wɒt dʌz jɔː frend ədˈvaɪz]",
+          "ru": "Что советует твой друг?"
+        },
+        {
+          "en": "Is this thing important or not?",
+          "ipa": "[ɪz ðɪs θɪŋ ɪmˈpɔːtnt ɔː nɒt]",
+          "ru": "Эта вещь важна или нет?"
+        },
+        {
+          "en": "How much do these shoes cost?",
+          "ipa": "[haʊ mʌtʃ duː ðiːz ʃuːz kɒst]",
+          "ru": "Сколько стоит эта обувь?"
+        },
+        {
+          "en": "How much does this model cost?",
+          "ipa": "[haʊ mʌtʃ dʌz ðɪs ˈmɒdl kɒst]",
+          "ru": "Сколько стоит эта модель?"
+        },
+        {
+          "en": "Where does your father work?",
+          "ipa": "[weə dʌz jɔː ˈfɑːðə wɜːk]",
+          "ru": "Где работает твой отец?"
+        },
+        {
+          "en": "How much are these trousers?",
+          "ipa": "[haʊ mʌtʃ ɑː ðiːz ˈtraʊzəz]",
+          "ru": "Сколько стоят эти брюки?"
+        },
+        {
+          "en": "Does your teacher recommend it?",
+          "ipa": "[dʌz jɔː ˈtiːtʃə ˌrekəˈmend ɪt]",
+          "ru": "Твой учитель рекомендует это?"
+        },
+        {
+          "en": "Does this thing really seem so important?",
+          "ipa": "[dʌz ðɪs θɪŋ ˈrɪəli siːm səʊ ɪmˈpɔːtnt]",
+          "ru": "Эта вещь действительно кажется такой важной?"
+        },
+        {
+          "en": "Does this course really seem so effective?",
+          "ipa": "[dʌz ðɪs kɔːs ˈrɪəli siːm səʊ ɪˈfektɪv]",
+          "ru": "Этот курс действительно кажется таким эффективным?"
+        },
+        {
+          "en": "What's his job? He's a lawyer",
+          "ipa": "[wɒts hɪz dʒɒb hiːz ə ˈlɔːjə]",
+          "ru": "Кем он работает? Он юрист"
+        },
+        {
+          "en": "Is this offer really interesting for you?",
+          "ipa": "[ɪz ðɪs ˈɒfə ˈrɪəli ˈɪntrəstɪŋ fɔː juː]",
+          "ru": "Это предложение действительно интересно вам?"
+        },
+        {
+          "en": "Is this course effective?",
+          "ipa": "[ɪz ðɪs kɔːs ɪˈfektɪv]",
+          "ru": "Этот курс эффективен?"
+        },
+        {
+          "en": "What's your mother's job?",
+          "ipa": "[wɒts jɔː ˈmʌðəz dʒɒb]",
+          "ru": "Кем работает твоя мама?"
+        },
+        {
+          "en": "How much do the jeans cost?",
+          "ipa": "[haʊ mʌtʃ duː ðə dʒiːnz kɒst]",
+          "ru": "Сколько стоят джинсы?"
+        },
+        {
+          "en": "Does your friend advise it?",
+          "ipa": "[dʌz jɔː frend ədˈvaɪz ɪt]",
+          "ru": "Твой друг советует это?"
+        },
+        {
+          "en": "How much is this pair of jeans?",
+          "ipa": "[haʊ mʌtʃ ɪz ðɪs peər ɒv dʒiːnz]",
+          "ru": "Сколько стоит эта пара джинсов?"
+        }
+      ]
+    }
+  ]
+}
