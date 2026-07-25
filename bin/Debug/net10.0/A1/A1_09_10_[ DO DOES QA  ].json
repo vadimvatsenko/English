@@ -27,7 +27,7 @@
         {
           "en": "How much does this pair of trousers cost?",
           "ipa": "[haʊ mʌtʃ dʌz ðɪs peər ɒv ˈtraʊzəz kɒst]",
-          "ru": "Сколько стоят эти брюки?"
+          "ru": "Сколько стоит эта пара брюк?"
         },
         {
           "en": "How much do these jeans cost?",
@@ -52,12 +52,12 @@
         {
           "en": "How much are these jeans?",
           "ipa": "[haʊ mʌtʃ ɑː ðiːz dʒiːnz]",
-          "ru": "Сколько стоят эти джинсы?"
+          "ru": "Почём эти джинсы?"
         },
         {
           "en": "How much is this model?",
           "ipa": "[haʊ mʌtʃ ɪz ðɪs ˈmɒdl]",
-          "ru": "Сколько стоит эта модель?"
+          "ru": "Почём эта модель?"
         },
         {
           "en": "How much does this pair of jeans cost?",
@@ -102,17 +102,17 @@
         {
           "en": "Why does this ticket cost so much?",
           "ipa": "[waɪ dʌz ðɪs ˈtɪkɪt kɒst səʊ mʌtʃ]",
-          "ru": "Почему этот билет стоит так дорого?"
+          "ru": "Почему этот билет стоит так много?"
         },
         {
           "en": "How much is the dress?",
           "ipa": "[haʊ mʌtʃ ɪz ðə dres]",
-          "ru": "Сколько стоит платье?"
+          "ru": "Почем платье платье?"
         },
         {
           "en": "Does this offer interest you?",
           "ipa": "[dʌz ðɪs ˈɒfər ˈɪntrest juː]",
-          "ru": "Вас интересует это предложение?"
+          "ru": "Это предложение интересно тебе?"
         },
         {
           "en": "What's your father's job?",
@@ -137,7 +137,7 @@
         {
           "en": "Does this offer really interest you?",
           "ipa": "[dʌz ðɪs ˈɒfə ˈrɪəli ˈɪntrest juː]",
-          "ru": "Вас действительно интересует это предложение?"
+          "ru": "Это предложение действительно интересует вас?"
         },
         {
           "en": "Is this video so funny?",
@@ -167,7 +167,7 @@
         {
           "en": "Is this offer interesting for you?",
           "ipa": "[ɪz ðɪs ˈɒfər ˈɪntrəstɪŋ fɔː juː]",
-          "ru": "Вам интересно это предложение?"
+          "ru": "Это предложение интересно для вас?"
         },
         {
           "en": "Why does this ticket cost so little?",
@@ -202,7 +202,7 @@
         {
           "en": "How much are these trousers?",
           "ipa": "[haʊ mʌtʃ ɑː ðiːz ˈtraʊzəz]",
-          "ru": "Сколько стоят эти брюки?"
+          "ru": "Почем брюки?"
         },
         {
           "en": "Does your teacher recommend it?",
@@ -252,7 +252,7 @@
         {
           "en": "How much is this pair of jeans?",
           "ipa": "[haʊ mʌtʃ ɪz ðɪs peər ɒv dʒiːnz]",
-          "ru": "Сколько стоит эта пара джинсов?"
+          "ru": "Почём эта пара джинсов?"
         }
       ]
     }
