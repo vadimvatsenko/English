@@ -1,0 +1,260 @@
+{
+  "sections": [
+    {
+      "title": "Present Simple Sentences & Everyday Expressions",
+      "rule": "Утвердительные и вопросительные предложения с местоимениями Everything/Everyone/All, герундием (-ing) после enjoy, и специальными вопросами.",
+      "examples": [
+        {
+          "en": "Everything is ok",
+          "ipa": "[ˈevrɪθɪŋ ɪz ˌəʊˈkeɪ]",
+          "ru": "Всё в порядке"
+        },
+        {
+          "en": "I don't know what to tell you",
+          "ipa": "[aɪ dəʊnt nəʊ wɒt tuː tel juː]",
+          "ru": "Я не знаю, что сказать тебе"
+        },
+        {
+          "en": "Everything is very expensive here",
+          "ipa": "[ˈevrɪθɪŋ ɪz ˈveri ɪkˈspensɪv hɪə]",
+          "ru": "Здесь всё очень дорого"
+        },
+        {
+          "en": "What really inspires you?",
+          "ipa": "[wɒt ˈrɪəli ɪnˈspaɪəz juː]",
+          "ru": "Что действительно вдохновляет тебя?"
+        },
+        {
+          "en": "Everyone understands it",
+          "ipa": "[ˈevriwʌn ˌʌndəˈstændz ɪt]",
+          "ru": "Все понимают это"
+        },
+        {
+          "en": "I want to say that I really enjoy learning English",
+          "ipa": "[aɪ wɒnt tuː seɪ ðæt aɪ ˈrɪəli ɪnˈdʒɔɪ ˈlɜːnɪŋ ˈɪŋɡlɪʃ]",
+          "ru": "Я хочу сказать, что мне действительно нравится учить английский"
+        },
+        {
+          "en": "You know, I really enjoy travelling",
+          "ipa": "[juː nəʊ aɪ ˈrɪəli ɪnˈdʒɔɪ ˈtrævlɪŋ]",
+          "ru": "Знаешь, мне действительно нравится путешествовать"
+        },
+        {
+          "en": "All people know it",
+          "ipa": "[ɔːl ˈpiːpl nəʊ ɪt]",
+          "ru": "Все люди знают это"
+        },
+        {
+          "en": "What do you want to change?",
+          "ipa": "[wɒt duː juː wɒnt tuː tʃeɪndʒ]",
+          "ru": "Что ты хочешь изменить?"
+        },
+        {
+          "en": "What interests you?",
+          "ipa": "[wɒt ˈɪntrests juː]",
+          "ru": "Что тебя интересует?"
+        },
+        {
+          "en": "Everything is under control",
+          "ipa": "[ˈevrɪθɪŋ ɪz ˈʌndə kənˈtrəʊl]",
+          "ru": "Всё под контролем"
+        },
+        {
+          "en": "I don't know what to do in this situation",
+          "ipa": "[aɪ dəʊnt nəʊ wɒt tuː duː ɪn ðɪs ˌsɪtʃuˈeɪʃn]",
+          "ru": "Я не знаю, что делать в этой ситуации"
+        },
+        {
+          "en": "I enjoy spending time with my friends",
+          "ipa": "[aɪ ɪnˈdʒɔɪ ˈspendɪŋ taɪm wɪð maɪ frendz]",
+          "ru": "Мне нравится проводить время с друзьями"
+        },
+        {
+          "en": "Who do you see?",
+          "ipa": "[huː duː juː siː]",
+          "ru": "Кого ты видишь?"
+        },
+        {
+          "en": "I don't know what to do",
+          "ipa": "[aɪ dəʊnt nəʊ wɒt tuː duː]",
+          "ru": "Я не знаю, что делать"
+        },
+        {
+          "en": "Do you know how to find this information?",
+          "ipa": "[duː juː nəʊ haʊ tuː faɪnd ðɪs ˌɪnfəˈmeɪʃn]",
+          "ru": "Ты знаешь, как найти эту информацию?"
+        },
+        {
+          "en": "I don't know what to say",
+          "ipa": "[aɪ dəʊnt nəʊ wɒt tuː seɪ]",
+          "ru": "Я не знаю, что сказать"
+        },
+        {
+          "en": "I really enjoy spending time with my friends",
+          "ipa": "[aɪ ˈrɪəli ɪnˈdʒɔɪ ˈspendɪŋ taɪm wɪð maɪ frendz]",
+          "ru": "Мне действительно нравится проводить время с друзьями"
+        },
+        {
+          "en": "Do you know what to do?",
+          "ipa": "[duː juː nəʊ wɒt tuː duː]",
+          "ru": "Ты знаешь, что делать?"
+        },
+        {
+          "en": "What seems better?",
+          "ipa": "[wɒt siːmz ˈbetə]",
+          "ru": "Что кажется лучше?"
+        },
+        {
+          "en": "Do you think it's really possible?",
+          "ipa": "[duː juː θɪŋk ɪts ˈrɪəli ˈpɒsəbl]",
+          "ru": "Ты думаешь, это действительно возможно?"
+        },
+        {
+          "en": "I enjoy travelling",
+          "ipa": "[aɪ ɪnˈdʒɔɪ ˈtrævlɪŋ]",
+          "ru": "Мне нравится путешествовать"
+        },
+        {
+          "en": "I enjoy learning English",
+          "ipa": "[aɪ ɪnˈdʒɔɪ ˈlɜːnɪŋ ˈɪŋɡlɪʃ]",
+          "ru": "Мне нравится учить английский"
+        },
+        {
+          "en": "I don't know how to answer this question",
+          "ipa": "[aɪ dəʊnt nəʊ haʊ tuː ˈɑːnsə ðɪs ˈkwestʃən]",
+          "ru": "Я не знаю, как ответить на этот вопрос"
+        },
+        {
+          "en": "I enjoy English",
+          "ipa": "[aɪ ɪnˈdʒɔɪ ˈɪŋɡlɪʃ]",
+          "ru": "Мне нравится английский"
+        },
+        {
+          "en": "I want to say that I really enjoy learning foreign languages",
+          "ipa": "[aɪ wɒnt tuː seɪ ðæt aɪ ˈrɪəli ɪnˈdʒɔɪ ˈlɜːnɪŋ ˈfɒrən ˈlæŋɡwɪdʒɪz]",
+          "ru": "Я хочу сказать, что мне действительно нравится учить иностранные языки"
+        },
+        {
+          "en": "I don't know how to use it",
+          "ipa": "[aɪ dəʊnt nəʊ haʊ tuː juːz ɪt]",
+          "ru": "Я не знаю, как использовать это"
+        },
+        {
+          "en": "Do you think it's a good price?",
+          "ipa": "[duː juː θɪŋk ɪts ə ɡʊd praɪs]",
+          "ru": "Ты думаешь, это хорошая цена?"
+        },
+        {
+          "en": "What worries you?",
+          "ipa": "[wɒt ˈwʌriz juː]",
+          "ru": "Что тебя беспокоит?"
+        },
+        {
+          "en": "What sounds more interesting?",
+          "ipa": "[wɒt saʊndz mɔːr ˈɪntrəstɪŋ]",
+          "ru": "Что звучит интереснее?"
+        },
+        {
+          "en": "Everything seems very important",
+          "ipa": "[ˈevrɪθɪŋ siːmz ˈveri ɪmˈpɔːtnt]",
+          "ru": "Всё кажется очень важным"
+        },
+        {
+          "en": "Everyone knows it",
+          "ipa": "[ˈevriwʌn nəʊz ɪt]",
+          "ru": "Все знают это"
+        },
+        {
+          "en": "I don't think that it's really possible",
+          "ipa": "[aɪ dəʊnt θɪŋk ðæt ɪts ˈrɪəli ˈpɒsəbl]",
+          "ru": "Я не думаю, что это действительно возможно"
+        },
+        {
+          "en": "I don't know how to translate it",
+          "ipa": "[aɪ dəʊnt nəʊ haʊ tuː trænsˈleɪt ɪt]",
+          "ru": "Я не знаю, как перевести это"
+        },
+        {
+          "en": "Who knows it?",
+          "ipa": "[huː nəʊz ɪt]",
+          "ru": "Кто знает это?"
+        },
+        {
+          "en": "Everything seems very expensive",
+          "ipa": "[ˈevrɪθɪŋ siːmz ˈveri ɪkˈspensɪv]",
+          "ru": "Всё кажется очень дорогим"
+        },
+        {
+          "en": "What helps you?",
+          "ipa": "[wɒt helps juː]",
+          "ru": "Что тебе помогает?"
+        },
+        {
+          "en": "All people understand it",
+          "ipa": "[ɔːl ˈpiːpl ˌʌndəˈstænd ɪt]",
+          "ru": "Все люди понимают это"
+        },
+        {
+          "en": "I think it's possible",
+          "ipa": "[aɪ θɪŋk ɪts ˈpɒsəbl]",
+          "ru": "Я думаю, это возможно"
+        },
+        {
+          "en": "I want to tell you that I really enjoy music",
+          "ipa": "[aɪ wɒnt tuː tel juː ðæt aɪ ˈrɪəli ɪnˈdʒɔɪ ˈmjuːzɪk]",
+          "ru": "Я хочу сказать тебе, что мне действительно нравится музыка"
+        },
+        {
+          "en": "I really enjoy learning foreign languages",
+          "ipa": "[aɪ ˈrɪəli ɪnˈdʒɔɪ ˈlɜːnɪŋ ˈfɒrən ˈlæŋɡwɪdʒɪz]",
+          "ru": "Мне действительно нравится учить иностранные языки"
+        },
+        {
+          "en": "Do you think it's possible?",
+          "ipa": "[duː juː θɪŋk ɪts ˈpɒsəbl]",
+          "ru": "Ты думаешь, это возможно?"
+        },
+        {
+          "en": "What inspires you?",
+          "ipa": "[wɒt ɪnˈspaɪəz juː]",
+          "ru": "Что тебя вдохновляет?"
+        },
+        {
+          "en": "I want to tell you that I enjoy music",
+          "ipa": "[aɪ wɒnt tuː tel juː ðæt aɪ ɪnˈdʒɔɪ ˈmjuːzɪk]",
+          "ru": "Я хочу сказать тебе, что мне нравится музыка"
+        },
+        {
+          "en": "I want to say that I really enjoy sport",
+          "ipa": "[aɪ wɒnt tuː seɪ ðæt aɪ ˈrɪəli ɪnˈdʒɔɪ spɔːt]",
+          "ru": "Я хочу сказать, что мне действительно нравится спорт"
+        },
+        {
+          "en": "Why do you worry about it so much?",
+          "ipa": "[waɪ duː juː ˈwʌri əˈbaʊt ɪt səʊ mʌtʃ]",
+          "ru": "Почему ты так сильно беспокоишься об этом?"
+        },
+        {
+          "en": "What motivates you?",
+          "ipa": "[wɒt ˈməʊtɪveɪts juː]",
+          "ru": "Что тебя мотивирует?"
+        },
+        {
+          "en": "As for me, I really enjoy travelling",
+          "ipa": "[æz fɔː miː aɪ ˈrɪəli ɪnˈdʒɔɪ ˈtrævlɪŋ]",
+          "ru": "Что касается меня, мне действительно нравится путешествовать"
+        },
+        {
+          "en": "I don't know what to answer",
+          "ipa": "[aɪ dəʊnt nəʊ wɒt tuː ˈɑːnsə]",
+          "ru": "Я не знаю, что ответить"
+        },
+        {
+          "en": "What sounds better?",
+          "ipa": "[wɒt saʊndz ˈbetə]",
+          "ru": "Что звучит лучше?"
+        }
+      ]
+    }
+  ]
+}
