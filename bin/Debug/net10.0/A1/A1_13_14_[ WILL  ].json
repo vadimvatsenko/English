@@ -1,0 +1,205 @@
+{
+  "sections": [
+    {
+      "title": "Future Simple: Predictions, Hopes & Intentions",
+      "rule": "Утвердительные и отрицательные предложения в будущей форме (Future Simple) с конструкциями I think, I hope, I'm sure, I'll be able to, I'll try to.",
+      "examples": [
+        {
+          "en": "I think he'll be able to help you",
+          "ipa": "[aɪ θɪŋk hiːl biː ˈeɪbl tuː help juː]",
+          "ru": "Я думаю, он сможет помочь тебе"
+        },
+        {
+          "en": "I'm afraid that she'll misunderstand you",
+          "ipa": "[aɪm əˈfreɪd ðæt ʃiːl ˌmɪsʌndəˈstænd juː]",
+          "ru": "Я боюсь, что она поймёт тебя неправильно"
+        },
+        {
+          "en": "I'll try to find time for it",
+          "ipa": "[aɪl traɪ tuː faɪnd taɪm fɔːr ɪt]",
+          "ru": "Я постараюсь найти время для этого"
+        },
+        {
+          "en": "I don't think that it'll be the right decision",
+          "ipa": "[aɪ dəʊnt θɪŋk ðæt ɪtl biː ðə raɪt dɪˈsɪʒn]",
+          "ru": "Я не думаю, что это будет правильным решением"
+        },
+        {
+          "en": "I think that I'll be able to pass this test",
+          "ipa": "[aɪ θɪŋk ðæt aɪl biː ˈeɪbl tuː pɑːs ðɪs test]",
+          "ru": "Я думаю, что смогу сдать этот тест"
+        },
+        {
+          "en": "I hope that it'll be so",
+          "ipa": "[aɪ həʊp ðæt ɪtl biː səʊ]",
+          "ru": "Я надеюсь, что так и будет"
+        },
+        {
+          "en": "I expect that it'll happen one day",
+          "ipa": "[aɪ ɪkˈspekt ðæt ɪtl ˈhæpən wʌn deɪ]",
+          "ru": "Я ожидаю, что однажды это произойдёт"
+        },
+        {
+          "en": "I'm afraid that he won't listen to it",
+          "ipa": "[aɪm əˈfreɪd ðæt hiː wəʊnt ˈlɪsn tuː ɪt]",
+          "ru": "Я боюсь, что он не станет слушать это"
+        },
+        {
+          "en": "I'm sure that you'll be able to do it",
+          "ipa": "[aɪm ʃʊə ðæt juːl biː ˈeɪbl tuː duː ɪt]",
+          "ru": "Я уверен, что ты сможешь сделать это"
+        },
+        {
+          "en": "I think I'll be able to save up enough money to buy a house",
+          "ipa": "[aɪ θɪŋk aɪl biː ˈeɪbl tuː seɪv ʌp ɪˈnʌf ˈmʌni tuː baɪ ə haʊs]",
+          "ru": "Я думаю, я смогу накопить достаточно денег, чтобы купить дом"
+        },
+        {
+          "en": "I'll try to do my best to show a better result",
+          "ipa": "[aɪl traɪ tuː duː maɪ best tuː ʃəʊ ə ˈbetə rɪˈzʌlt]",
+          "ru": "Я постараюсь сделать всё возможное, чтобы показать лучший результат"
+        },
+        {
+          "en": "I suppose that it'll be the best solution to this problem",
+          "ipa": "[aɪ səˈpəʊz ðæt ɪtl biː ðə best səˈluːʃn tuː ðɪs ˈprɒbləm]",
+          "ru": "Я полагаю, что это будет лучшим решением этой проблемы"
+        },
+        {
+          "en": "I think he won't be able to do it",
+          "ipa": "[aɪ θɪŋk hiː wəʊnt biː ˈeɪbl tuː duː ɪt]",
+          "ru": "Я думаю, он не сможет сделать это"
+        },
+        {
+          "en": "I suppose that it'll be a good solution to this problem",
+          "ipa": "[aɪ səˈpəʊz ðæt ɪtl biː ə ɡʊd səˈluːʃn tuː ðɪs ˈprɒbləm]",
+          "ru": "Я полагаю, что это будет хорошим решением этой проблемы"
+        },
+        {
+          "en": "I believe that it'll be possible",
+          "ipa": "[aɪ bɪˈliːv ðæt ɪtl biː ˈpɒsəbl]",
+          "ru": "Я верю, что это будет возможно"
+        },
+        {
+          "en": "I think I'll be able to solve this problem",
+          "ipa": "[aɪ θɪŋk aɪl biː ˈeɪbl tuː sɒlv ðɪs ˈprɒbləm]",
+          "ru": "Я думаю, я смогу решить эту проблему"
+        },
+        {
+          "en": "I don't think that it'll be the best solution to this problem",
+          "ipa": "[aɪ dəʊnt θɪŋk ðæt ɪtl biː ðə best səˈluːʃn tuː ðɪs ˈprɒbləm]",
+          "ru": "Я не думаю, что это будет лучшим решением этой проблемы"
+        },
+        {
+          "en": "I'll try to find a better job",
+          "ipa": "[aɪl traɪ tuː faɪnd ə ˈbetə dʒɒb]",
+          "ru": "Я постараюсь найти работу получше"
+        },
+        {
+          "en": "I believe that it'll be really so",
+          "ipa": "[aɪ bɪˈliːv ðæt ɪtl biː ˈrɪəli səʊ]",
+          "ru": "Я верю, что это действительно будет так"
+        },
+        {
+          "en": "He thinks that he'll be able to save up enough money to buy an apartment",
+          "ipa": "[hiː θɪŋks ðæt hiːl biː ˈeɪbl tuː seɪv ʌp ɪˈnʌf ˈmʌni tuː baɪ ən əˈpɑːtmənt]",
+          "ru": "Он думает, что сможет накопить достаточно денег, чтобы купить квартиру"
+        },
+        {
+          "en": "I'm afraid that they'll misunderstand it",
+          "ipa": "[aɪm əˈfreɪd ðæt ðeɪl ˌmɪsʌndəˈstænd ɪt]",
+          "ru": "Я боюсь, что они поймут это неправильно"
+        },
+        {
+          "en": "I'll try to do it better next time",
+          "ipa": "[aɪl traɪ tuː duː ɪt ˈbetə nekst taɪm]",
+          "ru": "Я постараюсь сделать это лучше в следующий раз"
+        },
+        {
+          "en": "I hope that they'll agree to do it",
+          "ipa": "[aɪ həʊp ðæt ðeɪl əˈɡriː tuː duː ɪt]",
+          "ru": "Я надеюсь, что они согласятся сделать это"
+        },
+        {
+          "en": "I'm sure that it'll be better",
+          "ipa": "[aɪm ʃʊə ðæt ɪtl biː ˈbetə]",
+          "ru": "Я уверен, что так будет лучше"
+        },
+        {
+          "en": "It seems to me that he'll be able to help us",
+          "ipa": "[ɪt siːmz tuː miː ðæt hiːl biː ˈeɪbl tuː help ʌs]",
+          "ru": "Мне кажется, что он сможет помочь нам"
+        },
+        {
+          "en": "I'll try to do my best to help you",
+          "ipa": "[aɪl traɪ tuː duː maɪ best tuː help juː]",
+          "ru": "Я постараюсь сделать всё возможное, чтобы помочь тебе"
+        },
+        {
+          "en": "I really hope that it won't happen",
+          "ipa": "[aɪ ˈrɪəli həʊp ðæt ɪt wəʊnt ˈhæpən]",
+          "ru": "Я очень надеюсь, что этого не произойдёт"
+        },
+        {
+          "en": "I'll try to help you",
+          "ipa": "[aɪl traɪ tuː help juː]",
+          "ru": "Я постараюсь помочь тебе"
+        },
+        {
+          "en": "I'll try to do it",
+          "ipa": "[aɪl traɪ tuː duː ɪt]",
+          "ru": "Я постараюсь сделать это"
+        },
+        {
+          "en": "She thinks that she'll be able to save up enough money to buy a small apartment",
+          "ipa": "[ʃiː θɪŋks ðæt ʃiːl biː ˈeɪbl tuː seɪv ʌp ɪˈnʌf ˈmʌni tuː baɪ ə smɔːl əˈpɑːtmənt]",
+          "ru": "Она думает, что сможет накопить достаточно денег, чтобы купить маленькую квартиру"
+        },
+        {
+          "en": "I don't think that it'll be cheaper",
+          "ipa": "[aɪ dəʊnt θɪŋk ðæt ɪtl biː ˈtʃiːpə]",
+          "ru": "Я не думаю, что это будет дешевле"
+        },
+        {
+          "en": "I think I'll be able to pass this exam",
+          "ipa": "[aɪ θɪŋk aɪl biː ˈeɪbl tuː pɑːs ðɪs ɪɡˈzæm]",
+          "ru": "Я думаю, я смогу сдать этот экзамен"
+        },
+        {
+          "en": "I'll try to do my best to show the best result",
+          "ipa": "[aɪl traɪ tuː duː maɪ best tuː ʃəʊ ðə best rɪˈzʌlt]",
+          "ru": "Я постараюсь сделать всё возможное, чтобы показать наилучший результат"
+        },
+        {
+          "en": "I expect that it'll happen sooner or later",
+          "ipa": "[aɪ ɪkˈspekt ðæt ɪtl ˈhæpən ˈsuːnər ɔː ˈleɪtə]",
+          "ru": "Я ожидаю, что это произойдёт рано или поздно"
+        },
+        {
+          "en": "I think I'll be able to come",
+          "ipa": "[aɪ θɪŋk aɪl biː ˈeɪbl tuː kʌm]",
+          "ru": "Я думаю, я смогу прийти"
+        },
+        {
+          "en": "I really hope that you'll find a solution to this problem",
+          "ipa": "[aɪ ˈrɪəli həʊp ðæt juːl faɪnd ə səˈluːʃn tuː ðɪs ˈprɒbləm]",
+          "ru": "Я очень надеюсь, что ты найдёшь решение этой проблемы"
+        },
+        {
+          "en": "I suppose that it'll be the best decision in this situation",
+          "ipa": "[aɪ səˈpəʊz ðæt ɪtl biː ðə best dɪˈsɪʒn ɪn ðɪs ˌsɪtʃuˈeɪʃn]",
+          "ru": "Я полагаю, что это будет лучшим решением в этой ситуации"
+        },
+        {
+          "en": "I don't think that it'll be right",
+          "ipa": "[aɪ dəʊnt θɪŋk ðæt ɪtl biː raɪt]",
+          "ru": "Я не думаю, что это будет правильно"
+        },
+        {
+          "en": "I'll need to think about it",
+          "ipa": "[aɪl niːd tuː θɪŋk əˈbaʊt ɪt]",
+          "ru": "Мне нужно будет подумать об этом"
+        }
+      ]
+    }
+  ]
+}

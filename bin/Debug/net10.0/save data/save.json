@@ -281,9 +281,17 @@
         "NameTheme": "A1_09_10_[ DO DOES QA  ]",
         "Tries": 1,
         "CorrectUnswers": 31,
-        "MissingUnswers": 19,
+        "MissingUnswers": 0,
         "AllUnswers": 50,
         "Date": "2026-07-25T11:12:48.0096649+03:00"
+      },
+      {
+        "NameTheme": "A1_11_12_[ Everything Everyone All  ]",
+        "Tries": 2,
+        "CorrectUnswers": 40,
+        "MissingUnswers": 10,
+        "AllUnswers": 50,
+        "Date": "2026-07-30T14:15:26.2116835+03:00"
       }
     ]
   }
