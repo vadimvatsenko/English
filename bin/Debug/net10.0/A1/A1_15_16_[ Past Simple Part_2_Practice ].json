@@ -1,0 +1,260 @@
+{
+  "sections": [
+    {
+      "title": "Past Simple Sentences",
+      "rule": "Утвердительные предложения в прошедшем простом времени (Past Simple) с правильными глаголами (-ed) и устойчивыми выражениями.",
+      "examples": [
+        {
+          "en": "I worked almost every day",
+          "ipa": "[aɪ wɜːkt ˈɔːlməʊst ˈevri deɪ]",
+          "ru": "Я работал почти каждый день"
+        },
+        {
+          "en": "I communicated with foreigners",
+          "ipa": "[aɪ kəˈmjuːnɪkeɪtɪd wɪð ˈfɒrənəz]",
+          "ru": "Я общался с иностранцами"
+        },
+        {
+          "en": "I looked at it one more time",
+          "ipa": "[aɪ lʊkt æt ɪt wʌn mɔː taɪm]",
+          "ru": "Я посмотрел на это ещё один раз"
+        },
+        {
+          "en": "I decided to follow this advice",
+          "ipa": "[aɪ dɪˈsaɪdɪd tuː ˈfɒləʊ ðɪs ədˈvaɪs]",
+          "ru": "Я решил следовать этому совету"
+        },
+        {
+          "en": "He asked me a couple of questions",
+          "ipa": "[hiː ɑːskt miː ə ˈkʌpl ɒv ˈkwestʃənz]",
+          "ru": "Он задал мне пару вопросов"
+        },
+        {
+          "en": "It seemed a wise decision",
+          "ipa": "[ɪt siːmd ə waɪz dɪˈsɪʒn]",
+          "ru": "Это казалось мудрым решением"
+        },
+        {
+          "en": "I watched this whole movie",
+          "ipa": "[aɪ wɒtʃt ðɪs həʊl ˈmuːvi]",
+          "ru": "Я посмотрел весь этот фильм"
+        },
+        {
+          "en": "They lived very happily",
+          "ipa": "[ðeɪ lɪvd ˈveri ˈhæpɪli]",
+          "ru": "Они жили очень счастливо"
+        },
+        {
+          "en": "He moved to another city",
+          "ipa": "[hiː muːvd tuː əˈnʌðə ˈsɪti]",
+          "ru": "Он переехал в другой город"
+        },
+        {
+          "en": "He worked as a sales manager",
+          "ipa": "[hiː wɜːkt æz ə seɪlz ˈmænɪdʒə]",
+          "ru": "Он работал менеджером по продажам"
+        },
+        {
+          "en": "I tried to do my best to improve my previous result",
+          "ipa": "[aɪ traɪd tuː duː maɪ best tuː ɪmˈpruːv maɪ ˈpriːviəs rɪˈzʌlt]",
+          "ru": "Я старался сделать всё возможное, чтобы улучшить свой предыдущий результат"
+        },
+        {
+          "en": "It seemed a very wise decision",
+          "ipa": "[ɪt siːmd ə ˈveri waɪz dɪˈsɪʒn]",
+          "ru": "Это казалось очень мудрым решением"
+        },
+        {
+          "en": "I communicated with people from different countries",
+          "ipa": "[aɪ kəˈmjuːnɪkeɪtɪd wɪð ˈpiːpl frɒm ˈdɪfrənt ˈkʌntriz]",
+          "ru": "Я общался с людьми из разных стран"
+        },
+        {
+          "en": "She advised me to read this article",
+          "ipa": "[ʃiː ədˈvaɪzd miː tuː riːd ðɪs ˈɑːtɪkl]",
+          "ru": "Она посоветовала мне прочитать эту статью"
+        },
+        {
+          "en": "She worked as a consultant",
+          "ipa": "[ʃiː wɜːkt æz ə kənˈsʌltənt]",
+          "ru": "Она работала консультантом"
+        },
+        {
+          "en": "She moved to another place",
+          "ipa": "[ʃiː muːvd tuː əˈnʌðə pleɪs]",
+          "ru": "Она переехала в другое место"
+        },
+        {
+          "en": "I decided to follow this recommendation",
+          "ipa": "[aɪ dɪˈsaɪdɪd tuː ˈfɒləʊ ðɪs ˌrekəmenˈdeɪʃn]",
+          "ru": "Я решил следовать этой рекомендации"
+        },
+        {
+          "en": "It happened to me so unexpectedly",
+          "ipa": "[ɪt ˈhæpənd tuː miː səʊ ˌʌnɪkˈspektɪdli]",
+          "ru": "Это произошло со мной так неожиданно"
+        },
+        {
+          "en": "It happened to us so unexpectedly",
+          "ipa": "[ɪt ˈhæpənd tuː ʌs səʊ ˌʌnɪkˈspektɪdli]",
+          "ru": "Это произошло с нами так неожиданно"
+        },
+        {
+          "en": "I really liked that explanation",
+          "ipa": "[aɪ ˈrɪəli laɪkt ðæt ˌekspləˈneɪʃn]",
+          "ru": "Мне действительно понравилось то объяснение"
+        },
+        {
+          "en": "I followed his recommendation",
+          "ipa": "[aɪ ˈfɒləʊd hɪz ˌrekəmenˈdeɪʃn]",
+          "ru": "Я последовал его рекомендации"
+        },
+        {
+          "en": "I really liked this explanation",
+          "ipa": "[aɪ ˈrɪəli laɪkt ðɪs ˌekspləˈneɪʃn]",
+          "ru": "Мне действительно понравилось это объяснение"
+        },
+        {
+          "en": "We turned back",
+          "ipa": "[wiː tɜːnd bæk]",
+          "ru": "Мы повернули назад"
+        },
+        {
+          "en": "I needed to say something",
+          "ipa": "[aɪ ˈniːdɪd tuː seɪ ˈsʌmθɪŋ]",
+          "ru": "Мне нужно было сказать что-то"
+        },
+        {
+          "en": "I decided to stay at home",
+          "ipa": "[aɪ dɪˈsaɪdɪd tuː steɪ æt həʊm]",
+          "ru": "Я решил остаться дома"
+        },
+        {
+          "en": "I believed him in the beginning",
+          "ipa": "[aɪ bɪˈliːvd hɪm ɪn ðə bɪˈɡɪnɪŋ]",
+          "ru": "Я верил ему вначале"
+        },
+        {
+          "en": "I used that service from time to time",
+          "ipa": "[aɪ juːzd ðæt ˈsɜːvɪs frɒm taɪm tuː taɪm]",
+          "ru": "Я пользовался тем сервисом время от времени"
+        },
+        {
+          "en": "I used this service from time to time",
+          "ipa": "[aɪ juːzd ðɪs ˈsɜːvɪs frɒm taɪm tuː taɪm]",
+          "ru": "Я пользовался этим сервисом время от времени"
+        },
+        {
+          "en": "I think that it changed my life",
+          "ipa": "[aɪ θɪŋk ðæt ɪt tʃeɪndʒd maɪ laɪf]",
+          "ru": "Я думаю, что это изменило мою жизнь"
+        },
+        {
+          "en": "I watched the whole movie",
+          "ipa": "[aɪ wɒtʃt ðə həʊl ˈmuːvi]",
+          "ru": "Я посмотрел весь фильм"
+        },
+        {
+          "en": "They often talked on the phone",
+          "ipa": "[ðeɪ ˈɒfn tɔːkt ɒn ðə fəʊn]",
+          "ru": "Они часто разговаривали по телефону"
+        },
+        {
+          "en": "I called him back about ten minutes ago",
+          "ipa": "[aɪ kɔːld hɪm bæk əˈbaʊt ten ˈmɪnɪts əˈɡəʊ]",
+          "ru": "Я перезвонил ему около десяти минут назад"
+        },
+        {
+          "en": "I followed her advice",
+          "ipa": "[aɪ ˈfɒləʊd hɜːr ədˈvaɪs]",
+          "ru": "Я последовал её совету"
+        },
+        {
+          "en": "He called me back an hour ago",
+          "ipa": "[hiː kɔːld miː bæk ən ˈaʊər əˈɡəʊ]",
+          "ru": "Он перезвонил мне час назад"
+        },
+        {
+          "en": "I continued this very intensive course",
+          "ipa": "[aɪ kənˈtɪnjuːd ðɪs ˈveri ɪnˈtensɪv kɔːs]",
+          "ru": "Я продолжил этот очень интенсивный курс"
+        },
+        {
+          "en": "It was very dark and we turned back",
+          "ipa": "[ɪt wɒz ˈveri dɑːk ænd wiː tɜːnd bæk]",
+          "ru": "Было очень темно, и мы повернули назад"
+        },
+        {
+          "en": "I tried to do my best to achieve this aim",
+          "ipa": "[aɪ traɪd tuː duː maɪ best tuː əˈtʃiːv ðɪs eɪm]",
+          "ru": "Я старался сделать всё возможное, чтобы достичь этой цели"
+        },
+        {
+          "en": "I looked at the screen",
+          "ipa": "[aɪ lʊkt æt ðə skriːn]",
+          "ru": "Я посмотрел на экран"
+        },
+        {
+          "en": "I wanted to go on holiday",
+          "ipa": "[aɪ ˈwɒntɪd tuː ɡəʊ ɒn ˈhɒlədeɪ]",
+          "ru": "Я хотел поехать в отпуск"
+        },
+        {
+          "en": "We played different games together",
+          "ipa": "[wiː pleɪd ˈdɪfrənt ɡeɪmz təˈɡeðə]",
+          "ru": "Мы играли в разные игры вместе"
+        },
+        {
+          "en": "I was at the exhibition and communicated with foreigners",
+          "ipa": "[aɪ wɒz æt ði ˌeksɪˈbɪʃn ænd kəˈmjuːnɪkeɪtɪd wɪð ˈfɒrənəz]",
+          "ru": "Я был на выставке и общался с иностранцами"
+        },
+        {
+          "en": "I watched the whole video",
+          "ipa": "[aɪ wɒtʃt ðə həʊl ˈvɪdɪəʊ]",
+          "ru": "Я посмотрел всё видео"
+        },
+        {
+          "en": "I asked him a couple of questions",
+          "ipa": "[aɪ ɑːskt hɪm ə ˈkʌpl ɒv ˈkwestʃənz]",
+          "ru": "Я задал ему пару вопросов"
+        },
+        {
+          "en": "He advised me to do it",
+          "ipa": "[hiː ədˈvaɪzd miː tuː duː ɪt]",
+          "ru": "Он посоветовал мне сделать это"
+        },
+        {
+          "en": "I really wanted to visit this place",
+          "ipa": "[aɪ ˈrɪəli ˈwɒntɪd tuː ˈvɪzɪt ðɪs pleɪs]",
+          "ru": "Я действительно хотел посетить это место"
+        },
+        {
+          "en": "I needed to stay at home",
+          "ipa": "[aɪ ˈniːdɪd tuː steɪ æt həʊm]",
+          "ru": "Мне нужно было остаться дома"
+        },
+        {
+          "en": "These trainings really helped me",
+          "ipa": "[ðiːz ˈtreɪnɪŋz ˈrɪəli helpt miː]",
+          "ru": "Эти тренировки действительно помогли мне"
+        },
+        {
+          "en": "I decided to do it later",
+          "ipa": "[aɪ dɪˈsaɪdɪd tuː duː ɪt ˈleɪtə]",
+          "ru": "Я решил сделать это позже"
+        },
+        {
+          "en": "I started this course last month",
+          "ipa": "[aɪ ˈstɑːtɪd ðɪs kɔːs lɑːst mʌnθ]",
+          "ru": "Я начал этот курс в прошлом месяце"
+        },
+        {
+          "en": "We talked about different things",
+          "ipa": "[wiː tɔːkt əˈbaʊt ˈdɪfrənt θɪŋz]",
+          "ru": "Мы говорили о разных вещах"
+        }
+      ]
+    }
+  ]
+}
