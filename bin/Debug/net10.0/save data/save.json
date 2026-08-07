@@ -281,7 +281,7 @@
         "NameTheme": "A1_09_10_[ DO DOES QA  ]",
         "Tries": 3,
         "CorrectUnswers": 35,
-        "MissingUnswers": 15,
+        "MissingUnswers": 0,
         "AllUnswers": 50,
         "Date": "2026-08-07T16:15:29.5877445+03:00"
       },
@@ -300,6 +300,14 @@
         "MissingUnswers": 0,
         "AllUnswers": 39,
         "Date": "2026-08-05T17:46:51.924988+03:00"
+      },
+      {
+        "NameTheme": "A1_17_18_[ Past Simple Part_1_Words ]",
+        "Tries": 1,
+        "CorrectUnswers": 18,
+        "MissingUnswers": 16,
+        "AllUnswers": 34,
+        "Date": "2026-08-07T16:51:32.4053526+03:00"
       }
     ]
   }
