@@ -279,11 +279,11 @@
       },
       {
         "NameTheme": "A1_09_10_[ DO DOES QA  ]",
-        "Tries": 1,
-        "CorrectUnswers": 31,
-        "MissingUnswers": 0,
+        "Tries": 2,
+        "CorrectUnswers": 33,
+        "MissingUnswers": 17,
         "AllUnswers": 50,
-        "Date": "2026-07-25T11:12:48.0096649+03:00"
+        "Date": "2026-08-07T09:11:41.1812892+03:00"
       },
       {
         "NameTheme": "A1_11_12_[ Everything Everyone All  ]",
@@ -297,7 +297,7 @@
         "NameTheme": "A1_13_14_[ WILL  ]",
         "Tries": 2,
         "CorrectUnswers": 26,
-        "MissingUnswers": 13,
+        "MissingUnswers": 0,
         "AllUnswers": 39,
         "Date": "2026-08-05T17:46:51.924988+03:00"
       }
