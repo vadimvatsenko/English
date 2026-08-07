@@ -289,9 +289,17 @@
         "NameTheme": "A1_11_12_[ Everything Everyone All  ]",
         "Tries": 2,
         "CorrectUnswers": 40,
-        "MissingUnswers": 10,
+        "MissingUnswers": 0,
         "AllUnswers": 50,
         "Date": "2026-07-30T14:15:26.2116835+03:00"
+      },
+      {
+        "NameTheme": "A1_13_14_[ WILL  ]",
+        "Tries": 2,
+        "CorrectUnswers": 26,
+        "MissingUnswers": 13,
+        "AllUnswers": 39,
+        "Date": "2026-08-05T17:46:51.924988+03:00"
       }
     ]
   }
