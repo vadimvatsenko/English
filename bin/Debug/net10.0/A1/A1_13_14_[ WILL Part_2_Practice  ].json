@@ -57,7 +57,7 @@
         {
           "en": "I'll try to do my best to show a better result",
           "ipa": "[aɪl traɪ tuː duː maɪ best tuː ʃəʊ ə ˈbetə rɪˈzʌlt]",
-          "ru": "Я постараюсь сделать всё возможное, чтобы показать лучший результат"
+          "ru": "Я постараюсь сделать всё возможное, чтобы показать результат лучше"
         },
         {
           "en": "I suppose that it'll be the best solution to this problem",
@@ -199,7 +199,10 @@
           "ipa": "[aɪl niːd tuː θɪŋk əˈbaʊt ɪt]",
           "ru": "Мне нужно будет подумать об этом"
         }
+	    
       ]
     }
   ]
 }
+
+
