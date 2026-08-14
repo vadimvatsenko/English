@@ -112,9 +112,9 @@ public class View
             Console.WriteLine(new string(' ', Console.WindowWidth)); // Очищаем пустую строку
 
             string horizontalTop =
-                $"  ╔════╦═══════════════════════════════════════════════╦═══════════╦═════════════════╦══════════════════╦═══════════════════════════╗";
+                $"  ╔════╦══════════════════════════════════════════════════════╦═══════════╦═════════════════╦══════════════════╦═══════════════════════════╗";
             string horizontalBottom =
-                $"  ╚════╩═══════════════════════════════════════════════╩═══════════╩═════════════════╩══════════════════╩═══════════════════════════╝";
+                $"  ╚════╩══════════════════════════════════════════════════════╩═══════════╩═════════════════╩══════════════════╩═══════════════════════════╝";
             Console.WriteLine($"{horizontalTop}".Background(StaticColors.White).Color(StaticColors.Blue).Bold());
 
             foreach (var m in menu)
@@ -126,7 +126,7 @@ public class View
                 string foregroundColor = isActive ? StaticColors.White : StaticColors.Blue;
 
                 // Центрирование текста
-                var centeredText = LeftText(m.Value, 46);
+                var centeredText = LeftText(m.Value, 53);
 
                 var rating = user.RatingText.FirstOrDefault(r => r.NameTheme == m.Value);
                 int tryes = rating != null ? rating.Tries : 0;
