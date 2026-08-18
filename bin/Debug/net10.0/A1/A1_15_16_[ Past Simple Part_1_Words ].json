@@ -40,7 +40,7 @@
           "ru": "стараться сделать всё возможное"
         },
         {
-          "en": "consultant",
+          "en": "a consultant",
           "ipa": "[kənˈsʌltənt]",
           "ru": "консультант"
         },
@@ -55,12 +55,12 @@
           "ru": "происходить с"
         },
         {
-          "en": "explanation",
+          "en": "a explanation",
           "ipa": "[ˌekspləˈneɪʃn]",
           "ru": "объяснение"
         },
         {
-          "en": "recommendation",
+          "en": "a recommendation",
           "ipa": "[ˌrekəmenˈdeɪʃn]",
           "ru": "рекомендация"
         },
@@ -85,7 +85,7 @@
           "ru": "достигать"
         },
         {
-          "en": "exhibition",
+          "en": "a exhibition",
           "ipa": "[ˌeksɪˈbɪʃn]",
           "ru": "выставка"
         },
@@ -93,6 +93,71 @@
           "en": "all the video",
           "ipa": "[ɔːl ðə ˈvɪdɪəʊ]",
           "ru": "всё видео"
+        },
+        {
+          "en": "previous",
+          "ipa": "[ˈpriːviəs]",
+          "ru": "предыдущий"
+        },
+        {
+          "en": "to advise",
+          "ipa": "[tuː ədˈvaɪz]",
+          "ru": "советовать"
+        },
+        {
+          "en": "advice",
+          "ipa": "[ədˈvaɪs]",
+          "ru": "совет"
+        },
+        {
+          "en": "in the beginning",
+          "ipa": "[ɪn ðə bɪˈɡɪnɪŋ]",
+          "ru": "в начале"
+        },
+        {
+          "en": "to call him back",
+          "ipa": "[tuː kɔːl hɪm bæk]",
+          "ru": "перезвонить ему"
+        },
+        {
+          "en": "an hour ago",
+          "ipa": "[ən ˈaʊər əˈɡəʊ]",
+          "ru": "час назад"
+        },
+        {
+          "en": "intensive",
+          "ipa": "[ɪnˈtensɪv]",
+          "ru": "интенсивный"
+        },
+        {
+          "en": "to go on holiday",
+          "ipa": "[tuː ɡəʊ ɒn ˈhɒlədeɪ]",
+          "ru": "поехать в отпуск"
+        },
+        {
+          "en": "together",
+          "ipa": "[təˈɡeðə]",
+          "ru": "вместе"
+        },
+        {
+          "en": "to be at the exhibition",
+          "ipa": "[tuː biː æt ði ˌeksɪˈbɪʃn]",
+          "ru": "быть на выставке"
+        },
+        {
+          "en": "to stay at home",
+          "ipa": "[tuː steɪ æt həʊm]",
+          "ru": "оставаться дома"
+        },
+        {
+          "en": "trainings",
+          "ipa": "[ˈtreɪnɪŋz]",
+          "ru": "тренировки"
+        },
+        {
+          "en": "to start",
+          "ipa": "[tuː stɑːt]",
+          "ru": "начинать / начать"
         }
       ]
     }
