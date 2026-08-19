@@ -303,11 +303,11 @@
       },
       {
         "NameTheme": "A1_17_18_[ Past Simple Part_1_Words ]",
-        "Tries": 4,
-        "CorrectUnswers": 11,
-        "MissingUnswers": 23,
+        "Tries": 5,
+        "CorrectUnswers": 24,
+        "MissingUnswers": 0,
         "AllUnswers": 34,
-        "Date": "2026-08-18T09:32:27.9001213+03:00"
+        "Date": "2026-08-19T08:05:37.5296535+03:00"
       },
       {
         "NameTheme": "A1_13_14_[ WILL Part_1_Words  ]",
@@ -356,6 +356,14 @@
         "MissingUnswers": 0,
         "AllUnswers": 50,
         "Date": "2026-08-18T09:15:33.9138002+03:00"
+      },
+      {
+        "NameTheme": "A1_17_18_[ Past Simple Part_2_Practice ]",
+        "Tries": 1,
+        "CorrectUnswers": 16,
+        "MissingUnswers": 29,
+        "AllUnswers": 45,
+        "Date": "2026-08-19T08:50:30.9319125+03:00"
       }
     ]
   }
