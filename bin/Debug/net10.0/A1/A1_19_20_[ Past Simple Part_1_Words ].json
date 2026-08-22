@@ -1,0 +1,195 @@
+{
+  "sections": [
+    {
+      "title": "Vocabulary & Expressions",
+      "rule": "Глагольные сочетания, инфинитивы с частицей to, устойчивые фразы и существительные.",
+      "examples": [
+        {
+          "en": "to refuse",
+          "ipa": "[tuː rɪˈfjuːz]",
+          "ru": "отказываться"
+        },
+        {
+          "en": "to prepare for",
+          "ipa": "[tuː prɪˈpeə fɔː]",
+          "ru": "готовиться к"
+        },
+        {
+          "en": "greatly thanks to",
+          "ipa": "[ˈɡreɪtli θæŋks tuː]",
+          "ru": "во многом благодаря"
+        },
+        {
+          "en": "to share",
+          "ipa": "[tuː ʃeə]",
+          "ru": "делиться"
+        },
+        {
+          "en": "quite often",
+          "ipa": "[kwaɪt ˈɒfn]",
+          "ru": "довольно часто"
+        },
+        {
+          "en": "mostly",
+          "ipa": "[ˈməʊstli]",
+          "ru": "в основном / по большей части"
+        },
+        {
+          "en": "to clean",
+          "ipa": "[tuː kliːn]",
+          "ru": "убирать / чистить"
+        },
+        {
+          "en": "all the questions",
+          "ipa": "[ɔːl ðə ˈkwestʃənz]",
+          "ru": "все вопросы"
+        },
+        {
+          "en": "to hate doing",
+          "ipa": "[tuː heɪt ˈduːɪŋ]",
+          "ru": "ненавидеть делать (что-либо)"
+        },
+        {
+          "en": "all the documents",
+          "ipa": "[ɔːl ðə ˈdɒkjumənts]",
+          "ru": "все документы"
+        },
+        {
+          "en": "to smile at",
+          "ipa": "[tuː smaɪl æt]",
+          "ru": "улыбаться (кому-то)"
+        },
+        {
+          "en": "a parcel",
+          "ipa": "[ə ˈpɑːsl]",
+          "ru": "посылка"
+        },
+        {
+          "en": "to deliver",
+          "ipa": "[tuː dɪˈlɪvə]",
+          "ru": "доставлять"
+        },
+        {
+          "en": "on time",
+          "ipa": "[ɒn taɪm]",
+          "ru": "вовремя (по расписанию)"
+        },
+        {
+          "en": "to cry",
+          "ipa": "[tuː kraɪ]",
+          "ru": "плакать / кричать"
+        },
+        {
+          "en": "to enjoy doing",
+          "ipa": "[tuː ɪnˈdʒɔɪ ˈduːɪŋ]",
+          "ru": "получать удовольствие от выполнения (чего-либо)"
+        },
+        {
+          "en": "to carry",
+          "ipa": "[tuː ˈkæri]",
+          "ru": "носить / нести"
+        },
+        {
+          "en": "himself",
+          "ipa": "[hɪmˈself]",
+          "ru": "сам / себя"
+        },
+        {
+          "en": "to train",
+          "ipa": "[tuː treɪn]",
+          "ru": "тренироваться / обучать"
+        },
+        {
+          "en": "intensively",
+          "ipa": "[ɪnˈtensɪvli]",
+          "ru": "интенсивно"
+        },
+        {
+          "en": "to prefer",
+          "ipa": "[tuː prɪˈfɜː]",
+          "ru": "предпочитать"
+        },
+        {
+          "en": "to express",
+          "ipa": "[tuː ɪkˈspres]",
+          "ru": "выражать"
+        },
+        {
+          "en": "attitude to",
+          "ipa": "[ˈætɪtjuːd tuː]",
+          "ru": "отношение к"
+        },
+        {
+          "en": "a theory",
+          "ipa": "[ə ˈθɪəri]",
+          "ru": "теория"
+        },
+        {
+          "en": "to exist",
+          "ipa": "[tuː ɪɡˈzɪst]",
+          "ru": "существовать"
+        },
+        {
+          "en": "a link",
+          "ipa": "[ə lɪŋk]",
+          "ru": "ссылка / связь"
+        },
+        {
+          "en": "a point of view",
+          "ipa": "[ə pɔɪnt ɒv vjuː]",
+          "ru": "точка зрения"
+        },
+        {
+          "en": "personal",
+          "ipa": "[ˈpɜːsənl]",
+          "ru": "личный / персональный"
+        },
+        {
+          "en": "professionally",
+          "ipa": "[prəˈfeʃənəli]",
+          "ru": "профессионально"
+        },
+        {
+          "en": "all the files",
+          "ipa": "[ɔːl ðə faɪlz]",
+          "ru": "все файлы"
+        },
+        {
+          "en": "regular",
+          "ipa": "[ˈreɡjələ]",
+          "ru": "регулярный / обычный"
+        },
+        {
+          "en": "a band",
+          "ipa": "[ə bænd]",
+          "ru": "музыкальная группа"
+        },
+        {
+          "en": "to release",
+          "ipa": "[tuː rɪˈliːs]",
+          "ru": "выпускать / релизить"
+        },
+        {
+          "en": "an album",
+          "ipa": "[ən ˈælbəm]",
+          "ru": "альбом"
+        },
+        {
+          "en": "to repeat",
+          "ipa": "[tuː rɪˈpiːt]",
+          "ru": "повторять"
+        },
+        {
+          "en": "to hate",
+          "ipa": "[tuː heɪt]",
+          "ru": "ненавидеть"
+        },
+        {
+          "en": "to plan",
+          "ipa": "[tuː plæn]",
+          "ru": "планировать"
+        }
+      ]
+    }
+  ]
+}

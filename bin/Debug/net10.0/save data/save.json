@@ -361,9 +361,17 @@
         "NameTheme": "A1_17_18_[ Past Simple Part_2_Practice ]",
         "Tries": 5,
         "CorrectUnswers": 43,
-        "MissingUnswers": 2,
+        "MissingUnswers": 0,
         "AllUnswers": 45,
         "Date": "2026-08-22T11:14:45.8861412+03:00"
+      },
+      {
+        "NameTheme": "A1_19_20_[ Past Simple Part_1_Words ]",
+        "Tries": 1,
+        "CorrectUnswers": 18,
+        "MissingUnswers": 19,
+        "AllUnswers": 37,
+        "Date": "2026-08-22T12:02:35.6495461+03:00"
       }
     ]
   }

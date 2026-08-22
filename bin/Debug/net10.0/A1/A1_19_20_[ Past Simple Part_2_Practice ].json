@@ -1,0 +1,225 @@
+{
+  "sections": [
+    {
+      "title": "Past Simple Sentences & Expressions",
+      "rule": "Утвердительные предложения в прошедшем простом времени (Past Simple) с правильными и устойчивыми конструкциями.",
+      "examples": [
+        {
+          "en": "They refused to help him",
+          "ipa": "[ðeɪ rɪˈfjuːzd tuː help hɪm]",
+          "ru": "Они отказались помочь ему"
+        },
+        {
+          "en": "I improved my listening skills greatly thanks to this practice",
+          "ipa": "[aɪ ɪmˈpruːvd maɪ ˈlɪsnɪŋ skɪlz ˈɡreɪtli θæŋks tuː ðɪs ˈpræktɪs]",
+          "ru": "Я значительно улучшил свои навыки аудирования благодаря этой практике"
+        },
+        {
+          "en": "I prepared for this exam",
+          "ipa": "[aɪ prɪˈpeəd fɔː ðɪs ɪɡˈzæm]",
+          "ru": "Я подготовился к этому экзамену"
+        },
+        {
+          "en": "I improved my English greatly thanks to this kind of practice",
+          "ipa": "[aɪ ɪmˈpruːvd maɪ ˈɪŋɡlɪʃ ˈɡreɪtli θæŋks tuː ðɪs kaɪnd ɒv ˈpræktɪs]",
+          "ru": "Я значительно улучшил свой английский благодаря такого рода практике"
+        },
+        {
+          "en": "Everyone arrived on time",
+          "ipa": "[ˈevriwʌn əˈraɪvd ɒn taɪm]",
+          "ru": "Все прибыли вовремя"
+        },
+        {
+          "en": "I'm so happy that I achieved this aim",
+          "ipa": "[aɪm səʊ ˈhæpi ðæt aɪ əˈtʃiːvd ðɪs eɪm]",
+          "ru": "Я так счастлив, что достиг этой цели"
+        },
+        {
+          "en": "I'm so happy that I really achieved this aim",
+          "ipa": "[aɪm səʊ ˈhæpi ðæt aɪ ˈrɪəli əˈtʃiːvd ðɪs eɪm]",
+          "ru": "Я так счастлив, что действительно достиг этой цели"
+        },
+        {
+          "en": "I answered this question",
+          "ipa": "[aɪ ˈɑːnsəd ðɪs ˈkwestʃən]",
+          "ru": "Я ответил на этот вопрос"
+        },
+        {
+          "en": "He refused to answer this question",
+          "ipa": "[hiː rɪˈfjuːzd tuː ˈɑːnsə ðɪs ˈkwestʃən]",
+          "ru": "Он отказался отвечать на этот вопрос"
+        },
+        {
+          "en": "I checked everything",
+          "ipa": "[aɪ tʃekt ˈevrɪθɪŋ]",
+          "ru": "Я всё проверил"
+        },
+        {
+          "en": "I shared this video with my friends",
+          "ipa": "[aɪ ʃeəd ðɪs ˈvɪdɪəʊ wɪð maɪ frendz]",
+          "ru": "Я поделился этим видео со своими друзьями"
+        },
+        {
+          "en": "I travelled quite often",
+          "ipa": "[aɪ ˈtrævld kwaɪt ˈɒfn]",
+          "ru": "Я путешествовал довольно часто"
+        },
+        {
+          "en": "I mostly ordered it online",
+          "ipa": "[aɪ ˈməʊstli ˈɔːdəd ɪt ˌɒnˈlaɪn]",
+          "ru": "Я в основном заказывал это онлайн"
+        },
+        {
+          "en": "He cleaned his room",
+          "ipa": "[hiː kliːnd hɪz ruːm]",
+          "ru": "Он убрал свою комнату"
+        },
+        {
+          "en": "I answered all the questions",
+          "ipa": "[aɪ ˈɑːnsəd ɔːl ðə ˈkwestʃənz]",
+          "ru": "Я ответил на все вопросы"
+        },
+        {
+          "en": "I hated doing it",
+          "ipa": "[aɪ ˈheɪtɪd ˈduːɪŋ ɪt]",
+          "ru": "Я ненавидел делать это"
+        },
+        {
+          "en": "I saved all the documents",
+          "ipa": "[aɪ seɪvd ɔːl ðə ˈdɒkjumənts]",
+          "ru": "Я сохранил все документы"
+        },
+        {
+          "en": "She cleaned the room",
+          "ipa": "[ʃiː kliːnd ðə ruːm]",
+          "ru": "Она убрала комнату"
+        },
+        {
+          "en": "He smiled at her and she smiled at him",
+          "ipa": "[hiː smaɪld æt hɜːr ænd ʃiː smaɪld æt hɪm]",
+          "ru": "Он улыбнулся ей, а она улыбнулась ему"
+        },
+        {
+          "en": "I mostly ordered it in the shop",
+          "ipa": "[aɪ ˈməʊstli ˈɔːdəd ɪt ɪn ðə ʃɒp]",
+          "ru": "Я в основном заказывал это в магазине"
+        },
+        {
+          "en": "They delivered the parcel on time",
+          "ipa": "[ðeɪ dɪˈlɪvəd ðə ˈpɑːsl ɒn taɪm]",
+          "ru": "Они доставили посылку вовремя"
+        },
+        {
+          "en": "She cried suddenly",
+          "ipa": "[ʃiː kraɪd ˈsʌdənli]",
+          "ru": "Она внезапно заплакала"
+        },
+        {
+          "en": "I really enjoyed doing it",
+          "ipa": "[aɪ ˈrɪəli ɪnˈdʒɔɪd ˈduːɪŋ ɪt]",
+          "ru": "Мне действительно понравилось делать это"
+        },
+        {
+          "en": "He only cared about himself",
+          "ipa": "[hiː ˈəʊnli keəd əˈbaʊt hɪmˈself]",
+          "ru": "Он заботился только о себе"
+        },
+        {
+          "en": "I trained very intensively",
+          "ipa": "[aɪ treɪnd ˈveri ɪnˈtensɪvli]",
+          "ru": "Я тренировался очень интенсивно"
+        },
+        {
+          "en": "I preferred to stay at home",
+          "ipa": "[aɪ prɪˈfɜːd tuː steɪ æt həʊm]",
+          "ru": "Я предпочёл остаться дома"
+        },
+        {
+          "en": "I expressed my attitude to it",
+          "ipa": "[aɪ ɪkˈsprest maɪ ˈætɪtjuːd tuː ɪt]",
+          "ru": "Я выразил своё отношение к этому"
+        },
+        {
+          "en": "This theory really existed",
+          "ipa": "[ðɪs ˈθɪəri ˈrɪəli ɪɡˈzɪstɪd]",
+          "ru": "Эта теория действительно существовала"
+        },
+        {
+          "en": "My friend shared this link with me",
+          "ipa": "[maɪ frend ʃeəd ðɪs lɪŋk wɪð miː]",
+          "ru": "Мой друг поделился этой ссылкой со мной"
+        },
+        {
+          "en": "I expressed my personal point of view",
+          "ipa": "[aɪ ɪkˈsprest maɪ ˈpɜːsənl pɔɪnt ɒv vjuː]",
+          "ru": "Я выразил свою личную точку зрения"
+        },
+        {
+          "en": "She danced professionally",
+          "ipa": "[ʃiː dɑːnst prəˈfeʃənəli]",
+          "ru": "Она танцевала профессионально"
+        },
+        {
+          "en": "I saved all the files",
+          "ipa": "[aɪ seɪvd ɔːl ðə faɪlz]",
+          "ru": "Я сохранил все файлы"
+        },
+        {
+          "en": "I arrived at the airport ten minutes ago",
+          "ipa": "[aɪ əˈraɪvd æt ði ˈeəpɔːt ten ˈmɪnɪts əˈɡəʊ]",
+          "ru": "Я прибыл в аэропорт десять минут назад"
+        },
+        {
+          "en": "They delivered my parcel on time",
+          "ipa": "[ðeɪ dɪˈlɪvəd maɪ ˈpɑːsl ɒn taɪm]",
+          "ru": "Они доставили мою посылку вовремя"
+        },
+        {
+          "en": "I improved my English thanks to these regular trainings",
+          "ipa": "[aɪ ɪmˈpruːvd maɪ ˈɪŋɡlɪʃ θæŋks tuː ðiːz ˈreɡjələ ˈtreɪnɪŋz]",
+          "ru": "Я улучшил свой английский благодаря этим регулярным тренировкам"
+        },
+        {
+          "en": "He only cared about money",
+          "ipa": "[hiː ˈəʊnli keəd əˈbaʊt ˈmʌni]",
+          "ru": "Его волновали только деньги"
+        },
+        {
+          "en": "The band released a new album",
+          "ipa": "[ðə bænd rɪˈliːst ə njuː ˈælbəm]",
+          "ru": "Группа выпустила новый альбом"
+        },
+        {
+          "en": "I prepared for this test",
+          "ipa": "[aɪ prɪˈpeəd fɔː ðɪs test]",
+          "ru": "Я подготовился к этому тесту"
+        },
+        {
+          "en": "I repeated my question again",
+          "ipa": "[aɪ rɪˈpiːtɪd maɪ ˈkwestʃən əˈɡen]",
+          "ru": "Я повторил свой вопрос снова"
+        },
+        {
+          "en": "I checked all the documents",
+          "ipa": "[aɪ tʃekt ɔːl ðə ˈdɒkjumənts]",
+          "ru": "Я проверил все документы"
+        },
+        {
+          "en": "I really hated it",
+          "ipa": "[aɪ ˈrɪəli ˈheɪtɪd ɪt]",
+          "ru": "Я действительно ненавидел это"
+        },
+        {
+          "en": "I preferred to plan everything",
+          "ipa": "[aɪ prɪˈfɜːd tuː plæn ˈevrɪθɪŋ]",
+          "ru": "Я предпочитал всё планировать"
+        },
+        {
+          "en": "I enjoyed spending time with my friend",
+          "ipa": "[aɪ ɪnˈdʒɔɪd ˈspendɪŋ taɪm wɪð maɪ frend]",
+          "ru": "Мне нравилось проводить время с моим другом"
+        }
+      ]
+    }
+  ]
+}
