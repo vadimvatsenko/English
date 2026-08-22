@@ -1,3 +1,7 @@
+13-14
+the right decision
+the best decision in this situation
+
 previous
 to advise
 a advice
@@ -11,6 +15,7 @@ to be at the exhibition
 to stay at home
 trainings
 to start
+to follow
 
 return home
 to be tired
