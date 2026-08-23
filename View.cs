@@ -268,7 +268,24 @@ public class View
                         "╠═════════════════════════════════════════════════════════════════════════════╣");
 
                     Console.WriteLine(e.Ipa.Color(StaticColors.Magenta) + " ");
-                    Console.WriteLine(words.Color(StaticColors.Yellow));
+
+                    string colorizerWords = string.Empty;
+
+                    for (int i = 0; i <= correctText.Length; i++)
+                    {
+                        if (correctText[i] == words[i])
+                        {
+                            Console.Write(words[i].ToString().Color(StaticColors.Green));
+                        }
+                        else
+                        {
+                            Console.Write(words[i].ToString().Color(StaticColors.Red));
+                            
+                        }
+                    }
+                    Console.WriteLine();
+                    
+                    //Console.WriteLine(words.Color(StaticColors.Yellow));
                     Console.WriteLine(correctText.Color(StaticColors.Green));
 
                     Console.WriteLine(
