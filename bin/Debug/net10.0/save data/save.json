@@ -367,11 +367,19 @@
       },
       {
         "NameTheme": "A1_19_20_[ Past Simple Part_1_Words ]",
-        "Tries": 1,
-        "CorrectUnswers": 18,
-        "MissingUnswers": 19,
+        "Tries": 4,
+        "CorrectUnswers": 36,
+        "MissingUnswers": 0,
         "AllUnswers": 37,
-        "Date": "2026-08-22T12:02:35.6495461+03:00"
+        "Date": "2026-08-23T08:22:53.6855004+03:00"
+      },
+      {
+        "NameTheme": "A1_19_20_[ Past Simple Part_2_Practice ]",
+        "Tries": 1,
+        "CorrectUnswers": 22,
+        "MissingUnswers": 21,
+        "AllUnswers": 43,
+        "Date": "2026-08-23T08:51:20.1291304+03:00"
       }
     ]
   }
