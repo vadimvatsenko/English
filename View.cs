@@ -222,9 +222,7 @@ public class View
                     Console.Clear();
 
                     Console.WriteLine(
-                        $"Theme {fileName} Tryes {currentRating.Tries} [{currentRating.CorrectUnswers} / {currentRating.AllUnswers}]"
-                            .GradientBackground(StaticColors.Gradient[0], StaticColors.Gradient[1],
-                                StaticColors.Gradient[2], StaticColors.Gradient[3], StaticColors.Gradient[4]));
+                        $"Theme {fileName} Tryes {currentRating.Tries} [{currentRating.CorrectUnswers} / {currentRating.AllUnswers}]");
 
                     Console.WriteLine(
                         "╠════════════════════════════════════════════════════════════════════════════╣");
@@ -267,26 +265,27 @@ public class View
                     Console.WriteLine(
                         "╠═════════════════════════════════════════════════════════════════════════════╣");
 
-                    Console.WriteLine(e.Ipa.Color(StaticColors.Magenta) + " ");
+                    
+                    int maxLength = Math.Max(words.Length, correctText.Length);
+                    
+                    words = words.PadRight(maxLength);
+                    correctText = correctText.PadRight(maxLength);
 
-                    string colorizerWords = string.Empty;
-
-                    for (int i = 0; i <= correctText.Length; i++)
+                    for (int i = 0; i < maxLength; i++)
                     {
                         if (correctText[i] == words[i])
                         {
-                            Console.Write(words[i].ToString().Color(StaticColors.Green));
+                            Console.Write(words[i].ToString().Color(StaticColors.White).Background(StaticColors.Green));
                         }
                         else
                         {
-                            Console.Write(words[i].ToString().Color(StaticColors.Red));
-                            
+                            Console.Write(words[i].ToString().Color(StaticColors.White).Background(StaticColors.Red));
                         }
                     }
                     Console.WriteLine();
                     
-                    //Console.WriteLine(words.Color(StaticColors.Yellow));
                     Console.WriteLine(correctText.Color(StaticColors.Green));
+                    Console.WriteLine(e.Ipa.Color(StaticColors.Magenta) + " ");
 
                     Console.WriteLine(
                         "╠═════════════════════════════════════════════════════════════════════════════╣");
