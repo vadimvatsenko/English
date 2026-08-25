@@ -227,9 +227,7 @@ public class View
                     Console.WriteLine(
                         "╠════════════════════════════════════════════════════════════════════════════╣");
 
-                    Console.WriteLine($"╠════ current QA number {count} / {allQaCount} ════╣"
-                        .Gradient(StaticColors.Gradient[0], StaticColors.Gradient[1],
-                            StaticColors.Gradient[2], StaticColors.Gradient[3], StaticColors.Gradient[4]));
+                    Console.WriteLine($"╠═════════════════ current QA number {count} / {allQaCount} ════════════╣");
 
                     Console.WriteLine(
                         "╠════════════════════════════════════════════════════════════════════════════╣");
@@ -273,7 +271,8 @@ public class View
 
                     for (int i = 0; i < maxLength; i++)
                     {
-                        if (correctText[i] == words[i])
+                        bool isExist = correctText[i].ToString().ToLower() == words[i].ToString().ToLower();
+                        if (isExist)
                         {
                             Console.Write(words[i].ToString().Color(StaticColors.White).Background(StaticColors.Green));
                         }
