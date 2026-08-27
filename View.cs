@@ -239,8 +239,8 @@ public class View
                         "╠════════════════════════════════════════════════════════════════════════════╣"
                             .Color(StaticColors.Blue).Background(StaticColors.White));
                     Console.Write("║".Color(StaticColors.Blue).Background(StaticColors.White));
-                    string centeredTryingText = CenteredText($"Tryes {currentRating.Tries}" + " " +
-                                                             $"Last Played Date {currentRating.Date}", upperLine.Length - 2);
+                    string centeredTryingText = CenteredText($"Tryes |{currentRating.Tries}|" + "---" +
+                                                             $"Last Played Date |{currentRating.Date}|", upperLine.Length - 2);
                     Console.Write(centeredTryingText
                         .Color(StaticColors.Green)
                         .Background(StaticColors.White));
