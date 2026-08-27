@@ -221,20 +221,52 @@ public class View
                 {
                     Console.Clear();
 
+                    // --- шапка
+                    string upperLine = "╔════════════════════════════════════════════════════════════════════════════╗";
+                    Console.WriteLine(upperLine.Color(StaticColors.Blue).Background(StaticColors.White));
+                    string headerText =
+                        $"Theme {fileName}  [{currentRating.CorrectUnswers} / {currentRating.AllUnswers}]";
+                    string headerTextCentered = CenteredText(headerText, upperLine.Length - 2);
+                    
+                    Console.Write("║".Color(StaticColors.Blue).Background(StaticColors.White));
+                    Console.Write(headerTextCentered
+                            .Color(StaticColors.Green)
+                            .Background(StaticColors.White));
+                    Console.Write("║".Color(StaticColors.Blue).Background(StaticColors.White));
+                    Console.WriteLine();
+                    // ---
                     Console.WriteLine(
-                        $"Theme {fileName} Tryes {currentRating.Tries} [{currentRating.CorrectUnswers} / {currentRating.AllUnswers}]");
-
+                        "╠════════════════════════════════════════════════════════════════════════════╣"
+                            .Color(StaticColors.Blue).Background(StaticColors.White));
+                    Console.Write("║".Color(StaticColors.Blue).Background(StaticColors.White));
+                    string centeredTryingText = CenteredText($"Tryes {currentRating.Tries}" + " " +
+                                                             $"Last Played Date {currentRating.Date}", upperLine.Length - 2);
+                    Console.Write(centeredTryingText
+                        .Color(StaticColors.Green)
+                        .Background(StaticColors.White));
+                    Console.Write("║".Color(StaticColors.Blue).Background(StaticColors.White));
+                    Console.WriteLine();
+                    
+                    // ---
+                    
                     Console.WriteLine(
-                        "╠════════════════════════════════════════════════════════════════════════════╣");
+                        "╠════════════════════════════════════════════════════════════════════════════╣"
+                            .Color(StaticColors.Blue).Background(StaticColors.White));
 
-                    Console.WriteLine($"╠═════════════════ current QA number {count} / {allQaCount} ════════════╣");
-
+                    Console.Write("║".Color(StaticColors.Blue).Background(StaticColors.White));
+                    string centeredQaNumbers = CenteredText($"Current QA number |{count} / {allQaCount}|", upperLine.Length - 2); 
+                    Console.Write(centeredQaNumbers
+                        .Color(StaticColors.Blue).Background(StaticColors.White));
+                    Console.Write("║".Color(StaticColors.Blue).Background(StaticColors.White));
+                    Console.WriteLine();
+                    // ---
                     Console.WriteLine(
-                        "╠════════════════════════════════════════════════════════════════════════════╣");
+                        "╠════════════════════════════════════════════════════════════════════════════╣"
+                            .Color(StaticColors.Blue).Background(StaticColors.White));
 
-                    Console.WriteLine($"CORRECT [{currentRating.CorrectUnswers}]".Color(StaticColors.Green) +
+                    Console.WriteLine($"CORRECT [{currentRating.CorrectUnswers}]".Color(StaticColors.White).Background(StaticColors.Green) +
                                       " " +
-                                      $"MISSTAKE [{currentRating.MissingUnswers}]".Color(StaticColors.Red));
+                                      $"MISSTAKE [{currentRating.MissingUnswers}]".Color(StaticColors.White).Background(StaticColors.Red));
 
                     Console.WriteLine(
                         "╠════════════════════════════════════════════════════════════════════════════╣");
