@@ -231,10 +231,19 @@ public class AuthService
         string password = UserValidation.ReadPassword();
 
         // Шукаємо користувача по імені (перший, який підходить)
-        User user = allUser.FirstOrDefault(u => u.Name.Equals(name));
+        User? user = allUser.FirstOrDefault(u => u.Name.Equals(name));
         
-        Console.WriteLine($"{user.Name}: {user.Password}");
-        Console.ReadKey();
+        if (user != null)
+        {
+            Console.WriteLine($"{user.Name}: {user.Password}");
+            Console.ReadKey();
+        }
+        else
+        {
+            Console.WriteLine("User not found!");
+            Console.ReadKey();
+            return null; 
+        }
 
         // Якщо користувача не знайдено або пароль не співпав — логін невдалий
         if (user == null || user.Password != password)

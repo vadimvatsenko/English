@@ -12,8 +12,8 @@ public class View
     {
         _authService = authService;
     }
-
-    // покраска и управление меню
+    
+        // покраска и управление меню
     public int ColorizeMenuInput(Dictionary<int, string> menu, string header)
     {
         int counter = 0;
@@ -92,6 +92,7 @@ public class View
     public int ColorizeMenuInput(Dictionary<int, string> menu, User user, string header)
     {
         int counter = 0;
+        int maxVisible = 15; // Сколько элементов видно одновременно
 
         // Оптимизация: парсим заголовок ОДИН раз до начала цикла
         string[] headerParts = header.Split(new[] { ' ' }, 2);
@@ -117,8 +118,14 @@ public class View
                 $"  ╚════╩══════════════════════════════════════════════════════╩═══════════╩═════════════════╩══════════════════╩═══════════════════════════╝";
             Console.WriteLine($"{horizontalTop}".Background(StaticColors.White).Color(StaticColors.Blue).Bold());
 
-            foreach (var m in menu)
+            // Логика скроллинга
+            int start = Math.Max(0, Math.Min(counter - maxVisible / 2, menu.Count - maxVisible));
+            if (counter < maxVisible / 2) start = 0;
+            int end = Math.Min(menu.Count, start + maxVisible);
+
+            for (int i = start; i < end; i++)
             {
+                var m = menu.ElementAt(i);
                 bool isActive = m.Key == counter;
                 string arrow = isActive ? ">" : " ";
 
@@ -133,18 +140,8 @@ public class View
                 int correctUnswers = rating != null ? rating.CorrectUnswers : 0;
                 int allQuestions = rating != null ? rating.AllUnswers : 0;
                 string data = rating != null ? rating.Date.ToString("dd.MM.yyyy HH:mm:ss") : "░░:░░:░░░░ ░░:░░:░░";
-                // Выводим строку меню
 
-                //float percentSuccess = ((correctUnswers == 0 ? 1 : correctUnswers) / (allQuestions == 0 ? 1 : allQuestions)) * 100;
-
-                float percentSuccess = ((float)correctUnswers / (float)allQuestions) * 100f;
-
-                // Если все вопросы = 0 и правильные = 0, результатом будет NaN
-                // Если все вопросы = 0, а правильные > 0, результатом будет Infinity
-                if (float.IsNaN(percentSuccess) || float.IsInfinity(percentSuccess))
-                {
-                    percentSuccess = 0;
-                }
+                float percentSuccess = allQuestions == 0 ? 0 : ((float)correctUnswers / (float)allQuestions) * 100f;
 
                 string percentColorHex =
                     HexColorsLerp.LerpColorHex(StaticColors.Red, StaticColors.Green, percentSuccess);
@@ -156,18 +153,15 @@ public class View
                 Console.Write($"Success: {percentSuccess.ToString("000.00")}% ".Background(backgroundColor)
                     .Color(percentColorHex).Bold());
                 Console.WriteLine($"║ Date: {data} ║".Background(backgroundColor).Color(foregroundColor).Bold());
-
-
             }
 
-            Console.WriteLine($"{horizontalBottom}".Background(StaticColors.White).Color(StaticColors.Blue).Bold());
-
-            // Очищаем оставшуюся нижнюю часть экрана на случай, если меню уменьшилось
-            // (актуально, если этот метод вызывается для меню с разным количеством элементов)
-            for (int i = 0; i < 2; i++)
+            // Если список меньше maxVisible, заполняем пустоту
+            for (int i = menu.Count; i < maxVisible; i++)
             {
                 Console.WriteLine(new string(' ', Console.WindowWidth));
             }
+
+            Console.WriteLine($"{horizontalBottom}".Background(StaticColors.White).Color(StaticColors.Blue).Bold());
 
             ConsoleKeyInfo keyInfo = Console.ReadKey(true);
 
