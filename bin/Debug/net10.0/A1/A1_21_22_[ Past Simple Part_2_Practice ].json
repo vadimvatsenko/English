@@ -1,0 +1,195 @@
+{
+  "sections": [
+    {
+      "title": "Past Simple Sentences: Regular & Irregular Verbs",
+      "rule": "Утвердительные предложения в Past Simple с правильными и неправильными глаголами, устойчивыми предлогами и выражениями.",
+      "examples": [
+        {
+          "en": "This speech really inspired me",
+          "ipa": "[ðɪs spiːtʃ ˈrɪəli ɪnˈspaɪəd miː]",
+          "ru": "Эта речь действительно вдохновила меня"
+        },
+        {
+          "en": "We discussed everything",
+          "ipa": "[wiː dɪˈskʌst ˈevrɪθɪŋ]",
+          "ru": "Мы всё обсудили"
+        },
+        {
+          "en": "It really mattered",
+          "ipa": "[ɪt ˈrɪəli ˈmætəd]",
+          "ru": "Это действительно имело значение"
+        },
+        {
+          "en": "I found some mistakes and corrected them",
+          "ipa": "[aɪ faʊnd sʌm mɪˈsteɪks ænd kəˈrektɪd ðem]",
+          "ru": "Я нашёл несколько ошибок и исправил их"
+        },
+        {
+          "en": "I corrected all the mistakes",
+          "ipa": "[aɪ kəˈrektɪd ɔːl ðə mɪˈsteɪks]",
+          "ru": "Я исправил все ошибки"
+        },
+        {
+          "en": "He complained about it to the manager",
+          "ipa": "[hiː kəmˈpleɪnd əˈbaʊt ɪt tuː ðə ˈmænɪdʒə]",
+          "ru": "Он пожаловался об этом менеджеру"
+        },
+        {
+          "en": "He jumped very high",
+          "ipa": "[hiː dʒʌmpt ˈveri haɪ]",
+          "ru": "Он прыгнул очень высоко"
+        },
+        {
+          "en": "I washed the dishes",
+          "ipa": "[aɪ wɒʃt ðə ˈdɪʃɪz]",
+          "ru": "Я помыл посуду"
+        },
+        {
+          "en": "It depended on different factors",
+          "ipa": "[ɪt dɪˈpendɪd ɒn ˈdɪfrənt ˈfæktəz]",
+          "ru": "Это зависело от разных факторов"
+        },
+        {
+          "en": "She washed the floor",
+          "ipa": "[ʃiː wɒʃt ðə flɔː]",
+          "ru": "Она помыла пол"
+        },
+        {
+          "en": "This business belonged to him",
+          "ipa": "[ðɪs ˈbɪznəs bɪˈlɒŋd tuː hɪm]",
+          "ru": "Этот бизнес принадлежал ему"
+        },
+        {
+          "en": "I really worried about it",
+          "ipa": "[aɪ ˈrɪəli ˈwʌrid əˈbaʊt ɪt]",
+          "ru": "Я действительно беспокоился об этом"
+        },
+        {
+          "en": "The soldiers destroyed that building completely",
+          "ipa": "[ðə ˈsəʊldʒəz dɪˈstrɔɪd ðæt ˈbɪldɪŋ kəmˈpliːtli]",
+          "ru": "Солдаты полностью разрушили то здание"
+        },
+        {
+          "en": "I finished this work ten minutes ago",
+          "ipa": "[aɪ ˈfɪnɪʃt ðɪs wɜːk ten ˈmɪnɪts əˈɡəʊ]",
+          "ru": "Я закончил эту работу десять минут назад"
+        },
+        {
+          "en": "They often laughed at it",
+          "ipa": "[ðeɪ ˈɒfn lɑːft æt ɪt]",
+          "ru": "Они часто смеялись над этим"
+        },
+        {
+          "en": "He kissed her",
+          "ipa": "[hiː kɪst hɜː]",
+          "ru": "Он поцеловал её"
+        },
+        {
+          "en": "This author published several articles",
+          "ipa": "[ðɪs ˈɔːθə ˈpʌblɪʃt ˈsevrəl ˈɑːtɪklz]",
+          "ru": "Этот автор опубликовал несколько статей"
+        },
+        {
+          "en": "She failed the exam",
+          "ipa": "[ʃiː feɪld ði ɪɡˈzæm]",
+          "ru": "Она провалила экзамен"
+        },
+        {
+          "en": "He failed this exam",
+          "ipa": "[hiː feɪld ðɪs ɪɡˈzæm]",
+          "ru": "Он провалил этот экзамен"
+        },
+        {
+          "en": "He failed the test",
+          "ipa": "[hiː feɪld ðə test]",
+          "ru": "Он провалил тест"
+        },
+        {
+          "en": "They controlled everything",
+          "ipa": "[ðeɪ kənˈtrəʊld ˈevrɪθɪŋ]",
+          "ru": "Они всё контролировали"
+        },
+        {
+          "en": "He invited me to this party",
+          "ipa": "[hiː ɪnˈvaɪtɪd miː tuː ðɪs ˈpɑːti]",
+          "ru": "Он пригласил меня на эту вечеринку"
+        },
+        {
+          "en": "I wished him good luck",
+          "ipa": "[aɪ wɪʃt hɪm ɡʊd lʌk]",
+          "ru": "Я пожелал ему удачи"
+        },
+        {
+          "en": "His words sounded really strange",
+          "ipa": "[hɪz wɜːdz ˈsaʊndɪd ˈrɪəli streɪndʒ]",
+          "ru": "Его слова звучали действительно странно"
+        },
+        {
+          "en": "They thought that this thing wasn't so important but it really mattered",
+          "ipa": "[ðeɪ θɔːt ðæt ðɪs θɪŋ ˈwɒznt səʊ ɪmˈpɔːtnt bʌt ɪt ˈrɪəli ˈmætəd]",
+          "ru": "Они думали, что эта вещь не так важна, но она действительно имела значение"
+        },
+        {
+          "en": "He recorded a new video",
+          "ipa": "[hiː rɪˈkɔːdɪd ə njuː ˈvɪdɪəʊ]",
+          "ru": "Он записал новое видео"
+        },
+        {
+          "en": "I studied almost every day",
+          "ipa": "[aɪ ˈstʌdid ˈɔːlməʊst ˈevri deɪ]",
+          "ru": "Я учился почти каждый день"
+        },
+        {
+          "en": "They often laughed at him",
+          "ipa": "[ðeɪ ˈɒfn lɑːft æt hɪm]",
+          "ru": "Они часто смеялись над ним"
+        },
+        {
+          "en": "I wished her all the best",
+          "ipa": "[aɪ wɪʃt hɜːr ɔːl ðə best]",
+          "ru": "Я пожелал ей всего наилучшего"
+        },
+        {
+          "en": "I visited this island last year",
+          "ipa": "[aɪ ˈvɪzɪtɪd ðɪs ˈaɪlənd lɑːst jɪə]",
+          "ru": "Я посетил этот остров в прошлом году"
+        },
+        {
+          "en": "She cooked a very tasty cake",
+          "ipa": "[ʃiː kʊkt ə ˈveri ˈteɪsti keɪk]",
+          "ru": "Она приготовила очень вкусный торт"
+        },
+        {
+          "en": "The success of this project depended on each of us",
+          "ipa": "[ðə səkˈses ɒv ðɪs ˈprɒdʒekt dɪˈpendɪd ɒn iːtʃ ɒv ʌs]",
+          "ru": "Успех этого проекта зависел от каждого из нас"
+        },
+        {
+          "en": "This result really motivated me",
+          "ipa": "[ðɪs rɪˈzʌlt ˈrɪəli ˈməʊtɪveɪtɪd miː]",
+          "ru": "Этот результат действительно мотивировал меня"
+        },
+        {
+          "en": "I invited her to my birthday",
+          "ipa": "[aɪ ɪnˈvaɪtɪd hɜː tuː maɪ ˈbɜːθdeɪ]",
+          "ru": "Я пригласил её на свой день рождения"
+        },
+        {
+          "en": "They destroyed this building completely",
+          "ipa": "[ðeɪ dɪˈstrɔɪd ðɪs ˈbɪldɪŋ kəmˈpliːtli]",
+          "ru": "Они полностью разрушили это здание"
+        },
+        {
+          "en": "She decided to complain about it to the manager",
+          "ipa": "[ʃiː dɪˈsaɪdɪd tuː kəmˈpleɪn əˈbaʊt ɪt tuː ðə ˈmænɪdʒə]",
+          "ru": "Она решила пожаловаться об этом менеджеру"
+        },
+        {
+          "en": "This writer published more than ten books",
+          "ipa": "[ðɪs ˈraɪtə ˈpʌblɪʃt mɔː ðæn ten bʊks]",
+          "ru": "Этот писатель опубликовал более десяти книг"
+        }
+      ]
+    }
+  ]
+}
