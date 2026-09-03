@@ -153,8 +153,7 @@ public class AuthService
         // Очищаємо екран
         Console.Clear();
 
-        // Заголовок
-        Console.WriteLine($"-- Register User --");
+        PrintFormHeader("РЕГИСТРАЦИЯ");
 
         // Запитуємо ім'я
 
@@ -162,26 +161,26 @@ public class AuthService
         bool isName = false;
         do
         {
-            Console.Write("Enter your Name: ".Color(StaticColors.White).Background(StaticColors.Blue));
-            name = Console.ReadLine().Trim();
+            Console.WriteLine("Enter your Name:".Color(StaticColors.Blue).Bold());
+            Console.WriteLine();
+            name = (Console.ReadLine() ?? string.Empty).Trim();
             isName = allUser.Any(u => u.Name.Equals(name, StringComparison.OrdinalIgnoreCase));
 
             if (isName)
-            {
-                Console.WriteLine($"{name} is already registered.".Color(StaticColors.White).Background(StaticColors.Red));
-            }
-            
+                PrintFormMessage($"{name} is already registered.", StaticColors.Red);
         } while (isName);
-        
+
+        Console.WriteLine();
 
         // Запитуємо пароль
-        Console.Write("Enter your Password: ");
+        Console.WriteLine("Enter your Password:".Color(StaticColors.Blue).Bold());
+        Console.WriteLine();
         string password = UserValidation.ReadPassword();
 
         // Перевірка: якщо ім'я або пароль порожні — реєстрацію не робимо
         if (string.IsNullOrWhiteSpace(name) || string.IsNullOrWhiteSpace(password))
         {
-            Console.WriteLine("Enter valid Name and Password");
+            PrintFormMessage("Enter valid Name and Password", StaticColors.Red);
             Console.ReadKey(); // чекаємо натискання клавіші, щоб учень встиг прочитати
             return null;        // повертаємо null — означає “неуспішно”
         }
@@ -201,7 +200,8 @@ public class AuthService
         await SaveUsersAsync(allUser);
 
         // Повідомлення про успіх
-        Console.WriteLine($"User {user.Name} created.");
+        PrintFormMessage($"User {user.Name} created.", StaticColors.Green);
+        Console.ReadKey();
 
         // Повертаємо створеного користувача
         return user;
@@ -212,54 +212,75 @@ public class AuthService
     {
         // Завантажуємо всіх користувачів
         List<User> allUser = await LoadUsersAsync();
-        
+
         // Очищаємо екран
         Console.Clear();
 
-        // Заголовок
-        Console.BackgroundColor = ConsoleColor.DarkMagenta;
-        Console.WriteLine(" --- Login ---");
-        Console.ResetColor();
-        Console.WriteLine();
-        
+        PrintFormHeader("ВХОД");
+
         // Вводимо ім'я
-        Console.Write("Enter your Name: ");
-        string name = Console.ReadLine().Trim();
+        Console.WriteLine("Enter your Name:".Color(StaticColors.Blue).Bold());
+        Console.WriteLine();
+        string name = (Console.ReadLine() ?? string.Empty).Trim();
+        Console.WriteLine();
 
         // Вводимо пароль
-        Console.Write("Enter your Password: ");
+        Console.WriteLine("Enter your Password:".Color(StaticColors.Blue).Bold());
+        Console.WriteLine();
         string password = UserValidation.ReadPassword();
 
-        // Шукаємо користувача по імені (перший, який підходить)
-        User? user = allUser.FirstOrDefault(u => u.Name.Equals(name));
-        
-        if (user != null)
-        {
-            Console.WriteLine($"{user.Name}: {user.Password}");
-            Console.ReadKey();
-        }
-        else
-        {
-            Console.WriteLine("User not found!");
-            Console.ReadKey();
-            return null; 
-        }
+        // Шукаємо користувача по імені (без урахування регістру, як і при реєстрації)
+        User? user = allUser.FirstOrDefault(u => u.Name.Equals(name, StringComparison.OrdinalIgnoreCase));
 
         // Якщо користувача не знайдено або пароль не співпав — логін невдалий
         if (user == null || user.Password != password)
         {
-            Console.WriteLine("Wrong password or name");
+            PrintFormMessage("Wrong password or name", StaticColors.Red);
             Console.ReadKey();
             return null;
         }
 
         // Якщо все добре — повідомляємо про успіх
-        Console.BackgroundColor = ConsoleColor.DarkGreen;
-        Console.WriteLine($"User {user.Name} successfully logged in.");
-        Console.ResetColor();
+        PrintFormMessage($"User {user.Name} successfully logged in.", StaticColors.Green);
         Console.ReadKey();
 
         // Повертаємо знайденого користувача
         return user;
+    }
+
+    private const int FormWidth = 78;
+
+    // заголовок формы логина/регистрации в едином стиле с остальным приложением
+    private static void PrintFormHeader(string title)
+    {
+        string top = "╔" + new string('═', FormWidth) + "╗";
+        string bottom = "╚" + new string('═', FormWidth) + "╝";
+
+        Console.WriteLine(top.Color(StaticColors.Blue).Background(StaticColors.White).Bold());
+        Console.WriteLine(("║" + CenteredText(title, FormWidth) + "║")
+            .Color(StaticColors.Green).Background(StaticColors.White).Bold());
+        Console.WriteLine(bottom.Color(StaticColors.Blue).Background(StaticColors.White).Bold());
+        Console.WriteLine();
+    }
+
+    // карточка сообщения формы (ошибка/успех) - в едином стиле с карточкой результата тренировки
+    private static void PrintFormMessage(string text, string color)
+    {
+        string top = "╔" + new string('═', FormWidth) + "╗";
+        string bottom = "╚" + new string('═', FormWidth) + "╝";
+
+        Console.WriteLine();
+        Console.WriteLine(top.Color(color).Background(StaticColors.White).Bold());
+        Console.WriteLine(("║" + CenteredText(text, FormWidth) + "║")
+            .Color(color).Background(StaticColors.White).Bold());
+        Console.WriteLine(bottom.Color(color).Background(StaticColors.White).Bold());
+    }
+
+    private static string CenteredText(string text, int width)
+    {
+        if (text.Length >= width) return text;
+        int spaces = width - text.Length;
+        int padLeft = spaces / 2 + text.Length;
+        return text.PadLeft(padLeft).PadRight(width);
     }
 }

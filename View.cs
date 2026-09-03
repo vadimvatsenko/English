@@ -187,10 +187,16 @@ public class View
         }
     }
 
+    private enum AnswerInputResult
+    {
+        Submitted,
+        ExitTraining,
+        RestartTraining
+    }
+
     public async Task QuestionsLogic(bool isEnToRu, string fileName, List<Sections> allQaList,
         Dictionary<int, string> levelsDict, User user)
     {
-        int count = 1;
         int allQaCount = allQaList.Where(x => x.Examples.Length > 0).Sum(x => x.Examples.Length);
 
         bool IsExistRating = user.RatingText.Exists(r => r.NameTheme == fileName);
@@ -202,124 +208,63 @@ public class View
             user.RatingText.Add(currentRating);
         }
 
-        currentRating.RatingClear();
+        // история введённых ответов (стрелки вверх/вниз) - переживает рестарт темы по F5
+        var answerHistory = new List<string>();
 
-        foreach (var d in allQaList)
+        // тренировку можно перезапустить (F5) - тогда весь цикл ниже стартует заново
+        while (true)
         {
-            foreach (var e in d.Examples)
-            {
-                int wrongAttemptsCount = 0;
-                bool isEqual = false;
+            currentRating.RatingClear();
 
-                while (!isEqual)
+            int count = 1;
+            bool exitRequested = false;
+            bool restartRequested = false;
+
+            foreach (var d in allQaList)
+            {
+                foreach (var e in d.Examples)
                 {
+                    int wrongAttemptsCount = 0;
+                    bool isEqual = false;
+
+                    while (!isEqual)
+                    {
                     Console.Clear();
 
-                    // --- шапка
-                    string upperLine = "╔════════════════════════════════════════════════════════════════════════════╗";
-                    Console.WriteLine(upperLine.Color(StaticColors.Blue).Background(StaticColors.White));
-                    string headerText =
-                        $"Theme {fileName}  [{currentRating.CorrectUnswers} / {currentRating.AllUnswers}]";
-                    string headerTextCentered = CenteredText(headerText, upperLine.Length - 2);
-                    
-                    Console.Write("║".Color(StaticColors.Blue).Background(StaticColors.White));
-                    Console.Write(headerTextCentered
-                            .Color(StaticColors.Green)
-                            .Background(StaticColors.White));
-                    Console.Write("║".Color(StaticColors.Blue).Background(StaticColors.White));
-                    Console.WriteLine();
-                    // ---
-                    Console.WriteLine(
-                        "╠════════════════════════════════════════════════════════════════════════════╣"
-                            .Color(StaticColors.Blue).Background(StaticColors.White));
-                    Console.Write("║".Color(StaticColors.Blue).Background(StaticColors.White));
-                    string centeredTryingText = CenteredText($"Tryes |{currentRating.Tries}|" + "---" +
-                                                             $"Last Played Date |{currentRating.Date}|", upperLine.Length - 2);
-                    Console.Write(centeredTryingText
-                        .Color(StaticColors.Green)
-                        .Background(StaticColors.White));
-                    Console.Write("║".Color(StaticColors.Blue).Background(StaticColors.White));
-                    Console.WriteLine();
-                    
-                    // ---
-                    
-                    Console.WriteLine(
-                        "╠════════════════════════════════════════════════════════════════════════════╣"
-                            .Color(StaticColors.Blue).Background(StaticColors.White));
-
-                    Console.Write("║".Color(StaticColors.Blue).Background(StaticColors.White));
-                    string centeredQaNumbers = CenteredText($"Current QA number |{count} / {allQaCount}|", upperLine.Length - 2); 
-                    Console.Write(centeredQaNumbers
-                        .Color(StaticColors.Blue).Background(StaticColors.White));
-                    Console.Write("║".Color(StaticColors.Blue).Background(StaticColors.White));
-                    Console.WriteLine();
-                    // ---
-                    Console.WriteLine(
-                        "╠════════════════════════════════════════════════════════════════════════════╣"
-                            .Color(StaticColors.Blue).Background(StaticColors.White));
-
-                    Console.WriteLine($"CORRECT [{currentRating.CorrectUnswers}]".Color(StaticColors.White).Background(StaticColors.Green) +
-                                      " " +
-                                      $"MISSTAKE [{currentRating.MissingUnswers}]".Color(StaticColors.White).Background(StaticColors.Red));
-
-                    Console.WriteLine(
-                        "╠════════════════════════════════════════════════════════════════════════════╣");
-                    Console.WriteLine(d.Title.Color(StaticColors.Magenta));
-                    Console.WriteLine(d.Rule.Color(StaticColors.Magenta));
-
-                    Console.WriteLine(
-                        "╠════════════════════════════════════════════════════════════════════════════╣");
+                    PrintQuestionHeader(fileName, d, currentRating, count, allQaCount);
 
                     string correctText = isEnToRu ? e.Ru : e.En;
                     string questionText = isEnToRu ? e.En : e.Ru;
 
+                    Console.WriteLine();
+                    foreach (string questionLine in WrapText(questionText, HeaderWidth))
+                        Console.WriteLine(questionLine.Color(StaticColors.Blue).Bold());
 
-                    Console.WriteLine(questionText.Color(StaticColors.Blue));
-
+                    Console.WriteLine();
                     Console.WriteLine("ENTER WORD:");
                     Console.WriteLine();
 
-                    string words = Console.ReadLine()?.Trim() ?? string.Empty;
+                    AnswerInputResult inputResult = ReadAnswerWithHotkeys(answerHistory, out string words);
+
+                    if (inputResult == AnswerInputResult.ExitTraining)
+                    {
+                        exitRequested = true;
+                        break;
+                    }
+
+                    if (inputResult == AnswerInputResult.RestartTraining)
+                    {
+                        restartRequested = true;
+                        break;
+                    }
 
                     isEqual = string.Equals(
                         words,
                         correctText,
                         StringComparison.OrdinalIgnoreCase);
 
-                    Console.WriteLine(
-                        "╠═════════════════════════════════════════════════════════════════════════════╣");
-
-                    
-                    int maxLength = Math.Max(words.Length, correctText.Length);
-                    
-                    words = words.PadRight(maxLength);
-                    correctText = correctText.PadRight(maxLength);
-
-                    for (int i = 0; i < maxLength; i++)
-                    {
-                        bool isExist = correctText[i].ToString().ToLower() == words[i].ToString().ToLower();
-                        if (isExist)
-                        {
-                            Console.Write(words[i].ToString().Color(StaticColors.White).Background(StaticColors.Green));
-                        }
-                        else
-                        {
-                            Console.Write(words[i].ToString().Color(StaticColors.White).Background(StaticColors.Red));
-                        }
-                    }
                     Console.WriteLine();
-                    
-                    Console.WriteLine(correctText.Color(StaticColors.Green));
-                    Console.WriteLine(e.Ipa.Color(StaticColors.Magenta) + " ");
-
-                    Console.WriteLine(
-                        "╠═════════════════════════════════════════════════════════════════════════════╣");
-
-                    Console.WriteLine(isEqual
-                        ? "╠═════════════════════════ ● CORRECT ═════════════════════════╣"
-                            .Color(StaticColors.White).Background(StaticColors.Green)
-                        : "╠═════════════════════════ ❌ MISSTAKE ═════════════════════════╣"
-                            .Color(StaticColors.White).Background(StaticColors.Red));
+                    PrintAnswerResult(words, correctText, e.Ipa, isEqual);
 
                     Console.ReadKey();
 
@@ -336,24 +281,346 @@ public class View
                     }
                 }
 
-                count++;
+                    if (exitRequested || restartRequested) break;
+
+                    count++;
+                }
+
+                if (exitRequested || restartRequested) break;
             }
+
+            // не пройденные до конца вопросы (при ESC/F5) засчитываем как проваленные,
+            // чтобы результат честно сохранялся в любом исходе тренировки
+            int answeredCount = currentRating.CorrectUnswers + currentRating.MissingUnswers;
+            int unfinishedCount = Math.Max(0, allQaCount - answeredCount);
+            for (int i = 0; i < unfinishedCount; i++)
+                currentRating.AddMissingUnswers();
+
+            currentRating.AddTries();
+            currentRating.SetAllUnswers(allQaCount);
+            currentRating.SetData();
+
+            Console.WriteLine("SAVE PROGRESS...");
+            await _authService.UpdateUsersAsync(user);
+
+            if (exitRequested)
+            {
+                PrintResultBox("ТРЕНИРОВКА ПРЕРВАНА", StaticColors.Red, currentRating);
+                Console.WriteLine();
+                Console.WriteLine("Нажмите любую клавишу для возврата к выбору уровня...".Color(StaticColors.White));
+                Console.ReadKey();
+                return;
+            }
+
+            if (restartRequested)
+            {
+                PrintResultBox("ТЕМА СБРОШЕНА - НАЧИНАЕМ ЗАНОВО", StaticColors.Yellow, currentRating);
+                await Task.Delay(900);
+                continue;
+            }
+
+            PrintResultBox("ТЕМА ЗАВЕРШЕНА", StaticColors.Green, currentRating);
+            Console.WriteLine();
+            Console.WriteLine("Нажмите любую клавишу для возврата в меню...".Color(StaticColors.White));
+            Console.ReadKey();
+            return;
+        }
+    }
+
+    // красивая карточка результата в стиле таблицы выбора уровней
+    private static void PrintResultBox(string title, string titleColor, Rating rating)
+    {
+        Console.Clear();
+
+        const int width = 70;
+        const string margin = "  ";
+        string top = margin + "╔" + new string('═', width) + "╗";
+        string sep = margin + "╠" + new string('═', width) + "╣";
+        string bottom = margin + "╚" + new string('═', width) + "╝";
+
+        float percentSuccess = rating.AllUnswers == 0
+            ? 0
+            : (float)rating.CorrectUnswers / rating.AllUnswers * 100f;
+        string percentColor = HexColorsLerp.LerpColorHex(StaticColors.Red, StaticColors.Green, percentSuccess);
+
+        void Row(string text, string color)
+        {
+            Console.WriteLine((margin + "║" + CenteredText(text, width) + "║")
+                .Color(color).Background(StaticColors.White).Bold());
         }
 
-        currentRating.AddTries();
-        currentRating.SetAllUnswers(allQaCount);
-        currentRating.SetData();
+        Console.WriteLine(top.Color(titleColor).Background(StaticColors.White).Bold());
+        Row(title, titleColor);
+        Console.WriteLine(sep.Color(titleColor).Background(StaticColors.White).Bold());
+        Row($"Тема: {rating.NameTheme}", StaticColors.Blue);
+        Row($"Попыток: {rating.Tries}", StaticColors.Blue);
+        PrintMixedRow(margin, width,
+            ($"Правильно: {rating.CorrectUnswers}", StaticColors.Green),
+            ("  ", StaticColors.Blue),
+            ($"Ошибок: {rating.MissingUnswers}", StaticColors.Red),
+            ($"  Всего: {rating.AllUnswers}", StaticColors.Blue));
+        Row($"Успех: {percentSuccess:000.00}%", percentColor);
+        Row($"Дата: {rating.Date:dd.MM.yyyy HH:mm:ss}", StaticColors.Blue);
+        Console.WriteLine(bottom.Color(titleColor).Background(StaticColors.White).Bold());
+    }
 
-        Console.WriteLine("SAVE PROGRESS...");
-        await _authService.UpdateUsersAsync(user);
+    // строка таблицы с несколькими сегментами разного цвета, но общим центрированием
+    private static void PrintMixedRow(string margin, int width, params (string text, string color)[] segments)
+    {
+        int totalLength = segments.Sum(s => s.text.Length);
+        int spaces = Math.Max(0, width - totalLength);
+        int padLeft = spaces / 2;
+        int padRight = spaces - padLeft;
 
-        Console.Clear();
-        Console.WriteLine("=== ТЕМА ЗАВЕРШЕНА ===".Color(StaticColors.Green));
-        Console.WriteLine($"Всего попыток: {currentRating.Tries}");
-        Console.WriteLine($"Правильных ответов: {currentRating.CorrectUnswers} из {currentRating.AllUnswers}");
-        Console.WriteLine("\nНажмите любую клавишу для возврата в меню...");
-        Console.ReadKey();
+        Console.Write((margin + "║").Color(StaticColors.Blue).Background(StaticColors.White));
+        Console.Write(new string(' ', padLeft).Background(StaticColors.White));
+        foreach (var (text, color) in segments)
+            Console.Write(text.Color(color).Background(StaticColors.White).Bold());
+        Console.Write(new string(' ', padRight).Background(StaticColors.White));
+        Console.WriteLine("║".Color(StaticColors.Blue).Background(StaticColors.White));
+    }
 
+    private const int HeaderWidth = 78;
+
+    // шапка вопроса в виде единой таблицы: тема -> название/правило темы ->
+    // попытки/дата -> текущий вопрос и счёт -> хоткеи
+    private static void PrintQuestionHeader(string fileName, Sections section, Rating rating, int count,
+        int allQaCount)
+    {
+        string top = "╔" + new string('═', HeaderWidth) + "╗";
+        string sep = "╠" + new string('═', HeaderWidth) + "╣";
+        string bottom = "╚" + new string('═', HeaderWidth) + "╝";
+
+        void Row(string text, string color)
+        {
+            Console.WriteLine(("║" + CenteredText(text, HeaderWidth) + "║")
+                .Color(color).Background(StaticColors.White).Bold());
+        }
+
+        void Sep() => Console.WriteLine(sep.Color(StaticColors.Blue).Background(StaticColors.White).Bold());
+
+        Console.WriteLine(top.Color(StaticColors.Blue).Background(StaticColors.White).Bold());
+        Row($"Тема: {fileName}", StaticColors.Green);
+        Sep();
+
+        foreach (string titleLine in WrapText(section.Title, HeaderWidth))
+            Row(titleLine, StaticColors.Magenta);
+        foreach (string ruleLine in WrapText(section.Rule, HeaderWidth))
+            Row(ruleLine, StaticColors.Magenta);
+        Sep();
+
+        Row($"Попыток: {rating.Tries}   Последний запуск: {rating.Date:dd.MM.yyyy HH:mm:ss}", StaticColors.Blue);
+        Sep();
+
+        PrintMixedRow(string.Empty, HeaderWidth,
+            ($"Вопрос {count} / {allQaCount}   ", StaticColors.Blue),
+            ($"Правильно: {rating.CorrectUnswers}", StaticColors.Green),
+            ("   ", StaticColors.Blue),
+            ($"Неправильно: {rating.MissingUnswers}", StaticColors.Red));
+        Sep();
+
+        Row("[ESC] - выйти из тренировки    [F5] - начать тему заново", StaticColors.Yellow);
+        Console.WriteLine(bottom.Color(StaticColors.Blue).Background(StaticColors.White).Bold());
+    }
+
+    // низ экрана вопроса: посимвольное сравнение ответа, правильный вариант, транскрипция и вердикт - тоже таблицей
+    private static void PrintAnswerResult(string userAnswer, string correctAnswer, string ipa, bool isCorrect)
+    {
+        string top = "╔" + new string('═', HeaderWidth) + "╗";
+        string sep = "╠" + new string('═', HeaderWidth) + "╣";
+        string bottom = "╚" + new string('═', HeaderWidth) + "╝";
+
+        void OpenRow() => Console.Write("║".Color(StaticColors.Blue).Background(StaticColors.White));
+
+        void CloseRow(int written)
+        {
+            int pad = Math.Max(0, HeaderWidth - written);
+            Console.Write(new string(' ', pad).Background(StaticColors.White));
+            Console.WriteLine("║".Color(StaticColors.Blue).Background(StaticColors.White));
+        }
+
+        void LeftRow(string label, string value, string valueColor)
+        {
+            OpenRow();
+            Console.Write(label.Color(StaticColors.Blue).Background(StaticColors.White).Bold());
+            int available = Math.Max(0, HeaderWidth - label.Length);
+            string clipped = value.Length > available ? value.Substring(0, available) : value;
+            Console.Write(clipped.Color(valueColor).Background(StaticColors.White));
+            CloseRow(label.Length + clipped.Length);
+        }
+
+        Console.WriteLine(top.Color(StaticColors.Blue).Background(StaticColors.White).Bold());
+
+        // подписи выравниваем до одной ширины, чтобы сами значения (ответ / верный ответ / транскрипция)
+        // начинались строго в одной колонке - так видно, в какой именно букве ошибка
+        string labelYourAnswer = " Ваш ответ:";
+        string labelCorrectAnswer = " Верный ответ:";
+        string labelTranscription = " Транскрипция:";
+        int labelWidth = new[] { labelYourAnswer.Length, labelCorrectAnswer.Length, labelTranscription.Length }
+            .Max() + 1;
+        labelYourAnswer = labelYourAnswer.PadRight(labelWidth);
+        labelCorrectAnswer = labelCorrectAnswer.PadRight(labelWidth);
+        labelTranscription = labelTranscription.PadRight(labelWidth);
+
+        // посимвольный дифф введённого ответа и правильного
+        OpenRow();
+        Console.Write(labelYourAnswer.Color(StaticColors.Blue).Background(StaticColors.White).Bold());
+
+        int maxLength = Math.Max(userAnswer.Length, correctAnswer.Length);
+        string paddedUser = userAnswer.PadRight(maxLength);
+        string paddedCorrect = correctAnswer.PadRight(maxLength);
+        int written = labelYourAnswer.Length;
+
+        for (int i = 0; i < maxLength && written < HeaderWidth; i++)
+        {
+            bool isMatch = char.ToLower(paddedCorrect[i]) == char.ToLower(paddedUser[i]);
+            Console.Write(paddedUser[i].ToString()
+                .Color(StaticColors.White).Background(isMatch ? StaticColors.Green : StaticColors.Red));
+            written++;
+        }
+        CloseRow(written);
+
+        LeftRow(labelCorrectAnswer, correctAnswer, StaticColors.Green);
+        LeftRow(labelTranscription, ipa, StaticColors.Magenta);
+
+        Console.WriteLine(sep.Color(StaticColors.Blue).Background(StaticColors.White).Bold());
+
+        // ASCII-символ вместо эмодзи "❌" - у эмодзи двойная визуальная ширина в терминале,
+        // из-за чего расчёт центрирования по .Length съезжал и рамка сдвигалась на 1 символ
+        string status = isCorrect ? "* CORRECT" : "X MISSTAKE";
+        Console.WriteLine(("║" + CenteredText(status, HeaderWidth) + "║")
+            .Color(StaticColors.White).Background(isCorrect ? StaticColors.Green : StaticColors.Red).Bold());
+
+        Console.WriteLine(bottom.Color(StaticColors.Blue).Background(StaticColors.White).Bold());
+    }
+
+    // разбивает длинную строку на строки, помещающиеся в рамку заданной ширины
+    private static IEnumerable<string> WrapText(string text, int maxWidth)
+    {
+        if (string.IsNullOrEmpty(text))
+        {
+            yield return string.Empty;
+            yield break;
+        }
+
+        var line = new System.Text.StringBuilder();
+
+        foreach (string word in text.Split(' '))
+        {
+            string remaining = word;
+
+            // само слово длиннее рамки - режем его по месту
+            while (remaining.Length > maxWidth)
+            {
+                if (line.Length > 0)
+                {
+                    yield return line.ToString();
+                    line.Clear();
+                }
+
+                yield return remaining.Substring(0, maxWidth);
+                remaining = remaining.Substring(maxWidth);
+            }
+
+            if (line.Length > 0 && line.Length + 1 + remaining.Length > maxWidth)
+            {
+                yield return line.ToString();
+                line.Clear();
+            }
+
+            if (line.Length > 0)
+                line.Append(' ');
+
+            line.Append(remaining);
+        }
+
+        if (line.Length > 0)
+            yield return line.ToString();
+    }
+
+    // построчный ввод ответа с поддержкой хоткеев выхода/рестарта тренировки
+    // и навигации по истории введённых ответов стрелками вверх/вниз
+    private static AnswerInputResult ReadAnswerWithHotkeys(List<string> history, out string words)
+    {
+        var buffer = new System.Text.StringBuilder();
+        int historyIndex = history.Count;
+
+        int inputLeft = Console.CursorLeft;
+        int inputTop = Console.CursorTop;
+
+        void Redraw()
+        {
+            Console.SetCursorPosition(inputLeft, inputTop);
+            Console.Write(new string(' ', Math.Max(0, Console.WindowWidth - inputLeft - 1)));
+            Console.SetCursorPosition(inputLeft, inputTop);
+            Console.Write(buffer.ToString());
+        }
+
+        while (true)
+        {
+            ConsoleKeyInfo keyInfo = Console.ReadKey(true);
+
+            if (keyInfo.Key == ConsoleKey.Escape)
+            {
+                words = string.Empty;
+                return AnswerInputResult.ExitTraining;
+            }
+
+            if (keyInfo.Key == ConsoleKey.F5)
+            {
+                words = string.Empty;
+                return AnswerInputResult.RestartTraining;
+            }
+
+            if (keyInfo.Key == ConsoleKey.Enter)
+            {
+                words = buffer.ToString().Trim();
+                if (!string.IsNullOrEmpty(words))
+                    history.Add(words);
+                return AnswerInputResult.Submitted;
+            }
+
+            if (keyInfo.Key == ConsoleKey.UpArrow)
+            {
+                if (history.Count > 0 && historyIndex > 0)
+                {
+                    historyIndex--;
+                    buffer.Clear();
+                    buffer.Append(history[historyIndex]);
+                    Redraw();
+                }
+                continue;
+            }
+
+            if (keyInfo.Key == ConsoleKey.DownArrow)
+            {
+                if (historyIndex < history.Count)
+                {
+                    historyIndex++;
+                    buffer.Clear();
+                    if (historyIndex < history.Count)
+                        buffer.Append(history[historyIndex]);
+                    Redraw();
+                }
+                continue;
+            }
+
+            if (keyInfo.Key == ConsoleKey.Backspace)
+            {
+                if (buffer.Length > 0)
+                {
+                    buffer.Length--;
+                    Console.Write("\b \b");
+                }
+                continue;
+            }
+
+            if (!char.IsControl(keyInfo.KeyChar))
+            {
+                buffer.Append(keyInfo.KeyChar);
+                Console.Write(keyInfo.KeyChar);
+            }
+        }
     }
 
 

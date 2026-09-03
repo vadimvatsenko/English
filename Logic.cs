@@ -41,15 +41,35 @@ public class Logic
     private async Task Exit(float delay = 100)
     {
         Console.Clear();
-        string points = "..........";
-        Console.Write($"Exit".Color(StaticColors.White).Background(StaticColors.Red));
-        foreach (var p in points)
+
+        const int width = 60;
+        string top = "  ╔" + new string('═', width) + "╗";
+        string bottom = "  ╚" + new string('═', width) + "╝";
+
+        Console.WriteLine(top.Color(StaticColors.Blue).Background(StaticColors.White).Bold());
+        Console.WriteLine(("  ║" + CenteredText("До встречи!", width) + "║")
+            .Color(StaticColors.Green).Background(StaticColors.White).Bold());
+        Console.WriteLine(("  ║" + CenteredText("Спасибо за тренировку", width) + "║")
+            .Color(StaticColors.Blue).Background(StaticColors.White).Bold());
+        Console.WriteLine(bottom.Color(StaticColors.Blue).Background(StaticColors.White).Bold());
+        Console.WriteLine();
+
+        Console.Write("  Завершение работы".Color(StaticColors.White).Background(StaticColors.Red).Bold());
+        for (int i = 0; i < 10; i++)
         {
-            Console.Write(p.ToString().Color(StaticColors.White).Background(StaticColors.Red));
+            Console.Write(".".Color(StaticColors.White).Background(StaticColors.Red).Bold());
             await Task.Delay(100);
         }
 
         Environment.Exit(0);
+    }
+
+    private static string CenteredText(string text, int width)
+    {
+        if (text.Length >= width) return text;
+        int spaces = width - text.Length;
+        int padLeft = spaces / 2 + text.Length;
+        return text.PadLeft(padLeft).PadRight(width);
     }
 
     // стартовое меню с регистрацией и логинизацией
@@ -172,16 +192,18 @@ public class Logic
         switch (option)
         {
             case 0:
-                Extensions(dataList, levelsDict, false, fileName);
+                await Extensions(dataList, levelsDict, false, fileName);
                 break;
             case 1:
-                Extensions(dataList, levelsDict, true, fileName);
+                await Extensions(dataList, levelsDict, true, fileName);
                 break;
             case 2:
                 break;
         }
 
-        Console.ReadKey();
+        // после тренировки (завершённой, прерванной или "back") возвращаемся к выбору уровня,
+        // а не проваливаемся обратно в Main, где программа завершится
+        await StartPractice(levelsDict);
     }
     
     // выбор уровня
@@ -242,7 +264,7 @@ public class Logic
         return filesOnThemeDict;
     }
 
-    private async void Extensions(Data? dataList, Dictionary<int, string> levelDict, bool isEnToRu,
+    private async Task Extensions(Data? dataList, Dictionary<int, string> levelDict, bool isEnToRu,
         string fileName)
     {
         if (dataList == null || dataList.Sections == null)
