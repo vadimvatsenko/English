@@ -14,7 +14,7 @@ public class View
     }
     
         // покраска и управление меню
-    public int ColorizeMenuInput(Dictionary<int, string> menu, string header)
+    public int ColorizeMenuInput(Dictionary<int, string> menu, string header, bool allowBack = false)
     {
         int counter = 0;
 
@@ -65,9 +65,20 @@ public class View
                 Console.WriteLine(new string(' ', Console.WindowWidth));
             }
 
+            if (allowBack)
+            {
+                Console.WriteLine("  [Backspace] - назад".PadRight(Console.WindowWidth - 1)
+                    .Color(StaticColors.Yellow).Bold());
+            }
+
             ConsoleKeyInfo keyInfo = Console.ReadKey(true);
 
-            if (keyInfo.Key == ConsoleKey.DownArrow)
+            if (allowBack && keyInfo.Key == ConsoleKey.Backspace)
+            {
+                Console.CursorVisible = true;
+                return -1;
+            }
+            else if (keyInfo.Key == ConsoleKey.DownArrow)
             {
                 counter++;
                 counter %= menu.Count;
@@ -155,17 +166,17 @@ public class View
                 Console.WriteLine($"║ Date: {data} ║".Background(backgroundColor).Color(foregroundColor).Bold());
             }
 
-            // Если список меньше maxVisible, заполняем пустоту
-            for (int i = menu.Count; i < maxVisible; i++)
-            {
-                Console.WriteLine(new string(' ', Console.WindowWidth));
-            }
-
             Console.WriteLine($"{horizontalBottom}".Background(StaticColors.White).Color(StaticColors.Blue).Bold());
+            Console.WriteLine("  [Backspace] - назад".PadRight(Console.WindowWidth - 1).Color(StaticColors.Yellow).Bold());
 
             ConsoleKeyInfo keyInfo = Console.ReadKey(true);
 
-            if (keyInfo.Key == ConsoleKey.DownArrow)
+            if (keyInfo.Key == ConsoleKey.Backspace)
+            {
+                Console.CursorVisible = true;
+                return -1;
+            }
+            else if (keyInfo.Key == ConsoleKey.DownArrow)
             {
                 counter++;
                 counter %= menu.Count;
@@ -228,6 +239,9 @@ public class View
             bool exitRequested = false;
             bool restartRequested = false;
 
+            // ошибки первого прохода - не повторяем их сразу, а копим и прогоняем в конце
+            var mistakes = new List<(Sections Section, Examples Example)>();
+
             foreach (var d in allQaList)
             {
                 foreach (var e in d.Examples)
@@ -235,59 +249,65 @@ public class View
                     int wrongAttemptsCount = 0;
                     bool isEqual = false;
 
+                    // нельзя перейти к следующему вопросу, пока не ответишь верно
                     while (!isEqual)
                     {
-                    Console.Clear();
+                        Console.Clear();
 
-                    PrintQuestionHeader(fileName, d, currentRating, count, allQaCount);
+                        PrintQuestionHeader(fileName, d, currentRating, count, allQaCount);
 
-                    string correctText = isEnToRu ? e.Ru : e.En;
-                    string questionText = isEnToRu ? e.En : e.Ru;
+                        string correctText = isEnToRu ? e.Ru : e.En;
+                        string questionText = isEnToRu ? e.En : e.Ru;
 
-                    Console.WriteLine();
-                    foreach (string questionLine in WrapText(questionText, HeaderWidth))
-                        Console.WriteLine(questionLine.Color(StaticColors.Blue).Bold());
+                        Console.WriteLine();
+                        foreach (string questionLine in WrapText(questionText, HeaderWidth))
+                            Console.WriteLine(questionLine.Color(StaticColors.Blue).Bold());
 
-                    Console.WriteLine();
-                    Console.WriteLine("ENTER WORD:");
-                    Console.WriteLine();
+                        Console.WriteLine();
+                        Console.WriteLine("ENTER WORD:");
+                        Console.WriteLine();
 
-                    AnswerInputResult inputResult = ReadAnswerWithHotkeys(answerHistory, out string words);
+                        AnswerInputResult inputResult = ReadAnswerWithHotkeys(answerHistory, out string words);
 
-                    if (inputResult == AnswerInputResult.ExitTraining)
-                    {
-                        exitRequested = true;
-                        break;
+                        if (inputResult == AnswerInputResult.ExitTraining)
+                        {
+                            exitRequested = true;
+                            break;
+                        }
+
+                        if (inputResult == AnswerInputResult.RestartTraining)
+                        {
+                            restartRequested = true;
+                            break;
+                        }
+
+                        isEqual = string.Equals(
+                            words,
+                            correctText,
+                            StringComparison.OrdinalIgnoreCase);
+
+                        Console.WriteLine();
+                        PrintAnswerResult(words, correctText, e.Ipa, isEqual);
+
+                        Console.ReadKey();
+
+                        if (isEqual)
+                        {
+                            if (wrongAttemptsCount == 0)
+                                currentRating.AddCorrectUnswers();
+                        }
+                        else
+                        {
+                            // засчитываем ошибку и копим вопрос на повтор в конце темы -
+                            // но здесь же его и переспрашиваем сразу, пока не ответят верно
+                            if (wrongAttemptsCount == 0)
+                            {
+                                currentRating.AddMissingUnswers();
+                                mistakes.Add((d, e));
+                            }
+                            wrongAttemptsCount++;
+                        }
                     }
-
-                    if (inputResult == AnswerInputResult.RestartTraining)
-                    {
-                        restartRequested = true;
-                        break;
-                    }
-
-                    isEqual = string.Equals(
-                        words,
-                        correctText,
-                        StringComparison.OrdinalIgnoreCase);
-
-                    Console.WriteLine();
-                    PrintAnswerResult(words, correctText, e.Ipa, isEqual);
-
-                    Console.ReadKey();
-
-                    if (isEqual)
-                    {
-                        if (wrongAttemptsCount == 0)
-                            currentRating.AddCorrectUnswers();
-                    }
-                    else
-                    {
-                        if (wrongAttemptsCount == 0)
-                            currentRating.AddMissingUnswers();
-                        wrongAttemptsCount++;
-                    }
-                }
 
                     if (exitRequested || restartRequested) break;
 
@@ -295,6 +315,65 @@ public class View
                 }
 
                 if (exitRequested || restartRequested) break;
+            }
+
+            // после основного прохода ещё раз показываем все вопросы, в которых была
+            // хоть одна ошибка, - тоже с блокировкой перехода дальше, пока не ответишь верно
+            if (!exitRequested && !restartRequested && mistakes.Count > 0)
+            {
+                int reviewCount = 1;
+                int reviewTotal = mistakes.Count;
+
+                foreach (var (section, example) in mistakes)
+                {
+                    bool isEqual = false;
+
+                    while (!isEqual)
+                    {
+                        Console.Clear();
+
+                        PrintReviewHeader(fileName, section, currentRating, reviewCount, reviewTotal);
+
+                        string correctText = isEnToRu ? example.Ru : example.En;
+                        string questionText = isEnToRu ? example.En : example.Ru;
+
+                        Console.WriteLine();
+                        foreach (string questionLine in WrapText(questionText, HeaderWidth))
+                            Console.WriteLine(questionLine.Color(StaticColors.Blue).Bold());
+
+                        Console.WriteLine();
+                        Console.WriteLine("ENTER WORD:");
+                        Console.WriteLine();
+
+                        AnswerInputResult inputResult = ReadAnswerWithHotkeys(answerHistory, out string words);
+
+                        if (inputResult == AnswerInputResult.ExitTraining)
+                        {
+                            exitRequested = true;
+                            break;
+                        }
+
+                        if (inputResult == AnswerInputResult.RestartTraining)
+                        {
+                            restartRequested = true;
+                            break;
+                        }
+
+                        isEqual = string.Equals(
+                            words,
+                            correctText,
+                            StringComparison.OrdinalIgnoreCase);
+
+                        Console.WriteLine();
+                        PrintAnswerResult(words, correctText, example.Ipa, isEqual);
+
+                        Console.ReadKey();
+                    }
+
+                    if (exitRequested || restartRequested) break;
+
+                    reviewCount++;
+                }
             }
 
             // не пройденные до конца вопросы (при ESC/F5) засчитываем как проваленные,
@@ -505,6 +584,39 @@ public class View
 
         Row("[ESC] - выйти из тренировки    [F5] - начать тему заново", StaticColors.Yellow);
         Console.WriteLine(bottom.Color(StaticColors.Blue).Background(StaticColors.White).Bold());
+    }
+
+    // шапка раунда повторения ошибок - показывается после основного прохода по темам,
+    // пока накопленные неверные ответы не закончатся
+    private static void PrintReviewHeader(string fileName, Sections section, Rating rating, int count, int total)
+    {
+        string top = "╔" + new string('═', HeaderWidth) + "╗";
+        string sep = "╠" + new string('═', HeaderWidth) + "╣";
+        string bottom = "╚" + new string('═', HeaderWidth) + "╝";
+
+        void Row(string text, string color)
+        {
+            Console.WriteLine(("║" + CenteredText(text, HeaderWidth) + "║")
+                .Color(color).Background(StaticColors.White).Bold());
+        }
+
+        void Sep() => Console.WriteLine(sep.Color(StaticColors.Yellow).Background(StaticColors.White).Bold());
+
+        Console.WriteLine(top.Color(StaticColors.Yellow).Background(StaticColors.White).Bold());
+        Row($"ПОВТОРЕНИЕ ОШИБОК: {fileName}", StaticColors.Red);
+        Sep();
+
+        foreach (string titleLine in WrapText(section.Title, HeaderWidth))
+            Row(titleLine, StaticColors.Magenta);
+        foreach (string ruleLine in WrapText(section.Rule, HeaderWidth))
+            Row(ruleLine, StaticColors.Magenta);
+        Sep();
+
+        Row($"Повтор ошибки: {count} / {total}", StaticColors.Blue);
+        Sep();
+
+        Row("[ESC] - выйти из тренировки    [F5] - начать тему заново", StaticColors.Yellow);
+        Console.WriteLine(bottom.Color(StaticColors.Yellow).Background(StaticColors.White).Bold());
     }
 
     // низ экрана вопроса: посимвольное сравнение ответа, правильный вариант, транскрипция и вердикт - тоже таблицей

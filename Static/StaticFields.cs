@@ -4,9 +4,6 @@ namespace English;
 
 public class StaticFields
 {
-    public static readonly string BACK_TO_USER_OPTION = "<== BACK TO USER OPTIONS";
-    public static readonly string BACK_TO_CHOOSE_LEVEL = "<== BACK TO CHOOSE LEVEL";
-    
     public static readonly string PathAllFiles = Path.GetFullPath(AppContext.BaseDirectory);
     
     public static readonly Dictionary<int, string> MainMenu = new Dictionary<int, string>()

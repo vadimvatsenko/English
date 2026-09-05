@@ -164,9 +164,9 @@ public class Logic
         Console.Clear();
         
         int themeNumber = _view.ColorizeMenuInput(filesOnThemeDict, _user, "ENTER THEME NUMBER: ");
-        
-        // чтобы вернутся на один пункт назад
-        if (filesOnThemeDict.Keys.Max() == themeNumber)
+
+        // Backspace - вернуться к выбору уровня
+        if (themeNumber == -1)
         {
             await StartPractice(levelsDict);
             return;
@@ -209,24 +209,16 @@ public class Logic
     // выбор уровня
     private async Task<string> EnterLevel(Dictionary<int, string> levelsDict)
     {
-        bool isContainceBackMenu = levelsDict.ContainsValue(StaticFields.BACK_TO_USER_OPTION);
-        
-        if (!isContainceBackMenu)
-        {
-            int lastKey = levelsDict.Keys.Max();
-            levelsDict.Add(lastKey + 1, StaticFields.BACK_TO_USER_OPTION);
-        }
-        
-        int numberLevel = _view.ColorizeMenuInput(levelsDict, $"{_user.Name}  ENTER LEVEL:");
+        int numberLevel = _view.ColorizeMenuInput(levelsDict, $"{_user.Name}  ENTER LEVEL:", allowBack: true);
 
-        if (levelsDict.Keys.Max()  == numberLevel)
+        // Backspace - вернуться в меню пользователя
+        if (numberLevel == -1)
         {
             await UserChoiceMenu(levelsDict);
             return null;
         }
-        
+
         string levelName = levelsDict[numberLevel];
-        bool isValidLevel = false;
 
         Console.WriteLine($"Current Level: {levelsDict[numberLevel]}");
         return levelName;
@@ -251,16 +243,7 @@ public class Logic
             
             numberTheme++;
         }
-        
-        bool isContainceBackToChooseLevel 
-            = filesOnThemeDict.ContainsValue(StaticFields.BACK_TO_CHOOSE_LEVEL);
-        
-        if (!isContainceBackToChooseLevel)
-        {
-            int lastKey = filesOnThemeDict.Keys.Max();
-            filesOnThemeDict.Add(lastKey + 1, StaticFields.BACK_TO_CHOOSE_LEVEL);
-        }
-        
+
         return filesOnThemeDict;
     }
 
