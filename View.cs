@@ -214,6 +214,14 @@ public class View
         // тренировку можно перезапустить (F5) - тогда весь цикл ниже стартует заново
         while (true)
         {
+            // снимок состояния до попытки - нужен, чтобы откатить прогресс,
+            // если пользователь на выходе/рестарте откажется его сохранять
+            int snapshotTries = currentRating.Tries;
+            int snapshotCorrect = currentRating.CorrectUnswers;
+            int snapshotMissing = currentRating.MissingUnswers;
+            int snapshotAll = currentRating.AllUnswers;
+            DateTime snapshotDate = currentRating.Date;
+
             currentRating.RatingClear();
 
             int count = 1;
@@ -300,8 +308,27 @@ public class View
             currentRating.SetAllUnswers(allQaCount);
             currentRating.SetData();
 
-            Console.WriteLine("SAVE PROGRESS...");
-            await _authService.UpdateUsersAsync(user);
+            // при досрочном выходе/рестарте (ESC/F5) спрашиваем, сохранять ли прогресс,
+            // а не сохраняем его молча
+            bool shouldSave = true;
+            if (exitRequested || restartRequested)
+            {
+                shouldSave = AskSaveConfirmation(exitRequested
+                    ? "Тренировка прервана"
+                    : "Тема будет начата заново");
+            }
+
+            if (shouldSave)
+            {
+                Console.WriteLine("SAVE PROGRESS...");
+                await _authService.UpdateUsersAsync(user);
+            }
+            else
+            {
+                // откатываем изменения этой попытки, чтобы они не осели в памяти без сохранения
+                currentRating.Restore(snapshotTries, snapshotCorrect, snapshotMissing, snapshotAll, snapshotDate);
+                Console.WriteLine("PROGRESS NOT SAVED...");
+            }
 
             if (exitRequested)
             {
@@ -321,9 +348,66 @@ public class View
 
             PrintResultBox("ТЕМА ЗАВЕРШЕНА", StaticColors.Green, currentRating);
             Console.WriteLine();
-            Console.WriteLine("Нажмите любую клавишу для возврата в меню...".Color(StaticColors.White));
-            Console.ReadKey();
+
+            if (AskRepeatConfirmation())
+                continue;
+
             return;
+        }
+    }
+
+    // запрос подтверждения сохранения прогресса при выходе (ESC) или рестарте (F5) тренировки
+    private static bool AskSaveConfirmation(string reasonText)
+    {
+        const int width = 70;
+        const string margin = "  ";
+        string top = margin + "╔" + new string('═', width) + "╗";
+        string bottom = margin + "╚" + new string('═', width) + "╝";
+
+        Console.WriteLine();
+        Console.WriteLine(top.Color(StaticColors.Yellow).Background(StaticColors.White).Bold());
+        Console.WriteLine((margin + "║" + CenteredText(reasonText, width) + "║")
+            .Color(StaticColors.Yellow).Background(StaticColors.White).Bold());
+        Console.WriteLine((margin + "║" + CenteredText("Сохранить прогресс? (Y/N)", width) + "║")
+            .Color(StaticColors.Blue).Background(StaticColors.White).Bold());
+        Console.WriteLine(bottom.Color(StaticColors.Yellow).Background(StaticColors.White).Bold());
+
+        while (true)
+        {
+            ConsoleKeyInfo keyInfo = Console.ReadKey(true);
+
+            if (keyInfo.Key == ConsoleKey.Y || keyInfo.Key == ConsoleKey.Enter)
+                return true;
+
+            if (keyInfo.Key == ConsoleKey.N || keyInfo.Key == ConsoleKey.Escape)
+                return false;
+        }
+    }
+
+    // запрос после успешного завершения темы: повторить тему или выйти в меню выбора уровня
+    private static bool AskRepeatConfirmation()
+    {
+        const int width = 70;
+        const string margin = "  ";
+        string top = margin + "╔" + new string('═', width) + "╗";
+        string bottom = margin + "╚" + new string('═', width) + "╝";
+
+        Console.WriteLine(top.Color(StaticColors.Green).Background(StaticColors.White).Bold());
+        Console.WriteLine((margin + "║" + CenteredText("Повторить тему? (Y/N)", width) + "║")
+            .Color(StaticColors.Blue).Background(StaticColors.White).Bold());
+        Console.WriteLine((margin + "║" + CenteredText("[Y] - повторить    [N] / [Enter] - выйти в меню", width) + "║")
+            .Color(StaticColors.Blue).Background(StaticColors.White).Bold());
+        Console.WriteLine(bottom.Color(StaticColors.Green).Background(StaticColors.White).Bold());
+
+        while (true)
+        {
+            ConsoleKeyInfo keyInfo = Console.ReadKey(true);
+
+            if (keyInfo.Key == ConsoleKey.Y)
+                return true;
+
+            if (keyInfo.Key == ConsoleKey.N || keyInfo.Key == ConsoleKey.Enter || keyInfo.Key == ConsoleKey.Escape)
+                return false;
         }
     }
 
@@ -543,17 +627,21 @@ public class View
     private static AnswerInputResult ReadAnswerWithHotkeys(List<string> history, out string words)
     {
         var buffer = new System.Text.StringBuilder();
+        int cursorPos = 0;
         int historyIndex = history.Count;
 
         int inputLeft = Console.CursorLeft;
         int inputTop = Console.CursorTop;
 
+        // перерисовывает весь буфер и ставит реальный курсор консоли на cursorPos -
+        // нужно, чтобы Left/Right/Home/End/Delete работали не только по хвосту строки
         void Redraw()
         {
             Console.SetCursorPosition(inputLeft, inputTop);
             Console.Write(new string(' ', Math.Max(0, Console.WindowWidth - inputLeft - 1)));
             Console.SetCursorPosition(inputLeft, inputTop);
             Console.Write(buffer.ToString());
+            Console.SetCursorPosition(inputLeft + cursorPos, inputTop);
         }
 
         while (true)
@@ -587,6 +675,7 @@ public class View
                     historyIndex--;
                     buffer.Clear();
                     buffer.Append(history[historyIndex]);
+                    cursorPos = buffer.Length;
                     Redraw();
                 }
                 continue;
@@ -600,25 +689,72 @@ public class View
                     buffer.Clear();
                     if (historyIndex < history.Count)
                         buffer.Append(history[historyIndex]);
+                    cursorPos = buffer.Length;
                     Redraw();
                 }
                 continue;
             }
 
+            if (keyInfo.Key == ConsoleKey.LeftArrow)
+            {
+                if (cursorPos > 0)
+                {
+                    cursorPos--;
+                    Console.SetCursorPosition(inputLeft + cursorPos, inputTop);
+                }
+                continue;
+            }
+
+            if (keyInfo.Key == ConsoleKey.RightArrow)
+            {
+                if (cursorPos < buffer.Length)
+                {
+                    cursorPos++;
+                    Console.SetCursorPosition(inputLeft + cursorPos, inputTop);
+                }
+                continue;
+            }
+
+            if (keyInfo.Key == ConsoleKey.Home)
+            {
+                cursorPos = 0;
+                Console.SetCursorPosition(inputLeft + cursorPos, inputTop);
+                continue;
+            }
+
+            if (keyInfo.Key == ConsoleKey.End)
+            {
+                cursorPos = buffer.Length;
+                Console.SetCursorPosition(inputLeft + cursorPos, inputTop);
+                continue;
+            }
+
             if (keyInfo.Key == ConsoleKey.Backspace)
             {
-                if (buffer.Length > 0)
+                if (cursorPos > 0)
                 {
-                    buffer.Length--;
-                    Console.Write("\b \b");
+                    buffer.Remove(cursorPos - 1, 1);
+                    cursorPos--;
+                    Redraw();
+                }
+                continue;
+            }
+
+            if (keyInfo.Key == ConsoleKey.Delete)
+            {
+                if (cursorPos < buffer.Length)
+                {
+                    buffer.Remove(cursorPos, 1);
+                    Redraw();
                 }
                 continue;
             }
 
             if (!char.IsControl(keyInfo.KeyChar))
             {
-                buffer.Append(keyInfo.KeyChar);
-                Console.Write(keyInfo.KeyChar);
+                buffer.Insert(cursorPos, keyInfo.KeyChar);
+                cursorPos++;
+                Redraw();
             }
         }
     }

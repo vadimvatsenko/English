@@ -30,10 +30,21 @@ public class Rating
     public void AddMissingUnswers() => MissingUnswers++;
 
     public void SetData() => Date = DateTime.Now;
-    
+
     public void RatingClear()
     {
         MissingUnswers = 0;
         CorrectUnswers = 0;
+    }
+
+    // откат к состоянию до текущей попытки - используется, когда пользователь
+    // отказался сохранять прогресс при выходе/рестарте тренировки
+    public void Restore(int tries, int correctUnswers, int missingUnswers, int allUnswers, DateTime date)
+    {
+        Tries = tries;
+        CorrectUnswers = correctUnswers;
+        MissingUnswers = missingUnswers;
+        AllUnswers = allUnswers;
+        Date = date;
     }
 }
