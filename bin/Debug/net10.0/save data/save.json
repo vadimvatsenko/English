@@ -33,7 +33,7 @@
         "NameTheme": "TEST",
         "Tries": 12,
         "CorrectUnswers": 1,
-        "MissingUnswers": 2,
+        "MissingUnswers": 0,
         "AllUnswers": 3,
         "Date": "2026-09-05T10:41:26.7022545+03:00"
       },
@@ -375,11 +375,11 @@
       },
       {
         "NameTheme": "A1_19_20_[ Past Simple Part_2_Practice ]",
-        "Tries": 3,
-        "CorrectUnswers": 29,
-        "MissingUnswers": 0,
+        "Tries": 4,
+        "CorrectUnswers": 35,
+        "MissingUnswers": 8,
         "AllUnswers": 43,
-        "Date": "2026-09-01T23:03:26.8220101+03:00"
+        "Date": "2026-09-06T08:16:35.3386944+03:00"
       },
       {
         "NameTheme": "A1_21_22_[ Past Simple Part_1_Words ]",
