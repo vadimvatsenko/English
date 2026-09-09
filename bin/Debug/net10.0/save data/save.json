@@ -279,11 +279,11 @@
       },
       {
         "NameTheme": "A1_09_10_[ DO DOES QA  ]",
-        "Tries": 5,
-        "CorrectUnswers": 0,
-        "MissingUnswers": 0,
+        "Tries": 6,
+        "CorrectUnswers": 29,
+        "MissingUnswers": 21,
         "AllUnswers": 50,
-        "Date": "2026-09-04T08:18:47.4559478+03:00"
+        "Date": "2026-09-09T09:47:01.5705018+03:00"
       },
       {
         "NameTheme": "A1_11_12_[ Everything Everyone All  ]",
@@ -377,7 +377,7 @@
         "NameTheme": "A1_19_20_[ Past Simple Part_2_Practice ]",
         "Tries": 4,
         "CorrectUnswers": 35,
-        "MissingUnswers": 8,
+        "MissingUnswers": 0,
         "AllUnswers": 43,
         "Date": "2026-09-06T08:16:35.3386944+03:00"
       },
@@ -391,11 +391,11 @@
       },
       {
         "NameTheme": "A1_21_22_[ Past Simple Part_2_Practice ]",
-        "Tries": 2,
+        "Tries": 3,
         "CorrectUnswers": 31,
         "MissingUnswers": 0,
         "AllUnswers": 37,
-        "Date": "2026-09-04T08:38:29.7491937+03:00"
+        "Date": "2026-09-07T09:06:45.1175961+03:00"
       }
     ]
   },
