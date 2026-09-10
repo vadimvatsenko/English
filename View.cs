@@ -286,15 +286,24 @@ public class View
                             correctText,
                             StringComparison.OrdinalIgnoreCase);
 
-                        Console.WriteLine();
-                        PrintAnswerResult(words, correctText, e.Ipa, isEqual);
+                        // отмена хода доступна только на первой ошибке по вопросу -
+                        // случайная опечатка не должна портить статистику
+                        bool canUndo = !isEqual && wrongAttemptsCount == 0;
 
-                        Console.ReadKey();
+                        Console.WriteLine();
+                        PrintAnswerResult(words, correctText, e.Ipa, isEqual, canUndo);
+
+                        bool undoRequested = WaitAfterAnswer(canUndo);
 
                         if (isEqual)
                         {
                             if (wrongAttemptsCount == 0)
                                 currentRating.AddCorrectUnswers();
+                        }
+                        else if (canUndo && undoRequested)
+                        {
+                            // отменяем ход - ошибка не засчитывается, вопрос переспрашивается заново
+                            continue;
                         }
                         else
                         {
@@ -619,8 +628,18 @@ public class View
         Console.WriteLine(bottom.Color(StaticColors.Yellow).Background(StaticColors.White).Bold());
     }
 
+    // ожидание клавиши после показа результата ответа; если ошибку ещё можно отменить
+    // (первая попытка на вопрос), Ctrl+Z отменяет её - ответ не засчитывается как ошибка,
+    // любая другая клавиша просто продолжает как раньше
+    private static bool WaitAfterAnswer(bool canUndo)
+    {
+        ConsoleKeyInfo keyInfo = Console.ReadKey(true);
+        return canUndo && keyInfo.Key == ConsoleKey.Z && keyInfo.Modifiers.HasFlag(ConsoleModifiers.Control);
+    }
+
     // низ экрана вопроса: посимвольное сравнение ответа, правильный вариант, транскрипция и вердикт - тоже таблицей
-    private static void PrintAnswerResult(string userAnswer, string correctAnswer, string ipa, bool isCorrect)
+    private static void PrintAnswerResult(string userAnswer, string correctAnswer, string ipa, bool isCorrect,
+        bool canUndo = false)
     {
         string top = "╔" + new string('═', HeaderWidth) + "╗";
         string sep = "╠" + new string('═', HeaderWidth) + "╣";
@@ -686,6 +705,13 @@ public class View
         string status = isCorrect ? "* CORRECT" : "X MISSTAKE";
         Console.WriteLine(("║" + CenteredText(status, HeaderWidth) + "║")
             .Color(StaticColors.White).Background(isCorrect ? StaticColors.Green : StaticColors.Red).Bold());
+
+        if (canUndo)
+        {
+            Console.WriteLine(sep.Color(StaticColors.Blue).Background(StaticColors.White).Bold());
+            Console.WriteLine(("║" + CenteredText("[Ctrl+Z] - отменить ход (опечатка, ошибка не засчитается)", HeaderWidth) + "║")
+                .Color(StaticColors.Yellow).Background(StaticColors.White).Bold());
+        }
 
         Console.WriteLine(bottom.Color(StaticColors.Blue).Background(StaticColors.White).Bold());
     }
