@@ -205,7 +205,7 @@ public class View
         RestartTraining
     }
 
-    public async Task QuestionsLogic(bool isEnToRu, string fileName, List<Sections> allQaList,
+    public async Task QuestionsLogic(bool isEnToRu, string levelName, string fileName, List<Sections> allQaList,
         Dictionary<int, string> levelsDict, User user)
     {
         int allQaCount = allQaList.Where(x => x.Examples.Length > 0).Sum(x => x.Examples.Length);
@@ -289,18 +289,22 @@ public class View
                         // отмена хода доступна только на первой ошибке по вопросу -
                         // случайная опечатка не должна портить статистику
                         bool canUndo = !isEqual && wrongAttemptsCount == 0;
+                        bool canAddToDictionary = !isEqual;
 
                         Console.WriteLine();
-                        PrintAnswerResult(words, correctText, e.Ipa, isEqual, canUndo);
+                        PrintAnswerResult(words, correctText, e.Ipa, isEqual, canUndo, canAddToDictionary);
 
-                        bool undoRequested = WaitAfterAnswer(canUndo);
+                        var followUp = WaitAfterAnswer(canUndo, canAddToDictionary);
+
+                        if (followUp.AddToDictionary)
+                            await AddToHardDictionaryAsync(user, levelName, fileName, e);
 
                         if (isEqual)
                         {
                             if (wrongAttemptsCount == 0)
                                 currentRating.AddCorrectUnswers();
                         }
-                        else if (canUndo && undoRequested)
+                        else if (canUndo && followUp.Undo)
                         {
                             // отменяем ход - ошибка не засчитывается, вопрос переспрашивается заново
                             continue;
@@ -373,10 +377,15 @@ public class View
                             correctText,
                             StringComparison.OrdinalIgnoreCase);
 
-                        Console.WriteLine();
-                        PrintAnswerResult(words, correctText, example.Ipa, isEqual);
+                        bool canAddToDictionary = !isEqual;
 
-                        Console.ReadKey();
+                        Console.WriteLine();
+                        PrintAnswerResult(words, correctText, example.Ipa, isEqual, false, canAddToDictionary);
+
+                        var followUp = WaitAfterAnswer(false, canAddToDictionary);
+
+                        if (followUp.AddToDictionary)
+                            await AddToHardDictionaryAsync(user, levelName, fileName, example);
                     }
 
                     if (exitRequested || restartRequested) break;
@@ -442,6 +451,150 @@ public class View
 
             return;
         }
+    }
+
+    // личный словарь трудных выражений: сначала уровень, потом тема (так же,
+    // как устроена сама практика) - и только потом список карточек с удалением (Delete)
+    public async Task ShowHardDictionary(User user)
+    {
+        while (true)
+        {
+            // подчищаем опустевшие после удаления темы/уровни, чтобы они не висели в меню
+            user.HardDictionary.RemoveAll(l => l.Themes.Count == 0);
+
+            if (user.HardDictionary.Count == 0)
+            {
+                PrintEmptyDictionaryMessage("Словарь трудных выражений пуст");
+                return;
+            }
+
+            Dictionary<int, string> levelMenu = new Dictionary<int, string>();
+            for (int i = 0; i < user.HardDictionary.Count; i++)
+            {
+                var level = user.HardDictionary[i];
+                int count = level.Themes.Sum(t => t.Expressions.Count);
+                levelMenu[i] = $"{level.LevelName} ({count})";
+            }
+
+            Console.Clear();
+            int levelIndex = ColorizeMenuInput(levelMenu, $"{user.Name} СЛОВАРЬ - ВЫБЕРИТЕ УРОВЕНЬ", allowBack: true);
+
+            if (levelIndex == -1) return;
+
+            await ShowHardDictionaryThemes(user, user.HardDictionary[levelIndex]);
+        }
+    }
+
+    // список тем внутри выбранного уровня - тоже с количеством карточек в каждой
+    private async Task ShowHardDictionaryThemes(User user, HardLevel level)
+    {
+        while (true)
+        {
+            level.Themes.RemoveAll(t => t.Expressions.Count == 0);
+            if (level.Themes.Count == 0) return;
+
+            Dictionary<int, string> themeMenu = new Dictionary<int, string>();
+            for (int i = 0; i < level.Themes.Count; i++)
+                themeMenu[i] = $"{level.Themes[i].ThemeName} ({level.Themes[i].Expressions.Count})";
+
+            Console.Clear();
+            int themeIndex = ColorizeMenuInput(themeMenu, $"{level.LevelName} - ВЫБЕРИТЕ ТЕМУ", allowBack: true);
+
+            if (themeIndex == -1) return;
+
+            await ShowHardDictionaryExpressions(user, level.Themes[themeIndex]);
+        }
+    }
+
+    // карточки трудных выражений конкретной темы: просмотр и удаление (Delete)
+    private async Task ShowHardDictionaryExpressions(User user, HardTheme theme)
+    {
+        int counter = 0;
+
+        while (true)
+        {
+            if (theme.Expressions.Count == 0) return;
+
+            Console.SetCursorPosition(0, 0);
+
+            Console.Write($"{theme.ThemeName}".Background(StaticColors.Blue).Color(StaticColors.White).Bold());
+            Console.WriteLine(new string(' ', Console.WindowWidth));
+
+            string horizontalTop = "  ╔════╦══════════════════════════════╦══════════════════════════════════╗";
+            string horizontalBottom = "  ╚════╩══════════════════════════════╩══════════════════════════════════╝";
+            Console.WriteLine(horizontalTop.Background(StaticColors.White).Color(StaticColors.Blue).Bold());
+
+            for (int i = 0; i < theme.Expressions.Count; i++)
+            {
+                var item = theme.Expressions[i];
+                bool isActive = i == counter;
+                string arrow = isActive ? ">" : " ";
+                string backgroundColor = isActive ? StaticColors.Blue : StaticColors.White;
+                string foregroundColor = isActive ? StaticColors.White : StaticColors.Blue;
+
+                string en = LeftText(item.En, 30);
+                string ru = LeftText($"{item.Ru}  [{item.Ipa}]", 34);
+
+                Console.WriteLine($"{arrow} ║ {i:00} ║ {en}║ {ru}║".Background(backgroundColor)
+                    .Color(foregroundColor).Bold());
+            }
+
+            Console.WriteLine(horizontalBottom.Background(StaticColors.White).Color(StaticColors.Blue).Bold());
+            Console.WriteLine("  [Delete] - удалить   [Backspace] - назад".PadRight(Console.WindowWidth - 1)
+                .Color(StaticColors.Yellow).Bold());
+
+            ConsoleKeyInfo keyInfo = Console.ReadKey(true);
+
+            if (keyInfo.Key == ConsoleKey.Backspace || keyInfo.Key == ConsoleKey.Escape)
+            {
+                Console.CursorVisible = true;
+                return;
+            }
+            else if (keyInfo.Key == ConsoleKey.DownArrow)
+            {
+                counter++;
+                counter %= theme.Expressions.Count;
+            }
+            else if (keyInfo.Key == ConsoleKey.UpArrow)
+            {
+                counter--;
+                if (counter < 0)
+                    counter = theme.Expressions.Count - 1;
+            }
+            else if (keyInfo.Key == ConsoleKey.Delete)
+            {
+                theme.Expressions.RemoveAt(counter);
+                await _authService.UpdateUsersAsync(user);
+
+                if (theme.Expressions.Count == 0)
+                {
+                    Console.Clear();
+                    return;
+                }
+
+                if (counter >= theme.Expressions.Count)
+                    counter = theme.Expressions.Count - 1;
+
+                Console.Clear();
+            }
+        }
+    }
+
+    private static void PrintEmptyDictionaryMessage(string text)
+    {
+        const int width = 70;
+        const string margin = "  ";
+        string top = margin + "╔" + new string('═', width) + "╗";
+        string bottom = margin + "╚" + new string('═', width) + "╝";
+
+        Console.Clear();
+        Console.WriteLine(top.Color(StaticColors.Yellow).Background(StaticColors.White).Bold());
+        Console.WriteLine((margin + "║" + CenteredText(text, width) + "║")
+            .Color(StaticColors.Blue).Background(StaticColors.White).Bold());
+        Console.WriteLine(bottom.Color(StaticColors.Yellow).Background(StaticColors.White).Bold());
+        Console.WriteLine();
+        Console.WriteLine("Нажмите любую клавишу, чтобы вернуться...".Color(StaticColors.White));
+        Console.ReadKey(true);
     }
 
     // запрос подтверждения сохранения прогресса при выходе (ESC) или рестарте (F5) тренировки
@@ -628,18 +781,50 @@ public class View
         Console.WriteLine(bottom.Color(StaticColors.Yellow).Background(StaticColors.White).Bold());
     }
 
-    // ожидание клавиши после показа результата ответа; если ошибку ещё можно отменить
-    // (первая попытка на вопрос), Ctrl+Z отменяет её - ответ не засчитывается как ошибка,
-    // любая другая клавиша просто продолжает как раньше
-    private static bool WaitAfterAnswer(bool canUndo)
+    // ожидание клавиши после показа результата ответа: [Z] отменяет ошибку (если это была
+    // первая ошибка по вопросу - опечатка не должна портить статистику), [R] добавляет
+    // текущее выражение в личный словарь трудных выражений, любая другая клавиша просто продолжает
+    private static (bool Undo, bool AddToDictionary) WaitAfterAnswer(bool canUndo, bool canAddToDictionary)
     {
         ConsoleKeyInfo keyInfo = Console.ReadKey(true);
-        return canUndo && keyInfo.Key == ConsoleKey.Z && keyInfo.Modifiers.HasFlag(ConsoleModifiers.Control);
+
+        bool undo = canUndo && keyInfo.Key == ConsoleKey.Z;
+        bool add = canAddToDictionary && keyInfo.Key == ConsoleKey.R;
+
+        return (undo, add);
+    }
+
+    // добавляет выражение, на котором ошибся пользователь, в его личный словарь трудных
+    // выражений (User.HardDictionary), сгруппированный по уровню и теме - без дублей, с сохранением на диск
+    private async Task AddToHardDictionaryAsync(User user, string levelName, string themeName, Examples example)
+    {
+        HardLevel? level = user.HardDictionary.FirstOrDefault(l => l.LevelName == levelName);
+        if (level == null)
+        {
+            level = new HardLevel { LevelName = levelName };
+            user.HardDictionary.Add(level);
+        }
+
+        HardTheme? theme = level.Themes.FirstOrDefault(t => t.ThemeName == themeName);
+        if (theme == null)
+        {
+            theme = new HardTheme { ThemeName = themeName };
+            level.Themes.Add(theme);
+        }
+
+        bool alreadyExists = theme.Expressions.Any(h =>
+            h.En.Equals(example.En, StringComparison.OrdinalIgnoreCase) &&
+            h.Ru.Equals(example.Ru, StringComparison.OrdinalIgnoreCase));
+
+        if (alreadyExists) return;
+
+        theme.Expressions.Add(new Examples { En = example.En, Ru = example.Ru, Ipa = example.Ipa });
+        await _authService.UpdateUsersAsync(user);
     }
 
     // низ экрана вопроса: посимвольное сравнение ответа, правильный вариант, транскрипция и вердикт - тоже таблицей
     private static void PrintAnswerResult(string userAnswer, string correctAnswer, string ipa, bool isCorrect,
-        bool canUndo = false)
+        bool canUndo = false, bool canAddToDictionary = false)
     {
         string top = "╔" + new string('═', HeaderWidth) + "╗";
         string sep = "╠" + new string('═', HeaderWidth) + "╣";
@@ -706,11 +891,17 @@ public class View
         Console.WriteLine(("║" + CenteredText(status, HeaderWidth) + "║")
             .Color(StaticColors.White).Background(isCorrect ? StaticColors.Green : StaticColors.Red).Bold());
 
-        if (canUndo)
+        if (canUndo || canAddToDictionary)
         {
             Console.WriteLine(sep.Color(StaticColors.Blue).Background(StaticColors.White).Bold());
-            Console.WriteLine(("║" + CenteredText("[Ctrl+Z] - отменить ход (опечатка, ошибка не засчитается)", HeaderWidth) + "║")
-                .Color(StaticColors.Yellow).Background(StaticColors.White).Bold());
+
+            if (canUndo)
+                Console.WriteLine(("║" + CenteredText("[Z] - отменить ход (опечатка, ошибка не засчитается)", HeaderWidth) + "║")
+                    .Color(StaticColors.Yellow).Background(StaticColors.White).Bold());
+
+            if (canAddToDictionary)
+                Console.WriteLine(("║" + CenteredText("[R] - добавить в личный словарь трудных выражений", HeaderWidth) + "║")
+                    .Color(StaticColors.Yellow).Background(StaticColors.White).Bold());
         }
 
         Console.WriteLine(bottom.Color(StaticColors.Blue).Background(StaticColors.White).Bold());

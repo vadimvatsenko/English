@@ -135,23 +135,62 @@ public class Logic
                 await StartPractice(levelsDict);
                 break;
             case 1:
-                // автологин
-                StaticFields.ChangeAutoLoginEnabled(true);
-                await _authService.SaveSessionAsync(_user.Id);
-                await UserChoiceMenu(levelsDict);
+                await PersonalCabinet(levelsDict);
                 break;
             case 2:
-                StaticFields.ChangeAutoLoginEnabled(false);
-                await _authService.LogoutAsync();
-                await StartProgram();
-                break;
-            case 3:
                 await Exit();
                 break;
             default:
                 Console.WriteLine("Wrong menu option!");
                 break;
         }
+    }
+
+    // personal cabinet: смена имени/пароля, словарь трудных выражений, автологин и логаут
+    private async Task PersonalCabinet(Dictionary<int, string> levelsDict)
+    {
+        Console.Clear();
+
+        // подпись автологина синхронизируем с реальным состоянием перед показом меню -
+        // иначе после автовхода в прошлый раз метка могла бы показывать устаревшее значение
+        StaticFields.ChangeAutoLoginEnabled(_authService.IsAutologin);
+
+        string messageHeader = $"{_user.Name} PERSONAL CABINET";
+        int option = _view.ColorizeMenuInput(StaticFields.PersonalCabinetMenu, messageHeader, allowBack: true);
+
+        switch (option)
+        {
+            case 0:
+                await _authService.ChangeNameAsync(_user);
+                break;
+            case 1:
+                await _authService.ChangePasswordAsync(_user);
+                break;
+            case 2:
+                await _view.ShowHardDictionary(_user);
+                break;
+            case 3:
+                // переключаем автологин туда-сюда в зависимости от текущего состояния,
+                // а не всегда включаем - раньше это было причиной "не работает"
+                if (_authService.IsAutologin)
+                    await _authService.LogoutAsync(); // снимает автологин, но не выходит из аккаунта в этом запуске
+                else
+                    await _authService.SaveSessionAsync(_user.Id);
+
+                StaticFields.ChangeAutoLoginEnabled(_authService.IsAutologin);
+                break;
+            case 4:
+                StaticFields.ChangeAutoLoginEnabled(false);
+                await _authService.LogoutAsync();
+                await StartProgram();
+                return;
+            case -1: // Backspace - то же самое, что и пункт "<== Назад"
+            case 5:
+                await UserChoiceMenu(levelsDict);
+                return;
+        }
+
+        await PersonalCabinet(levelsDict);
     }
 
     // практика, тут нужно выбрать уровень
@@ -187,15 +226,15 @@ public class Logic
 
         Console.Clear();
         string message = "Enter your option:";
-        int option = _view.ColorizeMenuInput(StaticFields.EnglishMenu, message);
+        int option = _view.ColorizeMenuInput(StaticFields.EnglishMenu, message, allowBack: true);
 
         switch (option)
         {
             case 0:
-                await Extensions(dataList, levelsDict, false, fileName);
+                await Extensions(dataList, levelsDict, false, levelName, fileName);
                 break;
             case 1:
-                await Extensions(dataList, levelsDict, true, fileName);
+                await Extensions(dataList, levelsDict, true, levelName, fileName);
                 break;
             case 2:
                 break;
@@ -248,7 +287,7 @@ public class Logic
     }
 
     private async Task Extensions(Data? dataList, Dictionary<int, string> levelDict, bool isEnToRu,
-        string fileName)
+        string levelName, string fileName)
     {
         if (dataList == null || dataList.Sections == null)
         {
@@ -256,10 +295,10 @@ public class Logic
             await StartPractice(levelDict);
             return;
         }
-        
+
         var allQaList = dataList.Sections;
-        
-        await _view.QuestionsLogic(isEnToRu, fileName, allQaList, levelDict, _user);
+
+        await _view.QuestionsLogic(isEnToRu, levelName, fileName, allQaList, levelDict, _user);
     }
 
     

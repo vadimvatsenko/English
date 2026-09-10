@@ -248,6 +248,78 @@ public class AuthService
         return user;
     }
 
+    // Зміна імені користувача (личный кабинет)
+    public async Task<bool> ChangeNameAsync(User user)
+    {
+        List<User> allUser = await LoadUsersAsync();
+
+        Console.Clear();
+        PrintFormHeader("ИЗМЕНЕНИЕ ИМЕНИ");
+
+        Console.WriteLine($"Текущее имя: {user.Name}".Color(StaticColors.Blue).Bold());
+        Console.WriteLine();
+        Console.WriteLine("Enter new Name (Enter - отмена):".Color(StaticColors.Blue).Bold());
+        Console.WriteLine();
+        string newName = (Console.ReadLine() ?? string.Empty).Trim();
+
+        if (string.IsNullOrWhiteSpace(newName))
+        {
+            return false;
+        }
+
+        bool isTaken = allUser.Any(u => !u.Id.Equals(user.Id, StringComparison.OrdinalIgnoreCase)
+                                         && u.Name.Equals(newName, StringComparison.OrdinalIgnoreCase));
+
+        if (isTaken)
+        {
+            PrintFormMessage($"{newName} уже занято.", StaticColors.Red);
+            Console.ReadKey();
+            return false;
+        }
+
+        user.Name = newName;
+        await UpdateUsersAsync(user);
+
+        PrintFormMessage($"Имя изменено на {newName}.", StaticColors.Green);
+        Console.ReadKey();
+        return true;
+    }
+
+    // Зміна пароля користувача (личный кабинет)
+    public async Task<bool> ChangePasswordAsync(User user)
+    {
+        Console.Clear();
+        PrintFormHeader("ИЗМЕНЕНИЕ ПАРОЛЯ");
+
+        Console.WriteLine("Enter current Password:".Color(StaticColors.Blue).Bold());
+        Console.WriteLine();
+        string currentPassword = UserValidation.ReadPassword();
+
+        if (currentPassword != user.Password)
+        {
+            PrintFormMessage("Неверный текущий пароль.", StaticColors.Red);
+            Console.ReadKey();
+            return false;
+        }
+
+        Console.WriteLine();
+        Console.WriteLine("Enter new Password (Enter - отмена):".Color(StaticColors.Blue).Bold());
+        Console.WriteLine();
+        string newPassword = UserValidation.ReadPassword();
+
+        if (string.IsNullOrWhiteSpace(newPassword))
+        {
+            return false;
+        }
+
+        user.Password = newPassword;
+        await UpdateUsersAsync(user);
+
+        PrintFormMessage("Пароль успешно изменён.", StaticColors.Green);
+        Console.ReadKey();
+        return true;
+    }
+
     private const int FormWidth = 78;
 
     // заголовок формы логина/регистрации в едином стиле с остальным приложением

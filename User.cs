@@ -14,8 +14,9 @@ public class User
     [JsonPropertyName("password")]
     public string Password {get; set;}
    
-    [JsonPropertyName("hardQuestion")]
-    public List<Examples> HardQuestion { get; set; } = new List<Examples>();
+    // личный словарь трудных выражений: уровень -> тема -> выражения
+    [JsonPropertyName("hardDictionary")]
+    public List<HardLevel> HardDictionary { get; set; } = new List<HardLevel>();
 
     [JsonPropertyName("ratingText")] 
     public List<Rating> RatingText { get; set; } =  new List<Rating>();
