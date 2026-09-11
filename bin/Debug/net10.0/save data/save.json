@@ -3,7 +3,7 @@
     "id": "3Iil2N4N8v",
     "name": "Vadym",
     "password": "qwerty",
-    "hardQuestion": [],
+    "hardDictionary": [],
     "ratingText": [
       {
         "NameTheme": "A0_27_28_[ WHEN WHY HOW WILL ]",
@@ -279,11 +279,11 @@
       },
       {
         "NameTheme": "A1_09_10_[ DO DOES QA  ]",
-        "Tries": 6,
-        "CorrectUnswers": 29,
-        "MissingUnswers": 21,
+        "Tries": 7,
+        "CorrectUnswers": 38,
+        "MissingUnswers": 12,
         "AllUnswers": 50,
-        "Date": "2026-09-09T09:47:01.5705018+03:00"
+        "Date": "2026-09-11T08:41:00.2204386+03:00"
       },
       {
         "NameTheme": "A1_11_12_[ Everything Everyone All  ]",
@@ -403,14 +403,14 @@
     "id": "vdjzEfk7tm",
     "name": "guff",
     "password": "qwerty",
-    "hardQuestion": [],
+    "hardDictionary": [],
     "ratingText": []
   },
   {
     "id": "0uNd2pVvt6",
     "name": "tobi",
     "password": "qwerty",
-    "hardQuestion": [],
+    "hardDictionary": [],
     "ratingText": []
   }
 ]
