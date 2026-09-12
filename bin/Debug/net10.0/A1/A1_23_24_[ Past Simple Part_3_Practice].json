@@ -1,0 +1,135 @@
+{
+  "sections": [
+    {
+      "title": "Past Simple: Irregular Verbs in Context",
+      "rule": "Утвердительные и сложносочинённые предложения в Past Simple с использованием неправильных глаголов и устойчивых выражений.",
+      "examples": [
+        {
+          "en": "They lent him a very big sum of money",
+          "ipa": "[ðeɪ lent hɪm ə ˈveri bɪɡ sʌm ɒv ˈmʌni]",
+          "ru": "Они одолжили ему очень большую сумму денег"
+        },
+        {
+          "en": "The bell rang five minutes ago",
+          "ipa": "[ðə bel ræŋ faɪv ˈmɪnɪts əˈɡəʊ]",
+          "ru": "Звонок прозвенел пять минут назад"
+        },
+        {
+          "en": "They left the city",
+          "ipa": "[ðeɪ left ðə ˈsɪti]",
+          "ru": "Они покинули город"
+        },
+        {
+          "en": "She forgave him in the end",
+          "ipa": "[ʃiː fəˈɡeɪv hɪm ɪn ði end]",
+          "ru": "В конце концов она простила его"
+        },
+        {
+          "en": "I rode a bike yesterday",
+          "ipa": "[aɪ rəʊd ə baɪk ˈjestədeɪ]",
+          "ru": "Вчера я катался на велосипеде"
+        },
+        {
+          "en": "Someone stole her bag",
+          "ipa": "[ˈsʌmwʌn stəʊl hɜː bæɡ]",
+          "ru": "Кто-то украл её сумку"
+        },
+        {
+          "en": "They sent me this notification",
+          "ipa": "[ðeɪ sent miː ðɪs ˌnəʊtɪfɪˈkeɪʃn]",
+          "ru": "Они отправили мне это уведомление"
+        },
+        {
+          "en": "The lesson began half an hour ago",
+          "ipa": "[ðə ˈlesn bɪˈɡæn hɑːf ən ˈaʊər əˈɡəʊ]",
+          "ru": "Урок начался полчаса назад"
+        },
+        {
+          "en": "I spoke English when I had an opportunity because I wanted more practice",
+          "ipa": "[aɪ spəʊk ˈɪŋɡlɪʃ wen aɪ hæd ən ˌɒpəˈtjuːnəti bɪˈkɒz aɪ ˈwɒntɪd mɔː ˈpræktɪs]",
+          "ru": "Я говорил по-английски, когда у меня была возможность, потому что я хотел больше практики"
+        },
+        {
+          "en": "I found a better job",
+          "ipa": "[aɪ faʊnd ə ˈbetə dʒɒb]",
+          "ru": "Я нашёл работу получше"
+        },
+        {
+          "en": "I got a very strange message from her",
+          "ipa": "[aɪ ɡɒt ə ˈveri streɪndʒ ˈmesɪdʒ frɒm hɜː]",
+          "ru": "Я получил от неё очень странное сообщение"
+        },
+        {
+          "en": "He fell and hurt his knee",
+          "ipa": "[hiː fel ænd hɜːt hɪz niː]",
+          "ru": "Он упал и ушиб колено"
+        },
+        {
+          "en": "I left home very early",
+          "ipa": "[aɪ left həʊm ˈveri ˈɜːli]",
+          "ru": "Я ушёл из дома очень рано"
+        },
+        {
+          "en": "I understood everything immediately",
+          "ipa": "[aɪ ˌʌndəˈstʊd ˈevrɪθɪŋ ɪˈmiːdiətli]",
+          "ru": "Я всё понял сразу"
+        },
+        {
+          "en": "They fought for their rights, freedom and independence",
+          "ipa": "[ðeɪ fɔːt fɔː ðeə raɪts ˈfriːdəm ænd ˌɪndɪˈpendəns]",
+          "ru": "Они боролись за свои права, свободу и независимость"
+        },
+        {
+          "en": "I drank a cup of coffee",
+          "ipa": "[aɪ dræŋk ə kʌp ɒv ˈkɒfi]",
+          "ru": "Я выпил чашку кофе"
+        },
+        {
+          "en": "I had little free time but I tried to find time for it",
+          "ipa": "[aɪ hæd ˈlɪtl friː taɪm bʌt aɪ traɪd tuː faɪnd taɪm fɔːr ɪt]",
+          "ru": "У меня было мало свободного времени, но я старался находить для этого время"
+        },
+        {
+          "en": "I sat down and then stood up",
+          "ipa": "[aɪ sæt daʊn ænd ðen stʊd ʌp]",
+          "ru": "Я сел, а затем встал"
+        },
+        {
+          "en": "I drank a glass of juice",
+          "ipa": "[aɪ dræŋk ə ɡlɑːs ɒv dʒuːs]",
+          "ru": "Я выпил стакан сока"
+        },
+        {
+          "en": "I didn't need it so I threw it away",
+          "ipa": "[aɪ ˈdɪdnt niːd ɪt səʊ aɪ θruː ɪt əˈweɪ]",
+          "ru": "Мне это было не нужно, поэтому я выбросил это"
+        },
+        {
+          "en": "She cut the cake into four equal parts",
+          "ipa": "[ʃiː kʌt ðə keɪk ˈɪntuː fɔːr ˈiːkwəl pɑːts]",
+          "ru": "Она разрезала торт на четыре равные части"
+        },
+        {
+          "en": "He bought the latest model",
+          "ipa": "[hiː bɔːt ðə ˈleɪtɪst ˈmɒdl]",
+          "ru": "Он купил самую последнюю модель"
+        },
+        {
+          "en": "It hurt her feelings greatly",
+          "ipa": "[ɪt hɜːt hɜː ˈfiːlɪŋz ˈɡreɪtli]",
+          "ru": "Это сильно задело её чувства"
+        },
+        {
+          "en": "They gave him one more chance",
+          "ipa": "[ðeɪ ɡeɪv hɪm wʌn mɔː tʃɑːns]",
+          "ru": "Они дали ему ещё один шанс"
+        },
+        {
+          "en": "He drove the car very carefully and it saved his life",
+          "ipa": "[hiː drəʊv ðə kɑː ˈveri ˈkeəfəli ænd ɪt seɪvd hɪz laɪf]",
+          "ru": "Он вёл машину очень осторожно, и это спасло ему жизнь"
+        }
+      ]
+    }
+  ]
+}

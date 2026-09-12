@@ -1,0 +1,130 @@
+{
+  "sections": [
+    {
+      "title": "Irregular Verbs",
+      "rule": "Три формы неправильных глаголов, транскрипция и перевод через одиночный пробел.",
+      "examples": [
+        {
+          "en": "steal stole stolen",
+          "ipa": "[stiːl] [stəʊl] [ˈstəʊlən]",
+          "ru": "красть украл украденный"
+        },
+        {
+          "en": "sit sat sat",
+          "ipa": "[sɪt] [sæt] [sæt]",
+          "ru": "сидеть сидел сидевший"
+        },
+        {
+          "en": "begin began begun",
+          "ipa": "[bɪˈɡɪn] [bɪˈɡæn] [bɪˈɡʌn]",
+          "ru": "начинать начал начатый"
+        },
+        {
+          "en": "find found found",
+          "ipa": "[faɪnd] [faʊnd] [faʊnd]",
+          "ru": "находить нашёл найденный"
+        },
+        {
+          "en": "cut cut cut",
+          "ipa": "[kʌt] [kʌt] [kʌt]",
+          "ru": "резать резал разрезанный"
+        },
+        {
+          "en": "fall fell fallen",
+          "ipa": "[fɔːl] [fel] [ˈfɔːlən]",
+          "ru": "падать упал упавший"
+        },
+        {
+          "en": "understand understood understood",
+          "ipa": "[ˌʌndəˈstænd] [ˌʌndəˈstʊd] [ˌʌndəˈstʊd]",
+          "ru": "понимать понял понятый"
+        },
+        {
+          "en": "speak spoke spoken",
+          "ipa": "[spiːk] [spəʊk] [ˈspəʊkən]",
+          "ru": "говорить говорил сказанный"
+        },
+        {
+          "en": "throw threw thrown",
+          "ipa": "[θrəʊ] [θruː] [θrəʊn]",
+          "ru": "бросать бросил брошенный"
+        },
+        {
+          "en": "drink drank drunk",
+          "ipa": "[drɪŋk] [dræŋk] [drʌŋk]",
+          "ru": "пить пил выпитый"
+        },
+        {
+          "en": "have had had",
+          "ipa": "[hæv] [hæd] [hæd]",
+          "ru": "иметь имел имевшийся"
+        },
+        {
+          "en": "fight fought fought",
+          "ipa": "[faɪt] [fɔːt] [fɔːt]",
+          "ru": "бороться боролся поборовший"
+        },
+        {
+          "en": "send sent sent",
+          "ipa": "[send] [sent] [sent]",
+          "ru": "отправлять отправил отправленный"
+        },
+        {
+          "en": "lend lent lent",
+          "ipa": "[lend] [lent] [lent]",
+          "ru": "одалживать одолжил одолженный"
+        },
+        {
+          "en": "hurt hurt hurt",
+          "ipa": "[hɜːt] [hɜːt] [hɜːt]",
+          "ru": "ранить ранил раненый"
+        },
+        {
+          "en": "give gave given",
+          "ipa": "[ɡɪv] [ɡeɪv] [ˈɡɪvn]",
+          "ru": "давать дал данный"
+        },
+        {
+          "en": "ring rang rung",
+          "ipa": "[rɪŋ] [ræŋ] [rʌŋ]",
+          "ru": "звонить звонил позвонивший"
+        },
+        {
+          "en": "drive drove driven",
+          "ipa": "[draɪv] [drəʊv] [ˈdrɪvn]",
+          "ru": "водить водил ведомый"
+        },
+        {
+          "en": "ride rode ridden",
+          "ipa": "[raɪd] [rəʊd] [ˈrɪdn]",
+          "ru": "ехать верхом ехал объезженный"
+        },
+        {
+          "en": "leave left left",
+          "ipa": "[liːv] [left] [left]",
+          "ru": "покидать покинул покинутый"
+        },
+        {
+          "en": "forgive forgave forgiven",
+          "ipa": "[fəˈɡɪv] [fəˈɡeɪv] [fəˈɡɪvn]",
+          "ru": "прощать простил прощённый"
+        },
+        {
+          "en": "get got got",
+          "ipa": "[ɡet] [ɡɒt] [ɡɒt]",
+          "ru": "получать получил полученный"
+        },
+        {
+          "en": "buy bought bought",
+          "ipa": "[baɪ] [bɔːt] [bɔːt]",
+          "ru": "покупать купил купленный"
+        },
+        {
+          "en": "stand stood stood",
+          "ipa": "[stænd] [stʊd] [stʊd]",
+          "ru": "стоять стоял стоявший"
+        }
+      ]
+    }
+  ]
+}
