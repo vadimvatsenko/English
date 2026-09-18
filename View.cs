@@ -289,10 +289,11 @@ public class View
                         // отмена хода доступна только на первой ошибке по вопросу -
                         // случайная опечатка не должна портить статистику
                         bool canUndo = !isEqual && wrongAttemptsCount == 0;
-                        bool canAddToDictionary = !isEqual;
+                        bool alreadyInDictionary = IsInHardDictionary(user, levelName, fileName, e);
+                        bool canAddToDictionary = !alreadyInDictionary;
 
                         Console.WriteLine();
-                        PrintAnswerResult(words, correctText, e.Ipa, isEqual, canUndo, canAddToDictionary);
+                        PrintAnswerResult(words, correctText, e.Ipa, isEqual, canUndo, canAddToDictionary, alreadyInDictionary);
 
                         var followUp = WaitAfterAnswer(canUndo, canAddToDictionary);
 
@@ -377,10 +378,11 @@ public class View
                             correctText,
                             StringComparison.OrdinalIgnoreCase);
 
-                        bool canAddToDictionary = !isEqual;
+                        bool alreadyInDictionary = IsInHardDictionary(user, levelName, fileName, example);
+                        bool canAddToDictionary = !alreadyInDictionary;
 
                         Console.WriteLine();
-                        PrintAnswerResult(words, correctText, example.Ipa, isEqual, false, canAddToDictionary);
+                        PrintAnswerResult(words, correctText, example.Ipa, isEqual, false, canAddToDictionary, alreadyInDictionary);
 
                         var followUp = WaitAfterAnswer(false, canAddToDictionary);
 
@@ -506,7 +508,7 @@ public class View
         }
     }
 
-    // карточки трудных выражений конкретной темы: просмотр и удаление (Delete)
+    // карточки трудных выражений конкретной темы: просмотр, удаление (Delete) и запуск практики (Enter)
     private async Task ShowHardDictionaryExpressions(User user, HardTheme theme)
     {
         int counter = 0;
@@ -515,7 +517,9 @@ public class View
         {
             if (theme.Expressions.Count == 0) return;
 
-            Console.SetCursorPosition(0, 0);
+            // полная очистка экрана, а не точечная перезапись - предыдущий экран (например,
+            // меню выбора темы) мог быть длиннее текущей таблицы и оставлять "хвосты" снизу
+            Console.Clear();
 
             Console.Write($"{theme.ThemeName}".Background(StaticColors.Blue).Color(StaticColors.White).Bold());
             Console.WriteLine(new string(' ', Console.WindowWidth));
@@ -540,8 +544,8 @@ public class View
             }
 
             Console.WriteLine(horizontalBottom.Background(StaticColors.White).Color(StaticColors.Blue).Bold());
-            Console.WriteLine("  [Delete] - удалить   [Backspace] - назад".PadRight(Console.WindowWidth - 1)
-                .Color(StaticColors.Yellow).Bold());
+            Console.WriteLine("  [Enter] - начать практику   [Delete] - удалить   [Backspace] - назад"
+                .PadRight(Console.WindowWidth - 1).Color(StaticColors.Yellow).Bold());
 
             ConsoleKeyInfo keyInfo = Console.ReadKey(true);
 
@@ -561,6 +565,10 @@ public class View
                 if (counter < 0)
                     counter = theme.Expressions.Count - 1;
             }
+            else if (keyInfo.Key == ConsoleKey.Enter)
+            {
+                await PracticeHardExpressions(theme);
+            }
             else if (keyInfo.Key == ConsoleKey.Delete)
             {
                 theme.Expressions.RemoveAt(counter);
@@ -574,10 +582,151 @@ public class View
 
                 if (counter >= theme.Expressions.Count)
                     counter = theme.Expressions.Count - 1;
-
-                Console.Clear();
             }
         }
+    }
+
+    // тренировка по личному словарю трудных выражений выбранной темы: направление перевода
+    // выбирается так же, как и в обычных уроках, прогресс нигде не сохраняется - это просто повторение
+    private async Task PracticeHardExpressions(HardTheme theme)
+    {
+        var directionMenu = new Dictionary<int, string>
+        {
+            [0] = "From Russian to English",
+            [1] = "From English to Russian",
+        };
+
+        Console.Clear();
+        int direction = ColorizeMenuInput(directionMenu, "ВЫБЕРИТЕ НАПРАВЛЕНИЕ", allowBack: true);
+        if (direction == -1) return;
+
+        bool isEnToRu = direction == 1;
+        var answerHistory = new List<string>();
+
+        while (true)
+        {
+            var pool = theme.Expressions.OrderBy(_ => Guid.NewGuid()).ToList();
+            int correctCount = 0;
+            int wrongCount = 0;
+            bool exitRequested = false;
+            bool restartRequested = false;
+            int count = 1;
+
+            foreach (var example in pool)
+            {
+                int wrongAttemptsCount = 0;
+                bool isEqual = false;
+
+                while (!isEqual)
+                {
+                    Console.Clear();
+                    PrintHardPracticeHeader(theme.ThemeName, count, pool.Count, correctCount, wrongCount);
+
+                    string correctText = isEnToRu ? example.Ru : example.En;
+                    string questionText = isEnToRu ? example.En : example.Ru;
+
+                    Console.WriteLine();
+                    foreach (string questionLine in WrapText(questionText, HeaderWidth))
+                        Console.WriteLine(questionLine.Color(StaticColors.Blue).Bold());
+
+                    Console.WriteLine();
+                    Console.WriteLine("ENTER WORD:");
+                    Console.WriteLine();
+
+                    AnswerInputResult inputResult = ReadAnswerWithHotkeys(answerHistory, out string words);
+
+                    if (inputResult == AnswerInputResult.ExitTraining)
+                    {
+                        exitRequested = true;
+                        break;
+                    }
+
+                    if (inputResult == AnswerInputResult.RestartTraining)
+                    {
+                        restartRequested = true;
+                        break;
+                    }
+
+                    isEqual = string.Equals(words, correctText, StringComparison.OrdinalIgnoreCase);
+
+                    bool canUndo = !isEqual && wrongAttemptsCount == 0;
+
+                    Console.WriteLine();
+                    PrintAnswerResult(words, correctText, example.Ipa, isEqual, canUndo);
+
+                    var followUp = WaitAfterAnswer(canUndo, false);
+
+                    if (isEqual)
+                    {
+                        if (wrongAttemptsCount == 0)
+                            correctCount++;
+                    }
+                    else if (canUndo && followUp.Undo)
+                    {
+                        continue;
+                    }
+                    else
+                    {
+                        if (wrongAttemptsCount == 0)
+                            wrongCount++;
+                        wrongAttemptsCount++;
+                    }
+                }
+
+                if (exitRequested || restartRequested) break;
+                count++;
+            }
+
+            if (restartRequested) continue;
+
+            var rating = new Rating($"Словарь: {theme.ThemeName}", 1, 0, pool.Count, DateTime.Now);
+            for (int i = 0; i < correctCount; i++) rating.AddCorrectUnswers();
+            for (int i = 0; i < wrongCount; i++) rating.AddMissingUnswers();
+
+            if (exitRequested)
+            {
+                PrintResultBox("ПРАКТИКА ПРЕРВАНА", StaticColors.Red, rating);
+                Console.WriteLine();
+                Console.WriteLine("Нажмите любую клавишу для возврата...".Color(StaticColors.White));
+                Console.ReadKey(true);
+                return;
+            }
+
+            PrintResultBox("ПРАКТИКА ЗАВЕРШЕНА", StaticColors.Green, rating);
+            Console.WriteLine();
+
+            if (AskRepeatConfirmation())
+                continue;
+
+            return;
+        }
+    }
+
+    // шапка практики по личному словарю - без темы/правила и без сохраняемого рейтинга,
+    // просто счётчик текущего прогресса тренировки
+    private static void PrintHardPracticeHeader(string themeName, int count, int total, int correct, int wrong)
+    {
+        string top = "╔" + new string('═', HeaderWidth) + "╗";
+        string sep = "╠" + new string('═', HeaderWidth) + "╣";
+        string bottom = "╚" + new string('═', HeaderWidth) + "╝";
+
+        void Row(string text, string color) => Console.WriteLine(("║" + CenteredText(text, HeaderWidth) + "║")
+            .Color(color).Background(StaticColors.White).Bold());
+        void Sep() => Console.WriteLine(sep.Color(StaticColors.Yellow).Background(StaticColors.White).Bold());
+
+        Console.WriteLine(top.Color(StaticColors.Yellow).Background(StaticColors.White).Bold());
+        Row($"ПРАКТИКА ПО СЛОВАРЮ: {themeName}", StaticColors.Magenta);
+        Sep();
+
+        PrintMixedRow(string.Empty, HeaderWidth,
+            ($"Вопрос {count} / {total}   ", StaticColors.Blue),
+            ($"Правильно: {correct}", StaticColors.Green),
+            ("   ", StaticColors.Blue),
+            ($"Неправильно: {wrong}", StaticColors.Red));
+        Sep();
+
+        Row("[ESC] - выйти из практики    [F5] - начать заново", StaticColors.Yellow);
+        Console.WriteLine(bottom.Color(StaticColors.Yellow).Background(StaticColors.White).Bold());
     }
 
     private static void PrintEmptyDictionaryMessage(string text)
@@ -794,10 +943,25 @@ public class View
         return (undo, add);
     }
 
-    // добавляет выражение, на котором ошибся пользователь, в его личный словарь трудных
+    // проверяет, есть ли уже такое выражение в личном словаре трудных выражений
+    // пользователя (сравнение по en+ru без учёта регистра)
+    private static bool IsInHardDictionary(User user, string levelName, string themeName, Examples example)
+    {
+        HardTheme? theme = user.HardDictionary
+            .FirstOrDefault(l => l.LevelName == levelName)?.Themes
+            .FirstOrDefault(t => t.ThemeName == themeName);
+
+        return theme != null && theme.Expressions.Any(h =>
+            h.En.Equals(example.En, StringComparison.OrdinalIgnoreCase) &&
+            h.Ru.Equals(example.Ru, StringComparison.OrdinalIgnoreCase));
+    }
+
+    // добавляет выражение (при верном или неверном ответе) в личный словарь трудных
     // выражений (User.HardDictionary), сгруппированный по уровню и теме - без дублей, с сохранением на диск
     private async Task AddToHardDictionaryAsync(User user, string levelName, string themeName, Examples example)
     {
+        if (IsInHardDictionary(user, levelName, themeName, example)) return;
+
         HardLevel? level = user.HardDictionary.FirstOrDefault(l => l.LevelName == levelName);
         if (level == null)
         {
@@ -812,19 +976,13 @@ public class View
             level.Themes.Add(theme);
         }
 
-        bool alreadyExists = theme.Expressions.Any(h =>
-            h.En.Equals(example.En, StringComparison.OrdinalIgnoreCase) &&
-            h.Ru.Equals(example.Ru, StringComparison.OrdinalIgnoreCase));
-
-        if (alreadyExists) return;
-
         theme.Expressions.Add(new Examples { En = example.En, Ru = example.Ru, Ipa = example.Ipa });
         await _authService.UpdateUsersAsync(user);
     }
 
     // низ экрана вопроса: посимвольное сравнение ответа, правильный вариант, транскрипция и вердикт - тоже таблицей
     private static void PrintAnswerResult(string userAnswer, string correctAnswer, string ipa, bool isCorrect,
-        bool canUndo = false, bool canAddToDictionary = false)
+        bool canUndo = false, bool canAddToDictionary = false, bool alreadyInDictionary = false)
     {
         string top = "╔" + new string('═', HeaderWidth) + "╗";
         string sep = "╠" + new string('═', HeaderWidth) + "╣";
@@ -891,7 +1049,7 @@ public class View
         Console.WriteLine(("║" + CenteredText(status, HeaderWidth) + "║")
             .Color(StaticColors.White).Background(isCorrect ? StaticColors.Green : StaticColors.Red).Bold());
 
-        if (canUndo || canAddToDictionary)
+        if (canUndo || canAddToDictionary || alreadyInDictionary)
         {
             Console.WriteLine(sep.Color(StaticColors.Blue).Background(StaticColors.White).Bold());
 
@@ -902,6 +1060,9 @@ public class View
             if (canAddToDictionary)
                 Console.WriteLine(("║" + CenteredText("[R] - добавить в личный словарь трудных выражений", HeaderWidth) + "║")
                     .Color(StaticColors.Yellow).Background(StaticColors.White).Bold());
+            else if (alreadyInDictionary)
+                Console.WriteLine(("║" + CenteredText("* УЖЕ ЕСТЬ В СЛОВАРЕ ТРУДНЫХ ВЫРАЖЕНИЙ", HeaderWidth) + "║")
+                    .Color(StaticColors.White).Background(StaticColors.Blue).Bold());
         }
 
         Console.WriteLine(bottom.Color(StaticColors.Blue).Background(StaticColors.White).Bold());
