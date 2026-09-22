@@ -151,6 +151,101 @@
                 "ru": "\u041E\u043D \u043D\u0435 \u0447\u0443\u0432\u0441\u0442\u0432\u0443\u0435\u0442 \u0441\u0435\u0431\u044F \u0441\u0447\u0430\u0441\u0442\u043B\u0438\u0432\u044B\u043C"
               }
             ]
+          },
+          {
+            "themeName": "A0_09_10_[ DO DOES ]",
+            "expressions": [
+              {
+                "en": "Do you often play football?",
+                "ipa": "/du\u02D0 ju\u02D0 \u02C8\u0252f\u0259n ple\u026A \u02C8f\u028Atb\u0254\u02D0l?/",
+                "ru": "\u0422\u044B \u0447\u0430\u0441\u0442\u043E \u0438\u0433\u0440\u0430\u0435\u0448\u044C \u0432 \u0444\u0443\u0442\u0431\u043E\u043B?"
+              },
+              {
+                "en": "Do you often play tennis?",
+                "ipa": "/du\u02D0 ju\u02D0 \u02C8\u0252f\u0259n ple\u026A \u02C8ten\u026As?/",
+                "ru": "\u0422\u044B \u0447\u0430\u0441\u0442\u043E \u0438\u0433\u0440\u0430\u0435\u0448\u044C \u0432 \u0442\u0435\u043D\u043D\u0438\u0441?"
+              },
+              {
+                "en": "Does he go to school?",
+                "ipa": "/d\u028Cz hi\u02D0 \u0261\u0259\u028A t\u0259 sku\u02D0l?/",
+                "ru": "\u041E\u043D \u0445\u043E\u0434\u0438\u0442 \u0432 \u0448\u043A\u043E\u043B\u0443?"
+              },
+              {
+                "en": "Does it help you?",
+                "ipa": "/d\u028Cz \u026At help ju\u02D0?/",
+                "ru": "\u042D\u0442\u043E \u043F\u043E\u043C\u043E\u0433\u0430\u0435\u0442 \u0442\u0435\u0431\u0435?"
+              },
+              {
+                "en": "Do you think so?",
+                "ipa": "/du\u02D0 ju\u02D0 \u03B8\u026A\u014Bk s\u0259\u028A?/",
+                "ru": "\u0422\u044B \u0442\u0430\u043A \u0434\u0443\u043C\u0430\u0435\u0448\u044C?"
+              },
+              {
+                "en": "Do you really think so?",
+                "ipa": "/du\u02D0 ju\u02D0 \u02C8r\u026A\u0259li \u03B8\u026A\u014Bk s\u0259\u028A?/",
+                "ru": "\u0422\u044B \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0442\u0435\u043B\u044C\u043D\u043E \u0442\u0430\u043A \u0434\u0443\u043C\u0430\u0435\u0448\u044C?"
+              },
+              {
+                "en": "Do you know the answer?",
+                "ipa": "/du\u02D0 ju\u02D0 n\u0259\u028A \u00F0i \u02C8\u0251\u02D0ns\u0259?/",
+                "ru": "\u0422\u044B \u0437\u043D\u0430\u0435\u0448\u044C \u043E\u0442\u0432\u0435\u0442?"
+              },
+              {
+                "en": "Do you have time?",
+                "ipa": "/du\u02D0 ju\u02D0 h\u00E6v ta\u026Am?/",
+                "ru": "\u0423 \u0442\u0435\u0431\u044F \u0435\u0441\u0442\u044C \u0432\u0440\u0435\u043C\u044F?"
+              },
+              {
+                "en": "Do you read English books?",
+                "ipa": "/du\u02D0 ju\u02D0 ri\u02D0d \u02C8\u026A\u014B\u0261l\u026A\u0283 b\u028Aks?/",
+                "ru": "\u0422\u044B \u0447\u0438\u0442\u0430\u0435\u0448\u044C \u0430\u043D\u0433\u043B\u0438\u0439\u0441\u043A\u0438\u0435 \u043A\u043D\u0438\u0433\u0438?"
+              },
+              {
+                "en": "Do you read books in English?",
+                "ipa": "/du\u02D0 ju\u02D0 ri\u02D0d b\u028Aks \u026An \u02C8\u026A\u014B\u0261l\u026A\u0283?/",
+                "ru": "\u0422\u044B \u0447\u0438\u0442\u0430\u0435\u0448\u044C \u043A\u043D\u0438\u0433\u0438 \u043D\u0430 \u0430\u043D\u0433\u043B\u0438\u0439\u0441\u043A\u043E\u043C?"
+              },
+              {
+                "en": "Do you want to do it tomorrow?",
+                "ipa": "/du\u02D0 ju\u02D0 w\u0252nt t\u0259 du\u02D0 \u026At t\u0259\u02C8m\u0252r\u0259\u028A?/",
+                "ru": "\u0422\u044B \u0445\u043E\u0447\u0435\u0448\u044C \u0441\u0434\u0435\u043B\u0430\u0442\u044C \u044D\u0442\u043E \u0437\u0430\u0432\u0442\u0440\u0430?"
+              },
+              {
+                "en": "Does he do business?",
+                "ipa": "/d\u028Cz hi\u02D0 du\u02D0 \u02C8b\u026Azn\u026As?/",
+                "ru": "\u041E\u043D \u0437\u0430\u043D\u0438\u043C\u0430\u0435\u0442\u0441\u044F \u0431\u0438\u0437\u043D\u0435\u0441\u043E\u043C?"
+              },
+              {
+                "en": "Do you have a family?",
+                "ipa": "/du\u02D0 ju\u02D0 h\u00E6v \u0259 \u02C8f\u00E6m\u0259li?/",
+                "ru": "\u0423 \u0442\u0435\u0431\u044F \u0435\u0441\u0442\u044C \u0441\u0435\u043C\u044C\u044F?"
+              },
+              {
+                "en": "Does she live with her parents?",
+                "ipa": "/d\u028Cz \u0283i\u02D0 l\u026Av w\u026A\u00F0 h\u025C\u02D0 \u02C8pe\u0259r\u0259nts?/",
+                "ru": "\u041E\u043D\u0430 \u0436\u0438\u0432\u0451\u0442 \u0441 \u0440\u043E\u0434\u0438\u0442\u0435\u043B\u044F\u043C\u0438?"
+              },
+              {
+                "en": "Does she study abroad?",
+                "ipa": "/d\u028Cz \u0283i\u02D0 \u02C8st\u028Cdi \u0259\u02C8br\u0254\u02D0d?/",
+                "ru": "\u041E\u043D\u0430 \u0443\u0447\u0438\u0442\u0441\u044F \u0437\u0430 \u0433\u0440\u0430\u043D\u0438\u0446\u0435\u0439?"
+              },
+              {
+                "en": "Do you want to go to the United States?",
+                "ipa": "/du\u02D0 ju\u02D0 w\u0252nt t\u0259 \u0261\u0259\u028A t\u0259 \u00F0\u0259 ju\u02D0\u02C8na\u026At\u026Ad ste\u026Ats?/",
+                "ru": "\u0422\u044B \u0445\u043E\u0447\u0435\u0448\u044C \u043F\u043E\u0435\u0445\u0430\u0442\u044C \u0432 \u0421\u043E\u0435\u0434\u0438\u043D\u0451\u043D\u043D\u044B\u0435 \u0428\u0442\u0430\u0442\u044B?"
+              },
+              {
+                "en": "Do you want to live in another city?",
+                "ipa": "/du\u02D0 ju\u02D0 w\u0252nt t\u0259 l\u026Av \u026An \u0259\u02C8n\u028C\u00F0\u0259 \u02C8s\u026Ati?/",
+                "ru": "\u0422\u044B \u0445\u043E\u0447\u0435\u0448\u044C \u0436\u0438\u0442\u044C \u0432 \u0434\u0440\u0443\u0433\u043E\u043C \u0433\u043E\u0440\u043E\u0434\u0435?"
+              },
+              {
+                "en": "Does he teach English?",
+                "ipa": "/d\u028Cz hi\u02D0 ti\u02D0t\u0283 \u02C8\u026A\u014B\u0261l\u026A\u0283?/",
+                "ru": "\u041E\u043D \u043F\u0440\u0435\u043F\u043E\u0434\u0430\u0451\u0442 \u0430\u043D\u0433\u043B\u0438\u0439\u0441\u043A\u0438\u0439?"
+              }
+            ]
           }
         ]
       },
@@ -436,6 +531,126 @@
                 "ru": "\u042D\u0442\u043E \u043E\u043F\u0438\u0441\u0430\u043D\u0438\u0435 \u043D\u0435 \u0432\u044B\u0433\u043B\u044F\u0434\u0438\u0442 \u0442\u0430\u043A\u0438\u043C \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u0432\u043D\u044B\u043C"
               }
             ]
+          },
+          {
+            "themeName": "A1_09_10_[ DO DOES QA  ]",
+            "expressions": [
+              {
+                "en": "How much does the sweater cost?",
+                "ipa": "[ha\u028A m\u028Ct\u0283 d\u028Cz \u00F0\u0259 \u02C8swet\u0259 k\u0252st]",
+                "ru": "\u0421\u043A\u043E\u043B\u044C\u043A\u043E \u0441\u0442\u043E\u0438\u0442 \u0441\u0432\u0438\u0442\u0435\u0440?"
+              },
+              {
+                "en": "What\u0027s your mother\u0027s job?",
+                "ipa": "[w\u0252ts j\u0254\u02D0 \u02C8m\u028C\u00F0\u0259z d\u0292\u0252b]",
+                "ru": "\u041A\u0435\u043C \u0440\u0430\u0431\u043E\u0442\u0430\u0435\u0442 \u0442\u0432\u043E\u044F \u043C\u0430\u043C\u0430?"
+              },
+              {
+                "en": "What\u0027s her job? She\u0027s a shop assistant",
+                "ipa": "[w\u0252ts h\u025C\u02D0 d\u0292\u0252b \u0283i\u02D0z \u0259 \u0283\u0252p \u0259\u02C8s\u026Ast\u0259nt]",
+                "ru": "\u041A\u0435\u043C \u043E\u043D\u0430 \u0440\u0430\u0431\u043E\u0442\u0430\u0435\u0442? \u041E\u043D\u0430 \u043F\u0440\u043E\u0434\u0430\u0432\u0435\u0446"
+              },
+              {
+                "en": "How much does this pair of trousers cost?",
+                "ipa": "[ha\u028A m\u028Ct\u0283 d\u028Cz \u00F0\u026As pe\u0259r \u0252v \u02C8tra\u028Az\u0259z k\u0252st]",
+                "ru": "\u0421\u043A\u043E\u043B\u044C\u043A\u043E \u0441\u0442\u043E\u0438\u0442 \u044D\u0442\u0430 \u043F\u0430\u0440\u0430 \u0431\u0440\u044E\u043A?"
+              },
+              {
+                "en": "How much do these jeans cost?",
+                "ipa": "[ha\u028A m\u028Ct\u0283 du\u02D0 \u00F0i\u02D0z d\u0292i\u02D0nz k\u0252st]",
+                "ru": "\u0421\u043A\u043E\u043B\u044C\u043A\u043E \u0441\u0442\u043E\u044F\u0442 \u044D\u0442\u0438 \u0434\u0436\u0438\u043D\u0441\u044B?"
+              },
+              {
+                "en": "Where does your mother work?",
+                "ipa": "[we\u0259 d\u028Cz j\u0254\u02D0 \u02C8m\u028C\u00F0\u0259 w\u025C\u02D0k]",
+                "ru": "\u0413\u0434\u0435 \u0440\u0430\u0431\u043E\u0442\u0430\u0435\u0442 \u0442\u0432\u043E\u044F \u043C\u0430\u043C\u0430?"
+              },
+              {
+                "en": "How much are these jeans?",
+                "ipa": "[ha\u028A m\u028Ct\u0283 \u0251\u02D0 \u00F0i\u02D0z d\u0292i\u02D0nz]",
+                "ru": "\u041F\u043E\u0447\u0451\u043C \u044D\u0442\u0438 \u0434\u0436\u0438\u043D\u0441\u044B?"
+              },
+              {
+                "en": "How much is this model?",
+                "ipa": "[ha\u028A m\u028Ct\u0283 \u026Az \u00F0\u026As \u02C8m\u0252dl]",
+                "ru": "\u041F\u043E\u0447\u0451\u043C \u044D\u0442\u0430 \u043C\u043E\u0434\u0435\u043B\u044C?"
+              },
+              {
+                "en": "Why is this hotel so expensive?",
+                "ipa": "[wa\u026A \u026Az \u00F0\u026As h\u0259\u028A\u02C8tel s\u0259\u028A \u026Ak\u02C8spens\u026Av]",
+                "ru": "\u041F\u043E\u0447\u0435\u043C\u0443 \u044D\u0442\u043E\u0442 \u043E\u0442\u0435\u043B\u044C \u0442\u0430\u043A\u043E\u0439 \u0434\u043E\u0440\u043E\u0433\u043E\u0439?"
+              },
+              {
+                "en": "Why are these things so important?",
+                "ipa": "[wa\u026A \u0251\u02D0 \u00F0i\u02D0z \u03B8\u026A\u014Bz s\u0259\u028A \u026Am\u02C8p\u0254\u02D0tnt]",
+                "ru": "\u041F\u043E\u0447\u0435\u043C\u0443 \u044D\u0442\u0438 \u0432\u0435\u0449\u0438 \u0442\u0430\u043A \u0432\u0430\u0436\u043D\u044B?"
+              },
+              {
+                "en": "What does your teacher recommend?",
+                "ipa": "[w\u0252t d\u028Cz j\u0254\u02D0 \u02C8ti\u02D0t\u0283\u0259 \u02CCrek\u0259\u02C8mend]",
+                "ru": "\u0427\u0442\u043E \u0440\u0435\u043A\u043E\u043C\u0435\u043D\u0434\u0443\u0435\u0442 \u0442\u0432\u043E\u0439 \u0443\u0447\u0438\u0442\u0435\u043B\u044C?"
+              },
+              {
+                "en": "How much is the dress?",
+                "ipa": "[ha\u028A m\u028Ct\u0283 \u026Az \u00F0\u0259 dres]",
+                "ru": "\u041F\u043E\u0447\u0435\u043C \u043F\u043B\u0430\u0442\u044C\u0435 \u043F\u043B\u0430\u0442\u044C\u0435?"
+              },
+              {
+                "en": "Is this thing really important?",
+                "ipa": "[\u026Az \u00F0\u026As \u03B8\u026A\u014B \u02C8r\u026A\u0259li \u026Am\u02C8p\u0254\u02D0tnt]",
+                "ru": "\u042D\u0442\u0430 \u0432\u0435\u0449\u044C \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0442\u0435\u043B\u044C\u043D\u043E \u0432\u0430\u0436\u043D\u0430?"
+              },
+              {
+                "en": "Is this video so funny?",
+                "ipa": "[\u026Az \u00F0\u026As \u02C8v\u026Ad\u026A\u0259\u028A s\u0259\u028A \u02C8f\u028Cni]",
+                "ru": "\u042D\u0442\u043E \u0432\u0438\u0434\u0435\u043E \u0442\u0430\u043A\u043E\u0435 \u0441\u043C\u0435\u0448\u043D\u043E\u0435?"
+              },
+              {
+                "en": "How much does this souvenir cost?",
+                "ipa": "[ha\u028A m\u028Ct\u0283 d\u028Cz \u00F0\u026As \u02CCsu\u02D0v\u0259\u02C8n\u026A\u0259 k\u0252st]",
+                "ru": "\u0421\u043A\u043E\u043B\u044C\u043A\u043E \u0441\u0442\u043E\u0438\u0442 \u044D\u0442\u043E\u0442 \u0441\u0443\u0432\u0435\u043D\u0438\u0440?"
+              },
+              {
+                "en": "Are the children at home?",
+                "ipa": "[\u0251\u02D0 \u00F0\u0259 \u02C8t\u0283\u026Aldr\u0259n \u00E6t h\u0259\u028Am]",
+                "ru": "\u0414\u0435\u0442\u0438 \u0434\u043E\u043C\u0430?"
+              },
+              {
+                "en": "Is this offer interesting for you?",
+                "ipa": "[\u026Az \u00F0\u026As \u02C8\u0252f\u0259r \u02C8\u026Antr\u0259st\u026A\u014B f\u0254\u02D0 ju\u02D0]",
+                "ru": "\u042D\u0442\u043E \u043F\u0440\u0435\u0434\u043B\u043E\u0436\u0435\u043D\u0438\u0435 \u0438\u043D\u0442\u0435\u0440\u0435\u0441\u043D\u043E \u0434\u043B\u044F \u0432\u0430\u0441?"
+              },
+              {
+                "en": "Why does this ticket cost so little?",
+                "ipa": "[wa\u026A d\u028Cz \u00F0\u026As \u02C8t\u026Ak\u026At k\u0252st s\u0259\u028A \u02C8l\u026Atl]",
+                "ru": "\u041F\u043E\u0447\u0435\u043C\u0443 \u044D\u0442\u043E\u0442 \u0431\u0438\u043B\u0435\u0442 \u0441\u0442\u043E\u0438\u0442 \u0442\u0430\u043A \u043C\u0430\u043B\u043E?"
+              },
+              {
+                "en": "How much are these trousers?",
+                "ipa": "[ha\u028A m\u028Ct\u0283 \u0251\u02D0 \u00F0i\u02D0z \u02C8tra\u028Az\u0259z]",
+                "ru": "\u041F\u043E\u0447\u0435\u043C \u044D\u0442\u0438 \u0431\u0440\u044E\u043A\u0438?"
+              },
+              {
+                "en": "What\u0027s his job? He\u0027s a lawyer",
+                "ipa": "[w\u0252ts h\u026Az d\u0292\u0252b hi\u02D0z \u0259 \u02C8l\u0254\u02D0j\u0259]",
+                "ru": "\u041A\u0435\u043C \u043E\u043D \u0440\u0430\u0431\u043E\u0442\u0430\u0435\u0442? \u041E\u043D \u044E\u0440\u0438\u0441\u0442"
+              },
+              {
+                "en": "Is this offer really interesting for you?",
+                "ipa": "[\u026Az \u00F0\u026As \u02C8\u0252f\u0259 \u02C8r\u026A\u0259li \u02C8\u026Antr\u0259st\u026A\u014B f\u0254\u02D0 ju\u02D0]",
+                "ru": "\u042D\u0442\u043E \u043F\u0440\u0435\u0434\u043B\u043E\u0436\u0435\u043D\u0438\u0435 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0442\u0435\u043B\u044C\u043D\u043E \u0438\u043D\u0442\u0435\u0440\u0435\u0441\u043D\u043E \u0432\u0430\u043C?"
+              },
+              {
+                "en": "How much do the jeans cost?",
+                "ipa": "[ha\u028A m\u028Ct\u0283 du\u02D0 \u00F0\u0259 d\u0292i\u02D0nz k\u0252st]",
+                "ru": "\u0421\u043A\u043E\u043B\u044C\u043A\u043E \u0441\u0442\u043E\u044F\u0442 \u0434\u0436\u0438\u043D\u0441\u044B?"
+              },
+              {
+                "en": "How much is this pair of jeans?",
+                "ipa": "[ha\u028A m\u028Ct\u0283 \u026Az \u00F0\u026As pe\u0259r \u0252v d\u0292i\u02D0nz]",
+                "ru": "\u041F\u043E\u0447\u0451\u043C \u044D\u0442\u0430 \u043F\u0430\u0440\u0430 \u0434\u0436\u0438\u043D\u0441\u043E\u0432?"
+              }
+            ]
           }
         ]
       }
@@ -597,17 +812,17 @@
         "NameTheme": "A0_07_08_[ DON\u0060T ]",
         "Tries": 2,
         "CorrectUnswers": 45,
-        "MissingUnswers": 2,
+        "MissingUnswers": 0,
         "AllUnswers": 47,
         "Date": "2026-09-19T09:21:41.4260189+03:00"
       },
       {
         "NameTheme": "A0_09_10_[ DO DOES ]",
-        "Tries": 1,
-        "CorrectUnswers": 45,
-        "MissingUnswers": 0,
+        "Tries": 2,
+        "CorrectUnswers": 49,
+        "MissingUnswers": 1,
         "AllUnswers": 50,
-        "Date": "2026-06-15T08:10:31.775329+03:00"
+        "Date": "2026-09-22T10:18:00.9180632+03:00"
       },
       {
         "NameTheme": "A0_13_14_[ AM IS ARE ]",
@@ -707,19 +922,19 @@
       },
       {
         "NameTheme": "A1_07_08_[ ISNOT ARENOT  ]",
-        "Tries": 2,
-        "CorrectUnswers": 31,
-        "MissingUnswers": 14,
+        "Tries": 3,
+        "CorrectUnswers": 40,
+        "MissingUnswers": 5,
         "AllUnswers": 45,
-        "Date": "2026-09-20T08:10:02.7239235+03:00"
+        "Date": "2026-09-22T08:17:32.2016468+03:00"
       },
       {
         "NameTheme": "A1_09_10_[ DO DOES QA  ]",
-        "Tries": 7,
-        "CorrectUnswers": 38,
-        "MissingUnswers": 0,
+        "Tries": 8,
+        "CorrectUnswers": 43,
+        "MissingUnswers": 7,
         "AllUnswers": 50,
-        "Date": "2026-09-11T08:41:00.2204386+03:00"
+        "Date": "2026-09-22T11:24:59.985688+03:00"
       },
       {
         "NameTheme": "A1_11_12_[ Everything Everyone All  ]",
@@ -835,27 +1050,27 @@
       },
       {
         "NameTheme": "A1_23_24_[ Past Simple Part_1_Words_Irregular Verbs]",
-        "Tries": 5,
+        "Tries": 6,
         "CorrectUnswers": 22,
-        "MissingUnswers": 0,
+        "MissingUnswers": 2,
         "AllUnswers": 24,
-        "Date": "2026-09-16T09:13:49.4713738+03:00"
+        "Date": "2026-09-22T11:32:34.5635741+03:00"
       },
       {
         "NameTheme": "A1_23_24_[ Past Simple Part_2_Words]",
-        "Tries": 6,
-        "CorrectUnswers": 15,
-        "MissingUnswers": 0,
+        "Tries": 7,
+        "CorrectUnswers": 14,
+        "MissingUnswers": 2,
         "AllUnswers": 16,
-        "Date": "2026-09-18T09:30:54.1679033+03:00"
+        "Date": "2026-09-22T11:27:44.7471356+03:00"
       },
       {
         "NameTheme": "A1_23_24_[ Past Simple Part_3_Practice]",
-        "Tries": 3,
-        "CorrectUnswers": 7,
-        "MissingUnswers": 1,
+        "Tries": 4,
+        "CorrectUnswers": 20,
+        "MissingUnswers": 5,
         "AllUnswers": 25,
-        "Date": "2026-09-15T09:41:07.9872217+03:00"
+        "Date": "2026-09-22T11:46:07.8228394+03:00"
       }
     ]
   },
