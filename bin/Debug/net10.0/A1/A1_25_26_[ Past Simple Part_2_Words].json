@@ -1,0 +1,75 @@
+{
+  "sections": [
+    {
+      "title": "Vocabulary & Expressions",
+      "rule": "Существительные с артиклями, наречные обороты, глагольные сочетания и временные маркеры.",
+      "examples": [
+        {
+          "en": "an hour ago",
+          "ipa": "[ən ˈaʊər əˈɡəʊ]",
+          "ru": "час назад"
+        },
+        {
+          "en": "on the radio",
+          "ipa": "[ɒn ðə ˈreɪdiəʊ]",
+          "ru": "по радио"
+        },
+        {
+          "en": "lots of money",
+          "ipa": "[lɒts ɒv ˈmʌni]",
+          "ru": "много денег"
+        },
+        {
+          "en": "lots of time",
+          "ipa": "[lɒts ɒv taɪm]",
+          "ru": "много времени"
+        },
+        {
+          "en": "to swim across",
+          "ipa": "[tuː swɪm əˈkrɒs]",
+          "ru": "переплыть"
+        },
+        {
+          "en": "expressions",
+          "ipa": "[ɪkˈspreʃnz]",
+          "ru": "выражения"
+        },
+        {
+          "en": "later than usual",
+          "ipa": "[ˈleɪtə ðæn ˈjuːʒuəl]",
+          "ru": "позже обычного"
+        },
+        {
+          "en": "in a year",
+          "ipa": "[ɪn ə jɪə]",
+          "ru": "через год"
+        },
+        {
+          "en": "a sportsman",
+          "ipa": "[ə ˈspɔːtsmən]",
+          "ru": "спортсмен"
+        },
+        {
+          "en": "a gold medal",
+          "ipa": "[ə ɡəʊld ˈmedl]",
+          "ru": "золотая медаль"
+        },
+        {
+          "en": "criminals",
+          "ipa": "[ˈkrɪmɪnlz]",
+          "ru": "преступники"
+        },
+        {
+          "en": "earlier",
+          "ipa": "[ˈɜːliə]",
+          "ru": "раньше"
+        },
+        {
+          "en": "it took me",
+          "ipa": "[ɪt tʊk miː]",
+          "ru": "это заняло у меня"
+        }
+      ]
+    }
+  ]
+}

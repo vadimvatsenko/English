@@ -1,0 +1,125 @@
+{
+  "sections": [
+    {
+      "title": "Irregular Verbs",
+      "rule": "Три формы неправильных глаголов, транскрипция и перевод через одиночный пробел.",
+      "examples": [
+        {
+          "en": "catch caught caught",
+          "ipa": "[kætʃ] [kɔːt] [kɔːt]",
+          "ru": "ловить поймал пойманный"
+        },
+        {
+          "en": "sell sold sold",
+          "ipa": "[sel] [səʊld] [səʊld]",
+          "ru": "продавать продал проданный"
+        },
+        {
+          "en": "build built built",
+          "ipa": "[bɪld] [bɪlt] [bɪlt]",
+          "ru": "строить построил построенный"
+        },
+        {
+          "en": "lie lay lain",
+          "ipa": "[laɪ] [leɪ] [leɪn]",
+          "ru": "лежать лежал лежавший"
+        },
+        {
+          "en": "eat ate eaten",
+          "ipa": "[iːt] [et] [ˈiːtn]",
+          "ru": "есть ел съеденный"
+        },
+        {
+          "en": "learn learnt learnt",
+          "ipa": "[lɜːn] [lɜːnt] [lɜːnt]",
+          "ru": "учить учил выученный"
+        },
+        {
+          "en": "hear heard heard",
+          "ipa": "[hɪə] [hɜːd] [hɜːd]",
+          "ru": "слышать слышал услышанный"
+        },
+        {
+          "en": "spend spent spent",
+          "ipa": "[spend] [spent] [spent]",
+          "ru": "тратить потратил потраченный"
+        },
+        {
+          "en": "sleep slept slept",
+          "ipa": "[sliːp] [slept] [slept]",
+          "ru": "спать спал спавший"
+        },
+        {
+          "en": "tell told told",
+          "ipa": "[tel] [təʊld] [təʊld]",
+          "ru": "рассказывать рассказал рассказанный"
+        },
+        {
+          "en": "forget forgot forgotten",
+          "ipa": "[fəˈɡet] [fəˈɡɒt] [fəˈɡɒtn]",
+          "ru": "забывать забыл забытый"
+        },
+        {
+          "en": "cost cost cost",
+          "ipa": "[kɒst] [kɒst] [kɒst]",
+          "ru": "стоить стоил стоивший"
+        },
+        {
+          "en": "swim swam swum",
+          "ipa": "[swɪm] [swæm] [swʌm]",
+          "ru": "плавать плавал плававший"
+        },
+        {
+          "en": "show showed shown",
+          "ipa": "[ʃəʊ] [ʃəʊd] [ʃəʊn]",
+          "ru": "показывать показал показанный"
+        },
+        {
+          "en": "win won won",
+          "ipa": "[wɪn] [wʌn] [wʌn]",
+          "ru": "побеждать победил победивший"
+        },
+        {
+          "en": "see saw seen",
+          "ipa": "[siː] [sɔː] [siːn]",
+          "ru": "видеть видел увиденный"
+        },
+        {
+          "en": "take took taken",
+          "ipa": "[teɪk] [tʊk] [ˈteɪkən]",
+          "ru": "брать взял взятый"
+        },
+        {
+          "en": "bring brought brought",
+          "ipa": "[brɪŋ] [brɔːt] [brɔːt]",
+          "ru": "приносить принёс принесённый"
+        },
+        {
+          "en": "wake up woke up woken up",
+          "ipa": "[weɪk ʌp] [wəʊk ʌp] [ˈwəʊkən ʌp]",
+          "ru": "просыпаться проснулся проснувшийся"
+        },
+        {
+          "en": "write wrote written",
+          "ipa": "[raɪt] [rəʊt] [ˈrɪtn]",
+          "ru": "писать написал написанный"
+        },
+        {
+          "en": "run ran run",
+          "ipa": "[rʌn] [ræn] [rʌn]",
+          "ru": "бежать бежал бежавший"
+        },
+        {
+          "en": "meet met met",
+          "ipa": "[miːt] [met] [met]",
+          "ru": "встречать встретил встреченный"
+        },
+        {
+          "en": "know knew known",
+          "ipa": "[nəʊ] [njuː] [nəʊn]",
+          "ru": "знать знал знавший"
+        }
+      ]
+    }
+  ]
+}

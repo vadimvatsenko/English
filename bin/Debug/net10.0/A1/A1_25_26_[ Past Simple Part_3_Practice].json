@@ -1,0 +1,165 @@
+{
+  "sections": [
+    {
+      "title": "Past Simple: Irregular Verbs in Context",
+      "rule": "Утвердительные предложения и устойчивые выражения в прошедшем простом времени (Past Simple) с использованием неправильных глаголов.",
+      "examples": [
+        {
+          "en": "I saw that it was impossible",
+          "ipa": "[aɪ sɔː ðæt ɪt wɒz ɪmˈpɒsəbl]",
+          "ru": "Я видел, что это было невозможно"
+        },
+        {
+          "en": "We ate about an hour ago",
+          "ipa": "[wiː et əˈbaʊt ən ˈaʊər əˈɡəʊ]",
+          "ru": "Мы поели около часа назад"
+        },
+        {
+          "en": "I heard it on the radio",
+          "ipa": "[aɪ hɜːd ɪt ɒn ðə ˈreɪdiəʊ]",
+          "ru": "Я услышал это по радио"
+        },
+        {
+          "en": "She swam across the river",
+          "ipa": "[ʃiː swæm əˈkrɒs ðə ˈrɪvə]",
+          "ru": "Она переплыла реку"
+        },
+        {
+          "en": "I showed a very good result",
+          "ipa": "[aɪ ʃəʊd ə ˈveri ɡʊd rɪˈzʌlt]",
+          "ru": "Я показал очень хороший результат"
+        },
+        {
+          "en": "He told me a very interesting story",
+          "ipa": "[hiː təʊld miː ə ˈveri ˈɪntrestɪŋ ˈstɔːri]",
+          "ru": "Он рассказал мне очень интересную историю"
+        },
+        {
+          "en": "I forgot how to do it",
+          "ipa": "[aɪ fəˈɡɒt haʊ tuː duː ɪt]",
+          "ru": "Я забыл, как это делать"
+        },
+        {
+          "en": "He spent lots of money",
+          "ipa": "[hiː spent lɒts ɒv ˈmʌni]",
+          "ru": "Он потратил много денег"
+        },
+        {
+          "en": "I forgot what to say",
+          "ipa": "[aɪ fəˈɡɒt wɒt tuː seɪ]",
+          "ru": "Я забыл, что сказать"
+        },
+        {
+          "en": "It took me so much time",
+          "ipa": "[ɪt tʊk miː səʊ mʌtʃ taɪm]",
+          "ru": "Это заняло у меня так много времени"
+        },
+        {
+          "en": "I learnt very useful expressions",
+          "ipa": "[aɪ lɜːnt ˈveri ˈjuːsfl ɪkˈspreʃnz]",
+          "ru": "Я выучил очень полезные выражения"
+        },
+        {
+          "en": "I woke up later than usual",
+          "ipa": "[aɪ wəʊk ʌp ˈleɪtə ðæn ˈjuːʒuəl]",
+          "ru": "Я проснулся позже обычного"
+        },
+        {
+          "en": "I don't think that he really learnt English in a year",
+          "ipa": "[aɪ dəʊnt θɪŋk ðæt hiː ˈrɪəli lɜːnt ˈɪŋɡlɪʃ ɪn ə jɪə]",
+          "ru": "Я не думаю, что он действительно выучил английский за год"
+        },
+        {
+          "en": "He built a very big house",
+          "ipa": "[hiː bɪlt ə ˈveri bɪɡ haʊs]",
+          "ru": "Он построил очень большой дом"
+        },
+        {
+          "en": "This sportsman won the gold medal",
+          "ipa": "[ðɪs ˈspɔːtsmən wʌn ðə ɡəʊld ˈmedl]",
+          "ru": "Этот спортсмен выиграл золотую медаль"
+        },
+        {
+          "en": "They sold it very cheaply",
+          "ipa": "[ðeɪ səʊld ɪt ˈveri ˈtʃiːpli]",
+          "ru": "Они продали это очень дёшево"
+        },
+        {
+          "en": "They ran away",
+          "ipa": "[ðeɪ ræn əˈweɪ]",
+          "ru": "Они убежали"
+        },
+        {
+          "en": "It took me lots of time to understand this thing",
+          "ipa": "[ɪt tʊk miː lɒts ɒv taɪm tuː ˌʌndəˈstænd ðɪs θɪŋ]",
+          "ru": "У меня ушло много времени, чтобы понять эту вещь"
+        },
+        {
+          "en": "I was so tired I decided to lie down",
+          "ipa": "[aɪ wɒz səʊ ˈtaɪəd aɪ dɪˈsaɪdɪd tuː laɪ daʊn]",
+          "ru": "Я так устал, что решил прилечь"
+        },
+        {
+          "en": "I wrote a very long message",
+          "ipa": "[aɪ rəʊt ə ˈveri lɒŋ ˈmesɪdʒ]",
+          "ru": "Я написал очень длинное сообщение"
+        },
+        {
+          "en": "I knew everything in the beginning",
+          "ipa": "[aɪ njuː ˈevrɪθɪŋ ɪn ðə bɪˈɡɪnɪŋ]",
+          "ru": "Я знал всё в начале"
+        },
+        {
+          "en": "It brought him success and happiness",
+          "ipa": "[ɪt brɔːt hɪm səkˈses ænd ˈhæpinəs]",
+          "ru": "Это принесло ему успех и счастье"
+        },
+        {
+          "en": "I lay down",
+          "ipa": "[aɪ leɪ daʊn]",
+          "ru": "Я прилёг"
+        },
+        {
+          "en": "The police caught the criminals",
+          "ipa": "[ðə pəˈliːs kɔːt ðə ˈkrɪmɪnlz]",
+          "ru": "Полиция поймала преступников"
+        },
+        {
+          "en": "It cost five thousand dollars",
+          "ipa": "[ɪt kɒst faɪv ˈθaʊznd ˈdɒləz]",
+          "ru": "Это стоило пять тысяч долларов"
+        },
+        {
+          "en": "I woke up earlier than usual",
+          "ipa": "[aɪ wəʊk ʌp ˈɜːliə ðæn ˈjuːʒuəl]",
+          "ru": "Я проснулся раньше обычного"
+        },
+        {
+          "en": "He swam across the lake",
+          "ipa": "[hiː swæm əˈkrɒs ðə leɪk]",
+          "ru": "Он переплыл озеро"
+        },
+        {
+          "en": "I was so happy when I won",
+          "ipa": "[aɪ wɒz səʊ ˈhæpi wen aɪ wʌn]",
+          "ru": "Я был так счастлив, когда победил"
+        },
+        {
+          "en": "We met after work",
+          "ipa": "[wiː met ˈɑːftə wɜːk]",
+          "ru": "Мы встретились после работы"
+        },
+        {
+          "en": "He slept too little",
+          "ipa": "[hiː slept tuː ˈlɪtl]",
+          "ru": "Он спал слишком мало"
+        },
+        {
+          "en": "It took me lots of time",
+          "ipa": "[ɪt tʊk miː lɒts ɒv taɪm]",
+          "ru": "Это заняло у меня много времени"
+        }
+      ]
+    }
+  ]
+}
