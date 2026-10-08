@@ -816,6 +816,121 @@
                 "ru": "\u041E\u043D \u043D\u0435 \u0431\u0443\u0434\u0435\u0442 \u0443\u0447\u0438\u0442\u044C\u0441\u044F \u0432 \u0410\u043D\u0433\u043B\u0438\u0438. \u041E\u043D \u0431\u0443\u0434\u0435\u0442 \u0443\u0447\u0438\u0442\u044C\u0441\u044F \u0432 \u0434\u0440\u0443\u0433\u043E\u0439 \u0441\u0442\u0440\u0430\u043D\u0435"
               }
             ]
+          },
+          {
+            "themeName": "A0_25_26_[ WILL QA ]",
+            "expressions": [
+              {
+                "en": "Will you buy these tickets?",
+                "ipa": "/w\u026Al ju\u02D0 ba\u026A \u00F0i\u02D0z \u02C8t\u026Ak\u026Ats?/",
+                "ru": "\u0422\u044B \u043A\u0443\u043F\u0438\u0448\u044C \u044D\u0442\u0438 \u0431\u0438\u043B\u0435\u0442\u044B?"
+              },
+              {
+                "en": "Will you go to the park?",
+                "ipa": "/w\u026Al ju\u02D0 \u0261\u0259\u028A tu\u02D0 \u00F0\u0259 p\u0251\u02D0k?/",
+                "ru": "\u0422\u044B \u043F\u043E\u0439\u0434\u0451\u0448\u044C \u0432 \u043F\u0430\u0440\u043A?"
+              },
+              {
+                "en": "Will you be there?",
+                "ipa": "/w\u026Al ju\u02D0 bi\u02D0 \u00F0e\u0259?/",
+                "ru": "\u0422\u044B \u0431\u0443\u0434\u0435\u0448\u044C \u0442\u0430\u043C?"
+              },
+              {
+                "en": "Will he be with you?",
+                "ipa": "/w\u026Al hi\u02D0 bi\u02D0 w\u026A\u00F0 ju\u02D0?/",
+                "ru": "\u041E\u043D \u0431\u0443\u0434\u0435\u0442 \u0441 \u0442\u043E\u0431\u043E\u0439?"
+              },
+              {
+                "en": "Will you be at work tomorrow?",
+                "ipa": "/w\u026Al ju\u02D0 bi\u02D0 \u00E6t w\u025C\u02D0k t\u0259\u02C8m\u0252r\u0259\u028A?/",
+                "ru": "\u0422\u044B \u0431\u0443\u0434\u0435\u0448\u044C \u043D\u0430 \u0440\u0430\u0431\u043E\u0442\u0435 \u0437\u0430\u0432\u0442\u0440\u0430?"
+              },
+              {
+                "en": "Will she come home soon?",
+                "ipa": "/w\u026Al \u0283i\u02D0 k\u028Cm h\u0259\u028Am su\u02D0n?/",
+                "ru": "\u041E\u043D\u0430 \u0441\u043A\u043E\u0440\u043E \u043F\u0440\u0438\u0434\u0451\u0442 \u0434\u043E\u043C\u043E\u0439?"
+              },
+              {
+                "en": "Will he come back soon?",
+                "ipa": "/w\u026Al hi\u02D0 k\u028Cm b\u00E6k su\u02D0n?/",
+                "ru": "\u041E\u043D \u0441\u043A\u043E\u0440\u043E \u0432\u0435\u0440\u043D\u0451\u0442\u0441\u044F?"
+              },
+              {
+                "en": "Will it be more expensive?",
+                "ipa": "/w\u026Al \u026At bi\u02D0 m\u0254\u02D0 \u026Ak\u02C8spens\u026Av?/",
+                "ru": "\u042D\u0442\u043E \u0431\u0443\u0434\u0435\u0442 \u0434\u043E\u0440\u043E\u0436\u0435?"
+              },
+              {
+                "en": "Will it be cheaper?",
+                "ipa": "/w\u026Al \u026At bi\u02D0 \u02C8t\u0283i\u02D0p\u0259?/",
+                "ru": "\u042D\u0442\u043E \u0431\u0443\u0434\u0435\u0442 \u0434\u0435\u0448\u0435\u0432\u043B\u0435?"
+              },
+              {
+                "en": "Will it be the best choice?",
+                "ipa": "/w\u026Al \u026At bi\u02D0 \u00F0\u0259 best t\u0283\u0254\u026As?/",
+                "ru": "\u042D\u0442\u043E \u0431\u0443\u0434\u0435\u0442 \u043B\u0443\u0447\u0448\u0438\u0439 \u0432\u044B\u0431\u043E\u0440?"
+              },
+              {
+                "en": "Will you go to France this year?",
+                "ipa": "/w\u026Al ju\u02D0 \u0261\u0259\u028A tu\u02D0 fr\u0251\u02D0ns \u00F0\u026As j\u026A\u0259?/",
+                "ru": "\u0422\u044B \u043F\u043E\u0435\u0434\u0435\u0448\u044C \u0432\u043E \u0424\u0440\u0430\u043D\u0446\u0438\u044E \u0432 \u044D\u0442\u043E\u043C \u0433\u043E\u0434\u0443?"
+              },
+              {
+                "en": "Will you go to England next month?",
+                "ipa": "/w\u026Al ju\u02D0 \u0261\u0259\u028A tu\u02D0 \u02C8\u026A\u014B\u0261l\u0259nd nekst m\u028Cn\u03B8?/",
+                "ru": "\u0422\u044B \u043F\u043E\u0435\u0434\u0435\u0448\u044C \u0432 \u0410\u043D\u0433\u043B\u0438\u044E \u0432 \u0441\u043B\u0435\u0434\u0443\u044E\u0449\u0435\u043C \u043C\u0435\u0441\u044F\u0446\u0435?"
+              },
+              {
+                "en": "Will we know it?",
+                "ipa": "/w\u026Al wi\u02D0 n\u0259\u028A \u026At?/",
+                "ru": "\u041C\u044B \u0443\u0437\u043D\u0430\u0435\u043C \u044D\u0442\u043E?"
+              },
+              {
+                "en": "Will they join us?",
+                "ipa": "/w\u026Al \u00F0e\u026A d\u0292\u0254\u026An \u028Cs?/",
+                "ru": "\u041E\u043D\u0438 \u043F\u0440\u0438\u0441\u043E\u0435\u0434\u0438\u043D\u044F\u0442\u0441\u044F \u043A \u043D\u0430\u043C?"
+              },
+              {
+                "en": "Will they join our company?",
+                "ipa": "/w\u026Al \u00F0e\u026A d\u0292\u0254\u026An \u02C8a\u028A\u0259 \u02C8k\u028Cmp\u0259ni?/",
+                "ru": "\u041E\u043D\u0438 \u043F\u0440\u0438\u0441\u043E\u0435\u0434\u0438\u043D\u044F\u0442\u0441\u044F \u043A \u043D\u0430\u0448\u0435\u0439 \u043A\u043E\u043C\u043F\u0430\u043D\u0438\u0438?"
+              },
+              {
+                "en": "Will you buy a car?",
+                "ipa": "/w\u026Al ju\u02D0 ba\u026A \u0259 k\u0251\u02D0?/",
+                "ru": "\u0422\u044B \u0431\u0443\u0434\u0435\u0448\u044C \u043F\u043E\u043A\u0443\u043F\u0430\u0442\u044C \u043C\u0430\u0448\u0438\u043D\u0443?"
+              },
+              {
+                "en": "Will he buy another car?",
+                "ipa": "/w\u026Al hi\u02D0 ba\u026A \u0259\u02C8n\u028C\u00F0\u0259 k\u0251\u02D0?/",
+                "ru": "\u041E\u043D \u043A\u0443\u043F\u0438\u0442 \u0434\u0440\u0443\u0433\u0443\u044E \u043C\u0430\u0448\u0438\u043D\u0443?"
+              },
+              {
+                "en": "Will you buy a house?",
+                "ipa": "/w\u026Al ju\u02D0 ba\u026A \u0259 ha\u028As?/",
+                "ru": "\u0422\u044B \u0431\u0443\u0434\u0435\u0448\u044C \u043F\u043E\u043A\u0443\u043F\u0430\u0442\u044C \u0434\u043E\u043C?"
+              },
+              {
+                "en": "Will she buy an apartment?",
+                "ipa": "/w\u026Al \u0283i\u02D0 ba\u026A \u0259n \u0259\u02C8p\u0251\u02D0tm\u0259nt?/",
+                "ru": "\u041E\u043D\u0430 \u0431\u0443\u0434\u0435\u0442 \u043F\u043E\u043A\u0443\u043F\u0430\u0442\u044C \u043A\u0432\u0430\u0440\u0442\u0438\u0440\u0443?"
+              },
+              {
+                "en": "Will you send him a message?",
+                "ipa": "/w\u026Al ju\u02D0 send h\u026Am \u0259 \u02C8mes\u026Ad\u0292?/",
+                "ru": "\u0422\u044B \u043E\u0442\u043F\u0440\u0430\u0432\u0438\u0448\u044C \u0435\u043C\u0443 \u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u0435?"
+              },
+              {
+                "en": "Will you send her a letter?",
+                "ipa": "/w\u026Al ju\u02D0 send h\u025C\u02D0 \u0259 \u02C8let\u0259?/",
+                "ru": "\u0422\u044B \u043E\u0442\u043F\u0440\u0430\u0432\u0438\u0448\u044C \u0435\u0439 \u043F\u0438\u0441\u044C\u043C\u043E?"
+              },
+              {
+                "en": "Will you tell her this thing?",
+                "ipa": "/w\u026Al ju\u02D0 tel h\u025C\u02D0 \u00F0\u026As \u03B8\u026A\u014B?/",
+                "ru": "\u0422\u044B \u0441\u043A\u0430\u0436\u0435\u0448\u044C \u0435\u0439 \u044D\u0442\u0443 \u0432\u0435\u0449\u044C?"
+              }
+            ]
           }
         ]
       },
@@ -904,6 +1019,111 @@
                 "en": "The success of this project depended on each of us",
                 "ipa": "[\u00F0\u0259 s\u0259k\u02C8ses \u0252v \u00F0\u026As \u02C8pr\u0252d\u0292ekt d\u026A\u02C8pend\u026Ad \u0252n i\u02D0t\u0283 \u0252v \u028Cs]",
                 "ru": "\u0423\u0441\u043F\u0435\u0445 \u044D\u0442\u043E\u0433\u043E \u043F\u0440\u043E\u0435\u043A\u0442\u0430 \u0437\u0430\u0432\u0438\u0441\u0435\u043B \u043E\u0442 \u043A\u0430\u0436\u0434\u043E\u0433\u043E \u0438\u0437 \u043D\u0430\u0441"
+              },
+              {
+                "en": "It really mattered",
+                "ipa": "[\u026At \u02C8r\u026A\u0259li \u02C8m\u00E6t\u0259d]",
+                "ru": "\u042D\u0442\u043E \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0442\u0435\u043B\u044C\u043D\u043E \u0438\u043C\u0435\u043B\u043E \u0437\u043D\u0430\u0447\u0435\u043D\u0438\u0435"
+              },
+              {
+                "en": "He complained about it to the manager",
+                "ipa": "[hi\u02D0 k\u0259m\u02C8ple\u026And \u0259\u02C8ba\u028At \u026At tu\u02D0 \u00F0\u0259 \u02C8m\u00E6n\u026Ad\u0292\u0259]",
+                "ru": "\u041E\u043D \u043F\u043E\u0436\u0430\u043B\u043E\u0432\u0430\u043B\u0441\u044F \u043E\u0431 \u044D\u0442\u043E\u043C \u043C\u0435\u043D\u0435\u0434\u0436\u0435\u0440\u0443"
+              },
+              {
+                "en": "It depended on different factors",
+                "ipa": "[\u026At d\u026A\u02C8pend\u026Ad \u0252n \u02C8d\u026Afr\u0259nt \u02C8f\u00E6kt\u0259z]",
+                "ru": "\u042D\u0442\u043E \u0437\u0430\u0432\u0438\u0441\u0435\u043B\u043E \u043E\u0442 \u0440\u0430\u0437\u043D\u044B\u0445 \u0444\u0430\u043A\u0442\u043E\u0440\u043E\u0432"
+              },
+              {
+                "en": "She washed the floor",
+                "ipa": "[\u0283i\u02D0 w\u0252\u0283t \u00F0\u0259 fl\u0254\u02D0]",
+                "ru": "\u041E\u043D\u0430 \u043F\u043E\u043C\u044B\u043B\u0430 \u043F\u043E\u043B"
+              },
+              {
+                "en": "This business belonged to him",
+                "ipa": "[\u00F0\u026As \u02C8b\u026Azn\u0259s b\u026A\u02C8l\u0252\u014Bd tu\u02D0 h\u026Am]",
+                "ru": "\u042D\u0442\u043E\u0442 \u0431\u0438\u0437\u043D\u0435\u0441 \u043F\u0440\u0438\u043D\u0430\u0434\u043B\u0435\u0436\u0430\u043B \u0435\u043C\u0443"
+              },
+              {
+                "en": "The soldiers destroyed that building completely",
+                "ipa": "[\u00F0\u0259 \u02C8s\u0259\u028Ald\u0292\u0259z d\u026A\u02C8str\u0254\u026Ad \u00F0\u00E6t \u02C8b\u026Ald\u026A\u014B k\u0259m\u02C8pli\u02D0tli]",
+                "ru": "\u0421\u043E\u043B\u0434\u0430\u0442\u044B \u043F\u043E\u043B\u043D\u043E\u0441\u0442\u044C\u044E \u0440\u0430\u0437\u0440\u0443\u0448\u0438\u043B\u0438 \u0442\u043E \u0437\u0434\u0430\u043D\u0438\u0435"
+              },
+              {
+                "en": "They often laughed at it",
+                "ipa": "[\u00F0e\u026A \u02C8\u0252fn l\u0251\u02D0ft \u00E6t \u026At]",
+                "ru": "\u041E\u043D\u0438 \u0447\u0430\u0441\u0442\u043E \u0441\u043C\u0435\u044F\u043B\u0438\u0441\u044C \u043D\u0430\u0434 \u044D\u0442\u0438\u043C"
+              },
+              {
+                "en": "This author published several articles",
+                "ipa": "[\u00F0\u026As \u02C8\u0254\u02D0\u03B8\u0259 \u02C8p\u028Cbl\u026A\u0283t \u02C8sevr\u0259l \u02C8\u0251\u02D0t\u026Aklz]",
+                "ru": "\u042D\u0442\u043E\u0442 \u0430\u0432\u0442\u043E\u0440 \u043E\u043F\u0443\u0431\u043B\u0438\u043A\u043E\u0432\u0430\u043B \u043D\u0435\u0441\u043A\u043E\u043B\u044C\u043A\u043E \u0441\u0442\u0430\u0442\u0435\u0439"
+              },
+              {
+                "en": "She failed the exam",
+                "ipa": "[\u0283i\u02D0 fe\u026Ald \u00F0i \u026A\u0261\u02C8z\u00E6m]",
+                "ru": "\u041E\u043D\u0430 \u043F\u0440\u043E\u0432\u0430\u043B\u0438\u043B\u0430 \u044D\u043A\u0437\u0430\u043C\u0435\u043D"
+              },
+              {
+                "en": "They controlled everything",
+                "ipa": "[\u00F0e\u026A k\u0259n\u02C8tr\u0259\u028Ald \u02C8evr\u026A\u03B8\u026A\u014B]",
+                "ru": "\u041E\u043D\u0438 \u0432\u0441\u0451 \u043A\u043E\u043D\u0442\u0440\u043E\u043B\u0438\u0440\u043E\u0432\u0430\u043B\u0438"
+              },
+              {
+                "en": "He invited me to this party",
+                "ipa": "[hi\u02D0 \u026An\u02C8va\u026At\u026Ad mi\u02D0 tu\u02D0 \u00F0\u026As \u02C8p\u0251\u02D0ti]",
+                "ru": "\u041E\u043D \u043F\u0440\u0438\u0433\u043B\u0430\u0441\u0438\u043B \u043C\u0435\u043D\u044F \u043D\u0430 \u044D\u0442\u0443 \u0432\u0435\u0447\u0435\u0440\u0438\u043D\u043A\u0443"
+              },
+              {
+                "en": "I wished him good luck",
+                "ipa": "[a\u026A w\u026A\u0283t h\u026Am \u0261\u028Ad l\u028Ck]",
+                "ru": "\u042F \u043F\u043E\u0436\u0435\u043B\u0430\u043B \u0435\u043C\u0443 \u0443\u0434\u0430\u0447\u0438"
+              },
+              {
+                "en": "His words sounded really strange",
+                "ipa": "[h\u026Az w\u025C\u02D0dz \u02C8sa\u028And\u026Ad \u02C8r\u026A\u0259li stre\u026And\u0292]",
+                "ru": "\u0415\u0433\u043E \u0441\u043B\u043E\u0432\u0430 \u0437\u0432\u0443\u0447\u0430\u043B\u0438 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0442\u0435\u043B\u044C\u043D\u043E \u0441\u0442\u0440\u0430\u043D\u043D\u043E"
+              },
+              {
+                "en": "He recorded a new video",
+                "ipa": "[hi\u02D0 r\u026A\u02C8k\u0254\u02D0d\u026Ad \u0259 nju\u02D0 \u02C8v\u026Ad\u026A\u0259\u028A]",
+                "ru": "\u041E\u043D \u0437\u0430\u043F\u0438\u0441\u0430\u043B \u043D\u043E\u0432\u043E\u0435 \u0432\u0438\u0434\u0435\u043E"
+              },
+              {
+                "en": "I studied almost every day",
+                "ipa": "[a\u026A \u02C8st\u028Cdid \u02C8\u0254\u02D0lm\u0259\u028Ast \u02C8evri de\u026A]",
+                "ru": "\u042F \u0443\u0447\u0438\u043B\u0441\u044F \u043F\u043E\u0447\u0442\u0438 \u043A\u0430\u0436\u0434\u044B\u0439 \u0434\u0435\u043D\u044C"
+              },
+              {
+                "en": "They often laughed at him",
+                "ipa": "[\u00F0e\u026A \u02C8\u0252fn l\u0251\u02D0ft \u00E6t h\u026Am]",
+                "ru": "\u041E\u043D\u0438 \u0447\u0430\u0441\u0442\u043E \u0441\u043C\u0435\u044F\u043B\u0438\u0441\u044C \u043D\u0430\u0434 \u043D\u0438\u043C"
+              },
+              {
+                "en": "I wished her all the best",
+                "ipa": "[a\u026A w\u026A\u0283t h\u025C\u02D0r \u0254\u02D0l \u00F0\u0259 best]",
+                "ru": "\u042F \u043F\u043E\u0436\u0435\u043B\u0430\u043B \u0435\u0439 \u0432\u0441\u0435\u0433\u043E \u043D\u0430\u0438\u043B\u0443\u0447\u0448\u0435\u0433\u043E"
+              },
+              {
+                "en": "I visited this island last year",
+                "ipa": "[a\u026A \u02C8v\u026Az\u026At\u026Ad \u00F0\u026As \u02C8a\u026Al\u0259nd l\u0251\u02D0st j\u026A\u0259]",
+                "ru": "\u042F \u043F\u043E\u0441\u0435\u0442\u0438\u043B \u044D\u0442\u043E\u0442 \u043E\u0441\u0442\u0440\u043E\u0432 \u0432 \u043F\u0440\u043E\u0448\u043B\u043E\u043C \u0433\u043E\u0434\u0443"
+              },
+              {
+                "en": "I invited her to my birthday",
+                "ipa": "[a\u026A \u026An\u02C8va\u026At\u026Ad h\u025C\u02D0 tu\u02D0 ma\u026A \u02C8b\u025C\u02D0\u03B8de\u026A]",
+                "ru": "\u042F \u043F\u0440\u0438\u0433\u043B\u0430\u0441\u0438\u043B \u0435\u0451 \u043D\u0430 \u0441\u0432\u043E\u0439 \u0434\u0435\u043D\u044C \u0440\u043E\u0436\u0434\u0435\u043D\u0438\u044F"
+              },
+              {
+                "en": "She decided to complain about it to the manager",
+                "ipa": "[\u0283i\u02D0 d\u026A\u02C8sa\u026Ad\u026Ad tu\u02D0 k\u0259m\u02C8ple\u026An \u0259\u02C8ba\u028At \u026At tu\u02D0 \u00F0\u0259 \u02C8m\u00E6n\u026Ad\u0292\u0259]",
+                "ru": "\u041E\u043D\u0430 \u0440\u0435\u0448\u0438\u043B\u0430 \u043F\u043E\u0436\u0430\u043B\u043E\u0432\u0430\u0442\u044C\u0441\u044F \u043E\u0431 \u044D\u0442\u043E\u043C \u043C\u0435\u043D\u0435\u0434\u0436\u0435\u0440\u0443"
+              },
+              {
+                "en": "This writer published more than ten books",
+                "ipa": "[\u00F0\u026As \u02C8ra\u026At\u0259 \u02C8p\u028Cbl\u026A\u0283t m\u0254\u02D0 \u00F0\u00E6n ten b\u028Aks]",
+                "ru": "\u042D\u0442\u043E\u0442 \u043F\u0438\u0441\u0430\u0442\u0435\u043B\u044C \u043E\u043F\u0443\u0431\u043B\u0438\u043A\u043E\u0432\u0430\u043B \u0431\u043E\u043B\u0435\u0435 \u0434\u0435\u0441\u044F\u0442\u0438 \u043A\u043D\u0438\u0433"
               }
             ]
           },
@@ -2306,7 +2526,7 @@
         "NameTheme": "A0_23_24_[ WON\u0060T ]",
         "Tries": 2,
         "CorrectUnswers": 46,
-        "MissingUnswers": 4,
+        "MissingUnswers": 0,
         "AllUnswers": 50,
         "Date": "2026-10-07T09:12:29.4252815+03:00"
       },
@@ -2320,11 +2540,11 @@
       },
       {
         "NameTheme": "A0_25_26_[ WILL QA ]",
-        "Tries": 1,
-        "CorrectUnswers": 43,
+        "Tries": 2,
+        "CorrectUnswers": 48,
         "MissingUnswers": 0,
         "AllUnswers": 50,
-        "Date": "2026-06-20T09:38:59.6981871+03:00"
+        "Date": "2026-10-08T09:56:15.8863844+03:00"
       },
       {
         "NameTheme": "A1_01_02_[ A AN  ]",
@@ -2450,7 +2670,7 @@
         "NameTheme": "A1_19_20_[ Past Simple Part_1_Words ]",
         "Tries": 10,
         "CorrectUnswers": 28,
-        "MissingUnswers": 9,
+        "MissingUnswers": 0,
         "AllUnswers": 37,
         "Date": "2026-10-07T09:21:17.690756+03:00"
       },
@@ -2458,25 +2678,25 @@
         "NameTheme": "A1_19_20_[ Past Simple Part_2_Practice ]",
         "Tries": 5,
         "CorrectUnswers": 33,
-        "MissingUnswers": 10,
+        "MissingUnswers": 0,
         "AllUnswers": 43,
         "Date": "2026-10-07T09:49:47.0064159+03:00"
       },
       {
         "NameTheme": "A1_21_22_[ Past Simple Part_1_Words ]",
-        "Tries": 6,
-        "CorrectUnswers": 19,
+        "Tries": 7,
+        "CorrectUnswers": 25,
         "MissingUnswers": 0,
         "AllUnswers": 27,
-        "Date": "2026-09-15T09:47:08.8690932+03:00"
+        "Date": "2026-10-08T10:09:10.7135894+03:00"
       },
       {
         "NameTheme": "A1_21_22_[ Past Simple Part_2_Practice ]",
-        "Tries": 4,
+        "Tries": 5,
         "CorrectUnswers": 33,
-        "MissingUnswers": 0,
+        "MissingUnswers": 4,
         "AllUnswers": 37,
-        "Date": "2026-09-15T10:03:33.4172823+03:00"
+        "Date": "2026-10-08T18:58:12.8544325+03:00"
       },
       {
         "NameTheme": "A1_23_24_[ Past Simple Part_1_Words_Irregular Verbs]",
