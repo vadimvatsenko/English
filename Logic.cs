@@ -105,18 +105,19 @@ public class Logic
         Dictionary<int, string> levelsDict = new Dictionary<int, string>();
         int folderCount = 0;
         // тут берем все папки из корневой директории
-        string[] folders = Directory.GetDirectories(StaticFields.PathAllFiles);
+        // служебные папки, которые не являются уровнями
+        string[] excluded = { "save data", "runtimes" };
 
-        foreach (string folder in folders)
+        // берем имена папок (а не полные пути) и сортируем: A0, A1, ..., Digit, Irregular Verbs
+        IEnumerable<string> folderNames = Directory.GetDirectories(StaticFields.PathAllFiles)
+            .Select(f => Path.GetFileName(f))
+            .Where(n => !excluded.Contains(n, StringComparer.OrdinalIgnoreCase))
+            .OrderBy(n => n, StringComparer.OrdinalIgnoreCase);
+
+        foreach (string folderName in folderNames)
         {
-            if ((folder.Contains("A") || folder.Contains("B") || folder.Contains("C") ||
-                 folder.Contains("Numbers")) && !folder.Contains("save data"))
-            {
-                // получим последнюю папку
-                string floderName = Path.GetFileName(folder);
-                levelsDict.Add(folderCount, floderName);
-                folderCount++;
-            }
+            levelsDict.Add(folderCount, folderName);
+            folderCount++;
         }
         return levelsDict;
     }
