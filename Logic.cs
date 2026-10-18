@@ -212,15 +212,8 @@ public class Logic
         }
 
         string fileName = ChooseDir(filesOnThemeDict, themeNumber);
-        // полный путь к теме
-        string FilePath = String.Empty;
-
-        // путь в зависимости от платформы
-        if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
-            FilePath = Path.GetFullPath(Path.Combine(AppContext.BaseDirectory, $"{levelName}\\{fileName}.json"));
-        else if (RuntimeInformation.IsOSPlatform(OSPlatform.OSX))
-            FilePath = Path.GetFullPath(Path.Combine(AppContext.BaseDirectory, $"{levelName}/{fileName}.json"));
-        //
+        // полный путь к теме (Path.Combine сам выбирает разделитель под платформу)
+        string FilePath = Path.GetFullPath(Path.Combine(AppContext.BaseDirectory, levelName, $"{fileName}.json"));
 
         Data dataList = await GetAsync(FilePath);
 
