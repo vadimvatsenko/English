@@ -7,7 +7,8 @@ namespace English;
 
 public class AuthService
 {
-    private const string DirPath = "save data";
+    // Шлях відносно папки з exe, а не поточної робочої директорії
+    private static readonly string DirPath = Path.Combine(AppContext.BaseDirectory, "save data");
     private readonly string FilePath;
     public bool IsAutologin { get; private set; } = false;
     
