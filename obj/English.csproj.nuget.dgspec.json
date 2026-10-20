@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Documents\\GitHub\\English\\English.csproj": {}
+    "/home/vadym/Документы/GitHub/English/English.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Documents\\GitHub\\English\\English.csproj": {
+    "/home/vadym/Документы/GitHub/English/English.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Documents\\GitHub\\English\\English.csproj",
+        "projectUniqueName": "/home/vadym/Документы/GitHub/English/English.csproj",
         "projectName": "English",
-        "projectPath": "C:\\Users\\user\\Documents\\GitHub\\English\\English.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Documents\\GitHub\\English\\obj\\",
+        "projectPath": "/home/vadym/Документы/GitHub/English/English.csproj",
+        "packagesPath": "/home/vadym/.nuget/packages/",
+        "outputPath": "/home/vadym/Документы/GitHub/English/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/vadym/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
@@ -39,7 +39,7 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.300"
+        "SdkAnalysisLevel": "10.0.400"
       },
       "frameworks": {
         "net10.0": {
@@ -75,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "/home/vadym/.dotnet/sdk/10.0.401/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
