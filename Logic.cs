@@ -185,13 +185,55 @@ public class Logic
                 await _authService.LogoutAsync();
                 await StartProgram();
                 return;
-            case -1: // Backspace - то же самое, что и пункт "<== Назад"
             case 5:
+                await GitCommitAndPush();
+                break;
+            case -1: // Backspace - то же самое, что и пункт "<== Назад"
+            case 6:
                 await UserChoiceMenu(levelsDict);
                 return;
         }
 
         await PersonalCabinet(levelsDict);
+    }
+
+    // временно: git add -A, commit и push прямо из меню
+    private static async Task GitCommitAndPush()
+    {
+        Console.Clear();
+        string message = $"Auto commit {DateTime.Now:yyyy-MM-dd HH:mm}";
+
+        // git сам находит корень репозитория, запускаем из папки программы (bin/Debug/...)
+        foreach (string args in new[] { "add -A", $"commit -m \"{message}\"", "push" })
+        {
+            Console.WriteLine($"> git {args}");
+            var psi = new System.Diagnostics.ProcessStartInfo("git", args)
+            {
+                WorkingDirectory = StaticFields.PathAllFiles,
+                RedirectStandardOutput = true,
+                RedirectStandardError = true,
+            };
+
+            using var process = System.Diagnostics.Process.Start(psi);
+            if (process == null)
+            {
+                Console.WriteLine("Не удалось запустить git");
+                break;
+            }
+
+            Console.WriteLine(await process.StandardOutput.ReadToEndAsync());
+            Console.WriteLine(await process.StandardError.ReadToEndAsync());
+            await process.WaitForExitAsync();
+
+            if (process.ExitCode != 0)
+            {
+                Console.WriteLine($"git завершился с кодом {process.ExitCode}");
+                break;
+            }
+        }
+
+        Console.WriteLine("Нажмите любую клавишу...");
+        Console.ReadKey(true);
     }
 
     // практика, тут нужно выбрать уровень
@@ -260,7 +302,9 @@ public class Logic
     // получаем словарь с темами по уровню
     private Dictionary<int, string> FillLevelTopics(string levelName)
     {
-        string[] filesOnTheme = Directory.GetFiles(StaticFields.PathAllFiles + levelName);
+        string[] filesOnTheme = Directory.GetFiles(StaticFields.PathAllFiles + levelName)
+            .OrderBy(f => Path.GetFileName(f), StringComparer.OrdinalIgnoreCase)
+            .ToArray();
         Dictionary<int, string> filesOnThemeDict = new Dictionary<int, string>();
 
         int numberTheme = 0;

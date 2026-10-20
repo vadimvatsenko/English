@@ -28,7 +28,8 @@ public class StaticFields
         [2] = "Словарь трудных выражений",
         [3] = "AutoLogin [ ]",
         [4] = "< LogOut",
-        [5] = "<== Назад",
+        [5] = "[Dev] Git commit & push",
+        [6] = "<== Назад",
     };
 
     // меню выбора, что делать
@@ -50,4 +51,4 @@ public class StaticFields
         PersonalCabinetMenu[3] = enabled ? "AutoLogin [X]" : "AutoLogin [ ]";
     }
 
-}
+}
