@@ -1,0 +1,160 @@
+{
+  "sections": [
+    {
+      "title": "Past Simple: Irregular Verbs in Context",
+      "rule": "Утвердительные предложения в Past Simple с неправильными глаголами. После said/thought время сдвигается в прошедшее (согласование времён).",
+      "examples": [
+        {
+          "en": "He said it very confidently",
+          "ipa": "[hiː sed ɪt ˈveri ˈkɒnfɪdəntli]",
+          "ru": "Он сказал это очень уверенно"
+        },
+        {
+          "en": "He lost his keys somewhere",
+          "ipa": "[hiː lɒst hɪz kiːz ˈsʌmweə]",
+          "ru": "Он потерял ключи где-то"
+        },
+        {
+          "en": "He became a very popular musician",
+          "ipa": "[hiː bɪˈkeɪm ə ˈveri ˈpɒpjələ mjuˈzɪʃn]",
+          "ru": "Он стал очень популярным музыкантом"
+        },
+        {
+          "en": "I read the whole book",
+          "ipa": "[aɪ red ðə həʊl bʊk]",
+          "ru": "Я прочитал всю книгу"
+        },
+        {
+          "en": "He made a small mistake",
+          "ipa": "[hiː meɪd ə smɔːl mɪˈsteɪk]",
+          "ru": "Он сделал маленькую ошибку"
+        },
+        {
+          "en": "To our surprise, this car suddenly broke down",
+          "ipa": "[tuː ˈaʊə səˈpraɪz ðɪs kɑː ˈsʌdənli brəʊk daʊn]",
+          "ru": "К нашему удивлению, эта машина вдруг сломалась"
+        },
+        {
+          "en": "She sang a very beautiful song",
+          "ipa": "[ʃiː sæŋ ə ˈveri ˈbjuːtɪfl sɒŋ]",
+          "ru": "Она спела очень красивую песню"
+        },
+        {
+          "en": "I felt really optimistic",
+          "ipa": "[aɪ felt ˈrɪəli ˌɒptɪˈmɪstɪk]",
+          "ru": "Я чувствовал себя действительно оптимистично"
+        },
+        {
+          "en": "He came home later than usual",
+          "ipa": "[hiː keɪm həʊm ˈleɪtə ðæn ˈjuːʒuəl]",
+          "ru": "Он пришёл домой позже, чем обычно"
+        },
+        {
+          "en": "I put it somewhere",
+          "ipa": "[aɪ pʊt ɪt ˈsʌmweə]",
+          "ru": "Я положил это где-то"
+        },
+        {
+          "en": "I think that I chose the right words to explain it",
+          "ipa": "[aɪ θɪŋk ðæt aɪ tʃəʊz ðə raɪt wɜːdz tuː ɪkˈspleɪn ɪt]",
+          "ru": "Я думаю, что я выбрал правильные слова, чтобы объяснить это"
+        },
+        {
+          "en": "It became a real problem",
+          "ipa": "[ɪt bɪˈkeɪm ə rɪəl ˈprɒbləm]",
+          "ru": "Это стало реальной проблемой"
+        },
+        {
+          "en": "She said that it was possible",
+          "ipa": "[ʃiː sed ðæt ɪt wɒz ˈpɒsəbl]",
+          "ru": "Она сказала, что это возможно"
+        },
+        {
+          "en": "He flew to London",
+          "ipa": "[hiː fluː tuː ˈlʌndən]",
+          "ru": "Он полетел в Лондон"
+        },
+        {
+          "en": "He hid it somewhere",
+          "ipa": "[hiː hɪd ɪt ˈsʌmweə]",
+          "ru": "Он спрятал это где-то"
+        },
+        {
+          "en": "I thought that it was necessary",
+          "ipa": "[aɪ θɔːt ðæt ɪt wɒz ˈnesəsəri]",
+          "ru": "Я думал, что это было необходимо"
+        },
+        {
+          "en": "She fed the cat",
+          "ipa": "[ʃiː fed ðə kæt]",
+          "ru": "Она покормила кошку"
+        },
+        {
+          "en": "I went to that place when I had free time",
+          "ipa": "[aɪ went tuː ðæt pleɪs wen aɪ hæd friː taɪm]",
+          "ru": "Я ходил в то место, когда у меня было свободное время"
+        },
+        {
+          "en": "I paid for it by credit card",
+          "ipa": "[aɪ peɪd fɔːr ɪt baɪ ˈkredɪt kɑːd]",
+          "ru": "Я заплатил за это кредитной картой"
+        },
+        {
+          "en": "I grew up in a small town",
+          "ipa": "[aɪ ɡruː ʌp ɪn ə smɔːl taʊn]",
+          "ru": "Я вырос в маленьком городке"
+        },
+        {
+          "en": "He kept his promise",
+          "ipa": "[hiː kept hɪz ˈprɒmɪs]",
+          "ru": "Он сдержал своё обещание"
+        },
+        {
+          "en": "I lost it somewhere",
+          "ipa": "[aɪ lɒst ɪt ˈsʌmweə]",
+          "ru": "Я потерял это где-то"
+        },
+        {
+          "en": "You did it perfectly",
+          "ipa": "[juː dɪd ɪt ˈpɜːfɪktli]",
+          "ru": "Ты сделал это прекрасно"
+        },
+        {
+          "en": "He grew up in the UK",
+          "ipa": "[hiː ɡruː ʌp ɪn ðə ˌjuː ˈkeɪ]",
+          "ru": "Он вырос в Великобритании"
+        },
+        {
+          "en": "He kept his money in a secret place",
+          "ipa": "[hiː kept hɪz ˈmʌni ɪn ə ˈsiːkrət pleɪs]",
+          "ru": "Он хранил свои деньги в секретном месте"
+        },
+        {
+          "en": "I read the whole article",
+          "ipa": "[aɪ red ðə həʊl ˈɑːtɪkl]",
+          "ru": "Я прочитал всю статью"
+        },
+        {
+          "en": "I'm afraid you misunderstood it",
+          "ipa": "[aɪm əˈfreɪd juː ˌmɪsʌndəˈstʊd ɪt]",
+          "ru": "Боюсь, ты неправильно понял это"
+        },
+        {
+          "en": "He taught us English and we felt real progress",
+          "ipa": "[hiː tɔːt ʌs ˈɪŋɡlɪʃ ænd wiː felt rɪəl ˈprəʊɡres]",
+          "ru": "Он преподавал нам английский, и мы чувствовали реальный прогресс"
+        },
+        {
+          "en": "He fed the dog",
+          "ipa": "[hiː fed ðə dɒɡ]",
+          "ru": "Он покормил собаку"
+        },
+        {
+          "en": "I was really happy to see you",
+          "ipa": "[aɪ wɒz ˈrɪəli ˈhæpi tuː siː juː]",
+          "ru": "Я был действительно рад видеть тебя"
+        }
+      ]
+    }
+  ]
+}

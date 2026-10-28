@@ -1,0 +1,130 @@
+{
+  "sections": [
+    {
+      "title": "Irregular Verbs",
+      "rule": "Три формы неправильных глаголов, транскрипция и перевод через одиночный пробел.",
+      "examples": [
+        {
+          "en": "teach taught taught",
+          "ipa": "[tiːtʃ] [tɔːt] [tɔːt]",
+          "ru": "учить учил обученный"
+        },
+        {
+          "en": "break broke broken",
+          "ipa": "[breɪk] [brəʊk] [ˈbrəʊkən]",
+          "ru": "ломать сломал сломанный"
+        },
+        {
+          "en": "say said said",
+          "ipa": "[seɪ] [sed] [sed]",
+          "ru": "сказать сказал сказанный"
+        },
+        {
+          "en": "feed fed fed",
+          "ipa": "[fiːd] [fed] [fed]",
+          "ru": "кормить кормил накормленный"
+        },
+        {
+          "en": "think thought thought",
+          "ipa": "[θɪŋk] [θɔːt] [θɔːt]",
+          "ru": "думать думал продуманный"
+        },
+        {
+          "en": "do did done",
+          "ipa": "[duː] [dɪd] [dʌn]",
+          "ru": "делать сделал сделанный"
+        },
+        {
+          "en": "pay paid paid",
+          "ipa": "[peɪ] [peɪd] [peɪd]",
+          "ru": "платить заплатил оплаченный"
+        },
+        {
+          "en": "sing sang sung",
+          "ipa": "[sɪŋ] [sæŋ] [sʌŋ]",
+          "ru": "петь спел спетый"
+        },
+        {
+          "en": "be was/were been",
+          "ipa": "[biː] [wɒz/wɜː] [biːn]",
+          "ru": "быть был бывший"
+        },
+        {
+          "en": "keep kept kept",
+          "ipa": "[kiːp] [kept] [kept]",
+          "ru": "хранить хранил хранимый"
+        },
+        {
+          "en": "put put put",
+          "ipa": "[pʊt] [pʊt] [pʊt]",
+          "ru": "класть положил положенный"
+        },
+        {
+          "en": "go went gone",
+          "ipa": "[ɡəʊ] [went] [ɡɒn]",
+          "ru": "идти пошёл ушедший"
+        },
+        {
+          "en": "come came come",
+          "ipa": "[kʌm] [keɪm] [kʌm]",
+          "ru": "приходить пришёл пришедший"
+        },
+        {
+          "en": "feel felt felt",
+          "ipa": "[fiːl] [felt] [felt]",
+          "ru": "чувствовать чувствовал прочувствованный"
+        },
+        {
+          "en": "grow grew grown",
+          "ipa": "[ɡrəʊ] [ɡruː] [ɡrəʊn]",
+          "ru": "расти вырос выращенный"
+        },
+        {
+          "en": "make made made",
+          "ipa": "[meɪk] [meɪd] [meɪd]",
+          "ru": "делать сделал сделанный"
+        },
+        {
+          "en": "fly flew flown",
+          "ipa": "[flaɪ] [fluː] [fləʊn]",
+          "ru": "летать летал пролетевший"
+        },
+        {
+          "en": "choose chose chosen",
+          "ipa": "[tʃuːz] [tʃəʊz] [ˈtʃəʊzn]",
+          "ru": "выбирать выбрал выбранный"
+        },
+        {
+          "en": "misunderstand misunderstood misunderstood",
+          "ipa": "[ˌmɪsʌndəˈstænd] [ˌmɪsʌndəˈstʊd] [ˌmɪsʌndəˈstʊd]",
+          "ru": "недопонять недопонял недопонятый"
+        },
+        {
+          "en": "run ran run",
+          "ipa": "[rʌn] [ræn] [rʌn]",
+          "ru": "бегать бежал пробежавший"
+        },
+        {
+          "en": "lose lost lost",
+          "ipa": "[luːz] [lɒst] [lɒst]",
+          "ru": "терять потерял потерянный"
+        },
+        {
+          "en": "hide hid hidden",
+          "ipa": "[haɪd] [hɪd] [ˈhɪdn]",
+          "ru": "прятать спрятал спрятанный"
+        },
+        {
+          "en": "read read read",
+          "ipa": "[riːd] [red] [red]",
+          "ru": "читать прочитал прочитанный"
+        },
+        {
+          "en": "become became become",
+          "ipa": "[bɪˈkʌm] [bɪˈkeɪm] [bɪˈkʌm]",
+          "ru": "становиться стал ставший"
+        }
+      ]
+    }
+  ]
+}
